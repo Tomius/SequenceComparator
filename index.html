@@ -9,25 +9,51 @@
 <body>
     <h1>Sequence Comparator Software</h1>
     <div id="app">
+        <h2>Merops data</h2>
+        <div class="section">
+            <p id="csvFileLabelBss">No file loaded</p>
+            <button><label for="csvFileBss" id="csvLoadFileText">Load CSV File</label></button>
+            <input type="file" id="csvFileBss" style="display:none;" accept=".csv">
+        </div>
+        <hr/>
+
         <!-- Best Sequence Search Section -->
         <div class="section">
             <h2>Best Sequence Search</h2>
-            <label for="csvFileBss">Load CSV File</label>
-            <input type="file" id="csvFileBss" accept=".csv">
-            <p id="csvFileLabelBss">No file loaded</p>
-            <label for="proteaseInputBss">Input Proteases to consider</label>
-            <input type="text" id="proteaseInputBss">
-            <div id="proteaseResultBss"></div>
+
+            <label for="ProteasesToConsider">Proteases to consider<span id="proteaseToConsiderSelections"></span></label>
+            <select name="ProteasesToConsider" id="ProteasesToConsider">
+            </select>
+            
+            <!--<label for="proteaseToConsiderInputBss">Input Proteases to consider<span id="proteaseToConsiderSelections"></span></label>
+            <input type="text" id="proteaseToConsiderInputBss">
+            <div id="proteaseToConsiderDropdown"></div>-->
+            
             <button id="addProteaseBtnBss">Add Protease</button>
+            
+
+            <label for="proteaseInterestInputBss">Input Protease to interest</label>
+            <input type="text" id="proteaseInterestInputBss">
+            
+
+            <button id="launchSearchBtn">Launch Best Sequence Search</button>
+            <div id="searchResults"></div>
         </div>
+        <hr/>
 
         <!-- Protease Score Calculation Section -->
         <div class="section">
             <h2>Protease Score Calculation</h2>
-            <!-- Add relevant UI components -->
+            <label for="sequenceInput">Enter Sequence</label>
+            <input type="text" id="sequenceInput">
+            <button id="calcScoreBtn">Calculate Score</button>
+            <p id="scoreResult">Score: </p>
         </div>
     </div>
 
+    <script src="merops_data.js"></script>
+    <script src="BestSequenceSearch.js"></script>
+    <script src="ProteaseScoreCalculation.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

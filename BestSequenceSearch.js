@@ -12,8 +12,8 @@ class BestSequenceSearch {
         this.Final_Result_LOOP = [];
     }
 
-    Translate_File(filename) {
-        const Raw_CSV = fs.readFileSync(filename, 'utf8').split('\n').map(line => line.split(';'));
+    Translate_File(csvContent) {
+        const Raw_CSV = csvContent.split('\n').map(line => line.split(';'));
         this.MEROPS_Raw_Values = [Raw_CSV.slice(2, 22).map(row => row.slice(1))];
         this.MEROPS_Proteases_List = [Raw_CSV[0][0]];
 
