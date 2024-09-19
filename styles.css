@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+label, input, button {
+    display: block;
+    margin: 10px 0;
+}
+
+#proteaseResultBss {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #f0f0f0;
+}
