@@ -115,7 +115,6 @@ function launchBestSequenceSearch() {
     finalMinSelec = document.getElementById("minPoiSelectivity").value;
     if (finalMinSelec == '')
        finalMinSelec = 0;
-    console.log(bss.Multiple_Calculations(proteaseToConsider, proteaseOfInterest, finalMinScore, finalMinSelec));
     const res = bss.The_Calculation(proteaseToConsider, proteaseOfInterest, finalMinScore, finalMinSelec);
 
     const tbl = document.createElement('table');
