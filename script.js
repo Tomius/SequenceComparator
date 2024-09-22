@@ -115,8 +115,26 @@ function launchBestSequenceSearch() {
     finalMinSelec = document.getElementById("minPoiSelectivity").value;
     if (finalMinSelec == '')
        finalMinSelec = 0;
-    var res = bss.The_Calculation(proteaseToConsider, proteaseOfInterest, finalMinScore, finalMinSelec);
-    document.getElementById("searchResults").innerText = JSON.stringify(res, null, 2);
+    console.log(bss.Multiple_Calculations(proteaseToConsider, proteaseOfInterest, finalMinScore, finalMinSelec));
+    const res = bss.The_Calculation(proteaseToConsider, proteaseOfInterest, finalMinScore, finalMinSelec);
+
+    const tbl = document.createElement('table');
+    tbl.style.width = '100px';
+    tbl.style.border = '1px solid black';
+
+    const rownames = ["Sequence", "Selectivity", "Closest Protease", "Score at the protease of interest"];
+    for (let i = 0; i < res.length; i++) {
+        const tr = tbl.insertRow();
+        const td = tr.insertCell();
+        td.appendChild(document.createTextNode(rownames[i]));
+        td.style.border = '1px solid black';
+        for (let j = 0; j < res[i].length; j++) {
+            const td = tr.insertCell();
+            td.appendChild(document.createTextNode(res[i][j]));
+            td.style.border = '1px solid black';
+        }
+    }
+    document.getElementById("searchResults").appendChild(tbl);
 }
 
 

@@ -1,7 +1,7 @@
 class BestSequenceSearch {
     constructor() {
         this.MEROPS_Proteases_List = [];
-        this.MEROPS_All_AA = ['Gly', 'Pro', 'Ala', 'Val', 'Leu', 'Ile', 'Met', 'Phe', 'Tyr', 'Trp', 'Ser', 'Thr', 'Cys', 'Asn', 'Gln', 'Asp', 'Glu', 'Lys', 'Arg', 'His'];
+        this.MEROPS_All_AA = ['Gly','Pro','Ala','Val','Leu','Ile','Met','Phe','Tyr','Trp','Ser','Thr','Cys','Asn','Gln','Asp','Glu','Lys','Arg','His'];
         this.MEROPS_Normalised_Values = [];
         this.MEROPS_Raw_Values = [];
         this.Proteases_List = [];
@@ -25,13 +25,30 @@ class BestSequenceSearch {
             this.MEROPS_Proteases_List = this.MEROPS_Proteases_List.concat(Loop2_Proteases);
         }
 
-        this.MEROPS_Raw_Values = this.MEROPS_Raw_Values.map(row => row.map(val => parseFloat(val)));
+        this.MEROPS_Raw_Values = this.MEROPS_Raw_Values.map(array1 => array1.map(array2 => array2.map(val => Number(val))));
 
-        const sum_axis_1 = this.MEROPS_Raw_Values.map(row => row.reduce((a, b) => a + b, 0));
+        const sum_axis_1 = this.MEROPS_Raw_Values.map(array => {
+            var res = []; 
+            for(var i = 0; i < array[0].length; ++i) { 
+                var sum = 0; 
+                for(var j = 0; j < array.length; ++j) { 
+                    sum += array[j][i]; 
+                }; 
+                res.push(sum)
+            }; 
+            return res;
+        });
 
-        this.MEROPS_Normalised_Values = this.MEROPS_Raw_Values.map((row, i) => 
-            row.map(val => sum_axis_1[i] !== 0 ? (val * 100) / sum_axis_1[i] : 0)
-        );
+        this.MEROPS_Normalised_Values = this.MEROPS_Raw_Values.map((array, i) => {
+            var res = [];
+            for(var j = 0; j < array.length; ++j) {
+                res.push([]) 
+                for(var k = 0; k < array[j].length; ++k) { 
+                    res[j].push(sum_axis_1[i][k] != 0 ? (array[j][k] * 100) / sum_axis_1[i][k] : 0); 
+                }; 
+            };
+            return res; 
+        });
 
         this.Proteases_List = [...this.MEROPS_Proteases_List];
     }
@@ -61,7 +78,7 @@ class BestSequenceSearch {
                         if (j !== this.Index_POI && this.Index_PTC.includes(j)) {
                             if (Values_By_AA[j][i] > Max_By_AA[i]) {
                                 Max_By_AA[i] = Values_By_AA[j][i];
-                                Closest_Protease_By_AA = this.MEROPS_Proteases_List[j];
+                                var Closest_Protease_By_AA = this.MEROPS_Proteases_List[j];
                             }
                         }
                     }
