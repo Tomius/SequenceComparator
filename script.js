@@ -124,11 +124,11 @@ function launchBestSequenceSearch() {
     const rownames = ["Sequence", "Selectivity", "Closest Protease", "Score at the protease of interest"];
     for (let i = 0; i < res.length; i++) {
         const tr = tbl.insertRow();
-        const td = tr.insertCell();
+        var td = tr.insertCell();
         td.appendChild(document.createTextNode(rownames[i]));
         td.style.border = '1px solid black';
         for (let j = 0; j < res[i].length; j++) {
-            const td = tr.insertCell();
+            td = tr.insertCell();
             td.appendChild(document.createTextNode(res[i][j]));
             td.style.border = '1px solid black';
         }
