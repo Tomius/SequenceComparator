@@ -116,7 +116,8 @@ function launchBestSequenceSearch() {
     if (finalMinSelec == '')
        finalMinSelec = 0;
     const res = bss.The_Calculation(proteaseToConsider, proteaseOfInterest, finalMinScore, finalMinSelec);
-
+    
+    document.getElementById("searchResults").appendChild(document.createElement("hr"));
     const tbl = document.createElement('table');
     tbl.style.width = '100px';
     tbl.style.border = '1px solid black';
