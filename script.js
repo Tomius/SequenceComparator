@@ -8,6 +8,9 @@ document.getElementById("csvFileBss").addEventListener("change", handleFileSelec
 document.getElementById("AddToProteasesToConsider").addEventListener("click", addToProteasesToConsider);
 document.getElementById("RemoveFromProteasesToConsider").addEventListener("click", removeFromProteasesToConsider);
 document.getElementById("ClearProteasesToConsider").addEventListener("click", clearProteasesToConsider);
+document.getElementById("searchBestSequence").addEventListener("click", searchBestSequence);
+document.getElementById("searchAllSequences").addEventListener("click", searchAllSequences);
+
 
 parseCSV(meropsData);
 
@@ -103,10 +106,8 @@ function updateSelectedProteasesBss() {
     updateProteaseOfInterest();
 }
 
-// Function to launch the best sequence search
-document.getElementById("launchSearchBtn").addEventListener("click", launchBestSequenceSearch);
 
-function launchBestSequenceSearch() {
+function searchBestSequence() {
     const proteaseOfInterest = document.getElementById("proteaseInterest").value;
     finalMinScore = document.getElementById("minPoiScore").value;
     if (finalMinScore == '') 
@@ -147,6 +148,46 @@ function launchBestSequenceSearch() {
     tbl.style.width = '800px';
     tbl.classList.add("withBorder");
 
+    const rownames = ["Sequence", "Selectivity", "Closest Protease", "Score at the protease of interest"];
+    for (let i = 0; i < res.length; i++) {
+        var tr = tbl.insertRow();
+        var td = tr.insertCell();
+        td.classList.add("withBorder");
+        td.appendChild(document.createTextNode(rownames[i]));
+        for (let j = 0; j < res[i].length; j++) {
+            td = tr.insertCell();
+            td.classList.add("withBorder");
+            td.appendChild(document.createTextNode(res[i][j]));
+        }
+    }
+    document.getElementById("searchResults").appendChild(tbl);
+}
+
+function searchAllSequences() {
+    const proteaseOfInterest = document.getElementById("proteaseInterest").value;
+    finalMinScore = document.getElementById("minPoiScore").value;
+    if (finalMinScore == '') 
+       finalMinScore = 0;
+           
+    finalMinSelec = document.getElementById("minPoiSelectivity").value;
+    if (finalMinSelec == '')
+       finalMinSelec = 0;
+
+    const res = bss.Multiple_Calculations(proteaseToConsider, proteaseOfInterest, finalMinScore, finalMinSelec);
+    console.log(res)
+
+    document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
+    var tbl = document.createElement('table');
+    tbl.style.width = '800px';
+    tbl.classList.add("withBorder");
+
+    const colnames = ["", "P4", "P3", "P2", "P1", "P1'", "P2'", "P3'", "P4'"];
+    var tr = tbl.insertRow();
+    colnames.forEach(value => {
+        var td = tr.insertCell();
+        td.classList.add("withBorder");
+        td.appendChild(document.createTextNode(value));
+    })
     const rownames = ["Sequence", "Selectivity", "Closest Protease", "Score at the protease of interest"];
     for (let i = 0; i < res.length; i++) {
         var tr = tbl.insertRow();

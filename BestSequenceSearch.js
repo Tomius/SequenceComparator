@@ -166,6 +166,6 @@ class BestSequenceSearch {
             }
         }
 
-        return combinations;
+        return this.Final_Result_LOOP;
     }
 }
