@@ -118,20 +118,45 @@ function launchBestSequenceSearch() {
     const res = bss.The_Calculation(proteaseToConsider, proteaseOfInterest, finalMinScore, finalMinSelec);
     
     document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
-    const tbl = document.createElement('table');
-    tbl.style.width = '100px';
-    tbl.style.border = '1px solid black';
+    var tbl = document.createElement('table');
+    tbl.style.width = '800px';
+    tbl.classList.add("withBorder");
+
+    const colnames = ["", "P4", "P3", "P2", "P1", "P1'", "P2'", "P3'", "P4'"];
+    var tr = tbl.insertRow();
+    colnames.forEach(value => {
+        var td = tr.insertCell();
+        td.classList.add("withBorder");
+        td.appendChild(document.createTextNode(value));
+    })
+    for (let i = 0; i < bss.Ratio_By_AA_And_Position.length; i++) {
+        var tr = tbl.insertRow();
+        var td = tr.insertCell();
+        td.classList.add("withBorder");
+        td.appendChild(document.createTextNode(bss.MEROPS_All_AA[i]));
+        for (let j = 0; j < bss.Ratio_By_AA_And_Position[i].length; j++) {
+            td = tr.insertCell();
+            td.classList.add("withBorder");
+            td.appendChild(document.createTextNode(bss.Ratio_By_AA_And_Position[i][j]));
+        }
+    }
+    document.getElementById("searchResults").appendChild(tbl);
+    document.getElementById("searchResults").appendChild(document.createElement("p"));
+
+    var tbl = document.createElement('table');
+    tbl.style.width = '800px';
+    tbl.classList.add("withBorder");
 
     const rownames = ["Sequence", "Selectivity", "Closest Protease", "Score at the protease of interest"];
     for (let i = 0; i < res.length; i++) {
-        const tr = tbl.insertRow();
+        var tr = tbl.insertRow();
         var td = tr.insertCell();
+        td.classList.add("withBorder");
         td.appendChild(document.createTextNode(rownames[i]));
-        td.style.border = '1px solid black';
         for (let j = 0; j < res[i].length; j++) {
             td = tr.insertCell();
+            td.classList.add("withBorder");
             td.appendChild(document.createTextNode(res[i][j]));
-            td.style.border = '1px solid black';
         }
     }
     document.getElementById("searchResults").appendChild(tbl);

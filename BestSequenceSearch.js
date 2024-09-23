@@ -83,7 +83,7 @@ class BestSequenceSearch {
                         }
                     }
                     this.Ratio_By_AA_And_Position[i][k] = Max_By_AA[i] !== 0 
-                        ? parseFloat((Values_By_AA[this.Index_POI][i] * 100 / Max_By_AA[i]).toFixed(2)) 
+                        ? +(Values_By_AA[this.Index_POI][i] * 100 / Max_By_AA[i]).toFixed(2)
                         : 0;
 
                     if (this.Ratio_By_AA_And_Position[i][k] > MinSelec) {

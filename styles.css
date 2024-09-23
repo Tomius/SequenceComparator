@@ -17,6 +17,12 @@ label, input, button {
     margin: 10px 0;
 }
 
+.withBorder {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
 #proteaseResultBss {
     margin: 10px 0;
     padding: 5px;
