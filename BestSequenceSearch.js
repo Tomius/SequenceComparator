@@ -117,7 +117,7 @@ class BestSequenceSearch {
             this.The_Calculation(PTC, POI, MinScore, inputMinSelec);
 
             if (this.Final_Result[1].some(val => val != 0.0)) {
-                if (this.Final_Result[0].some((val, i) => val !== this.Final_Result_LOOP[0][i])) {
+                if (this.Final_Result[0].some((val, i) => val !== this.Final_Result_LOOP[this.Final_Result_LOOP.length - 4][i])) {
                     const index_change = this.Final_Result[0].map((val, i) => val !== this.Final_Result_LOOP[0][i] ? i : null).filter(i => i !== null);
                     for (let i of index_change) {
                         if (this.Final_Result[0][i] !== '') {
