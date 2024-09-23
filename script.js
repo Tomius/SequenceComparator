@@ -174,7 +174,6 @@ function searchAllSequences() {
        finalMinSelec = 0;
 
     const res = bss.Multiple_Calculations(proteaseToConsider, proteaseOfInterest, finalMinScore, finalMinSelec);
-    console.log(res)
 
     document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
     var tbl = document.createElement('table');
@@ -193,7 +192,7 @@ function searchAllSequences() {
         var tr = tbl.insertRow();
         var td = tr.insertCell();
         td.classList.add("withBorder");
-        td.appendChild(document.createTextNode(rownames[i]));
+        td.appendChild(document.createTextNode(rownames[i%rownames.length]));
         for (let j = 0; j < res[i].length; j++) {
             td = tr.insertCell();
             td.classList.add("withBorder");

@@ -113,10 +113,10 @@ class BestSequenceSearch {
         AA_Changed[0][0] = this.Final_Result_LOOP[0];
         AA_Changed[1][0] = this.Final_Result_LOOP[3];
 
-        for (let MinScore = inputMinScore; MinScore < Math.round(Math.max(...this.MEROPS_Normalised_Values.flat())); MinScore++) {
+        for (let MinScore = inputMinScore; MinScore < Math.round(Math.max.apply(null, this.MEROPS_Normalised_Values.flat().flat())); MinScore++) {
             this.The_Calculation(PTC, POI, MinScore, inputMinSelec);
 
-            if (this.Final_Result[1].some(val => val !== '0.0')) {
+            if (this.Final_Result[1].some(val => val != 0.0)) {
                 if (this.Final_Result[0].some((val, i) => val !== this.Final_Result_LOOP[0][i])) {
                     const index_change = this.Final_Result[0].map((val, i) => val !== this.Final_Result_LOOP[0][i] ? i : null).filter(i => i !== null);
                     for (let i of index_change) {
