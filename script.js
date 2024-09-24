@@ -174,9 +174,12 @@ function searchAllSequences() {
        finalMinSelec = 0;
 
     document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
-    var p = document.createElement('p');
+    var div = document.createElement('div');
+    var h3 = document.createElement('h3');
+    h3.appendChild(document.createTextNode("Summary of results"));
+    div.appendChild(h3);
     var tbl = document.createElement('table');
-    p.appendChild(tbl);
+    div.appendChild(tbl);
     tbl.style.width = '800px';
     tbl.classList.add("withBorder");
 
@@ -203,13 +206,16 @@ function searchAllSequences() {
             }
         }
     }
-    document.getElementById("searchResults").appendChild(p);
+    document.getElementById("searchResults").appendChild(div);
 
-    p = document.createElement('p');
+    div = document.createElement('div');
+    h3 = document.createElement('h3');
+    h3.appendChild(document.createTextNode("Detailed results"));
+    div.appendChild(h3);
     tbl = document.createElement('table');
     tbl.style.width = '800px';
     tbl.classList.add("withBorder");
-    p.appendChild(tbl);
+    div.appendChild(tbl);
 
     var tr = tbl.insertRow();
     colnames.forEach(value => {
@@ -229,13 +235,16 @@ function searchAllSequences() {
             td.appendChild(document.createTextNode(res.Final_Result_LOOP[i][j]));
         }
     }
-    document.getElementById("searchResults").appendChild(p);
+    document.getElementById("searchResults").appendChild(div);
 
-    p = document.createElement('p');
+    div = document.createElement('div');
+    h3 = document.createElement('h3');
+    h3.appendChild(document.createTextNode("Possible combinations"));
+    div.appendChild(h3);
     tbl = document.createElement('table');
     tbl.style.width = '800px';
     tbl.classList.add("withBorder");
-    p.appendChild(tbl);
+    div.appendChild(tbl);
     
     colnames = ["Id", "P4", "P3", "P2", "P1", "P1'", "P2'", "P3'", "P4'", "Score"];
     var tr = tbl.insertRow();
@@ -252,7 +261,7 @@ function searchAllSequences() {
             td.appendChild(document.createTextNode(res.combinations[i][j]));
         }
     }
-    document.getElementById("searchResults").appendChild(p);
+    document.getElementById("searchResults").appendChild(div);
 }
 
 
