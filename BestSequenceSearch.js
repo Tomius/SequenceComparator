@@ -153,7 +153,7 @@ class BestSequenceSearch {
                                         let new_sequence = [AA_Changed[0][a][0], AA_Changed[0][b][1], AA_Changed[0][c][2], AA_Changed[0][d][3], AA_Changed[0][e][4], AA_Changed[0][f][5], AA_Changed[0][g][6], AA_Changed[0][h][7]];
                                         if (new_sequence.every(val => val !== '')) {
                                             const mean_sequence = (Number(AA_Changed[1][a][0]) + Number(AA_Changed[1][b][1]) + Number(AA_Changed[1][c][2]) + Number(AA_Changed[1][d][3]) + Number(AA_Changed[1][e][4]) + Number(AA_Changed[1][f][5]) + Number(AA_Changed[1][g][6]) + Number(AA_Changed[1][h][7])) / 8;
-                                            combinations.push({ 'Id': index, 'Sequence': new_sequence, 'MeanScore': mean_sequence });
+                                            combinations.push([index, new_sequence, mean_sequence].flat());
                                             index += 1;
                                         }
                                     }
@@ -165,8 +165,10 @@ class BestSequenceSearch {
             }
         }
 
-        console.log(AA_Changed)
-        console.log(combinations)
-        return this.Final_Result_LOOP;
+        return {
+            "AA_Changed": AA_Changed,
+            "combinations": combinations,
+            "Final_Result_LOOP": this.Final_Result_LOOP
+        };
     }
 }
