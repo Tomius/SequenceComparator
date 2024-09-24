@@ -118,7 +118,7 @@ class BestSequenceSearch {
 
             if (this.Final_Result[1].some(val => val != 0.0)) {
                 if (this.Final_Result[0].some((val, i) => val !== this.Final_Result_LOOP[this.Final_Result_LOOP.length - 4][i])) {
-                    const index_change = this.Final_Result[0].map((val, i) => val !== this.Final_Result_LOOP[0][i] ? i : null).filter(i => i !== null);
+                    const index_change = this.Final_Result[0].map((val, i) => val !== this.Final_Result_LOOP[this.Final_Result_LOOP.length - 4][i] ? i : null).filter(i => i !== null);
                     for (let i of index_change) {
                         if (this.Final_Result[0][i] !== '') {
                             const first_empty_row = AA_Changed[0].findIndex(row => row[i] === '');
@@ -126,10 +126,11 @@ class BestSequenceSearch {
                                 AA_Changed[0][first_empty_row][i] = this.Final_Result[0][i];
                                 AA_Changed[1][first_empty_row][i] = this.Final_Result[3][i];
                             } else {
-                                const new_row = [[Array(8).fill('')], [Array(8).fill('')]];
-                                new_row[0][0][i] = this.Final_Result[0][i];
-                                new_row[1][0][i] = this.Final_Result[3][i];
-                                AA_Changed = AA_Changed.concat(new_row);
+                                const new_row = [Array(8).fill(''), Array(8).fill('')];
+                                new_row[0][i] = this.Final_Result[0][i];
+                                new_row[1][i] = this.Final_Result[3][i];
+                                AA_Changed[0].push(new_row[0])
+                                AA_Changed[1].push(new_row[1])
                             }
                         }
                     }
@@ -138,8 +139,8 @@ class BestSequenceSearch {
             }
         }
 
-        let combinations = [];
-        let index = 0;
+        let combinations = []
+        let index = 1;
 
         for (let a = 0; a < AA_Changed[0].length; a++) {
             for (let b = 0; b < AA_Changed[0].length; b++) {
@@ -151,11 +152,9 @@ class BestSequenceSearch {
                                     for (let h = 0; h < AA_Changed[0].length; h++) {
                                         let new_sequence = [AA_Changed[0][a][0], AA_Changed[0][b][1], AA_Changed[0][c][2], AA_Changed[0][d][3], AA_Changed[0][e][4], AA_Changed[0][f][5], AA_Changed[0][g][6], AA_Changed[0][h][7]];
                                         if (new_sequence.every(val => val !== '')) {
-                                            const mean_sequence = (AA_Changed[1][a][0] + AA_Changed[1][b][1] + AA_Changed[1][c][2] + AA_Changed[1][d][3] + AA_Changed[1][e][4] + AA_Changed[1][f][5] + AA_Changed[1][g][6] + AA_Changed[1][h][7]) / 8;
-                                            if (mean_sequence >= inputMinScore) {
-                                                combinations.push({ 'id': index, 'Sequence': new_sequence.join(''), 'MeanScore': mean_sequence });
-                                                index += 1;
-                                            }
+                                            const mean_sequence = (Number(AA_Changed[1][a][0]) + Number(AA_Changed[1][b][1]) + Number(AA_Changed[1][c][2]) + Number(AA_Changed[1][d][3]) + Number(AA_Changed[1][e][4]) + Number(AA_Changed[1][f][5]) + Number(AA_Changed[1][g][6]) + Number(AA_Changed[1][h][7])) / 8;
+                                            combinations.push({ 'Id': index, 'Sequence': new_sequence, 'MeanScore': mean_sequence });
+                                            index += 1;
                                         }
                                     }
                                 }
@@ -166,6 +165,8 @@ class BestSequenceSearch {
             }
         }
 
+        console.log(AA_Changed)
+        console.log(combinations)
         return this.Final_Result_LOOP;
     }
 }
