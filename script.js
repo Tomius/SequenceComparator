@@ -4,15 +4,14 @@ let proteaseList = [];
 let proteaseToConsider = [];
 
 // Listen for file selection
-document.getElementById("csvFileBss").addEventListener("change", handleFileSelectBss);
-document.getElementById("AddToProteasesToConsider").addEventListener("click", addToProteasesToConsider);
-document.getElementById("RemoveFromProteasesToConsider").addEventListener("click", removeFromProteasesToConsider);
-document.getElementById("ClearProteasesToConsider").addEventListener("click", clearProteasesToConsider);
+//document.getElementById("csvFileBss").addEventListener("change", handleFileSelectBss);
 document.getElementById("searchBestSequence").addEventListener("click", searchBestSequence);
 document.getElementById("searchAllSequences").addEventListener("click", searchAllSequences);
 
-
 parseCSV(meropsData);
+
+$("#ProteasesToConsider").chosen().change(onProteasesToConsiderChanged);
+$("#ProteaseInterest").chosen();
 
 // Handle CSV file selection and parsing
 function handleFileSelectBss(event) {
@@ -49,40 +48,21 @@ function updateProteaseDropdownBss() {
         opt.innerHTML = protease;
         proteaseInput.appendChild(opt);
     })
+    $('.chosen-select').trigger('chosen:updated');
 }
 
-
-document.getElementById("AddToProteasesToConsider").addEventListener("click", addToProteasesToConsider);
-document.getElementById("RemoveFromProteasesToConsider").addEventListener("click", removeFromProteasesToConsider);
-document.getElementById("ClearProteasesToConsider").addEventListener("click", clearProteasesToConsider);
-
-// Add protease to "Protease To Consider"
-function addToProteasesToConsider() {
-    const selectedProtease = document.getElementById("ProteasesToConsider").value;
-
-    if (selectedProtease && !proteaseToConsider.includes(selectedProtease)) {
-        proteaseToConsider.push(selectedProtease);
-        updateSelectedProteasesBss();
+function onProteasesToConsiderChanged(evt, params) {
+    if (params.selected) {
+        proteaseToConsider.push(params.selected);
     }
-}
-
-function removeFromProteasesToConsider() {
-    const selectedProtease = document.getElementById("ProteasesToConsider").value;
-    const index = proteaseToConsider.indexOf(selectedProtease);
-    if (selectedProtease && index > -1) {
-        proteaseToConsider.splice(index, 1);
-        updateSelectedProteasesBss();
+    if (params.deselected) {
+        const index = proteaseToConsider.indexOf(params.deselected);
+        if (index > -1) {
+          proteaseToConsider.splice(index, 1);
+        }
     }
-}
-
-function clearProteasesToConsider() {
-    proteaseToConsider = [];
-    updateSelectedProteasesBss();
-}
-
-function updateProteaseOfInterest() {
-    const proteaseInterest = document.getElementById("proteaseInterest");
-    value = proteaseInterest.value;
+    const proteaseInterest = document.getElementById("ProteaseInterest");
+    let oldValue = proteaseInterest.value;
     proteaseInterest.innerHTML = "";
     proteaseToConsider.forEach(protease => {
         var opt = document.createElement('option');
@@ -90,25 +70,14 @@ function updateProteaseOfInterest() {
         opt.innerHTML = protease;
         proteaseInterest.appendChild(opt);
     })
-    if (proteaseToConsider.includes(value)) {
-        proteaseInterest.value = value;
+    if (proteaseToConsider.includes(oldValue)) {
+        proteaseInterest.value = oldValue;
     }
+    $('.chosen-select').trigger('chosen:updated');
 }
-
-// Update UI with selected proteases
-function updateSelectedProteasesBss() {
-    const proteaseResult = document.getElementById("proteaseToConsiderSelections");
-    if (proteaseToConsider.length == 0) {
-        proteaseResult.innerHTML = "&lt;empty&gt;";
-    } else { 
-        proteaseResult.innerHTML = proteaseToConsider.join(', ');
-    }
-    updateProteaseOfInterest();
-}
-
 
 function searchBestSequence() {
-    const proteaseOfInterest = document.getElementById("proteaseInterest").value;
+    const proteaseOfInterest = document.getElementById("ProteaseInterest").value;
     finalMinScore = document.getElementById("minPoiScore").value;
     if (finalMinScore == '') 
        finalMinScore = 0;
@@ -164,7 +133,7 @@ function searchBestSequence() {
 }
 
 function searchAllSequences() {
-    const proteaseOfInterest = document.getElementById("proteaseInterest").value;
+    const proteaseOfInterest = document.getElementById("ProteaseInterest").value;
     finalMinScore = document.getElementById("minPoiScore").value;
     if (finalMinScore == '') 
        finalMinScore = 0;

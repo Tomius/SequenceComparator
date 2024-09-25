@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sequence Comparator Software</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
 </head>
 <body>
     <h1>Sequence Comparator Software</h1>
@@ -24,20 +25,12 @@
                 <div class="section">
                     <h2>Best Sequence Search</h2>
 
-                    <label for="ProteasesToConsider"><h3>Proteases to consider: <span id="proteaseToConsiderSelections">&lt;empty&gt;</span></h3></label>
-                    <select name="ProteasesToConsider" id="ProteasesToConsider">
+                    <label for="ProteasesToConsider"><h3>Proteases to consider</h3></label>
+                    <select style="width: 400px" data-placeholder="Begin typing a name to filter..." id="ProteasesToConsider" multiple class="chosen-select" name="ProteasesToConsider">
                     </select>
-
-                    <table>
-                        <tr>
-                            <td><button id="AddToProteasesToConsider">Add To Selection</button></td>
-                            <td><button id="RemoveFromProteasesToConsider">Remove From Selection</button></td>
-                            <td><button id="ClearProteasesToConsider">Clear Selection</button></td>
-                        </tr>
-                    </table>
                     
-                    <label for="proteaseInterest"><h3>Protease of interest</h3></label>
-                    <select name="proteaseInterest" id="proteaseInterest"> </select>
+                    <label for="ProteaseInterest"><h3>Protease of interest</h3></label>
+                    <select name="ProteaseInterest" id="ProteaseInterest" class="chosen-select" style="width: 100px"> </select>
                     
                     <label for="minPoiScore" ><h3>Minimal POI Score</h3></label>
                     <input type="number" step="1" id="minPoiScore" />
@@ -58,8 +51,8 @@
         </tr></table>
         <div id="searchResults"></div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/gh/nicolaspanel/numjs@0.15.1/dist/numjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
     <script src="merops_data.js"></script>
     <script src="BestSequenceSearch.js"></script>
     <script src="ProteaseScoreCalculation.js"></script>
