@@ -19,37 +19,44 @@
             <hr/>
         </div>
 
-        <div class="section">
-            <h2>Best Sequence Search</h2>
+        <table><tr>
+            <td style="width: 800px; vertical-align:top ">
+                <div class="section">
+                    <h2>Best Sequence Search</h2>
 
-            <label for="ProteasesToConsider"><h3>Proteases to consider: <span id="proteaseToConsiderSelections">&lt;empty&gt;</span></h3></label>
-            <select name="ProteasesToConsider" id="ProteasesToConsider">
-            </select>
+                    <label for="ProteasesToConsider"><h3>Proteases to consider: <span id="proteaseToConsiderSelections">&lt;empty&gt;</span></h3></label>
+                    <select name="ProteasesToConsider" id="ProteasesToConsider">
+                    </select>
 
-            <table>
-                <tr>
-                    <td><button id="AddToProteasesToConsider">Add To Selection</button></td>
-                    <td><button id="RemoveFromProteasesToConsider">Remove From Selection</button></td>
-                    <td><button id="ClearProteasesToConsider">Clear Selection</button></td>
-                </tr>
-            </table>
-            
-            <label for="proteaseInterest"><h3>Protease of interest</h3></label>
-            <select name="proteaseInterest" id="proteaseInterest"> </select>
-            
-            <label for="minPoiScore" ><h3>Minimal POI Score</h3></label>
-            <input type="number" step="1" id="minPoiScore" />
-            <label for="minPoiSelectivity" ><h3>Minimal POI Selectivity</h3></label>
-            <input type="number" step="1" id="minPoiSelectivity" />
+                    <table>
+                        <tr>
+                            <td><button id="AddToProteasesToConsider">Add To Selection</button></td>
+                            <td><button id="RemoveFromProteasesToConsider">Remove From Selection</button></td>
+                            <td><button id="ClearProteasesToConsider">Clear Selection</button></td>
+                        </tr>
+                    </table>
+                    
+                    <label for="proteaseInterest"><h3>Protease of interest</h3></label>
+                    <select name="proteaseInterest" id="proteaseInterest"> </select>
+                    
+                    <label for="minPoiScore" ><h3>Minimal POI Score</h3></label>
+                    <input type="number" step="1" id="minPoiScore" />
+                    <label for="minPoiSelectivity" ><h3>Minimal POI Selectivity</h3></label>
+                    <input type="number" step="1" id="minPoiSelectivity" />
 
-            <table>
-                <tr>
-                <td><button id="searchBestSequence">Search Best Sequence</button></td>
-                <td><button id="searchAllSequences">Search All Sequences</button></td>
-                </tr>
-            </table>
-            <div id="searchResults"></div>
-        </div>
+                    <table>
+                        <tr>
+                        <td><button id="searchBestSequence">Search Best Sequence</button></td>
+                        <td><button id="searchAllSequences">Search All Sequences</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <td style="width: 800px; vertical-align:top">
+                <h2>Protease Score Calculation</h2>
+            </td>
+        </tr></table>
+        <div id="searchResults"></div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/gh/nicolaspanel/numjs@0.15.1/dist/numjs.min.js"></script>
