@@ -108,7 +108,7 @@ function searchBestSequence() {
     
     document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
     var tbl = document.createElement('table');
-    tbl.style.width = '800px';
+    tbl.style.width = '1000px';
     tbl.classList.add("withBorder");
 
     const colnames = ["", "P4", "P3", "P2", "P1", "P1'", "P2'", "P3'", "P4'"];
@@ -133,7 +133,7 @@ function searchBestSequence() {
     document.getElementById("searchResults").appendChild(document.createElement("p"));
 
     var tbl = document.createElement('table');
-    tbl.style.width = '800px';
+    tbl.style.width = '1000px';
     tbl.classList.add("withBorder");
 
     const rownames = ["Sequence", "Selectivity", "Closest Protease", "Score at the protease of interest"];
@@ -168,7 +168,7 @@ function searchAllSequences() {
     div.appendChild(h3);
     var tbl = document.createElement('table');
     div.appendChild(tbl);
-    tbl.style.width = '800px';
+    tbl.style.width = '1000px';
     tbl.classList.add("withBorder");
 
     const res = bss.Multiple_Calculations(proteaseToConsiderBss, proteaseOfInterest, finalMinScore, finalMinSelec);
@@ -261,11 +261,12 @@ function startPsc() {
 
     document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
     var tbl = document.createElement('table');
-    tbl.style.width = '800px';
+    tbl.style.width = '1000px';
     tbl.classList.add("withBorder");
 
     const rownames = ["Sequence", "Highest Score", "Closest Protease", "Lowest Score", "Farthest Protease"];
-    for (let i = 0; i < psc.Final_Result.length; i++) {
+    let rowsToDisplay = proteaseToConsiderPsc.length == 1 ? 1 : psc.Final_Result.length;
+    for (let i = 0; i < rowsToDisplay; i++) {
         var tr = tbl.insertRow();
         var td = tr.insertCell();
         td.classList.add("withBorder");

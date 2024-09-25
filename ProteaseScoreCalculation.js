@@ -1,7 +1,7 @@
 class ProteaseScoreCalculation {
     constructor() {
         this.MEROPS_Proteases_List = [];
-        this.MEROPS_All_AA = ['Gly', 'Pro', 'Ala', 'Val', 'Leu', 'Ile', 'Met', 'Phe', 'Tyr', 'Trp', 'Ser', 'Thr', 'Cys', 'Asn', 'Gln', 'Asp', 'Glu', 'Lys', 'Arg', 'His'];
+        this.MEROPS_All_AA = ['Gly', 'Pro', 'Ala', 'Val', 'Leu', 'Ile', 'Met', 'Phe', 'Tyr', 'Trp', 'Ser', 'Thr', 'Cys', 'Asn', 'Gln', 'Asp', 'Glu', 'Lys', 'Arg', 'His'].sort();
         this.MEROPS_Raw_Values = [];
         this.MEROPS_Normalised_Values = [];
         this.Proteases_List = [];
