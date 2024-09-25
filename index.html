@@ -25,8 +25,8 @@
                 <div class="section">
                     <h2>Best Sequence Search</h2>
 
-                    <label for="ProteasesToConsider"><h3>Proteases to consider</h3></label>
-                    <select style="width: 400px" data-placeholder="Begin typing a name to filter..." id="ProteasesToConsider" multiple class="chosen-select" name="ProteasesToConsider">
+                    <label for="ProteasesToConsiderBss"><h3>Proteases to consider</h3></label>
+                    <select style="width: 400px" data-placeholder="Begin typing a name to filter..." id="ProteasesToConsiderBss" multiple class="chosen-select" name="ProteasesToConsiderBss">
                     </select>
                     
                     <label for="ProteaseInterest"><h3>Protease of interest</h3></label>
@@ -47,6 +47,186 @@
             </td>
             <td style="width: 800px; vertical-align:top">
                 <h2>Protease Score Calculation</h2>
+                <h3>Amino acids</h3>
+                <select style="width: 60px;" id="AA1" class="chosen-select">
+                    <option>Gly</option>
+                    <option>Pro</option>
+                    <option>Ala</option>
+                    <option>Val</option>
+                    <option>Leu</option>
+                    <option>Ile</option>
+                    <option>Met</option>
+                    <option>Phe</option>
+                    <option>Tyr</option>
+                    <option>Trp</option>
+                    <option>Ser</option>
+                    <option>Thr</option>
+                    <option>Cys</option>
+                    <option>Asn</option>
+                    <option>Gln</option>
+                    <option>Asp</option>
+                    <option>Glu</option>
+                    <option>Lys</option>
+                    <option>Arg</option>
+                    <option>His</option>
+                </select>
+                <select style="width: 60px;" id="AA2" class="chosen-select">
+                    <option>Gly</option>
+                    <option>Pro</option>
+                    <option>Ala</option>
+                    <option>Val</option>
+                    <option>Leu</option>
+                    <option>Ile</option>
+                    <option>Met</option>
+                    <option>Phe</option>
+                    <option>Tyr</option>
+                    <option>Trp</option>
+                    <option>Ser</option>
+                    <option>Thr</option>
+                    <option>Cys</option>
+                    <option>Asn</option>
+                    <option>Gln</option>
+                    <option>Asp</option>
+                    <option>Glu</option>
+                    <option>Lys</option>
+                    <option>Arg</option>
+                    <option>His</option>
+                </select>
+                <select style="width: 60px;" id="AA3" class="chosen-select">
+                    <option>Gly</option>
+                    <option>Pro</option>
+                    <option>Ala</option>
+                    <option>Val</option>
+                    <option>Leu</option>
+                    <option>Ile</option>
+                    <option>Met</option>
+                    <option>Phe</option>
+                    <option>Tyr</option>
+                    <option>Trp</option>
+                    <option>Ser</option>
+                    <option>Thr</option>
+                    <option>Cys</option>
+                    <option>Asn</option>
+                    <option>Gln</option>
+                    <option>Asp</option>
+                    <option>Glu</option>
+                    <option>Lys</option>
+                    <option>Arg</option>
+                    <option>His</option>
+                </select>
+                <select style="width: 60px;" id="AA4" class="chosen-select">
+                    <option>Gly</option>
+                    <option>Pro</option>
+                    <option>Ala</option>
+                    <option>Val</option>
+                    <option>Leu</option>
+                    <option>Ile</option>
+                    <option>Met</option>
+                    <option>Phe</option>
+                    <option>Tyr</option>
+                    <option>Trp</option>
+                    <option>Ser</option>
+                    <option>Thr</option>
+                    <option>Cys</option>
+                    <option>Asn</option>
+                    <option>Gln</option>
+                    <option>Asp</option>
+                    <option>Glu</option>
+                    <option>Lys</option>
+                    <option>Arg</option>
+                    <option>His</option>
+                </select>
+                <select style="width: 60px;" id="AA5" class="chosen-select">
+                    <option>Gly</option>
+                    <option>Pro</option>
+                    <option>Ala</option>
+                    <option>Val</option>
+                    <option>Leu</option>
+                    <option>Ile</option>
+                    <option>Met</option>
+                    <option>Phe</option>
+                    <option>Tyr</option>
+                    <option>Trp</option>
+                    <option>Ser</option>
+                    <option>Thr</option>
+                    <option>Cys</option>
+                    <option>Asn</option>
+                    <option>Gln</option>
+                    <option>Asp</option>
+                    <option>Glu</option>
+                    <option>Lys</option>
+                    <option>Arg</option>
+                    <option>His</option>
+                </select>
+                <select style="width: 60px;" id="AA6" class="chosen-select">
+                    <option>Gly</option>
+                    <option>Pro</option>
+                    <option>Ala</option>
+                    <option>Val</option>
+                    <option>Leu</option>
+                    <option>Ile</option>
+                    <option>Met</option>
+                    <option>Phe</option>
+                    <option>Tyr</option>
+                    <option>Trp</option>
+                    <option>Ser</option>
+                    <option>Thr</option>
+                    <option>Cys</option>
+                    <option>Asn</option>
+                    <option>Gln</option>
+                    <option>Asp</option>
+                    <option>Glu</option>
+                    <option>Lys</option>
+                    <option>Arg</option>
+                    <option>His</option>
+                </select>
+                <select style="width: 60px;" id="AA7" class="chosen-select">
+                    <option>Gly</option>
+                    <option>Pro</option>
+                    <option>Ala</option>
+                    <option>Val</option>
+                    <option>Leu</option>
+                    <option>Ile</option>
+                    <option>Met</option>
+                    <option>Phe</option>
+                    <option>Tyr</option>
+                    <option>Trp</option>
+                    <option>Ser</option>
+                    <option>Thr</option>
+                    <option>Cys</option>
+                    <option>Asn</option>
+                    <option>Gln</option>
+                    <option>Asp</option>
+                    <option>Glu</option>
+                    <option>Lys</option>
+                    <option>Arg</option>
+                    <option>His</option>
+                </select>
+                <select style="width: 60px;" id="AA8" class="chosen-select">
+                    <option>Gly</option>
+                    <option>Pro</option>
+                    <option>Ala</option>
+                    <option>Val</option>
+                    <option>Leu</option>
+                    <option>Ile</option>
+                    <option>Met</option>
+                    <option>Phe</option>
+                    <option>Tyr</option>
+                    <option>Trp</option>
+                    <option>Ser</option>
+                    <option>Thr</option>
+                    <option>Cys</option>
+                    <option>Asn</option>
+                    <option>Gln</option>
+                    <option>Asp</option>
+                    <option>Glu</option>
+                    <option>Lys</option>
+                    <option>Arg</option>
+                    <option>His</option>
+                </select>
+                <label for="ProteasesToConsiderPsc"><h3>Proteases to consider</h3></label>
+                <select style="width: 400px" data-placeholder="Begin typing a name to filter..." id="ProteasesToConsiderPsc" multiple class="chosen-select" name="ProteasesToConsiderPsc">
+                </select>
             </td>
         </tr></table>
         <div id="searchResults"></div>

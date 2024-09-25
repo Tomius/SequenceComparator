@@ -1,7 +1,8 @@
 // Initialize necessary variables
 let bss = new BestSequenceSearch();
 let proteaseList = [];
-let proteaseToConsider = [];
+let proteaseToConsiderBss = [];
+let proteaseToConsiderPsc = [];
 
 // Listen for file selection
 //document.getElementById("csvFileBss").addEventListener("change", handleFileSelectBss);
@@ -10,8 +11,10 @@ document.getElementById("searchAllSequences").addEventListener("click", searchAl
 
 parseCSV(meropsData);
 
-$("#ProteasesToConsider").chosen().change(onProteasesToConsiderChanged);
-$("#ProteaseInterest").chosen();
+$(".chosen-select").chosen();
+$("#ProteasesToConsiderBss").chosen().change(onProteasesToConsiderBssChanged);
+$("#ProteasesToConsiderPsc").chosen().change(onProteasesToConsiderPscChanged);
+
 
 // Handle CSV file selection and parsing
 function handleFileSelectBss(event) {
@@ -33,47 +36,66 @@ function handleFileSelectBss(event) {
 function parseCSV(data) {
     // Example CSV parsing using PapaParse
     bss.Translate_File(data)  
-    updateProteaseDropdownBss();
+    updateProteaseDropdown();
     document.getElementById("csvFileLabelBss").innerText = "CSV File Loaded Successfully!";
     document.getElementById("csvLoadFileText").innerText = "Reload CSV File"
 }
 
 // Update dropdown with proteases
-function updateProteaseDropdownBss() {
-    const proteaseInput = document.getElementById("ProteasesToConsider");
+function updateProteaseDropdown() {
+    const proteasesBss = document.getElementById("ProteasesToConsiderBss");
+    const proteasesPsc = document.getElementById("ProteasesToConsiderPsc");
 
     bss.Proteases_List.forEach(protease => {
         var opt = document.createElement('option');
         opt.value = protease;
         opt.innerHTML = protease;
-        proteaseInput.appendChild(opt);
+        proteasesBss.appendChild(opt);
+
+        opt = document.createElement('option');
+        opt.value = protease;
+        opt.innerHTML = protease;
+        proteasesPsc.appendChild(opt);
     })
-    $('.chosen-select').trigger('chosen:updated');
+    $('#ProteasesToConsiderBss').trigger('chosen:updated');
+    $('#ProteasesToConsiderPsc').trigger('chosen:updated');
 }
 
-function onProteasesToConsiderChanged(evt, params) {
+function onProteasesToConsiderBssChanged(evt, params) {
     if (params.selected) {
-        proteaseToConsider.push(params.selected);
+        proteaseToConsiderBss.push(params.selected);
     }
     if (params.deselected) {
-        const index = proteaseToConsider.indexOf(params.deselected);
+        const index = proteaseToConsiderBss.indexOf(params.deselected);
         if (index > -1) {
-          proteaseToConsider.splice(index, 1);
+          proteaseToConsiderBss.splice(index, 1);
         }
     }
     const proteaseInterest = document.getElementById("ProteaseInterest");
     let oldValue = proteaseInterest.value;
     proteaseInterest.innerHTML = "";
-    proteaseToConsider.forEach(protease => {
+    proteaseToConsiderBss.forEach(protease => {
         var opt = document.createElement('option');
         opt.value = protease;
         opt.innerHTML = protease;
         proteaseInterest.appendChild(opt);
     })
-    if (proteaseToConsider.includes(oldValue)) {
+    if (proteaseToConsiderBss.includes(oldValue)) {
         proteaseInterest.value = oldValue;
     }
-    $('.chosen-select').trigger('chosen:updated');
+    $('#ProteaseInterest').trigger('chosen:updated');
+}
+
+function onProteasesToConsiderPscChanged(evt, params) {
+    if (params.selected) {
+        proteaseToConsiderPsc.push(params.selected);
+    }
+    if (params.deselected) {
+        const index = proteaseToConsiderPsc.indexOf(params.deselected);
+        if (index > -1) {
+          proteaseToConsiderPsc.splice(index, 1);
+        }
+    }
 }
 
 function searchBestSequence() {
@@ -85,7 +107,7 @@ function searchBestSequence() {
     finalMinSelec = document.getElementById("minPoiSelectivity").value;
     if (finalMinSelec == '')
        finalMinSelec = 0;
-    const res = bss.The_Calculation(proteaseToConsider, proteaseOfInterest, finalMinScore, finalMinSelec);
+    const res = bss.The_Calculation(proteaseToConsiderBss, proteaseOfInterest, finalMinScore, finalMinSelec);
     
     document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
     var tbl = document.createElement('table');
@@ -152,7 +174,7 @@ function searchAllSequences() {
     tbl.style.width = '800px';
     tbl.classList.add("withBorder");
 
-    const res = bss.Multiple_Calculations(proteaseToConsider, proteaseOfInterest, finalMinScore, finalMinSelec);
+    const res = bss.Multiple_Calculations(proteaseToConsiderBss, proteaseOfInterest, finalMinScore, finalMinSelec);
 
     var colnames = ["", "P4", "P3", "P2", "P1", "P1'", "P2'", "P3'", "P4'"];
     var tr = tbl.insertRow();
