@@ -1,13 +1,13 @@
-// Initialize necessary variables
 let bss = new BestSequenceSearch();
+let psc = new ProteaseScoreCalculation();
 let proteaseList = [];
 let proteaseToConsiderBss = [];
 let proteaseToConsiderPsc = [];
 
-// Listen for file selection
 //document.getElementById("csvFileBss").addEventListener("change", handleFileSelectBss);
 document.getElementById("searchBestSequence").addEventListener("click", searchBestSequence);
 document.getElementById("searchAllSequences").addEventListener("click", searchAllSequences);
+document.getElementById("StartPsc").addEventListener("click", startPsc);
 
 parseCSV(meropsData);
 
@@ -16,7 +16,6 @@ $("#ProteasesToConsiderBss").chosen().change(onProteasesToConsiderBssChanged);
 $("#ProteasesToConsiderPsc").chosen().change(onProteasesToConsiderPscChanged);
 
 
-// Handle CSV file selection and parsing
 function handleFileSelectBss(event) {
     const file = event.target.files[0];
     if (!file) {
@@ -32,16 +31,14 @@ function handleFileSelectBss(event) {
     reader.readAsText(file);
 }
 
-// Parse CSV using PapaParse or similar library
 function parseCSV(data) {
-    // Example CSV parsing using PapaParse
-    bss.Translate_File(data)  
+    bss.Translate_File(data);
+    psc.Translate_File(data);
     updateProteaseDropdown();
     document.getElementById("csvFileLabelBss").innerText = "CSV File Loaded Successfully!";
     document.getElementById("csvLoadFileText").innerText = "Reload CSV File"
 }
 
-// Update dropdown with proteases
 function updateProteaseDropdown() {
     const proteasesBss = document.getElementById("ProteasesToConsiderBss");
     const proteasesPsc = document.getElementById("ProteasesToConsiderPsc");
@@ -255,4 +252,44 @@ function searchAllSequences() {
     document.getElementById("searchResults").appendChild(div);
 }
 
+function startPsc() {
+    let stc = [];
+    for (let i = 1; i <= 8; i++) {
+        stc.push(document.getElementById("AA" + i).value);
+    }
+    psc.The_Calculation(proteaseToConsiderPsc, stc, 'C');
 
+    document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
+    var tbl = document.createElement('table');
+    tbl.style.width = '800px';
+    tbl.classList.add("withBorder");
+
+    const rownames = ["Sequence", "Highest Score", "Closest Protease", "Lowest Score", "Farthest Protease"];
+    for (let i = 0; i < psc.Final_Result.length; i++) {
+        var tr = tbl.insertRow();
+        var td = tr.insertCell();
+        td.classList.add("withBorder");
+        td.appendChild(document.createTextNode(rownames[i]));
+        for (let j = 0; j < psc.Final_Result[i].length; j++) {
+            td = tr.insertCell();
+            td.classList.add("withBorder");
+            td.appendChild(document.createTextNode(psc.Final_Result[i][j]));
+        }
+    }
+
+     for (let i = 0; i < proteaseToConsiderPsc.length; i++) {
+        var tr = tbl.insertRow();
+        var td = tr.insertCell();
+        td.classList.add("withBorder");
+        td.appendChild(document.createTextNode(proteaseToConsiderPsc[i]));
+        for (let j = 0; j < psc.Values_By_Protease_And_Position[i].length; j++) {
+            td = tr.insertCell();
+            td.classList.add("withBorder");
+            td.appendChild(document.createTextNode(psc.Values_By_Protease_And_Position[i][j]));
+        }
+        var td = tr.insertCell();
+        td.classList.add("withBorder");
+        td.appendChild(document.createTextNode(psc.Mean_By_Proteases[i]));
+    }
+    document.getElementById("searchResults").appendChild(tbl);
+}
