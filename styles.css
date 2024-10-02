@@ -28,3 +28,9 @@ label, input, button {
     padding: 5px;
     background-color: #f0f0f0;
 }
+
+.required:after {
+content:" *";
+color: red;
+}
+

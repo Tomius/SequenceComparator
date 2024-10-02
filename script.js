@@ -3,6 +3,7 @@ let psc = new ProteaseScoreCalculation();
 let proteaseList = [];
 let proteaseToConsiderBss = [];
 let proteaseToConsiderPsc = [];
+let aminoAcidsToExclude = [];
 
 //document.getElementById("csvFileBss").addEventListener("change", handleFileSelectBss);
 document.getElementById("searchBestSequence").addEventListener("click", searchBestSequence);
@@ -14,7 +15,7 @@ parseCSV(meropsData);
 $(".chosen-select").chosen();
 $("#ProteasesToConsiderBss").chosen().change(onProteasesToConsiderBssChanged);
 $("#ProteasesToConsiderPsc").chosen().change(onProteasesToConsiderPscChanged);
-
+$("#AminoAcidsToExclude").chosen().change(onAminoAcidsToExcludeChanged);
 
 function handleFileSelectBss(event) {
     const file = event.target.files[0];
@@ -95,6 +96,18 @@ function onProteasesToConsiderPscChanged(evt, params) {
     }
 }
 
+function onAminoAcidsToExcludeChanged(evt, params) {
+    if (params.selected) {
+        aminoAcidsToExclude.push(params.selected);
+    }
+    if (params.deselected) {
+        const index = aminoAcidsToExclude.indexOf(params.deselected);
+        if (index > -1) {
+          aminoAcidsToExclude.splice(index, 1);
+        }
+    }
+}
+
 function searchBestSequence() {
     const proteaseOfInterest = document.getElementById("ProteaseInterest").value;
     finalMinScore = document.getElementById("minPoiScore").value;
@@ -104,7 +117,7 @@ function searchBestSequence() {
     finalMinSelec = document.getElementById("minPoiSelectivity").value;
     if (finalMinSelec == '')
        finalMinSelec = 0;
-    const res = bss.The_Calculation(proteaseToConsiderBss, proteaseOfInterest, finalMinScore, finalMinSelec);
+    const res = bss.The_Calculation(proteaseToConsiderBss, proteaseOfInterest, finalMinScore, finalMinSelec, aminoAcidsToExclude);
     
     document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
     var tbl = document.createElement('table');
@@ -162,6 +175,34 @@ function searchAllSequences() {
        finalMinSelec = 0;
 
     document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
+
+    const res = bss.Multiple_Calculations(proteaseToConsiderBss, proteaseOfInterest, finalMinScore, finalMinSelec, aminoAcidsToExclude);
+
+    if (res.combinations.length > 200) {
+        div = document.createElement('div');
+        let p = document.createElement('p');
+        p.appendChild(document.createTextNode("It seems that you have generated a library of more than 200 sequences."));
+        div.appendChild(p);
+        p = document.createElement('p');
+        p.appendChild(document.createTextNode("If you wish to reduce its size, you can:"));
+        div.appendChild(p);
+        let ul = document.createElement('ul');
+        let li = document.createElement('li');
+        li.appendChild(document.createTextNode("Increase the number of proteases to consider,"));
+        ul.appendChild(li);
+        li = document.createElement('li');
+        li.appendChild(document.createTextNode("Increase the minimal amino acid selectivity of your protease of interest,"));
+        ul.appendChild(li);
+        li = document.createElement('li');
+        li.appendChild(document.createTextNode("Increase the minimal amino acid score of your protease of interest,"));
+        ul.appendChild(li);
+        li = document.createElement('li');
+        li.appendChild(document.createTextNode("Remove amino acid(s) from the calculation."));
+        ul.appendChild(li);
+        div.appendChild(ul);
+        document.getElementById("searchResults").appendChild(div);
+    }
+
     var div = document.createElement('div');
     var h3 = document.createElement('h3');
     h3.appendChild(document.createTextNode("Summary of results"));
@@ -170,8 +211,6 @@ function searchAllSequences() {
     div.appendChild(tbl);
     tbl.style.width = '1000px';
     tbl.classList.add("withBorder");
-
-    const res = bss.Multiple_Calculations(proteaseToConsiderBss, proteaseOfInterest, finalMinScore, finalMinSelec);
 
     var colnames = ["", "P4", "P3", "P2", "P1", "P1'", "P2'", "P3'", "P4'"];
     var tr = tbl.insertRow();

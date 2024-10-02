@@ -58,7 +58,7 @@ class BestSequenceSearch {
         this.Index_POI = this.MEROPS_Proteases_List.indexOf(POI);
     }
 
-    The_Calculation(PTC, POI, MinScore, MinSelec) {
+    The_Calculation(PTC, POI, MinScore, MinSelec, AAExclude) {
         this.Indexation(PTC, POI);
 
         this.Ratio_By_AA_And_Position = Array.from({ length: 20 }, () => Array(8).fill(0));
@@ -106,7 +106,7 @@ class BestSequenceSearch {
         return this.Final_Result;
     }
 
-    Multiple_Calculations(PTC, POI, inputMinScore, inputMinSelec) {
+    Multiple_Calculations(PTC, POI, inputMinScore, inputMinSelec, AAExclude) {
         this.Final_Result_LOOP = this.The_Calculation(PTC, POI, inputMinScore, inputMinSelec);
 
         let AA_Changed = Array.from({ length: 2 }, () => Array(1).fill(Array(8).fill('')));
