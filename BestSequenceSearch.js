@@ -61,6 +61,7 @@ class BestSequenceSearch {
     The_Calculation(PTC, POI, MinScore, MinSelec, AAExclude) {
         this.Indexation(PTC, POI);
 
+        this.IndexAAExclude = AAExclude.map(aa => this.MEROPS_All_AA.indexOf(aa));
         this.Ratio_By_AA_And_Position = Array.from({ length: 20 }, () => Array(8).fill(0));
         let Max_By_Position = Array(8).fill(0);
         let Value_At_The_Protease_Of_Interest = Array(8).fill(0);
@@ -73,6 +74,9 @@ class BestSequenceSearch {
             let Max_By_AA = Array(20).fill(0);
 
             for (let i = 0; i < 20; i++) {
+                if (this.IndexAAExclude.includes(i)) {
+                    continue;
+                }
                 if (Values_By_AA[this.Index_POI][i] >= MinScore) {
                     for (let j = 0; j < this.MEROPS_Proteases_List.length; j++) {
                         if (j !== this.Index_POI && this.Index_PTC.includes(j)) {
@@ -107,14 +111,14 @@ class BestSequenceSearch {
     }
 
     Multiple_Calculations(PTC, POI, inputMinScore, inputMinSelec, AAExclude) {
-        this.Final_Result_LOOP = this.The_Calculation(PTC, POI, inputMinScore, inputMinSelec);
+        this.Final_Result_LOOP = this.The_Calculation(PTC, POI, inputMinScore, inputMinSelec, AAExclude);
 
         let AA_Changed = Array.from({ length: 2 }, () => Array(1).fill(Array(8).fill('')));
         AA_Changed[0][0] = this.Final_Result_LOOP[0];
         AA_Changed[1][0] = this.Final_Result_LOOP[3];
 
         for (let MinScore = inputMinScore; MinScore < Math.round(Math.max.apply(null, this.MEROPS_Normalised_Values.flat().flat())); MinScore++) {
-            this.The_Calculation(PTC, POI, MinScore, inputMinSelec);
+            this.The_Calculation(PTC, POI, MinScore, inputMinSelec, AAExclude);
 
             if (this.Final_Result[1].some(val => val != 0.0)) {
                 if (this.Final_Result[0].some((val, i) => val !== this.Final_Result_LOOP[this.Final_Result_LOOP.length - 4][i])) {
