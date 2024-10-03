@@ -153,7 +153,7 @@ function searchBestSequence() {
     div.appendChild(tbl);
 
     h3 = document.createElement('h3');
-    h3.appendChild(document.createTextNode("Score per Amino Acid"));
+    h3.appendChild(document.createTextNode("Score per amino acid"));
     div.appendChild(h3);
 
     var tbl = document.createElement('table');
