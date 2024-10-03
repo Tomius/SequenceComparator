@@ -30,7 +30,11 @@ label, input, button {
 }
 
 .required:after {
-content:" *";
-color: red;
+    content:" *";
+    color: red;
+}
+
+.withBorder tbody tr:nth-child(odd) {
+  background-color: #eeeeee;
 }
 
