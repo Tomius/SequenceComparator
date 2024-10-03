@@ -206,7 +206,7 @@ function searchAllSequences() {
         p.appendChild(document.createTextNode("It seems that you have generated a library of " + res.combinations.length + " sequences."));
         div.appendChild(p);
         p = document.createElement('p');
-        p.appendChild(document.createTextNode("If you wish to reduce its size, you can:"));
+        p.appendChild(document.createTextNode("If you wish to reduce its size, you can try to:"));
         div.appendChild(p);
         let ul = document.createElement('ul');
         let li = document.createElement('li');
@@ -219,7 +219,7 @@ function searchAllSequences() {
         li.appendChild(document.createTextNode("Increase the minimal amino acid score of your protease of interest,"));
         ul.appendChild(li);
         li = document.createElement('li');
-        li.appendChild(document.createTextNode("Remove amino acid(s) from the calculation."));
+        li.appendChild(document.createTextNode("Exclude amino acids from the calculation."));
         ul.appendChild(li);
         div.appendChild(ul);
         document.getElementById("searchResults").appendChild(div);
