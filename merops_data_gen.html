@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merops data generation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Merops data generation</h1>
+    <p>Please wait for the csv to be generated</p>
+    <p>Querying list of proteases: <span id="ProteaseListCurrent">0</span>/<span id="ProteaseListMax">0</span></p>
+    <p>Collecting data about the proteases: <span id="ProteaseDataCurrent">0</span>/<span id="ProteaseDataMax">0</span></p>
+    <ul>
+        <li>Data found: <span id="DataFound">0</span></li>
+        <li>Data is missing: <span id="DataMissing">0</span></li>
+        <li>Failed to query: <span id="FailedToQuery">0</span></li>
+    </ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="merops_data_gen.js"></script>
+</body>
+</html>
