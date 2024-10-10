@@ -64,6 +64,7 @@ function updateProteaseDropdown() {
 function onProteasesToConsiderBssChanged(evt, params) {
     if (params.selected) {
         proteaseToConsiderBss.push(params.selected);
+        document.getElementById("ProteasesToConsiderBssEmptyWarning").style.display = "none";
     }
     if (params.deselected) {
         const index = proteaseToConsiderBss.indexOf(params.deselected);
@@ -89,6 +90,7 @@ function onProteasesToConsiderBssChanged(evt, params) {
 function onProteasesToConsiderPscChanged(evt, params) {
     if (params.selected) {
         proteaseToConsiderPsc.push(params.selected);
+        document.getElementById("ProteasesToConsiderPscEmptyWarning").style.display = "none";
     }
     if (params.deselected) {
         const index = proteaseToConsiderPsc.indexOf(params.deselected);
@@ -111,6 +113,11 @@ function onAminoAcidsToExcludeChanged(evt, params) {
 }
 
 function searchBestSequence() {
+    if (proteaseToConsiderBss.length === 0) {
+        document.getElementById("ProteasesToConsiderBssEmptyWarning").style.display = "block";
+        return;
+    }
+
     const proteaseOfInterest = document.getElementById("ProteaseInterest").value;
     finalMinScore = document.getElementById("minPoiScore").value;
     if (finalMinScore == '') 
@@ -185,9 +192,15 @@ function searchBestSequence() {
     }
     div.appendChild(tbl)
     document.getElementById("searchResults").appendChild(div);
+    document.getElementById("searchResults").scrollIntoView();
 }
 
 function searchAllSequences() {
+    if (proteaseToConsiderBss.length === 0) {
+        document.getElementById("ProteasesToConsiderBssEmptyWarning").style.display = "block";
+        return;
+    }
+
     const proteaseOfInterest = document.getElementById("ProteaseInterest").value;
     finalMinScore = document.getElementById("minPoiScore").value;
     if (finalMinScore == '') 
@@ -316,9 +329,15 @@ function searchAllSequences() {
         }
     }
     document.getElementById("searchResults").appendChild(div);
+    document.getElementById("searchResults").scrollIntoView();
 }
 
 function startPsc() {
+    if (proteaseToConsiderPsc.length === 0) {
+        document.getElementById("ProteasesToConsiderPscEmptyWarning").style.display = "block";
+        return;
+    }
+
     let stc = [];
     for (let i = 1; i <= 8; i++) {
         stc.push(document.getElementById("AA" + i).value);
@@ -366,4 +385,5 @@ function startPsc() {
         td.appendChild(document.createTextNode(psc.Mean_By_Proteases[i]));
     }
     document.getElementById("searchResults").appendChild(tbl);
+    document.getElementById("searchResults").scrollIntoView();
 }

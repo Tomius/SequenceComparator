@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sequence Comparator Software</title>
-    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Sequence Comparator Software</h1>
@@ -23,13 +25,40 @@
         <table><tr>
             <td style="width: 700px; vertical-align:top ">
                 <div class="section">
-                    <h2>Best Sequence Search</h2>
+                    <h2>Best Sequence Search 
+                        <span class="info">
+                          <i class="icon-info-sign"></i>
 
-                    <label for="ProteasesToConsiderBss"><h3 class="required">Proteases to consider</h3></label>
+                          <span class="extra-info">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                          </span>
+                        </span>
+                    </h2>
+
+                    <label for="ProteasesToConsiderBss"><h3>Proteases to consider <span style="color:red">*</span>
+                        <span class="info">
+                          <i class="icon-info-sign"></i>
+
+                          <span class="extra-info">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                          </span>
+                        </span>
+                    </h3></label>
+
                     <select style="width: 500px; height: 30px" data-placeholder="Begin typing a name to filter..." id="ProteasesToConsiderBss" multiple class="chosen-select" name="ProteasesToConsiderBss">
                     </select>
+                    <p style="color:red;display:none;" id="ProteasesToConsiderBssEmptyWarning">Please select the proteases to consider</p>
 
-                    <label for="AminoAcidsToExclude"><h3>Amino acids to exclude</h3></label>
+                    <label for="AminoAcidsToExclude">
+                    <h3>Amino acids to exclude
+                        <span class="info">
+                          <i class="icon-info-sign"></i>
+
+                          <span class="extra-info">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                          </span>
+                        </span>
+                    </h3></label>
                     <select style="width: 500px; height: 30px" data-placeholder="Begin typing a name to filter..." id="AminoAcidsToExclude" multiple class="chosen-select" name="AminoAcidsToExclude">
                         <option>Ala</option>
                         <option>Arg</option>
@@ -53,12 +82,36 @@
                         <option>Val</option>
                     </select>
                     
-                    <label for="ProteaseInterest"><h3 class="required">Protease of interest</h3></label>
+                    <label for="ProteaseInterest"><h3>Protease of interest<span style="color:red;">*</span>
+                        <span class="info">
+                          <i class="icon-info-sign"></i>
+
+                          <span class="extra-info">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                          </span>
+                        </span>
+                    </h3></label>
                     <select name="ProteaseInterest" id="ProteaseInterest" class="chosen-select" style="width: 500px"> </select>
                     
-                    <label for="minPoiScore" ><h3>Minimal POI Score</h3></label>
+                    <label for="minPoiScore" ><h3>Minimal POI Score
+                        <span class="info">
+                          <i class="icon-info-sign"></i>
+
+                          <span class="extra-info">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                          </span>
+                        </span>
+                    </h3></label>
                     <input type="number" step="1" id="minPoiScore" />
-                    <label for="minPoiSelectivity" ><h3>Minimal POI Selectivity</h3></label>
+                    <label for="minPoiSelectivity" ><h3>Minimal POI Selectivity
+                        <span class="info">
+                          <i class="icon-info-sign"></i>
+
+                          <span class="extra-info">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                          </span>
+                        </span>
+                    </h3></label>
                     <input type="number" step="1" id="minPoiSelectivity" />
 
                     <table>
@@ -265,7 +318,10 @@
                 <label for="ProteasesToConsiderPsc"><h3 class="required">Proteases to consider</h3></label>
                 <select style="width: 500px; height: 30px" data-placeholder="Begin typing a name to filter..." id="ProteasesToConsiderPsc" multiple class="chosen-select" name="ProteasesToConsiderPsc">
                 </select>
-                <button id="StartPsc">Start Calculation</button>
+                <p style="color:red;display:none;" id="ProteasesToConsiderPscEmptyWarning">Please select the proteases to consider</p>
+                <div>
+                    <button id="StartPsc">Start Calculation</button>
+                </div>
             </td>
         </tr></table>
         <div id="searchResults"></div>

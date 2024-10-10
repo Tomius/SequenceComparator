@@ -1,6 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: #EEEEEE !important;
     padding: 20px;
 }
 
@@ -10,11 +9,6 @@ h1 {
 
 .section {
     margin-bottom: 30px;
-}
-
-label, input, button {
-    display: block;
-    margin: 10px 0;
 }
 
 .withBorder {
@@ -35,6 +29,43 @@ label, input, button {
 }
 
 .withBorder tbody tr:nth-child(odd) {
-  background-color: #eeeeee;
+  background-color: #e0e0e0;
 }
+
+input, button {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    margin-right: 5px;
+}
+
+/* 
+* {
+  transition: all .2s ease;
+} */
+
+.extra-info {
+  display: none;
+  font-size: 12px;
+  width: 500px;
+  color: black;
+}
+
+.info:hover .extra-info {
+  display: block;
+}
+
+.info {
+  display: inline;
+  font-size: 20px;
+  color: rgba(200, 200, 200, 1);
+  border-radius: 15px;
+}
+
+.info:hover {
+  background-color: white;
+}
+
 
