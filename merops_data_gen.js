@@ -132,7 +132,7 @@ Promise.all(promisesToAwait).then(x => {
 	    		if (alternativeNames.length === 0) {
 					csv_data.push(proteaseInfo.mainName);
 	    		} else {
-	    			csv_data.push(`${proteaseInfo.mainName} | ${alternativeNames.join(" | ")}`);
+	    			csv_data.push(`${proteaseInfo.mainName};${alternativeNames.join(";")}`);
 	    		}
 	    		
 	    		csv_data.push("Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'")

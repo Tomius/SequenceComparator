@@ -151,7 +151,7 @@ function searchBestSequence() {
         for (let j = 0; j < res[i].length; j++) {
             td = i == 0 ? document.createElement("th") : tr.insertCell();
             td.classList.add("withBorder");
-            let data = i == 2 ? res[i][j].split(" | ")[0] : res[i][j];
+            let data = i == 2 ? res[i][j].split(proteaseSeparatorChar)[0] : res[i][j];
             td.appendChild(document.createTextNode(data));
             if (i == 0) {
                 tr.appendChild(td);
@@ -297,7 +297,7 @@ function searchAllSequences() {
         for (let j = 0; j < res.Final_Result_LOOP[i].length; j++) {
             let td = tr.insertCell();
             td.classList.add("withBorder");
-            let data = i%rownames.length == 2 ? res.Final_Result_LOOP[i][j].split(" | ")[0] : res.Final_Result_LOOP[i][j];
+            let data = i%rownames.length == 2 ? res.Final_Result_LOOP[i][j].split(proteaseSeparatorChar)[0] : res.Final_Result_LOOP[i][j];
             td.appendChild(document.createTextNode(data));
         }
     }
@@ -362,7 +362,7 @@ function startPsc() {
         for (let j = 0; j < psc.Final_Result[i].length; j++) {
             let td = i == 0 ? document.createElement("th") : tr.insertCell();
             td.classList.add("withBorder");
-            let data = i == 2 || i == 4 ? psc.Final_Result[i][j].split(" | ")[0] : psc.Final_Result[i][j];
+            let data = i == 2 || i == 4 ? psc.Final_Result[i][j].split(proteaseSeparatorChar)[0] : psc.Final_Result[i][j];
             td.appendChild(document.createTextNode(data));
             if (i == 0) {
                 tr.appendChild(td);
@@ -374,7 +374,7 @@ function startPsc() {
         var tr = tbl.insertRow();
         var td = tr.insertCell();
         td.classList.add("withBorder");
-        td.appendChild(document.createTextNode(proteaseToConsiderPsc[i].split(" | ")[0]));
+        td.appendChild(document.createTextNode(proteaseToConsiderPsc[i].split(proteaseSeparatorChar)[0]));
         for (let j = 0; j < psc.Values_By_Protease_And_Position[i].length; j++) {
             td = tr.insertCell();
             td.classList.add("withBorder");

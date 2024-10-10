@@ -1,3 +1,5 @@
+var proteaseSeparatorChar = " | ";
+
 class BestSequenceSearch {
     constructor() {
         this.MEROPS_Proteases_List = [];
@@ -15,14 +17,14 @@ class BestSequenceSearch {
     Translate_File(csvContent) {
         const Raw_CSV = csvContent.split('\n').map(line => line.split(';'));
         this.MEROPS_Raw_Values = [Raw_CSV.slice(2, 22).sort().map(row => row.slice(1))];
-        this.MEROPS_Proteases_List = [Raw_CSV[0][0]];
+        this.MEROPS_Proteases_List = [Raw_CSV[0].join(proteaseSeparatorChar)];
 
         for (let a = 0; a < Math.floor(Raw_CSV.length / 22) - 1; a++) {
             const Loop1_Values = [Raw_CSV.slice(22 * (a + 1) + 2, 22 * (a + 2)).sort().map(row => row.slice(1))];
             this.MEROPS_Raw_Values = this.MEROPS_Raw_Values.concat(Loop1_Values);
 
-            const Loop2_Proteases = [Raw_CSV[22 * (a + 1)][0]];
-            this.MEROPS_Proteases_List = this.MEROPS_Proteases_List.concat(Loop2_Proteases);
+            const Loop2_Proteases = Raw_CSV[22 * (a + 1)].join(proteaseSeparatorChar);
+            this.MEROPS_Proteases_List.push(Loop2_Proteases);
         }
 
         this.MEROPS_Raw_Values = this.MEROPS_Raw_Values.map(array1 => array1.map(array2 => array2.map(val => Number(val))));

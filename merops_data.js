@@ -1,4 +1,4 @@
-var meropsData = `pepsin A | pepsin A3 | pepsin isoenzyme 3b | pepsinogen A | pepsinogen A3 | PGA3 g.p. (Homo sapiens) | EC 3.4.23.1
+var meropsData = `pepsin A;pepsin A3;pepsin isoenzyme 3b;pepsinogen A;pepsinogen A3;PGA3 g.p. (Homo sapiens);EC 3.4.23.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;56;78;58;39;25;38;40;57
 Pro;93;51;9;7;29;16;21;45
@@ -20,7 +20,7 @@ Glu;78;75;105;104;53;74;63;75
 Lys;74;32;58;21;56;81;87;82
 Arg;36;10;40;15;35;84;40;49
 His;23;6;12;3;15;13;20;26
-pepsin B | gelatinase, gastric (Sus) | parapepsin I | pig gastric gelatinase | EC 3.4.23.2
+pepsin B;gelatinase, gastric (Sus);parapepsin I;pig gastric gelatinase;EC 3.4.23.2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;4;12;0;1;0;0;2
 Pro;17;0;0;0;0;0;1;1
@@ -42,7 +42,7 @@ Glu;2;4;6;0;1;2;0;0
 Lys;0;2;1;0;0;0;0;1
 Arg;2;1;0;0;0;17;0;0
 His;0;0;1;0;0;0;0;0
-gastricsin | seminal progastricsin | pepsin C | progastricsin, seminal | EC 3.4.23.3
+gastricsin;seminal progastricsin;pepsin C;progastricsin, seminal;EC 3.4.23.3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;5;2;0;0;0;1;1
 Pro;3;1;2;0;1;0;1;3
@@ -64,7 +64,7 @@ Glu;5;2;3;2;3;3;2;2
 Lys;1;1;4;0;0;3;2;1
 Arg;1;1;2;1;1;3;0;1
 His;4;0;3;2;1;1;3;3
-BACE1 g.p. (Homo sapiens) | memapsin-2 | Alzheimer’s disease beta-secretase (putative)secretase, beta (putative), Alzheimer’s disease | Asp2 protease | BACE-1 | BACE1 | beta-secretase | beta-site APP-cleaving enzyme | EC 3.4.23.46
+BACE1 g.p. (Homo sapiens);BACE-1;BACE1;beta-secretase;beta-site APP-cleaving enzyme;Alzheimer’s disease beta-secretase (putative)secretase, beta (putative), Alzheimer’s disease;Asp2 protease;memapsin-2;EC 3.4.23.46
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;7;1;1;1;3;0;2;0
 Pro;0;0;1;0;0;0;0;0
@@ -86,7 +86,7 @@ Glu;7;1;2;0;3;2;5;2
 Lys;2;0;2;0;0;0;2;1
 Arg;1;1;0;1;0;1;1;1
 His;1;0;1;1;0;1;1;0
-chymosin | rennet | rennin | chymosin A | chymosin B | chymosin C | EC 3.4.23.4
+chymosin;rennet;rennin;chymosin A;chymosin B;chymosin C;EC 3.4.23.4
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;1;0;0
 Pro;4;4;1;0;0;1;0;8
@@ -108,7 +108,7 @@ Glu;0;2;3;0;0;1;1;0
 Lys;0;0;1;0;0;1;1;1
 Arg;1;1;1;0;1;2;0;0
 His;6;0;0;0;0;0;0;0
-renin | angiotensin-forming enzyme | angiotensinogenase | Ren1 g.p. (Mus musculus) | renin-a (Mus musculus) | renin-b (Mus musculus) | EC 3.4.23.15
+renin;angiotensin-forming enzyme;angiotensinogenase;Ren1 g.p. (Mus musculus);renin-a (Mus musculus);renin-b (Mus musculus);EC 3.4.23.15
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;10;0;0;0;0;0;0;0
@@ -130,7 +130,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;9;0;0;0;4;0
-renin-2 | submandibular renin | Ren2 g.p. (Mus musculus) | renin, submandibular
+renin-2;Ren2 g.p. (Mus musculus);renin, submandibular;submandibular renin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;3;0;0;0;0;0;0;0
@@ -152,7 +152,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;3;0;0;0;3;0
-cathepsin D | BmCatD g.p. (Bombyx mori) | todarepsin (Todarodes pacificus) | longepsin (Haemaphysalis longicornis) | lysosomal aspartic protease (Aedes aegypti) | CatD | cathepsin D1 (Ictalurus punctatus) | cathepsin D2 (Ictalurus punctatus) | CLN10 (Homo sapiens) | CTSD g.p. (Homo sapiens) | EC 3.4.22.15
+cathepsin D;BmCatD g.p. (Bombyx mori);longepsin (Haemaphysalis longicornis);lysosomal aspartic protease (Aedes aegypti);todarepsin (Todarodes pacificus);CatD;cathepsin D1 (Ictalurus punctatus);cathepsin D2 (Ictalurus punctatus);CLN10 (Homo sapiens);CTSD g.p. (Homo sapiens);EC 3.4.22.15
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;44;50;29;25;9;58;65;90
 Pro;57;33;2;2;5;4;16;62
@@ -174,7 +174,7 @@ Glu;68;106;94;44;72;82;101;79
 Lys;34;37;31;7;34;69;75;82
 Arg;35;28;34;3;2;20;7;2
 His;13;6;8;2;0;4;7;9
-cathepsin E | slow-moving proteinase | aspartic proteinase, erythrocyte membranecathepsin, gastric | gastric cathepsin | CTSE g.p. (Homo sapiens) | EC 3.4.23.34 | erythrocyte membrane aspartic proteinase
+cathepsin E;gastric cathepsin;aspartic proteinase, erythrocyte membranecathepsin, gastric;CTSE g.p. (Homo sapiens);slow-moving proteinase;EC 3.4.23.34;erythrocyte membrane aspartic proteinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;135;71;48;24;19;79;91;181
 Pro;127;47;1;0;6;0;21;76
@@ -196,7 +196,7 @@ Glu;139;153;182;134;74;143;173;119
 Lys;107;86;53;3;25;96;127;131
 Arg;87;52;35;7;3;9;3;2
 His;44;18;26;1;0;0;0;6
-penicillopepsin | aspartic proteinase (Penicillium janthinellum) | penicillopepsin JT-1 | penicillopepsin JT-2 | peptidase A | EC 3.4.23.20
+penicillopepsin;aspartic proteinase (Penicillium janthinellum);penicillopepsin JT-1;penicillopepsin JT-2;peptidase A;EC 3.4.23.20
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;2;1
 Pro;1;0;0;0;0;0;0;0
@@ -218,7 +218,7 @@ Glu;0;0;0;0;1;1;0;0
 Lys;0;0;1;13;0;0;0;1
 Arg;0;1;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-rhizopuspepsin | SAP1 g.p. (Rhizopus oryzae) | SAP2 g.p. (Rhizopus oryzae) | SAP3 g.p. (Rhizopus oryzae) | SAP4 g.p. (Rhizopus oryzae) | secreted aspartic proteinase | aspartic proteinase (Rhizopus)aspartic proteinase, secretedSAP | protease type XVIII (Rhizopus sp.) | EC 3.4.23.21
+rhizopuspepsin;aspartic proteinase (Rhizopus)aspartic proteinase, secretedSAP;SAP1 g.p. (Rhizopus oryzae);SAP2 g.p. (Rhizopus oryzae);SAP3 g.p. (Rhizopus oryzae);SAP4 g.p. (Rhizopus oryzae);secreted aspartic proteinase;protease type XVIII (Rhizopus sp.);EC 3.4.23.21
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;22;19;18;14;10;20;20;19
 Pro;18;11;4;6;7;5;7;9
@@ -240,7 +240,7 @@ Glu;13;16;25;12;13;17;14;15
 Lys;22;13;27;26;15;19;13;14
 Arg;8;10;10;12;9;20;8;5
 His;2;5;1;8;3;1;2;6
-mucorpepsin | Rennilase | rennin (Rhizomucor/Mucor) | EC 3.4.23.23
+mucorpepsin;Rennilase;rennin (Rhizomucor/Mucor);EC 3.4.23.23
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;1
 Pro;1;0;0;0;0;1;1;2
@@ -262,7 +262,7 @@ Glu;2;1;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;1;1;0;0;1;1;0;0
 His;1;0;1;0;0;0;0;0
-candidapepsin SAP1 | SAP1 g.p. (Candida albicans) | SAP1 proteinase (Candida albicans) | secreted aspartic proteinase 1 (Candida albicans) | EC 3.4.23.24
+candidapepsin SAP1;SAP1 g.p. (Candida albicans);SAP1 proteinase (Candida albicans);secreted aspartic proteinase 1 (Candida albicans);EC 3.4.23.24
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;0;0;1;1
 Pro;2;0;0;0;0;0;1;1
@@ -284,7 +284,7 @@ Glu;0;0;15;0;2;1;0;0
 Lys;1;0;1;2;0;0;0;1
 Arg;1;1;1;1;0;3;0;0
 His;0;1;1;1;0;0;1;0
-barrierpepsin | alpha-factor protease | Bar g.p. (Saccharomyces cerevisiae) | Bar1 peptidase | barrier proteinase | EC 3.4.23.35
+barrierpepsin;Bar g.p. (Saccharomyces cerevisiae);Bar1 peptidase;barrier proteinase;alpha-factor protease;EC 3.4.23.35
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;0;0;0;0;0;1;0;0
@@ -306,7 +306,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-aspergillopepsin I | molsin | AOAP peptidase | aspartic proteinase II-1 (Aspergillus oryzae) | aspergillopepsin A | aspergillopeptidase A | oryzepsin | PepA g.p. (Aspergillus niger) | proctase B | protease type XIII (Aspergillus saitou) | proteinase B | prtB g.p. (Aspergillus nidulans) | EC 3.4.23.18
+aspergillopepsin I;AOAP peptidase;aspartic proteinase II-1 (Aspergillus oryzae);aspergillopepsin A;aspergillopeptidase A;oryzepsin;PepA g.p. (Aspergillus niger);proctase B;protease type XIII (Aspergillus saitou);proteinase B;prtB g.p. (Aspergillus nidulans);molsin;EC 3.4.23.18
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;9;9;13;11;10;14;9;14
 Pro;3;2;4;1;5;6;6;13
@@ -328,7 +328,7 @@ Glu;11;9;12;16;8;9;10;9
 Lys;13;13;10;21;10;12;19;11
 Arg;4;12;4;7;3;2;3;4
 His;6;7;1;9;2;3;5;10
-endothiapepsin | Suparen | aspartic proteinase (Endothia) | EC 3.4.23.22
+endothiapepsin;aspartic proteinase (Endothia);Suparen;EC 3.4.23.22
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;0;0;0;0;2
 Pro;2;0;0;0;0;0;0;1
@@ -350,7 +350,7 @@ Glu;2;0;1;0;0;1;0;0
 Lys;0;0;0;4;0;0;0;0
 Arg;0;1;0;0;0;1;0;0
 His;0;1;1;0;1;1;0;0
-saccharopepsin | allergen Rhi o 1 (Rhizopus oryzae) | aspartic proteinase (Neurospora) | aspartic proteinase (Saccharomyces cerevisiae)proteinase A (Saccharomyces) | yeast proteinase A | yscA g.p. (Saccharomyces cerevisiae) | neurosporapepsin | pep-4 g.p. (Neurospora crassa) | PEP2 g.p. (Aspergillus fumigatus) | PEP4 g.p. (Saccharomyces cerevisiae) | peptidase E (Aspergillus fumigatus) | EC 3.4.23.25
+saccharopepsin;allergen Rhi o 1 (Rhizopus oryzae);aspartic proteinase (Neurospora);aspartic proteinase (Saccharomyces cerevisiae)proteinase A (Saccharomyces);neurosporapepsin;yeast proteinase A;yscA g.p. (Saccharomyces cerevisiae);pep-4 g.p. (Neurospora crassa);PEP2 g.p. (Aspergillus fumigatus);PEP4 g.p. (Saccharomyces cerevisiae);peptidase E (Aspergillus fumigatus);EC 3.4.23.25
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;1;1;0;1
 Pro;2;0;0;0;0;0;1;1
@@ -372,7 +372,7 @@ Glu;2;2;1;1;1;0;0;0
 Lys;0;0;1;1;1;0;1;1
 Arg;1;2;0;0;0;2;0;0
 His;0;1;0;0;0;0;1;0
-polyporopepsin | aspartic proteinase (Polyporus) | EC 3.4.23.29
+polyporopepsin;aspartic proteinase (Polyporus);EC 3.4.23.29
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;0;0;0;0;0
 Pro;1;0;0;0;1;0;0;5
@@ -394,7 +394,7 @@ Glu;1;0;1;0;0;1;1;0
 Lys;0;0;1;1;0;2;0;1
 Arg;1;1;1;0;0;0;0;0
 His;1;0;1;0;0;0;1;0
-phytepsin | salpichroin (Salpichroa origanifolia) | soyAP1 (Glycine max) | soyAP2 (Glycine max) | StAsp (Solanum tuberosum) | arctiumisin (Arctium minus) | aspartic endopeptidase, seed | At1g11910 (Arabidopsis thaliana) | AtPaspA1 (Arabidopsis thaliana) | AtPaspA2 (Arabidopsis thaliana) | AtPaspA3 (Arabidopsis thaliana) | WAP1 (Triticum aestivum) | WAP2 (Triticum aestivum) | oryzasin | LeAspP | pra-1 g.p. (Arabidopsis thaliana) | cardosin A (Cynara cardunculus) | cardosin B (Cynara cardunculus) | cardosin C (Cynara cardunculus) | cardosin D (Cynara cardunculus) | cenprosin Centauria calcitrapa | cirsin (Cirsium vulgare) | CPA63 allergen (Cryptomeria japonica) | cynarase (Cynara cardunculus) | cyprosin | EC 3.4.23.40
+phytepsin;arctiumisin (Arctium minus);aspartic endopeptidase, seed;At1g11910 (Arabidopsis thaliana);AtPaspA1 (Arabidopsis thaliana);AtPaspA2 (Arabidopsis thaliana);AtPaspA3 (Arabidopsis thaliana);LeAspP;cardosin A (Cynara cardunculus);cardosin B (Cynara cardunculus);cardosin C (Cynara cardunculus);cardosin D (Cynara cardunculus);cenprosin Centauria calcitrapa;cirsin (Cirsium vulgare);CPA63 allergen (Cryptomeria japonica);cynarase (Cynara cardunculus);cyprosin;oryzasin;salpichroin (Salpichroa origanifolia);soyAP1 (Glycine max);soyAP2 (Glycine max);StAsp (Solanum tuberosum);WAP1 (Triticum aestivum);WAP2 (Triticum aestivum);pra-1 g.p. (Arabidopsis thaliana);EC 3.4.23.40
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;7;4;1;1;2;0;3
 Pro;6;1;0;0;0;3;2;12
@@ -438,7 +438,7 @@ Glu;4;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;4
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-plasmepsin-1 | aspartic hemoglobinase I (Plasmodium falciparum) | hemoglobinase I (Plasmodium falciparum) | PFAPG | plasmepsin I | plasmepsin Pf-I | EC 3.4.23.38
+plasmepsin-1;aspartic hemoglobinase I (Plasmodium falciparum);hemoglobinase I (Plasmodium falciparum);PFAPG;plasmepsin I;plasmepsin Pf-I;EC 3.4.23.38
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;1
 Pro;1;1;0;0;0;0;0;3
@@ -460,7 +460,7 @@ Glu;6;0;0;0;0;1;0;0
 Lys;1;0;1;0;1;1;2;3
 Arg;0;3;2;0;0;0;0;0
 His;0;0;1;0;0;0;0;1
-plasmepsin-2 | aspartic hemoglobinase II (Plasmodium falciparum) | hemoglobinase II (Plasmodium falciparum) | PFAPD | plasmepsin II | plasmepsin Pf-2 | EC 3.4.23.39
+plasmepsin-2;aspartic hemoglobinase II (Plasmodium falciparum);hemoglobinase II (Plasmodium falciparum);PFAPD;plasmepsin II;plasmepsin Pf-2;EC 3.4.23.39
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;0;1;0;0;0;0
 Pro;2;0;0;0;0;0;0;4
@@ -504,7 +504,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-yapsin-1 | YAP3 [obs.] g.p. (Saccharomyces cerevisiae) | yeast aspartic protease 3 | YPS1 g.p. (Saccharomyces cerevisiae) | CgYps1 peptidase (Candida glabrata) | EC 3.4.23.41
+yapsin-1;CgYps1 peptidase (Candida glabrata);YAP3 [obs.] g.p. (Saccharomyces cerevisiae);yeast aspartic protease 3;YPS1 g.p. (Saccharomyces cerevisiae);EC 3.4.23.41
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;1;0;0;5;2;8
 Pro;4;2;0;0;0;2;0;2
@@ -526,7 +526,7 @@ Glu;3;0;3;0;3;1;7;1
 Lys;3;3;5;20;5;2;1;1
 Arg;6;2;5;21;8;6;3;0
 His;0;0;0;0;0;0;0;0
-yapsin-2 | MKC7 g.p. [obs.] (Saccharomyces cerevisiae) | YPS2 g.p. (Saccharomyces cerevisiae)
+yapsin-2;YPS2 g.p. (Saccharomyces cerevisiae);MKC7 g.p. [obs.] (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -548,7 +548,7 @@ Glu;0;3;1;0;13;0;13;2
 Lys;0;1;7;5;0;0;0;0
 Arg;0;0;2;10;0;0;0;0
 His;1;1;0;0;0;0;0;0
-yapsin-3 | YPS3 g.p. (Saccharomyces cerevisiae)
+yapsin-3;YPS3 g.p. (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;0;0;2;0
 Pro;1;0;0;0;0;0;0;1
@@ -570,7 +570,7 @@ Glu;0;0;4;0;0;0;0;0
 Lys;0;0;1;5;1;0;0;0
 Arg;0;1;0;4;0;1;0;0
 His;1;2;0;0;0;0;0;1
-axp peptidase (Yarrowia lipolytica) | acid extracellular protease (Yarrowia lipolytica)
+axp peptidase (Yarrowia lipolytica);acid extracellular protease (Yarrowia lipolytica)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;2
 Pro;0;1;0;0;0;0;0;1
@@ -592,7 +592,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-canditropsin | secreted aspartic protease (Candida tropicalis)
+canditropsin;secreted aspartic protease (Candida tropicalis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;1
 Pro;2;0;0;0;0;0;1;1
@@ -614,7 +614,7 @@ Glu;2;0;2;0;0;0;0;0
 Lys;0;0;0;1;1;0;0;1
 Arg;2;1;0;0;1;2;0;0
 His;0;0;0;0;0;0;1;0
-candiparapsin | Sapp1 g.p. (Candida parapsilosis) | candidaparapsin
+candiparapsin;candidaparapsin;Sapp1 g.p. (Candida parapsilosis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;4;0;0;0;0;0;0;0
@@ -636,7 +636,7 @@ Glu;0;0;2;1;0;1;0;1
 Lys;0;1;2;0;0;0;0;0
 Arg;0;0;0;0;0;2;0;0
 His;1;0;0;0;0;0;0;0
-nepenthesin | aspartic endopeptidase (Nepenthes) | nepenthesin-1 (Nepenthes sp.) | nepenthesin-2 (Nepenthes sp.) | EC 3.4.23.12
+nepenthesin;aspartic endopeptidase (Nepenthes);nepenthesin-1 (Nepenthes sp.);nepenthesin-2 (Nepenthes sp.);EC 3.4.23.12
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;37;40;26;16;18;35;30;39
 Pro;27;23;0;3;22;17;23;36
@@ -658,7 +658,7 @@ Glu;52;58;78;61;46;68;61;66
 Lys;44;64;65;103;33;67;59;67
 Arg;43;41;37;39;27;29;41;43
 His;14;20;7;10;9;13;21;22
-BACE2 g.p. (Homo sapiens) | memapsin-1 | ALP56 protein | Alzheimer’s disease beta-secretase (putative)secretase, beta (putative), Alzheimer’s disease | Asp1 protease | beta-secretase (putative) | beta-site APP-cleaving enzyme 2 | breast-cancer-related aspartic proteinase | Down region aspartic protease | DRAP | EC 3.4.23.45
+BACE2 g.p. (Homo sapiens);beta-secretase (putative);beta-site APP-cleaving enzyme 2;breast-cancer-related aspartic proteinase;Down region aspartic protease;DRAP;ALP56 protein;Alzheimer’s disease beta-secretase (putative)secretase, beta (putative), Alzheimer’s disease;Asp1 protease;memapsin-1;EC 3.4.23.45
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;7;1;1;3;4;2;2;3
 Pro;0;1;1;1;1;2;0;2
@@ -702,7 +702,7 @@ Glu;0;1;2;1;0;1;2;2
 Lys;2;1;1;7;2;3;1;2
 Arg;1;0;0;0;0;0;1;0
 His;0;2;0;1;1;1;0;0
-histoaspartic peptidase (Plasmodium falciparum) | HAP aspartic peptidase | plasmepsin-3
+histoaspartic peptidase (Plasmodium falciparum);HAP aspartic peptidase;plasmepsin-3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;3
@@ -724,7 +724,7 @@ Glu;3;0;0;0;0;0;0;0
 Lys;0;0;1;1;0;0;0;0
 Arg;0;3;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-nothepsin | nothepsin-like peptidase (Chionodraco hamatus) | cathepsin E-A (Gallus gallus)
+nothepsin;cathepsin E-A (Gallus gallus);nothepsin-like peptidase (Chionodraco hamatus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -746,7 +746,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-napsin A | kidney aspartic protease (Mus musculus) | Mername-AA043 peptidase | Asp4 protease | dap1 | dap2 | decidual aspartyl protease | TA02 protein
+napsin A;dap1;dap2;decidual aspartyl protease;kidney aspartic protease (Mus musculus);Asp4 protease;TA02 protein;Mername-AA043 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;1;0
 Pro;1;2;1;0;1;1;0;3
@@ -768,7 +768,7 @@ Glu;0;0;0;0;0;0;2;0
 Lys;1;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;1;0
-pepsin F | aspartic endopeptidase, pregnancy-associatedpepsinogen F | pregnancy-associated aspartic endopeptidase | pregnancy-associated glycoprotein 12 | pregnancy-associated glycoprotein 2
+pepsin F;aspartic endopeptidase, pregnancy-associatedpepsinogen F;pregnancy-associated aspartic endopeptidase;pregnancy-associated glycoprotein 12;pregnancy-associated glycoprotein 2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;2;0;0;0;0;0;0;0
@@ -790,7 +790,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;1;0;0;0;1;0;1;1
 Arg;0;0;1;0;0;1;0;0
 His;0;0;0;0;0;1;0;0
-necepsin-1 | Mername-AA046 peptidase | Sc-ASP110 (Steinernema carpocapsae) | Sc-ASP155 (Steinernema carpocapsae) | asp-1 g.p. (Caenorhabditis elegans) | Na-APR-2 g.p. (Necator americanus) | nemepsin-3
+necepsin-1;asp-1 g.p. (Caenorhabditis elegans);Na-APR-2 g.p. (Necator americanus);nemepsin-3;Sc-ASP110 (Steinernema carpocapsae);Sc-ASP155 (Steinernema carpocapsae);Mername-AA046 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;10;8;9;14;6;13;8;13
 Pro;8;6;12;1;5;5;4;6
@@ -812,7 +812,7 @@ Glu;7;9;6;4;4;6;2;4
 Lys;11;11;8;6;14;11;16;12
 Arg;1;3;4;2;4;3;3;2
 His;5;9;7;6;4;4;9;6
-tick heme-binding aspartic proteinase (Rhipicephalus microplus) | THAP
+tick heme-binding aspartic proteinase (Rhipicephalus microplus);THAP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -834,7 +834,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;2;0
 His;0;0;0;0;0;0;0;0
-Mername-AA047 peptidase | gastric endopeptidase (Gadus morhua) | pepsin (Gadus morhua)
+Mername-AA047 peptidase;gastric endopeptidase (Gadus morhua);pepsin (Gadus morhua)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -878,7 +878,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;1;0;1;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-plasmepsin-4 | plasmepsin IV (Plasmodium falciparum)
+plasmepsin-4;plasmepsin IV (Plasmodium falciparum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;1
 Pro;1;0;0;0;0;0;0;2
@@ -900,7 +900,7 @@ Glu;5;0;0;0;0;0;0;0
 Lys;0;1;1;0;1;1;0;3
 Arg;0;2;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-candidapepsin SAP2 | SAP2 g.p. (Candida albicans) | SAP2 proteinase (Candida albicans) | secreted aspartic proteinase 2 (Candida albicans)
+candidapepsin SAP2;SAP2 g.p. (Candida albicans);SAP2 proteinase (Candida albicans);secreted aspartic proteinase 2 (Candida albicans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;1
@@ -922,7 +922,7 @@ Glu;0;0;17;0;1;0;1;1
 Lys;0;1;2;4;2;0;1;1
 Arg;0;0;1;2;1;1;0;0
 His;1;3;0;0;1;3;2;1
-candidapepsin SAP3 | SAP3 g.p. (Candida albicans) | SAP3 proteinase (Candida albicans) | secreted aspartic proteinase 3 (Candida albicans)
+candidapepsin SAP3;SAP3 g.p. (Candida albicans);SAP3 proteinase (Candida albicans);secreted aspartic proteinase 3 (Candida albicans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -944,7 +944,7 @@ Glu;0;0;20;1;1;0;0;0
 Lys;0;0;1;1;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-candidapepsin SAP6 | SAP6 g.p. (Candida albicans) | SAP6 proteinase (Candida albicans) | secreted aspartic proteinase 6 (Candida albicans)
+candidapepsin SAP6;SAP6 g.p. (Candida albicans);SAP6 proteinase (Candida albicans);secreted aspartic proteinase 6 (Candida albicans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -966,7 +966,7 @@ Glu;0;0;22;1;1;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-candidapepsin SAP9 | SAP6 (Metschnikowia reukaufii) | SAP9 g.p. (Candida albicans) | SAP9 proteinase (Candida albicans) | secreted aspartic proteinase 9 (Candida albicans)
+candidapepsin SAP9;SAP6 (Metschnikowia reukaufii);SAP9 g.p. (Candida albicans);SAP9 proteinase (Candida albicans);secreted aspartic proteinase 9 (Candida albicans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;1;0;0;0;2;2
 Pro;1;0;1;0;0;1;1;2
@@ -988,7 +988,7 @@ Glu;3;0;0;0;2;0;1;1
 Lys;0;1;2;7;2;0;3;2
 Arg;0;0;1;3;0;1;0;0
 His;1;1;0;0;0;1;1;0
-necepsin-2 | Acasp-1 (Ancylostoma caninum) | asp-4 g.p. (Caenorhabditis elegans) | BmAsp-2 (Brugia malay1) | Na-APR-1 g.p. (Necator americanus) | nemepsin-2 | R12H7.2 protein (Caenorhabditis elegans)
+necepsin-2;BmAsp-2 (Brugia malay1);Acasp-1 (Ancylostoma caninum);asp-4 g.p. (Caenorhabditis elegans);R12H7.2 protein (Caenorhabditis elegans);Na-APR-1 g.p. (Necator americanus);nemepsin-2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;3;0;1;2;4;4;2
 Pro;6;2;0;0;1;2;2;1
@@ -1010,7 +1010,7 @@ Glu;1;3;5;1;2;3;0;1
 Lys;2;2;5;2;1;3;2;1
 Arg;0;1;3;0;0;3;1;0
 His;1;1;1;1;2;3;8;8
-CDR1 peptidase (Arabidopsis-type) | nodulin 41 (Phaseolus vulgaris) | CONSTITUTIVE DISEASE RESISTANCE 1 g.p.
+CDR1 peptidase (Arabidopsis-type);CONSTITUTIVE DISEASE RESISTANCE 1 g.p.;nodulin 41 (Phaseolus vulgaris)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -1032,7 +1032,7 @@ Glu;1;1;0;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-pepsin A4 | pepsinogen A4 | PGA4 g.p. (Homo sapiens)
+pepsin A4;pepsinogen A4;PGA4 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;1;1;0
 Pro;0;2;0;0;0;0;0;1
@@ -1054,7 +1054,7 @@ Glu;0;0;1;0;0;0;1;0
 Lys;0;0;1;0;1;0;1;1
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-pepsin A5 (Homo sapiens) | pepsinogen A5 | PGA5 g.p. (Homo sapiens)
+pepsin A5 (Homo sapiens);pepsinogen A5;PGA5 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;1;0;0;0;0;1
 Pro;0;1;0;0;0;0;1;1
@@ -1076,7 +1076,7 @@ Glu;2;1;1;1;0;1;1;0
 Lys;0;0;1;0;1;0;1;2
 Arg;2;1;0;0;0;0;0;0
 His;1;0;1;0;0;0;0;0
-nucellin | OsAsp1 (Oryza sativa)
+nucellin;OsAsp1 (Oryza sativa)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -1098,7 +1098,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-plasmepsin-5 (Plasmodium sp.) | plasmepsin V
+plasmepsin-5 (Plasmodium sp.);plasmepsin V
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -1142,7 +1142,7 @@ Glu;2;0;0;3;0;0;2;4
 Lys;0;3;0;2;0;0;0;0
 Arg;0;0;0;0;0;0;1;0
 His;1;2;0;0;0;0;0;0
-yolk cathepsin (Boophilus sp.) | Mername-AA137 peptidase | BYC | tick egg-yolk aspartic proteinase (Boophilus microplus)
+yolk cathepsin (Boophilus sp.);BYC;tick egg-yolk aspartic proteinase (Boophilus microplus);Mername-AA137 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;0;1;0;0
 Pro;1;0;0;0;1;0;0;1
@@ -1164,7 +1164,7 @@ Glu;0;2;0;0;1;1;0;0
 Lys;0;0;1;0;1;0;3;1
 Arg;0;1;3;0;0;2;0;0
 His;1;1;0;0;1;0;2;0
-candidapepsin SAP10 | secreted aspartic proteinase 10 (Candida albicans)
+candidapepsin SAP10;secreted aspartic proteinase 10 (Candida albicans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;0;0;0;3;2;5
 Pro;1;0;0;0;0;0;0;1
@@ -1230,7 +1230,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-CAD3 peptidase (Musca domestica) | CG13095 g.p. (Drosophila melanogaster)
+CAD3 peptidase (Musca domestica);CG13095 g.p. (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -1274,7 +1274,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-shewasin A (Shewanella amazonensis) | shewasin D (Shewanella denitrificans)
+shewasin A (Shewanella amazonensis);shewasin D (Shewanella denitrificans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;2;0;0;0;0;0;0;0
@@ -1318,7 +1318,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-GPI-anchored aspartic peptidase (Saccharomyces-type) | HpYPS7 peptidase (Hansenula polymorpha)
+GPI-anchored aspartic peptidase (Saccharomyces-type);HpYPS7 peptidase (Hansenula polymorpha)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -1340,7 +1340,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;1;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ASP5 g.p. (Toxoplasma gondii) | TgASP5
+ASP5 g.p. (Toxoplasma gondii);TgASP5
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -1362,7 +1362,7 @@ Glu;0;0;0;0;0;1;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-subfamily A1A unassigned peptidases | MAY1 peptidase (Cryptococcus neoformans) | MpAPr1 (Metschnikowia pulcherrima) | Tv-CatD (Trichomonas vaginalis) | IrCD1 | PsoP1 peptidase (Piptoporus soloniensis) | Cap1 peptidase (Cryptococcus sp. S-2) | cathepsin D hemoglobinase (Ixodes ricinus) | Eap1 (Sporisorium reilianum)
+subfamily A1A unassigned peptidases;IrCD1;Tv-CatD (Trichomonas vaginalis);Cap1 peptidase (Cryptococcus sp. S-2);cathepsin D hemoglobinase (Ixodes ricinus);PsoP1 peptidase (Piptoporus soloniensis);MAY1 peptidase (Cryptococcus neoformans);MpAPr1 (Metschnikowia pulcherrima);Eap1 (Sporisorium reilianum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -1384,7 +1384,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-HIV-1 retropepsin | HIV-1 protease | retropepsin (human immunodeficiency virus 1) | EC 3.4.23.16
+HIV-1 retropepsin;retropepsin (human immunodeficiency virus 1);HIV-1 protease;EC 3.4.23.16
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;82;95;18;55;17;7;43;74
 Pro;125;11;0;1;99;4;3;68
@@ -1406,7 +1406,7 @@ Glu;77;79;194;59;21;263;50;61
 Lys;8;33;0;0;2;1;16;15
 Arg;14;68;1;2;8;0;18;23
 His;15;19;6;5;4;2;35;18
-HIV-2 retropepsin | HIV-2 protease | retropepsin (human immunodeficiency virus 2) | EC 3.4.23.47
+HIV-2 retropepsin;retropepsin (human immunodeficiency virus 2);HIV-2 protease;EC 3.4.23.47
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;2;0;2;1;0;0;2
 Pro;2;1;0;0;14;0;0;1
@@ -1428,7 +1428,7 @@ Glu;1;3;3;1;0;10;1;0
 Lys;0;1;0;0;0;0;0;0
 Arg;1;2;0;0;0;0;2;2
 His;0;1;0;0;0;0;0;1
-equine infectious anaemia virus retropepsin | retropepsin (equine infectious anaemia virus)
+equine infectious anaemia virus retropepsin;retropepsin (equine infectious anaemia virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;0;13;0;0;0
@@ -1450,7 +1450,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-bovine immunodeficiency virus retropepsin | retropepsin (bovine immunodeficiency virus)
+bovine immunodeficiency virus retropepsin;retropepsin (bovine immunodeficiency virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;1;0;0;1;2;0;0;0
@@ -1472,7 +1472,7 @@ Glu;0;1;0;0;0;0;1;0
 Lys;2;0;0;1;1;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;1;0;0;0;1;0;0;0
-feline immunodeficiency virus retropepsin | retropepsin (feline immunodeficiency virus)
+feline immunodeficiency virus retropepsin;retropepsin (feline immunodeficiency virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;0;0;0;0;0;2
 Pro;6;0;0;0;7;0;0;0
@@ -1494,7 +1494,7 @@ Glu;0;2;0;0;0;5;3;2
 Lys;3;3;0;0;1;0;2;0
 Arg;2;5;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-murine leukemia virus-type retropepsin | xenotropic murine leukemia virus-related virus (XMRV) retropepsin | Moloney murine leukemia virus-type retropepsin | retropepsin (Moloney murine leukemia virus)
+murine leukemia virus-type retropepsin;retropepsin (Moloney murine leukemia virus);xenotropic murine leukemia virus-related virus (XMRV) retropepsin;Moloney murine leukemia virus-type retropepsin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;1;0;14;0;0;0
@@ -1516,7 +1516,7 @@ Glu;0;0;0;0;2;0;1;1
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;1;0
 His;0;0;0;0;0;0;0;0
-Mason-Pfizer leukemia virus retropepsin | squirrel monkey retrovirus protease | retropepsin (Mason-Pfizer leukemia virus) | retropepsin (rhesus monkey immunodeficiency virus) | rhesus monkey immunodeficiency virus retropepsin
+Mason-Pfizer leukemia virus retropepsin;retropepsin (Mason-Pfizer leukemia virus);retropepsin (rhesus monkey immunodeficiency virus);rhesus monkey immunodeficiency virus retropepsin;squirrel monkey retrovirus protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;1;0;0;0
 Pro;3;0;0;0;13;0;0;0
@@ -1538,7 +1538,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;2;1;0;0;0;0;0;2
 Arg;0;0;0;0;0;0;2;0
 His;1;0;0;0;0;0;0;0
-mouse mammary tumor virus retropepsin | retropepsin (mouse mammary tumor virus)
+mouse mammary tumor virus retropepsin;retropepsin (mouse mammary tumor virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;12;0;0;0
@@ -1560,7 +1560,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;2;0;0;0;0;1;0
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-human endogenous retrovirus K retropepsin | HERV K10 endopeptidase | human endogenous retrovirus K10 endopeptidase | EC 3.4.23.50
+human endogenous retrovirus K retropepsin;HERV K10 endopeptidase;human endogenous retrovirus K10 endopeptidase;EC 3.4.23.50
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;7;2;22;2;6;2;7
 Pro;7;0;0;0;2;0;1;4
@@ -1582,7 +1582,7 @@ Glu;6;6;21;0;5;6;14;6
 Lys;3;0;0;0;0;0;0;2
 Arg;2;1;0;0;0;0;1;0
 His;5;1;0;0;0;0;1;2
-retropepsin (human T-cell leukemia virus) | simian T-cell leukemia virus endopeptidase | simian T-cell leukemia virus endopeptidase | HTLV-1 protease | human T-cell lymphotropic virus 1 protease
+retropepsin (human T-cell leukemia virus);HTLV-1 protease;human T-cell lymphotropic virus 1 protease;simian T-cell leukemia virus endopeptidase;simian T-cell leukemia virus endopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;5;0;0;0;10;0;0;6
@@ -1604,7 +1604,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;1;5;0;0;0;0;0;0
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;3
-bovine leukemia virus retropepsin | retropepsin (bovine leukemia virus)
+bovine leukemia virus retropepsin;retropepsin (bovine leukemia virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;2;0;0;0;1
 Pro;4;0;0;0;16;0;0;1
@@ -1626,7 +1626,7 @@ Glu;0;2;0;0;0;0;1;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Rous sarcoma virus retropepsin | sarcoma virus endopeptidase, avian | avian leucosis virus endopeptidase | avian myeloblastosis virus retropepsin | avian sarcoma virus endopeptidase | retropepsin (avian myeloblastosis virus) | retropepsin (Rous sarcoma virus) | RSV protease
+Rous sarcoma virus retropepsin;avian leucosis virus endopeptidase;avian myeloblastosis virus retropepsin;avian sarcoma virus endopeptidase;retropepsin (avian myeloblastosis virus);retropepsin (Rous sarcoma virus);RSV protease;sarcoma virus endopeptidase, avian
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;2;0;0;0;14;0;0;0
@@ -1648,7 +1648,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;1;0
 His;0;0;0;0;0;0;0;0
-intracisternal A-particle retropepsin | retropepsin (intracisternal A-particle)
+intracisternal A-particle retropepsin;retropepsin (intracisternal A-particle)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -1670,7 +1670,7 @@ Glu;0;0;0;0;0;1;0;1
 Lys;1;0;0;0;0;1;0;1
 Arg;0;1;0;0;0;0;1;0
 His;2;0;0;0;0;0;0;0
-porcine endogenous retrovirus peptidase | PERV protease | porcine endogenous retrovirus protease
+porcine endogenous retrovirus peptidase;PERV protease;porcine endogenous retrovirus protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;4;0;0;0
@@ -1714,7 +1714,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;1;0;0;0;0;0;1;0
 His;0;0;0;2;0;0;0;0
-rabbit endogenous retrovirus endopeptidase | RERV-H virus protease
+rabbit endogenous retrovirus endopeptidase;RERV-H virus protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -1736,7 +1736,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Ulysses retrotransposon retropepsin | retropepsin of Ulysses retrotransposon (Drosophila virilis)
+Ulysses retrotransposon retropepsin;retropepsin of Ulysses retrotransposon (Drosophila virilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;0;0;1;0
 Pro;0;0;0;0;0;1;0;0
@@ -1780,7 +1780,7 @@ Glu;0;0;0;0;0;0;0;2
 Lys;0;2;0;1;0;0;3;2
 Arg;0;3;0;2;0;0;5;0
 His;1;3;0;1;0;0;1;1
-cauliflower mosaic virus-type peptidase | aspartic endopeptidase, plant pararetroviruspararetrovirus aspartic endopeptidase (plant)aspartic endopeptidase (plant pararetrovirus) | plant pararetrovirus aspartic endopeptidase
+cauliflower mosaic virus-type peptidase;aspartic endopeptidase, plant pararetroviruspararetrovirus aspartic endopeptidase (plant)aspartic endopeptidase (plant pararetrovirus);plant pararetrovirus aspartic endopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -1802,7 +1802,7 @@ Glu;1;0;0;0;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-bacilliform virus peptidase | sugarcane bacilliform virus protease | bacilliform virus protease | rice tungro bacilliform virus protease
+bacilliform virus peptidase;bacilliform virus protease;rice tungro bacilliform virus protease;sugarcane bacilliform virus protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;1;0;0
 Pro;1;0;0;0;1;0;0;0
@@ -1824,7 +1824,7 @@ Glu;0;1;0;0;0;0;1;0
 Lys;0;0;1;1;1;1;1;0
 Arg;0;1;1;1;0;0;0;1
 His;0;0;0;0;0;0;0;0
-thermopsin | SsMTP (Sulfolobus solfataricus) | EC 3.4.23.42
+thermopsin;SsMTP (Sulfolobus solfataricus);EC 3.4.23.42
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;2;0;0;2;1;2
 Pro;2;0;1;0;0;1;1;2
@@ -1846,7 +1846,7 @@ Glu;2;1;3;1;1;1;1;1
 Lys;0;0;0;1;0;0;1;1
 Arg;1;1;0;0;0;0;0;1
 His;1;1;2;0;1;0;0;2
-signal peptidase II | leader peptidase II | leader peptidase, premureinleader peptidase, prolipoproteinsignal peptidase, prolipoprotein | lspA g.p. (Escherichia coli) | premurein leader peptidase | prolipoprotein signal peptidase | prolipoprotein-leader peptidase | EC 3.4.23.36
+signal peptidase II;leader peptidase II;leader peptidase, premureinleader peptidase, prolipoproteinsignal peptidase, prolipoprotein;lspA g.p. (Escherichia coli);premurein leader peptidase;prolipoprotein signal peptidase;prolipoprotein-leader peptidase;EC 3.4.23.36
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;3;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -1868,7 +1868,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-spumapepsin | human spumaretrovirus polyprotein peptidase | foamy virus polyprotein peptidase | polyprotein peptidase (human spumaretrovirus)monkey foamy virus polyprotein peptidasepolyprotein peptidase (simian foamy virus)
+spumapepsin;foamy virus polyprotein peptidase;human spumaretrovirus polyprotein peptidase;polyprotein peptidase (human spumaretrovirus)monkey foamy virus polyprotein peptidasepolyprotein peptidase (simian foamy virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;0;0;0;0;1;3
 Pro;1;0;0;0;1;0;0;1
@@ -1912,7 +1912,7 @@ Glu;1;1;1;2;0;0;1;2
 Lys;0;0;0;0;0;1;2;1
 Arg;1;0;0;0;1;0;0;0
 His;1;0;0;0;0;0;0;0
-Ty1 transposon peptidase | transposon Ty1 (Saccharomyces cerevisiae) endopeptidase
+Ty1 transposon peptidase;transposon Ty1 (Saccharomyces cerevisiae) endopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -1934,7 +1934,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;1;0
 Arg;0;1;0;0;0;0;0;0
 His;1;0;0;1;0;0;1;0
-presenilin 1 | minilin | Alzheimer’s disease gamma-secretasesecretase, gamma, Alzheimer disease | PS1 | PSEN1 g.p. (Homo sapiens)
+presenilin 1;Alzheimer’s disease gamma-secretasesecretase, gamma, Alzheimer disease;PS1;PSEN1 g.p. (Homo sapiens);minilin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;3;0;2;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -1956,7 +1956,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;1;0;0;1;1;1;1;2
 His;0;0;0;0;0;0;0;0
-impas 1 peptidase | minor histocompatibility antigen H13 | Shanti protein (Drosophila melanogaster) | signal peptide peptidase | SPP peptidase | AtSPP (Arabidopsis thaliana) | HM13 g.p. (Homo sapiens) | IMP1 | intramembrane protease 1 | presenilin homologue-3 | PSH3 | CG11840 g. p. (Drosophila melanogaster)
+impas 1 peptidase;IMP1;intramembrane protease 1;AtSPP (Arabidopsis thaliana);HM13 g.p. (Homo sapiens);CG11840 g. p. (Drosophila melanogaster);Shanti protein (Drosophila melanogaster);signal peptide peptidase;SPP peptidase;presenilin homologue-3;PSH3;minor histocompatibility antigen H13
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;3;0;0;0;0;0;0;0
@@ -1978,7 +1978,7 @@ Glu;0;0;0;0;1;1;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;1
 His;0;0;0;0;0;0;0;0
-signal peptide peptidase-like protein 2B | SPPL2B g.p. (Homo sapiens) | SPPL2b protein | IMP4 | impas 4 peptidase | intramembrane protease 4 | presenilin homologue-4 | PSH4
+signal peptide peptidase-like protein 2B;IMP4;impas 4 peptidase;intramembrane protease 4;SPPL2B g.p. (Homo sapiens);SPPL2b protein;presenilin homologue-4;PSH4
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -2000,7 +2000,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;1;0;1;0
-signal peptide peptidase-like protein 2A | Mername-AA138 putative peptidase | SPPL2A g.p. (Homo sapiens) | IMP3 | impas 3 peptidase | intramembrane protease 3 | RIKEN cDNA 2010106G01 (Mus musculus) | presenilin homologue-5 | PSH5
+signal peptide peptidase-like protein 2A;IMP3;impas 3 peptidase;intramembrane protease 3;RIKEN cDNA 2010106G01 (Mus musculus);SPPL2A g.p. (Homo sapiens);presenilin homologue-5;PSH5;Mername-AA138 putative peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -2022,7 +2022,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;1;0;1;0
-intramembrane aspartyl peptidase (Methanoculleus marisnigri JR1) | MCMJR1 peptidase (Methanoculleus marisnigri) | presenilin homolog PSH1
+intramembrane aspartyl peptidase (Methanoculleus marisnigri JR1);presenilin homolog PSH1;MCMJR1 peptidase (Methanoculleus marisnigri)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;1;1;0;0;0;0
 Pro;1;1;0;0;0;0;0;0
@@ -2044,7 +2044,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-type 4 prepilin peptidase 1 | tcpJ g.p. (Vibrio cholerae) | TFPP | type four prepilin peptidase | type IV prepilin peptidase | fimP g.p. (Dichelobacter nodosus) | VcpD g.p. (Vibrio cholerae) | VvpD g.p. (Vibrio vulnificus) | gspO g.p. (Escherichia coli) | leader peptidase 3 | PilD g.p. (Pseudomonas aeruginosa) | pppA g.p. (Escherichia coli) | prepilin type IV peptidaseTFPP | PulO g.p. (Klebsiella pneumoniae) | CofP g.p. (Escherichia coli) | EC 3.4.23.43
+type 4 prepilin peptidase 1;gspO g.p. (Escherichia coli);fimP g.p. (Dichelobacter nodosus);leader peptidase 3;tcpJ g.p. (Vibrio cholerae);TFPP;type four prepilin peptidase;type IV prepilin peptidase;CofP g.p. (Escherichia coli);VcpD g.p. (Vibrio cholerae);VvpD g.p. (Vibrio vulnificus);PilD g.p. (Pseudomonas aeruginosa);pppA g.p. (Escherichia coli);prepilin type IV peptidaseTFPP;PulO g.p. (Klebsiella pneumoniae);EC 3.4.23.43
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;16;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -2066,7 +2066,7 @@ Glu;0;1;1;0;0;0;0;0
 Lys;1;0;6;0;0;0;0;0
 Arg;4;0;5;0;0;0;0;0
 His;1;0;0;0;0;0;0;0
-FlaK peptidase | FlaK g.p. (Methanococcus sp.) | PibD (Haloferax volcanii) | preflagellin peptidase | EC 3.4.23.52
+FlaK peptidase;FlaK g.p. (Methanococcus sp.);PibD (Haloferax volcanii);preflagellin peptidase;EC 3.4.23.52
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;6;0;0;6;0
 Pro;0;0;0;0;0;0;0;0
@@ -2110,7 +2110,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;9;17;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-EppA peptidase | EppA g.p. (Methanococcus sp.)
+EppA peptidase;EppA g.p. (Methanococcus sp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -2132,7 +2132,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;1;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-gpr peptidase | spore protease | germination protease (bacterial) | gpr g.p. (Bacillus megaterium) | gpr protease | EC 3.4.24.78
+gpr peptidase;germination protease (bacterial);gpr g.p. (Bacillus megaterium);gpr protease;spore protease;EC 3.4.24.78
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;6;0;0;0;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -2154,7 +2154,7 @@ Glu;0;0;2;31;0;0;0;32
 Lys;0;24;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;1;0
 His;0;0;0;0;0;0;0;0
-omptin | OmpT g.p. (Escherichia coli) | OmpTp g.p. (Escherichia coli) | protease 7 (Citrobacter rodentium) | protease A | protease VII (Escherichia coli) | EC 3.4.23.49
+omptin;OmpT g.p. (Escherichia coli);OmpTp g.p. (Escherichia coli);protease 7 (Citrobacter rodentium);protease A;protease VII (Escherichia coli);EC 3.4.23.49
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;5;7;0;0;8;5;17
 Pro;1;1;0;0;0;0;1;3
@@ -2176,7 +2176,7 @@ Glu;5;0;5;0;0;1;4;4
 Lys;2;5;0;16;13;4;1;2
 Arg;5;8;1;37;30;3;7;3
 His;1;0;0;0;0;0;0;1
-OmpP peptidase | CroP peptidase (Citrobacter rodentium)
+OmpP peptidase;CroP peptidase (Citrobacter rodentium)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;9;1;9
 Pro;0;0;0;0;0;0;0;0
@@ -2198,7 +2198,7 @@ Glu;1;0;1;0;0;0;0;0
 Lys;0;0;0;2;2;0;0;0
 Arg;0;1;1;8;9;0;1;1
 His;1;0;0;0;0;0;0;0
-plasminogen activator Pla | Kop peptidase (Klebsiella pneumoniae) | Pla g.p. (Yersinia pestis) | plasminogen activator (Yersinia pestis) | coagulase | EC 3.4.23.48 | endopeptidase pla | Epo peptidase (Erwinia pyrifoliae)
+plasminogen activator Pla;Kop peptidase (Klebsiella pneumoniae);coagulase;Pla g.p. (Yersinia pestis);plasminogen activator (Yersinia pestis);EC 3.4.23.48;endopeptidase pla;Epo peptidase (Erwinia pyrifoliae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;1;1;1
 Pro;0;1;0;0;0;0;1;0
@@ -2220,7 +2220,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;16;14;0;0;3
 His;0;0;0;0;0;0;0;0
-protein E (Salmonella sp.) | PgtE g.p. (Salmonella typhimurium) | PrtA g.p. (Salmonella typhimurium)
+protein E (Salmonella sp.);PgtE g.p. (Salmonella typhimurium);PrtA g.p. (Salmonella typhimurium)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;1
 Pro;1;0;0;0;0;0;1;0
@@ -2242,7 +2242,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;1;0;0;0;0
 Arg;0;1;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-IcsP peptidase (Shigella flexneri) | SopA peptidase | IcsA-cleaving protein (Shigella flexneri) | VirG-specific protease
+IcsP peptidase (Shigella flexneri);IcsA-cleaving protein (Shigella flexneri);VirG-specific protease;SopA peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -2264,7 +2264,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;1;0;0;0
 His;0;0;0;0;0;0;0;0
-skin SASPase | skin aspartic protease | ASPRV1 g.p. (Homo sapiens) | Taps putative peptidase
+skin SASPase;ASPRV1 g.p. (Homo sapiens);Taps putative peptidase;skin aspartic protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;2;1
 Pro;0;0;0;0;0;0;0;0
@@ -2286,7 +2286,7 @@ Glu;1;1;1;2;0;0;1;1
 Lys;0;1;0;0;0;0;1;1
 Arg;0;0;0;0;0;0;0;0
 His;1;0;0;0;0;0;0;0
-HybD peptidase | hydrogenase-processing endopeptidase | TkHybD (Thermococcus kodakarensis)
+HybD peptidase;hydrogenase-processing endopeptidase;TkHybD (Thermococcus kodakarensis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;1;0
 Pro;0;0;0;0;0;0;0;1
@@ -2308,7 +2308,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;4;0;0;0;0
-HycI peptidase | hydrogenase-processing endopeptidase | EC 3.4.23.51
+HycI peptidase;hydrogenase-processing endopeptidase;EC 3.4.23.51
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -2330,7 +2330,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-hupW peptidase | hupW hydrogenase-processing peptidase
+hupW peptidase;hupW hydrogenase-processing peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -2396,7 +2396,7 @@ Glu;43;52;10;0;13;28;29;22
 Lys;0;0;0;0;17;10;11;10
 Arg;0;0;0;0;15;3;8;1
 His;7;23;13;24;22;28;21;24
-sporulation factor SpoIIGA | sigma E factor processing peptidase (Bacillus subtilis) | SpoIIGA sporulation factor
+sporulation factor SpoIIGA;sigma E factor processing peptidase (Bacillus subtilis);SpoIIGA sporulation factor
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;1;3;3
 Pro;0;0;0;0;0;0;0;0
@@ -2418,7 +2418,7 @@ Glu;0;3;0;0;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-sso1175 g.p. (Sulfolobus solfataricus) | SsMTP-1 peptidase (Sulfolobus solfataricus)
+sso1175 g.p. (Sulfolobus solfataricus);SsMTP-1 peptidase (Sulfolobus solfataricus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;2;1;0;1;0
 Pro;0;0;0;1;0;0;0;0
@@ -2440,7 +2440,7 @@ Glu;0;2;0;0;1;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;1;0;0;1;0;0
 His;0;1;0;0;0;0;2;0
-TseI g.p. (Aeromonas dhakensis) | RhsA g.p. (Aeromonas dhakensis)
+TseI g.p. (Aeromonas dhakensis);RhsA g.p. (Aeromonas dhakensis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;1;0;0;0;1;0;0;1
@@ -2462,7 +2462,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-pycnoporopepsin | proteinase Ia | EC 3.4.23.30
+pycnoporopepsin;proteinase Ia;EC 3.4.23.30
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;1
 Pro;0;1;0;0;0;0;2;1
@@ -2484,7 +2484,7 @@ Glu;2;0;2;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;3;0;0;0;0;0;0
 His;1;0;0;2;0;2;0;0
-acid peptidase (Cladosporium) | acid protease (Cladosporium)
+acid peptidase (Cladosporium);acid protease (Cladosporium)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;1
 Pro;0;0;0;0;0;0;1;0
@@ -2506,7 +2506,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;5;0;0;0;0
 Arg;0;1;0;1;0;0;0;0
 His;0;1;0;0;0;1;0;1
-acrocylindropepsin | EC 3.4.23.28
+acrocylindropepsin;EC 3.4.23.28
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;1;0;0;1;0;1
 Pro;0;0;0;0;0;0;1;1
@@ -2528,7 +2528,7 @@ Glu;2;1;0;0;0;1;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;1;1;0;0;0;0;0;0
 His;0;0;2;0;0;0;0;1
-yapsin A | yapsin 3 | pro-opiomelanocortin converting enzyme | prohormone converting enzyme | converting enzyme, prohormoneconverting enzyme, pro-opiomelanocortin | EC 3.4.23.17
+yapsin A;converting enzyme, prohormoneconverting enzyme, pro-opiomelanocortin;yapsin 3;pro-opiomelanocortin converting enzyme;prohormone converting enzyme;EC 3.4.23.17
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;0;0;1;1;1;2
 Pro;0;1;0;0;0;0;0;0
@@ -2550,7 +2550,7 @@ Glu;2;1;0;0;2;1;1;1
 Lys;2;0;5;2;0;0;0;0
 Arg;1;1;2;7;1;0;0;1
 His;0;0;0;0;0;0;0;0
-papain | papaya peptidase I | EC 3.4.22.2
+papain;papaya peptidase I;EC 3.4.22.2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;3;1;6;4;4;4;3
 Pro;2;9;2;1;0;4;3;4
@@ -2572,7 +2572,7 @@ Glu;10;2;3;2;2;10;4;3
 Lys;0;1;2;1;1;0;3;9
 Arg;2;1;2;28;0;3;9;1
 His;2;1;2;3;1;2;1;1
-chymopapain | chymopapain A | chymopapain B | EC 3.4.22.6
+chymopapain;chymopapain A;chymopapain B;EC 3.4.22.6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;0;0;3;0;0;1
 Pro;0;2;0;0;0;1;1;0
@@ -2594,7 +2594,7 @@ Glu;0;0;1;1;0;1;0;0
 Lys;0;0;0;2;0;0;1;1
 Arg;1;0;0;3;0;0;1;0
 His;1;1;0;0;0;1;1;0
-caricain | papapya protease omega | papaya endopeptidase III | papaya peptidase A | papaya peptidase II | papaya proteinase III | EC 3.4.22.30 | endopeptidase III (Carica papaya)peptidase II (Carica papaya)peptidase A (Carica papaya)protease omega (Carica papaya)proteinase III (Carica papaya)
+caricain;papapya protease omega;papaya endopeptidase III;papaya peptidase A;papaya peptidase II;papaya proteinase III;EC 3.4.22.30;endopeptidase III (Carica papaya)peptidase II (Carica papaya)peptidase A (Carica papaya)protease omega (Carica papaya)proteinase III (Carica papaya)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;2;0;0;1
 Pro;0;0;0;0;0;1;1;0
@@ -2616,7 +2616,7 @@ Glu;0;1;0;1;0;1;0;0
 Lys;0;0;0;0;0;0;1;1
 Arg;1;0;0;2;0;0;1;0
 His;1;1;0;0;0;1;1;0
-glycyl endopeptidase | papaya endopeptidase IV | papaya peptidase B | papaya proteinase IV | chymopapain M | EC 3.4.22.25 | endopeptidase IV (Carica papaya)peptidase B (Carica papaya)proteinase IV (Carica papaya)
+glycyl endopeptidase;chymopapain M;papaya endopeptidase IV;papaya peptidase B;papaya proteinase IV;EC 3.4.22.25;endopeptidase IV (Carica papaya)peptidase B (Carica papaya)proteinase IV (Carica papaya)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;3;1;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -2638,7 +2638,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-stem bromelain | Ananase | bromelain | bromelain, stem | Nexobrid | EC 3.4.22.32
+stem bromelain;bromelain;bromelain, stem;Ananase;Nexobrid;EC 3.4.22.32
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;3;2;2;0;1;3
 Pro;4;6;1;0;0;3;2;2
@@ -2660,7 +2660,7 @@ Glu;2;0;0;0;1;2;2;4
 Lys;0;1;0;0;1;2;0;1
 Arg;3;2;4;2;0;0;1;2
 His;1;1;1;0;2;2;2;1
-ficin | ficain | ficin E | EC 3.4.22.3
+ficin;ficain;ficin E;EC 3.4.22.3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;2;1;0;0;0;1
 Pro;1;0;0;0;0;0;1;2
@@ -2682,7 +2682,7 @@ Glu;2;0;0;0;0;0;1;2
 Lys;1;0;1;2;1;1;1;1
 Arg;1;1;0;5;0;0;0;0
 His;1;1;0;1;1;1;0;0
-actinidin | actinidain | allergen Act d 1 (Actinidia deliciosa) | protease B (freesia) | EC 3.4.22.14
+actinidin;actinidain;allergen Act d 1 (Actinidia deliciosa);protease B (freesia);EC 3.4.22.14
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;5;0;5;3;1;4;1
 Pro;1;2;0;0;0;3;1;5
@@ -2704,7 +2704,7 @@ Glu;1;0;1;1;1;0;1;0
 Lys;1;1;0;1;0;0;1;1
 Arg;1;0;0;2;0;0;0;0
 His;1;1;0;1;0;2;0;0
-asclepain A | EC 3.4.22.7
+asclepain A;EC 3.4.22.7
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;2;0;2;1;1;2
 Pro;0;0;0;0;0;1;1;1
@@ -2726,7 +2726,7 @@ Glu;1;0;2;0;0;1;0;2
 Lys;0;0;0;0;0;0;1;1
 Arg;1;1;0;2;0;0;1;0
 His;0;0;1;0;2;0;0;1
-cathepsin V | cathepsin L2 (Homo sapiens) | cathepsin U | CTSL2 g.p. [obs.] | CTSLV g.p. (Homo sapiens) | CTSV g.p. (Homo sapiens) | EC 3.4.22.43
+cathepsin V;cathepsin L2 (Homo sapiens);cathepsin U;CTSL2 g.p. [obs.];CTSLV g.p. (Homo sapiens);CTSV g.p. (Homo sapiens);EC 3.4.22.43
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;112;127;0;164;160;115;135;129
 Pro;102;83;39;1;6;216;191;225
@@ -2748,7 +2748,7 @@ Glu;118;133;7;152;141;162;169;212
 Lys;146;143;12;226;186;117;88;86
 Arg;107;80;9;140;128;98;81;47
 His;32;32;6;27;41;42;43;26
-vignain | SEN102 (Hemerocallis sp.) | SEN11 (Hemerocallis sp.) | SH-EP (Vigna mungo) | SlCysEP peptidase (Solanum lycopersicum) | bean proteinase A | NtCP2 peptidase (Nicotiana tabacum) | ricinosomal KDEL-containing cysteine peptidase | pRP80 (Oryza sativa) | CP56 peptidase (Nicotiana tabacum) | CysEP (Ricinus communis) | CysP1 (Glycine max) | CysP2 (Glycine max) | endopeptidase A (Hordeum vulgare) | EP8 endopeptidase (Triticum turgidum subsp. durum x Secale cereale)
+vignain;bean proteinase A;ricinosomal KDEL-containing cysteine peptidase;CP56 peptidase (Nicotiana tabacum);CysEP (Ricinus communis);CysP1 (Glycine max);CysP2 (Glycine max);NtCP2 peptidase (Nicotiana tabacum);SEN102 (Hemerocallis sp.);SEN11 (Hemerocallis sp.);SH-EP (Vigna mungo);SlCysEP peptidase (Solanum lycopersicum);pRP80 (Oryza sativa);endopeptidase A (Hordeum vulgare);EP8 endopeptidase (Triticum turgidum subsp. durum x Secale cereale)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;1;2;3;0;0;1
 Pro;6;8;6;3;3;7;7;10
@@ -2770,7 +2770,7 @@ Glu;3;5;1;2;2;2;2;2
 Lys;3;3;3;3;5;1;3;3
 Arg;1;0;2;22;0;0;0;0
 His;1;1;2;2;0;1;2;3
-calotropain | procerain | procerain B | calotropin [misleading]
+calotropain;calotropin [misleading];procerain;procerain B
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -2792,7 +2792,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cathepsin X | lysosomal carboxypeptidase B | carboxypeptidase B, lysosomal | carboxypeptidase LB | cathepsin B2 | cathepsin IV | cathepsin P [obs.] | cathepsin Y | cathepsin Z [obs.] | cathepsin Z1 (Toxocara) | CTSZ g.p. (Homo sapiens) | cysteine-type carboxypeptidase | EC 3.4.18.1
+cathepsin X;lysosomal carboxypeptidase B;carboxypeptidase B, lysosomal;carboxypeptidase LB;cathepsin B2;cathepsin IV;cathepsin P [obs.];cathepsin Y;cathepsin Z [obs.];cathepsin Z1 (Toxocara);CTSZ g.p. (Homo sapiens);cysteine-type carboxypeptidase;EC 3.4.18.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;8;2;0;0;0
 Pro;2;4;4;0;1;0;0;0
@@ -2814,7 +2814,7 @@ Glu;3;3;2;6;4;0;0;0
 Lys;5;5;5;4;5;0;0;0
 Arg;2;0;1;4;3;0;0;0
 His;0;0;0;0;0;0;0;0
-zingipain | zingibain | ginger protease II (Zingiber officinale) | EC 3.4.22.67
+zingipain;zingibain;ginger protease II (Zingiber officinale);EC 3.4.22.67
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -2836,7 +2836,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cathepsin F | CLN13 (Homo sapiens) | CTSF g.p. (Homo sapiens) | EC 3.4.22.41
+cathepsin F;CLN13 (Homo sapiens);CTSF g.p. (Homo sapiens);EC 3.4.22.41
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -2858,7 +2858,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;1;0;0;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-CC-I peptidase (Vasconcellea sp.) | CMS1MS2 (Vasconcellea candamarcensis)
+CC-I peptidase (Vasconcellea sp.);CMS1MS2 (Vasconcellea candamarcensis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -2880,7 +2880,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-CC-III peptidase (Vasconcellea-type) | quercifoliain I | CMS2MS2 (Vasconcellea candamarcensis)
+CC-III peptidase (Vasconcellea-type);CMS2MS2 (Vasconcellea candamarcensis);quercifoliain I
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;1;0;0;0;0;0;0
@@ -2902,7 +2902,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-endopeptidase-B (Hordeum-type) | allergen Amb a 11 (Ambrosia artemisiifolia) | OsEP3A endopeptidase (Oryza sativa) | gliadain (Triticum aestivum) | latiglutenase | Rep1 endopeptidase (Oryza sativa) | pREP1 endopeptidase (Oryza sativa) | EP-B1 (Hordeum vulgare) | EP-B2 (Hordeum vulgare) | EP-B4 (Hordeum vulgare)
+endopeptidase-B (Hordeum-type);gliadain (Triticum aestivum);allergen Amb a 11 (Ambrosia artemisiifolia);Rep1 endopeptidase (Oryza sativa);latiglutenase;OsEP3A endopeptidase (Oryza sativa);pREP1 endopeptidase (Oryza sativa);EP-B1 (Hordeum vulgare);EP-B2 (Hordeum vulgare);EP-B4 (Hordeum vulgare)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;3;0;4;4;0;0;0
 Pro;12;7;23;0;0;46;3;16
@@ -2924,7 +2924,7 @@ Glu;0;3;1;2;1;0;1;3
 Lys;0;0;0;1;1;0;0;1
 Arg;1;2;0;11;0;0;0;1
 His;0;0;0;3;0;0;1;1
-ananain | EC 3.4.22.31
+ananain;EC 3.4.22.31
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -2968,7 +2968,7 @@ Glu;0;0;0;3;0;0;0;0
 Lys;0;0;0;3;0;0;0;0
 Arg;0;0;1;4;0;0;0;0
 His;0;0;0;0;0;0;0;0
-fruit bromelain | AcCP2 (Ananas comosus) | bromelain, fruit | fastuosain | EC 3.4.22.33
+fruit bromelain;bromelain, fruit;fastuosain;AcCP2 (Ananas comosus);EC 3.4.22.33
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -2990,7 +2990,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-pseudotzain | mucunain (Mucuna pruriens) | SENU1 (Solanum lycopersicum) | SPCP3 (Ipomoea batatas) | TPP (Pisum sativum) | triticain-alpha | NbCysP6 peptidase (Nicotiana benthamiana) | oryzain alpha (Oryza sativa) | oryzain beta (Oryza sativa) | OsCP1 | protease C2 (Glycine max) | protease D3 (Glycine max) | PsCyp1 (Pisum sativum) | C14 peptidase (Solanum lycopersicum) | CYP1 (Solanum lycopersicum) | cysteine protease TDI-65 (Arabidopsis thaliana, Solanum lycopersicum)
+pseudotzain;TPP (Pisum sativum);triticain-alpha;C14 peptidase (Solanum lycopersicum);CYP1 (Solanum lycopersicum);cysteine protease TDI-65 (Arabidopsis thaliana, Solanum lycopersicum);oryzain alpha (Oryza sativa);oryzain beta (Oryza sativa);OsCP1;NbCysP6 peptidase (Nicotiana benthamiana);SENU1 (Solanum lycopersicum);SPCP3 (Ipomoea batatas);protease C2 (Glycine max);protease D3 (Glycine max);PsCyp1 (Pisum sativum);mucunain (Mucuna pruriens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3012,7 +3012,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-crustapain | cathepsin L-like endopeptidase (arthropod)
+crustapain;cathepsin L-like endopeptidase (arthropod)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -3034,7 +3034,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;1;1;0;4;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cathepsin L | SPase (Cercopithecus aethiops) | EC 3.4.22.15
+cathepsin L;SPase (Cercopithecus aethiops);EC 3.4.22.15
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;235;249;10;390;361;236;283;235
 Pro;194;139;80;5;8;346;348;486
@@ -3056,7 +3056,7 @@ Glu;203;120;6;230;238;308;237;348
 Lys;207;276;22;343;192;134;131;116
 Arg;131;135;28;215;178;83;97;66
 His;67;90;16;73;106;86;104;72
-cathepsin L1 (Fasciola sp.) | FhCL1 | FheCL1 | FhPcW1 (Fasciola hepatica) | CL1
+cathepsin L1 (Fasciola sp.);FhCL1;FheCL1;FhPcW1 (Fasciola hepatica);CL1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;14;12;8;17;15;13;14;15
 Pro;11;8;12;7;8;11;14;11
@@ -3078,7 +3078,7 @@ Glu;11;9;8;10;9;10;6;7
 Lys;11;16;12;14;13;13;16;8
 Arg;4;6;2;11;4;7;4;2
 His;13;12;5;12;11;12;11;11
-cathepsin S | CTSS g.p. (Homo sapiens) | EC 3.4.22.27
+cathepsin S;CTSS g.p. (Homo sapiens);EC 3.4.22.27
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;251;257;9;395;279;287;337;243
 Pro;248;203;22;6;7;293;353;382
@@ -3100,7 +3100,7 @@ Glu;238;202;6;267;302;239;203;391
 Lys;190;212;6;371;132;177;94;171
 Arg;121;207;6;225;90;107;80;102
 His;87;63;5;42;57;76;87;92
-cathepsin O | CTSO g.p. (Homo sapiens) | EC 3.4.22.42
+cathepsin O;CTSO g.p. (Homo sapiens);EC 3.4.22.42
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3122,7 +3122,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cathepsin K | cathepsin O [obs.] | cathepsin O2 [obs.] | cathepsin X [obs.] | Ctsk g.p. (Homo sapiens) | EC 3.4.22.38
+cathepsin K;cathepsin O [obs.];cathepsin O2 [obs.];cathepsin X [obs.];Ctsk g.p. (Homo sapiens);EC 3.4.22.38
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;138;226;8;243;199;140;154;121
 Pro;85;103;291;1;5;102;105;166
@@ -3144,7 +3144,7 @@ Glu;159;158;6;206;252;276;233;321
 Lys;199;235;4;318;188;130;96;102
 Arg;138;112;5;222;132;109;107;70
 His;54;40;5;22;35;58;43;41
-cathepsin W | lymphopain | Ctsw g.p. (Homo sapiens)
+cathepsin W;lymphopain;Ctsw g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3166,7 +3166,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cathepsin P | cathepsin J
+cathepsin P;cathepsin J
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3188,7 +3188,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;10;0;0;0;0;10;0
 Arg;0;0;0;7;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cathepsin H | arginyl aminopeptidase, lysosomal | benzoylarginine-naphthylamide (BANA) hydrolase | lysosomal arginyl aminopeptidase | cathepsin B3 | CTSH g.p. (Homo sapiens) | EC 3.4.22.16
+cathepsin H;benzoylarginine-naphthylamide (BANA) hydrolase;arginyl aminopeptidase, lysosomal;lysosomal arginyl aminopeptidase;cathepsin B3;CTSH g.p. (Homo sapiens);EC 3.4.22.16
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;2;3;5;2;2;2;3
 Pro;2;2;4;3;1;9;2;3
@@ -3210,7 +3210,7 @@ Glu;0;4;3;1;1;4;1;1
 Lys;2;2;1;4;3;1;2;2
 Arg;1;0;0;6;2;1;1;3
 His;0;0;0;1;0;0;1;0
-aleurain | AALP protein | BoCP5 (Brassica oleracea) | oryzain gamma | cathepsin H-like seed endopeptidase | CYP3 (Solanum lycopersicum)
+aleurain;BoCP5 (Brassica oleracea);AALP protein;cathepsin H-like seed endopeptidase;CYP3 (Solanum lycopersicum);oryzain gamma
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3232,7 +3232,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-SmCL2 peptidase | Mername-AA049 peptidase | SmCL2 g.p. (Schistosoma mansoni) | cathepsin L2 (Schistosoma mansoni)
+SmCL2 peptidase;cathepsin L2 (Schistosoma mansoni);SmCL2 g.p. (Schistosoma mansoni);Mername-AA049 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3254,7 +3254,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-falcipain-2 | falcipain-2A (Plasmodium falciparum) | falcipain-2B (Plasmodium falciparum) | FP2B protein (Plasmodium falciparum) | vivapain-2 (Plasmodium vivax)
+falcipain-2;falcipain-2A (Plasmodium falciparum);falcipain-2B (Plasmodium falciparum);FP2B protein (Plasmodium falciparum);vivapain-2 (Plasmodium vivax)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;10;7;4;11;8;11;9;10
 Pro;10;9;2;2;3;14;12;8
@@ -3276,7 +3276,7 @@ Glu;8;6;8;15;2;3;3;18
 Lys;4;11;7;13;14;6;6;7
 Arg;4;4;3;15;4;3;3;4
 His;7;4;2;6;9;14;12;6
-cathepsin B, plant form | At1g02305 (Arabidopsis thaliana)-type peptidase | plant cathepsin B | CatB peptidase (Hordeum vulgare)
+cathepsin B, plant form;At1g02305 (Arabidopsis thaliana)-type peptidase;CatB peptidase (Hordeum vulgare);plant cathepsin B
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3298,7 +3298,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-histolysain | ACP2 Entamoeba histolytica | amebapain | amoebapain | histolysin | CPNP (Entamoeba histolytica) | CPP (Entamoeba histolytica) | CPP1 (Entamoeba histolytica) | EC 3.4.22.35 | EhCP-A peptidase (Entamoeba histolytica) | EhCP-A5 (Entamoeba histolytica) | EhCP1 g.p. (Entamoeba histolytica) | EhCP10 g.p. (Entamoeba histolytica) | EhCP17 g.p. (Entamoeba histolytica) | EhCP19 g.p. (Entamoeba histolytica) | EhCP2 g.p. (Entamoeba histolytica) | EhCP3 g.p. (Entamoeba histolytica) | EhCP5 g.p. (Entamoeba histolytica) | EhCP6 g.p. (Entamoeba histolytica) | EhCP8 g.p. (Entamoeba histolytica) | EhCP9 g.p. (Entamoeba histolytica) | EhlCP1
+histolysain;ACP2 Entamoeba histolytica;amebapain;amoebapain;histolysin;CPNP (Entamoeba histolytica);CPP (Entamoeba histolytica);CPP1 (Entamoeba histolytica);EC 3.4.22.35;EhCP-A peptidase (Entamoeba histolytica);EhCP-A5 (Entamoeba histolytica);EhCP1 g.p. (Entamoeba histolytica);EhCP10 g.p. (Entamoeba histolytica);EhCP17 g.p. (Entamoeba histolytica);EhCP19 g.p. (Entamoeba histolytica);EhCP2 g.p. (Entamoeba histolytica);EhCP3 g.p. (Entamoeba histolytica);EhCP5 g.p. (Entamoeba histolytica);EhCP6 g.p. (Entamoeba histolytica);EhCP8 g.p. (Entamoeba histolytica);EhCP9 g.p. (Entamoeba histolytica);EhlCP1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;2;0;0;1;0
 Pro;0;1;0;0;0;1;0;1
@@ -3320,7 +3320,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;2;7;9;0;0;0;0
 His;0;0;0;0;0;0;0;0
-vinckepain-2 | yoelipain-2 (Plasmodium yoelii ) | berghepain-2 (Plasmodium berghei)
+vinckepain-2;berghepain-2 (Plasmodium berghei);yoelipain-2 (Plasmodium yoelii )
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;6;0;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -3342,7 +3342,7 @@ Glu;0;2;0;0;0;6;7;1
 Lys;0;0;0;5;0;0;0;0
 Arg;0;0;0;13;2;0;0;0
 His;0;0;0;0;0;0;0;0
-cathepsin B | vitellogenic cathepsin B (Aedes aegypti) | longipain | cathepsin B1 | cathepsin II (obs.) | CTSB g.p. (Homo sapiens) | EC 3.4.22.3
+cathepsin B;longipain;cathepsin B1;cathepsin II (obs.);CTSB g.p. (Homo sapiens);vitellogenic cathepsin B (Aedes aegypti);EC 3.4.22.3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;71;61;13;177;96;69;246;95
 Pro;39;61;18;3;7;17;32;40
@@ -3364,7 +3364,7 @@ Glu;29;20;8;28;5;12;16;21
 Lys;15;10;6;8;3;8;6;13
 Arg;10;12;23;41;7;3;5;5
 His;16;12;18;14;14;9;18;18
-SmCB2 peptidase (Schistosoma-type) | cathepsin B2 (Trichobilharzia sp.)
+SmCB2 peptidase (Schistosoma-type);cathepsin B2 (Trichobilharzia sp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3386,7 +3386,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cathepsin B-like peptidase (platyhelminth) | Sj31 protein (Schistosoma japonica) | Sm31 protein (Schistosoma mansoni) | SmCB1 peptidase (Schistosoma mansoni) | cathepsin B1 (Schistosoma mansoni) | cathepsin B1 (Trichobilharzia sp.) | cb1 g.p. (Schistosoma mansoni)
+cathepsin B-like peptidase (platyhelminth);cathepsin B1 (Schistosoma mansoni);cathepsin B1 (Trichobilharzia sp.);cb1 g.p. (Schistosoma mansoni);Sj31 protein (Schistosoma japonica);Sm31 protein (Schistosoma mansoni);SmCB1 peptidase (Schistosoma mansoni)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;6;5;3;5;3;5;3;4
 Pro;5;4;5;1;4;2;1;2
@@ -3408,7 +3408,7 @@ Glu;3;2;1;0;0;3;0;1
 Lys;4;2;2;4;6;5;2;3
 Arg;0;0;3;9;1;0;0;1
 His;2;3;6;2;0;3;1;2
-falcipain-3 | vivapain-3 (Plasmodium vivax)
+falcipain-3;vivapain-3 (Plasmodium vivax)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;8;7;4;10;7;6;10;9
 Pro;9;6;3;2;4;8;7;4
@@ -3430,7 +3430,7 @@ Glu;4;4;7;4;1;6;13;5
 Lys;4;8;3;17;7;6;6;6
 Arg;3;3;1;14;3;1;3;2
 His;6;4;2;5;6;9;7;6
-RD21 peptidase | BoCP3 (Brassica oleracea) | HbCP1 (Hevea brasiliensis) | rd21A g.p. (Arabidopsis thaliana) | RESPONSIVE TO DESICCATION-21 g.p. (Arabidopsis thaliana)
+RD21 peptidase;BoCP3 (Brassica oleracea);rd21A g.p. (Arabidopsis thaliana);RESPONSIVE TO DESICCATION-21 g.p. (Arabidopsis thaliana);HbCP1 (Hevea brasiliensis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;1;1;1;0;0
 Pro;1;3;0;0;0;0;2;1
@@ -3452,7 +3452,7 @@ Glu;1;1;0;0;1;0;0;1
 Lys;2;2;2;3;1;1;1;0
 Arg;2;0;3;10;0;1;2;1
 His;0;1;0;0;0;0;0;0
-CPL-1 peptidase (Caenorhabditis elegans-type) | cathepsin F-1 (Teladorsagia circumcincta) | cpl-1 (Meloidogyne incognita)
+CPL-1 peptidase (Caenorhabditis elegans-type);cathepsin F-1 (Teladorsagia circumcincta);cpl-1 (Meloidogyne incognita)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3474,7 +3474,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-insect 26/29 kDa peptidase | insect 26/29 kDa proteinase
+insect 26/29 kDa peptidase;insect 26/29 kDa proteinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3518,7 +3518,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-dipeptidyl-peptidase I | DAPase | dipeptidyl aminopeptidase I | dipeptidyl transferase | DPP 1 | DPP I | TAGZyme | cathepsin C | cathepsin J | CTH4 g.p. (Tetrahymena thermophila) | CTSC g.p. (Homo sapiens) | EC 3.4.14.1
+dipeptidyl-peptidase I;DAPase;dipeptidyl aminopeptidase I;dipeptidyl transferase;DPP 1;DPP I;TAGZyme;cathepsin C;cathepsin J;CTH4 g.p. (Tetrahymena thermophila);CTSC g.p. (Homo sapiens);EC 3.4.14.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;4;3;2;2;7;7
 Pro;0;0;0;0;0;1;0;0
@@ -3540,7 +3540,7 @@ Glu;1;0;5;8;1;1;1;0
 Lys;0;1;0;2;1;1;1;2
 Arg;0;3;0;5;2;4;2;5
 His;2;0;2;0;0;0;0;0
-toxopain-1 | TgCPB peptidase (Toxoplasma-type) | eimeripain | EtCatB (Eimeria tenella)
+toxopain-1;TgCPB peptidase (Toxoplasma-type);eimeripain;EtCatB (Eimeria tenella)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3562,7 +3562,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-rhodesain | major cathepsin L-like cysteine protease (Trypanosoma brucei) | brucipain | trypanopain
+rhodesain;brucipain;trypanopain;major cathepsin L-like cysteine protease (Trypanosoma brucei)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;1
 Pro;0;1;0;0;0;0;0;0
@@ -3584,7 +3584,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;4;0;0;0;0
 Arg;0;0;1;4;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidase 1 (mite) | allergen Der f 1 (Dermatophagoides farinae) | antigen Der p 1 (Dermatophagoides pteronyssinus) | antigen Eur m 1 (Euroglyphus maynei) | antigen Pso o 1 (Psoroptes ovis) | Der f 1 antigenDer p 1 antigen | Der P1 | EC 3.4.22.65
+peptidase 1 (mite);Der f 1 antigenDer p 1 antigen;Der P1;allergen Der f 1 (Dermatophagoides farinae);antigen Der p 1 (Dermatophagoides pteronyssinus);antigen Eur m 1 (Euroglyphus maynei);antigen Pso o 1 (Psoroptes ovis);EC 3.4.22.65
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;3;6;4;3;5;4;2
 Pro;4;0;0;0;0;3;3;5
@@ -3606,7 +3606,7 @@ Glu;0;1;2;4;0;2;3;2
 Lys;0;6;0;2;1;0;0;1
 Arg;1;1;0;3;0;1;2;0
 His;0;0;0;0;0;0;1;1
-CPB peptidase | lmajl g.p. (Leishmani major) | lmcpb g.p. (Leishmania mexicana) | lpcys2 g.p. (Leishmania pifanoi) | cathepsin L-like protease (Leishmania donovani) | CPB protease
+CPB peptidase;lmajl g.p. (Leishmani major);lmcpb g.p. (Leishmania mexicana);lpcys2 g.p. (Leishmania pifanoi);cathepsin L-like protease (Leishmania donovani);CPB protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;1;1;0
@@ -3628,7 +3628,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;13;0;1;0;0;13;0
 Arg;0;1;0;14;0;1;1;0
 His;0;0;0;1;0;0;0;0
-cruzipain | GP57/51 | congopain (Trypanosoma congolense) | cruzain | cysteine endopeptidase (Trypanosoma) | EC 3.4.22.51 | evansain (Trypanosoma evansi)
+cruzipain;GP57/51;congopain (Trypanosoma congolense);cruzain;cysteine endopeptidase (Trypanosoma);EC 3.4.22.51;evansain (Trypanosoma evansi)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;5;1;0;2;1
 Pro;0;4;1;0;0;4;6;3
@@ -3650,7 +3650,7 @@ Glu;2;1;0;1;0;1;1;1
 Lys;25;30;2;17;3;26;29;3
 Arg;1;0;1;12;0;3;4;25
 His;1;0;0;1;0;1;0;0
-CPA peptidase | Lacys24 (L. amazonensis) | lmcpa g.p. (Leishmania mexicana) | lpcys1 g.p. (Leishmania pifanoi) | CPA protease
+CPA peptidase;Lacys24 (L. amazonensis);lmcpa g.p. (Leishmania mexicana);lpcys1 g.p. (Leishmania pifanoi);CPA protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;1;0;0;0;0;0;0
@@ -3672,7 +3672,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-falcipain-1 | berghepain-1 (Plasmodium berghei) | vinckepain-1 (Plasmodium vinvkei) | vivapain-1 (Plasmodium vivax) | chabaupain-1 (Plasmodium chabaudi)
+falcipain-1;berghepain-1 (Plasmodium berghei);chabaupain-1 (Plasmodium chabaudi);vinckepain-1 (Plasmodium vinvkei);vivapain-1 (Plasmodium vivax)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3694,7 +3694,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-papain homologue (Theileria-type) | babesipain-1 | BbiCPL (Babesia bigemina) | bovipain-2 (Babesia bovis) | ovipain-2 (Babesia ovis)
+papain homologue (Theileria-type);babesipain-1;BbiCPL (Babesia bigemina);bovipain-2 (Babesia bovis);ovipain-2 (Babesia ovis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3716,7 +3716,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;5;0;0;0;0
 His;0;0;0;0;0;0;0;0
-papain homologue (Dictyostelium-type) | proteinase-L | CP7 | cprF | cprG
+papain homologue (Dictyostelium-type);CP7;cprF;cprG;proteinase-L
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3738,7 +3738,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;2;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Mername-AA287 peptidase | TvCP39 (Trichomonas vaginalis) | TvCP4 (Trichomonas vaginalis) | papain homologue (trichomonad) | CP65 (Trichomonas vaginalis)
+Mername-AA287 peptidase;TvCP39 (Trichomonas vaginalis);TvCP4 (Trichomonas vaginalis);CP65 (Trichomonas vaginalis);papain homologue (trichomonad)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3760,7 +3760,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;1;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-V-cath peptidase | AcNPV protease | baculovirus cathepsin | BmNPV protease | viral cathepsin | NPV protease | nucleopolyhedrosis virus protease | cathepsin, baculovirus | EC 3.4.22.50
+V-cath peptidase;baculovirus cathepsin;BmNPV protease;AcNPV protease;cathepsin, baculovirus;NPV protease;nucleopolyhedrosis virus protease;viral cathepsin;EC 3.4.22.50
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3782,7 +3782,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-bleomycin hydrolase (animal) | aminopeptidase H | BANA-hydrolase | BLH | BLMH g.p. (Homo sapiens) | hydrolase H | EC 3.4.22.40
+bleomycin hydrolase (animal);BANA-hydrolase;BLH;BLMH g.p. (Homo sapiens);aminopeptidase H;hydrolase H;EC 3.4.22.40
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3804,7 +3804,7 @@ Glu;3;0;0;1;0;0;2;1
 Lys;2;1;0;0;0;3;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;3;4;0;0;0;0
-bleomycin hydrolase (yeast) | aminopeptidase yscCo-II | ysp1 | Gal6
+bleomycin hydrolase (yeast);Gal6;aminopeptidase yscCo-II;ysp1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3826,7 +3826,7 @@ Glu;0;0;0;2;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;1;0;0;0;0
-aminopeptidase C | pepC g.p. (Lactococcus spp., Lactobacillus spp., Listeria monocytogenes, Streptococcus spp.)
+aminopeptidase C;pepC g.p. (Lactococcus spp., Lactobacillus spp., Listeria monocytogenes, Streptococcus spp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;4;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3848,7 +3848,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;1;0;0;0;0
-oligopeptidase E | pepE g.p. (Lactobacillus helveticus)
+oligopeptidase E;pepE g.p. (Lactobacillus helveticus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;4;1;0;0;0
 Pro;0;3;2;0;0;1;1;0
@@ -3870,7 +3870,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;2;0;0;0;1
 Arg;1;1;0;2;0;0;0;0
 His;1;0;0;0;2;0;0;0
-peptidase G | pepG g.p. (Lactobacillus delbrueckii)
+peptidase G;pepG g.p. (Lactobacillus delbrueckii)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3892,7 +3892,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cathepsin L1 (arthropod-type) | Mername-AA198 peptidase | Mername-AA288 peptidase | ScathL (Sarcophaga peregrina) | DcCathL (Delia coarctata) | HlCPL-A peptidase (Haemaphysalis longicornis) | fibroinase (Bombyx mori) | vitellin-degrading cysteine endopeptidase (Boophilus) microplus) | VTDCE | cathepsin L-like endopeptidase (insect) | Cp1 g.p. (Drosophila melanogaster) | cysteine proteinase-1 (Drosophila melanogaster)
+cathepsin L1 (arthropod-type);DcCathL (Delia coarctata);fibroinase (Bombyx mori);HlCPL-A peptidase (Haemaphysalis longicornis);cathepsin L-like endopeptidase (insect);Cp1 g.p. (Drosophila melanogaster);cysteine proteinase-1 (Drosophila melanogaster);vitellin-degrading cysteine endopeptidase (Boophilus) microplus);VTDCE;ScathL (Sarcophaga peregrina);Mername-AA198 peptidase;Mername-AA288 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;0;1;3;0;1;2
 Pro;0;0;0;0;0;1;1;0
@@ -3936,7 +3936,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-giardain | giardipain-1 (Giardia duodenalis)
+giardain;giardipain-1 (Giardia duodenalis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -3980,7 +3980,7 @@ Glu;1;3;0;1;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;0;1;0;0;0
 His;0;0;0;0;1;0;0;0
-phytolacain | phytolacain G | phytolacain R
+phytolacain;phytolacain G;phytolacain R
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;3;1;1;1;2;1
 Pro;0;0;0;0;0;0;1;1
@@ -4002,7 +4002,7 @@ Glu;2;0;0;2;0;0;1;2
 Lys;0;0;0;0;0;0;0;1
 Arg;1;1;0;0;1;0;0;0
 His;2;1;0;2;1;2;1;0
-CPC peptidase | TbcatB | tccb g.p. (Trypanosoma cruzi) | trypanosomatid cathepsin B-like peptidase | lmajc g.p. (Leishmania major) | lmcpc g.p. (Leishmania mexicana) | CPC protease
+CPC peptidase;lmajc g.p. (Leishmania major);lmcpc g.p. (Leishmania mexicana);TbcatB;tccb g.p. (Trypanosoma cruzi);trypanosomatid cathepsin B-like peptidase;CPC protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -4024,7 +4024,7 @@ Glu;0;1;0;0;0;0;1;0
 Lys;0;1;1;0;0;0;0;0
 Arg;3;1;2;7;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ervatamin B | heynein (Ervatamia heyneana) | tabernamontanain form | ervatamin B (Ervatamia coronaria)
+ervatamin B;heynein (Ervatamia heyneana);tabernamontanain form;ervatamin B (Ervatamia coronaria)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -4068,7 +4068,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;15;0;1;2;0;16;0
 Arg;0;0;2;19;1;2;2;0
 His;0;1;0;0;0;0;0;0
-cathepsin B-like peptidase, nematode | AC-2 (Haemonchus contortus) | AC-3 (Haemonchus contortus) | AC-4 (Haemonchus contortus) | AC-5 (Haemonchus contortus) | Ac-CP-1 (Ancylostoma caninum) | Ac-CP-2 (Ancylostoma caninum) | acey-1 (Ancylostoma ceylanicum)
+cathepsin B-like peptidase, nematode;AC-2 (Haemonchus contortus);AC-3 (Haemonchus contortus);AC-4 (Haemonchus contortus);AC-5 (Haemonchus contortus);Ac-CP-1 (Ancylostoma caninum);Ac-CP-2 (Ancylostoma caninum);acey-1 (Ancylostoma ceylanicum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;2;4;3;1;3;4
 Pro;3;2;0;2;4;5;3;2
@@ -4090,7 +4090,7 @@ Glu;1;3;1;1;3;2;0;1
 Lys;1;4;6;0;3;1;2;8
 Arg;2;0;1;3;3;3;0;1
 His;3;4;2;1;3;1;4;2
-tetrain | Tetrahymana cysteine protease
+tetrain;Tetrahymana cysteine protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -4112,7 +4112,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-fascipain B | cat-B1 | cat-B2 | cat-B3 | cathepsin B-like enzyme (Fasciola sp.) | cathepsin B3 (Fasciola gigantica)
+fascipain B;cat-B1;cat-B2;cat-B3;cathepsin B-like enzyme (Fasciola sp.);cathepsin B3 (Fasciola gigantica)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;1;0;0;0
 Pro;0;0;3;0;0;0;0;0
@@ -4134,7 +4134,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;0;0;0;1;0;0;0
 Arg;0;0;1;8;0;0;0;0
 His;1;0;1;0;0;0;0;0
-ervatamin C | tabernamontanain form
+ervatamin C;tabernamontanain form
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -4156,7 +4156,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;2;0;0;0;0
 Arg;0;0;0;4;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Mername-AA249 peptidase | XCP2 peptidase | xylem-specific endopeptidase 2 | Tr-cp 14 peptidase (Trifolium repens) | p48h-17 g.p. (Zinnia elegans)
+Mername-AA249 peptidase;Tr-cp 14 peptidase (Trifolium repens);XCP2 peptidase;xylem-specific endopeptidase 2;p48h-17 g.p. (Zinnia elegans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -4178,7 +4178,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-dipeptidylpeptidase I (Plasmodium-type) | DPAP1 | DPAP2
+dipeptidylpeptidase I (Plasmodium-type);DPAP1;DPAP2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -4200,7 +4200,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;1;1;0;0;0;0
-Cwp84 peptidase | Cwp84 g.p. (Clostridium difficile)
+Cwp84 peptidase;Cwp84 g.p. (Clostridium difficile)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -4266,7 +4266,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cathepsin L3 (Fasciola sp.) | FgCatL1G | CL3 peptidase (Fasciola hepatica)
+cathepsin L3 (Fasciola sp.);FgCatL1G;CL3 peptidase (Fasciola hepatica)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;12;15;22;12;13;24;13;18
 Pro;18;13;9;8;10;5;12;8
@@ -4288,7 +4288,7 @@ Glu;3;3;2;4;6;5;1;3
 Lys;7;5;0;6;5;3;2;1
 Arg;3;4;3;5;3;3;4;3
 His;0;1;2;2;0;3;1;0
-CSCP3 peptidase (Clonorchis-type) | Ov-cf-1 (Opisthorchis viverrini) | CP5 (Clonorchis sinensis) | CsCF-6 (Clonorchis sinensis)
+CSCP3 peptidase (Clonorchis-type);CP5 (Clonorchis sinensis);CsCF-6 (Clonorchis sinensis);Ov-cf-1 (Opisthorchis viverrini)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;5;4;5;2;4;4;5
 Pro;1;1;5;5;2;2;2;2
@@ -4376,7 +4376,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cathepsin L2 (Fasciola sp.) | FhCatL2 | FhCatL5 | FheCL2 | CL2
+cathepsin L2 (Fasciola sp.);FhCatL2;FhCatL5;FheCL2;CL2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;9;11;13;9;9;14;9;12
 Pro;7;4;7;8;3;11;9;7
@@ -4398,7 +4398,7 @@ Glu;3;2;0;4;2;3;4;3
 Lys;3;3;2;3;2;3;4;4
 Arg;3;2;2;3;1;3;2;1
 His;0;1;0;1;1;0;1;1
-intestain D4 (Leptinotarsa decemlineata) | DvCAL1 peptidase
+intestain D4 (Leptinotarsa decemlineata);DvCAL1 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -4420,7 +4420,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cathepsin B-like cysteine peptidase (Raphanus sativus) | AtCathB3 (Arabidopsis thaliana)
+cathepsin B-like cysteine peptidase (Raphanus sativus);AtCathB3 (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;0;1;1;2
 Pro;2;2;1;0;0;1;1;3
@@ -4552,7 +4552,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-SmCL3 peptidase (Schistosoma-type) | CsCL41.5 (Clonorchis sinensis)
+SmCL3 peptidase (Schistosoma-type);CsCL41.5 (Clonorchis sinensis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -4574,7 +4574,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-araujiain (Araujia sp.) | araujiain aI (Araujia angustifolia) | araujiain aII (Araujia angustifolia) | araujiain h-I (Araujia hortorum) | araujiain h-II (Araujia hortorum) | araujiain h-III (Araujia hortorum)
+araujiain (Araujia sp.);araujiain aI (Araujia angustifolia);araujiain aII (Araujia angustifolia);araujiain h-I (Araujia hortorum);araujiain h-II (Araujia hortorum);araujiain h-III (Araujia hortorum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -4596,7 +4596,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-EhCP4 peptidase (Entamoeba histolytica) | EhCP-A4 (Entamoeba histolytica)
+EhCP4 peptidase (Entamoeba histolytica);EhCP-A4 (Entamoeba histolytica)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -4750,7 +4750,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-TgCPC1 (Toxoplasma gondii) | cathepsin C1 (Toxoplasma gondii)
+TgCPC1 (Toxoplasma gondii);cathepsin C1 (Toxoplasma gondii)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -4772,7 +4772,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-SmCL1 peptidase (Schistosoma mansoni and similar) | SmCF (Schistosoma mansoni) | SmCL1 (Schistosoma mansoni) | tag-196 g.p. (Caenorhabditis elegans) | F41E6.6 (Caenorhabditis elegans)
+SmCL1 peptidase (Schistosoma mansoni and similar);F41E6.6 (Caenorhabditis elegans);tag-196 g.p. (Caenorhabditis elegans);SmCF (Schistosoma mansoni);SmCL1 (Schistosoma mansoni)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -4816,7 +4816,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-endopeptidase-A (Hordeum-type) | EP-A (Hordeum vulgare)
+endopeptidase-A (Hordeum-type);EP-A (Hordeum vulgare)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;0;0;0;0
 Pro;0;0;0;0;0;19;0;0
@@ -4926,7 +4926,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-serine-repeat antigen (Plasmodium sp.) | SERA1 protein (Plasmodium sp.) | SERA2 protein (Plasmodium sp.) | SERA3 protein (Plasmodium sp.) | SERA4 protein (Plasmodium sp.) | SERA5 protein (Plasmodium falciparum) | serine repeat antigen | P126 antigen (Plasmodium falciparum)
+serine-repeat antigen (Plasmodium sp.);SERA1 protein (Plasmodium sp.);SERA2 protein (Plasmodium sp.);SERA3 protein (Plasmodium sp.);SERA4 protein (Plasmodium sp.);SERA5 protein (Plasmodium falciparum);serine repeat antigen;P126 antigen (Plasmodium falciparum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -4948,7 +4948,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-subfamily C1A unassigned peptidases | karatasin | membrane-associated cysteine protease (Vigna mungo) | microcarpain (Ficus microcarpa) | mir2 g.p. (Zea mays) | Mir3 (Zea mays) | ACP1 Entamoeba histolytica | AmphiCL peptidase | antiacanthain A (Bromelia antiacantha) | asclepain A3 (Asclepias syriaca) | asclepain B5 (Asclepias syriaca) | asclepain g (Asclepias glaucescens) | asclepain m (Asclepias mexicana) | zmCP1 (Zea mays) | ZmPCP (Zea mays) | balansain I (Bromelia balansae) | BmCPL-1 peptidase (Brugia malayi) | BmCPL-4 peptidase (Brugia malayi) | BmCPL-5 peptidase (Brugia malayi) | BpCPL-4 peptidase (Brugia pahangi) | Da-CTSL1 (Diaprepes abbreviatus) | dionain (Dionaea muscipula) | DvRS5 peptidase (Diabrotica virgifera) | HsCtsL1-like g.p. (Hyriopsis schlegelii) | tegupain (Carica papaya) | TgCPC2 (Toxoplasma gondii) | TgCPC3 (Toxoplasma gondii) | TsCPB (Trichinella spiralis) | tvcp12 (Trichomonas vaginalis) | Fas2 antigen (Fasciola hepatica) | funastrain c II (Funastrum clausum) | intestain | VQ-VII peptidase (Vasconcellea quercifolia) | nivulian (Euphorbia nivulia) | NTH1 (Pisum sativum) | ozone-responsive peptidase (Zea mays) | granulosain I (Solanum granuloso-leprosum) | RDL1 | Response to Drought 21A-like Cysteine Protease1 (Arabidopsis thaliana) | penduliflorain | philibertain g I (Philibertia gilliesii) | philibertain g II (Philibertia gilliesii) | pinguinain (Bromelia pinguin) | protease D3 (Glycine max) | protease K1 (Glycine max) | Pw28CCP (Paragonimus westermani) | cathepsin B (Uronema marinum) | CC23 endopeptidase (Carica candamarcensis) | Cease peptidase (Dianthus caryophyllus) | CfaD protein (Dictyostelium discoideum) | collagenolytic cysteine peptidase (Todarodes pacificus) | CP-A5 | CP3 Entamoeba histolytica | CP5 (Entamoeba histolytica) | CP6 (Entamoeba histolytica) | CsCPL (Clonorchis sinensis) | cyst specific cysteine protease (Acanthamoeba castellanii) | cyst-specific cysteine peptidase (Acanthamoeba castellanii) | cysteine peptidase A5 (Entamoeba histolytica)
+subfamily C1A unassigned peptidases;zmCP1 (Zea mays);ZmPCP (Zea mays);granulosain I (Solanum granuloso-leprosum);balansain I (Bromelia balansae);BmCPL-1 peptidase (Brugia malayi);BmCPL-4 peptidase (Brugia malayi);BmCPL-5 peptidase (Brugia malayi);BpCPL-4 peptidase (Brugia pahangi);intestain;Da-CTSL1 (Diaprepes abbreviatus);dionain (Dionaea muscipula);DvRS5 peptidase (Diabrotica virgifera);Fas2 antigen (Fasciola hepatica);funastrain c II (Funastrum clausum);karatasin;ACP1 Entamoeba histolytica;AmphiCL peptidase;antiacanthain A (Bromelia antiacantha);asclepain A3 (Asclepias syriaca);asclepain B5 (Asclepias syriaca);asclepain g (Asclepias glaucescens);asclepain m (Asclepias mexicana);RDL1;Response to Drought 21A-like Cysteine Protease1 (Arabidopsis thaliana);HsCtsL1-like g.p. (Hyriopsis schlegelii);tegupain (Carica papaya);TgCPC2 (Toxoplasma gondii);TgCPC3 (Toxoplasma gondii);TsCPB (Trichinella spiralis);tvcp12 (Trichomonas vaginalis);cathepsin B (Uronema marinum);CC23 endopeptidase (Carica candamarcensis);Cease peptidase (Dianthus caryophyllus);CfaD protein (Dictyostelium discoideum);collagenolytic cysteine peptidase (Todarodes pacificus);CP-A5;CP3 Entamoeba histolytica;CP5 (Entamoeba histolytica);CP6 (Entamoeba histolytica);CsCPL (Clonorchis sinensis);cyst specific cysteine protease (Acanthamoeba castellanii);cyst-specific cysteine peptidase (Acanthamoeba castellanii);cysteine peptidase A5 (Entamoeba histolytica);ozone-responsive peptidase (Zea mays);nivulian (Euphorbia nivulia);NTH1 (Pisum sativum);VQ-VII peptidase (Vasconcellea quercifolia);penduliflorain;philibertain g I (Philibertia gilliesii);philibertain g II (Philibertia gilliesii);pinguinain (Bromelia pinguin);protease D3 (Glycine max);protease K1 (Glycine max);Pw28CCP (Paragonimus westermani);membrane-associated cysteine protease (Vigna mungo);microcarpain (Ficus microcarpa);mir2 g.p. (Zea mays);Mir3 (Zea mays)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -4970,7 +4970,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-calpain-1 | micro-calpain | mu-calpain | Ca2+-activated neutral protease | calpain I | CANP I | CAPN1 g.p. (Homo sapiens) | EC 3.4.22.52
+calpain-1;Ca2+-activated neutral protease;calpain I;CANP I;CAPN1 g.p. (Homo sapiens);micro-calpain;mu-calpain;EC 3.4.22.52
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;27;35;14;29;29;36;17;38
 Pro;39;40;13;5;15;37;66;58
@@ -4992,7 +4992,7 @@ Glu;31;32;14;23;13;38;7;20
 Lys;27;40;16;47;33;27;42;27
 Arg;26;23;13;39;40;17;49;22
 His;11;8;4;15;6;6;8;10
-calpain-2 | m-calpain | milli-calpain | Ca2+-activated neutral protease | calpain II | calpain xCL-2 (Xenopus laevis) | CANP II | CAPN2 g.p. (Homo sapiens) | EC 3.4.22.53
+calpain-2;Ca2+-activated neutral protease;calpain II;calpain xCL-2 (Xenopus laevis);CANP II;CAPN2 g.p. (Homo sapiens);m-calpain;milli-calpain;EC 3.4.22.53
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;17;34;12;37;29;33;16;35
 Pro;42;45;11;8;19;42;88;67
@@ -5014,7 +5014,7 @@ Glu;36;32;18;19;24;40;17;31
 Lys;30;30;16;50;30;27;43;27
 Arg;28;28;16;48;43;25;54;26
 His;8;10;4;15;3;8;7;7
-calpain-3 | muscle calpain | nCL-1 | lens-specific calpain | Lp82 | Lp85 | calpain LP74 (Rattus norvegicus) | calpain p94 | calpain Rt88 (Rattus norvegicus) | calpain, muscle | calpain-3 form Lp82 | calpain-3 form Lp85 | CANP3 g.p. | CAPN3 g.p. (Homo sapiens) | EC 3.4.22.54
+calpain-3;lens-specific calpain;Lp82;Lp85;calpain LP74 (Rattus norvegicus);calpain p94;calpain Rt88 (Rattus norvegicus);calpain, muscle;calpain-3 form Lp82;calpain-3 form Lp85;CANP3 g.p.;CAPN3 g.p. (Homo sapiens);nCL-1;muscle calpain;EC 3.4.22.54
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;2;4;0;0;1
 Pro;1;0;1;1;0;3;4;4
@@ -5036,7 +5036,7 @@ Glu;2;2;0;1;1;1;4;1
 Lys;0;1;1;3;3;2;0;1
 Arg;2;1;0;1;1;1;3;2
 His;0;1;0;1;0;0;0;0
-calpain-8 | nCL-2 calpain | CAPN8 g.p. (Homo sapiens) | CLS4 g.p. (Rattus norvegicus)
+calpain-8;CAPN8 g.p. (Homo sapiens);CLS4 g.p. (Rattus norvegicus);nCL-2 calpain
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -5080,7 +5080,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-calpain A | DM-calpain (Drosophila melanogaster) | CALPA protein (Drosophila melanogaster)
+calpain A;DM-calpain (Drosophila melanogaster);CALPA protein (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;1;1;0;0;0;1;1;1
@@ -5102,7 +5102,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;3;0;0;0;0
 Arg;0;1;0;0;0;0;1;0
 His;0;0;0;0;1;0;0;0
-calpain B | CALPB protein (Drosophila melanogaster)
+calpain B;CALPB protein (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;1;1;0;0;0;1;1;1
@@ -5124,7 +5124,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;1;0;0;0;0;0;0;0
-calpain-10 | CAPN10 g.p. (Homo sapiens, Mus musculus) | CAPN8 g.p. [obs.] (Mus musculus)
+calpain-10;CAPN10 g.p. (Homo sapiens, Mus musculus);CAPN8 g.p. [obs.] (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -5146,7 +5146,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Tpr peptidase (Porphyromonas gingivalis) | Tpr proteinase (Porphyromonas gingivalis)
+Tpr peptidase (Porphyromonas gingivalis);Tpr proteinase (Porphyromonas gingivalis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;1;0;0;1;0;0
@@ -5168,7 +5168,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-calpain-7 | Mername-AA253 peptidase | PalBH (Homo sapiens) | CAPN7 g.p. (Homo sapiens, Mus musculus)
+calpain-7;CAPN7 g.p. (Homo sapiens, Mus musculus);PalBH (Homo sapiens);Mername-AA253 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -5190,7 +5190,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;0;1;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-calpain (Plasmodium-type) | Pf-calpain
+calpain (Plasmodium-type);Pf-calpain
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -5212,7 +5212,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-poliovirus-type picornain 3C | picornain 3C (poliovirus) | picornavirus endopeptidase 3C | picornavirus peptidase 3C (poliovirus) | protein 3CD | EC 3.4.22.28 | endopeptidase 3C, picornavirus
+poliovirus-type picornain 3C;picornain 3C (poliovirus);picornavirus endopeptidase 3C;picornavirus peptidase 3C (poliovirus);protein 3CD;EC 3.4.22.28;endopeptidase 3C, picornavirus
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;13;0;2;0
 Pro;1;0;1;0;0;3;3;2
@@ -5234,7 +5234,7 @@ Glu;0;0;1;0;0;1;1;0
 Lys;0;1;1;0;0;0;0;0
 Arg;0;1;0;0;0;0;1;2
 His;0;1;1;0;0;0;0;0
-cowpea mosaic comovirus-type picornain 3C | 24 kDa proteinase (cowpea mosaic comovirus) | red clover mottle virus picornain 3C | cowpea mosaic comovirus 24 kDa proteinase | cowpea severe mosaic virus picornain 3C
+cowpea mosaic comovirus-type picornain 3C;24 kDa proteinase (cowpea mosaic comovirus);red clover mottle virus picornain 3C;cowpea mosaic comovirus 24 kDa proteinase;cowpea severe mosaic virus picornain 3C
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;0;0;0
 Pro;0;0;2;0;0;1;1;1
@@ -5256,7 +5256,7 @@ Glu;0;1;0;0;0;1;1;1
 Lys;0;0;0;0;0;0;1;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-grapevine fanleaf-type nepovirus picornain 3C | grapevine fanleaf nepovirus picornain 3C | picornain 3C (tomato black ring virus)
+grapevine fanleaf-type nepovirus picornain 3C;grapevine fanleaf nepovirus picornain 3C;picornain 3C (tomato black ring virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;1;1;0;0
 Pro;0;0;0;0;0;0;2;1
@@ -5278,7 +5278,7 @@ Glu;0;0;0;0;2;1;0;0
 Lys;1;0;0;0;0;0;0;0
 Arg;0;0;2;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-hepatitis A virus-type picornain 3C | picornain 3C (hepatitis A virus)
+hepatitis A virus-type picornain 3C;picornain 3C (hepatitis A virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -5300,7 +5300,7 @@ Glu;0;2;0;0;0;0;0;1
 Lys;0;0;0;0;0;1;0;1
 Arg;0;2;0;0;1;0;1;0
 His;0;0;0;0;0;0;0;0
-human rhinovirus 2-type picornain 3C | human rhinovirus protease 3C | protease 3C (rhinovirus)picornain 3C (human rhinovirus)
+human rhinovirus 2-type picornain 3C;human rhinovirus protease 3C;protease 3C (rhinovirus)picornain 3C (human rhinovirus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;6;0;0;0
 Pro;0;0;0;0;0;3;1;0
@@ -5322,7 +5322,7 @@ Glu;0;1;1;0;0;0;1;1
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-foot-and-mouth disease virus picornain 3C | FMDV picornain 3C | FMDV protease 3C | foot-and-mouth disease virus protease 3C | protease 3C (foot-and-mouth disease virus)picornain 3C (foot-and-mouth disease virus)
+foot-and-mouth disease virus picornain 3C;FMDV picornain 3C;FMDV protease 3C;foot-and-mouth disease virus protease 3C;protease 3C (foot-and-mouth disease virus)picornain 3C (foot-and-mouth disease virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;4;0;0;0;0;0;0;1
@@ -5344,7 +5344,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;1;3;0;0;0;1;0
 Arg;1;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cardiovirus picornain 3C | mengo virus endopeptidase | picornain 3C (cardiovirus) | EMCV 3C peptidase | encephalomyocarditis virus 3C peptidase
+cardiovirus picornain 3C;picornain 3C (cardiovirus);mengo virus endopeptidase;EMCV 3C peptidase;encephalomyocarditis virus 3C peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;7;0;0;0
 Pro;0;0;2;0;0;5;0;2
@@ -5366,7 +5366,7 @@ Glu;1;2;1;0;0;0;1;1
 Lys;0;0;0;0;0;0;0;1
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Coxsackievirus-type picornain 3C | picornain 3C (Coxsackievirus)
+Coxsackievirus-type picornain 3C;picornain 3C (Coxsackievirus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;10;1;0;0
 Pro;0;0;0;0;0;7;6;1
@@ -5410,7 +5410,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;1;0;0;0;0;0;0;0
-human rhinovirus 14-type 3C peptidase | PreScission peptidase
+human rhinovirus 14-type 3C peptidase;PreScission peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -5432,7 +5432,7 @@ Glu;0;1;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-human enterovirus 71 3C peptidase | human hand, foot and mouth disease virus 3C peptidase | EV71
+human enterovirus 71 3C peptidase;human hand, foot and mouth disease virus 3C peptidase;EV71
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;7;3;0;1
 Pro;0;0;0;0;0;2;2;1
@@ -5498,7 +5498,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;3;0;0;0;0;1;0;0
 Arg;1;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-enterovirus picornain 2A | swine vesicular disease virus picornain 2A | human hand, foot and mouth disease virus 2A peptidase | picornain 2A (poliovirus) | picornavirus endopeptidase 2A | picornavirus peptidase 2A (poliovirus) | poliovirus protease 2A | poliovirus-type picornain 2A | Coxsackievirus-type picornain 2A | EC 3.4.22.29 | endopeptidase 2A, picornavirusprotease 2A (poliovirus)picornain 2A (Coxsackievirus) | enterovirus 71 picornain 2A
+enterovirus picornain 2A;human hand, foot and mouth disease virus 2A peptidase;Coxsackievirus-type picornain 2A;swine vesicular disease virus picornain 2A;picornain 2A (poliovirus);picornavirus endopeptidase 2A;picornavirus peptidase 2A (poliovirus);poliovirus protease 2A;poliovirus-type picornain 2A;EC 3.4.22.29;endopeptidase 2A, picornavirusprotease 2A (poliovirus)picornain 2A (Coxsackievirus);enterovirus 71 picornain 2A
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;1;0;11;0;2;2
 Pro;1;0;1;0;0;4;2;2
@@ -5520,7 +5520,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;3;2
 His;0;0;0;0;0;0;0;1
-rhinovirus picornain 2A | human rhinovirus protease 2A | picornain 2A (human rhinovirus) | protease 2A (rhinovirus)
+rhinovirus picornain 2A;human rhinovirus protease 2A;picornain 2A (human rhinovirus);protease 2A (rhinovirus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;1;0;9;0;0;2
 Pro;1;0;1;0;0;5;3;1
@@ -5564,7 +5564,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;0;1;0;1
 Arg;0;0;0;0;0;0;0;0
 His;1;0;0;0;0;0;0;0
-tomato black ring virus-type picornain | beet ringspot virus picornain | grapevine chrome mosaic virus
+tomato black ring virus-type picornain;grapevine chrome mosaic virus;beet ringspot virus picornain
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;1;2
 Pro;0;0;0;0;0;0;0;0
@@ -5586,7 +5586,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;3;0;0;0;1
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-nuclear-inclusion-a peptidase (plum pox virus) | 48/49 kDa protease | turnip mosaic virus NIa protease | VPg-protease | nuclear inclusion protease aNIa protease (plum pox virus)NIa protease (garlic yellow steak virus)NIa protease (Japanese yam virus)NIa protease (turnip mosaic virus) | Japanese yam virus NIa protease | plum pox virus NIa protease | potato virus A NIa protease | protease nuclear inclusion a (NIa) | EC 3.4.22.44
+nuclear-inclusion-a peptidase (plum pox virus);48/49 kDa protease;Japanese yam virus NIa protease;turnip mosaic virus NIa protease;nuclear inclusion protease aNIa protease (plum pox virus)NIa protease (garlic yellow steak virus)NIa protease (Japanese yam virus)NIa protease (turnip mosaic virus);VPg-protease;plum pox virus NIa protease;potato virus A NIa protease;protease nuclear inclusion a (NIa);EC 3.4.22.44
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;3;3;1;0
 Pro;0;0;1;0;0;0;2;1
@@ -5608,7 +5608,7 @@ Glu;0;0;0;0;0;0;1;1
 Lys;1;1;0;0;1;0;0;1
 Arg;0;2;0;0;0;0;0;1
 His;0;3;16;0;0;0;0;0
-tobacco vein mottling virus-type NIa peptidase | soybean mosaic virus NIa protease | watermelon mosaic mottling virus NIa protease | tobacco vein mottling virus-type NIa protease | NIa protease (watermelon mosaic mottling virus)NIa protease (soybean mosaic virus)NIa protease (tobacco vein mottling virus)
+tobacco vein mottling virus-type NIa peptidase;tobacco vein mottling virus-type NIa protease;NIa protease (watermelon mosaic mottling virus)NIa protease (soybean mosaic virus)NIa protease (tobacco vein mottling virus);soybean mosaic virus NIa protease;watermelon mosaic mottling virus NIa protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;8;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -5630,7 +5630,7 @@ Glu;0;0;0;0;0;2;0;1
 Lys;0;0;0;0;0;0;1;0
 Arg;0;13;0;0;0;0;0;9
 His;0;0;0;0;1;0;0;0
-tobacco etch virus NIa peptidase | TEV protease | tobacco etch virus NIa protease | NIa protease (tobacco etch virus)
+tobacco etch virus NIa peptidase;TEV protease;tobacco etch virus NIa protease;NIa protease (tobacco etch virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;9;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -5652,7 +5652,7 @@ Glu;0;0;0;0;0;1;0;2
 Lys;1;0;0;0;0;2;2;0
 Arg;0;7;0;0;0;0;0;8
 His;0;0;0;0;1;0;0;0
-bean yellow mosaic virus-type NIa peptidase | bean yellow mosaic virus NIa proteaseNIa proteinase (clover yellow vein virus)NIa protease (bean yellow mosaic virus) | bean yellow mosaic virus-type NIa protease | clover yellow vein virus NIa protease
+bean yellow mosaic virus-type NIa peptidase;bean yellow mosaic virus NIa proteaseNIa proteinase (clover yellow vein virus)NIa protease (bean yellow mosaic virus);bean yellow mosaic virus-type NIa protease;clover yellow vein virus NIa protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -5674,7 +5674,7 @@ Glu;0;1;0;3;0;0;0;2
 Lys;0;2;0;0;0;2;1;1
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-potato virus A NIa peptidase | potato virus A NIa protease
+potato virus A NIa peptidase;potato virus A NIa protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -5696,7 +5696,7 @@ Glu;0;1;0;1;0;1;0;0
 Lys;0;0;0;0;0;1;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-adenain | adenovirus endopeptidase | adenovirus protease | L3 | p23 | EC 3.4.22.39
+adenain;adenovirus endopeptidase;adenovirus protease;L3;p23;EC 3.4.22.39
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;23;14;11;1;1;1
 Pro;1;1;0;1;0;0;2;0
@@ -5718,7 +5718,7 @@ Glu;0;1;0;0;0;1;0;1
 Lys;0;1;0;0;0;2;3;0
 Arg;0;1;0;2;0;3;1;3
 His;0;0;0;0;0;0;1;0
-potato virus Y-type helper component peptidase | zucchini yellow mosaic virus helper component proteinase | P29 protein, potyvirusHC-Pro, potyvirus | Papaya ringspot virus helper component proteinase | potato virus Y potyvirus HC-Pro | potato virus Y-type helper component proteinase | potyvirus P29 protein | EC 3.4.22.45
+potato virus Y-type helper component peptidase;zucchini yellow mosaic virus helper component proteinase;P29 protein, potyvirusHC-Pro, potyvirus;Papaya ringspot virus helper component proteinase;potato virus Y potyvirus HC-Pro;potato virus Y-type helper component proteinase;potyvirus P29 protein;EC 3.4.22.45
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;2;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -5740,7 +5740,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;0
 Arg;0;1;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-chestnut blight fungus virus p29 peptidase | hypovirus papain-like protease p29 | p29 proteinase (chestnut blight fungus virus) | chestnut blight fungus virus p29 proteinase
+chestnut blight fungus virus p29 peptidase;hypovirus papain-like protease p29;chestnut blight fungus virus p29 proteinase;p29 proteinase (chestnut blight fungus virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -5762,7 +5762,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-chestnut blight fungus virus p48 peptidase | p48 proteinase (chestnut blight fungus virus) | chestnut blight fungus virus p48 proteinase
+chestnut blight fungus virus p48 peptidase;chestnut blight fungus virus p48 proteinase;p48 proteinase (chestnut blight fungus virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -5784,7 +5784,7 @@ Glu;0;0;0;0;0;1;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-sindbis virus-type nsP2 peptidase | Semliki forest virus nsP2 proteinase | Sindbis virus-type nsP2 proteinase | nsP2 proteinase (sindbis virus)nsP2 proteinase (Semliki forest virus) | Chikungunya virus nsP2 peptidase
+sindbis virus-type nsP2 peptidase;Chikungunya virus nsP2 peptidase;nsP2 proteinase (sindbis virus)nsP2 proteinase (Semliki forest virus);Semliki forest virus nsP2 proteinase;Sindbis virus-type nsP2 proteinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;3;0;1;0;1;0
 Pro;0;0;0;0;1;1;0;0
@@ -5806,7 +5806,7 @@ Glu;0;0;1;0;0;0;0;2
 Lys;0;0;0;0;0;0;0;0
 Arg;1;0;0;0;0;0;0;1
 His;1;0;0;0;0;0;0;0
-streptopain | SCP | secreted cysteine proteinase | SpeB | speB g.p. (Streptococcus pyogenes) | streptococcal cysteine proteinase | histase | interleukin 1 beta convertase | pyrogenic exotoxin B (Streptococcus pyogenes)exotoxin B, pyrogenic (Streptococcus pyogenes)peptidase A, Streptococcus | EC 3.4.22.10 | erythrogenic toxin B | erythrotoxin B
+streptopain;interleukin 1 beta convertase;histase;SCP;secreted cysteine proteinase;SpeB;speB g.p. (Streptococcus pyogenes);streptococcal cysteine proteinase;pyrogenic exotoxin B (Streptococcus pyogenes)exotoxin B, pyrogenic (Streptococcus pyogenes)peptidase A, Streptococcus;EC 3.4.22.10;erythrogenic toxin B;erythrotoxin B
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;4;5;3;2
 Pro;0;0;1;0;0;3;2;0
@@ -5828,7 +5828,7 @@ Glu;2;2;0;1;1;1;0;6
 Lys;0;2;0;7;2;0;3;2
 Arg;1;0;0;1;0;1;1;2
 His;1;1;1;1;0;1;2;2
-PrtT peptidase | PrtT g.p. (Porphyromonas gingivalis)
+PrtT peptidase;PrtT g.p. (Porphyromonas gingivalis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -5894,7 +5894,7 @@ Glu;3;1;0;0;1;0;3;3
 Lys;2;2;1;7;1;1;1;3
 Arg;0;1;1;5;1;0;0;0
 His;1;1;1;0;0;3;0;1
-OTULIN peptidase | BC067945 | FAM105B g.p. (Homo sapiens) | FAM105B isopeptidase | Gum | gumby isopeptidase (Mus musculus)
+OTULIN peptidase;Gum;gumby isopeptidase (Mus musculus);BC067945;FAM105B g.p. (Homo sapiens);FAM105B isopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -5960,7 +5960,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;1;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-papain-like peptidase 1 alpha (simian hemorrhagic fever virus) | PLP1alpha (simian hemorrhagic fever virus)
+papain-like peptidase 1 alpha (simian hemorrhagic fever virus);PLP1alpha (simian hemorrhagic fever virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -5982,7 +5982,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-archaeosortase A (Haloferax volcanii ) | ArtA (Haloferax volcanii )
+archaeosortase A (Haloferax volcanii );ArtA (Haloferax volcanii )
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -6004,7 +6004,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-alphamesonivirus 3C-like peptidase | Cavally virus 3C-like peptidase
+alphamesonivirus 3C-like peptidase;Cavally virus 3C-like peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -6026,7 +6026,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Prp peptidase (Staphylococcus aureus) | DUF464 protein | ribosomal protein L27-cleaving peptidase
+Prp peptidase (Staphylococcus aureus);DUF464 protein;ribosomal protein L27-cleaving peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -6070,7 +6070,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;1;0;0;0;0
-clostripain | clostridiopeptidase B | EC 3.4.22.8
+clostripain;clostridiopeptidase B;EC 3.4.22.8
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;1;0;2;0;0;0
 Pro;1;0;0;0;0;1;1;0
@@ -6136,7 +6136,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;0;1;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-thetapain | iotapain
+thetapain;iotapain
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;1;0;0;0;0;0;0;0
@@ -6180,7 +6180,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;1;0;0;0;0
 Arg;0;0;0;2;0;1;0;1
 His;0;0;0;0;0;0;0;0
-kyphoscoliosis peptidase | KY g.p. (Homo sapiens)
+kyphoscoliosis peptidase;KY g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -6202,7 +6202,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-coagulation factor XIIIa | fibrinoligase | plasma transglutaminase
+coagulation factor XIIIa;fibrinoligase;plasma transglutaminase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -6246,7 +6246,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;3;0;0;0;0;0;0
 Arg;0;0;3;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-MINDY-1 protein | FAM63A protein
+MINDY-1 protein;FAM63A protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -6290,7 +6290,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ubiquitinyl hydrolase-L1 | ubiquitin C-terminal hydrolase L1 | UCH-L1 protein | UCH-L1 ubiquitin C-terminal hydrolase | UCHL1 | PGP 9.5
+ubiquitinyl hydrolase-L1;ubiquitin C-terminal hydrolase L1;UCH-L1 protein;UCH-L1 ubiquitin C-terminal hydrolase;UCHL1;PGP 9.5
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;8;8;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -6312,7 +6312,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;5;0;0;0
 Arg;0;8;0;0;0;0;0;0
 His;0;0;0;0;1;0;0;0
-ubiquitinyl hydrolase-YUH1 | yeast Uch | Yuh ubiquitin peptidase | YUH1 | YUH1 ubiquitin peptidase | ubiquitin conjugate hydrolase (Saccharomyces cerevisiae) | Uch (Saccharomyces)
+ubiquitinyl hydrolase-YUH1;ubiquitin conjugate hydrolase (Saccharomyces cerevisiae);Uch (Saccharomyces);yeast Uch;Yuh ubiquitin peptidase;YUH1;YUH1 ubiquitin peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;6;6;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -6334,7 +6334,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;6;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitinyl hydrolase-L3 | ubiquitin C-terminal hydrolase UCH-L3 (mammal) | UCH-L3 ubiquitin C-terminal hydrolase | UCHL3 | EC 3.4.19.12
+ubiquitinyl hydrolase-L3;ubiquitin C-terminal hydrolase UCH-L3 (mammal);UCH-L3 ubiquitin C-terminal hydrolase;UCHL3;EC 3.4.19.12
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;23;26;0;0;0;0
 Pro;0;0;0;0;0;0;0;2
@@ -6356,7 +6356,7 @@ Glu;0;0;0;0;0;0;2;0
 Lys;1;1;0;0;5;0;0;0
 Arg;1;23;0;0;0;0;0;0
 His;0;0;0;0;1;0;0;0
-ubiquitinyl hydrolase-BAP1 | KIAA0272 putative peptidase | BAP1 | BAP1 g.p. (Homo sapiens) | BRCA1-associated protein 1 | ubiquitin C-terminal hydrolase BAP1 | ubiquitin C-terminal hydrolase X4 (Mus musculus) | uch-x4 g.p. (Mus musculus) | hucep-6 (Homo sapiens) | Calypso protein (Drosophila melanogaster) | cerebral protein-6 (Homo sapiens)
+ubiquitinyl hydrolase-BAP1;BAP1;BAP1 g.p. (Homo sapiens);BRCA1-associated protein 1;KIAA0272 putative peptidase;hucep-6 (Homo sapiens);Calypso protein (Drosophila melanogaster);cerebral protein-6 (Homo sapiens);ubiquitin C-terminal hydrolase BAP1;ubiquitin C-terminal hydrolase X4 (Mus musculus);uch-x4 g.p. (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -6378,7 +6378,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;1;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitinyl hydrolase-L5 | AD-019 protein | ubh-4 g.p. (Caenorhabditis elegans) | ubiquitin C-terminal hydrolase UCH37 | ubiquitinyl hydrolase-UCH37 | UCHL5 g.p. (Homo sapiens) | CGI-70 protein
+ubiquitinyl hydrolase-L5;AD-019 protein;CGI-70 protein;ubh-4 g.p. (Caenorhabditis elegans);ubiquitin C-terminal hydrolase UCH37;ubiquitinyl hydrolase-UCH37;UCHL5 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -6400,7 +6400,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitinyl hydrolase UCH-D | UCH-D ubiquitin C-terminal hydrolase (Drosophila melanogaster)
+ubiquitinyl hydrolase UCH-D;UCH-D ubiquitin C-terminal hydrolase (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;3;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -6466,7 +6466,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;1;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Lem27 (Legionella pneumophila) | Dot/Icm T4SS effector
+Lem27 (Legionella pneumophila);Dot/Icm T4SS effector
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;5;5;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -6488,7 +6488,7 @@ Glu;0;0;0;0;0;2;0;1
 Lys;0;0;0;0;5;0;0;0
 Arg;0;5;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-legumain (plant beta form) | asparaginyl endopeptidase | bean endopeptidase | betaVPE | HvVPE1 (Horeum vulgare) | HvVPE2 (Horeum vulgare) | vacuolar processing enzyme | vicilin peptidohydrolase | VmPE-1 | VPE | nucellain | citvac | EC 3.4.22.34
+legumain (plant beta form);bean endopeptidase;betaVPE;asparaginyl endopeptidase;HvVPE1 (Horeum vulgare);HvVPE2 (Horeum vulgare);citvac;nucellain;vacuolar processing enzyme;vicilin peptidohydrolase;VmPE-1;VPE;EC 3.4.22.34
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;1;3;0
 Pro;2;0;0;0;1;1;0;0
@@ -6510,7 +6510,7 @@ Glu;2;1;2;0;0;0;2;2
 Lys;2;1;0;0;0;0;1;0
 Arg;1;0;1;0;0;0;0;0
 His;0;0;0;0;1;1;0;0
-legumain (plant alpha form) | See2beta peptidase (Zea mays) | alphaVPE | HvVPE3 (Horeum vulgare) | HvVPE4 (Horeum vulgare) | LeCp peptidase | proteinase B
+legumain (plant alpha form);alphaVPE;LeCp peptidase;HvVPE3 (Horeum vulgare);HvVPE4 (Horeum vulgare);See2beta peptidase (Zea mays);proteinase B
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;3;1;1;0
 Pro;0;0;0;0;1;0;0;0
@@ -6532,7 +6532,7 @@ Glu;4;0;0;0;2;1;6;5
 Lys;1;0;0;0;0;0;0;0
 Arg;1;0;5;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-legumain, animal-type | AEP | Alzheimer’s amyloid protein delta secretase | asparagine endopeptidase | asparaginyl endopeptidase (AEP) | delta-secretase | osteoclast inhibitory peptide 2 | LGMN g.p. (Homo sapiens) | PRSC1 g.p. [obs.] (Homo sapiens) | EC 3.4.22.34
+legumain, animal-type;delta-secretase;AEP;Alzheimer’s amyloid protein delta secretase;asparagine endopeptidase;asparaginyl endopeptidase (AEP);LGMN g.p. (Homo sapiens);osteoclast inhibitory peptide 2;PRSC1 g.p. [obs.] (Homo sapiens);EC 3.4.22.34
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;178;225;127;12;254;184;169;170
 Pro;170;171;145;5;55;170;183;195
@@ -6554,7 +6554,7 @@ Glu;200;189;279;5;176;255;187;184
 Lys;115;130;184;6;180;181;172;174
 Arg;120;99;141;6;140;135;136;166
 His;50;25;20;4;41;36;38;56
-glycosylphosphatidylinositol:protein transamidase | GPI8 g.p. (Saccharomyces cerevisiae)
+glycosylphosphatidylinositol:protein transamidase;GPI8 g.p. (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;2;2;2;6;2;1;3
 Pro;2;0;1;0;0;0;1;2
@@ -6576,7 +6576,7 @@ Glu;1;1;3;0;0;0;0;0
 Lys;0;4;3;0;1;0;1;1
 Arg;0;0;0;1;0;0;0;2
 His;0;0;1;0;0;0;1;2
-legumain (plant gamma form) | gammaVPE
+legumain (plant gamma form);gammaVPE
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -6598,7 +6598,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-legumain, trematode-type | Sj32 (Schistosoma japonica) | Sm32 (Schistosoma mansoni) | hemoglobinase | EC 3.4.22.34
+legumain, trematode-type;hemoglobinase;Sj32 (Schistosoma japonica);Sm32 (Schistosoma mansoni);EC 3.4.22.34
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;1;0
 Pro;0;0;2;0;0;0;0;0
@@ -6642,7 +6642,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-butelase 1 | butelase 2
+butelase 1;butelase 2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -6664,7 +6664,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;1;1;5;0;2;0;0;0
 Arg;0;0;4;0;0;0;0;0
 His;0;1;0;0;9;0;0;0
-legumain (plant delta form) | At3g20210 g.p. (Arabidopsis thaliana) | deltaVPE
+legumain (plant delta form);deltaVPE;At3g20210 g.p. (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -6686,7 +6686,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-caspase-1 | interleukin 1-beta-converting enzyme | converting enzyme, interleukin 1-beta | EC 3.4.22.36
+caspase-1;interleukin 1-beta-converting enzyme;converting enzyme, interleukin 1-beta;EC 3.4.22.36
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;4;6;1;62;10;19;26
 Pro;4;2;25;2;0;22;22;9
@@ -6730,7 +6730,7 @@ Glu;2;2;1;0;1;2;3;5
 Lys;0;1;0;0;0;2;1;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-caspase-3 | apopain | yama | CASP3 g.p. (Homo sapiens) | caspase 3 | caspase3 | CPP32 | EC 3.4.22.56
+caspase-3;apopain;CASP3 g.p. (Homo sapiens);caspase 3;caspase3;CPP32;yama;EC 3.4.22.56
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;24;25;15;0;221;78;62;86
 Pro;6;6;81;0;6;47;33;37
@@ -6752,7 +6752,7 @@ Glu;76;180;20;2;9;21;46;56
 Lys;4;12;14;0;8;50;44;34
 Arg;2;8;20;0;14;20;23;22
 His;5;14;9;1;11;11;21;11
-caspase-7 | Mch3 | ICE-LAP3 | caspase 7 | CMH-1 | EC 3.4.22.60
+caspase-7;ICE-LAP3;caspase 7;CMH-1;Mch3;EC 3.4.22.60
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;20;14;22;2;199;48;39;28
 Pro;20;4;63;1;3;36;30;30
@@ -6774,7 +6774,7 @@ Glu;68;119;9;27;7;34;37;41
 Lys;9;20;21;2;6;53;47;32
 Arg;4;11;26;2;9;16;25;23
 His;9;4;2;0;9;8;8;9
-caspase-6 | Mch2 | EC 3.4.22.59
+caspase-6;Mch2;EC 3.4.22.59
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;25;34;29;0;464;78;108;119
 Pro;27;8;52;0;12;11;139;112
@@ -6796,7 +6796,7 @@ Glu;154;465;135;0;27;69;108;178
 Lys;2;3;10;0;13;23;43;28
 Arg;1;3;6;0;7;14;21;19
 His;12;17;15;0;9;14;16;24
-caspase-2 | Ich-1 | NEDD-2 | caspase-2L | caspase-2S | EC 3.4.22.55
+caspase-2;Ich-1;caspase-2L;caspase-2S;NEDD-2;EC 3.4.22.55
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;12;11;0;149;23;28;32
 Pro;3;7;27;0;0;3;35;28
@@ -6818,7 +6818,7 @@ Glu;31;60;10;0;1;10;13;29
 Lys;0;0;0;0;0;5;10;7
 Arg;0;0;0;0;1;2;5;1
 His;0;5;6;0;1;5;7;5
-caspase-4 | TX | ICErel-II | Ich-2 | EC 3.4.22.57
+caspase-4;ICErel-II;Ich-2;TX;EC 3.4.22.57
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;3;1;1;1
 Pro;1;0;2;0;0;2;2;0
@@ -6840,7 +6840,7 @@ Glu;0;6;0;0;0;0;0;0
 Lys;0;0;1;0;0;1;1;1
 Arg;0;0;0;0;0;0;0;1
 His;0;0;2;0;0;0;0;0
-caspase-5 | TY | ICErel-III | Ich-3 | EC 3.4.22.58
+caspase-5;ICErel-III;Ich-3;TY;EC 3.4.22.58
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -6862,7 +6862,7 @@ Glu;0;3;0;1;0;0;1;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;2;0;0;0;0;0
-caspase-8 | MACH | Mch5 | FLICE | CASP8 g.p. (Homo sapiens) | caspase 8 | EC 3.4.22.61
+caspase-8;FLICE;CASP8 g.p. (Homo sapiens);caspase 8;MACH;Mch5;EC 3.4.22.61
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;0;25;7;10;3
 Pro;2;1;3;0;1;11;4;4
@@ -6884,7 +6884,7 @@ Glu;7;32;4;0;0;6;6;6
 Lys;0;0;3;0;3;2;4;2
 Arg;3;0;2;0;0;3;4;2
 His;0;1;1;0;0;1;1;0
-caspase-9 | Mch6 | ICE-LAP6 | CASP9 g.p. (Homo sapiens) | EC 3.4.22.62
+caspase-9;ICE-LAP6;CASP9 g.p. (Homo sapiens);Mch6;EC 3.4.22.62
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;3;1;3;1
 Pro;2;0;2;0;0;1;2;1
@@ -6906,7 +6906,7 @@ Glu;1;6;2;2;0;1;0;0
 Lys;0;0;0;0;0;1;1;0
 Arg;0;0;1;0;0;1;1;1
 His;0;1;1;0;0;0;0;0
-caspase-10 | Mch4 | FLICE2 | EC 3.4.22.63
+caspase-10;FLICE2;Mch4;EC 3.4.22.63
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;2;1;1
 Pro;0;0;0;0;0;0;0;1
@@ -6928,7 +6928,7 @@ Glu;2;4;1;0;0;0;0;0
 Lys;0;0;0;0;0;3;0;0
 Arg;0;0;0;0;1;0;0;0
 His;0;0;1;0;0;0;0;0
-caspase-11 | EC 3.4.22.64
+caspase-11;EC 3.4.22.64
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;3;0;1
 Pro;1;0;0;0;0;0;1;0
@@ -6972,7 +6972,7 @@ Glu;0;2;0;0;0;0;1;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;0
 His;1;0;0;0;0;0;0;0
-caspase (insect 1) | Sf-caspase-1 | drICE | caspase Ice Drosophila | caspase-1 (Drosophila)caspase-1 (Spodoptera) | CASPS7 (Aedes aegypti)
+caspase (insect 1);drICE;caspase Ice Drosophila;caspase-1 (Drosophila)caspase-1 (Spodoptera);CASPS7 (Aedes aegypti);Sf-caspase-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;0;3;2;1;0
 Pro;0;0;0;0;0;1;1;0
@@ -6994,7 +6994,7 @@ Glu;0;2;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;1;0
-caspase (insect 2) | DCP-1
+caspase (insect 2);DCP-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;1;0;1;0
 Pro;0;0;0;0;0;1;0;0
@@ -7016,7 +7016,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;1;0;0;0;0;0;0
-caspase-14 | MICE | mini-ICE
+caspase-14;MICE;mini-ICE
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;7;1;0;0
 Pro;0;0;2;0;0;0;2;3
@@ -7038,7 +7038,7 @@ Glu;0;4;0;0;2;0;2;5
 Lys;0;2;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;1;2;0;0;0;1;0
-caspase DRONC (Drosophila melanogaster) | DRONC caspase (Drosophila melanogaster) | caspase Nc (Drosophila melanogaster)
+caspase DRONC (Drosophila melanogaster);DRONC caspase (Drosophila melanogaster);caspase Nc (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;1;0
 Pro;0;0;1;0;0;0;0;1
@@ -7060,7 +7060,7 @@ Glu;0;7;0;2;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;1;0
 His;0;1;1;0;0;0;0;0
-caspase DECAY | Mername-AA033 peptidase | caspase 6-like protein BG2
+caspase DECAY;caspase 6-like protein BG2;Mername-AA033 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7104,7 +7104,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-caspase DAMM (Drosophila sp.) | daydream | CG18188 g.p. (Drosophila melanogaster)
+caspase DAMM (Drosophila sp.);daydream;CG18188 g.p. (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7126,7 +7126,7 @@ Glu;0;2;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-paracaspase | MALT1 paracaspase | MPC protein | mucosa-associated lymphoid tissue protein-1 | paracaspase MALT1
+paracaspase;paracaspase MALT1;MALT1 paracaspase;MPC protein;mucosa-associated lymphoid tissue protein-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;18;1;5;0
 Pro;1;0;8;0;0;5;0;2
@@ -7148,7 +7148,7 @@ Glu;0;0;0;0;0;1;0;3
 Lys;0;1;0;1;0;0;0;0
 Arg;0;6;0;29;0;0;0;2
 His;2;0;0;0;0;0;2;1
-Caspy peptidase (Brachydanio rerio-type) | Caspy g.p. (Brachydanio rerio)
+Caspy peptidase (Brachydanio rerio-type);Caspy g.p. (Brachydanio rerio)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7192,7 +7192,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-metacaspase-4 (Arabidopsis-type) | metacaspase Atmc4 (Arabidopsis thaliana) peptidase | At1g79340 g.p. (Arabidopsis thaliana)
+metacaspase-4 (Arabidopsis-type);At1g79340 g.p. (Arabidopsis thaliana);metacaspase Atmc4 (Arabidopsis thaliana) peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;3;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7214,7 +7214,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;2;2;0;1;0;0
 Arg;0;0;2;5;0;0;0;0
 His;0;1;0;0;0;0;0;0
-metacaspase-9 (Arabidopsis-type) | metacaspase Atmc9 (Arabidopsis thaliana) peptidase | metacaspase AtMCP2f (Arabidopsis thaliana) | At5g04200 g.p. (Arabidopsis thaliana)
+metacaspase-9 (Arabidopsis-type);At5g04200 g.p. (Arabidopsis thaliana);metacaspase Atmc9 (Arabidopsis thaliana) peptidase;metacaspase AtMCP2f (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -7236,7 +7236,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;2;0;0;0;0;0
 Arg;0;0;1;5;0;0;0;0
 His;0;0;0;0;0;0;0;0
-metacaspase Yca1 (Saccharomyces cerevisiae-type) | Mca1 g.p. (Saccharomyces cerevisiae) | metacaspase-1 | AMca 2 (Allomyces metacaspase 2) | yeast caspase-1 | Yor197w g.p. (Saccharomyces cerevisiae) | Pca1 g.p. (Schizosaccharomyces pombe) | CasA (Aspergillus fumigatus) | CasB (Aspergillus fumigatus) | CDP II (Allomyces arbuscula)
+metacaspase Yca1 (Saccharomyces cerevisiae-type);AMca 2 (Allomyces metacaspase 2);CasA (Aspergillus fumigatus);CasB (Aspergillus fumigatus);CDP II (Allomyces arbuscula);yeast caspase-1;Yor197w g.p. (Saccharomyces cerevisiae);Pca1 g.p. (Schizosaccharomyces pombe);Mca1 g.p. (Saccharomyces cerevisiae);metacaspase-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;4;1;0;0;0;0;0
 Pro;0;0;2;0;0;0;0;0
@@ -7258,7 +7258,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;1;2;0;0;0;0
 Arg;0;0;3;9;0;0;0;0
 His;0;0;0;0;0;0;0;0
-metacaspase mcII-Pa (Picea abies)-like peptidase | metacaspase-2
+metacaspase mcII-Pa (Picea abies)-like peptidase;metacaspase-2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7324,7 +7324,7 @@ Glu;0;3;0;0;0;1;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-caspase Dredd | AeDredd g.p. (Aedes aegypti) | caspase DREDD (Drosophila melanogaster)
+caspase Dredd;AeDredd g.p. (Aedes aegypti);caspase DREDD (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -7346,7 +7346,7 @@ Glu;0;2;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-metacaspase Ld (Leishmania-type) | TbMCA5 (Trypanosoma brucei) | LdMC1 | LdMC2 | LmjMCA
+metacaspase Ld (Leishmania-type);LdMC1;LdMC2;LmjMCA;TbMCA5 (Trypanosoma brucei)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;7;6;6;0;2;5;0;3
 Pro;0;0;2;0;5;0;0;5
@@ -7368,7 +7368,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;5;5;1;1;0;0;0;0
 Arg;0;5;2;26;0;0;0;2
 His;0;0;0;0;0;0;0;0
-metacaspase TbMCA2 | metacaspase-2 | TbMCA3 (Trypanosoma brucei)
+metacaspase TbMCA2;TbMCA3 (Trypanosoma brucei);metacaspase-2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;1;0;1;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -7390,7 +7390,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;5;0;2;0;0;0;0
 Arg;1;0;3;9;0;0;0;0
 His;0;0;0;0;0;0;1;0
-metacaspase Atmc8 (Arabidopsis thaliana) | metacaspase AtMCP2e (Arabidopsis thaliana) | At1g16420 g.p. (Arabidopsis thaliana)
+metacaspase Atmc8 (Arabidopsis thaliana);At1g16420 g.p. (Arabidopsis thaliana);metacaspase AtMCP2e (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7412,7 +7412,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-metacaspase-1 (Arabidopsis-type) | metacaspase Atmc1 (Arabidopsis thaliana) | metacaspase-1 | At1g02170 g.p. (Arabidopsis metacaspase AtMCP1c (Arabidopsis thaliana)
+metacaspase-1 (Arabidopsis-type);At1g02170 g.p. (Arabidopsis metacaspase AtMCP1c (Arabidopsis thaliana);metacaspase Atmc1 (Arabidopsis thaliana);metacaspase-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;3;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7434,7 +7434,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;1;2;0;0;0;0
 Arg;0;0;4;7;0;0;0;0
 His;0;0;0;0;0;0;0;0
-metacaspase Atmc5 (Arabidopsis sp.) | At1g79330 g.p. (Arabidopsis thaliana)
+metacaspase Atmc5 (Arabidopsis sp.);At1g79330 g.p. (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;3;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7478,7 +7478,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;1;0;1;0;0
 Arg;0;0;2;8;0;0;0;0
 His;0;0;0;0;0;0;0;0
-csp-1 g.p. (Caenorhabditis elegans) | Y48E1B.13 g.p. (Caenorhabditis elegans)
+csp-1 g.p. (Caenorhabditis elegans);Y48E1B.13 g.p. (Caenorhabditis elegans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;4;0;0;0
 Pro;1;1;0;0;0;0;2;0
@@ -7500,7 +7500,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;2;2;0
 Arg;0;2;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-pyroglutamyl-peptidase I (prokaryote) | 5-oxoprolyl-peptidase | aminopeptidase, pyroglutamylpcp | PGP-1 | pyrase | pyroglutamyl aminopeptidase | pyrrolidone carboxyl peptidase | pyrrolidone-carboxylate peptidase | EC 3.4.19.3
+pyroglutamyl-peptidase I (prokaryote);5-oxoprolyl-peptidase;aminopeptidase, pyroglutamylpcp;PGP-1;pyrase;pyroglutamyl aminopeptidase;pyrrolidone carboxyl peptidase;pyrrolidone-carboxylate peptidase;EC 3.4.19.3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7522,7 +7522,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-pyroglutamyl-peptidase I (chordate) | 5-oxoprolyl-peptidase | aminopeptidase, pyroglutamyl | pyroglutamyl aminopeptidase | pyrrolidone-carboxylate peptidase | EC 3.4.19.3
+pyroglutamyl-peptidase I (chordate);5-oxoprolyl-peptidase;aminopeptidase, pyroglutamyl;pyroglutamyl aminopeptidase;pyrrolidone-carboxylate peptidase;EC 3.4.19.3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -7566,7 +7566,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;2;0;0;0
-murine hepatitis coronavirus papain-like peptidase 1 | MHV papain-like endopeptidase 1 | mouse hepatitis coronavirus papain-like endopeptidase 1 | bovine coronavirus papain-like endopeptidase 1 | leader endopeptidase | papain-like endopeptidase 1, murine hepatitis coronaviruspapain-like endopeptidase 1, bovine hepatitis coronavirusPCP-1PLP-1 | PL1-PRO
+murine hepatitis coronavirus papain-like peptidase 1;bovine coronavirus papain-like endopeptidase 1;leader endopeptidase;papain-like endopeptidase 1, murine hepatitis coronaviruspapain-like endopeptidase 1, bovine hepatitis coronavirusPCP-1PLP-1;PL1-PRO;MHV papain-like endopeptidase 1;mouse hepatitis coronavirus papain-like endopeptidase 1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;0;2;2;0;0;0
 Pro;0;2;0;0;0;0;2;0
@@ -7588,7 +7588,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;4;2;0
 Arg;0;0;2;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-human coronavirus 229E papain-like peptidase 1 | papain-like endopeptidase 1, human coronavirus | papain-like protease 1 (coronavirus NL63) | papain-like protease 1 (human coronavirus 229E) | PL1pro
+human coronavirus 229E papain-like peptidase 1;papain-like endopeptidase 1, human coronavirus;papain-like protease 1 (coronavirus NL63);papain-like protease 1 (human coronavirus 229E);PL1pro
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;2;2;2;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -7610,7 +7610,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;2;0;0;0;0;1;0;0
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-avian infectious bronchitis coronavirus papain-like peptidase | avian infectious bronchitis coronavirus papain-like peptidase 2 | IBV papain-like endopeptidase | IBV papain-like peptidase 2 | papain-like endopeptidase, avian infectious bronchitis virus | PLP2 (avian infectious bronchitis virus)
+avian infectious bronchitis coronavirus papain-like peptidase;IBV papain-like endopeptidase;IBV papain-like peptidase 2;avian infectious bronchitis coronavirus papain-like peptidase 2;papain-like endopeptidase, avian infectious bronchitis virus;PLP2 (avian infectious bronchitis virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;2;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7632,7 +7632,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;2;0;0;0;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-mouse hepatitis coronavirus papain-like peptidase 2 | MHV papain-like endopeptidase 2 | murine hepatitis coronavirus papain-like peptidase 2 | papain-like endopeptidase 2 (murine hepatitis coronavirus)PLP2 (mouse hepatitis coronavirus)murine hepatitis coronavirus papain-like endopeptidase 2 | PLP2 (murine hepatitis virus)
+mouse hepatitis coronavirus papain-like peptidase 2;papain-like endopeptidase 2 (murine hepatitis coronavirus)PLP2 (mouse hepatitis coronavirus)murine hepatitis coronavirus papain-like endopeptidase 2;PLP2 (murine hepatitis virus);MHV papain-like endopeptidase 2;murine hepatitis coronavirus papain-like peptidase 2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7654,7 +7654,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;2;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-severe acute respiratory syndrome coronavirus papain-like peptidase | SARS coronavirus papain-like endopeptidase | SARS coronavirus papain-like peptidase | SARS coronavirus papain-like peptidase 2
+severe acute respiratory syndrome coronavirus papain-like peptidase;SARS coronavirus papain-like endopeptidase;SARS coronavirus papain-like peptidase;SARS coronavirus papain-like peptidase 2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;3;0;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -7676,7 +7676,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;2;0;0;1;0;0;1
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-human coronavirus 229E papain-like peptidase 2 | papain-like protease 2 (coronavirus NL63) | papain-like protease 2 (human coronavirus 229E) | papain-like protease 2 (porcine epidemic diarrhea virus) | PL2pro | coronavirus NL63
+human coronavirus 229E papain-like peptidase 2;coronavirus NL63;papain-like protease 2 (coronavirus NL63);papain-like protease 2 (human coronavirus 229E);papain-like protease 2 (porcine epidemic diarrhea virus);PL2pro
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;1;3;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -7698,7 +7698,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;3;0;0;0;0;1;1;0
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-coronavirus COVID-19 papain-like peptidase | nsp3 | PL(pro) | Plpro
+coronavirus COVID-19 papain-like peptidase;nsp3;PL(pro);Plpro
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;6;6;1;0;0;0
 Pro;0;0;0;0;0;2;0;0
@@ -7720,7 +7720,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;2;0;0;1;0;0;1
 Arg;0;1;0;0;1;0;0;1
 His;0;0;0;0;0;0;0;0
-hepatitis C virus peptidase 2 | zinc metalloprotease, hepatitis C virusNS2-3 protease (hepatitis C virus) | hepatitis C virus NS2/3-type protease | hepatitis C virus zinc metalloprotease | Cpro-1
+hepatitis C virus peptidase 2;zinc metalloprotease, hepatitis C virusNS2-3 protease (hepatitis C virus);hepatitis C virus NS2/3-type protease;hepatitis C virus zinc metalloprotease;Cpro-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -7764,7 +7764,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 5 | ubiquitin-specific protease 5 | Ubp1 (Homo sapiens) | USP5 | USP5 g.p. (Homo sapiens) | isopeptidase T | EC 3.1.2.15
+ubiquitin-specific peptidase 5;isopeptidase T;ubiquitin-specific protease 5;Ubp1 (Homo sapiens);USP5;USP5 g.p. (Homo sapiens);EC 3.1.2.15
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;10;10;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7786,7 +7786,7 @@ Glu;0;0;0;0;0;1;0;1
 Lys;0;0;0;0;4;0;0;0
 Arg;0;9;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Ubp1 ubiquitin peptidase | ubiquitin peptidase Ubp1 | UBP27 (Arabidopsis thaliana) | UBPD2C protease | EC 3.1.2.15
+Ubp1 ubiquitin peptidase;ubiquitin peptidase Ubp1;UBP27 (Arabidopsis thaliana);UBPD2C protease;EC 3.1.2.15
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;3;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -7808,7 +7808,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;2;0;0;0
 Arg;0;3;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;1
-Ubp2 ubiquitin peptidase | ubiquitin peptidase Ubp2 | EC 3.1.2.15
+Ubp2 ubiquitin peptidase;ubiquitin peptidase Ubp2;EC 3.1.2.15
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;3;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -7830,7 +7830,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;2;0;0;0
 Arg;0;3;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;1
-Ubp3 ubiquitin peptidase | ubiquitin peptidase Ubp3 | Ubp3 peptidase (Saccharomyces cerevisiae) | EC 3.1.2.15
+Ubp3 ubiquitin peptidase;ubiquitin peptidase Ubp3;Ubp3 peptidase (Saccharomyces cerevisiae);EC 3.1.2.15
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -7852,7 +7852,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;2;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;1
-Doa4 ubiquitin peptidase | ubiquitin peptidase Ubp4 | Ubp4 ubiquitin peptidase | EC 3.1.2.15
+Doa4 ubiquitin peptidase;ubiquitin peptidase Ubp4;Ubp4 ubiquitin peptidase;EC 3.1.2.15
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7874,7 +7874,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;1;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 4 | ubiquitin-specific protease 4 | UNP g.p. (Mus musculus) | Unp oncoprotein (Mus musculus | Unph protein (Homo sapiens) | USP4 | USP4 g.p. (Homo sapiens)
+ubiquitin-specific peptidase 4;ubiquitin-specific protease 4;UNP g.p. (Mus musculus);Unp oncoprotein (Mus musculus;Unph protein (Homo sapiens);USP4;USP4 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;12;12;1;0;1;0
 Pro;0;0;0;0;1;1;1;3
@@ -7896,7 +7896,7 @@ Glu;0;0;0;0;0;0;3;0
 Lys;0;0;0;0;1;1;1;0
 Arg;0;12;0;0;1;0;0;1
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 8 | ubiquitin-specific protease 8 | UBPY ubiquitin isopeptidase (Homo sapiens) | USP8 | USP8 g.p. (Homo sapiens)
+ubiquitin-specific peptidase 8;ubiquitin-specific protease 8;UBPY ubiquitin isopeptidase (Homo sapiens);USP8;USP8 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;6;6;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7918,7 +7918,7 @@ Glu;0;0;0;0;0;1;0;1
 Lys;0;0;0;0;6;0;0;0
 Arg;0;6;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 13 | ubiquitin-specific protease 13 | USP13 | USP13 g.p. (Homo sapiens) | isopeptidase T-3
+ubiquitin-specific peptidase 13;isopeptidase T-3;ubiquitin-specific protease 13;USP13;USP13 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;3;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7940,7 +7940,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;3;0;0;0
 Arg;0;3;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 2 | ubiquitin carboxy-terminal hydrolase ubp41 (Gallus domesticus) | ubiquitin carboxy-terminal hydrolase ubp41 (Mus musculus) | ubiquitin carboxy-terminal hydrolase ubp45 (Rattus norvegicus) | ubiquitin carboxy-terminal hydrolase ubp69 (Rattus norvegicus) | ubiquitin-specific protease 2 | ubp41 ubiquitin carboxy-terminal hydrolase (Gallus domesticus)ubp41 ubiquitin carboxy-terminal hydrolase (Mus musculus)ubp45 ubiquitin carboxy-terminal hydrolase (Rattus norvegicus)ubp69 ubiquitin carboxy-terminal hydrolase (Rattus norvegicus) | USP2 g.p. (Homo sapiens) | Usp2-45 peptidase (Mus musculus) | Usp2-69 peptidase (Mus musculus) | USP2a
+ubiquitin-specific peptidase 2;ubiquitin carboxy-terminal hydrolase ubp41 (Gallus domesticus);ubiquitin carboxy-terminal hydrolase ubp41 (Mus musculus);ubiquitin carboxy-terminal hydrolase ubp45 (Rattus norvegicus);ubiquitin carboxy-terminal hydrolase ubp69 (Rattus norvegicus);ubiquitin-specific protease 2;ubp41 ubiquitin carboxy-terminal hydrolase (Gallus domesticus)ubp41 ubiquitin carboxy-terminal hydrolase (Mus musculus)ubp45 ubiquitin carboxy-terminal hydrolase (Rattus norvegicus)ubp69 ubiquitin carboxy-terminal hydrolase (Rattus norvegicus);USP2 g.p. (Homo sapiens);Usp2-45 peptidase (Mus musculus);Usp2-69 peptidase (Mus musculus);USP2a
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;9;9;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -7962,7 +7962,7 @@ Glu;0;0;0;0;0;2;0;1
 Lys;0;0;0;0;7;0;0;0
 Arg;0;9;0;0;0;0;0;0
 His;0;0;0;0;0;2;0;0
-ubiquitin-specific peptidase 11 | Mername-AA060 peptidase | ubiquitin carboxy-terminal hydrolase UHX1 | ubiquitin-specific protease 11 | ubiquitin-specific protease 11-like peptidase (Mus musculus) | UHX1 ubiquitin carboxy-terminal hydrolase | USP11 g.p. (Homo sapiens)
+ubiquitin-specific peptidase 11;ubiquitin carboxy-terminal hydrolase UHX1;ubiquitin-specific protease 11;ubiquitin-specific protease 11-like peptidase (Mus musculus);UHX1 ubiquitin carboxy-terminal hydrolase;USP11 g.p. (Homo sapiens);Mername-AA060 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -7984,7 +7984,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 7 | ubiquitin-specific protease 7 | USP7 | USP7 g.p. (Homo sapiens) | HAUSP | herpesvirus-associated ubiquitin-specific protease
+ubiquitin-specific peptidase 7;HAUSP;herpesvirus-associated ubiquitin-specific protease;ubiquitin-specific protease 7;USP7;USP7 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;12;12;0;1;2;0
 Pro;0;0;0;0;0;0;0;3
@@ -8006,7 +8006,7 @@ Glu;0;0;0;0;0;0;4;1
 Lys;0;0;0;0;9;1;0;0
 Arg;0;12;0;0;0;1;1;0
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 9X | ubiquitin-specific protease 9X | USP9X | USP9X g.p. (Homo sapiens) | DFFRX | fam g.p. (Mus musculus)
+ubiquitin-specific peptidase 9X;DFFRX;fam g.p. (Mus musculus);ubiquitin-specific protease 9X;USP9X;USP9X g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;6;6;0;0;2;0
 Pro;0;0;0;0;0;0;0;1
@@ -8028,7 +8028,7 @@ Glu;0;0;0;0;0;3;0;0
 Lys;0;0;0;0;5;0;0;0
 Arg;0;6;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 10 | KIAA0190 protein (Homo sapiens) | ubiquitin C-terminal hydrolase ODE-1 (Mus musculus) | ubiquitin-specific protease 10 | USP10 | USP10 g.p. (Homo sapiens) | ODE-1 ubiquitin C-terminal hydrolase
+ubiquitin-specific peptidase 10;KIAA0190 protein (Homo sapiens);ODE-1 ubiquitin C-terminal hydrolase;ubiquitin C-terminal hydrolase ODE-1 (Mus musculus);ubiquitin-specific protease 10;USP10;USP10 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;3;0;1;1;0
 Pro;0;0;0;0;0;0;0;1
@@ -8050,7 +8050,7 @@ Glu;0;0;0;0;0;0;1;1
 Lys;0;0;0;0;3;1;0;0
 Arg;0;3;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 1 | ubiquitin-specific protease 1 | USP1 g.p. (Homo sapiens)
+ubiquitin-specific peptidase 1;ubiquitin-specific protease 1;USP1 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -8072,7 +8072,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;2;0;0;0
 Arg;0;2;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 15 | KIAA0529 protein | ubiquitin-specific protease 15 | USP15 g.p. (Homo sapiens) | deubiquitinating enzyme Ubp109
+ubiquitin-specific peptidase 15;deubiquitinating enzyme Ubp109;KIAA0529 protein;ubiquitin-specific protease 15;USP15 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;10;10;0;0;4;0
 Pro;0;0;0;0;1;2;1;0
@@ -8094,7 +8094,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;10;0;0;1;0;0;0
 His;0;0;0;0;0;3;0;0
-ubiquitin-specific peptidase 17 | ubiquitin-specific protease 17 | USP17 g.p. (Homo sapiens) | HSAN protein
+ubiquitin-specific peptidase 17;HSAN protein;ubiquitin-specific protease 17;USP17 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -8116,7 +8116,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 19 | KIAA0891 protein | ubiquitin-specific protease 19 | USP19 g.p. (Homo sapiens) | Usp19 g.p. (Mus musculus)
+ubiquitin-specific peptidase 19;KIAA0891 protein;ubiquitin-specific protease 19;USP19 g.p. (Homo sapiens);Usp19 g.p. (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -8138,7 +8138,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 20 | KIAA1003 protein | ubiquitin-specific protease 20 | USP20 g.p. (Homo sapiens) | VDU2 | von Hippel-Lindau protein-interacting deubiquitinating enzyme-2
+ubiquitin-specific peptidase 20;KIAA1003 protein;VDU2;von Hippel-Lindau protein-interacting deubiquitinating enzyme-2;ubiquitin-specific protease 20;USP20 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -8160,7 +8160,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;2;0;0;0
 Arg;0;2;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 9Y | ubiquitin-specific protease 9Y | USP9Y g.p. (Homo sapiens) | DFFRY | faf g.p. (Mus musculus)
+ubiquitin-specific peptidase 9Y;DFFRY;faf g.p. (Mus musculus);ubiquitin-specific protease 9Y;USP9Y g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;2;0
 Pro;0;0;0;0;0;0;0;0
@@ -8182,7 +8182,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;2;0;0;1;0;0;0
 His;0;0;0;0;0;2;0;0
-ubiquitin-specific peptidase 18 | ubiquitin-specific protease 18 | UBP43 ubiquitin-specific protease (Mus musculus) | USP18 | interferon-stimulated gene factor 15-specific peptidase | ISG15-specific peptidase
+ubiquitin-specific peptidase 18;interferon-stimulated gene factor 15-specific peptidase;ISG15-specific peptidase;ubiquitin-specific protease 18;UBP43 ubiquitin-specific protease (Mus musculus);USP18
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;1;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -8204,7 +8204,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;2;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 21 | ubiquitin-specific protease 16 [misleading] | ubiquitin-specific protease 21 | ubiquitin-specific protease 23 [misleading] | USP16 [misleading] | USP21 g.p. (Homo sapiens) | USP23 [misleading]
+ubiquitin-specific peptidase 21;ubiquitin-specific protease 16 [misleading];ubiquitin-specific protease 21;ubiquitin-specific protease 23 [misleading];USP16 [misleading];USP21 g.p. (Homo sapiens);USP23 [misleading]
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -8226,7 +8226,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;2;0;0;0
 Arg;0;2;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 33 | Mername-AA002 peptidase | USP33 | VDU1 | von Hippel-Lindau protein-interacting deubiquitinating enzyme-1
+ubiquitin-specific peptidase 33;VDU1;von Hippel-Lindau protein-interacting deubiquitinating enzyme-1;USP33;Mername-AA002 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;4;4;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -8248,7 +8248,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;4;0;0;0
 Arg;0;4;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 36 | KIAA1453 protein | Mername-AA003 peptidase | ubiquitin-specific protease 36 | USP36 g.p. (Homo sapiens)
+ubiquitin-specific peptidase 36;KIAA1453 protein;ubiquitin-specific protease 36;USP36 g.p. (Homo sapiens);Mername-AA003 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -8270,7 +8270,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 26 (Homo sapiens-type) | ubiquitin-specific protease 26 (Homo sapiens-type) | USP26
+ubiquitin-specific peptidase 26 (Homo sapiens-type);ubiquitin-specific protease 26 (Homo sapiens-type);USP26
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -8292,7 +8292,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 24 | ubiquitin-specific protease 24 | USP24
+ubiquitin-specific peptidase 24;ubiquitin-specific protease 24;USP24
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -8314,7 +8314,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 42 | Mername-AA061 peptidase | ubiquitin-specific protease 42 | USP42 g.p. (Homo sapiens)
+ubiquitin-specific peptidase 42;ubiquitin-specific protease 42;USP42 g.p. (Homo sapiens);Mername-AA061 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -8336,7 +8336,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 46 | Mername-AA074 peptidase | ubiquitin-specific protease 46 | USP46 g.p. (Homo sapiens)
+ubiquitin-specific peptidase 46;ubiquitin-specific protease 46;USP46 g.p. (Homo sapiens);Mername-AA074 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -8358,7 +8358,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 37 | KIAA1594 protein (Homo sapiens) | Mername-AA075 peptidase | ubiquitin-specific protease 37 | USP37 g.p. (Homo sapiens)
+ubiquitin-specific peptidase 37;KIAA1594 protein (Homo sapiens);ubiquitin-specific protease 37;USP37 g.p. (Homo sapiens);Mername-AA075 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -8380,7 +8380,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;2;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 28 | KIAA1515 protein (Homo sapiens) | Mername-AA076 peptidase | USP28 g.p. (Homo sapiens)
+ubiquitin-specific peptidase 28;KIAA1515 protein (Homo sapiens);USP28 g.p. (Homo sapiens);Mername-AA076 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -8402,7 +8402,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 38 | Mername-AA110 peptidase | ubiquitin-specific protease 38 | USP38 g.p. (Homo sapiens) | HP43.8KD protein (Homo sapiens)
+ubiquitin-specific peptidase 38;HP43.8KD protein (Homo sapiens);ubiquitin-specific protease 38;USP38 g.p. (Homo sapiens);Mername-AA110 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -8424,7 +8424,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 44 | Mername-AA078 peptidase | ubiquitin-specific protease 44 | USP44 g.p. (Homo sapiens) | DKFZp434D0127 protein
+ubiquitin-specific peptidase 44;DKFZp434D0127 protein;ubiquitin-specific protease 44;USP44 g.p. (Homo sapiens);Mername-AA078 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;4;4;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -8446,7 +8446,7 @@ Glu;0;0;0;0;0;1;0;1
 Lys;0;0;0;0;3;0;0;0
 Arg;0;4;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 35 | KIAA1372 protein (Homo sapiens) | Mername-AA080 peptidase | ubiquitin-specific protease 35 | USP35 | USP35 g.p. (Homo sapiens)
+ubiquitin-specific peptidase 35;KIAA1372 protein (Homo sapiens);ubiquitin-specific protease 35;USP35;USP35 g.p. (Homo sapiens);Mername-AA080 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -8468,7 +8468,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 30 | Mername-AA081 peptidase | ubiquitin-specific protease 30 | USP30 g.p. (Homo sapiens) | clone MGC:10702 protein
+ubiquitin-specific peptidase 30;clone MGC:10702 protein;ubiquitin-specific protease 30;USP30 g.p. (Homo sapiens);Mername-AA081 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;3;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -8490,7 +8490,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;2;0;0;0
 Arg;0;3;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 45 | Mername-AA094 peptidase | ubiquitin-specific protease 45 | USP45 g.p. (Homo sapiens)
+ubiquitin-specific peptidase 45;ubiquitin-specific protease 45;USP45 g.p. (Homo sapiens);Mername-AA094 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -8512,7 +8512,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 51 | Mername-AA095 peptidase | ubiquitin-specific protease 51 | USP51 g.p. (Homo sapiens)
+ubiquitin-specific peptidase 51;ubiquitin-specific protease 51;USP51 g.p. (Homo sapiens);Mername-AA095 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -8534,7 +8534,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 34 | Mername-AA097 peptidase | ubiquitin-specific protease 34 | USP34 | USP34 g.p. (Homo sapiens)
+ubiquitin-specific peptidase 34;ubiquitin-specific protease 34;USP34;USP34 g.p. (Homo sapiens);Mername-AA097 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;3;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -8556,7 +8556,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;2;0;0;0
 Arg;0;3;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 49 | ubiquitin-specific protease 49 | USP49 g.p. (Homo sapiens) | protein for MGC:20741
+ubiquitin-specific peptidase 49;ubiquitin-specific protease 49;USP49 g.p. (Homo sapiens);protein for MGC:20741
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -8578,7 +8578,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-USP17-like peptidase | USP17L2 g.p. (Homo sapiens) | Dub3
+USP17-like peptidase;Dub3;USP17L2 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -8600,7 +8600,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;0;0;2;0;0;0
 Arg;0;2;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 6 (Saccharomyces-type) | UBP6 (Saccharomyces cerevisiae)
+ubiquitin-specific peptidase 6 (Saccharomyces-type);UBP6 (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;4;4;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -8622,7 +8622,7 @@ Glu;0;0;0;0;0;1;1;0
 Lys;0;0;0;0;2;0;0;0
 Arg;0;4;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 8 (Saccharomyces cerevisiae) | ubp8 | component of the 1.8 MDa SAGA complex
+ubiquitin-specific peptidase 8 (Saccharomyces cerevisiae);component of the 1.8 MDa SAGA complex;ubp8
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -8644,7 +8644,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;1;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;1
-ubiquitin-specific peptidase 10 (Saccharomycetales) | ubp10 | DOT4
+ubiquitin-specific peptidase 10 (Saccharomycetales);DOT4;ubp10
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -8666,7 +8666,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;1;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;1
-UBP6 peptidase (Arabidopsis-type) | AtUBP6 peptidase (Arabidopsis thaliana)
+UBP6 peptidase (Arabidopsis-type);AtUBP6 peptidase (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -8710,7 +8710,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;6;0;0;0
 Arg;0;8;0;0;0;4;0;0
 His;0;0;0;0;0;0;0;3
-ubiquitin carboxyl-terminal hydrolase 13 (Saccharomyces cerevisiae) | UBP13 (Saccharomyces cerevisiae)
+ubiquitin carboxyl-terminal hydrolase 13 (Saccharomyces cerevisiae);UBP13 (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -8776,7 +8776,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-putative ubiquitin carboxyl-terminal hydrolase ybr058c (Saccharomyces cerevisiae) | UBP12 (Saccharomyces cerevisiae)
+putative ubiquitin carboxyl-terminal hydrolase ybr058c (Saccharomyces cerevisiae);UBP12 (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;4;4;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -8798,7 +8798,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;2;0;0;0
 Arg;0;4;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;1
-ubpA (Dictyostelium discoideum) | DDB_G0291239 (Dictyostelium discoideum)
+ubpA (Dictyostelium discoideum);DDB_G0291239 (Dictyostelium discoideum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -8820,7 +8820,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;1;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-tymovirus peptidase | turnip yellow mosaic virus PRO endopeptidase
+tymovirus peptidase;turnip yellow mosaic virus PRO endopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;1;0;0;0;0
 Pro;0;0;0;0;0;2;0;0
@@ -8842,7 +8842,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-carlavirus peptidase | blueberry scorch carlavirus endopeptidase
+carlavirus peptidase;blueberry scorch carlavirus endopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -8864,7 +8864,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-feline calicivirus 3C-like peptidase | 3C endopeptidase (feline calicivirus)
+feline calicivirus 3C-like peptidase;3C endopeptidase (feline calicivirus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;2;1;1
 Pro;1;0;0;0;0;0;2;1
@@ -8886,7 +8886,7 @@ Glu;0;1;1;7;0;0;0;0
 Lys;1;1;0;0;0;2;0;1
 Arg;0;2;0;0;0;0;2;1
 His;0;0;0;0;0;0;1;0
-sapovirus 3C-like peptidase | Sapporo virus 3C-like peptidase
+sapovirus 3C-like peptidase;Sapporo virus 3C-like peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;5;1;1;0
 Pro;0;0;0;0;1;4;1;1
@@ -8908,7 +8908,7 @@ Glu;0;2;8;6;0;0;0;0
 Lys;0;1;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-gingipain RgpA | Arg-gingipain | argingipain | HRgpA g.p. (Porphyromonas gingivalis) | gingipain | gingipain R | gingipain R1 | gingipain-1 | gingivain | prR1 g.p. (Porphyromonas gingivalis) | prR2 g.p. (Porphyromonas gingivalis) | prtH g.p. (Porphyromonas gingivalis) | EC 3.4.22.37
+gingipain RgpA;gingipain;gingipain R;gingipain R1;gingipain-1;gingivain;Arg-gingipain;argingipain;HRgpA g.p. (Porphyromonas gingivalis);prR1 g.p. (Porphyromonas gingivalis);prR2 g.p. (Porphyromonas gingivalis);prtH g.p. (Porphyromonas gingivalis);EC 3.4.22.37
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;1;0;4;1;5;5
 Pro;0;5;2;0;0;3;3;0
@@ -8930,7 +8930,7 @@ Glu;1;1;3;0;0;1;0;1
 Lys;4;1;3;1;1;0;1;1
 Arg;0;1;0;24;1;1;2;1
 His;0;0;1;0;0;0;0;0
-gingipain K | Kgp g.p. (Porphyromonas gingivalis) | gingipain Kgp | Lys-gingipain | porphypain | PrtK g.p. (Porphyromonas gingivalis) | prtP g.p. (Porphyromonas gingivalis) | EC 3.4.22.47
+gingipain K;gingipain Kgp;Kgp g.p. (Porphyromonas gingivalis);Lys-gingipain;porphypain;PrtK g.p. (Porphyromonas gingivalis);prtP g.p. (Porphyromonas gingivalis);EC 3.4.22.47
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;3;2;0;8;6;1;3
 Pro;6;1;1;0;4;2;3;5
@@ -8952,7 +8952,7 @@ Glu;0;3;2;0;2;0;4;1
 Lys;0;0;1;46;3;2;0;2
 Arg;3;0;2;1;4;3;6;3
 His;2;2;0;0;0;0;1;1
-gingipain RgpB | 50 kDa gingipain | Arg-gingipain B | gingipain R2 | RgpB g.p. (Porphyromonas gingivalis)
+gingipain RgpB;gingipain R2;50 kDa gingipain;Arg-gingipain B;RgpB g.p. (Porphyromonas gingivalis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;3;0;3;2
 Pro;0;1;0;0;0;1;1;0
@@ -8974,7 +8974,7 @@ Glu;0;0;2;0;0;0;1;1
 Lys;0;2;2;4;1;1;0;2
 Arg;0;0;2;12;2;0;0;1
 His;3;2;1;0;2;4;2;2
-gamma-glutamyl hydrolase | folate conjugase | gamma-Glu-X carboxypeptidase | gamma-glutamyl carboxypeptidase, lysosomal | GGH g.p. (Homo sapiens) | lysosomal gamma-glutamyl carboxypeptidase | pteroyl-poly-gamma-glutamate hydrolase | conjugase | EC 3.4.19.9
+gamma-glutamyl hydrolase;gamma-Glu-X carboxypeptidase;gamma-glutamyl carboxypeptidase, lysosomal;GGH g.p. (Homo sapiens);folate conjugase;lysosomal gamma-glutamyl carboxypeptidase;conjugase;pteroyl-poly-gamma-glutamate hydrolase;EC 3.4.19.9
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -9018,7 +9018,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-foot-and-mouth disease virus L-peptidase | FMDV L-peptidase | foot-and-mouth disease virus L-proteinase | foot-and-mouth disease virus leader proteinaseleader proteaseL-proteinase (foot-and-mouth disease virus) | NSp20a | Lb proteinase | leader proteinase | EC 3.4.22.46
+foot-and-mouth disease virus L-peptidase;FMDV L-peptidase;foot-and-mouth disease virus L-proteinase;foot-and-mouth disease virus leader proteinaseleader proteaseL-proteinase (foot-and-mouth disease virus);Lb proteinase;leader proteinase;NSp20a;EC 3.4.22.46
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;3;3;1;1;0
 Pro;0;0;1;0;0;1;0;0
@@ -9040,7 +9040,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;2;0;0;0;1
 Arg;1;1;0;1;3;2;3;1
 His;0;0;0;0;0;0;0;0
-equine rhinovirus L-peptidase | equine rhinovirus L-proteinase | equine rhinovirus leader peptidase
+equine rhinovirus L-peptidase;equine rhinovirus L-proteinase;equine rhinovirus leader peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;0;2;0
 Pro;0;0;0;0;0;0;0;0
@@ -9062,7 +9062,7 @@ Glu;2;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;1
-coronavirus picornain 3C-like peptidase-1 | 3CL-PRO | 3CLpro | MHV picornain 3C-like endopeptidase | mouse hepatitis coronavirus nsp5 | mouse hepatitis coronavirus picornain 3C-like endopeptidase | picornain 3C-like polyprotein endopeptidase (murine hepatitis coronavirus)p803Cpro3CLpromurine hepatitis coronavirus picornain 3C-like endopeptidase
+coronavirus picornain 3C-like peptidase-1;3CL-PRO;3CLpro;picornain 3C-like polyprotein endopeptidase (murine hepatitis coronavirus)p803Cpro3CLpromurine hepatitis coronavirus picornain 3C-like endopeptidase;MHV picornain 3C-like endopeptidase;mouse hepatitis coronavirus nsp5;mouse hepatitis coronavirus picornain 3C-like endopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;8;6;1
 Pro;6;0;0;0;0;0;0;0
@@ -9084,7 +9084,7 @@ Glu;0;0;0;0;0;3;8;0
 Lys;0;3;0;0;0;7;2;1
 Arg;0;11;0;0;0;2;2;1
 His;0;0;0;0;0;0;0;1
-avian infectious bronchitis coronavirus 3C-like peptidase | 3CL endopeptidase (avian infectious bronchitis virus)3C-like endopeptidase  (avian infectious bronchitis virus) | 3CLpro | IBV picornain 3C-like endopeptidase
+avian infectious bronchitis coronavirus 3C-like peptidase;3CL endopeptidase (avian infectious bronchitis virus)3C-like endopeptidase  (avian infectious bronchitis virus);3CLpro;IBV picornain 3C-like endopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;2;4;1
 Pro;2;0;0;0;0;0;0;0
@@ -9106,7 +9106,7 @@ Glu;0;0;0;1;0;0;3;0
 Lys;0;0;0;0;0;3;0;2
 Arg;0;4;0;0;0;0;0;0
 His;0;0;0;1;0;0;0;2
-human coronavirus 229E main peptidase | 3C-like protease | 3CLpro | Mpro | porcine epidemic diarrhea virus main peptidase
+human coronavirus 229E main peptidase;3C-like protease;3CLpro;porcine epidemic diarrhea virus main peptidase;Mpro
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;3;1;0
 Pro;1;0;0;0;0;0;0;0
@@ -9128,7 +9128,7 @@ Glu;0;1;0;0;0;2;3;0
 Lys;0;1;0;0;0;2;3;0
 Arg;0;2;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;1
-porcine transmissible gastroenteritis virus-type main peptidase | main protease, porcine transmissible gastroenteritis virus | feline infectious peritonitis virus 3CL(pro) endopeptidase | feline infectious peritonitis virus-type 3CL(pro) endopeptidase | porcine transmissible gastroenteritis virus 3CL(pro) endopeptidase | porcine transmissible gastroenteritis virus-type main protease
+porcine transmissible gastroenteritis virus-type main peptidase;feline infectious peritonitis virus 3CL(pro) endopeptidase;feline infectious peritonitis virus-type 3CL(pro) endopeptidase;porcine transmissible gastroenteritis virus 3CL(pro) endopeptidase;porcine transmissible gastroenteritis virus-type main protease;main protease, porcine transmissible gastroenteritis virus
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;3;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -9150,7 +9150,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;1;0;0;0;0;2;0
 Arg;0;1;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-SARS coronavirus picornain 3C-like peptidase | M(pro) (SARS coronavirus) | main protease (severe acute respiratory syndrome coronavirus ) | SARS virus 3C-like peptidase | SARS virus chymotrypsin-like cysteine peptidase | SARS-CoV M(pro) | SARS-CoV main proteinase | severe acute respiratory syndrome coronavirus main protease | EC 3.4.22.69
+SARS coronavirus picornain 3C-like peptidase;SARS virus 3C-like peptidase;SARS virus chymotrypsin-like cysteine peptidase;SARS-CoV M(pro);SARS-CoV main proteinase;severe acute respiratory syndrome coronavirus main protease;M(pro) (SARS coronavirus);main protease (severe acute respiratory syndrome coronavirus );EC 3.4.22.69
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;13;13;2;3;1;0
 Pro;2;0;0;0;0;0;0;0
@@ -9172,7 +9172,7 @@ Glu;0;0;0;0;0;1;2;0
 Lys;0;3;0;0;0;3;0;2
 Arg;0;3;0;0;0;0;0;2
 His;0;1;0;0;0;0;0;1
-coronavirus COVID-19 3C-like peptidase | 3-chymotrypsin-like protease | 3CL(pro) | 3CLpro | Mpro | SARS-CoV-2 M(pro) protease | SARS-CoV-2 main protease | nsp5 | COVID-19 virus main protease
+coronavirus COVID-19 3C-like peptidase;3-chymotrypsin-like protease;3CL(pro);3CLpro;COVID-19 virus main protease;nsp5;SARS-CoV-2 M(pro) protease;SARS-CoV-2 main protease;Mpro
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;2;0;0
 Pro;1;0;0;0;0;0;0;2
@@ -9194,7 +9194,7 @@ Glu;0;1;0;0;0;1;1;0
 Lys;1;1;0;0;0;2;1;1
 Arg;0;3;0;0;0;1;0;1
 His;0;0;0;0;0;0;1;1
-family C30 unassigned peptidases | porcine coronavirus HKU15 Nsp5 peptidase | porcine deltacoronavirus Nsp5 peptidase
+family C30 unassigned peptidases;porcine coronavirus HKU15 Nsp5 peptidase;porcine deltacoronavirus Nsp5 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -9216,7 +9216,7 @@ Glu;0;0;0;0;1;0;0;1
 Lys;0;0;0;0;0;0;1;1
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;1
-equine arteritis virus-type cysteine peptidase | lactate-dehydrogenase-elevating virus cysteine proteinase beta | Lelystad virus cysteine proteinase beta | papain-like cysteine proteinase beta | PCP | PCP beta endopeptidase (equine arteritis virus) | PCP1-beta | porcine reproductive and respiratory syndrome arterivirus cysteine proteinase beta | PRRSV cysteine proteinase beta | equine arteritis virus papain-like cysteine proteinase beta
+equine arteritis virus-type cysteine peptidase;lactate-dehydrogenase-elevating virus cysteine proteinase beta;Lelystad virus cysteine proteinase beta;papain-like cysteine proteinase beta;PCP;PCP beta endopeptidase (equine arteritis virus);PCP1-beta;porcine reproductive and respiratory syndrome arterivirus cysteine proteinase beta;PRRSV cysteine proteinase beta;equine arteritis virus papain-like cysteine proteinase beta
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;0;2;5;0;1;0
 Pro;0;0;0;0;0;0;0;4
@@ -9238,7 +9238,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;3;0;0;0;0;0;1
 Arg;2;0;0;0;0;0;0;0
 His;1;0;0;0;0;0;0;0
-papain-like peptidase 1 beta (simian hemorrhagic fever virus) | PLP1beta (simian hemorrhagic fever virus)
+papain-like peptidase 1 beta (simian hemorrhagic fever virus);PLP1beta (simian hemorrhagic fever virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -9260,7 +9260,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-papain-like peptidase 1 gamma (simian hemorrhagic fever virus) | PLP1gamma (simian hemorrhagic fever virus
+papain-like peptidase 1 gamma (simian hemorrhagic fever virus);PLP1gamma (simian hemorrhagic fever virus
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;1;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -9282,7 +9282,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;1;1
 Arg;1;1;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-equine arteritis virus Nsp2-type cysteine peptidase | Nsp2 cysteine endopeptidase (equine arterivirus) | lactate-dehydrogenase-elevating virus Nsp2 cysteine proteinase | Lelystad virus Nsp2 cysteine proteinase | papain-like peptidase 2 | PL2 peptidase (equine arteritis virus, porcine reproductive and respiratory syndrome virus) | PLP2 peptidase | porcine reproductive and respiratory syndrome arterivirus Nsp2 cysteine proteinase | PRRSV Nsp2 peptidase | CP2 | equine arteritis virus Nsp2 cysteine proteinase | equine arteritis virus papain-like protease 2
+equine arteritis virus Nsp2-type cysteine peptidase;lactate-dehydrogenase-elevating virus Nsp2 cysteine proteinase;Lelystad virus Nsp2 cysteine proteinase;CP2;Nsp2 cysteine endopeptidase (equine arterivirus);papain-like peptidase 2;PL2 peptidase (equine arteritis virus, porcine reproductive and respiratory syndrome virus);PLP2 peptidase;porcine reproductive and respiratory syndrome arterivirus Nsp2 cysteine proteinase;PRRSV Nsp2 peptidase;equine arteritis virus Nsp2 cysteine proteinase;equine arteritis virus papain-like protease 2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;5;3;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -9304,7 +9304,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;2;0;0;0
 Arg;2;2;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-calicivirin | Southampton virus processing peptidase | norovirus 3C-like peptidase | norovirus NS6 endopeptidase | norovirus virus processing peptidase | Norwalk virus processing peptidase | processing peptidase (Southampton virus)processing peptidase (Chiba virus)processing peptidase (Norwalk virus) | Camberwell virus processing peptidase | Chiba virus processing peptidase | EC 3.4.22.66
+calicivirin;Camberwell virus processing peptidase;Chiba virus processing peptidase;norovirus 3C-like peptidase;norovirus NS6 endopeptidase;norovirus virus processing peptidase;Norwalk virus processing peptidase;Southampton virus processing peptidase;processing peptidase (Southampton virus)processing peptidase (Chiba virus)processing peptidase (Norwalk virus);EC 3.4.22.66
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;9;1;0;1
 Pro;0;0;1;0;0;7;1;1
@@ -9348,7 +9348,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-bacteriocin-processing peptidase | ABC-protease | hetC processing peptidase (Anabaena sp.) | processing peptidase comA (Streptococcus pneumoniae) | processing peptidase EntT (Enterococcus faecium) | processing peptidase lcnC (Lactobacillus lactis) | processing peptidase mesD (Leuconostoc mesenteroides) | processing peptidase PedD (Pediococcus sp.) | processing peptidase sapT ( Lactobacillus sake)
+bacteriocin-processing peptidase;ABC-protease;hetC processing peptidase (Anabaena sp.);processing peptidase comA (Streptococcus pneumoniae);processing peptidase EntT (Enterococcus faecium);processing peptidase lcnC (Lactobacillus lactis);processing peptidase mesD (Leuconostoc mesenteroides);processing peptidase PedD (Pediococcus sp.);processing peptidase sapT ( Lactobacillus sake)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;13;11;2;1;2;6
 Pro;0;0;0;0;0;0;0;0
@@ -9370,7 +9370,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;6;1;0;0
 Arg;0;0;0;0;0;2;0;1
 His;0;0;0;0;0;0;1;0
-streptococcin processing peptidase | scnT g.p. (Streptococcus pyogenes) | streptococcin SA-FF22 processing peptidase (Streptococcus pyogenes)
+streptococcin processing peptidase;scnT g.p. (Streptococcus pyogenes);streptococcin SA-FF22 processing peptidase (Streptococcus pyogenes)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;1;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -9392,7 +9392,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-mersacidin lantibiotic processing peptidase | mrsT g.p. (Bacillus sp.) | lantibiotic mersacidin processing peptidase
+mersacidin lantibiotic processing peptidase;lantibiotic mersacidin processing peptidase;mrsT g.p. (Bacillus sp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -9414,7 +9414,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-colicin V processing peptidase | microcin 24 processing peptidase (Escherichia coli) | MtfB g.p. (Escherichia coli) | CvaB g.p. (Escherichia coli)
+colicin V processing peptidase;CvaB g.p. (Escherichia coli);microcin 24 processing peptidase (Escherichia coli);MtfB g.p. (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -9436,7 +9436,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-lacticin 481 processing peptidase (Lactococcus lactis) | lacticin DR processing peptidase (Lactococcus lactis)
+lacticin 481 processing peptidase (Lactococcus lactis);lacticin DR processing peptidase (Lactococcus lactis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;12;5;2;8;8;1
 Pro;1;0;0;0;0;0;0;0
@@ -9458,7 +9458,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;8;4;1;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;1;0
-dipeptidyl-peptidase VI (bacteria) | secreted antigen SagA (Enterococcus faecium) | gamma-D-glutamyl-L-diamino acid endopeptidase (Bacillus sphaericus) | glutamyl-L-diamino acid endopeptidase II | endopeptidase II (Bacillus sphaericus)
+dipeptidyl-peptidase VI (bacteria);gamma-D-glutamyl-L-diamino acid endopeptidase (Bacillus sphaericus);glutamyl-L-diamino acid endopeptidase II;secreted antigen SagA (Enterococcus faecium);endopeptidase II (Bacillus sphaericus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -9480,7 +9480,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-spr peptidase | MepS (Escherichia coli) | spr g.p. (Escherichia-type) | TTHA0266 (Thermus thermophilus) | P60_tth (Thermus thermophilus)
+spr peptidase;TTHA0266 (Thermus thermophilus);spr g.p. (Escherichia-type);P60_tth (Thermus thermophilus);MepS (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -9502,7 +9502,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PgdS peptidase | ywtD gamma-polyglutamate hydrolase (Bacillus subtilis) | gamma-glutamyl DD-amidohydrolase | PgdS peptidase (Bacillus subtilis) | poly-gamma-glutamate hydrolase
+PgdS peptidase;gamma-glutamyl DD-amidohydrolase;ywtD gamma-polyglutamate hydrolase (Bacillus subtilis);PgdS peptidase (Bacillus subtilis);poly-gamma-glutamate hydrolase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -9524,7 +9524,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-YddH peptidase | YddH g.p. (Bacillus subtilis) | CwlT g.p. (Bacillus subtilis)
+YddH peptidase;CwlT g.p. (Bacillus subtilis);YddH g.p. (Bacillus subtilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -9568,7 +9568,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-CwlO peptidase (Bacillus sp.) | yvcE g.p. (Bacillus subtilis)
+CwlO peptidase (Bacillus sp.);yvcE g.p. (Bacillus subtilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -9590,7 +9590,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-RipA peptidoglycan hydrolase | resuscitation promoting factor interacting protein A | Rpf-interacting protein A | Rv1477 g.p. (Mycobacterium tuberculosis)
+RipA peptidoglycan hydrolase;resuscitation promoting factor interacting protein A;Rpf-interacting protein A;Rv1477 g.p. (Mycobacterium tuberculosis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -9612,7 +9612,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-RipB peptidoglycan hydrolase | Rv1478 g.p. (Mycobacterium tuberculosis)
+RipB peptidoglycan hydrolase;Rv1478 g.p. (Mycobacterium tuberculosis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -9678,7 +9678,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-beet yellows virus-type papain-like peptidase | beet yellows virus papain-like endopeptidasepapain-like protease 1 (citrus tristeza virus) | L-Pro | leader proteinase (beet yellows virus)
+beet yellows virus-type papain-like peptidase;beet yellows virus papain-like endopeptidasepapain-like protease 1 (citrus tristeza virus);L-Pro;leader proteinase (beet yellows virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -9700,7 +9700,7 @@ Glu;0;0;0;0;0;0;1;1
 Lys;0;0;0;0;0;0;0;0
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-L1 peptidase (Citrus tristeza virus) | papain-like protease 1 (Citrus tristeza virus) | Citrus tristeza virus papain-like peptidase 1
+L1 peptidase (Citrus tristeza virus);Citrus tristeza virus papain-like peptidase 1;papain-like protease 1 (Citrus tristeza virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -9744,7 +9744,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-amidophosphoribosyltransferase precursor | glutamine phosphoribosylpyrophosphate amidotransferase precursor | PRPP precursor | EC 2.4.2.14
+amidophosphoribosyltransferase precursor;glutamine phosphoribosylpyrophosphate amidotransferase precursor;PRPP precursor;EC 2.4.2.14
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -9898,7 +9898,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-staphopain A | ScpA g.p. (Staphylococcus aureus) | staphylopain | EC 3.4.22.48
+staphopain A;ScpA g.p. (Staphylococcus aureus);staphylopain;EC 3.4.22.48
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -9920,7 +9920,7 @@ Glu;0;0;0;2;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-staphopain B | SspB g.p. (Staphylococcus aureus)
+staphopain B;SspB g.p. (Staphylococcus aureus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;2;0;0;0;1
 Pro;0;2;0;0;0;1;2;2
@@ -9942,7 +9942,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;1;0;0;0
 Arg;0;0;0;3;1;1;1;0
 His;0;0;1;0;0;0;0;0
-EcpA peptidase | EcpA g.p. (Staphylococcus epidermidis)
+EcpA peptidase;EcpA g.p. (Staphylococcus epidermidis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;1;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -9964,7 +9964,7 @@ Glu;2;0;0;8;0;0;1;0
 Lys;1;0;0;0;0;2;0;1
 Arg;0;1;0;0;1;0;1;3
 His;1;1;0;0;0;0;1;0
-staphopain C | ScpA2
+staphopain C;ScpA2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;2;1;1;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -9986,7 +9986,7 @@ Glu;0;0;0;1;0;2;0;1
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;0;0;0;1;1;2
 His;0;0;0;0;0;0;0;0
-Ulp1 peptidase | EC 3.4.22.68
+Ulp1 peptidase;EC 3.4.22.68
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10008,7 +10008,7 @@ Glu;0;0;0;0;0;0;1;1
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-SENP1 peptidase | sentrin-specific peptidase 1 | SUMO-1 peptidase | SuPr-1 | Axam protein | Axin-associating molecule
+SENP1 peptidase;Axam protein;Axin-associating molecule;sentrin-specific peptidase 1;SUMO-1 peptidase;SuPr-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;32;32;0;0;0;0
 Pro;0;0;0;0;0;1;0;7
@@ -10030,7 +10030,7 @@ Glu;0;0;0;0;0;3;15;2
 Lys;0;0;0;0;23;3;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;1;0;0;0
-SENP3 peptidase | sentrin-specific peptidase 3 | Smt3-specific isopeptidase 1 | SMT3PI1 | SSP3 g.p. (Homo sapiens) | SUMO-1 specific protease 3 | DKFZp586K0919 protein
+SENP3 peptidase;DKFZp586K0919 protein;sentrin-specific peptidase 3;Smt3-specific isopeptidase 1;SMT3PI1;SSP3 g.p. (Homo sapiens);SUMO-1 specific protease 3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;8;8;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10052,7 +10052,7 @@ Glu;0;0;0;0;0;2;7;3
 Lys;0;0;0;0;8;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-SENP6 peptidase | SUMO-1-specific protease 6 | SUSP1
+SENP6 peptidase;SUMO-1-specific protease 6;SUSP1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;13;13;0;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -10074,7 +10074,7 @@ Glu;0;0;0;0;0;1;5;0
 Lys;0;0;0;0;11;0;0;1
 Arg;0;1;0;0;0;0;0;1
 His;0;0;0;0;0;1;0;0
-SENP2 peptidase | KIAA1331 protein | sentrin-specific peptidase 2 | SUMO-specific peptidase 2 | SuPr-1 protein
+SENP2 peptidase;KIAA1331 protein;sentrin-specific peptidase 2;SUMO-specific peptidase 2;SuPr-1 protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;20;20;0;0;0;0
 Pro;0;0;0;0;0;2;1;0
@@ -10096,7 +10096,7 @@ Glu;0;0;0;0;0;2;6;2
 Lys;0;0;0;0;10;0;0;1
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;0;1;1;0;0
-SENP5 peptidase | Mername-AA005 peptidase
+SENP5 peptidase;Mername-AA005 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;13;13;0;0;0;0
 Pro;0;0;0;0;0;2;1;2
@@ -10118,7 +10118,7 @@ Glu;0;0;0;0;0;0;3;1
 Lys;0;0;0;0;9;0;1;2
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-SENP7 peptidase | SSP2 g.p. (Homo sapiens) | SUMO-1 specific protease 2
+SENP7 peptidase;SSP2 g.p. (Homo sapiens);SUMO-1 specific protease 2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10140,7 +10140,7 @@ Glu;0;0;0;0;0;0;2;0
 Lys;0;0;0;0;2;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-SENP8 peptidase | Mername-AA087 peptidase | DEN1 protein | deneddylase 1 | NEDD8 endopeptidase | NEDP1 peptidase | RIKEN 9130010J17 gene
+SENP8 peptidase;DEN1 protein;deneddylase 1;RIKEN 9130010J17 gene;NEDD8 endopeptidase;NEDP1 peptidase;Mername-AA087 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;7;7;1;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10162,7 +10162,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;6;1;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-XopD peptidase | XopD g.p. (Xanthomonas campestris)
+XopD peptidase;XopD g.p. (Xanthomonas campestris)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;3;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -10206,7 +10206,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ChlaDub1 peptidase | Cdu1 | CT868 peptidase (Chlamydia trachomatis)
+ChlaDub1 peptidase;Cdu1;CT868 peptidase (Chlamydia trachomatis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10228,7 +10228,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PfSENP1 (Plasmodium falciparum) | PFL1635w g.p. (Plasmodium falciparum)
+PfSENP1 (Plasmodium falciparum);PFL1635w g.p. (Plasmodium falciparum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10250,7 +10250,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-At5g60190 (Arabidopsis thaliana) | AtNEDP1
+At5g60190 (Arabidopsis thaliana);AtNEDP1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10272,7 +10272,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-At1g60220 (Arabidopsis thaliana) | AtULP1d | OTS1 g.p. (Arabidopsis thaliana) | OVERLY TOLERANT TO SALT1 g.p. (Arabidopsis thaliana)
+At1g60220 (Arabidopsis thaliana);AtULP1d;OTS1 g.p. (Arabidopsis thaliana);OVERLY TOLERANT TO SALT1 g.p. (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10294,7 +10294,7 @@ Glu;0;0;0;0;0;0;1;1
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-At1g10570 (Arabidopsis thaliana) | AtULP1c | OTS2 g.p. (Arabidopsis thaliana) | OVERLY TOLERANT TO SALT2 g.p. (Arabidopsis thaliana)
+At1g10570 (Arabidopsis thaliana);AtULP1c;OTS2 g.p. (Arabidopsis thaliana);OVERLY TOLERANT TO SALT2 g.p. (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10338,7 +10338,7 @@ Glu;0;0;4;0;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-separase (yeast-type) | separin | BimB g.p. (Aspergillus nidulans ) | Cut1 g.p. (Schizosaccharomyces pombe) | EC 3.4.22.49 | Esp1 g.p. (Saccharomyces cerevisiae) | EXTRA SPINDLE POLES
+separase (yeast-type);BimB g.p. (Aspergillus nidulans );Cut1 g.p. (Schizosaccharomyces pombe);separin;EC 3.4.22.49;Esp1 g.p. (Saccharomyces cerevisiae);EXTRA SPINDLE POLES
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;7;0;1;1;1;1
 Pro;0;1;0;0;0;0;2;1
@@ -10360,7 +10360,7 @@ Glu;11;0;0;0;1;0;1;2
 Lys;0;0;0;0;2;0;0;0
 Arg;0;1;0;12;2;1;0;1
 His;0;0;0;0;0;0;0;1
-separase (Homo sapiens-type) | ESPL1 | ESPL1 g.p. (Homo sapiens) | extra spindle pole bodies like 1
+separase (Homo sapiens-type);ESPL1;ESPL1 g.p. (Homo sapiens);extra spindle pole bodies like 1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;1
 Pro;0;0;0;0;0;0;1;0
@@ -10382,7 +10382,7 @@ Glu;3;0;0;0;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-separase (Drosophila-type) | Sse g.p. (Drosophila melanogaster)
+separase (Drosophila-type);Sse g.p. (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;1;0;0;0;0;0;0
@@ -10404,7 +10404,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-D-alanyl-glycyl peptidase (staphylococcal phage phi11-type) | autolysin | LysK lysin | LytA g.p. (Staphylococcus aureus) | CHAPK peptidase
+D-alanyl-glycyl peptidase (staphylococcal phage phi11-type);autolysin;LysK lysin;LytA g.p. (Staphylococcus aureus);CHAPK peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10448,7 +10448,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;3;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-pestivirus Npro peptidase | autoprotease p20 | autoprotease p23 | border disease virus (BDV) Npro endopeptidase | bovine viral diarrhea virus (BVDV) Npro endopeptidase | hog cholera virus Npro endopeptidase | N-terminal protease | Npro endopeptidase (pestivirus)p20 autoproteasep23 autoprotrotease | pestivirus leader protease | classical swine fever virus (CSFV) Npro endopeptidase
+pestivirus Npro peptidase;border disease virus (BDV) Npro endopeptidase;bovine viral diarrhea virus (BVDV) Npro endopeptidase;autoprotease p20;autoprotease p23;hog cholera virus Npro endopeptidase;classical swine fever virus (CSFV) Npro endopeptidase;N-terminal protease;Npro endopeptidase (pestivirus)p20 autoproteasep23 autoprotrotease;pestivirus leader protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;3
 Pro;0;0;0;0;0;0;0;0
@@ -10470,7 +10470,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ATG4 peptidase | Apg4 protein (Saccharomyces cerevisiae) | ATG4 peptidase (Saccharomyces cerevisiae) | Aut2 peptidase (Saccharomyces cerevisiae) | YNW3 protein (Saccharomyces cerevisiae)
+ATG4 peptidase;Apg4 protein (Saccharomyces cerevisiae);ATG4 peptidase (Saccharomyces cerevisiae);Aut2 peptidase (Saccharomyces cerevisiae);YNW3 protein (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;3;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10492,7 +10492,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;1;0;1;0
 His;0;0;0;0;0;0;0;0
-autophagin-2 | Mername-AA006 peptidase | ATG4A g.p. (Homo sapiens) | AUTL2 putative peptidase | HsApg4A protein
+autophagin-2;ATG4A g.p. (Homo sapiens);AUTL2 putative peptidase;HsApg4A protein;Mername-AA006 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;6;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10514,7 +10514,7 @@ Glu;2;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-autophagin-1 | Mername-AA007 peptidase | ATG4B g.p. (Homo sapiens) | autophagy-related 4B | HsApg4B protein (obs.) | HsAtg4B protein
+autophagin-1;ATG4B g.p. (Homo sapiens);autophagy-related 4B;HsApg4B protein (obs.);HsAtg4B protein;Mername-AA007 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;0;0;15;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10536,7 +10536,7 @@ Glu;4;0;0;0;0;0;1;0
 Lys;0;0;0;0;1;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-autophagin-3 | Mername-AA037 peptidase | ATG4C peptidase | AUTL1 g.p. (Homo sapiens) | PLACE1002319 peptidase
+autophagin-3;ATG4C peptidase;AUTL1 g.p. (Homo sapiens);PLACE1002319 peptidase;Mername-AA037 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;3;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10558,7 +10558,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-autophagin-4 | Mername-AA099 peptidase | ATG4D g.p. (Homo sapiens)
+autophagin-4;ATG4D g.p. (Homo sapiens);Mername-AA099 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10602,7 +10602,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-atg-4.1 peptidase (Caenorhabditis elegans-type) | Y87G2A.1 g.p. (Caenorhabditis elegans)
+atg-4.1 peptidase (Caenorhabditis elegans-type);Y87G2A.1 g.p. (Caenorhabditis elegans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10624,7 +10624,7 @@ Glu;0;0;0;0;0;1;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-atg-4.2 peptidase (Caenorhabditis elegans-type) | ZK792.8 protein (Caenorhabditis elegans)
+atg-4.2 peptidase (Caenorhabditis elegans-type);ZK792.8 protein (Caenorhabditis elegans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10668,7 +10668,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-YopJ protein | YopJ g.p. (Yersinia sp.) | YopP g.p.(Yersina enterocolitica)
+YopJ protein;YopJ g.p. (Yersinia sp.);YopP g.p.(Yersina enterocolitica)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;4;4;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10690,7 +10690,7 @@ Glu;0;0;0;0;0;1;0;1
 Lys;0;0;0;0;4;0;0;0
 Arg;0;4;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PfpI peptidase | Pfp1 (Pyrococcus furiosus) | PH1704 g.p. (Pyrococcus horikoshii) | PhpI peptidase | protease I (Pyrococcus furiosus)
+PfpI peptidase;Pfp1 (Pyrococcus furiosus);PH1704 g.p. (Pyrococcus horikoshii);PhpI peptidase;protease I (Pyrococcus furiosus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10712,7 +10712,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-DJ-1 putative peptidase | DJ-1 | oncoprotein DJ-1 | RS protein (Homo sapiens) | PARK7 | CAP1 (Rattus norvegicus) | contraception-associated protein 1 (Rattus norvegicus)
+DJ-1 putative peptidase;DJ-1;RS protein (Homo sapiens);CAP1 (Rattus norvegicus);contraception-associated protein 1 (Rattus norvegicus);oncoprotein DJ-1;PARK7
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10734,7 +10734,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Hsp31 peptidase | YedU g.p. (Escherichia coli) | glyoxalase III | EC 4.2.1.130
+Hsp31 peptidase;glyoxalase III;YedU g.p. (Escherichia coli);EC 4.2.1.130
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10756,7 +10756,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;1;0;0;0;0
-vaccinia virus I7L processing peptidase | smallpox virus K7L processing peptidase | fowlpox virus I7 processing peptidase | I7 processing peptidase (vaccinia virus)I7 processing peptidase (fowlpox virus)
+vaccinia virus I7L processing peptidase;I7 processing peptidase (vaccinia virus)I7 processing peptidase (fowlpox virus);fowlpox virus I7 processing peptidase;smallpox virus K7L processing peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;4;0;0;0;1
 Pro;0;0;0;0;0;1;0;0
@@ -10778,7 +10778,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;0;2;0;1
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-YopT peptidase | LopT peptidase (Photorhabdus luminescens)
+YopT peptidase;LopT peptidase (Photorhabdus luminescens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -10800,7 +10800,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;3;0;2;0;0;0;0
 Arg;1;0;2;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-AvrPphB peptidase | AvrPph3 g.p. (Pseudomonas syringae) | AvrPphB g.p. (Pseudomonas syringae)
+AvrPphB peptidase;AvrPph3 g.p. (Pseudomonas syringae);AvrPphB g.p. (Pseudomonas syringae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10822,7 +10822,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;2;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-NopT g.p. (Rhizobium sp. NGR234) | nodulation outer protein T
+NopT g.p. (Rhizobium sp. NGR234);nodulation outer protein T
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -10888,7 +10888,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-penicillin V acylase precursor | penicillin V amidase precursor | EC 3.5.1.11
+penicillin V acylase precursor;penicillin V amidase precursor;EC 3.5.1.11
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -10910,7 +10910,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-sortase A (Staphylococcus-type) | SrtA g.p. (Staphylococcus aureus) | EC 3.4.22.70
+sortase A (Staphylococcus-type);SrtA g.p. (Staphylococcus aureus);EC 3.4.22.70
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;21;2;0;0
 Pro;0;21;0;0;0;0;0;0
@@ -10932,7 +10932,7 @@ Glu;0;0;7;0;0;5;9;2
 Lys;0;0;7;0;0;0;2;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;1
-sortase B | SrtB g.p. (Staphylococcus aureus) | EC 3.4.22.71
+sortase B;SrtB g.p. (Staphylococcus aureus);EC 3.4.22.71
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;2;0
 Pro;0;4;0;0;0;0;0;0
@@ -10954,7 +10954,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;3;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-sortase C2 | srtC2 g.p. (Streptococcus pyogenes)
+sortase C2;srtC2 g.p. (Streptococcus pyogenes)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;1
 Pro;0;0;1;0;0;0;0;0
@@ -10998,7 +10998,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;1;0
-sortase A (Streptococcus-type) | sortase A (Bacillus anthracis) | SPy_1154-like sortase | SrtA (Listeria monocytogenes)
+sortase A (Streptococcus-type);sortase A (Bacillus anthracis);SPy_1154-like sortase;SrtA (Listeria monocytogenes)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;8;1;0;0
 Pro;0;9;0;0;0;0;0;0
@@ -11020,7 +11020,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;2;0;0;0;2;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;2;0;0
-sortase C1 (Streptococcus sp.) | SrtC1
+sortase C1 (Streptococcus sp.);SrtC1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;1
 Pro;0;1;0;0;0;0;0;0
@@ -11042,7 +11042,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-gill-associated virus 3C-like peptidase | yellow head virus protease | YHV protease
+gill-associated virus 3C-like peptidase;yellow head virus protease;YHV protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -11064,7 +11064,7 @@ Glu;0;0;0;2;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;2;0;0;0;1;0
-African swine fever virus processing peptidase | S273R protein (African swine fever virus) | protein S273R (African swine fever virus)
+African swine fever virus processing peptidase;S273R protein (African swine fever virus);protein S273R (African swine fever virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;6;6;2;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -11086,7 +11086,7 @@ Glu;0;1;0;0;0;2;2;0
 Lys;3;1;0;0;0;0;1;1
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Cezanne peptidase | OTUD7B g.p. (Homo sapiens)
+Cezanne peptidase;OTUD7B g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;5;5;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11108,7 +11108,7 @@ Glu;0;0;0;0;0;0;0;2
 Lys;0;0;0;0;4;0;0;0
 Arg;0;5;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Cezanne-2 peptidase | OTUD7A g.p. (Homo sapiens)
+Cezanne-2 peptidase;OTUD7A g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11130,7 +11130,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-A20 peptidase | TNFAIP3 g.p. (Homo sapiens) | tumor necrosis factor alpha-induced protein 3
+A20 peptidase;TNFAIP3 g.p. (Homo sapiens);tumor necrosis factor alpha-induced protein 3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;3;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11152,7 +11152,7 @@ Glu;0;0;0;0;0;1;0;2
 Lys;0;0;0;0;3;0;0;0
 Arg;0;3;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-trabid peptidase | ZRANB1 g.p. (Homo sapiens)
+trabid peptidase;ZRANB1 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;8;8;0;0;3;0
 Pro;0;0;0;0;0;0;0;0
@@ -11174,7 +11174,7 @@ Glu;0;0;0;0;0;5;0;0
 Lys;0;0;0;0;8;0;0;0
 Arg;0;8;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-VCIP135 deubiquitinating peptidase | valosin-containing protein (p97)/p47 complex interacting protein 1 | valosin-containing protein p97 | VCIP | VCPIP1 | p135 | p47 complex-interacting protein
+VCIP135 deubiquitinating peptidase;valosin-containing protein (p97)/p47 complex interacting protein 1;valosin-containing protein p97;VCIP;VCPIP1;p135;p47 complex-interacting protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11196,7 +11196,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;2;0;0;0
 Arg;0;2;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-otubain-1 | OTUB1 g.p. (Homo sapiens) | CG4968 g.p. (Drosophila melanogaster)
+otubain-1;CG4968 g.p. (Drosophila melanogaster);OTUB1 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;14;14;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11218,7 +11218,7 @@ Glu;0;0;0;0;0;2;0;3
 Lys;1;0;0;0;8;0;0;0
 Arg;0;14;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-otubain-2 | OTUB2 g.p. (Homo sapiens)
+otubain-2;OTUB2 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11240,7 +11240,7 @@ Glu;0;0;0;0;0;2;0;0
 Lys;0;0;0;0;2;0;0;0
 Arg;0;2;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-IdeS peptidase | Mac-1 peptidase (Streptococcus pyogenes) | Mac-2 peptidase (Streptococcus pyogenes) | IdeP peptidase (Streptococcus phocae) | Imlifidase
+IdeS peptidase;IdeP peptidase (Streptococcus phocae);Imlifidase;Mac-1 peptidase (Streptococcus pyogenes);Mac-2 peptidase (Streptococcus pyogenes)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;2;0;0;0
 Pro;0;0;0;0;0;2;0;0
@@ -11262,7 +11262,7 @@ Glu;2;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-dentipain | IdeT g.p. (Treponema denticola)
+dentipain;IdeT g.p. (Treponema denticola)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11284,7 +11284,7 @@ Glu;0;1;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;1;0;0;0;0;0;0;0
-CylD peptidase | CYLD g.p. (Homo sapiens) | cylindromatosis protein
+CylD peptidase;CYLD g.p. (Homo sapiens);cylindromatosis protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;7;7;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11306,7 +11306,7 @@ Glu;0;0;0;0;0;7;0;0
 Lys;0;0;0;0;7;0;0;0
 Arg;0;7;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-dipeptidase A | PepDA g.p. (Lactobacillus sp.) | pepDA1 | pepDA2 | pepDB
+dipeptidase A;PepDA g.p. (Lactobacillus sp.);pepDA1;pepDA2;pepDB
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11328,7 +11328,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-arginine aminopeptidase (Streptococcus-type) | AbpB g.p. (Streptococcus gordonii)
+arginine aminopeptidase (Streptococcus-type);AbpB g.p. (Streptococcus gordonii)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;4;0;1;0
 Pro;0;0;0;0;3;2;1;2
@@ -11350,7 +11350,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;0;0;0;1;0;1
 Arg;0;0;0;11;0;0;1;0
 His;0;0;0;0;0;0;0;1
-AvrRpt2 peptidase | AvrRpt2 g.p. (Pseudomonas syringae)
+AvrRpt2 peptidase;AvrRpt2 g.p. (Pseudomonas syringae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;3;1;0;0;0
 Pro;3;0;0;0;0;0;0;0
@@ -11372,7 +11372,7 @@ Glu;0;0;0;0;0;0;1;1
 Lys;0;2;0;0;0;0;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-pseudomurein endoisopeptidase Pei | PeiP pseudomurein endoisopeptidase | PeiW pseudomurein endoisopeptidase
+pseudomurein endoisopeptidase Pei;PeiP pseudomurein endoisopeptidase;PeiW pseudomurein endoisopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11416,7 +11416,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-AgrB peptidase | accessory gene regulator protein B (Staphylococcus aureus)
+AgrB peptidase;accessory gene regulator protein B (Staphylococcus aureus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11438,7 +11438,7 @@ Glu;0;0;0;0;0;1;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-viral tegument protein deubiquitinylating peptidase | M48USP | BPLF1 (Epstein-Barr virus) | UL36 g.p. (herpes simplex virus 1) | UL36USP | HMWP protein | large tegument protein (Epstein-Barr virus) | pUL36 protein (Pseudorabies virus) | pUL48 (Epstein-Barr virus)
+viral tegument protein deubiquitinylating peptidase;BPLF1 (Epstein-Barr virus);large tegument protein (Epstein-Barr virus);HMWP protein;UL36 g.p. (herpes simplex virus 1);UL36USP;pUL36 protein (Pseudorabies virus);pUL48 (Epstein-Barr virus);M48USP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;4;4;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11460,7 +11460,7 @@ Glu;0;0;0;0;0;1;0;1
 Lys;0;0;0;0;3;0;0;1
 Arg;0;4;0;0;0;0;1;0
 His;0;0;0;0;0;0;0;0
-UfSP1 peptidase | ubiquitin-fold modifier 1-specific peptidase 1 | Ufm1 specific peptidase 1
+UfSP1 peptidase;ubiquitin-fold modifier 1-specific peptidase 1;Ufm1 specific peptidase 1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;3;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -11482,7 +11482,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;3;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-UfSP2 peptidase | ubiquitin-fold modifier 1-specific peptidase 2 | Ufm1 specific peptidase 2
+UfSP2 peptidase;ubiquitin-fold modifier 1-specific peptidase 2;Ufm1 specific peptidase 2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -11504,7 +11504,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;2;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ZUP1 g.p. (Homo sapiens) | ZUFSP | ZUPSP
+ZUP1 g.p. (Homo sapiens);ZUFSP;ZUPSP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;3;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11548,7 +11548,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;3;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ElaD peptidase (Escherichia-type) | SseL peptidase (Salmonella sp.)
+ElaD peptidase (Escherichia-type);SseL peptidase (Salmonella sp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;3;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11570,7 +11570,7 @@ Glu;0;0;0;0;0;1;0;1
 Lys;0;0;0;0;2;0;0;0
 Arg;0;3;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-RTX self-cleaving toxin | Makes Caterpillars Floppy g.p. (Vibrio vulnificus) | MARTX-Vc | multifunctional-autoprocessing repeats-in-toxin (MARTX) toxin-effector domain | DUF5vV | toxin RTZ, self-cleaving | repeats-in-toxin toxin
+RTX self-cleaving toxin;DUF5vV;repeats-in-toxin toxin;toxin RTZ, self-cleaving;Makes Caterpillars Floppy g.p. (Vibrio vulnificus);MARTX-Vc;multifunctional-autoprocessing repeats-in-toxin (MARTX) toxin-effector domain
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;1;2;0
 Pro;0;0;0;0;0;0;0;0
@@ -11592,7 +11592,7 @@ Glu;0;3;0;0;0;1;0;1
 Lys;2;0;0;0;0;0;0;2
 Arg;0;0;0;0;0;0;0;0
 His;0;1;0;0;0;0;0;0
-self-cleaving toxin A (Clostridium-type) | TcdA toxin (Clostridium difficile) | toxin A, self-cleaving | cdtA
+self-cleaving toxin A (Clostridium-type);TcdA toxin (Clostridium difficile);toxin A, self-cleaving;cdtA
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11614,7 +11614,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-self-cleaving toxin B (Clostridium-type) | TcdB toxin (Clostridium difficile) | toxin B, self-cleaving | cdtB
+self-cleaving toxin B (Clostridium-type);TcdB toxin (Clostridium difficile);toxin B, self-cleaving;cdtB
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11636,7 +11636,7 @@ Glu;1;0;0;0;0;1;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-L,D-transpeptidase (Enterococcus-type) | Ldt(fm) | Ldt(fs)
+L,D-transpeptidase (Enterococcus-type);Ldt(fm);Ldt(fs)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11680,7 +11680,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;2;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-LdtF protein (Escherichia coli) | YafK protein (Escherichia coli) | PGP2 L,D-carboxypeptidase (Campylobacter jejuni) | Csd6 (Helicobacter pylori)
+LdtF protein (Escherichia coli);Csd6 (Helicobacter pylori);YafK protein (Escherichia coli);PGP2 L,D-carboxypeptidase (Campylobacter jejuni)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11702,7 +11702,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-gamma-glutamylcysteine dipeptidyltranspeptidase | alr0975 g.p. (Nostoc sp. PCC 7120) | NsPCS g.p. (Nostoc sp.)
+gamma-glutamylcysteine dipeptidyltranspeptidase;alr0975 g.p. (Nostoc sp. PCC 7120);NsPCS g.p. (Nostoc sp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11724,7 +11724,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-phytochelatin synthase | AtPCS1 g.p. (Arabidopsis thaliana) | PCS | phytochelatin synthase 1
+phytochelatin synthase;AtPCS1 g.p. (Arabidopsis thaliana);PCS;phytochelatin synthase 1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11746,7 +11746,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-prtH peptidase (Tannerella forsythensis ATCC 43037) | FDF | forsythia detaching factor | prtH protease (Tannerella forsythensis ATCC 43037) | cytocidal toxin-1 | envelope-associated protease
+prtH peptidase (Tannerella forsythensis ATCC 43037);FDF;forsythia detaching factor;cytocidal toxin-1;prtH protease (Tannerella forsythensis ATCC 43037);envelope-associated protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11768,7 +11768,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-OTUD5 peptidase (Homo sapiens) | At2g27350 g.p. (Arabidopsis thaliana) | deubiquitinylating enzyme A | DUBA deubiquitinylating enzyme | OTLD1 deubiquitinylating enzyme | OTUD5 g.p. (Homo sapiens)
+OTUD5 peptidase (Homo sapiens);deubiquitinylating enzyme A;DUBA deubiquitinylating enzyme;At2g27350 g.p. (Arabidopsis thaliana);OTLD1 deubiquitinylating enzyme;OTUD5 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;4;4;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11790,7 +11790,7 @@ Glu;0;0;0;0;0;3;0;1
 Lys;0;0;0;0;4;0;0;0
 Arg;0;4;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-OTUD3 peptidase (Homo sapiens) | KIAA0459 (Homo sapiens)-like protein
+OTUD3 peptidase (Homo sapiens);KIAA0459 (Homo sapiens)-like protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11856,7 +11856,7 @@ Glu;0;0;0;0;0;1;0;1
 Lys;0;0;0;0;3;0;0;0
 Arg;0;3;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;1
-YOD1 peptidase | DUBA8 | Hshin7 protein (Rattus norvegicus) | OtuD2
+YOD1 peptidase;DUBA8;Hshin7 protein (Rattus norvegicus);OtuD2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;4;4;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -11878,7 +11878,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;0;0;4;0;1;0
 Arg;0;4;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-OTU2 peptidase (Saccharomyces cerevisiae-type) | OTUD6A g.p. (Homo sapiens)
+OTU2 peptidase (Saccharomyces cerevisiae-type);OTUD6A g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;5;5;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -11900,7 +11900,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;0;0;5;0;1;0
 Arg;0;5;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;1
-ataxin-3 | Machado-Joseph disease protein | MJD protein | ATXN3 g.p. (Homo sapiens) | Josephin
+ataxin-3;Josephin;ATXN3 g.p. (Homo sapiens);Machado-Joseph disease protein;MJD protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11922,7 +11922,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ataxin-3 homologue (Caenorhabditis sp.) | atx-3 g.p. (Caenorhabditis elegans)
+ataxin-3 homologue (Caenorhabditis sp.);atx-3 g.p. (Caenorhabditis elegans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11944,7 +11944,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;1;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-nairovirus deubiquitinylating peptidase | Dugbe virus deubiquitinylating peptidase | vOTU | Crimean-Congo hemorrhagic fever virus deubiquitinylating peptidase
+nairovirus deubiquitinylating peptidase;Dugbe virus deubiquitinylating peptidase;Crimean-Congo hemorrhagic fever virus deubiquitinylating peptidase;vOTU
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;3;1;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -11966,7 +11966,7 @@ Glu;0;0;0;0;0;1;1;1
 Lys;0;0;0;0;2;0;0;0
 Arg;0;3;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-acid ceramidase precursor | N-acylsphingosine deacylase precursor
+acid ceramidase precursor;N-acylsphingosine deacylase precursor
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -11988,7 +11988,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-N-acylethanolamine acid amidase precursor | NAAA g.p. (Homo sapiens)
+N-acylethanolamine acid amidase precursor;NAAA g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -12032,7 +12032,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-lysosomal 66.3 kDa protein (Mus musculus-type) | PLBD2
+lysosomal 66.3 kDa protein (Mus musculus-type);PLBD2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;2;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -12054,7 +12054,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-McjB peptidase | microcin J25 maturation peptidase (Escherichia coli)
+McjB peptidase;microcin J25 maturation peptidase (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;1;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -12076,7 +12076,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-desumoylating isopeptidase 1 | DeSI-1 g.p. (Homo sapiens) | DeSI-1 peptidase | PPDE peptidase domain containing 2 | PPPDE2
+desumoylating isopeptidase 1;DeSI-1 g.p. (Homo sapiens);DeSI-1 peptidase;PPDE peptidase domain containing 2;PPPDE2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -12164,7 +12164,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-dipeptidyl-dipeptidase | dipeptidyl ligase | dipeptidyl ligase dipeptidyl tetrapeptide hydrolase | dipeptidyl tetrapeptide hydrolase | tetrapeptide dipeptidase | EC 3.4.14.6
+dipeptidyl-dipeptidase;dipeptidyl ligase;dipeptidyl ligase dipeptidyl tetrapeptide hydrolase;dipeptidyl tetrapeptide hydrolase;tetrapeptide dipeptidase;EC 3.4.14.6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;2;2;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -12252,7 +12252,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-scytalidoglutamic peptidase | SCP-B | scytalido carboxyl peptidase-B | scytalidopepsin B | aspartic proteinase B (Scytalidium) | EC 3.4.23.32
+scytalidoglutamic peptidase;aspartic proteinase B (Scytalidium);SCP-B;scytalido carboxyl peptidase-B;scytalidopepsin B;EC 3.4.23.32
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;2;0;0;0;0
 Pro;0;0;0;1;13;1;0;1
@@ -12274,7 +12274,7 @@ Glu;1;0;1;3;0;0;0;0
 Lys;0;30;0;2;0;0;31;0
 Arg;0;1;0;2;0;0;0;0
 His;1;0;0;4;0;0;1;0
-aspergilloglutamic peptidase | aspartic proteinase (Aspergillus niger var. macrosporus) | aspergillopepsin B | aspergillopepsin II | PepB g.p. (Aspergillus niger) | proctase A | proteinase A | EC 3.4.23.19
+aspergilloglutamic peptidase;aspartic proteinase (Aspergillus niger var. macrosporus);aspergillopepsin B;aspergillopepsin II;PepB g.p. (Aspergillus niger);proctase A;proteinase A;EC 3.4.23.19
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;8;3;0;0;6;2;0;0
 Pro;2;6;2;0;1;5;6;0
@@ -12318,7 +12318,7 @@ Glu;1;0;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;1;1;0;0;0;0;0;0
 His;1;0;0;0;0;0;0;0
-pre-neck appendage protein (Bacillus phage phi29) | bacteriophage Phi29 self-cleaving tailspike protein
+pre-neck appendage protein (Bacillus phage phi29);bacteriophage Phi29 self-cleaving tailspike protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -12362,7 +12362,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;3;0;1;0;0;0
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Tiki1 peptidase | TRAB domain-containing protein 2A | TRABD2A g.p. (Homo sapiens)
+Tiki1 peptidase;TRAB domain-containing protein 2A;TRABD2A g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;0;0;0;0;0;0;0;1
@@ -12384,7 +12384,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-RCE1 peptidase (Saccharomyces cerevisiae-type) | Ras-converting enzyme 1 (Saccharomyces cerevisiae) | rce1 g.p. (Saccharomyces cerevisiae) | prenyl peptidase 2 | prenyl protease 2
+RCE1 peptidase (Saccharomyces cerevisiae-type);Ras-converting enzyme 1 (Saccharomyces cerevisiae);rce1 g.p. (Saccharomyces cerevisiae);prenyl peptidase 2;prenyl protease 2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;0;0;0;0;0;0
 Pro;0;2;0;0;0;0;0;0
@@ -12406,7 +12406,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-RCE1 peptidase (Homo sapiens-type) | AtFACE-2 (Arabidopsis thaliana) | Face-2 protein (Homo sapiens) | Ras converting CAAX endopeptidase 1 | RCE1 g.p. (Homo sapiens) | prenyl peptidase 1 | prenyl protease 1
+RCE1 peptidase (Homo sapiens-type);Face-2 protein (Homo sapiens);AtFACE-2 (Arabidopsis thaliana);Ras converting CAAX endopeptidase 1;RCE1 g.p. (Homo sapiens);prenyl peptidase 1;prenyl protease 1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -12428,7 +12428,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;13;1;13;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-microcystinase MlrA | MlrA peptidase
+microcystinase MlrA;MlrA peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -12450,7 +12450,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-RCE1 peptidase (Sarcomastigophora-type) | TbRCE1 peptidase (Trypanosoma brucei)
+RCE1 peptidase (Sarcomastigophora-type);TbRCE1 peptidase (Trypanosoma brucei)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;1;0;0;0;0;0;0
@@ -12472,7 +12472,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Ras/Rap1-specific peptidase | DUF5Vv endopeptidase | Ras/Rap1-specific endopeptidase | RRSP
+Ras/Rap1-specific peptidase;DUF5Vv endopeptidase;Ras/Rap1-specific endopeptidase;RRSP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;2;0;0
@@ -12494,7 +12494,7 @@ Glu;0;0;2;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-aminopeptidase N | membrane alanyl aminopeptidase (eukaryote) | membrane aminopeptidase I | membrane Cys-Gly dipeptidase | microsomal aminopeptidase | alanine aminopeptidase | alanyl-aminopeptidase | amino-oligopeptidase | aminopeptidase M | aminopeptidase, alanineaminopeptidase, microsomal | ANPEP g.p. (Homo sapiens) | AOP | neutral aminopeptidase | particle-bound aminopeptidase | peptidase E | pseudo leucine aminopeptidase | CD13 | EC 3.4.11.2
+aminopeptidase N;alanine aminopeptidase;alanyl-aminopeptidase;amino-oligopeptidase;aminopeptidase M;aminopeptidase, alanineaminopeptidase, microsomal;ANPEP g.p. (Homo sapiens);AOP;CD13;neutral aminopeptidase;particle-bound aminopeptidase;peptidase E;pseudo leucine aminopeptidase;membrane alanyl aminopeptidase (eukaryote);membrane aminopeptidase I;membrane Cys-Gly dipeptidase;microsomal aminopeptidase;EC 3.4.11.2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;3;5;2;0;1
 Pro;0;0;0;2;0;0;0;0
@@ -12516,7 +12516,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;1;0;0;1;0
 Arg;0;0;0;5;1;0;0;0
 His;0;0;0;1;0;0;0;3
-lysyl aminopeptidase (bacteria) | aminopeptidase N (Gram positive bacteria)
+lysyl aminopeptidase (bacteria);aminopeptidase N (Gram positive bacteria)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;1;2;1
 Pro;0;0;0;1;1;3;2;0
@@ -12538,7 +12538,7 @@ Glu;0;0;0;0;2;2;1;0
 Lys;0;0;0;6;1;1;1;1
 Arg;0;0;0;1;1;0;0;0
 His;0;0;0;2;1;1;1;2
-aminopeptidase A | membrane aminopeptidase II | mouse BP-1/6C3 antigen | angiotensinase A | aspartate aminopeptidase | glutamyl aminopeptidase | glutamyl peptidase | gp160 [ambig.] | rhiminopeptidase A (Bitis gabonica) | Ca2+-activated glutamate aminopeptidase | EC 3.4.11.7 | ENPEP g.p. (Homo sapiens)
+aminopeptidase A;glutamyl aminopeptidase;glutamyl peptidase;gp160 [ambig.];angiotensinase A;aspartate aminopeptidase;rhiminopeptidase A (Bitis gabonica);Ca2+-activated glutamate aminopeptidase;membrane aminopeptidase II;mouse BP-1/6C3 antigen;EC 3.4.11.7;ENPEP g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;1
 Pro;0;0;0;0;0;1;1;0
@@ -12560,7 +12560,7 @@ Glu;0;0;0;7;4;3;2;1
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;2;0;0;0
 His;0;0;0;0;1;1;0;1
-leukotriene A4 hydrolase | aminopeptidase T (Sus scropha) | LTA4H g.p. (Homo sapiens) | EC 3.3.2.6
+leukotriene A4 hydrolase;aminopeptidase T (Sus scropha);LTA4H g.p. (Homo sapiens);EC 3.3.2.6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;7;3;0;0
 Pro;0;0;0;2;0;0;0;0
@@ -12582,7 +12582,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;6;0;0;0;0
 His;0;0;0;0;1;0;0;0
-alanyl aminopeptidase (bacterial-type) | alanyl aminopeptidase, bacterial | aminopeptidase M1 (Arabidopsis thaliana) | aminopeptidase N (Escherichia coli) | APM1 (Arabidopsis thaliana) | AtMPA-1 | pepN g.p. (Escherichia coli) | peptidase N
+alanyl aminopeptidase (bacterial-type);alanyl aminopeptidase, bacterial;aminopeptidase M1 (Arabidopsis thaliana);aminopeptidase N (Escherichia coli);APM1 (Arabidopsis thaliana);AtMPA-1;pepN g.p. (Escherichia coli);peptidase N
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;1;1;1;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -12604,7 +12604,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;2;0;0;0;0
 Arg;0;0;1;6;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Ape2 aminopeptidase | aminopeptidase II (Saccharomyces cerevisiae) | APE2 g.p. (Saccharomyces cerevisiae)aminopeptidase yscIILap1 aminopeptidase (Saccharomyces cerevisiae)
+Ape2 aminopeptidase;aminopeptidase II (Saccharomyces cerevisiae);APE2 g.p. (Saccharomyces cerevisiae)aminopeptidase yscIILap1 aminopeptidase (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -12626,7 +12626,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;2;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Aap1' aminopeptidase | alanyl/arginyl aminopeptidase (Saccharomyces cerevisiae)
+Aap1' aminopeptidase;alanyl/arginyl aminopeptidase (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -12648,7 +12648,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-pyroglutamyl-peptidase II | thyroliberinase | thyrotropin-releasing hormone-degrading ectoenzyme | TRH-degrading ectoenzyme | PGP-2 | pyroglutamyl aminopeptidase II | EC 3.4.19.6
+pyroglutamyl-peptidase II;thyroliberinase;thyrotropin-releasing hormone-degrading ectoenzyme;TRH-degrading ectoenzyme;PGP-2;pyroglutamyl aminopeptidase II;EC 3.4.19.6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;3;0;0
@@ -12692,7 +12692,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cytosol alanyl aminopeptidase | meiotic prophase aminopeptidase (Arabidopsis thaliana) | MP100 brain metalloprotease | MPA1 (Arabidopsis thaliana) | soluble alanyl aminopeptidase | aminopeptidase III | aminopeptidase PS | aminopeptidase, puromycin-sensitivealanyl aminopeptidase, solublealanyl aminopeptidase, cytosolaminopeptidase, thiol-activatedPSA | aminopolypeptidase | arylamidase | human liver aminopeptidase | thiol-activated aminopeptidase | PAM-1 aminopeptidase (Caenorhabditis elegans) | puromycin-sensitive aminopeptidase | cytosol aminopeptidase III | EC 3.4.11.14 | enkephalin-degrading aminopeptidase
+cytosol alanyl aminopeptidase;aminopeptidase III;aminopeptidase PS;aminopeptidase, puromycin-sensitivealanyl aminopeptidase, solublealanyl aminopeptidase, cytosolaminopeptidase, thiol-activatedPSA;aminopolypeptidase;arylamidase;human liver aminopeptidase;thiol-activated aminopeptidase;cytosol aminopeptidase III;soluble alanyl aminopeptidase;PAM-1 aminopeptidase (Caenorhabditis elegans);puromycin-sensitive aminopeptidase;meiotic prophase aminopeptidase (Arabidopsis thaliana);MP100 brain metalloprotease;MPA1 (Arabidopsis thaliana);EC 3.4.11.14;enkephalin-degrading aminopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;3;2;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -12714,7 +12714,7 @@ Glu;0;0;0;1;1;1;0;0
 Lys;0;0;0;10;5;1;0;0
 Arg;1;0;0;6;3;1;0;0
 His;0;0;0;0;0;0;0;0
-cystinyl aminopeptidase | aminopeptidase, cystineaminopeptidase, insulin-regulatedCAPleucine aminopeptidase, placental | angiotensin IV receptor | insulin-regulated membrane aminopeptidase | insulin-responsive aminopeptidase | IRAP | vasopressinase | vp165 | otase | oxytocinase | gp160 [ambig.] | LNPEP g.p. (Homo sapiens) | P-LAP | placental leucine aminopeptidase | cystine aminopeptidase | cystyl-aminopeptidase | EC 3.4.11.3
+cystinyl aminopeptidase;gp160 [ambig.];insulin-regulated membrane aminopeptidase;insulin-responsive aminopeptidase;IRAP;aminopeptidase, cystineaminopeptidase, insulin-regulatedCAPleucine aminopeptidase, placental;angiotensin IV receptor;LNPEP g.p. (Homo sapiens);cystine aminopeptidase;cystyl-aminopeptidase;otase;oxytocinase;vasopressinase;vp165;P-LAP;placental leucine aminopeptidase;EC 3.4.11.3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;1;0;1
 Pro;0;0;0;0;0;1;1;1
@@ -12736,7 +12736,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;2;0;0;0;0
 Arg;0;0;0;2;1;0;0;0
 His;0;0;0;0;0;0;1;1
-aminopeptidase N (insect) | Cry1Ac toxin binding protein
+aminopeptidase N (insect);Cry1Ac toxin binding protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -12758,7 +12758,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;1;0;0;0;0
-aminopeptidase B | arginine aminopeptidase, chloride-activatedarginyl aminopeptidase, cytosol | arylamidase II | chloride-activated arginine aminopeptidase | cytosol aminopeptidase IV | cytosol arginyl aminopeptidase | EC 3.4.11.6
+aminopeptidase B;arginine aminopeptidase, chloride-activatedarginyl aminopeptidase, cytosol;arylamidase II;chloride-activated arginine aminopeptidase;cytosol aminopeptidase IV;cytosol arginyl aminopeptidase;EC 3.4.11.6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;2;3;2
 Pro;0;0;0;0;0;1;1;0
@@ -12802,7 +12802,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-aminopeptidase Ey | apdE g.p. (Gallus gallus domesticus) | EC 3.4.11.20
+aminopeptidase Ey;apdE g.p. (Gallus gallus domesticus);EC 3.4.11.20
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;3;3;3;2;0
 Pro;0;0;0;1;3;1;1;0
@@ -12824,7 +12824,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;1;0
 Arg;0;0;0;2;0;0;1;0
 His;0;0;0;0;0;0;0;0
-endoplasmic reticulum aminopeptidase 1 | KIAA0525 protein (Homo sapiens) | A-LAP | adipocyte-derived aminopeptidase | aminopeptidase associated with antigen processing in the ER | aminopeptidase PILS | aminopeptidase regulator of TNFR1 shedding | ARTS-1 | type 1 tumor necrosis factor receptor shedding aminopeptidase regulator | PILSAP | puromycin insensitive leucyl-specific aminopeptidase (PILSAP) | ERAAP | ERAP-1
+endoplasmic reticulum aminopeptidase 1;KIAA0525 protein (Homo sapiens);A-LAP;adipocyte-derived aminopeptidase;aminopeptidase associated with antigen processing in the ER;aminopeptidase PILS;aminopeptidase regulator of TNFR1 shedding;ARTS-1;type 1 tumor necrosis factor receptor shedding aminopeptidase regulator;PILSAP;puromycin insensitive leucyl-specific aminopeptidase (PILSAP);ERAAP;ERAP-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;2;2;2
 Pro;0;0;0;0;0;4;3;2
@@ -12890,7 +12890,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-arginyl aminopeptidase-like 1 | Mername-AA050 peptidase | aminopeptidase B-like | APB-L | RNPEP-like protein1 | RNPEPL1 | EC 3.4.11.1
+arginyl aminopeptidase-like 1;aminopeptidase B-like;APB-L;RNPEP-like protein1;RNPEPL1;Mername-AA050 peptidase;EC 3.4.11.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -12912,7 +12912,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;1;0;0;0;0
-ERAP2 aminopeptidase | Mername-AA066 peptidase | aminopeptidase MAMS | L-RAP | leukocyte-derived arginine aminopeptidase | endoplasmic reticulum aminopeptidase 2 (ERAP2)
+ERAP2 aminopeptidase;aminopeptidase MAMS;L-RAP;leukocyte-derived arginine aminopeptidase;Mername-AA066 peptidase;endoplasmic reticulum aminopeptidase 2 (ERAP2)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;1;3;8
 Pro;0;0;0;0;0;8;9;4
@@ -12934,7 +12934,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;4;0;0;0;0
 Arg;0;0;0;4;3;1;1;1
 His;0;0;0;0;1;1;1;1
-aminopeptidase-1 (Caenorhabditis-type) | AP-1 (Caenorhabditis elegans) | C42C1.11 g.p. (Caenorhabditis elegans)
+aminopeptidase-1 (Caenorhabditis-type);AP-1 (Caenorhabditis elegans);C42C1.11 g.p. (Caenorhabditis elegans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -12956,7 +12956,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-aminopeptidase Q | Mername-AA009 protein | Mername-AA105 peptidase | Mername-AA120 peptidase | Taqpep | laeverin
+aminopeptidase Q;laeverin;Taqpep;Mername-AA009 protein;Mername-AA105 peptidase;Mername-AA120 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;2;1;0;1
 Pro;0;0;0;0;0;1;1;0
@@ -12978,7 +12978,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;4;1;0;0;0
 Arg;0;0;0;2;1;0;1;2
 His;0;0;0;0;0;0;0;1
-aminopeptidase O | Mername-AA139 putative peptidase | clone MGC:31762
+aminopeptidase O;clone MGC:31762;Mername-AA139 putative peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -13000,7 +13000,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;1
-M1 aminopeptidase (Plasmodium spp.) | PfA-M1 aminopeptidase (Plasmodium falciparum-type)
+M1 aminopeptidase (Plasmodium spp.);PfA-M1 aminopeptidase (Plasmodium falciparum-type)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -13044,7 +13044,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cold-active aminopeptidase (Colwellia psychrerythraea)-type peptidase | cold-active aminopeptidase (Colwellia psychrerythraea)
+cold-active aminopeptidase (Colwellia psychrerythraea)-type peptidase;cold-active aminopeptidase (Colwellia psychrerythraea)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -13066,7 +13066,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-lysyl aminopeptidase 1 (Streptomyces sp.) | Pld | epsilon-poly-L-lysine-degrading enzyme 1
+lysyl aminopeptidase 1 (Streptomyces sp.);Pld;epsilon-poly-L-lysine-degrading enzyme 1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -13088,7 +13088,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;2;1;1;1;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-lysyl endopeptidase (Streptomyces albulus) | Pld II | epsilon-poly-L-lysine-degrading enzyme 2
+lysyl endopeptidase (Streptomyces albulus);Pld II;epsilon-poly-L-lysine-degrading enzyme 2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -13110,7 +13110,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;1;1;1;1;1;1;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-leukotriene A4 hydrolase (Saccharomyces cerevisiae) | EC 3.3.2.6
+leukotriene A4 hydrolase (Saccharomyces cerevisiae);EC 3.3.2.6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -13154,7 +13154,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ApiP peptidase (Actinoplanes sp. NAI112) | LabP (Actinoplanes sp. NAI112) | lanthipeptide leader peptidase
+ApiP peptidase (Actinoplanes sp. NAI112);LabP (Actinoplanes sp. NAI112);lanthipeptide leader peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;2;1;0;2
 Pro;1;0;0;1;1;1;3;1
@@ -13176,7 +13176,7 @@ Glu;0;2;0;1;5;0;3;2
 Lys;0;0;0;0;0;0;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-angiotensin-converting enzyme peptidase unit 1 | angiotensin-converting enzyme, N domain | peptidyl-dipeptidase A peptidase unit 1 | peptidyl-dipeptidase A, N domain | EC 3.4.15.1
+angiotensin-converting enzyme peptidase unit 1;angiotensin-converting enzyme, N domain;peptidyl-dipeptidase A peptidase unit 1;peptidyl-dipeptidase A, N domain;EC 3.4.15.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;0;2;0;1;0;2
 Pro;0;0;0;0;0;0;1;0
@@ -13198,7 +13198,7 @@ Glu;0;3;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;2;0
 Arg;0;0;0;2;2;3;0;1
 His;0;0;0;1;3;0;0;0
-peptidyl-dipeptidase Acer | Acer protein (Drosophila melanogaster) | angiotensin-converting enzyme-related g.p. (Drosophila melanogaster) | pRACE | EC 3.4.15.1
+peptidyl-dipeptidase Acer;Acer protein (Drosophila melanogaster);angiotensin-converting enzyme-related g.p. (Drosophila melanogaster);pRACE;EC 3.4.15.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;0;2;5;1;0;0;0
 Pro;0;1;0;4;0;0;0;0
@@ -13220,7 +13220,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;4;0;0
 His;0;0;0;0;1;1;0;0
-peptidyl-dipeptidase Ance | Ance protein (Drosophila melanogaster) | BmAcer (Bomyx mori) | HieACE (Haematobia irritans exigua) | RACE | EC 3.4.15.1
+peptidyl-dipeptidase Ance;BmAcer (Bomyx mori);Ance protein (Drosophila melanogaster);RACE;HieACE (Haematobia irritans exigua);EC 3.4.15.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;5;0;1;0;0;0;0;0
 Pro;0;1;1;6;0;1;0;0
@@ -13242,7 +13242,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;1;5;0;0
 His;0;1;0;0;1;0;0;0
-angiotensin-converting enzyme peptidase unit 2 | ACA(T)angiotensin-converting enzyme, testicularangiotensin-converting enzyme, C domain | tACE | testicular angiotensin-converting enzyme | germinal peptidyl-dipeptidase A | peptidyl-dipeptidase A peptidase unit 2 | peptidyl-dipeptidase A, C domain | EC 3.4.15.1
+angiotensin-converting enzyme peptidase unit 2;germinal peptidyl-dipeptidase A;ACA(T)angiotensin-converting enzyme, testicularangiotensin-converting enzyme, C domain;tACE;testicular angiotensin-converting enzyme;peptidyl-dipeptidase A peptidase unit 2;peptidyl-dipeptidase A, C domain;EC 3.4.15.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;2;1;1;1;0
 Pro;0;0;0;1;0;1;0;0
@@ -13264,7 +13264,7 @@ Glu;2;2;0;0;0;0;0;0
 Lys;0;0;0;0;2;3;2;0
 Arg;0;1;2;1;0;1;0;0
 His;0;0;4;3;3;0;0;0
-peptidyl-dipeptidase A (Theromyzon-type) | angiotensin I-converting enzyme, leech | TtACE | leech angiotensin I-converting enzyme | EC 3.4.15.1
+peptidyl-dipeptidase A (Theromyzon-type);angiotensin I-converting enzyme, leech;leech angiotensin I-converting enzyme;TtACE;EC 3.4.15.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;1;0;0;1;0;0
@@ -13286,7 +13286,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;1;0;0;2;0;0;0
-angiotensin-converting enzyme-2 | ACE2 | ACEH | EC 3.4.17.23
+angiotensin-converting enzyme-2;ACE2;ACEH;EC 3.4.17.23
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;0;0;0;0;0;0;0
 Pro;0;5;1;10;0;0;0;0
@@ -13308,7 +13308,7 @@ Glu;1;0;1;0;0;0;0;0
 Lys;1;0;2;0;1;0;0;0
 Arg;2;0;0;0;3;0;0;0
 His;1;0;1;1;0;0;0;0
-peptidyl-dipeptidase A (Crassostrea-type) | CgACE (Crassostrea gigas)
+peptidyl-dipeptidase A (Crassostrea-type);CgACE (Crassostrea gigas)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;1;0;0
@@ -13330,7 +13330,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;1;0;0;2;0;0;0
-thimet oligopeptidase | metalloendopeptidase, soluble | soluble metalloendopeptidase | THOP1 g.p. (Homo sapiens) | TOP | oligopeptidase A | Pz-peptidase | EC 3.4.24.15 | endo-oligopeptidase A | endopeptidase 24.15
+thimet oligopeptidase;THOP1 g.p. (Homo sapiens);TOP;oligopeptidase A;soluble metalloendopeptidase;Pz-peptidase;metalloendopeptidase, soluble;EC 3.4.24.15;endo-oligopeptidase A;endopeptidase 24.15
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;65;2;16;1;6;3;1;2
 Pro;5;6;18;57;0;31;2;1
@@ -13352,7 +13352,7 @@ Glu;1;1;1;1;1;1;4;2
 Lys;2;14;2;2;3;2;0;0
 Arg;5;7;3;17;19;55;5;9
 His;1;2;2;2;1;3;0;1
-neurolysin | microsomal endopeptidase | mitochondrial oligopeptidase | soluble angiotensin II-binding protein | angiotensin II-binding protein, soluble | thimet oligopeptidase II | neurotensin endopeptidase | neurotensin-degrading enzyme | NLN g.p. (Homo sapiens) | oligopeptidase M | EC 3.4.24.16 | endopeptidase 24.16
+neurolysin;angiotensin II-binding protein, soluble;thimet oligopeptidase II;oligopeptidase M;neurotensin endopeptidase;neurotensin-degrading enzyme;NLN g.p. (Homo sapiens);soluble angiotensin II-binding protein;microsomal endopeptidase;mitochondrial oligopeptidase;EC 3.4.24.16;endopeptidase 24.16
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;70;2;15;0;1;1;0;2
 Pro;14;8;23;68;1;28;1;0
@@ -13374,7 +13374,7 @@ Glu;0;1;1;1;1;1;2;1
 Lys;3;14;4;2;1;2;0;0
 Arg;7;14;13;15;14;61;4;7
 His;0;1;1;1;1;2;0;1
-saccharolysin | yeast cysteine proteinase D (misleading) | yeast endopeptidase D | PRD1 g.p. (Saccharomyces cerevisiae) | proteinase yscD | EC 3.4.24.37
+saccharolysin;yeast cysteine proteinase D (misleading);yeast endopeptidase D;PRD1 g.p. (Saccharomyces cerevisiae);proteinase yscD;EC 3.4.24.37
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;3;0;0;0
 Pro;1;1;3;1;0;7;0;0
@@ -13396,7 +13396,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;1
 His;0;0;0;0;0;0;0;0
-oligopeptidase A | OpdA g.p. (Escherichia coli) | prlC g.p. (Escherichia coli) | proteinase In | EC 3.4.24.70
+oligopeptidase A;OpdA g.p. (Escherichia coli);prlC g.p. (Escherichia coli);proteinase In;EC 3.4.24.70
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;1;2;1;1;0
 Pro;0;0;6;0;0;2;0;0
@@ -13418,7 +13418,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;2;1;0;0;1
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidyl-dipeptidase Dcp | dipeptidyl carboxypeptidase | carboxypeptidase, dipeptidylDcp | EC 3.4.15.5
+peptidyl-dipeptidase Dcp;dipeptidyl carboxypeptidase;carboxypeptidase, dipeptidylDcp;EC 3.4.15.5
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;1;0;0;0;0
 Pro;1;1;1;1;0;2;0;0
@@ -13440,7 +13440,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;1;0;0
 His;0;1;0;0;2;0;0;0
-mitochondrial intermediate peptidase | MAL13P1.184 g.p. (Plasmodium falciparum) | MIPEP g.p. (Homo sapiens) | At5g51540 (Arabidopsis thaliana)-like peptidase | Y67H2A.7 g.p. (Caenorhabditis elegans) | DDB_G0295743 g.p. (Dictyostelium discoideum) | OCT1 g.p. (Saccharomyces cerevisiae) | octapeptidyl aminopeptidase 1 | EC 3.4.24.59
+mitochondrial intermediate peptidase;DDB_G0295743 g.p. (Dictyostelium discoideum);At5g51540 (Arabidopsis thaliana)-like peptidase;OCT1 g.p. (Saccharomyces cerevisiae);octapeptidyl aminopeptidase 1;Y67H2A.7 g.p. (Caenorhabditis elegans);MAL13P1.184 g.p. (Plasmodium falciparum);MIPEP g.p. (Homo sapiens);EC 3.4.24.59
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;0;2;1;2;2
 Pro;2;10;0;1;0;4;0;1
@@ -13462,7 +13462,7 @@ Glu;0;0;0;0;0;0;1;1
 Lys;3;1;3;2;2;16;4;4
 Arg;1;1;1;0;0;1;0;3
 His;0;0;1;0;0;0;0;0
-oligopeptidase F | yjbG g.p. (Bacillus subtilis) | oligopeptidase PepB (Streptococcus) | LEP I | PepF1 g.p. (Lactococcus lactis) | PZ-peptidase (Bacillus licheniformis) | Pz-peptidase B (Geobacillus sp.) | endopeptidase I (Lactococcus)PepB g.p. (Streptococcus)
+oligopeptidase F;LEP I;oligopeptidase PepB (Streptococcus);yjbG g.p. (Bacillus subtilis);PepF1 g.p. (Lactococcus lactis);PZ-peptidase (Bacillus licheniformis);Pz-peptidase B (Geobacillus sp.);endopeptidase I (Lactococcus)PepB g.p. (Streptococcus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;4;1;1;9;1;1;4
 Pro;3;1;7;1;0;11;2;0
@@ -13484,7 +13484,7 @@ Glu;0;1;1;2;2;0;1;1
 Lys;0;1;0;0;1;2;0;1
 Arg;1;2;2;1;2;1;1;3
 His;1;0;1;1;1;1;0;0
-oligopeptidase MepB | MepB | fungal Pz-peptidase (e.g. Aspergillus, Trichophyton)
+oligopeptidase MepB;fungal Pz-peptidase (e.g. Aspergillus, Trichophyton);MepB
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;1;0;0;1;0;0
@@ -13550,7 +13550,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;1;20;1;7
 His;0;0;1;1;1;2;2;0
-OCT1 (Arabidopsis thaliana) | At5g51540 (Arabidopsis thaliana)
+OCT1 (Arabidopsis thaliana);At5g51540 (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;1;1;0;1
 Pro;0;2;0;0;0;0;0;1
@@ -13572,7 +13572,7 @@ Glu;1;0;0;0;1;0;1;0
 Lys;1;0;1;0;0;1;2;3
 Arg;3;2;1;0;0;0;0;0
 His;0;0;0;0;0;2;1;1
-thermolysin | megateriopeptidase (Bacillus megaterium) | Mername-AA133 peptidase | neutral proteinase (Bacillus thermoproteolyticus) | neutral proteinase (Bacillus thermoproteolyticus) | nprM g.p. (Bacillus megaterium) | NprS g.p. (Geobacillus stearothermophilus) | nprT g.p. (Bacillus thermoproteolyticus) | gentlyase | EC 3.4.24.27
+thermolysin;gentlyase;neutral proteinase (Bacillus thermoproteolyticus);neutral proteinase (Bacillus thermoproteolyticus);nprM g.p. (Bacillus megaterium);NprS g.p. (Geobacillus stearothermophilus);nprT g.p. (Bacillus thermoproteolyticus);megateriopeptidase (Bacillus megaterium);Mername-AA133 peptidase;EC 3.4.24.27
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;349;312;233;403;46;338;411;372
 Pro;185;185;176;187;15;10;353;470
@@ -13594,7 +13594,7 @@ Glu;293;259;357;298;13;329;527;660
 Lys;268;227;390;299;2;182;193;161
 Arg;265;193;352;274;0;229;201;155
 His;76;67;71;91;3;62;73;51
-vibriolysin | MCP-02 (Pseudoalteromonas sp.) | aeromonolysin | ahyB g.p. (Aeromonas hydrophila) | haemagglutinin proteinase | hap g.p. (Vibrio cholerae) | vEP peptidase Vibrio vulnificus | vEP-45 (Vibrio vulnificus) | VtpA (Vibrio tubiashii) | VvP protease Vibrio vulnificus | VvpE g.p. Vibrio vulnificus | neutral proteinase (Aeromonas proteolytica)metalloprotease WP (Vibrio vulnificus)vvpE | non-membrane-damaging cytotoxin | EC 3.4.24.25 | EmpA peptidase (Vibrio anguillarum)
+vibriolysin;aeromonolysin;ahyB g.p. (Aeromonas hydrophila);haemagglutinin proteinase;hap g.p. (Vibrio cholerae);neutral proteinase (Aeromonas proteolytica)metalloprotease WP (Vibrio vulnificus)vvpE;non-membrane-damaging cytotoxin;vEP peptidase Vibrio vulnificus;vEP-45 (Vibrio vulnificus);VtpA (Vibrio tubiashii);VvP protease Vibrio vulnificus;VvpE g.p. Vibrio vulnificus;MCP-02 (Pseudoalteromonas sp.);EC 3.4.24.25;EmpA peptidase (Vibrio anguillarum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;1;5;0;1;3;3
 Pro;2;1;0;1;0;0;1;1
@@ -13616,7 +13616,7 @@ Glu;1;0;0;0;0;1;2;1
 Lys;2;1;0;0;0;0;0;0
 Arg;1;1;2;2;0;0;0;0
 His;0;1;0;1;0;0;0;0
-pseudolysin | keratinase Ker P (Pseudomonas aeruginosa) | solvent-stable protease (Pseudomonas aeruginosa PST-01) | solvent-stable protease (Pseudomonas aeruginosa PT121) | neutral metalloproteinase (Pseudomonas)elastase (Pseudomonas) | LasB g.p. (Pseudomonas aeruginosa) | PseA peptidase | PST-01 protease (Pseudomonas aeruginosa) | PT121 protease | EC 3.4.24.26 | elastase B (Pseudomonas aeruginosa)
+pseudolysin;keratinase Ker P (Pseudomonas aeruginosa);LasB g.p. (Pseudomonas aeruginosa);neutral metalloproteinase (Pseudomonas)elastase (Pseudomonas);solvent-stable protease (Pseudomonas aeruginosa PST-01);solvent-stable protease (Pseudomonas aeruginosa PT121);PseA peptidase;PST-01 protease (Pseudomonas aeruginosa);PT121 protease;EC 3.4.24.26;elastase B (Pseudomonas aeruginosa)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;8;7;26;0;8;10;6
 Pro;2;0;2;3;0;0;5;6
@@ -13638,7 +13638,7 @@ Glu;4;2;2;1;0;2;3;4
 Lys;2;2;4;4;0;2;1;3
 Arg;5;2;7;2;0;2;3;3
 His;0;0;0;3;0;0;0;0
-Msp peptidase (Legionella-type) | major secretory protein (Legionella pneumophila) | Msp protease (Legionella sp.) | ProA peptidase (Legionella-type) | exoprotease
+Msp peptidase (Legionella-type);ProA peptidase (Legionella-type);major secretory protein (Legionella pneumophila);Msp protease (Legionella sp.);exoprotease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;4;0;0;2;2;0
 Pro;0;0;1;0;0;0;0;0
@@ -13660,7 +13660,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;4;0;0;0;0;0;3
 Arg;0;1;1;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-coccolysin | intracellular endopeptidase (Enterococcus, Streptococcus thermophilus) | gelatinase (Enterococcus faecalis) | gelE g.p. (Enterococcus faecalis) | EC 3.4.24.30
+coccolysin;gelatinase (Enterococcus faecalis);gelE g.p. (Enterococcus faecalis);intracellular endopeptidase (Enterococcus, Streptococcus thermophilus);EC 3.4.24.30
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;1;2;0;3;3;0
 Pro;2;3;1;2;1;0;5;2
@@ -13704,7 +13704,7 @@ Glu;0;0;0;1;0;1;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;1;0
 His;0;0;0;0;0;0;0;0
-aureolysin | sepA g.p. (Staphylococcus epidermidis) | SepP1 g.p. (Staphylococcus aureus) | neutral proteinase (Staphylococcus aureus) | EC 3.4.24.29 | elastase (Staphylococcus)
+aureolysin;neutral proteinase (Staphylococcus aureus);sepA g.p. (Staphylococcus epidermidis);SepP1 g.p. (Staphylococcus aureus);EC 3.4.24.29;elastase (Staphylococcus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;0;5;0;2;3;2
 Pro;1;1;0;0;0;1;1;1
@@ -13726,7 +13726,7 @@ Glu;2;3;2;0;0;1;3;0
 Lys;0;0;4;5;1;1;0;1
 Arg;1;3;1;2;0;0;1;1
 His;0;0;0;2;0;0;0;0
-vimelysin | Vsm g.p. (Vibrio splendidus)
+vimelysin;Vsm g.p. (Vibrio splendidus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;4;0;0;1;1
 Pro;0;1;0;1;0;0;1;1
@@ -13748,7 +13748,7 @@ Glu;2;1;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;2;1;0;0;0;0;1
 His;0;0;1;1;0;2;0;0
-lambda toxin | toxin, lambda
+lambda toxin;toxin, lambda
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -13770,7 +13770,7 @@ Glu;0;0;1;1;0;0;0;1
 Lys;0;0;0;0;0;0;1;1
 Arg;1;0;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-bacillolysin | Bae16 peptidase (Bacillus sp. B16) | thermolysin homologue (Bacillus subtilis) | neutral protease E | NprA g.p. (Bacillus subtilis) | NprE g.p. (Bacillus subtilis) | NprM g.p. (Bacillus subtilis) | NprS g.p. (Bacillus subtilis) | EC 3.4.24.28
+bacillolysin;Bae16 peptidase (Bacillus sp. B16);thermolysin homologue (Bacillus subtilis);neutral protease E;NprA g.p. (Bacillus subtilis);NprE g.p. (Bacillus subtilis);NprM g.p. (Bacillus subtilis);NprS g.p. (Bacillus subtilis);EC 3.4.24.28
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;4;6;21;0;4;1;4
 Pro;4;0;2;1;0;1;2;2
@@ -13792,7 +13792,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;1;0;0;4;0;0;0;0
 Arg;0;0;3;1;0;4;0;2
 His;0;1;0;1;0;0;0;0
-PA peptidase (Aeromonas-type) | ahyB elastase (Aeromonas hydrophila) | PA protease (Aeromonas-type) | pro-aminopeptidase processing protease (Aeromonas sp.)
+PA peptidase (Aeromonas-type);ahyB elastase (Aeromonas hydrophila);PA protease (Aeromonas-type);pro-aminopeptidase processing protease (Aeromonas sp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;2;2;0
@@ -13814,7 +13814,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-griselysin | metalloendopeptidase I (Streptomyces griseus) | metalloendopeptidase II (Streptomyces griseus) | SGMP I | SGMP II | SGMP II | TAMEP | TGase-activating protease (Streptomyces mobaraensis) | transglutaminase-activating metalloendopeptidase (Streptomyces mobaraensis) | neutral endopeptidase (Streptomyces griseus) | Npr protease (Streptomyces sp.) | pronase metalloendopeptidase component
+griselysin;TAMEP;TGase-activating protease (Streptomyces mobaraensis);transglutaminase-activating metalloendopeptidase (Streptomyces mobaraensis);neutral endopeptidase (Streptomyces griseus);Npr protease (Streptomyces sp.);SGMP I;SGMP II;SGMP II;pronase metalloendopeptidase component;metalloendopeptidase I (Streptomyces griseus);metalloendopeptidase II (Streptomyces griseus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;5;26;0;7;3;0
 Pro;0;1;1;0;0;0;1;1
@@ -13836,7 +13836,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;1;1;0;0
 His;0;0;0;0;0;0;0;0
-stearolysin | BLN | boilysin | thermolysin-like protease (Geobacillus/Bacillus stearothermophilus) | TLP-ste protease | NprT g.p. (Geobacillus/Bacillus stearothermophilus)
+stearolysin;BLN;boilysin;thermolysin-like protease (Geobacillus/Bacillus stearothermophilus);TLP-ste protease;NprT g.p. (Geobacillus/Bacillus stearothermophilus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;5;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -13924,7 +13924,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-protealysin | grimelysin | ECP32 peptidase (Serratia sp.)
+protealysin;grimelysin;ECP32 peptidase (Serratia sp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;0;4;0;0;1;1
 Pro;0;1;2;0;0;0;1;2
@@ -13968,7 +13968,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;1;1
-mycolysin | neutral endopeptidase (Streptomyces cacaoi) | EC 3.4.24.31
+mycolysin;neutral endopeptidase (Streptomyces cacaoi);EC 3.4.24.31
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;1;3;0;0;2;1
 Pro;0;0;0;0;0;0;1;1
@@ -13990,7 +13990,7 @@ Glu;2;1;1;0;0;0;1;1
 Lys;0;0;0;0;0;0;0;1
 Arg;1;1;1;0;0;0;0;0
 His;0;0;0;2;0;0;0;1
-immune inhibitor A peptidase (Bacillus sp.) | thuringalysin | IgAlysin | InhA g.p. (Bacillus thuringiensis) | InhA1 peptidase
+immune inhibitor A peptidase (Bacillus sp.);IgAlysin;InhA g.p. (Bacillus thuringiensis);InhA1 peptidase;thuringalysin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;4;2;4;2;5;2;2
 Pro;2;2;1;0;0;2;0;1
@@ -14012,7 +14012,7 @@ Glu;1;0;2;0;0;2;0;0
 Lys;6;2;8;4;0;3;7;0
 Arg;1;2;0;1;0;2;2;2
 His;0;0;0;0;0;0;0;0
-PrtV peptidase | Mername-AA111 peptidase | Epp peptidase (Vibrio anguillarum)
+PrtV peptidase;Mername-AA111 peptidase;Epp peptidase (Vibrio anguillarum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;2
@@ -14034,7 +14034,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;1;0;0;1;0;0;1;0
 Arg;0;2;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-snapalysin | ScNP | small neutral protease (Streptomyces caespitosus) | EC 3.4.24.77
+snapalysin;ScNP;small neutral protease (Streptomyces caespitosus);EC 3.4.24.77
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -14056,7 +14056,7 @@ Glu;1;2;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-leishmanolysin | major surface protein (Msp) | TbMSP-A (Trypanosoma brucei) | TbMSP-B (Trypanosoma brucei) | TbMSP-C (Trypanosoma brucei) | glycoprotein gp63Msp | Gp63 g.p. (Leishmania sp.) | promastigote surface endopeptidase | promastigote surface protease | PSP | EC 3.4.24.36
+leishmanolysin;glycoprotein gp63Msp;Gp63 g.p. (Leishmania sp.);TbMSP-A (Trypanosoma brucei);TbMSP-B (Trypanosoma brucei);TbMSP-C (Trypanosoma brucei);promastigote surface endopeptidase;promastigote surface protease;PSP;major surface protein (Msp);EC 3.4.24.36
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;0;2;0;2
 Pro;0;1;0;0;0;0;0;2
@@ -14078,7 +14078,7 @@ Glu;1;0;0;0;0;1;2;1
 Lys;2;1;0;1;0;9;9;1
 Arg;1;3;1;3;0;3;1;1
 His;1;0;0;0;0;1;0;0
-collagenase V (Vibrio spp.) | microbial collagenase (Vibrio type) | bacterial collagenase (Vibrio-type) | vmc g.p. (Vibrio mimicus) | VPM peptidase (Vibrio parahaemolyticus) | vvpC g.p. (Vibrio parahaemolyticus 04) | collagenase (Achromobacter iophagus)collagenase, microbial | collagenase (Corynebacterium rathayii) | collagenase (Empedobacter collagenolyticum) | collagenase Achromobacter iophagus | EC 3.4.24.3 | exopeptidase vcc (Vibrio cholerae)
+collagenase V (Vibrio spp.);bacterial collagenase (Vibrio-type);collagenase (Achromobacter iophagus)collagenase, microbial;collagenase (Corynebacterium rathayii);collagenase (Empedobacter collagenolyticum);collagenase Achromobacter iophagus;vmc g.p. (Vibrio mimicus);VPM peptidase (Vibrio parahaemolyticus);vvpC g.p. (Vibrio parahaemolyticus 04);microbial collagenase (Vibrio type);EC 3.4.24.3;exopeptidase vcc (Vibrio cholerae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;4;0;0;0
 Pro;0;3;1;1;0;5;0;2
@@ -14100,7 +14100,7 @@ Glu;1;1;0;0;0;0;0;0
 Lys;1;0;0;0;0;0;1;0
 Arg;0;0;0;1;0;0;0;1
 His;0;0;0;0;0;0;0;1
-collagenase G/A (Clostridium histolyticum) | Xiaflex | microbial collagenase, class I | bacterial collagenase, class I | clostridiopeptidase A | colA g.p. (Clostridium perfringens) | colG g.p. (Clostridium histolyticum) | collagenase (Clostridium histolyticum)collagenase T (Clostridium tetani)ColT | collagenase A | collagenase Clostridium histolyticum | collagenase I | EC 3.4.24.3
+collagenase G/A (Clostridium histolyticum);bacterial collagenase, class I;clostridiopeptidase A;colA g.p. (Clostridium perfringens);colG g.p. (Clostridium histolyticum);collagenase (Clostridium histolyticum)collagenase T (Clostridium tetani)ColT;collagenase A;collagenase Clostridium histolyticum;collagenase I;Xiaflex;microbial collagenase, class I;EC 3.4.24.3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;19;113;3;11;95;13;22;48
 Pro;23;1;56;36;1;46;33;15
@@ -14122,7 +14122,7 @@ Glu;15;4;0;9;0;5;7;12
 Lys;2;3;2;0;1;3;0;2
 Arg;0;7;2;0;1;0;2;2
 His;6;1;4;4;6;7;2;4
-bacterial collagenase H | microbial collagenase, class II | bacterial collagenase, class II | colA g.p. (Bacillus cereus) | colH g.p. (Clostridium histolyticum)
+bacterial collagenase H;bacterial collagenase, class II;colA g.p. (Bacillus cereus);colH g.p. (Clostridium histolyticum);microbial collagenase, class II
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;21;135;8;25;175;12;31;39
 Pro;23;1;95;45;1;138;32;23
@@ -14166,7 +14166,7 @@ Glu;23;3;1;7;0;5;19;20
 Lys;8;11;1;0;3;3;1;3
 Arg;4;15;2;0;0;0;2;0
 His;9;1;7;7;14;9;9;5
-matrix metallopeptidase-1 | matrix metalloproteinase 1 | MMP-1 | interstitial collagenase | vertebrate collagenase | collagenase 1 | collagenase, interstitialcollagenase, vertebrate | EC 3.4.24.7
+matrix metallopeptidase-1;interstitial collagenase;collagenase 1;collagenase, interstitialcollagenase, vertebrate;vertebrate collagenase;matrix metalloproteinase 1;MMP-1;EC 3.4.24.7
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;13;5;3;20;0;4;14;6
 Pro;2;29;3;3;2;1;2;7
@@ -14188,7 +14188,7 @@ Glu;7;1;10;1;1;3;7;4
 Lys;1;2;4;4;0;8;3;2
 Arg;3;3;3;4;1;8;2;4
 His;2;1;0;3;1;2;2;0
-matrix metallopeptidase-8 | matrix metalloproteinase 8 | MMP-8 | neutrophil collagenase | collagenase 2 | collagenase, neutrophil | EC 3.4.24.34
+matrix metallopeptidase-8;collagenase 2;collagenase, neutrophil;neutrophil collagenase;matrix metalloproteinase 8;MMP-8;EC 3.4.24.34
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;36;2;3;35;1;2;38;7
 Pro;3;44;9;10;0;2;3;11
@@ -14210,7 +14210,7 @@ Glu;5;3;6;6;1;3;4;5
 Lys;9;4;12;9;7;9;4;1
 Arg;2;0;11;1;6;17;2;8
 His;2;2;3;2;2;2;3;0
-matrix metallopeptidase-2 | 3/4 collagenase | 72 kDa gelatinase | matrix metalloproteinase 2 | matrix metalloproteinase 5 | MMP-2 | MMP2 | tissue gelatinase | type IV collagenase | gelatinase A | collagenase, 3/4 gelatinase, 72 kDaMMP-5 (obsolete)gelatinase, tissuecollagenase, type IV | EC 3.4.24.24
+matrix metallopeptidase-2;gelatinase A;3/4 collagenase;72 kDa gelatinase;tissue gelatinase;type IV collagenase;collagenase, 3/4 gelatinase, 72 kDaMMP-5 (obsolete)gelatinase, tissuecollagenase, type IV;matrix metalloproteinase 2;matrix metalloproteinase 5;MMP-2;MMP2;EC 3.4.24.24
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;252;121;430;482;60;125;590;290
 Pro;196;769;70;210;8;15;29;236
@@ -14232,7 +14232,7 @@ Glu;169;42;161;266;33;123;147;241
 Lys;169;54;180;133;66;309;171;190
 Arg;138;26;192;105;13;99;26;38
 His;92;80;52;120;14;81;42;76
-matrix metallopeptidase-9 | macrophage gelatinase | matrix metalloproteinase 9 | MMP-9 | MMP9 | type IV collagenase | type V collagenase | neutrophil gelatinase | gelatinase B | gelatinase, 92 kDagelatinase, macrophagegelatinase, neutrophilcollagenase, type IVcollagenase, type V | EC 3.4.24.35
+matrix metallopeptidase-9;gelatinase B;gelatinase, 92 kDagelatinase, macrophagegelatinase, neutrophilcollagenase, type IVcollagenase, type V;type IV collagenase;type V collagenase;neutrophil gelatinase;macrophage gelatinase;matrix metalloproteinase 9;MMP-9;MMP9;EC 3.4.24.35
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;119;19;38;121;14;31;129;41
 Pro;15;151;37;21;10;11;8;48
@@ -14254,7 +14254,7 @@ Glu;11;5;16;15;8;16;12;23
 Lys;14;7;25;19;21;28;9;18
 Arg;14;5;36;7;6;34;7;12
 His;8;6;5;10;2;11;4;3
-matrix metallopeptidase-3 | matrix metalloproteinase 3 | matrix metalloproteinase 6 | MMP-3 | MMP3 | stromelysin 1 | activating protein, collagenaseMMP-6activator, procollagenase | transin | procollagenase activator | proteoglycanase | collagenase activating protein | EC 3.4.24.17
+matrix metallopeptidase-3;activating protein, collagenaseMMP-6activator, procollagenase;transin;collagenase activating protein;stromelysin 1;procollagenase activator;proteoglycanase;matrix metalloproteinase 3;matrix metalloproteinase 6;MMP-3;MMP3;EC 3.4.24.17
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;174;79;431;129;14;54;170;219
 Pro;136;730;42;158;18;13;15;185
@@ -14276,7 +14276,7 @@ Glu;155;36;118;342;37;118;205;156
 Lys;181;65;43;128;66;288;259;199
 Arg;142;33;46;97;7;367;232;165
 His;58;26;35;50;35;57;58;58
-matrix metallopeptidase-10 (Homo sapiens-type) | matrix metalloproteinase 10 | MMP-10 | stromelysin 2 | transin-2 (Homo sapiens-type) | EC 3.4.24.22
+matrix metallopeptidase-10 (Homo sapiens-type);transin-2 (Homo sapiens-type);stromelysin 2;matrix metalloproteinase 10;MMP-10;EC 3.4.24.22
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;2;3;3;0;0;2;4
 Pro;1;10;0;1;0;0;0;0
@@ -14298,7 +14298,7 @@ Glu;1;0;1;1;0;0;2;1
 Lys;0;0;2;2;0;1;1;0
 Arg;4;0;1;1;3;1;1;1
 His;1;0;1;2;0;0;1;0
-matrix metallopeptidase-11 | matrix metalloproteinase 11 | MMP-11 | stromelysin 3
+matrix metallopeptidase-11;stromelysin 3;matrix metalloproteinase 11;MMP-11
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;0;1;0;0;1
 Pro;4;3;1;1;0;0;1;2
@@ -14320,7 +14320,7 @@ Glu;2;3;1;1;0;3;1;2
 Lys;1;0;0;0;0;0;1;0
 Arg;0;0;0;0;0;0;0;1
 His;2;0;0;2;0;0;1;0
-matrix metallopeptidase-7 | matrilysin | matrin (obs.) | matrix metalloproteinase 7 | metalloendopeptidase, uterinePUMP | MMP-7 | uterine metalloendopeptidase | putative metalloproteinase-1 | EC 3.4.24.23
+matrix metallopeptidase-7;uterine metalloendopeptidase;putative metalloproteinase-1;matrilysin;matrin (obs.);matrix metalloproteinase 7;metalloendopeptidase, uterinePUMP;MMP-7;EC 3.4.24.23
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;40;28;32;47;9;38;43;36
 Pro;16;48;11;12;6;2;6;22
@@ -14342,7 +14342,7 @@ Glu;20;2;17;23;2;11;19;11
 Lys;10;1;11;8;4;10;4;7
 Arg;5;4;8;9;1;21;4;9
 His;8;4;2;1;1;6;2;0
-matrix metallopeptidase-12 | macrophage elastase | matrix metalloproteinase 12 | metalloelastase | MMP-12 | EC 3.4.24.65 | elastase, macrophage
+matrix metallopeptidase-12;macrophage elastase;matrix metalloproteinase 12;metalloelastase;MMP-12;EC 3.4.24.65;elastase, macrophage
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;65;31;55;77;12;55;68;47
 Pro;21;78;17;22;12;11;15;32
@@ -14364,7 +14364,7 @@ Glu;12;6;15;14;7;12;13;20
 Lys;23;11;21;27;17;27;12;15
 Arg;11;6;5;17;3;13;6;9
 His;5;3;6;6;4;4;4;2
-envelysin | sea urchin hatching proteinase | hatching enzyme (Strongylocentrotus purpuratus) | hatching proteinase, sea urchinSpHE | EC 3.4.24.12
+envelysin;hatching enzyme (Strongylocentrotus purpuratus);hatching proteinase, sea urchinSpHE;sea urchin hatching proteinase;EC 3.4.24.12
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;2
 Pro;0;0;0;0;0;0;1;0
@@ -14386,7 +14386,7 @@ Glu;1;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;1;0;0;0;0;0;1;1
 His;0;0;0;0;1;0;0;0
-GM1-MMP (Glycine max) | metalloproteinase, soybean | SMEP1 (Glycine max) | soybean metalloproteinase | At2-MMP (Arabidopsis thaliana) | plant matrixin
+GM1-MMP (Glycine max);At2-MMP (Arabidopsis thaliana);SMEP1 (Glycine max);soybean metalloproteinase;plant matrixin;metalloproteinase, soybean
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;0;0;1;0
 Pro;0;2;0;0;0;0;0;0
@@ -14408,7 +14408,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-matrix metallopeptidase-13 | matrix metalloproteinase 13 | MMP-13 | AgMMP3 (Anopheles gambiense) | rat collagenase | collagenase (Rattus)collagenase 3 (Xenopus) | collagenase 3
+matrix metallopeptidase-13;AgMMP3 (Anopheles gambiense);rat collagenase;collagenase (Rattus)collagenase 3 (Xenopus);collagenase 3;matrix metalloproteinase 13;MMP-13
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;50;3;7;67;2;1;56;12
 Pro;5;95;20;13;0;4;4;19
@@ -14430,7 +14430,7 @@ Glu;8;3;2;10;2;6;8;7
 Lys;2;0;12;6;3;14;2;1
 Arg;5;1;14;6;2;24;1;4
 His;4;3;2;1;3;6;2;2
-membrane-type matrix metallopeptidase-1 | matrix metalloproteinase 14 | matrix metalloproteinase, membrane-type 1 | membrane-type matrix metalloproteinase 1 | MMP-14 | MT-1 MMP | MT1-MMP | MTMMP-1 | EC 3.4.24.80 | eta-secretase
+membrane-type matrix metallopeptidase-1;matrix metalloproteinase 14;matrix metalloproteinase, membrane-type 1;membrane-type matrix metalloproteinase 1;MMP-14;MT-1 MMP;MT1-MMP;MTMMP-1;EC 3.4.24.80;eta-secretase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;16;7;13;28;7;3;13;10
 Pro;5;35;6;8;1;6;3;10
@@ -14452,7 +14452,7 @@ Glu;7;2;8;7;1;12;13;13
 Lys;7;2;5;8;1;9;7;6
 Arg;11;3;6;12;3;13;10;12
 His;5;2;3;5;0;4;5;5
-membrane-type matrix metallopeptidase-2 | matrix metalloproteinase 15 | matrix metalloproteinase, membrane-type 2 | membrane-type matrix metalloproteinase 2 | MMP-15 | MT-2 MMP | MT2-MMP | MTMMP-2 | SMCP-2
+membrane-type matrix metallopeptidase-2;SMCP-2;matrix metalloproteinase 15;matrix metalloproteinase, membrane-type 2;membrane-type matrix metalloproteinase 2;MMP-15;MT-2 MMP;MT2-MMP;MTMMP-2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;1;0;0;1;0;2
 Pro;0;2;0;1;1;0;0;2
@@ -14474,7 +14474,7 @@ Glu;3;0;0;2;0;0;1;0
 Lys;0;0;2;2;0;2;1;0
 Arg;1;0;0;0;0;0;2;1
 His;0;0;0;1;0;0;1;0
-membrane-type matrix metallopeptidase-3 | matrix metalloproteinase 16 | matrix metalloproteinase, membrane-type 3 | membrane-type matrix metalloproteinase (Gallus domesticus) | membrane-type matrix metalloproteinase 3 | metalloproteinase, ovarymatrix metalloproteinase, membrane-type (Gallus domesticus)MT-3 MMP | MMP-16 | MT3-MMP | MTMMP-3 | ovary metalloproteinase
+membrane-type matrix metallopeptidase-3;ovary metalloproteinase;matrix metalloproteinase 16;matrix metalloproteinase, membrane-type 3;membrane-type matrix metalloproteinase (Gallus domesticus);membrane-type matrix metalloproteinase 3;metalloproteinase, ovarymatrix metalloproteinase, membrane-type (Gallus domesticus)MT-3 MMP;MMP-16;MT3-MMP;MTMMP-3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;1;1;3;1;0;3;3
 Pro;0;4;0;1;1;0;0;2
@@ -14496,7 +14496,7 @@ Glu;3;0;1;1;0;0;1;1
 Lys;1;0;2;2;1;3;1;0
 Arg;2;0;1;0;0;2;1;1
 His;0;0;1;4;0;0;1;0
-membrane-type matrix metallopeptidase-4 | matrix metalloproteinase 17 | matrix metalloproteinase, membrane-type 4 | membrane-type matrix metalloproteinase 4 | MMP-17 | Mmp25beta (Brachydanio rerio) | MT-4 MMP | MT4-MMP | MTMMP-4
+membrane-type matrix metallopeptidase-4;matrix metalloproteinase 17;matrix metalloproteinase, membrane-type 4;membrane-type matrix metalloproteinase 4;MMP-17;Mmp25beta (Brachydanio rerio);MT-4 MMP;MT4-MMP;MTMMP-4
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;3;2;0;0;3
 Pro;2;10;0;1;0;1;0;2
@@ -14518,7 +14518,7 @@ Glu;2;2;1;3;0;0;1;1
 Lys;1;0;2;3;1;3;1;0
 Arg;1;0;3;2;1;6;3;5
 His;2;1;1;3;0;1;2;0
-matrix metallopeptidase-18 | xCol4 (Xenopus) | matrix metalloproteinase 18 | MMP-18 | collagenase 4
+matrix metallopeptidase-18;collagenase 4;xCol4 (Xenopus);matrix metalloproteinase 18;MMP-18
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;1;0;0;1;0
 Pro;0;2;0;0;0;0;0;0
@@ -14540,7 +14540,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;0;0;1;0;0
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-matrix metallopeptidase-20 | matrix metalloproteinase 20 | MMP-20 | enamelysin
+matrix metallopeptidase-20;matrix metalloproteinase 20;MMP-20;enamelysin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;5;6;2;0;3;2;2
 Pro;19;8;1;13;0;1;6;6
@@ -14562,7 +14562,7 @@ Glu;3;1;1;0;2;5;2;0
 Lys;0;0;0;0;0;0;0;3
 Arg;0;0;0;4;0;1;0;2
 His;1;2;2;0;0;3;5;1
-fragilysin | BFT-1 | BFT-2 | FRA1 | FRA2 | FRA3 | fragilysin II | fragilysin III | EC 3.4.24.74 | enterotoxin (Bacteroides fragilis)toxin (Bacteroides fragilis)
+fragilysin;BFT-1;BFT-2;FRA1;FRA2;FRA3;fragilysin II;fragilysin III;EC 3.4.24.74;enterotoxin (Bacteroides fragilis)toxin (Bacteroides fragilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;1;1;1;0;0
 Pro;0;0;1;0;0;1;0;1
@@ -14584,7 +14584,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;0;2;0;1
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-matrix metallopeptidase-19 | matrix metalloproteinase 19 | MMP-19 | RASI-1 | RASI-6
+matrix metallopeptidase-19;RASI-1;RASI-6;matrix metalloproteinase 19;MMP-19
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;1;0
 Pro;1;2;0;0;0;0;0;0
@@ -14606,7 +14606,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;1;0;0;1;1;2;3;2
 His;0;0;0;0;0;0;0;0
-matrix metallopeptidase-23B | matrix metalloproteinase 21 [obs.] | matrix metalloproteinase 22 [obs.] | matrix metalloproteinase 23 | matrix metalloproteinase 23 | MIFR protein (Homo sapiens) | MMP-21 [obs.] | MMP-22 [obs.] | MMP-23 | MMP23A g.p. (Homo sapiens) | femalysin | CA-MMP | cysteine-array matrix matalloproteinase
+matrix metallopeptidase-23B;femalysin;CA-MMP;cysteine-array matrix matalloproteinase;matrix metalloproteinase 21 [obs.];matrix metalloproteinase 22 [obs.];matrix metalloproteinase 23;matrix metalloproteinase 23;MIFR protein (Homo sapiens);MMP-21 [obs.];MMP-22 [obs.];MMP-23;MMP23A g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;1;0;0;0;0;0;0
@@ -14628,7 +14628,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-membrane-type matrix metallopeptidase-5 | membrane-type matrix metalloproteinase 5 | MMP-24 | MT5-MMP | MTMMP-5 | eta-secretase
+membrane-type matrix metallopeptidase-5;membrane-type matrix metalloproteinase 5;MMP-24;MT5-MMP;MTMMP-5;eta-secretase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;0;0;0;1
 Pro;0;1;0;0;0;0;0;0
@@ -14650,7 +14650,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;1
 His;0;0;0;0;0;0;0;0
-membrane-type matrix metallopeptidase-6 | matrix metalloproteinase 25 | membrane-type matrix metalloproteinase 6 | MMP-25 | MT-6 MMP | MTMMP-6 | leukolysin
+membrane-type matrix metallopeptidase-6;leukolysin;matrix metalloproteinase 25;membrane-type matrix metalloproteinase 6;MMP-25;MT-6 MMP;MTMMP-6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;18;33;10;14;30;13;20;42
 Pro;13;28;26;21;4;17;17;16
@@ -14672,7 +14672,7 @@ Glu;10;3;6;11;2;13;8;7
 Lys;10;7;15;15;2;9;6;4
 Arg;15;6;12;12;1;7;5;6
 His;2;1;3;6;2;3;5;2
-HMMP (Hydra vulgaris)-like peptidase | HMMP protease (Hydra vulgaris)
+HMMP (Hydra vulgaris)-like peptidase;HMMP protease (Hydra vulgaris)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;1;0;0;0;0;0;0
@@ -14694,7 +14694,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-matrix metallopeptidase-26 | matrilysin-2 | matrix metalloproteinase 26 | MMP-26 | endometase
+matrix metallopeptidase-26;matrilysin-2;matrix metalloproteinase 26;MMP-26;endometase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;0;4;0;0;0;1
 Pro;0;8;1;1;0;0;0;2
@@ -14716,7 +14716,7 @@ Glu;1;0;2;1;0;1;1;0
 Lys;2;1;2;1;0;0;0;0
 Arg;0;0;0;0;0;2;0;5
 His;1;0;1;1;0;1;2;0
-Dm1 matrix metallopeptidase | Mmp1 (Drosophila melanogaster) | AgMMP1 (Anopheles gambiense) | BbMMPL2 peptidase (Branchiostoma belcheri) | Dm1-MMP (Drosophila melanogaster) | dMMP1 (Drosophila melanogaster)
+Dm1 matrix metallopeptidase;BbMMPL2 peptidase (Branchiostoma belcheri);Dm1-MMP (Drosophila melanogaster);dMMP1 (Drosophila melanogaster);AgMMP1 (Anopheles gambiense);Mmp1 (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;0;0;0;0
 Pro;0;3;0;0;0;0;0;0
@@ -14738,7 +14738,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;2
 His;0;0;0;0;0;1;0;0
-collagenase-like A peptidase (rodent) | Mcol-A | Mcola g.p. (Mus musculus) | Mmp1a (Mus musculus)
+collagenase-like A peptidase (rodent);Mcol-A;Mcola g.p. (Mus musculus);Mmp1a (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;1;0;0;0;0;0;0
@@ -14760,7 +14760,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-Dm2-matrix metallopeptidase | Mmp2 (Drosophila melanogaster) | AgMMP2 (Anopheles gambiense) | Dm2-MMP (Drosophila melanogaster) | CG1794 g.p. (Drosophila melanogaster)
+Dm2-matrix metallopeptidase;Dm2-MMP (Drosophila melanogaster);AgMMP2 (Anopheles gambiense);CG1794 g.p. (Drosophila melanogaster);Mmp2 (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;1;0;0;0;0;0;0
@@ -14782,7 +14782,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-At5-MMP (Arabidopsis thaliana) | At1g59970-type peptidase
+At5-MMP (Arabidopsis thaliana);At1g59970-type peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;14;4;7;12;5;5;20;19
 Pro;4;8;1;14;0;2;1;6
@@ -14804,7 +14804,7 @@ Glu;8;7;18;15;3;4;3;7
 Lys;17;2;5;6;1;1;0;8
 Arg;5;2;4;7;2;1;0;1
 His;6;5;10;7;2;14;5;9
-metallopeptidase II (Bacteroides fragilis) | metalloproteinase II | MPII
+metallopeptidase II (Bacteroides fragilis);metalloproteinase II;MPII
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;1;0;1
@@ -14826,7 +14826,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;1;3;0;0;0;0;0
 Arg;3;1;0;4;0;0;0;0
 His;0;0;0;0;0;0;0;0
-serralysin | Ser2 peptidase (Serratia liquefaciens) | arazyme (Serratia proteomaculans) | EC 3.4.24.40 | extracellular proteinase (Serratia marcescens)
+serralysin;arazyme (Serratia proteomaculans);Ser2 peptidase (Serratia liquefaciens);EC 3.4.24.40;extracellular proteinase (Serratia marcescens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;1;1
@@ -14848,7 +14848,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidase B (Erwinia-type) | protease B (Erwinia-type) | prtB g.p. (Erwinia chrysanthemi) | EC 3.4.24.40
+peptidase B (Erwinia-type);protease B (Erwinia-type);prtB g.p. (Erwinia chrysanthemi);EC 3.4.24.40
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -14870,7 +14870,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidase C (Erwinia-type) | protease C (Erwinia-type) | prtC g.p. (Erwinia chrysanthemi) | EC 3.4.24.40
+peptidase C (Erwinia-type);protease C (Erwinia-type);prtC g.p. (Erwinia chrysanthemi);EC 3.4.24.40
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -14892,7 +14892,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-aeruginolysin | alkaline protease (Pseudomonas aeruginosa) | apr g.p. (Pseudomonas aeruginosa) | EC 3.4.24.40
+aeruginolysin;alkaline protease (Pseudomonas aeruginosa);apr g.p. (Pseudomonas aeruginosa);EC 3.4.24.40
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;3;1;4;4;1;1;1
 Pro;0;0;0;0;0;1;1;0
@@ -14914,7 +14914,7 @@ Glu;1;1;1;1;1;0;0;0
 Lys;0;0;0;0;0;0;1;1
 Arg;1;0;1;2;0;1;0;0
 His;2;1;0;0;0;2;1;0
-mirabilysin | ZapA g.p. (Proteus mirabilis)
+mirabilysin;ZapA g.p. (Proteus mirabilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;1;2;2;2;2;2
 Pro;2;1;1;1;1;3;1;1
@@ -14936,7 +14936,7 @@ Glu;1;0;1;2;0;1;1;0
 Lys;3;4;5;2;3;5;5;4
 Arg;2;5;4;5;2;4;4;6
 His;0;0;0;0;0;0;0;0
-epralysin | AprA metallopeptidase (Pseudomonas sp.) | AprX g.p. (Pseudomonas fluorescens)
+epralysin;AprA metallopeptidase (Pseudomonas sp.);AprX g.p. (Pseudomonas fluorescens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;0;0;0;1;0;0
 Pro;0;0;1;0;0;1;1;1
@@ -14980,7 +14980,7 @@ Glu;3;15;1;1;0;2;14;2
 Lys;0;0;1;0;0;0;1;0
 Arg;1;0;1;0;0;0;0;1
 His;1;0;1;0;0;0;0;0
-karilysin | KLIKK protease
+karilysin;KLIKK protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;8;1;7;2;0;2;7;18
 Pro;5;26;3;2;0;1;0;4
@@ -15002,7 +15002,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;0;0;1;0;0;0;0
 Arg;1;0;0;0;0;3;0;1
 His;0;0;0;1;0;1;0;0
-At2-MMP (Arabidopsis thaliana) | SIMMP2 | At1g70170 (Arabidopsis thaliana)
+At2-MMP (Arabidopsis thaliana);At1g70170 (Arabidopsis thaliana);SIMMP2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;7;5;5;7;7;5;16;9
 Pro;1;18;1;4;2;1;1;4
@@ -15024,7 +15024,7 @@ Glu;2;3;7;7;1;1;0;7
 Lys;13;3;1;5;0;0;0;4
 Arg;8;1;2;7;1;1;2;1
 His;3;2;9;4;3;8;5;2
-At4-MMP (Arabidopsis thaliana) | At2g45040 (Arabidopsis thaliana)
+At4-MMP (Arabidopsis thaliana);At2g45040 (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;13;9;9;12;7;9;21;21
 Pro;3;19;1;9;1;4;3;10
@@ -15046,7 +15046,7 @@ Glu;11;3;19;16;3;1;5;15
 Lys;22;5;4;9;3;1;1;4
 Arg;9;5;3;8;2;2;1;0
 His;6;4;7;7;2;11;4;8
-At1-MMP (Arabidopsis thaliana) | At4g16640 (Arabidopsis thaliana) | dl4345c g.p. (Arabidopsis thaliana)
+At1-MMP (Arabidopsis thaliana);dl4345c g.p. (Arabidopsis thaliana);At4g16640 (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;7;4;4;4;4;6;6
 Pro;1;11;0;1;1;1;1;1
@@ -15068,7 +15068,7 @@ Glu;0;1;3;9;2;1;1;4
 Lys;4;1;2;3;0;1;0;2
 Arg;6;2;2;5;1;1;1;0
 His;2;3;3;1;1;5;2;4
-At3-MMP (Arabidopsis thaliana) | SI3-MMP (Solanum lycopersicum) | SIMMP1 (Solanum lycopersicum) | At1g24140 (Arabidopsis thaliana)-like peptidase
+At3-MMP (Arabidopsis thaliana);At1g24140 (Arabidopsis thaliana)-like peptidase;SI3-MMP (Solanum lycopersicum);SIMMP1 (Solanum lycopersicum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;10;6;2;13;6;5;14;11
 Pro;3;24;0;5;2;2;2;4
@@ -15090,7 +15090,7 @@ Glu;2;1;5;4;2;0;0;6
 Lys;12;3;3;6;1;1;0;1
 Arg;6;1;5;8;2;7;5;0
 His;3;2;8;2;3;5;3;4
-spartan peptidase | SPRTN g.p. (Homo sapiens) | SPRTN/WSS1 | DNA-protein crosslink repair peptidase | DPC-processing peptidase | DVC1
+spartan peptidase;DNA-protein crosslink repair peptidase;DPC-processing peptidase;DVC1;SPRTN g.p. (Homo sapiens);SPRTN/WSS1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;0;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -15156,7 +15156,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-TldD peptidase (Escherichia coli) | microcin-processing peptidase 2 | tldD (Gluconobacter oxydans)
+TldD peptidase (Escherichia coli);tldD (Gluconobacter oxydans);microcin-processing peptidase 2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;3;5;1;3;1;4
 Pro;2;3;2;0;1;1;4;0
@@ -15178,7 +15178,7 @@ Glu;0;0;0;0;1;2;1;1
 Lys;2;2;0;1;3;2;2;0
 Arg;2;5;0;0;0;2;1;3
 His;0;0;0;2;0;3;3;2
-gametolysin | gamete autolysin | gamete lytic enzyme | lysin | cell wall degrading protease (Chlamydomonas)autolysin, gameteGLE | EC 3.4.24.38
+gametolysin;gamete autolysin;gamete lytic enzyme;lysin;cell wall degrading protease (Chlamydomonas)autolysin, gameteGLE;EC 3.4.24.38
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;2;0;0;0;0;0
 Pro;1;0;0;1;0;0;0;0
@@ -15200,7 +15200,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;1;0;0;1;0;0;2;2
 Arg;0;1;1;0;1;2;1;0
 His;0;0;0;0;0;0;0;0
-astacin | small-molecule proteinase (Astacus) | crayfish small-molecule proteinase | EC 3.4.24.21
+astacin;crayfish small-molecule proteinase;small-molecule proteinase (Astacus);EC 3.4.24.21
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;22;12;14;23;50;22;20;21
 Pro;14;22;13;6;2;42;18;13
@@ -15222,7 +15222,7 @@ Glu;5;15;8;20;1;8;10;12
 Lys;28;19;5;6;0;0;6;22
 Arg;12;6;3;6;2;0;5;4
 His;6;2;2;7;1;3;4;7
-meprin alpha subunit | MEP1A g.p. (Homo sapiens) | meprin A | meprin A alpha component | meprin-a | PABA peptide hydrolase alpha component | EC 3.4.24.18 | endopeptidase 2
+meprin alpha subunit;PABA peptide hydrolase alpha component;MEP1A g.p. (Homo sapiens);meprin A;meprin A alpha component;meprin-a;EC 3.4.24.18;endopeptidase 2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;62;57;35;77;43;67;93;76
 Pro;34;65;47;4;1;129;101;45
@@ -15244,7 +15244,7 @@ Glu;48;32;44;86;91;83;72;99
 Lys;92;87;26;17;9;32;49;44
 Arg;61;62;9;41;11;10;10;15
 His;17;20;23;35;12;11;13;9
-myosinase | ALSM | astacin-like squid metalloprotease | endopeptidase (Sepia)
+myosinase;ALSM;astacin-like squid metalloprotease;endopeptidase (Sepia)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -15266,7 +15266,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-meprin beta subunit | kinase-splitting membrane proteinase (KSMP) | KSMP | MEP1B g.p. (Homo sapiens) | meprin A beta component | meprin B | meprin-b | PABA peptide hydrolase | EC 3.4.24.18;
+meprin beta subunit;kinase-splitting membrane proteinase (KSMP);KSMP;PABA peptide hydrolase;MEP1B g.p. (Homo sapiens);meprin A beta component;meprin B;meprin-b;EC 3.4.24.18;
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;80;60;29;77;37;75;75;89
 Pro;37;68;56;4;4;117;88;41
@@ -15288,7 +15288,7 @@ Glu;86;61;91;139;223;139;70;111
 Lys;91;82;19;25;5;25;42;61
 Arg;61;57;8;41;2;4;5;11
 His;21;23;23;37;9;21;18;25
-procollagen C-peptidase | XTLD g.p. (Xenopus laevis) | mammalian tolloid | mTLD | BMP1 g.p. (Homo sapiens) | bone morphogenetic protein 1 | procollagen C-proteinase | EC 3.4.24.19
+procollagen C-peptidase;BMP1 g.p. (Homo sapiens);bone morphogenetic protein 1;XTLD g.p. (Xenopus laevis);procollagen C-proteinase;mammalian tolloid;mTLD;EC 3.4.24.19
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;1;10;0;2;1;7
 Pro;2;3;1;0;0;0;14;3
@@ -15310,7 +15310,7 @@ Glu;2;1;1;2;0;10;4;2
 Lys;0;0;0;1;0;0;0;1
 Arg;3;1;5;1;0;2;0;2
 His;0;0;1;0;0;0;0;1
-choriolysin L | hatching enzyme, teleostLCE | teleost hatching enzyme | low choriolytic enzyme | chorionase | EC 3.4.24.66
+choriolysin L;low choriolytic enzyme;hatching enzyme, teleostLCE;teleost hatching enzyme;chorionase;EC 3.4.24.66
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -15332,7 +15332,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-choriolysin H | Xhe2 (Xenopus laevis) | ZHE1 (Brachydanio rerio) | hatching enzyme, teleostHCE | high choriolytic enzyme | teleost hatching enzyme | EC 3.4.24.67
+choriolysin H;ZHE1 (Brachydanio rerio);hatching enzyme, teleostHCE;high choriolytic enzyme;teleost hatching enzyme;Xhe2 (Xenopus laevis);EC 3.4.24.67
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;0;0
 Pro;0;2;0;0;0;3;1;1
@@ -15354,7 +15354,7 @@ Glu;0;0;0;0;0;1;2;0
 Lys;1;0;0;2;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-nephrosin | Npsn g.p. (Cyprinus carpio)
+nephrosin;Npsn g.p. (Cyprinus carpio)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;1;2;1;0
 Pro;2;3;2;2;1;1;1;1
@@ -15376,7 +15376,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;0;0;0;0;0;0;0
 Arg;1;0;1;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-tolloid | TOLLOID (Drosophila melanogaster)
+tolloid;TOLLOID (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -15398,7 +15398,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-blastula protease 10 (Paracentrotus) | Mername-AA051 peptidase | BP10 | HMP2 metalloproteinase (Hydra vulgaris)MP2 metalloproteinase (Hydra vulgaris) | protease 10 (Paracentrotus)
+blastula protease 10 (Paracentrotus);BP10;HMP2 metalloproteinase (Hydra vulgaris)MP2 metalloproteinase (Hydra vulgaris);protease 10 (Paracentrotus);Mername-AA051 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -15420,7 +15420,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-hatching enzyme (Xenopus-type) | Xhe | AEA | UVS.2 (Xenopus laevis)
+hatching enzyme (Xenopus-type);AEA;UVS.2 (Xenopus laevis);Xhe
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;1;0;0;0;0;0;0
@@ -15464,7 +15464,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-vertebrate tolloid-like 1 protein | TLL-1 | colloid (Gallus domesticus)
+vertebrate tolloid-like 1 protein;TLL-1;colloid (Gallus domesticus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;0;0;3;0;1;1;1
 Pro;2;0;0;0;0;0;6;1
@@ -15486,7 +15486,7 @@ Glu;1;1;0;1;0;5;1;2
 Lys;0;0;0;2;0;0;0;0
 Arg;1;0;3;2;0;1;0;2
 His;0;0;0;0;0;0;0;0
-mammalian-type tolloid-like 2 protein | KIAA0932 protein (Homo sapiens) | mTLL-2
+mammalian-type tolloid-like 2 protein;KIAA0932 protein (Homo sapiens);mTLL-2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;0;2;0;0;0;1
 Pro;0;0;0;0;0;0;3;0
@@ -15508,7 +15508,7 @@ Glu;0;0;0;0;0;1;0;1
 Lys;0;0;0;1;0;0;0;0
 Arg;1;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-MIG-17 peptidase | mig-17 g.p. (Caenorhabditis elegans)
+MIG-17 peptidase;mig-17 g.p. (Caenorhabditis elegans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -15552,7 +15552,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;1;0;0
 Arg;0;1;0;2;1;0;0;0
 His;1;1;0;0;0;0;0;1
-ADAMTS9 peptidase | ADAMTS9 g.p. (Homo sapiens)
+ADAMTS9 peptidase;ADAMTS9 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;0;2
 Pro;0;0;0;0;0;0;0;0
@@ -15662,7 +15662,7 @@ Glu;41;26;46;56;67;43;25;40
 Lys;28;7;4;11;2;6;7;18
 Arg;15;8;4;17;3;3;3;4
 His;13;15;7;15;3;10;16;19
-flavastacin | EC 3.4.24.76
+flavastacin;EC 3.4.24.76
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;2;0;2;3;0
 Pro;4;2;3;2;0;4;2;3
@@ -15684,7 +15684,7 @@ Glu;0;1;2;3;4;0;3;3
 Lys;0;1;1;0;0;0;1;0
 Arg;1;1;0;0;0;0;1;0
 His;1;2;1;0;0;0;0;0
-acutolysin A | MD1 (Deinagkistrodon acutus) | AaH I | Ac1 proteinase | Ac2 proteinase | acidic haemorrhagin | aculysin-2 | acutolysin | DaMD1 | FIB-I | fibrinogenase IV (Agkistrodon acutus) | platelet aggregation inhibitor/metalloproteinase
+acutolysin A;DaMD1;FIB-I;fibrinogenase IV (Agkistrodon acutus);AaH I;Ac1 proteinase;Ac2 proteinase;acidic haemorrhagin;aculysin-2;acutolysin;platelet aggregation inhibitor/metalloproteinase;MD1 (Deinagkistrodon acutus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -15728,7 +15728,7 @@ Glu;2;0;2;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;1;0;0;0;0
 His;0;0;0;1;0;1;0;0
-fibrolase | Alfimeprase | proteinase, fibrinolytic | copperhead venom fibrinolytic proteinase | EC 3.4.24.72
+fibrolase;Alfimeprase;copperhead venom fibrinolytic proteinase;proteinase, fibrinolytic;EC 3.4.24.72
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -15750,7 +15750,7 @@ Glu;0;0;3;0;0;0;0;0
 Lys;0;0;0;2;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;2;0;0;0;0;0;0;0
-halylysin a | halystatin 2 | halystatin 3 | venom endopeptidase (Gloydius/Agkistrodon halys blomhoffii)
+halylysin a;halystatin 2;halystatin 3;venom endopeptidase (Gloydius/Agkistrodon halys blomhoffii)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -15772,7 +15772,7 @@ Glu;0;1;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;1;0;0;0;0;1;0;0
-leucolysin | venom endopeptidase (Agkistrodon piscivorus leucostoma)peptidase A (Leucostoma) | piscivorase | EC 3.4.24.6
+leucolysin;venom endopeptidase (Agkistrodon piscivorus leucostoma)peptidase A (Leucostoma);piscivorase;EC 3.4.24.6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;1;9;0;0;2;0
 Pro;0;0;0;0;0;0;0;1
@@ -15816,7 +15816,7 @@ Glu;2;1;2;0;1;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;1;4;0;1;1;0
 His;1;0;2;1;0;1;0;1
-jararhagin | batroxhagin (Bothrops atrox) | HF2-proteinase | venom endopeptidase (Bothrops jararaca) | venom endopeptidase Bothrops jararaca | jararafibrase I | EC 3.4.24.73
+jararhagin;batroxhagin (Bothrops atrox);jararafibrase I;HF2-proteinase;venom endopeptidase (Bothrops jararaca);venom endopeptidase Bothrops jararaca;EC 3.4.24.73
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;4;5;3;0;1;3;2
 Pro;2;2;0;2;0;0;0;7
@@ -15838,7 +15838,7 @@ Glu;5;5;8;1;1;2;3;2
 Lys;3;5;2;5;0;3;8;1
 Arg;2;4;0;2;0;2;0;3
 His;1;1;0;2;0;0;2;0
-bothrolysin | metalloendopeptidase J (Bothrops jararaca) | J protease | EC 3.4.24.50
+bothrolysin;J protease;metalloendopeptidase J (Bothrops jararaca);EC 3.4.24.50
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;1
 Pro;0;0;0;1;0;0;0;0
@@ -15860,7 +15860,7 @@ Glu;0;0;1;0;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;1;0;2;1;0;0
-bothropasin | Atr-III | atroxlysin-III (Bothrops atrox) | caseinolytic endopeptidase Bothrops jararaca | EC 3.4.24.49
+bothropasin;Atr-III;atroxlysin-III (Bothrops atrox);caseinolytic endopeptidase Bothrops jararaca;EC 3.4.24.49
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;4;11;6;0;1;3;3
 Pro;1;2;0;5;0;0;0;4
@@ -15882,7 +15882,7 @@ Glu;6;4;6;5;0;5;7;6
 Lys;3;1;1;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;1;3;1;4;1;0;4;1
-adamalysin | adamalysin II | venom metalloendopeptidase (Crotalus adamanteus)metalloendopeptidase, venom (Crotalus adamanteus) | proteinase H | proteinase I | proteinase II | EC 3.4.24.46
+adamalysin;adamalysin II;venom metalloendopeptidase (Crotalus adamanteus)metalloendopeptidase, venom (Crotalus adamanteus);proteinase H;proteinase I;proteinase II;EC 3.4.24.46
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -15904,7 +15904,7 @@ Glu;1;1;1;0;0;0;1;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;2;0;0;0;1
-atrolysin A | metalloendopeptidase a, venom (Crotalus atrox)toxin a, hemorrhagic (Crotalus atrox)Ht-ahemorrhagic toxin a (Crotalus atrox) | EC 3.4.24.1
+atrolysin A;metalloendopeptidase a, venom (Crotalus atrox)toxin a, hemorrhagic (Crotalus atrox)Ht-ahemorrhagic toxin a (Crotalus atrox);EC 3.4.24.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;1;1;0;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -15926,7 +15926,7 @@ Glu;1;0;1;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;1;0;1;0;0
 His;0;1;0;3;0;1;1;0
-atrolysin B | metalloendopeptidase b, venom (Crotalus atrox)toxin b, hemorrhagic (Crotalus atrox)Ht-bhemorragic toxin b (Crotalus atrox) | EC 3.4.24.41
+atrolysin B;metalloendopeptidase b, venom (Crotalus atrox)toxin b, hemorrhagic (Crotalus atrox)Ht-bhemorragic toxin b (Crotalus atrox);EC 3.4.24.41
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;1;1;0;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -15948,7 +15948,7 @@ Glu;1;1;1;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;2;0;0;0;0
-atrolysin C | metalloendopeptidase c (Crotalus atrox)toxin c, hemorrhagic (Crotalus atrox)toxin d, hemorrhagic (Crotalus atrox)Ht-cHt-dhemorrhagic toxin c (Crotalus atrox)hemorrhagic toxin d (Crotalus atrox) | EC 3.4.24.42
+atrolysin C;metalloendopeptidase c (Crotalus atrox)toxin c, hemorrhagic (Crotalus atrox)toxin d, hemorrhagic (Crotalus atrox)Ht-cHt-dhemorrhagic toxin c (Crotalus atrox)hemorrhagic toxin d (Crotalus atrox);EC 3.4.24.42
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;3;7;7;0;8;8;4
 Pro;2;4;2;4;0;0;1;0
@@ -15970,7 +15970,7 @@ Glu;5;8;7;5;0;0;2;2
 Lys;1;1;1;1;0;0;0;0
 Arg;0;0;1;1;0;2;0;0
 His;3;2;0;2;5;1;1;0
-atrolysin E | metalloendopeptidase e (Crotalus atrox) | metalloendopeptidase e (Crotalus atrox)toxin e, hemorrhagic (Crotalus atrox)Ht-e | atrolysin E/D | barnettlysin-I (Bothrops barnetti) | hemorrhagic toxin e (Crotalus atrox) | EC 3.4.24.44
+atrolysin E;barnettlysin-I (Bothrops barnetti);atrolysin E/D;hemorrhagic toxin e (Crotalus atrox);metalloendopeptidase e (Crotalus atrox);metalloendopeptidase e (Crotalus atrox)toxin e, hemorrhagic (Crotalus atrox)Ht-e;EC 3.4.24.44
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;3;2;4;0;5;3;2
 Pro;1;0;1;0;0;0;0;0
@@ -15992,7 +15992,7 @@ Glu;2;2;1;0;0;0;1;2
 Lys;0;0;0;0;0;0;1;0
 Arg;0;0;2;0;0;0;2;0
 His;0;0;0;2;2;1;0;0
-atrolysin F | hemorrhagic toxin f | toxin f , hemorrhagic (Crotalus atrox)Ht-f | EC 3.4.24.45
+atrolysin F;hemorrhagic toxin f;toxin f , hemorrhagic (Crotalus atrox)Ht-f;EC 3.4.24.45
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;1;0;2
 Pro;0;0;0;0;0;0;0;0
@@ -16014,7 +16014,7 @@ Glu;1;0;1;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;1;1;1;0;1;1
-atroxase | non-hemorrhagic endopeptidaseendopeptidase, non-hemorrhagic | EC 3.4.24.43
+atroxase;non-hemorrhagic endopeptidaseendopeptidase, non-hemorrhagic;EC 3.4.24.43
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -16036,7 +16036,7 @@ Glu;1;0;1;0;0;0;1;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;2;1;0;0;0
-basilysin | venom metalloendopeptidase (Crotalus basiliscus basiliscus)metalloendopeptidase, venom (Crotalus basiliscus basiliscus)
+basilysin;venom metalloendopeptidase (Crotalus basiliscus basiliscus)metalloendopeptidase, venom (Crotalus basiliscus basiliscus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -16058,7 +16058,7 @@ Glu;1;0;2;0;0;0;0;0
 Lys;0;0;0;1;0;1;1;0
 Arg;0;0;0;0;0;0;0;0
 His;1;0;0;0;0;0;0;0
-horrilysin | hemorrhagic proteinase IV | venom metalloendopeptidase (Crotalus horridus)proteinase IV, hemorrhagicmetalloendopeptidase, venom (Crotalus horridus) | EC 3.4.24.47
+horrilysin;hemorrhagic proteinase IV;venom metalloendopeptidase (Crotalus horridus)proteinase IV, hemorrhagicmetalloendopeptidase, venom (Crotalus horridus);EC 3.4.24.47
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;1;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -16080,7 +16080,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;1;0
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-ruberlysin | metalloendopeptidase II (Crotalus ruber)toxin II, hemorrhagic | hemorrhagic toxin II | EC 3.4.24.48
+ruberlysin;hemorrhagic toxin II;metalloendopeptidase II (Crotalus ruber)toxin II, hemorrhagic;EC 3.4.24.48
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;3;7;0;0;2;4
 Pro;0;0;0;3;1;0;3;0
@@ -16102,7 +16102,7 @@ Glu;1;1;1;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;3;0;0
 His;0;0;5;2;0;3;1;0
-ecarin | metalloendopeptidase, venom (Echis carinatus) | venom metalloendopeptidase (Echis carinatus)
+ecarin;venom metalloendopeptidase (Echis carinatus);metalloendopeptidase, venom (Echis carinatus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;2;1;0;0;0;2
 Pro;0;0;1;0;0;0;0;0
@@ -16124,7 +16124,7 @@ Glu;0;1;1;0;0;0;2;0
 Lys;0;0;0;0;0;0;0;0
 Arg;1;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ophiolysin | venom metalloendopeptidase (Ophiophagus hannah)metalloendopeptidase, venom (Ophiophagus hannah) | EC 3.4.24.51
+ophiolysin;venom metalloendopeptidase (Ophiophagus hannah)metalloendopeptidase, venom (Ophiophagus hannah);EC 3.4.24.51
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;2
 Pro;0;0;0;0;0;0;0;0
@@ -16168,7 +16168,7 @@ Glu;5;0;4;0;0;0;4;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;1;0;0;0;0
 His;0;0;0;5;0;0;0;0
-trimerelysin I | stejnihagin (Trimeresurus stejnegeri) | hemorrhagic proteinase HR1A | venom metalloendopeptidase I (Trimeresurus flavoviridis)metalloendopeptidase I, venom (Trimeresurus flavoviridis) | EC 3.4.24.52
+trimerelysin I;hemorrhagic proteinase HR1A;venom metalloendopeptidase I (Trimeresurus flavoviridis)metalloendopeptidase I, venom (Trimeresurus flavoviridis);stejnihagin (Trimeresurus stejnegeri);EC 3.4.24.52
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;0;1;0;0;0;0
 Pro;0;0;0;3;0;0;0;0
@@ -16190,7 +16190,7 @@ Glu;0;0;2;0;0;0;1;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;1;0;0;0;0
-trimerelysin II | H2-proteinase | venom metalloendopeptidase II (Trimeresurus flavoviridis)metalloendopeptidase II, venom (Trimeresurus flavoviridis) | proteinase H2 | EC 3.4.24.53
+trimerelysin II;H2-proteinase;venom metalloendopeptidase II (Trimeresurus flavoviridis)metalloendopeptidase II, venom (Trimeresurus flavoviridis);proteinase H2;EC 3.4.24.53
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;3;2;0;0;1;0;2
 Pro;0;0;0;2;0;0;1;1
@@ -16212,7 +16212,7 @@ Glu;2;0;3;0;0;0;2;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;1;0;1;0;0;0;0
 His;0;0;0;2;1;1;0;0
-trimerelysin IIA | HR2A proteinase (Trimeresurus flavoviridis)
+trimerelysin IIA;HR2A proteinase (Trimeresurus flavoviridis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -16234,7 +16234,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-mucrolysin | metalloendopeptidase TM-1 (Trimeresurus mucrosquamatus) | metalloendopeptidase TM-2 (Trimeresurus mucrosquamatus) | mucrotoxin A | trimutase | venom metalloendopeptidase A (Trimeresurus mucrosquamatus)metalloendopeptidase A, venom (Trimeresurus mucrosquamatus) | EC 3.4.24.54
+mucrolysin;trimutase;venom metalloendopeptidase A (Trimeresurus mucrosquamatus)metalloendopeptidase A, venom (Trimeresurus mucrosquamatus);metalloendopeptidase TM-1 (Trimeresurus mucrosquamatus);metalloendopeptidase TM-2 (Trimeresurus mucrosquamatus);mucrotoxin A;EC 3.4.24.54
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;4;2;0;0;1
 Pro;0;0;0;0;1;0;0;0
@@ -16256,7 +16256,7 @@ Glu;1;1;1;0;0;0;1;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;2;1;0;0;0
-russellysin | factor X activator, venom (Vipera/Daboia russelli) | RVV-X | EC 3.4.24.58
+russellysin;factor X activator, venom (Vipera/Daboia russelli);RVV-X;EC 3.4.24.58
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;4;5
 Pro;0;1;0;0;0;0;0;0
@@ -16278,7 +16278,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;2;0;0;0;0;0
 Arg;1;1;0;7;0;0;0;0
 His;0;0;0;0;0;0;0;0
-venom metallopeptidase PREH | ACLF | ACLH | ACLHT | ACLPREF | ACLPREH endopeptidase (Agkistrodon contortrix laticinctus) | haemorrhagic toxin (Agkistrodon contortrix laticinctus)
+venom metallopeptidase PREH;ACLF;ACLH;ACLHT;ACLPREF;ACLPREH endopeptidase (Agkistrodon contortrix laticinctus);haemorrhagic toxin (Agkistrodon contortrix laticinctus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -16300,7 +16300,7 @@ Glu;1;0;2;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-kistomin (Calloselasma rhodostoma) | rhodostoxin (Calloselasma rhodostoma)
+kistomin (Calloselasma rhodostoma);rhodostoxin (Calloselasma rhodostoma)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;2;1;1;0;1;1
 Pro;0;0;0;0;0;0;0;1
@@ -16322,7 +16322,7 @@ Glu;3;0;3;1;1;0;1;3
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;1;0;1;0;0
 His;0;0;0;1;1;0;0;0
-mutalysin II | metalloendopeptidase, venom (Lachesis muta muta)LHF II | hemorrhagic factor II (Lachesis muta muta)
+mutalysin II;hemorrhagic factor II (Lachesis muta muta);metalloendopeptidase, venom (Lachesis muta muta)LHF II
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;2;0;0;1;1;0
 Pro;1;0;0;0;0;0;0;1
@@ -16344,7 +16344,7 @@ Glu;1;0;2;0;0;0;1;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;1;0;1;0;0;1;0
 His;1;1;0;2;0;0;1;0
-lebetase | venom metalloendopeptidase (Vipera lebetina)metalloendopeptidase, venom (Vipera lebetina)
+lebetase;venom metalloendopeptidase (Vipera lebetina)metalloendopeptidase, venom (Vipera lebetina)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;5;0;1;2;0;0;2;2
 Pro;1;2;0;6;0;1;0;0
@@ -16366,7 +16366,7 @@ Glu;1;0;3;0;0;0;0;1
 Lys;0;0;1;1;1;1;0;0
 Arg;1;1;1;1;0;4;0;0
 His;1;1;0;1;0;0;1;0
-najalysin | F1 proteinase (Naja nigricolla)
+najalysin;F1 proteinase (Naja nigricolla)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;1;0;0;0;0;0;1
@@ -16388,7 +16388,7 @@ Glu;0;0;1;1;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-alpha peptidase (Crotalus atrox) | alpha protease (Crotalus atrox)
+alpha peptidase (Crotalus atrox);alpha protease (Crotalus atrox)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -16476,7 +16476,7 @@ Glu;2;0;1;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;1;0;1;0;0
 His;0;0;0;2;0;0;0;0
-carinactivase | metalloendopeptidase, venom (Echis carinatus) | venom metalloendopeptidase (Echis carinatus)
+carinactivase;venom metalloendopeptidase (Echis carinatus);metalloendopeptidase, venom (Echis carinatus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -16542,7 +16542,7 @@ Glu;2;0;1;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;2;0;0;0;0
-multactivase | multisquamase | venom endopeptidase (Echis multisquamatus) | ecamulin (Echis multisquamatus) | ekamulin
+multactivase;venom endopeptidase (Echis multisquamatus);multisquamase;ecamulin (Echis multisquamatus);ekamulin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -16564,7 +16564,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-brevilysin L6 | Mt-c peptidase (Gloydius [=Agkistrodon] halys brevicaudus) | protease L4 (Agkistrodon halys brevicaudus)
+brevilysin L6;protease L4 (Agkistrodon halys brevicaudus);Mt-c peptidase (Gloydius [=Agkistrodon] halys brevicaudus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;2;0;2;0;0;4
 Pro;0;0;0;0;0;0;0;2
@@ -16608,7 +16608,7 @@ Glu;1;0;1;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;1;0;1;0;0
-hemorrhagic metallopeptidase a (Trimeresurus mucrosquamatus) | hemorrhagic metalloproteinase a (Trimeresurus mucrosquamatus)
+hemorrhagic metallopeptidase a (Trimeresurus mucrosquamatus);hemorrhagic metalloproteinase a (Trimeresurus mucrosquamatus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;0;0;1;0;0;1
 Pro;0;1;0;0;0;0;0;0
@@ -16630,7 +16630,7 @@ Glu;1;0;1;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;1;0;0;2;0;0;0;0
-hemorrhagic metallopeptidase b (Trimeresurus mucrosquamatus) | hemorrhagic metalloproteinase b (Trimeresurus mucrosquamatus)
+hemorrhagic metallopeptidase b (Trimeresurus mucrosquamatus);hemorrhagic metalloproteinase b (Trimeresurus mucrosquamatus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -16652,7 +16652,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;1;0;0;1;0;0
-mutalysin I | metalloendopeptidase, venom (Lachesis muta muta)LHF I | hemorrhagic factor I (Lachesis muta muta)
+mutalysin I;hemorrhagic factor I (Lachesis muta muta);metalloendopeptidase, venom (Lachesis muta muta)LHF I
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;1;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -16740,7 +16740,7 @@ Glu;4;4;4;5;5;4;6;5
 Lys;2;3;2;1;3;2;2;0
 Arg;4;9;10;11;10;8;10;8
 His;2;0;2;3;2;4;4;4
-ADAM8 peptidase | mCD158 | MS2 | CD156
+ADAM8 peptidase;CD156;mCD158;MS2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;0;1;2;2;0;0
 Pro;4;3;0;4;0;0;1;2
@@ -16762,7 +16762,7 @@ Glu;1;1;1;1;0;0;1;0
 Lys;1;0;2;0;0;4;0;1
 Arg;1;3;1;0;0;6;1;4
 His;0;0;1;1;0;1;0;1
-ADAM9 peptidase | MADDAM | MDC9 | meltrin gamma | metalloproteinase 12 | metalloproteinase and disintegrin dendritic antigen marker | ADAM 19 [obs.] | ADAM9
+ADAM9 peptidase;ADAM 19 [obs.];ADAM9;MADDAM;MDC9;meltrin gamma;metalloproteinase 12;metalloproteinase and disintegrin dendritic antigen marker
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;0;1;0;0;0;1
 Pro;5;6;0;0;0;2;0;2
@@ -16784,7 +16784,7 @@ Glu;3;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;2;1;0
 Arg;1;1;3;1;0;0;4;5
 His;0;0;2;3;0;1;0;0
-ADAM10 peptidase | MADM | mammalian kuzbanian protein | myelin-associated disintegrin metalloproteinase | ADAM10 | alpha-secretase | Alzheimer’s disease alpha-secretase (putative)kuzbanian protein (mammalian) | EC 3.4.24.81
+ADAM10 peptidase;ADAM10;alpha-secretase;Alzheimer’s disease alpha-secretase (putative)kuzbanian protein (mammalian);MADM;mammalian kuzbanian protein;myelin-associated disintegrin metalloproteinase;EC 3.4.24.81
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;1;1;2;1;1;6;0
 Pro;2;4;0;4;0;0;1;0
@@ -16806,7 +16806,7 @@ Glu;2;1;4;1;0;1;0;2
 Lys;2;1;2;3;1;7;1;4
 Arg;1;0;1;2;4;5;0;1
 His;6;5;1;5;0;1;0;3
-Kuzbanian peptidase (non-mammalian) | KUZ protein (Drosophila melanogaster)
+Kuzbanian peptidase (non-mammalian);KUZ protein (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -16828,7 +16828,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;1;0;0;0;0;0;0;0
-ADAM12 peptidase | meltrin alpha
+ADAM12 peptidase;meltrin alpha
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;1;0;0;0;0;0;0
@@ -16850,7 +16850,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;1;0;0
-ADAM19 peptidase | MADDAM | meltrin beta | metalloprotease and disintegrin dendritic antigen marker | adamalysin-19
+ADAM19 peptidase;adamalysin-19;MADDAM;meltrin beta;metalloprotease and disintegrin dendritic antigen marker
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;0;0;0;0;0;2;1
 Pro;3;3;0;1;0;0;0;0
@@ -16872,7 +16872,7 @@ Glu;0;0;1;1;0;0;0;0
 Lys;0;0;1;1;0;1;1;0
 Arg;1;0;1;2;0;1;1;4
 His;0;0;0;0;0;1;0;1
-ADAM15 peptidase | MDC15 | metargidin
+ADAM15 peptidase;MDC15;metargidin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -16916,7 +16916,7 @@ Glu;1;1;1;0;1;2;1;2
 Lys;0;0;0;0;1;0;0;1
 Arg;1;0;1;1;0;1;1;1
 His;0;0;2;1;1;0;1;2
-ADAM17 peptidase | ADAM-17 | ADAM17 | TACE | TNF-alpha converting enzyme | tumor-necrosis factor alpha converting enzyme | converting enzyme, TNF-alpha | EC 3.4.24.86
+ADAM17 peptidase;ADAM-17;ADAM17;TACE;TNF-alpha converting enzyme;tumor-necrosis factor alpha converting enzyme;converting enzyme, TNF-alpha;EC 3.4.24.86
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;2;2;1;2;6;2
 Pro;3;4;1;5;0;2;1;5
@@ -16938,7 +16938,7 @@ Glu;2;0;3;0;1;4;0;4
 Lys;5;1;1;5;0;2;2;0
 Arg;6;1;2;7;1;8;0;4
 His;7;3;1;5;0;3;2;1
-ADAMDEC1 peptidase | decysin
+ADAMDEC1 peptidase;decysin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;1
 Pro;0;1;0;0;0;0;0;0
@@ -16960,7 +16960,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;1;0;1;0;0;1;0;1
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;1;1
-ADAMTS3 peptidase | KIAA0366 protein | ADAMTS-4 (Tang) | ADAMTS3 g.p. (Homo sapiens)
+ADAMTS3 peptidase;KIAA0366 protein;ADAMTS-4 (Tang);ADAMTS3 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -16982,7 +16982,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-ADAMTS4 peptidase | KIAA0688 protein | ADAMTS-2 (Tang) | ADAMTS-4 | ADAMTS4 g.p. (Homo sapiens) | ADMP-1 | aggrecanase-1 | EC 3.4.24.82
+ADAMTS4 peptidase;KIAA0688 protein;ADAMTS-2 (Tang);ADAMTS-4;ADAMTS4 g.p. (Homo sapiens);ADMP-1;aggrecanase-1;EC 3.4.24.82
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;47;35;9;30;22;25;155;50
 Pro;15;31;19;15;0;7;2;21
@@ -17004,7 +17004,7 @@ Glu;29;34;44;159;7;37;34;38
 Lys;26;16;6;2;1;6;6;6
 Arg;37;11;13;12;17;56;38;23
 His;7;4;8;11;5;10;5;24
-ADAMTS1 peptidase | KIAA1346 protein (Homo sapiens) | METH-1 | ADAMTS
+ADAMTS1 peptidase;KIAA1346 protein (Homo sapiens);ADAMTS;METH-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;2;3;7;4
 Pro;0;2;0;0;0;0;0;2
@@ -17026,7 +17026,7 @@ Glu;2;4;3;14;0;1;1;1
 Lys;1;0;0;0;0;1;0;0
 Arg;0;0;0;0;1;6;3;2
 His;0;0;0;0;0;0;0;0
-ADAM28 peptidase (Homo sapiens-type) | MDC-L protein | eMDC II protein (Homo sapiens)
+ADAM28 peptidase (Homo sapiens-type);MDC-L protein;eMDC II protein (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;1;0;1;0;0;0
 Pro;0;0;1;1;1;0;0;0
@@ -17048,7 +17048,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;1;0;0;0;1;0;0
 Arg;0;1;0;2;0;1;0;0
 His;0;0;0;0;0;0;0;0
-ADAMTS5 peptidase | ADAMTS-11 [obs.] | ADAMTS-5 | ADAMTS5 g.p. (Homo sapiens) | ADMP-2 | aggrecanase-2 | implantin
+ADAMTS5 peptidase;implantin;ADAMTS-11 [obs.];ADAMTS-5;ADAMTS5 g.p. (Homo sapiens);ADMP-2;aggrecanase-2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;34;32;16;18;23;12;127;62
 Pro;22;26;12;12;0;5;3;23
@@ -17070,7 +17070,7 @@ Glu;38;27;42;177;5;13;44;47
 Lys;31;14;6;1;3;5;2;1
 Arg;28;15;15;5;4;63;26;11
 His;11;4;5;7;13;6;3;11
-ADAMTS8 peptidase | METH-2 | ADAMTS8 g.p. (Homo sapiens)
+ADAMTS8 peptidase;ADAMTS8 g.p. (Homo sapiens);METH-2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;1;1
 Pro;0;0;0;0;0;0;0;2
@@ -17092,7 +17092,7 @@ Glu;0;1;0;1;0;0;1;0
 Lys;0;1;1;0;0;2;0;1
 Arg;0;0;0;0;0;2;0;1
 His;0;1;0;0;0;0;0;0
-kaouthiagin | atrase B (Naja atra)
+kaouthiagin;atrase B (Naja atra)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;1;0;0;0;0
@@ -17114,7 +17114,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-ADAMTS13 peptidase | ADAMTS-13 | ADAMTS13 | von Willebrand factor protease | vWF-cleaving protease | EC 3.4.24.87
+ADAMTS13 peptidase;ADAMTS-13;ADAMTS13;von Willebrand factor protease;vWF-cleaving protease;EC 3.4.24.87
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -17158,7 +17158,7 @@ Glu;1;0;1;0;0;0;0;1
 Lys;0;0;0;0;0;1;0;0
 Arg;0;0;0;0;0;1;0;1
 His;0;0;1;2;0;0;0;0
-procollagen I N-peptidase | ADAMTS-3 (Tang) | ADAMTS2 g.p. (Homo sapiens) | procollagen III N-peptidase | EC 3.4.24.14
+procollagen I N-peptidase;ADAMTS-3 (Tang);ADAMTS2 g.p. (Homo sapiens);procollagen III N-peptidase;EC 3.4.24.14
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;2;0;0;0;1
@@ -17180,7 +17180,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-acutolysin C | AaH III  | Ac3 proteinase (Deinagkistrodon acutus) | alkaline haemorrhagin | basic haemorrhagin (Deinagkistrodon acutus) | DaH5 (Deinagkistrodon acutus) | H5 (Deinagkistrodon acutus) | proteinase Ac3 (Deinagkistrodon acutus)
+acutolysin C;basic haemorrhagin (Deinagkistrodon acutus);DaH5 (Deinagkistrodon acutus);AaH III ;Ac3 proteinase (Deinagkistrodon acutus);alkaline haemorrhagin;H5 (Deinagkistrodon acutus);proteinase Ac3 (Deinagkistrodon acutus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;1
 Pro;0;0;0;1;0;0;0;1
@@ -17268,7 +17268,7 @@ Glu;2;1;1;0;1;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;1;1;1;0;0;2;1;1
 His;1;1;1;1;0;1;0;0
-halylysin b | HR-II (Gloydius halys blomhoffii) | proteinase b (Gloydius halys blomhoffii)
+halylysin b;HR-II (Gloydius halys blomhoffii);proteinase b (Gloydius halys blomhoffii)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;1;2;0;0;1;0
 Pro;0;1;1;0;0;0;1;0
@@ -17290,7 +17290,7 @@ Glu;0;1;1;0;0;0;1;1
 Lys;0;0;0;0;0;0;0;0
 Arg;1;0;1;0;0;0;0;0
 His;0;0;0;2;1;0;0;0
-halylysin c | proteinase c (Gloydius halys blomhoffii)
+halylysin c;proteinase c (Gloydius halys blomhoffii)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;1;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -17312,7 +17312,7 @@ Glu;0;1;1;0;0;0;1;0
 Lys;1;0;1;0;0;0;0;0
 Arg;1;0;1;0;0;1;1;1
 His;0;0;0;1;0;0;0;0
-hemorrhagic toxin I (Gloydius halys blomhoffii) | HR-I (Gloydius halys blomhoffii)
+hemorrhagic toxin I (Gloydius halys blomhoffii);HR-I (Gloydius halys blomhoffii)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;1;2;2;1;1;2
 Pro;0;0;0;1;0;0;1;1
@@ -17334,7 +17334,7 @@ Glu;1;1;2;0;0;0;2;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;2;0;0;1;1;1
 His;1;1;0;3;1;0;0;0
-metallopeptidase MTP-1 | metalloprotease MTP-1 (Ancylostoma caninum)
+metallopeptidase MTP-1;metalloprotease MTP-1 (Ancylostoma caninum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;3;2;1;1;2;2;0
 Pro;1;0;0;1;1;2;2;1
@@ -17378,7 +17378,7 @@ Glu;7;6;4;6;0;0;2;5
 Lys;2;2;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;2;2;0;0;5;0;2;0
-neuwiedase (Bothrops neuwiedi) | BnP1 peptidase
+neuwiedase (Bothrops neuwiedi);BnP1 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -17400,7 +17400,7 @@ Glu;1;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-halysase | flavorase
+halysase;flavorase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;1;0;0;0;1
 Pro;0;0;0;0;0;0;0;1
@@ -17422,7 +17422,7 @@ Glu;2;2;1;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;1;0;0;0;0;0
 His;1;0;0;0;0;0;0;0
-hemorrhagic factor 3 (Bothrops jararaca)-like peptidase | HF3 (Bothrops jararaca)
+hemorrhagic factor 3 (Bothrops jararaca)-like peptidase;HF3 (Bothrops jararaca)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -17444,7 +17444,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-TOH-2 peptidase | DPY-31 g.p. (Caenorhabditis elegans) | TOH-2 g.p. (Caenorhabditis elegans) | NAS-35 g.p. (Caenorhabditis elegans) | onchoastacin (Onchocerca volvulus)
+TOH-2 peptidase;DPY-31 g.p. (Caenorhabditis elegans);TOH-2 g.p. (Caenorhabditis elegans);onchoastacin (Onchocerca volvulus);NAS-35 g.p. (Caenorhabditis elegans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -17488,7 +17488,7 @@ Glu;5;0;4;0;0;1;1;1
 Lys;0;2;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;1;0;0;1;4;1;0;0
-fibrinogenase-2 (Deinagkistrodon acutus) | AaHIV | acutolysin E | fibrinogenase II (Deinagkistrodon acutus)
+fibrinogenase-2 (Deinagkistrodon acutus);fibrinogenase II (Deinagkistrodon acutus);AaHIV;acutolysin E
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;1
@@ -17510,7 +17510,7 @@ Glu;1;1;0;0;1;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;1;0;0;0;0;0;0
-baltergin (Bothrops alternatus) | alternagin-C (Bothrops alternatus)
+baltergin (Bothrops alternatus);alternagin-C (Bothrops alternatus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -17554,7 +17554,7 @@ Glu;1;0;3;1;0;1;0;0
 Lys;7;1;2;0;1;7;1;0
 Arg;2;0;0;1;2;14;2;2
 His;0;0;1;0;0;1;0;0
-moojeni peptidase A | moojeni protease A
+moojeni peptidase A;moojeni protease A
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;1;0;0;2;1
 Pro;0;0;0;0;0;0;0;0
@@ -17576,7 +17576,7 @@ Glu;1;0;4;1;1;0;1;1
 Lys;0;0;0;1;2;0;1;1
 Arg;1;0;0;1;0;3;0;0
 His;0;0;0;0;1;0;0;0
-subfamily M12B unassigned peptidases | kaouthiagin-like peptidase (Naja atra) | maculatoxin (Cryptelytrops purpureomaculatus) | malabarin (Trimeresurus malabaricus) | mikarin (Micropechis ikaheka) | MooA (Bothrops moojeni) | moojenactivase (Bothrops moojeni) | moojenin (Bothrops moojeni ) | Mt-a (Gloydius/Agkistrodon halys) | Mt-b (Gloydius/Agkistrodon halys) | Mt-c (Gloydius/Agkistrodon halys) | Mt-d (Gloydius/Agkistrodon halys) | SpADAM peptidase (Strongylocentrotus purpuratus) | SV-PAD-2 (Protobothrops elegans) | SVMP-MM (Macrovipera mauritanica) | SVPH1-26 (Homo sapiens) | Ac1-proteinase (Deinagkistrodon acutus) | Ac2-proteinase (Deinagkistrodon acutus) | Ac3-proteinase (Deinagkistrodon acutus) | acostatin (Agkistrodon contortrix contortrix) | acurhagin (Agkistrodon acutus) | ADAM41 (Xenopus tropicalis) | ADAMTS-like protein 2 | ADAMTS-like protein 4 | ADAMTSL2 | ADAMTSL4 | admA (Aspergillus oryzae) | admB (Aspergillus oryzae) | agkislysin (Agkistrodon acutus) | AHPM peptidase (Agkistrodon halys pallas) | albocollagenase (Cryptelytops albolabris) | alborhagin (Trimeresurus albolabris) | alsophinase (Alsophis portoricensis | ammodytagin (Vipera ammodytes) | ammodytase (Vipera ammodytes) | atragin (Naja atra) | BAH4 peptidase (Bothrops asper) | BaltDC (Bothrops alternatus) | basparin A (Bothrops asper) | Batx-I peptidase (Bothrops atrox) | BbMP-1 (Bothrops brazili) | berythractivase (Bothrops erythromelas) | BJ-PI peptidase (Bothrops jararaca) | BJ-PI2 peptidase (Bothrops jararaca) | BjussuMP-I (Bothrops jararacussu) | BLAH1 hemorrhagin (Bothrops lanceolatus) | BlatH1 peptidase (Bothriechis lateralis) | BmooMP alpha-II (Bothrops moojeni) | bothropoidin (Bothrops pauloensis) | BpirMP (Bothrops pirajai) | BpMPI peptidase (Bothropoides pauloensis) | BrRm-MP1 (Rhipicephalus microplus) | BrRm-MP2 (Rhipicephalus microplus) | BrRm-MP4 (Rhipicephalus microplus) | BrRm-MP5 (Rhipicephalus microplus) | BtaMP-1 (Bothriopsis taeniata) | ussurin (Gloydius ussuriensis) | hemorrhagin VaH4 (Vipera ammodytes) | HLMP1 (Haemaphysalis longicornis) | HR-Ele-1 (Protobothrops elegans) | hr1B (Trimeresurus flavoviridis) | HV1 apoptosis-inducing peptidase (Trimeresurus flavoviridis) | trimarin (Trimeresurus malabaricus) | FE-32kDa peptidase (Gloydius blomhoffii siniticus) | FIa factor X activator (Daboia russellii) | flavoridin (Trimeresurus flavoviridis) | fpp1 g.p. (Flavobacterium psychrophilum) | V1F (Vipera lebetina) | VaF1 (Vipera ammodytes) | VaH1 peptidase (Vipera ammodytes) | VaH2 peptidase (Vipera ammodytes) | VaH3 peptidase (Vipera ammodytes) | vascular apoptosis-inducing protein (Trimeresurus flavoviridis) | VLFXA peptidase (Macrovipera lebetina) | VLH2 endopeptidase (Vipera lebetina) | VRF1 (Microplitis mediator) | nasulysin-1 (Porthidium nasutum) | NN-PF3 (Naja naja) | okinalysin (Ovophis okinavensis) | jararafibrase III (Bothrops jararaca) | jararafibrase IV (Bothrops jararaca) | jerdohagin (Trimeresurus jerdonii) | leucurolysin-B | rubelase (Crotalus ruber ruber) | rubelysin (Crotalus ruber ruber) | Russell’s viper basic coagulant metalloprotease (RVBCMP) (Daboia russelli russelli) | Rusviprotease (Daboia russelii) | patagonfibrase (Philodryas patagoniensis) | porthidin-1 (Porthidium lansbergii hutmanni) | catroxMP-II (Crotalus atrox) | CcH1 peptidase (Cerastes cerastes) | CcHSM-III peptidase (Cerastes cerastes) | CcMP-II (Cerastes cerastes) | CCSV-MPase (Cerastes cerastes) | colombienase 1 (Bothrops colombiensis) | colombienase 2 (Bothrops colombiensis) | contortrostatin | cotiaractivase (Bothrops cotiara) | crotalin (Crotalus atrox) | echilysin-1 | echilysin-2 | endothelial cell apoptosis inducing metalloprotease (VLAIP) (Vipera lebetina) | EoVMP1 (Echis ocellatus) | EoVMP2 (Echis ocellatus) | EpyB2 (Echis pyramidum) | EpyB3 (Echis pyramidum) | EpyB4 (Echis pyramidum) | EpyB5 (Echis pyramidum) | EpyB6 (Echis pyramidum)
+subfamily M12B unassigned peptidases;BAH4 peptidase (Bothrops asper);BaltDC (Bothrops alternatus);basparin A (Bothrops asper);Batx-I peptidase (Bothrops atrox);BbMP-1 (Bothrops brazili);berythractivase (Bothrops erythromelas);BJ-PI peptidase (Bothrops jararaca);BJ-PI2 peptidase (Bothrops jararaca);BjussuMP-I (Bothrops jararacussu);BLAH1 hemorrhagin (Bothrops lanceolatus);BlatH1 peptidase (Bothriechis lateralis);BmooMP alpha-II (Bothrops moojeni);bothropoidin (Bothrops pauloensis);BpirMP (Bothrops pirajai);BpMPI peptidase (Bothropoides pauloensis);BrRm-MP1 (Rhipicephalus microplus);BrRm-MP2 (Rhipicephalus microplus);BrRm-MP4 (Rhipicephalus microplus);BrRm-MP5 (Rhipicephalus microplus);BtaMP-1 (Bothriopsis taeniata);jararafibrase III (Bothrops jararaca);jararafibrase IV (Bothrops jararaca);jerdohagin (Trimeresurus jerdonii);FE-32kDa peptidase (Gloydius blomhoffii siniticus);FIa factor X activator (Daboia russellii);flavoridin (Trimeresurus flavoviridis);fpp1 g.p. (Flavobacterium psychrophilum);kaouthiagin-like peptidase (Naja atra);Ac1-proteinase (Deinagkistrodon acutus);Ac2-proteinase (Deinagkistrodon acutus);Ac3-proteinase (Deinagkistrodon acutus);acostatin (Agkistrodon contortrix contortrix);acurhagin (Agkistrodon acutus);ADAM41 (Xenopus tropicalis);ADAMTS-like protein 2;ADAMTS-like protein 4;ADAMTSL2;ADAMTSL4;admA (Aspergillus oryzae);admB (Aspergillus oryzae);agkislysin (Agkistrodon acutus);AHPM peptidase (Agkistrodon halys pallas);albocollagenase (Cryptelytops albolabris);alborhagin (Trimeresurus albolabris);alsophinase (Alsophis portoricensis;ammodytagin (Vipera ammodytes);ammodytase (Vipera ammodytes);atragin (Naja atra);rubelase (Crotalus ruber ruber);rubelysin (Crotalus ruber ruber);Russell’s viper basic coagulant metalloprotease (RVBCMP) (Daboia russelli russelli);Rusviprotease (Daboia russelii);leucurolysin-B;hemorrhagin VaH4 (Vipera ammodytes);HLMP1 (Haemaphysalis longicornis);HR-Ele-1 (Protobothrops elegans);hr1B (Trimeresurus flavoviridis);HV1 apoptosis-inducing peptidase (Trimeresurus flavoviridis);trimarin (Trimeresurus malabaricus);catroxMP-II (Crotalus atrox);CcH1 peptidase (Cerastes cerastes);CcHSM-III peptidase (Cerastes cerastes);CcMP-II (Cerastes cerastes);CCSV-MPase (Cerastes cerastes);colombienase 1 (Bothrops colombiensis);colombienase 2 (Bothrops colombiensis);contortrostatin;cotiaractivase (Bothrops cotiara);crotalin (Crotalus atrox);okinalysin (Ovophis okinavensis);nasulysin-1 (Porthidium nasutum);NN-PF3 (Naja naja);V1F (Vipera lebetina);VaF1 (Vipera ammodytes);VaH1 peptidase (Vipera ammodytes);VaH2 peptidase (Vipera ammodytes);VaH3 peptidase (Vipera ammodytes);vascular apoptosis-inducing protein (Trimeresurus flavoviridis);VLFXA peptidase (Macrovipera lebetina);VLH2 endopeptidase (Vipera lebetina);VRF1 (Microplitis mediator);SpADAM peptidase (Strongylocentrotus purpuratus);SV-PAD-2 (Protobothrops elegans);SVMP-MM (Macrovipera mauritanica);SVPH1-26 (Homo sapiens);ussurin (Gloydius ussuriensis);patagonfibrase (Philodryas patagoniensis);porthidin-1 (Porthidium lansbergii hutmanni);maculatoxin (Cryptelytrops purpureomaculatus);malabarin (Trimeresurus malabaricus);mikarin (Micropechis ikaheka);MooA (Bothrops moojeni);moojenactivase (Bothrops moojeni);moojenin (Bothrops moojeni );Mt-a (Gloydius/Agkistrodon halys);Mt-b (Gloydius/Agkistrodon halys);Mt-c (Gloydius/Agkistrodon halys);Mt-d (Gloydius/Agkistrodon halys);echilysin-1;echilysin-2;endothelial cell apoptosis inducing metalloprotease (VLAIP) (Vipera lebetina);EoVMP1 (Echis ocellatus);EoVMP2 (Echis ocellatus);EpyB2 (Echis pyramidum);EpyB3 (Echis pyramidum);EpyB4 (Echis pyramidum);EpyB5 (Echis pyramidum);EpyB6 (Echis pyramidum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;1;0;0;2;3
 Pro;0;0;0;0;0;0;0;0
@@ -17598,7 +17598,7 @@ Glu;3;0;3;0;1;0;1;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;1;1;1;0;0
-neprilysin | kidney-brush-border neutral peptidase | membrane metallopeptidase A | MME g.p. (Homo sapiens) | atriopeptidase | fibroblast metalloelastase | NEP | neutral endopeptidase, kidney-brush-border | CALLA | CD10 | EC 3.4.24.11 | endopeptidase 24.11 | enkephalinase
+neprilysin;fibroblast metalloelastase;kidney-brush-border neutral peptidase;atriopeptidase;CALLA;CD10;NEP;neutral endopeptidase, kidney-brush-border;membrane metallopeptidase A;MME g.p. (Homo sapiens);EC 3.4.24.11;endopeptidase 24.11;enkephalinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;9;9;15;24;2;15;13;8
 Pro;9;8;9;12;0;1;6;4
@@ -17620,7 +17620,7 @@ Glu;5;4;5;4;1;3;4;4
 Lys;8;6;9;5;0;3;6;8
 Arg;11;18;13;12;2;9;11;7
 His;1;5;3;6;1;3;2;2
-endothelin-converting enzyme 1 | EC 3.4.24.71 | ECE-1
+endothelin-converting enzyme 1;EC 3.4.24.71;ECE-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;2;0;2;0;1;1;1
 Pro;2;2;0;4;1;1;2;4
@@ -17642,7 +17642,7 @@ Glu;2;1;2;2;0;2;3;0
 Lys;2;0;3;1;0;2;0;2
 Arg;2;2;2;2;0;3;1;0
 His;4;2;2;2;0;3;3;0
-endothelin-converting enzyme 2 | ECE-2
+endothelin-converting enzyme 2;ECE-2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;0;2;2;0;0;0;0
 Pro;1;0;3;3;0;0;0;2
@@ -17664,7 +17664,7 @@ Glu;0;0;0;2;0;0;0;0
 Lys;0;0;0;1;0;2;2;0
 Arg;3;5;2;1;1;1;2;3
 His;0;0;1;0;0;1;0;0
-oligopeptidase O1 | pepO | pepO1 g.p. (Lactobacillus lactis) | endopeptidase II (Lactococcus) | endopeptidase O
+oligopeptidase O1;pepO;pepO1 g.p. (Lactobacillus lactis);endopeptidase II (Lactococcus);endopeptidase O
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;1;0;1;2;2;0
 Pro;2;2;3;3;0;1;2;2
@@ -17686,7 +17686,7 @@ Glu;1;1;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;1;1;0;1
 His;0;0;1;0;0;0;0;0
-oligopeptidase O3 | Mername-AA011 peptidase | neprilysin homologue (e.g. Streptococcus gordonii) | oligopeptidase O (Streptococcus sp.) | PepO (Streptococcus pneumoniae) | PepO (Streptococcus sp.) | endopeptidase LEP II | endopeptidase O (Streptococcus pneumoniae)
+oligopeptidase O3;oligopeptidase O (Streptococcus sp.);neprilysin homologue (e.g. Streptococcus gordonii);PepO (Streptococcus pneumoniae);PepO (Streptococcus sp.);Mername-AA011 peptidase;endopeptidase LEP II;endopeptidase O (Streptococcus pneumoniae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;2;1;0;1;2;0
 Pro;1;1;2;3;0;0;1;2
@@ -17708,7 +17708,7 @@ Glu;0;1;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-neprilysin-2 | MMEL1 g.p. (Homo sapiens) | SEP | soluble neutral endopeptidase | soluble secreted endopeptidase | NEPLP | neprilysin-like peptidase | NL1 protein
+neprilysin-2;NEPLP;neprilysin-like peptidase;NL1 protein;SEP;soluble neutral endopeptidase;soluble secreted endopeptidase;MMEL1 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;3;6;0;0;1;1
 Pro;0;1;0;2;0;0;2;1
@@ -17730,7 +17730,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;0;2;2;0;0;0;0
 Arg;0;1;0;0;0;3;0;0
 His;4;2;1;0;0;2;0;0
-Zmp1 peptidase (Mycobacterium-type) | Rv0198c protein (Mycobacterium tuberculosis)
+Zmp1 peptidase (Mycobacterium-type);Rv0198c protein (Mycobacterium tuberculosis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;1;0;2;2;0
 Pro;1;2;0;3;0;0;1;1
@@ -17752,7 +17752,7 @@ Glu;0;0;0;0;1;1;0;0
 Lys;1;0;1;0;0;0;2;2
 Arg;1;1;0;0;0;1;0;1
 His;0;0;1;0;0;2;0;0
-oligopeptidase O2 | PepO2 g.p. (Lactobacillus sp.)
+oligopeptidase O2;PepO2 g.p. (Lactobacillus sp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;0;0;0;2;0
 Pro;1;1;0;4;0;0;0;2
@@ -17774,7 +17774,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;1;0;0;0;1;0;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;1;0;0;0;1;0
-MEP peptidase (nematode) | MEP endopeptidase (Ancylostoma caninum, Haemonchus contortus) | MEP-6 endopeptidase (Ancylostoma caninum) | Ace-MEP-6
+MEP peptidase (nematode);Ace-MEP-6;MEP endopeptidase (Ancylostoma caninum, Haemonchus contortus);MEP-6 endopeptidase (Ancylostoma caninum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;5;6;2;4;5;7;5
 Pro;1;0;2;1;1;2;4;3
@@ -17796,7 +17796,7 @@ Glu;2;0;0;1;0;0;1;3
 Lys;6;4;4;7;2;1;4;6
 Arg;0;1;0;1;3;0;0;1
 His;2;8;2;4;7;3;3;6
-Nep2 peptidase (insect) | neprilysin 2 (insect)
+Nep2 peptidase (insect);neprilysin 2 (insect)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;4;0;0;4;0
 Pro;2;2;0;0;0;0;0;0
@@ -17818,7 +17818,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;1;0;2;0;0
 His;0;0;0;0;0;0;0;0
-neprilysin-4 (Drosophila melanogaster) | Nep4 | CG4058 g.p. (Drosophila melanogaster)
+neprilysin-4 (Drosophila melanogaster);CG4058 g.p. (Drosophila melanogaster);Nep4
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;0;0;11;3;3;5;2
 Pro;2;4;0;3;0;0;1;1
@@ -17862,7 +17862,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PHEX peptidase | Per g.p. (Mus musculus) | PEX [obs.] g.p. (Homo sapiens) | PHEX g.p. (Homo sapiens) | phosphate-regulating gene with homologies to endopeptidase on the X chromosome
+PHEX peptidase;Per g.p. (Mus musculus);PEX [obs.] g.p. (Homo sapiens);PHEX g.p. (Homo sapiens);phosphate-regulating gene with homologies to endopeptidase on the X chromosome
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;3;0;1;0;1;1;5
 Pro;4;1;3;2;0;0;2;0
@@ -17884,7 +17884,7 @@ Glu;2;4;6;4;15;7;4;4
 Lys;3;3;0;1;0;1;0;2
 Arg;1;2;3;1;0;0;5;0
 His;4;8;5;2;0;2;5;3
-carboxypeptidase A1 | pancreatic carboxypeptidase A | carboxypeptidase A, CPA1 g.p. (Homo sapiens) | carboxypolypeptidase | EC 3.4.17.1
+carboxypeptidase A1;carboxypeptidase A, CPA1 g.p. (Homo sapiens);carboxypolypeptidase;pancreatic carboxypeptidase A;EC 3.4.17.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;5;8;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -17906,7 +17906,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-carboxypeptidase A2 | CPA2 g.p. (Homo sapiens) | EC 3.4.17.15
+carboxypeptidase A2;CPA2 g.p. (Homo sapiens);EC 3.4.17.15
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;4;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -17928,7 +17928,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-carboxypeptidase B | tissue carboxypeptidase B | pancreatic carboxypeptidase B | protaminase | carboxypeptidase B, pancreaticcarboxypeptidase B, tissue | carboxypeptidase B1 | CPB1 g.p. (Homo sapiens) | EC 3.4.17.2
+carboxypeptidase B;tissue carboxypeptidase B;carboxypeptidase B, pancreaticcarboxypeptidase B, tissue;carboxypeptidase B1;CPB1 g.p. (Homo sapiens);pancreatic carboxypeptidase B;protaminase;EC 3.4.17.2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;3;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -17950,7 +17950,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;2;0;0;0
 Arg;0;0;0;1;5;0;0;0
 His;0;0;0;0;0;0;0;0
-carboxypeptidase N | kininase I | anaphylatoxin inactivator | arginine carboxypeptidase | lysine carboxypeptidase | plasma carboxypeptidase B | carboxypeptidase B, plasmacarboxypeptidase, lysine | carboxypeptidase K | CPN1 g.p. (Homo sapiens) | creatine kinase conversion factor | EC 3.4.17.3
+carboxypeptidase N;kininase I;anaphylatoxin inactivator;arginine carboxypeptidase;lysine carboxypeptidase;carboxypeptidase B, plasmacarboxypeptidase, lysine;carboxypeptidase K;CPN1 g.p. (Homo sapiens);creatine kinase conversion factor;plasma carboxypeptidase B;EC 3.4.17.3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;2;2;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -17972,7 +17972,7 @@ Glu;0;1;0;1;0;0;0;0
 Lys;3;1;2;1;8;0;0;0
 Arg;0;0;0;0;7;0;0;0
 His;0;0;0;0;0;0;0;0
-carboxypeptidase E | insulin granule-associated carboxypeptidase | neurotrophic factor-alpha1 | carboxypeptidase H | cobalt-stimulated chromaffin granule carboxypeptidase | crino carboxypeptidase B | EC 3.4.17.10 | enkephalin convertase
+carboxypeptidase E;insulin granule-associated carboxypeptidase;carboxypeptidase H;cobalt-stimulated chromaffin granule carboxypeptidase;crino carboxypeptidase B;neurotrophic factor-alpha1;EC 3.4.17.10;enkephalin convertase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;3;6;6;1;0;0;0
 Pro;2;2;0;1;0;0;0;0
@@ -17994,7 +17994,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;1;1;3;4;0;0;0
 Arg;1;1;1;5;19;0;0;0
 His;0;0;0;0;0;0;0;0
-carboxypeptidase M | urinary carboxypeptidase B | renal carboxypeptidase | EC 3.4.17.12
+carboxypeptidase M;renal carboxypeptidase;urinary carboxypeptidase B;EC 3.4.17.12
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;0;2;0;0;0;0
 Pro;0;1;1;0;0;0;0;0
@@ -18016,7 +18016,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;1;0;2;0;5;0;0;0
 Arg;1;0;0;0;6;0;0;0
 His;0;0;0;0;0;0;0;0
-carboxypeptidase T | carboxypeptidase SG | EC 3.4.17.18
+carboxypeptidase T;carboxypeptidase SG;EC 3.4.17.18
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18038,7 +18038,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;2;0;0;0
 His;0;0;0;0;0;0;0;0
-gamma-D-glutamyl-(L)-meso-diaminopimelate peptidase I | EC 3.4.19.11 | endopeptidase I
+gamma-D-glutamyl-(L)-meso-diaminopimelate peptidase I;EC 3.4.19.11;endopeptidase I
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18060,7 +18060,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-carboxypeptidase B2 | arginine carboxypeptidase | brain-specific carboxypeptidase B | HBCPB | TAFI | thrombin-activatable fibrinolysis inhibitor | plasma carboxypeptidase B | carboxypeptidase B, plasma | carboxypeptidase R | carboxypeptidase U | CPB2 g.p. (Homo sapiens) | EC 3.4.17.20
+carboxypeptidase B2;brain-specific carboxypeptidase B;arginine carboxypeptidase;HBCPB;TAFI;thrombin-activatable fibrinolysis inhibitor;carboxypeptidase B, plasma;carboxypeptidase R;carboxypeptidase U;CPB2 g.p. (Homo sapiens);plasma carboxypeptidase B;EC 3.4.17.20
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;2;4;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -18082,7 +18082,7 @@ Glu;1;2;1;1;0;0;0;0
 Lys;2;3;1;2;10;0;0;0
 Arg;0;1;2;2;9;0;0;0
 His;0;0;0;0;0;0;0;0
-carboxypeptidase A3 | mast cell carboxypeptidase A | tissue carboxypeptidase A | carboxypeptidase A, mast cellcarboxypeptidase A, tissue
+carboxypeptidase A3;tissue carboxypeptidase A;carboxypeptidase A, mast cellcarboxypeptidase A, tissue;mast cell carboxypeptidase A
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;1;0;0;0;0;0;0
@@ -18104,7 +18104,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;3;0;0;1;0;0;0;0
-metallocarboxypeptidase D peptidase unit 1 | metallocarboxypeptidase D domain A | EC 3.4.17.22
+metallocarboxypeptidase D peptidase unit 1;metallocarboxypeptidase D domain A;EC 3.4.17.22
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18126,7 +18126,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;1;0;0;0
 His;0;0;0;0;0;0;0;0
-metallocarboxypeptidase Z | carboxypeptidase Z
+metallocarboxypeptidase Z;carboxypeptidase Z
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;1;0;0;0;0
 Pro;2;1;0;0;0;0;0;0
@@ -18170,7 +18170,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-metallocarboxypeptidase D peptidase unit 2 | metallocarboxypeptidase D domain B | carboxypeptidase D peptidase unit 2 | EC 3.4.17.22
+metallocarboxypeptidase D peptidase unit 2;carboxypeptidase D peptidase unit 2;metallocarboxypeptidase D domain B;EC 3.4.17.22
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18192,7 +18192,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;1;0;0;0
 His;0;0;0;0;0;0;0;0
-carboxypeptidase A4 | carboxypeptidase A3 [obs.] | carboxypeptidase A3-2 [obs.] | CPA4 g.p. (Homo sapiens)
+carboxypeptidase A4;carboxypeptidase A3 [obs.];carboxypeptidase A3-2 [obs.];CPA4 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;5;6;6;0;0;0;0;0
 Pro;3;12;2;1;0;0;0;0
@@ -18214,7 +18214,7 @@ Glu;2;2;3;0;0;0;0;0
 Lys;5;3;4;8;0;0;0;0
 Arg;4;1;5;10;0;0;0;0
 His;2;1;1;4;2;0;0;0
-carboxypeptidase A6 | Mername-AA127 peptidase (Homo sapiens) | CPA6 g.p. (Homo sapiens) | CPAH
+carboxypeptidase A6;CPA6 g.p. (Homo sapiens);CPAH;Mername-AA127 peptidase (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;5;5;0;0;0;0;0
 Pro;2;5;2;1;0;0;0;0
@@ -18236,7 +18236,7 @@ Glu;2;0;1;0;0;0;0;0
 Lys;1;2;0;0;0;0;0;0
 Arg;2;0;4;6;0;0;0;0
 His;2;3;1;3;4;0;0;0
-carboxypeptidase A5 | Mername-AA041 peptidase | CPA5 g.p. (Homo sapiens)
+carboxypeptidase A5;CPA5 g.p. (Homo sapiens);Mername-AA041 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18258,7 +18258,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-CPG70 carboxypeptidase (Porphyromonas gingivalis) | antigen PG21 (Porphyromonas gingivalis) | immunoreactive 92 kDa antigen PG21
+CPG70 carboxypeptidase (Porphyromonas gingivalis);immunoreactive 92 kDa antigen PG21;antigen PG21 (Porphyromonas gingivalis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;3;0;3;0;0;0;0
 Pro;4;6;0;0;0;0;0;0
@@ -18302,7 +18302,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cytosolic carboxypeptidase 5 | Mername-AA216 hypothetical peptidase | AGBL5 g.p. (Homo sapiens) | hypothetical protein DKFZP434D011 (Homo sapiens) | hypothetical protein DKFZP434D011 (Mus musculus) | CCP5 | EC 3.4.17.24
+cytosolic carboxypeptidase 5;AGBL5 g.p. (Homo sapiens);hypothetical protein DKFZP434D011 (Homo sapiens);hypothetical protein DKFZP434D011 (Mus musculus);CCP5;Mername-AA216 hypothetical peptidase;EC 3.4.17.24
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18324,7 +18324,7 @@ Glu;2;4;3;6;6;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cytosolic carboxypeptidase 6 | AGBL4 g.p. (Mus musculus) | ATP/GTP binding protein-like 4 | hypothetical protein flj14442 (Homo sapiens) | CCP6 
+cytosolic carboxypeptidase 6;AGBL4 g.p. (Mus musculus);ATP/GTP binding protein-like 4;hypothetical protein flj14442 (Homo sapiens);CCP6 
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18346,7 +18346,7 @@ Glu;3;3;3;4;4;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;1;0;0;0
 His;0;0;0;0;0;0;0;0
-cytosolic carboxypeptidase 1 | KIAA1035 | Mername-AA217 hypothetical peptidase | soluble carboxypeptidase | AGTPBP1 g.p. (Homo sapiens) | hypothetical protein flj10682 (Homo sapiens) | tubulin carboxypeptidase | tubulinyl-Tyr carboxypeptidase | tyrosine carboxypeptidase | Nna1 protein | carboxypeptidase, solublecarboxypeptidase, tubulinyl-Tyr | carboxypeptidase-tubulin | CCP1 | EC 3.4.17.17
+cytosolic carboxypeptidase 1;KIAA1035;AGTPBP1 g.p. (Homo sapiens);hypothetical protein flj10682 (Homo sapiens);tubulin carboxypeptidase;tubulinyl-Tyr carboxypeptidase;tyrosine carboxypeptidase;carboxypeptidase, solublecarboxypeptidase, tubulinyl-Tyr;carboxypeptidase-tubulin;CCP1;Nna1 protein;soluble carboxypeptidase;Mername-AA217 hypothetical peptidase;EC 3.4.17.17
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;6;3;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18368,7 +18368,7 @@ Glu;9;7;12;17;11;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cytosolic carboxypeptidase 4 | Agbl1 g.p. (Mus musculus) isoform 3 | CCP4 (Mus musculus)
+cytosolic carboxypeptidase 4;Agbl1 g.p. (Mus musculus) isoform 3;CCP4 (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18478,7 +18478,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-zinc D-Ala-D-Ala carboxypeptidase (Streptomyces-type) | Zn2+ G peptidase | D-Ala-D-Ala carboxypeptidase, zinc (Streptomyces)carboxypeptidase, zinc D-Ala-D-Ala (Streptomyces) | D-alanyl-D-alanine hydrolase | EC 3.4.17.14
+zinc D-Ala-D-Ala carboxypeptidase (Streptomyces-type);Zn2+ G peptidase;D-Ala-D-Ala carboxypeptidase, zinc (Streptomyces)carboxypeptidase, zinc D-Ala-D-Ala (Streptomyces);D-alanyl-D-alanine hydrolase;EC 3.4.17.14
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18500,7 +18500,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-DD-carboxypeptidase pdcA (Myxococcus-type) | pdcA g.p. (Myxococcus xanthus)
+DD-carboxypeptidase pdcA (Myxococcus-type);pdcA g.p. (Myxococcus xanthus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18544,7 +18544,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-vanY D-Ala-D-Ala carboxypeptidase | D-Ala-D-Ala carboxypeptidase, vanY
+vanY D-Ala-D-Ala carboxypeptidase;D-Ala-D-Ala carboxypeptidase, vanY
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18566,7 +18566,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;4;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-vanX D-Ala-D-Ala dipeptidase | D-Ala-D-Ala dipeptidase, VanX | VanX g.p. (Enterococcus faecium) | EC 3.4.13.22
+vanX D-Ala-D-Ala dipeptidase;D-Ala-D-Ala dipeptidase, VanX;VanX g.p. (Enterococcus faecium);EC 3.4.13.22
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18588,7 +18588,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Aad peptidase | D-alanyl-D-alanine dipeptidase (Lactobacillus plantarum)
+Aad peptidase;D-alanyl-D-alanine dipeptidase (Lactobacillus plantarum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18610,7 +18610,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Ply500 L-Ala-D-Glu peptidase | L-Ala-D-Glu peptidase (bacteriophage A500) | Ply500 endolysin | PlyPSA | endolysin Ply500 | endolysin PSA
+Ply500 L-Ala-D-Glu peptidase;L-Ala-D-Glu peptidase (bacteriophage A500);Ply500 endolysin;PlyPSA;endolysin Ply500;endolysin PSA
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18676,7 +18676,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-DacB metallopeptidase (Streptococcus pneumoniae) | yokZ g.p. (Bacillus subtilis) | I33_2202 (Bacillus subtilis)
+DacB metallopeptidase (Streptococcus pneumoniae);I33_2202 (Bacillus subtilis);yokZ g.p. (Bacillus subtilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18698,7 +18698,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;2;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-pitrilysin | protease III (Escherichia coli)protease Pi (Escherichia coli) | EC 3.4.24.55
+pitrilysin;protease III (Escherichia coli)protease Pi (Escherichia coli);EC 3.4.24.55
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;2;2;0;1;0;1
 Pro;1;0;0;0;0;0;1;1
@@ -18720,7 +18720,7 @@ Glu;2;0;0;0;0;0;1;1
 Lys;2;4;1;3;4;2;1;2
 Arg;1;1;1;3;4;2;1;0
 His;0;0;1;2;0;0;0;1
-insulysin | insulin protease | insulin-degrading enzyme | insulinase | EC 3.4.24.56
+insulysin;insulin protease;insulin-degrading enzyme;insulinase;EC 3.4.24.56
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;14;6;6;3;14;16;8;5
 Pro;0;1;1;3;0;0;3;4
@@ -18742,7 +18742,7 @@ Glu;7;3;4;3;0;1;6;7
 Lys;2;4;2;4;4;6;3;3
 Arg;8;19;1;29;15;23;3;5
 His;8;6;4;7;8;2;2;1
-mitochondrial processing peptidase beta-subunit | MPP | PEP | PMPCB g.p. (Homo sapiens) | processing enhancing protein | EC 3.4.24.64
+mitochondrial processing peptidase beta-subunit;PEP;PMPCB g.p. (Homo sapiens);processing enhancing protein;MPP;EC 3.4.24.64
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;1;1;6;3;5;2;9
 Pro;6;1;1;2;1;1;5;5
@@ -18764,7 +18764,7 @@ Glu;1;0;1;0;0;4;2;3
 Lys;2;6;0;1;0;1;2;6
 Arg;5;22;65;3;0;6;1;1
 His;3;1;0;3;0;4;3;3
-chloroplast (stromal) processing peptidase | stromal processing peptidase | chloroplast processing endopeptidase | CPESPP
+chloroplast (stromal) processing peptidase;chloroplast processing endopeptidase;CPESPP;stromal processing peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;0;1;3;1
 Pro;3;1;1;1;0;0;2;1
@@ -18786,7 +18786,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;1;6;0;1;2;1
 Arg;0;2;3;1;0;3;0;2
 His;1;0;0;0;1;0;0;0
-nardilysin | somatostatin-28 convertase | HGNC:7995 | N-arginine dibasic convertase | NRD-convertase | NRDC g.p. (Homo sapiens) | EC 3.4.24.61
+nardilysin;HGNC:7995;N-arginine dibasic convertase;NRD-convertase;NRDC g.p. (Homo sapiens);somatostatin-28 convertase;EC 3.4.24.61
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;0;0;0;0;0;1;0
 Pro;1;0;0;0;0;0;1;1
@@ -18808,7 +18808,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;1;2;0;0;2
 Arg;0;1;0;5;5;1;1;0
 His;0;0;0;0;0;0;0;0
-Axl1 peptidase | Axl1 g.p. (Saccharomyces cerevisiae)
+Axl1 peptidase;Axl1 g.p. (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18830,7 +18830,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;1;0;0;0;0;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Ste23 peptidase | Ste23 g.p. (Saccharomyces cerevisiae)
+Ste23 peptidase;Ste23 g.p. (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18852,7 +18852,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-eupitrilysin | Mername-AA013 peptidase | metalloprotease 1 | hPreP | peptidasome | pitrilysin-like metalloprotease | PITRM1 g.p. (Homo sapiens)
+eupitrilysin;hPreP;peptidasome;pitrilysin-like metalloprotease;PITRM1 g.p. (Homo sapiens);Mername-AA013 peptidase;metalloprotease 1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;1;5;8;6;7;4;3
 Pro;2;2;1;3;1;0;4;0
@@ -18874,7 +18874,7 @@ Glu;0;1;2;0;0;2;2;3
 Lys;8;2;2;6;6;1;5;3
 Arg;10;6;4;7;7;4;0;3
 His;1;2;2;0;0;3;0;0
-falcilysin | metalloendopeptidase (Plasmodium falciparum)
+falcilysin;metalloendopeptidase (Plasmodium falciparum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;1;0;0;1
 Pro;0;0;0;0;0;0;2;0
@@ -18896,7 +18896,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;1;3;4;1;0;0;2
 Arg;0;0;0;1;1;2;0;0
 His;1;1;2;0;0;0;0;2
-CYM1 peptidase (Saccharomyces cerevisiae) | Mop112 peptidase
+CYM1 peptidase (Saccharomyces cerevisiae);Mop112 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -18918,7 +18918,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-YMXG peptidase | BH2405 protein (Bacillus halodurans) | RP219 g.p. (Rickettsia prowazekii) | ppBH4 peptidase
+YMXG peptidase;BH2405 protein (Bacillus halodurans);RP219 g.p. (Rickettsia prowazekii);ppBH4 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;8;3;1;0;0;2;3
 Pro;0;1;1;1;0;0;4;1
@@ -18940,7 +18940,7 @@ Glu;2;1;1;0;0;0;2;0
 Lys;0;2;3;2;4;2;4;10
 Arg;6;5;9;6;6;11;6;2
 His;0;1;2;3;0;0;0;1
-plinsulysin | IDE peptidase (Solanum lycopersicum) | plant insulysin homologue
+plinsulysin;IDE peptidase (Solanum lycopersicum);plant insulysin homologue
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;1;1;0;0;0;2
 Pro;1;3;5;2;0;0;2;1
@@ -18962,7 +18962,7 @@ Glu;2;1;1;1;0;0;1;0
 Lys;0;2;0;3;1;0;0;1
 Arg;2;1;1;1;2;1;0;0
 His;1;0;0;1;0;0;0;0
-YMXG peptidase | SPH2681 peptidase (Sphingomonas sp. strain A1)
+YMXG peptidase;SPH2681 peptidase (Sphingomonas sp. strain A1)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -18984,7 +18984,7 @@ Glu;1;2;0;1;1;1;2;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-leucyl aminopeptidase 3 | HlLAP (Haemaphysalis longicornis) | LAP3 g.p. (Homo sapiens) | Lap3 g.p. (Mus musculus) | leucyl aminopeptidase | leucyl peptidase | PEPS | peptidase S | cytosol aminopeptidase | cytosolic Cys-Gly dipeptidase | EC 3.4.11.1
+leucyl aminopeptidase 3;LAP3 g.p. (Homo sapiens);Lap3 g.p. (Mus musculus);leucyl aminopeptidase;leucyl peptidase;HlLAP (Haemaphysalis longicornis);cytosol aminopeptidase;cytosolic Cys-Gly dipeptidase;PEPS;peptidase S;EC 3.4.11.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19006,7 +19006,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-leucyl aminopeptidase (plant-type) | LapA1 (Solanum lycopersicum) | LapA2 (Solanum lycopersicum) | LapN (Solanum lycopersicum) | EC 3.4.11.1
+leucyl aminopeptidase (plant-type);LapA1 (Solanum lycopersicum);LapA2 (Solanum lycopersicum);LapN (Solanum lycopersicum);EC 3.4.11.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19028,7 +19028,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PepA aminopeptidase | XerB g.p. (Escherichia coli) | aminopeptidase A | aminopeptidase My | organophosphorus acid anhydrolase 2 | leucyl aminopeptidase (bacteria excluding Bacillaceae) | PepA g.p. (Escherichia coli) | phpA g.p. (Pseudomonas aeruginosa) | CarP g.p. (Escherichia coli) | EC 3.4.11.10
+PepA aminopeptidase;aminopeptidase A;aminopeptidase My;leucyl aminopeptidase (bacteria excluding Bacillaceae);CarP g.p. (Escherichia coli);organophosphorus acid anhydrolase 2;XerB g.p. (Escherichia coli);PepA g.p. (Escherichia coli);phpA g.p. (Pseudomonas aeruginosa);EC 3.4.11.10
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19050,7 +19050,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PepB aminopeptidase | PepB g.p. (Escherichia coli, Salmonella typhimurium) | EC 3.4.11.23
+PepB aminopeptidase;PepB g.p. (Escherichia coli, Salmonella typhimurium);EC 3.4.11.23
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19072,7 +19072,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;1;0;0;0;0
-M17 aminopeptidase (Plasmodium spp.) | aminopeptidase PfLAP | PfA-M17 peptidase
+M17 aminopeptidase (Plasmodium spp.);aminopeptidase PfLAP;PfA-M17 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;2;0;0;0;0
@@ -19138,7 +19138,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-leucyl aminopeptidase (Fasciola-type) | S-LAP (Drosophila melanogaster) | LAP1 (Schistosoma mansoni) | LAP2 (Schistosoma mansoni) | CsLAP2 (Clonorchis sinensis)
+leucyl aminopeptidase (Fasciola-type);LAP1 (Schistosoma mansoni);LAP2 (Schistosoma mansoni);CsLAP2 (Clonorchis sinensis);S-LAP (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19204,7 +19204,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-LAPTc aminopeptidase | LAPLm (Leishmania major) | EAN97960 g.p. (Trypanosoma cruzi)
+LAPTc aminopeptidase;LAPLm (Leishmania major);EAN97960 g.p. (Trypanosoma cruzi)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19248,7 +19248,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-aminopeptidase I | aminopeptidase yscI | Ape1 | yeast leucyl aminopeptidase I | Lap4 (Saccharomyces cerevisiae) | leucyl aminopeptidase I (Saccharomyces cerevisiae) | EC 3.4.11.22
+aminopeptidase I;aminopeptidase yscI;Ape1;Lap4 (Saccharomyces cerevisiae);leucyl aminopeptidase I (Saccharomyces cerevisiae);yeast leucyl aminopeptidase I;EC 3.4.11.22
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19270,7 +19270,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-aspartyl aminopeptidase | Ape4 g.p. (Saccharomyces cerevisiae) | aspartic aminopeptidase | DNPEP g.p. (Homo sapiens) | EC 3.4.11.21
+aspartyl aminopeptidase;DNPEP g.p. (Homo sapiens);Ape4 g.p. (Saccharomyces cerevisiae);aspartic aminopeptidase;EC 3.4.11.21
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -19292,7 +19292,7 @@ Glu;0;0;0;2;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;1;0;1;0
 His;0;0;0;0;2;0;0;0
-aspartyl aminopeptidase (Plasmodium-type) | PfM18AAP (Plasmodium falciparum)
+aspartyl aminopeptidase (Plasmodium-type);PfM18AAP (Plasmodium falciparum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -19314,7 +19314,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-membrane dipeptidase | microsomal dipeptidase | antigen 49C | dehydropeptidase I | dipeptidase 1 | DPEP1 g.p. (Homo sapiens) | DPH Idipeptidase, membraneMDPdipeptidase, renal | leukotriene D4 hydrolase | renal dipeptidase | EC 3.4.13.19
+membrane dipeptidase;dehydropeptidase I;dipeptidase 1;DPEP1 g.p. (Homo sapiens);DPH Idipeptidase, membraneMDPdipeptidase, renal;antigen 49C;renal dipeptidase;leukotriene D4 hydrolase;microsomal dipeptidase;EC 3.4.13.19
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;2;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19358,7 +19358,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-membrane-bound dipeptidase-3 | MBD-3 | membrane dipeptidase homologue 2 (mammalian) | Mername-AA016 peptidase
+membrane-bound dipeptidase-3;MBD-3;membrane dipeptidase homologue 2 (mammalian);Mername-AA016 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19424,7 +19424,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-glutamate carboxypeptidase | voraxaze | glucarpidase | glutamate carboxypeptidase I | carboxypeptidase G | carboxypeptidase G1 | carboxypeptidase G2 | CPG2 | EC 3.4.17.11
+glutamate carboxypeptidase;glucarpidase;glutamate carboxypeptidase I;carboxypeptidase G;carboxypeptidase G1;carboxypeptidase G2;CPG2;voraxaze;EC 3.4.17.11
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19446,7 +19446,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Gly-Xaa carboxypeptidase | yscS | glycine carboxypeptidase | carboxypeptidase a | carboxypeptidase S | carboxypeptidase yscS | CPS1 g.p. (Saccharomyces cerevisiae) | EC 3.4.17.4
+Gly-Xaa carboxypeptidase;glycine carboxypeptidase;carboxypeptidase a;carboxypeptidase S;carboxypeptidase yscS;CPS1 g.p. (Saccharomyces cerevisiae);yscS;EC 3.4.17.4
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19468,7 +19468,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidase T | tripeptidase | PepT g.p. (Bacillis subtilis, Lactococcus spp., Salmonella spp.)
+peptidase T;tripeptidase;PepT g.p. (Bacillis subtilis, Lactococcus spp., Salmonella spp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;4;6;4;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19490,7 +19490,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidase V | beta-Ala-His dipeptidase | PepV g.p. (Lactobacillus lactis) | carnosinase
+peptidase V;beta-Ala-His dipeptidase;carnosinase;PepV g.p. (Lactobacillus lactis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19512,7 +19512,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;1;0;0;0
-carnosine dipeptidase II | X-His dipeptidase | Mername-AA068 putative peptidase | tissue carnosinase | iminodipeptidase | N-beta-alanylarginine dipeptidase | glycylglycine dipeptidase | glycylleucine dipeptidase | peptidase A | Pro-X dipeptidase | prolidase II (eukaryote) | prolinase | prolyl dipeptidase | prolylglycine dipeptidase | carnosinase CN2 | carnosinase, tissue | CG17337 g.p. (Drosophila melanogaster) | CNDP2 g.p. (Homo sapiens) | CPGL putative peptidase | cytosolic nonspecific dipeptidase 2 | EC 3.4.13.18
+carnosine dipeptidase II;glycylglycine dipeptidase;glycylleucine dipeptidase;iminodipeptidase;tissue carnosinase;carnosinase CN2;carnosinase, tissue;CG17337 g.p. (Drosophila melanogaster);CNDP2 g.p. (Homo sapiens);CPGL putative peptidase;cytosolic nonspecific dipeptidase 2;N-beta-alanylarginine dipeptidase;X-His dipeptidase;peptidase A;Pro-X dipeptidase;prolidase II (eukaryote);prolinase;prolyl dipeptidase;prolylglycine dipeptidase;Mername-AA068 putative peptidase;EC 3.4.13.18
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;3;1;0;0;0
 Pro;0;0;0;2;0;0;0;0
@@ -19534,7 +19534,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;1;0;0;0
 His;0;0;0;0;0;0;0;0
-carnosine dipeptidase I | Mername-AA104 peptidase | serum carnosinase | beta-Ala-His dipeptidase (mammal) | plasma carnosinase | carnosinase CN1 | carnosinase, serum | CNDP1 g.p. (Homo sapiens) | CPGL2 putative peptidase | EC 3.4.13.20
+carnosine dipeptidase I;beta-Ala-His dipeptidase (mammal);carnosinase CN1;carnosinase, serum;CNDP1 g.p. (Homo sapiens);CPGL2 putative peptidase;serum carnosinase;plasma carnosinase;Mername-AA104 peptidase;EC 3.4.13.20
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;5;1;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19556,7 +19556,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;8;0;0;0
-Xaa-His dipeptidase | X-His dipeptidase | aminoacylhistidine dipeptidase | dipeptidase D | homocarnosinase | pepD g.p. (Escherichia coli) | peptidase D | carnosinase | EC 3.4.13.3
+Xaa-His dipeptidase;dipeptidase D;aminoacylhistidine dipeptidase;homocarnosinase;carnosinase;X-His dipeptidase;pepD g.p. (Escherichia coli);peptidase D;EC 3.4.13.3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19578,7 +19578,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;2;0;0;0
-carboxypeptidase Ss1 | CPSso
+carboxypeptidase Ss1;CPSso
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19600,7 +19600,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;1;0;0;0
 His;0;0;0;0;0;0;0;0
-DapE peptidase | succinyl-diaminopimelate desuccinylase | aspartyl dipeptidase | dapE g.p. (Escherichia coli) | EC 3.5.1.18
+DapE peptidase;dapE g.p. (Escherichia coli);aspartyl dipeptidase;succinyl-diaminopimelate desuccinylase;EC 3.5.1.18
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19644,7 +19644,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Xaa-methyl-His dipeptidase | X-methyl-His dipeptidase | aminoacyl-methylhistidine dipeptidase | anserinase | EC 3.4.13.5
+Xaa-methyl-His dipeptidase;aminoacyl-methylhistidine dipeptidase;anserinase;X-methyl-His dipeptidase;EC 3.4.13.5
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;3;3;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -19666,7 +19666,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;6;0;0;0
-indoleacetyl amino acid hydrolase | IAA-aminoacid hydrolase | ILL2 (Arabidopsis thaliana)
+indoleacetyl amino acid hydrolase;IAA-aminoacid hydrolase;ILL2 (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19688,7 +19688,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Dug1 peptidase | Defective in Utilization of Glutathione 1 g.p. (Saccharomyces cerevisiae) | glutamate carboxypeptidase-like protein (Saccharomyces cerevisiae)
+Dug1 peptidase;glutamate carboxypeptidase-like protein (Saccharomyces cerevisiae);Defective in Utilization of Glutathione 1 g.p. (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19710,7 +19710,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-p-aminobenzoyl-glutamate hydrolase subunit A | abgA
+p-aminobenzoyl-glutamate hydrolase subunit A;abgA
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19732,7 +19732,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cytosolic beta-alanyl-lysine dipeptidase | Mername-AA161 protein | PM20D2 g.p. (Homo sapiens)
+cytosolic beta-alanyl-lysine dipeptidase;PM20D2 g.p. (Homo sapiens);Mername-AA161 protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19754,7 +19754,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;4;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-beta-lytic metallopeptidase | achromopeptidase component | EC 3.4.24.32
+beta-lytic metallopeptidase;achromopeptidase component;EC 3.4.24.32
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;2;13;1;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19776,7 +19776,7 @@ Glu;0;1;0;0;0;0;1;0
 Lys;1;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;1
 His;0;0;0;0;4;0;0;0
-staphylolysin | staphylolytic endopeptidase | LasA protein (Pseudomonas aeruginosa) | pseudoalterin (Pseudoalteromonas sp.)
+staphylolysin;LasA protein (Pseudomonas aeruginosa);staphylolytic endopeptidase;pseudoalterin (Pseudoalteromonas sp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;9;12;5;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19798,7 +19798,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;2;0;0;0;0;0;0;0
-Mername-AA291 peptidase | fibrinolytic peptidase (Aeromononas)
+Mername-AA291 peptidase;fibrinolytic peptidase (Aeromononas)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;6;7;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19820,7 +19820,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;2;0;0;0;0;0;0;0
-lysostaphin | lytU g.p. (Staphylococcus aureus) | EC 3.4.24.75
+lysostaphin;lytU g.p. (Staphylococcus aureus);EC 3.4.24.75
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;3;5;6;6;5;2;0
 Pro;0;0;0;0;0;0;0;0
@@ -19842,7 +19842,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;1;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-zoocin A | zooA g.p. (Streptococcus zooepidermicus) | yomI g.p. (Bacillus subtilis) | CwlP g.p. (Bacillus subtilis)
+zoocin A;zooA g.p. (Streptococcus zooepidermicus);CwlP g.p. (Bacillus subtilis);yomI g.p. (Bacillus subtilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19908,7 +19908,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Mername-AA292 peptidase | NG1686 peptidase (Neisseria gonorrhoeae)
+Mername-AA292 peptidase;NG1686 peptidase (Neisseria gonorrhoeae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19930,7 +19930,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-LytH peptidase | BSU32340 g.p. (Bacillus subtilis)
+LytH peptidase;BSU32340 g.p. (Bacillus subtilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19952,7 +19952,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-YebA peptidase | MepM peptidase (Escherichia coli)
+YebA peptidase;MepM peptidase (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19974,7 +19974,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-subfamily M23B unassigned peptidases | ShyB putative peptidase (Vibrio cholerae) | ShyB putative peptidase (Vibrio cholerae) | peptidoglycan peptidase3 (Campylobacter jejuni) | Pgp3 g.p. (Campylobacter jejuni) | EppA peptidoglycan endopeptidase (Neisseria gonorrhoeae)
+subfamily M23B unassigned peptidases;ShyB putative peptidase (Vibrio cholerae);ShyB putative peptidase (Vibrio cholerae);peptidoglycan peptidase3 (Campylobacter jejuni);Pgp3 g.p. (Campylobacter jejuni);EppA peptidoglycan endopeptidase (Neisseria gonorrhoeae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -19996,7 +19996,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-methionyl aminopeptidase 1 (Escherichia-type) | MetAP1 (Saccharomyces cerevisiae) | methionine aminopeptidase 1 | methionyl aminopeptidase 1 (Escherichia coli) | MtMetAP1a (Mycobacterium tuberculosis) | MtMetAP1c (Mycobacterium tuberculosis) | peptidase M | EC 3.4.11.18
+methionyl aminopeptidase 1 (Escherichia-type);peptidase M;MetAP1 (Saccharomyces cerevisiae);methionine aminopeptidase 1;methionyl aminopeptidase 1 (Escherichia coli);MtMetAP1a (Mycobacterium tuberculosis);MtMetAP1c (Mycobacterium tuberculosis);EC 3.4.11.18
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;45;17;22;33
 Pro;0;0;0;0;80;10;47;42
@@ -20018,7 +20018,7 @@ Glu;0;0;0;0;2;88;57;41
 Lys;0;0;0;0;12;128;95;89
 Arg;0;0;0;0;1;49;38;29
 His;0;0;0;0;0;29;24;30
-methionyl aminopeptidase 2 | MetAP2 (Saccharomyces cerevisiae) | methionine aminopeptidase 2 | peptidase M | EC 3.4.11.18 | eukaryotic initiation factor 2 alpha binding protein p67
+methionyl aminopeptidase 2;peptidase M;MetAP2 (Saccharomyces cerevisiae);methionine aminopeptidase 2;EC 3.4.11.18;eukaryotic initiation factor 2 alpha binding protein p67
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;7;3;5;2
 Pro;0;0;0;0;19;4;2;9
@@ -20040,7 +20040,7 @@ Glu;0;0;0;0;0;26;17;19
 Lys;0;0;0;0;0;23;13;18
 Arg;0;0;0;0;0;7;7;4
 His;0;0;0;0;0;1;1;3
-Xaa-Pro dipeptidase (bacteria-type) | X-Pro dipeptidase | dipeptidase, X-Pro (bacteria) | imidodipeptidase | gamma peptidase | pepQ (Escherichia coli) | prolidase | proline dipeptidase | prolytase | EC 3.4.13.9
+Xaa-Pro dipeptidase (bacteria-type);gamma peptidase;imidodipeptidase;dipeptidase, X-Pro (bacteria);X-Pro dipeptidase;pepQ (Escherichia coli);prolidase;proline dipeptidase;prolytase;EC 3.4.13.9
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;1;13;0;0;0
@@ -20062,7 +20062,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;1;0;0;0;0
-aminopeptidase P (bacteria) | X-Pro aminopeptidase (bacteria-type) | aminoacylproline aminopeptidase | aminopeptidase, X-Pro (bacteria) | PepP g.p. (Escherichia coli) | proline aminopeptidase | EC 3.4.11.9
+aminopeptidase P (bacteria);aminoacylproline aminopeptidase;aminopeptidase, X-Pro (bacteria);X-Pro aminopeptidase (bacteria-type);PepP g.p. (Escherichia coli);proline aminopeptidase;EC 3.4.11.9
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;3;0;0;0;0
 Pro;0;0;0;0;7;1;0;0
@@ -20084,7 +20084,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-aminopeptidase P2 | X-Pro aminopeptidase (eukaryote) | XPNPEP2 g.p. (Homo sapiens) | membrane aminopeptidase P | microsomal proline aminopeptidase | aminoacylproline aminopeptidase | aminopeptidase P (eukaryote membrane-bound type) | aminopeptidase, X-Pro (eukaryote membrane-bound type)aminopeptidase P, membraneproline aminopeptidase, microsomal | EC 3.4.11.9
+aminopeptidase P2;aminoacylproline aminopeptidase;aminopeptidase P (eukaryote membrane-bound type);aminopeptidase, X-Pro (eukaryote membrane-bound type)aminopeptidase P, membraneproline aminopeptidase, microsomal;X-Pro aminopeptidase (eukaryote);XPNPEP2 g.p. (Homo sapiens);membrane aminopeptidase P;microsomal proline aminopeptidase;EC 3.4.11.9
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;3;0;0;3;0
 Pro;0;0;0;0;13;10;0;1
@@ -20106,7 +20106,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;1;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-bacillus Xaa-Pro aminopeptidase | Mername-AA019 peptidase | YkvY g.p. (Bacillus subtilis) | lactobacillus prolidase | PapB peptidase (Bacillus subtilis) | pepP g.p. (Lactococcus lactis) | pepQ g.p. (Lactobacillus delbrueckii) | prolidase, lactobacillus
+bacillus Xaa-Pro aminopeptidase;lactobacillus prolidase;YkvY g.p. (Bacillus subtilis);PapB peptidase (Bacillus subtilis);pepP g.p. (Lactococcus lactis);pepQ g.p. (Lactobacillus delbrueckii);prolidase, lactobacillus;Mername-AA019 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;0;0;0;1;9;3;0;0
@@ -20128,7 +20128,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;3;0;0;0;1
 His;0;0;0;0;0;0;0;0
-Xaa-Pro dipeptidase (eukaryote-type) | X-Pro dipeptidase | dipeptidase, X-Pro (eukaryote) | PEPD g.p. (Homo sapiens) | peptidase 4 (Mus musculus) | peptidase D | prolidase I | proline dipeptidase
+Xaa-Pro dipeptidase (eukaryote-type);dipeptidase, X-Pro (eukaryote);X-Pro dipeptidase;PEPD g.p. (Homo sapiens);peptidase 4 (Mus musculus);peptidase D;prolidase I;proline dipeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;3;0;0;0
@@ -20150,7 +20150,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-hyperthermophile prolidase | Mername AA270 prolidase | YqhT g.p. (Bacillus subtilis) | PapA peptidase (Bacillus subtilis)
+hyperthermophile prolidase;YqhT g.p. (Bacillus subtilis);PapA peptidase (Bacillus subtilis);Mername AA270 prolidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;8;0;0;0
@@ -20172,7 +20172,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-aminopeptidase P1 | Xaa-Pro aminopeptidase 1 (Solanum lycopersicum) | Xaa-Pro aminopeptidase 2 (Solanum lycopersicum) | XPNPEP1 g.p. (Homo sapiens) | XPNPEPL g.p. (Homo sapiens) | aminopeptidase P (eukaryote soluble type) | aminopeptidase, X-Pro (eukaryote soluble type)aminopeptidase P, soluble | app1 g.p. (Solanum lycopersicum) | app2 g.p. (Solanum lycopersicum)
+aminopeptidase P1;aminopeptidase P (eukaryote soluble type);aminopeptidase, X-Pro (eukaryote soluble type)aminopeptidase P, soluble;app1 g.p. (Solanum lycopersicum);app2 g.p. (Solanum lycopersicum);Xaa-Pro aminopeptidase 1 (Solanum lycopersicum);Xaa-Pro aminopeptidase 2 (Solanum lycopersicum);XPNPEP1 g.p. (Homo sapiens);XPNPEPL g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;0;0;3;2
 Pro;0;0;0;0;18;3;4;1
@@ -20194,7 +20194,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;1;1;0
 Arg;0;0;0;6;0;1;0;0
 His;0;0;0;1;0;0;0;0
-methionyl aminopeptidase 1 (eukaryote) | MetAP1 (eukaryote) | HsMetAP1 | CG13630 g.p. (Drosophila melanogaster)
+methionyl aminopeptidase 1 (eukaryote);HsMetAP1;CG13630 g.p. (Drosophila melanogaster);MetAP1 (eukaryote)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;1;1;0
@@ -20216,7 +20216,7 @@ Glu;0;0;0;0;0;1;1;0
 Lys;0;0;0;0;0;0;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;1;0
-aminopeptidase P3 | X-prolyl aminopeptidase P3 | XPNPEP3 g.p. (Homo sapiens) | mitochondrial intermediate cleaving peptidase 55 kDa | ICP55 peptidase | EC 3.4.11.26
+aminopeptidase P3;ICP55 peptidase;X-prolyl aminopeptidase P3;XPNPEP3 g.p. (Homo sapiens);mitochondrial intermediate cleaving peptidase 55 kDa;EC 3.4.11.26
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;4;2
 Pro;0;0;0;0;13;0;3;4
@@ -20238,7 +20238,7 @@ Glu;0;0;0;0;0;2;1;0
 Lys;0;0;0;0;0;0;2;7
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;2;1;2
-mitochondrial methionyl aminopeptidase | Mername-AA021 peptidase | Mername-AA160 peptidase | homologue M24Mm1 (Mus musculus)
+mitochondrial methionyl aminopeptidase;homologue M24Mm1 (Mus musculus);Mername-AA021 peptidase;Mername-AA160 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;52;12;6;1
 Pro;0;0;0;0;10;9;18;10
@@ -20282,7 +20282,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Mername-AA273 peptidase | app-1 g.p. (Caenorhabditis elegans) | W03G9.4 g.p. (Caenorhabditis elegans)
+Mername-AA273 peptidase;app-1 g.p. (Caenorhabditis elegans);W03G9.4 g.p. (Caenorhabditis elegans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;2;0
 Pro;0;0;0;0;3;1;0;0
@@ -20326,7 +20326,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-PH0974 dipeptidase | Mername-AA265 dipeptidase
+PH0974 dipeptidase;Mername-AA265 dipeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;1;6;0;0;0
@@ -20348,7 +20348,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-methionyl aminopeptidase 1 (Staphylococcus-type) | YflG g. p. (Bacillus subtilis)
+methionyl aminopeptidase 1 (Staphylococcus-type);YflG g. p. (Bacillus subtilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -20392,7 +20392,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-aminopeptidase P (Plasmodium falciparum-type) | PfAPP
+aminopeptidase P (Plasmodium falciparum-type);PfAPP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;1;0
 Pro;0;0;0;1;22;1;0;0
@@ -20436,7 +20436,7 @@ Glu;0;0;0;1;1;1;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;0;1;3;2;2
 His;0;0;0;0;0;0;2;2
-LCP55 (Arabidopsis thaliana) | At1g09300 (Arabidopsis thaliana)
+LCP55 (Arabidopsis thaliana);At1g09300 (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;4;1;7;3
 Pro;0;0;0;0;0;0;3;10
@@ -20458,7 +20458,7 @@ Glu;0;0;0;0;0;2;7;2
 Lys;0;0;0;0;0;1;6;1
 Arg;0;0;0;0;0;1;1;0
 His;0;0;0;0;0;0;2;1
-IgA1-specific metallopeptidase | IgA protease (Streptococcus sp.) | immunoglobulin A1 proteinase | EC 3.4.24.13
+IgA1-specific metallopeptidase;IgA protease (Streptococcus sp.);immunoglobulin A1 proteinase;EC 3.4.24.13
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;1;0;1;0;1
@@ -20480,7 +20480,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-tentoxilysin | TeNT | tetanus neurotoxin | tetanus toxin | neurotoxin, tetanustoxin, tetanus | EC 3.4.24.68
+tentoxilysin;TeNT;tetanus neurotoxin;tetanus toxin;neurotoxin, tetanustoxin, tetanus;EC 3.4.24.68
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -20502,7 +20502,7 @@ Glu;0;0;0;0;0;3;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-bontoxilysin | myobloc | BoNT/A | BoNT/B | BoNT/C | BoNT/D | BoNT/E | BoNT/F | BoNT/G | BoNT/X | botox A | botulinum neurotoxin type A | botulinum neurotoxin type B | botulinum neurotoxin type C | botulinum neurotoxin type D | botulinum neurotoxin type E | botulinum neurotoxin type F | botulinum neurotoxin type G | botulinum neurotoxin type H | botulinum toxin | Dysport | neurotoxin, botulinumtoxin, botulinumonabotulinum toxin type A | EC 3.4.24.69
+bontoxilysin;BoNT/A;BoNT/B;BoNT/C;BoNT/D;BoNT/E;BoNT/F;BoNT/G;BoNT/X;botox A;botulinum neurotoxin type A;botulinum neurotoxin type B;botulinum neurotoxin type C;botulinum neurotoxin type D;botulinum neurotoxin type E;botulinum neurotoxin type F;botulinum neurotoxin type G;botulinum neurotoxin type H;botulinum toxin;Dysport;neurotoxin, botulinumtoxin, botulinumonabotulinum toxin type A;myobloc;EC 3.4.24.69
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -20546,7 +20546,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;1;0;0
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-botulinum neurotoxin X | BoNT/X
+botulinum neurotoxin X;BoNT/X
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -20590,7 +20590,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;1;0;0;1;0;0;0
-aminopeptidase Y | aminopeptidase Co | APE3 g.p. (Saccharomyces cerevisiae) | APY1 | Lap2 g.p. (Aspergillus fumigatus) | Lap2 g.p. (Trichophyton rubrum) | lysyl aminopeptidase (yeast) | cobalt-activated aminopeptidase | EC 3.4.11.15
+aminopeptidase Y;aminopeptidase Co;APE3 g.p. (Saccharomyces cerevisiae);APY1;Lap2 g.p. (Aspergillus fumigatus);Lap2 g.p. (Trichophyton rubrum);lysyl aminopeptidase (yeast);cobalt-activated aminopeptidase;EC 3.4.11.15
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;2;0;0;0;0
@@ -20612,7 +20612,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;2;0;0;0;0
 Arg;0;0;0;2;1;0;0;0
 His;0;0;0;0;0;0;0;0
-aminopeptidase Ap1 | EC 3.4.11.10
+aminopeptidase Ap1;EC 3.4.11.10
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;3;4;5;5;4
 Pro;0;0;0;0;0;1;2;1
@@ -20634,7 +20634,7 @@ Glu;0;0;0;0;3;4;5;4
 Lys;0;0;0;4;2;1;1;1
 Arg;0;0;0;2;4;3;2;3
 His;0;0;0;3;3;3;3;3
-aminopeptidase S (Streptomyces-type) | Mername-AA022 peptidase | SGAP | SKAP | aminopeptidase (Streptomyces griseus) | EC 3.4.11.24
+aminopeptidase S (Streptomyces-type);aminopeptidase (Streptomyces griseus);SGAP;SKAP;Mername-AA022 peptidase;EC 3.4.11.24
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -20678,7 +20678,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Mername-AA063 peptidase | aminopeptidase (Aspergillus parasiticus) | YDR415c protein (Saccharomyces cerevisiae)
+Mername-AA063 peptidase;aminopeptidase (Aspergillus parasiticus);YDR415c protein (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;1;0;1;1
 Pro;0;0;0;1;0;1;0;0
@@ -20700,7 +20700,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;2;1;1;0;0
 His;0;0;0;1;0;0;0;0
-secreted aminopeptidase (Pseudomonas-type) | Ker AP (Pseudomonas aeruginosa KS-1) | aminopeptidase Y (Pseudomonas aeruginosa) | PA2939 g.p. (Pseudomonas aeruginosa) | PA_LAP (Pseudomonas aeruginosa)
+secreted aminopeptidase (Pseudomonas-type);Ker AP (Pseudomonas aeruginosa KS-1);aminopeptidase Y (Pseudomonas aeruginosa);PA2939 g.p. (Pseudomonas aeruginosa);PA_LAP (Pseudomonas aeruginosa)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;0;0;0;0;0;1;0;0
@@ -20722,7 +20722,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-YwaD peptidase | ywaD g.p. (Bacillus subtilis) | BSAP | BSn5_07875 g.p. (Bacillus subtilis) | BSU38470 | BSU6633_10351 g.p. (Bacillus subtilis) | ipa-8r
+YwaD peptidase;BSAP;BSn5_07875 g.p. (Bacillus subtilis);BSU38470;BSU6633_10351 g.p. (Bacillus subtilis);ipa-8r;ywaD g.p. (Bacillus subtilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -20744,7 +20744,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-glutamate carboxypeptidase II | membrane glutamate carboxypeptidase | microsomal gamma-glutamyl carboxypeptidase | acidic dipeptidase | folate hydrolase 1 | FOLH1 | N-acetylated-alpha-linked-acidic dipeptidase | NAAG peptidase | NAALADase | GCPII | prostate-specific membrane antigen | PSMA | PSMA | pteroylpoly-gamma-glutamate carboxypeptidase | EC 3.4.17.21
+glutamate carboxypeptidase II;GCPII;folate hydrolase 1;FOLH1;acidic dipeptidase;N-acetylated-alpha-linked-acidic dipeptidase;NAAG peptidase;NAALADase;prostate-specific membrane antigen;PSMA;PSMA;pteroylpoly-gamma-glutamate carboxypeptidase;membrane glutamate carboxypeptidase;microsomal gamma-glutamyl carboxypeptidase;EC 3.4.17.21
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -20766,7 +20766,7 @@ Glu;0;0;0;5;8;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-glutamate carboxypeptidase III | beta-citrylglutamate hydrolase | NAALADASE II | GCPIII
+glutamate carboxypeptidase III;GCPIII;beta-citrylglutamate hydrolase;NAALADASE II
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -20788,7 +20788,7 @@ Glu;0;0;0;1;3;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-carboxypeptidase Q | Ser-Met dipeptidase | dipeptidase, lysosomal | hemopoietic lineage switch 2 protein | LCH1 peptidase | liver annexin-like protein (Rattus norvegicus) | lysosomal dipeptidase | PGCP | plasma glutamate carboxypeptidase
+carboxypeptidase Q;dipeptidase, lysosomal;LCH1 peptidase;liver annexin-like protein (Rattus norvegicus);lysosomal dipeptidase;hemopoietic lineage switch 2 protein;Ser-Met dipeptidase;PGCP;plasma glutamate carboxypeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;5;2;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -20876,7 +20876,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-AaaA aminopeptidase | PA0328 autotransporter (Pseudomonas aeruginosa)
+AaaA aminopeptidase;PA0328 autotransporter (Pseudomonas aeruginosa)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -20898,7 +20898,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;13;0;0;0;0
 His;0;0;0;0;0;0;0;0
-leucine aminopeptidase-1 (Aspergillus fumigatus) | Lap1 g.p. (Aspergillus fumigatus)
+leucine aminopeptidase-1 (Aspergillus fumigatus);Lap1 g.p. (Aspergillus fumigatus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -20964,7 +20964,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PepS aminopeptidase | PepS g.p. (Streptococcus thermophilus)
+PepS aminopeptidase;PepS g.p. (Streptococcus thermophilus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -20986,7 +20986,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-aminopeptidase S (Staphylococcus-type) | AmpS g.p. (Staphylococcus aureus)
+aminopeptidase S (Staphylococcus-type);AmpS g.p. (Staphylococcus aureus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;2;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -21008,7 +21008,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-hyicolysin | ShpI g.p. (Staphylococcus hyicus) | neutral protease (Staphylococcus hyicus)
+hyicolysin;neutral protease (Staphylococcus hyicus);ShpI g.p. (Staphylococcus hyicus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;1;0;0;0;0;1
 Pro;1;1;1;0;0;0;0;0
@@ -21030,7 +21030,7 @@ Glu;1;0;0;0;0;0;1;0
 Lys;1;0;1;2;1;0;2;2
 Arg;0;0;1;2;0;2;1;1
 His;0;0;0;1;0;1;0;0
-carboxypeptidase Taq | EC 3.4.17.19
+carboxypeptidase Taq;EC 3.4.17.19
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -21052,7 +21052,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;1;0;0;0
 His;0;0;0;0;1;0;0;0
-carboxypeptidase Pfu | Mername-AA023 peptidase | archaean thermostable carboxypeptidase
+carboxypeptidase Pfu;archaean thermostable carboxypeptidase;Mername-AA023 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -21140,7 +21140,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;3;0;0;0;1;0;0;0
 Arg;0;0;0;0;1;0;0;0
 His;0;0;0;0;1;0;0;0
-ypwA peptidase | BSU22080 g.p. (Bacillus subtilis)
+ypwA peptidase;BSU22080 g.p. (Bacillus subtilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -21162,7 +21162,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;1;0;0;0
 His;0;0;0;0;1;0;0;0
-anthrax lethal factor | lethal factor, anthraxLF | lethal toxin, anthrax | LeTx | EC 3.4.24.83
+anthrax lethal factor;lethal factor, anthraxLF;lethal toxin, anthrax;LeTx;EC 3.4.24.83
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;1;0;1;0;0
 Pro;4;6;1;8;0;8;0;0
@@ -21184,7 +21184,7 @@ Glu;0;0;0;0;0;1;0;3
 Lys;7;0;0;4;0;0;1;0
 Arg;2;1;3;2;0;0;2;1
 His;2;1;0;0;0;0;0;1
-Pro-Pro endopeptidase 1 (Clostridium difficile-type) | Zmp1 peptidase (Clostridium difficile) | PPEP-1 | CD2830 g.p. (Clostridium difficile) | CD630_28300 protein (Clostridium difficile) | EC 3.4.24.89
+Pro-Pro endopeptidase 1 (Clostridium difficile-type);Zmp1 peptidase (Clostridium difficile);CD2830 g.p. (Clostridium difficile);CD630_28300 protein (Clostridium difficile);PPEP-1;EC 3.4.24.89
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;1;0;0;13;13;0;13;12
@@ -21228,7 +21228,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;0;0;0;0;0;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-penicillolysin | acid metalloendopeptidase, fungal | fungal acid metalloendopeptidase
+penicillolysin;fungal acid metalloendopeptidase;acid metalloendopeptidase, fungal
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;3;4;1;3;0;2;1
 Pro;1;2;1;5;0;2;2;3
@@ -21250,7 +21250,7 @@ Glu;2;1;1;2;0;1;1;0
 Lys;1;1;5;0;1;2;2;2
 Arg;4;0;6;12;5;3;2;1
 His;3;0;2;0;0;0;0;1
-deuterolysin | Mep20 g.p. (Aspergillus fumigatus) | acid metalloproteinase | neutral proteinase II | NpII g.p. (Aspergillus oryzae) | PepJ peptidase (Emericella nidulans) | protease II (Penicillium roqueforti) | EC 3.4.24.39
+deuterolysin;acid metalloproteinase;neutral proteinase II;NpII g.p. (Aspergillus oryzae);PepJ peptidase (Emericella nidulans);protease II (Penicillium roqueforti);Mep20 g.p. (Aspergillus fumigatus);EC 3.4.24.39
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;2;1;2;1;0;0;4
 Pro;0;0;0;0;0;2;0;0
@@ -21272,7 +21272,7 @@ Glu;2;0;3;2;1;1;1;1
 Lys;1;0;1;1;0;0;2;0
 Arg;1;0;2;5;0;0;0;0
 His;4;1;1;1;3;4;0;2
-peptidyl-Lys metallopeptidase | metalloendopeptidase Lys-N | Am-LysN | GfMep (Grifola) | PoMep (Pleurotus sp.) | EC 3.4.24.20
+peptidyl-Lys metallopeptidase;GfMep (Grifola);Am-LysN;PoMep (Pleurotus sp.);metalloendopeptidase Lys-N;EC 3.4.24.20
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;123;135;140;175;0;116;166;141
 Pro;117;107;84;86;0;87;72;101
@@ -21294,7 +21294,7 @@ Glu;214;209;162;204;0;214;145;173
 Lys;131;111;127;108;2105;112;126;105
 Arg;102;112;112;94;0;128;82;99
 His;56;44;39;26;0;48;35;36
-fungalysin | Mep g.p. (Aspergillus flavus, A. fumigatus) | MEP1 g.p. (Microsporum canis) | MEP2 g.p. (Microsporum canis) | MEP3 g.p. (Microsporum canis) | allergen Asp f 5 (Aspergillus fumigatus) | neutral protease I (Aspergillus oryzae) | NpI (Aspergillus oryzae) | elastinolytic metalloproteinase
+fungalysin;allergen Asp f 5 (Aspergillus fumigatus);neutral protease I (Aspergillus oryzae);NpI (Aspergillus oryzae);Mep g.p. (Aspergillus flavus, A. fumigatus);MEP1 g.p. (Microsporum canis);MEP2 g.p. (Microsporum canis);MEP3 g.p. (Microsporum canis);elastinolytic metalloproteinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;1;1;0;0;0;1
 Pro;0;0;0;0;0;0;0;1
@@ -21338,7 +21338,7 @@ Glu;1;1;0;0;0;2;1;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;1;0
 His;0;0;2;1;1;1;0;1
-isoaspartyl dipeptidase (metallo-type) | beta-aspartyl dipeptidase | iadA g.p. (Escherichia coli)
+isoaspartyl dipeptidase (metallo-type);beta-aspartyl dipeptidase;iadA g.p. (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;1;0;0;0
@@ -21360,7 +21360,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;1;0;0;0
-Pro-Hyp dipeptidase | prolidase (Aureobacterium esteraromaticum)
+Pro-Hyp dipeptidase;prolidase (Aureobacterium esteraromaticum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;0;0;0;0
 Pro;0;0;0;2;7;0;0;0
@@ -21404,7 +21404,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-FtsH peptidase | MrsC g.p. (Escherichia coli) | HflB protease | tolZ g.p. (Escherichia coli) | filamentation temperature sensitive H peptidase
+FtsH peptidase;filamentation temperature sensitive H peptidase;HflB protease;tolZ g.p. (Escherichia coli);MrsC g.p. (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;0;1;1;1
 Pro;2;1;1;0;1;0;2;3
@@ -21426,7 +21426,7 @@ Glu;0;2;1;3;1;4;3;3
 Lys;0;0;0;2;2;2;0;0
 Arg;1;0;0;1;1;0;0;0
 His;0;0;0;0;0;1;0;0
-m-AAA peptidase | m-AAA protease | mitochondrial ATP-dependent metalloendopeptidase Rcal1(Saccharomyces cerevisiae) | ATP-dependent metalloendopeptidase, mitochondrial (Saccharomyces cerevisiae) | Yta12 g.p. (Saccharomyces cerevisiae) | Rca1 g.p. (Saccharomyces cerevisiae)
+m-AAA peptidase;ATP-dependent metalloendopeptidase, mitochondrial (Saccharomyces cerevisiae);Rca1 g.p. (Saccharomyces cerevisiae);Yta12 g.p. (Saccharomyces cerevisiae);m-AAA protease;mitochondrial ATP-dependent metalloendopeptidase Rcal1(Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;1;0;0;0;0;0;1;0
@@ -21448,7 +21448,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;1;1;0;0;0;1
 His;0;0;0;0;0;0;0;0
-paraplegin | spastic paraplegia gene 7 | SPG7 g.p. (Homo sapiens)
+paraplegin;spastic paraplegia gene 7;SPG7 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -21470,7 +21470,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;1
-Afg3-like protein 2 | AFG3L2 g.p. (Homo sapiens) | paraplegin-related protein
+Afg3-like protein 2;AFG3L2 g.p. (Homo sapiens);paraplegin-related protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;1;1
@@ -21492,7 +21492,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;1
 Arg;0;1;0;1;0;1;0;0
 His;0;0;0;0;0;0;0;0
-Ftsh peptidase (Thermus-type) | Ftsh peptidase (Thermus thermophilus HB8)
+Ftsh peptidase (Thermus-type);Ftsh peptidase (Thermus thermophilus HB8)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;7;2;0;3;0;4;6;0
 Pro;1;1;0;1;0;0;4;7
@@ -21514,7 +21514,7 @@ Glu;1;2;4;0;1;0;1;2
 Lys;0;0;0;0;0;0;1;0
 Arg;1;0;1;0;2;2;0;0
 His;0;0;1;0;0;0;0;0
-Afg3-like protein 1A | Afg3-like protein 1B | AFG3L1 g.p. (Homo sapiens) | ATP-dependent zinc metallopeptidase (Mus musculus)
+Afg3-like protein 1A;Afg3-like protein 1B;AFG3L1 g.p. (Homo sapiens);ATP-dependent zinc metallopeptidase (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -21536,7 +21536,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;1
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-glutamyl aminopeptidase (bacterium) | aminopeptidase A (bacterium) | PepA g.p. (Lactococcus lactis)
+glutamyl aminopeptidase (bacterium);aminopeptidase A (bacterium);PepA g.p. (Lactococcus lactis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -21558,7 +21558,7 @@ Glu;0;0;0;3;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-aminopeptidase I beta chain (Bacillus-type) | aminopeptidase I, thermophilic | thermophilic aminopeptidase I
+aminopeptidase I beta chain (Bacillus-type);aminopeptidase I, thermophilic;thermophilic aminopeptidase I
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -21580,7 +21580,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PhTET1 aminopeptidase | deblocking aminopeptidase (Pyrococcus furiosus) | deblocking aminopeptidase (Pyrococcus sp.) | FrvX g.p. (Pyrococcus horikoshii) | PH0519 g.p. (Pyrococcus horikoshii) | PhDAP aminopeptidase | PhTET aminopeptidase (Pyrococcus sp.)
+PhTET1 aminopeptidase;deblocking aminopeptidase (Pyrococcus furiosus);deblocking aminopeptidase (Pyrococcus sp.);FrvX g.p. (Pyrococcus horikoshii);PH0519 g.p. (Pyrococcus horikoshii);PhDAP aminopeptidase;PhTET aminopeptidase (Pyrococcus sp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -21602,7 +21602,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PhTET2 aminopeptidase | Mername-AA082 peptidase | APDkam589 (Desulfurococcus kamchatkensis) | BsuAP (Bacillus subtilis) | PH1527 g.p. (Pyrococcus horikoshii) | PhTET2 aminopeptidase (Pyrococcus sp.)
+PhTET2 aminopeptidase;BsuAP (Bacillus subtilis);APDkam589 (Desulfurococcus kamchatkensis);PH1527 g.p. (Pyrococcus horikoshii);PhTET2 aminopeptidase (Pyrococcus sp.);Mername-AA082 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;3;3;3;4
 Pro;0;0;0;0;0;0;0;1
@@ -21624,7 +21624,7 @@ Glu;0;0;0;2;2;3;4;5
 Lys;0;0;0;0;0;0;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-TET aminopeptidase | HTET aminopeptidase | tetrahedral aminopeptidase (Haloarcula marismortui)
+TET aminopeptidase;HTET aminopeptidase;tetrahedral aminopeptidase (Haloarcula marismortui)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;2;2;1;2
 Pro;0;0;0;0;0;1;1;1
@@ -21668,7 +21668,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-PhTET3 aminopeptidase | PH1821 g.p. (Pyrococcus horikoshii)
+PhTET3 aminopeptidase;PH1821 g.p. (Pyrococcus horikoshii)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -21712,7 +21712,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cytophagalysin | fpp2 g.p. (Flavobacterium psychrophilum) | collagenase (Cytophaga)
+cytophagalysin;fpp2 g.p. (Flavobacterium psychrophilum);collagenase (Cytophaga)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;1;0;1;0;2;0;1
@@ -21734,7 +21734,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;1;0;0;0;0;0;1;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;1
-pappalysin-1 | IGFBP-4 protease | insulin-like growth factor binding protein-4 protease | PAPPA g.p. (Homo sapiens) | pregnancy-associated plasma protein A | EC 3.4.24.79
+pappalysin-1;IGFBP-4 protease;insulin-like growth factor binding protein-4 protease;PAPPA g.p. (Homo sapiens);pregnancy-associated plasma protein A;EC 3.4.24.79
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;0;0;1;4
 Pro;0;0;0;0;0;0;0;0
@@ -21756,7 +21756,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;1;1;2;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-pappalysin-2 | Mername-AA189 peptidase | PAPPA2 g.p. (Homo sapiens) | pregnancy-associated plasma protein A2 | cellular repressor of E1A-stimulated genes | CREG
+pappalysin-2;cellular repressor of E1A-stimulated genes;CREG;PAPPA2 g.p. (Homo sapiens);pregnancy-associated plasma protein A2;Mername-AA189 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -21778,7 +21778,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ulilysin (Methanosarcina acetivorans) | LysargiNase
+ulilysin (Methanosarcina acetivorans);LysargiNase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;1;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -21800,7 +21800,7 @@ Glu;0;1;0;3;0;0;3;1
 Lys;0;0;0;0;0;1;0;0
 Arg;2;0;0;0;8;0;0;0
 His;0;0;0;0;0;1;0;0
-Mername-AA293 peptidase | PoFE peptidase (Pleurotus ostreatus)
+Mername-AA293 peptidase;PoFE peptidase (Pleurotus ostreatus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -21822,7 +21822,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-pox virus metallopeptidase | metalloendopeptidase (vaccinia virus-type) | vaccinia virus-type metalloendopeptidase | G1L protein
+pox virus metallopeptidase;G1L protein;vaccinia virus-type metalloendopeptidase;metalloendopeptidase (vaccinia virus-type)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -21844,7 +21844,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Ste24 peptidase | Ste24 g.p. (Saccharomyces cerevisiae) | Afc1 g.p. (Saccharomyces cerevisiae) | Ras and a-factor converting enzyme (RACE) | EC 3.4.24.84
+Ste24 peptidase;Afc1 g.p. (Saccharomyces cerevisiae);Ras and a-factor converting enzyme (RACE);Ste24 g.p. (Saccharomyces cerevisiae);EC 3.4.24.84
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;0;0;0;0
 Pro;0;2;0;0;0;0;1;0
@@ -21866,7 +21866,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-farnesylated-protein converting enzyme 1 | Ste24 endopeptidase | ZMPSTE24 g.p. (Homo sapiens) | Hs Ste24 protein (Homo sapiens) | Face-1 protein | CaaX prenyl protease | EC 3.4.24.84
+farnesylated-protein converting enzyme 1;ZMPSTE24 g.p. (Homo sapiens);Face-1 protein;Hs Ste24 protein (Homo sapiens);CaaX prenyl protease;Ste24 endopeptidase;EC 3.4.24.84
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;0;2;0;0;0;0;0;0
@@ -21888,7 +21888,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Oma1 peptidase | OMA-1
+Oma1 peptidase;OMA-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;1;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -21910,7 +21910,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;2;0;0;0;1
 His;0;0;0;0;0;0;0;1
-STE24 peptidase (Sarcomastigophora-type) | TbSTE24 peptidase (Trypanosoma brucei)
+STE24 peptidase (Sarcomastigophora-type);TbSTE24 peptidase (Trypanosoma brucei)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;1;0;0;0;0;0;0
@@ -21932,7 +21932,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-metallopeptidase PGM48 (Arabidopsis thaliana) | At3g27110 (Arabidopsis thaliana)
+metallopeptidase PGM48 (Arabidopsis thaliana);At3g27110 (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;0;0;0;0
 Pro;1;1;0;1;0;0;0;2
@@ -21954,7 +21954,7 @@ Glu;0;0;0;0;0;0;1;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-dipeptidyl-peptidase III | dipeptidyl aminopeptidase III | dipeptidyl arylamidase III | dipeptidyl-peptidase 3 | DPP III | DPP3 | red cell angiotensinase | EC 3.4.14.4 | enkephalinase B
+dipeptidyl-peptidase III;dipeptidyl aminopeptidase III;dipeptidyl arylamidase III;dipeptidyl-peptidase 3;DPP III;DPP3;red cell angiotensinase;EC 3.4.14.4;enkephalinase B
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;2;2;1;1;0
 Pro;0;0;0;0;0;2;2;1
@@ -22020,7 +22020,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-dipeptidyl-peptidase III (Caldithrix abyssi) | Cabys_2252 g.p. (Caldithrix abyssi)
+dipeptidyl-peptidase III (Caldithrix abyssi);Cabys_2252 g.p. (Caldithrix abyssi)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -22064,7 +22064,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;2;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-site 2 peptidase | MBTPS2 g.p. (Homo sapiens) | membrane-bound transcription factor protease site 2 | S2P peptidase | S2P protease | site-2 protease | SREBP S2 protease | SREBPsite 2 protease | sterol regulatory element-binding protein site 2 protease | EC 3.4.24.85
+site 2 peptidase;S2P peptidase;S2P protease;site-2 protease;SREBP S2 protease;SREBPsite 2 protease;sterol regulatory element-binding protein site 2 protease;MBTPS2 g.p. (Homo sapiens);membrane-bound transcription factor protease site 2;EC 3.4.24.85
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22086,7 +22086,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;1;1;0;0;0;0;0;0
 His;0;0;0;0;1;0;1;0
-sporulation factor SpoIVFB | SpoIVFB putative endopeptidase (Bacillus)
+sporulation factor SpoIVFB;SpoIVFB putative endopeptidase (Bacillus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22108,7 +22108,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;1;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-RseP peptidase | Mername-AA134 peptidase | MmpA g.p. (Caulobacter crescentus) | MucP g.p. (Pseudomonas aeruginosa) | YaeL g.p. (Escherichia coli) | YaeL protease | YluC g.p. (Bacillus subtilis ) | yvjB g.p. (Lactococcus lactis) | hurP g.p. (Bordetella bronchiseptica) | RseP g.p. (Escherichia coli) | EcfE g.p. (Escherichia coli) | Eep peptidase (Enterococcus faecalis) | Enhanced Expression of Pheromone g.p. (Enterococcus faecalis)
+RseP peptidase;RseP g.p. (Escherichia coli);hurP g.p. (Bordetella bronchiseptica);YaeL g.p. (Escherichia coli);YaeL protease;YluC g.p. (Bacillus subtilis );yvjB g.p. (Lactococcus lactis);Mername-AA134 peptidase;MmpA g.p. (Caulobacter crescentus);MucP g.p. (Pseudomonas aeruginosa);EcfE g.p. (Escherichia coli);Eep peptidase (Enterococcus faecalis);Enhanced Expression of Pheromone g.p. (Enterococcus faecalis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;0;0;0;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -22130,7 +22130,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-At4g20310-like peptidase | At4g20310 g.p. (Arabidopsis thaliana)
+At4g20310-like peptidase;At4g20310 g.p. (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22152,7 +22152,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;1;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PF0167 g.p. (Pyrococcus furiosus) | Mername-AA294 peptidase
+PF0167 g.p. (Pyrococcus furiosus);Mername-AA294 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22174,7 +22174,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;1;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-RasP peptidase (Bacillus subtilis) | YluC g.p. (Bacillus subtilis)
+RasP peptidase (Bacillus subtilis);YluC g.p. (Bacillus subtilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22196,7 +22196,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-subfamily M50B unassigned peptidases | MprBi (Bacillus intermedius) | Sll0528 g.p. (Synechocystis sp. PCC 6803)
+subfamily M50B unassigned peptidases;Sll0528 g.p. (Synechocystis sp. PCC 6803);MprBi (Bacillus intermedius)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22218,7 +22218,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;1;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-archaelysin | archaemetzincin
+archaelysin;archaemetzincin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;1;0
 Pro;0;0;0;0;0;0;1;0
@@ -22240,7 +22240,7 @@ Glu;1;1;1;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-aminopeptidase AMZ2 | AMZ2 g.p. (Homo sapiens) | archaemetzincin-2 | BM14 protein (Homo sapiens)
+aminopeptidase AMZ2;BM14 protein (Homo sapiens);AMZ2 g.p. (Homo sapiens);archaemetzincin-2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22262,7 +22262,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;1
-aminopeptidase AMZ1 | AMZ1 g.p. (Homo sapiens) | archaemetzincin-1
+aminopeptidase AMZ1;AMZ1 g.p. (Homo sapiens);archaemetzincin-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22306,7 +22306,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-BlaR1 peptidase | BlaR1 g.p. (Staphylococcus aureus)
+BlaR1 peptidase;BlaR1 g.p. (Staphylococcus aureus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22328,7 +22328,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;1;0
 Arg;0;0;0;1;1;0;0;0
 His;0;0;0;0;0;0;0;0
-ZmpB peptidase (Clostridium perfringens) | BT4244 g.p. (Bacteroides thetaiotaomicron)
+ZmpB peptidase (Clostridium perfringens);BT4244 g.p. (Bacteroides thetaiotaomicron)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;0;0;0;0;0
 Pro;0;2;2;2;0;0;4;4
@@ -22394,7 +22394,7 @@ Glu;0;0;0;3;1;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;2;0;0;0
 His;0;0;0;0;0;0;0;0
-IgA peptidase (Clostridium ramosum-type) | igA g.p. (Clostridium ramosum) | IgA protease (Clostridium ramosum)
+IgA peptidase (Clostridium ramosum-type);igA g.p. (Clostridium ramosum);IgA protease (Clostridium ramosum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;2;0;2;0;2;1;1
@@ -22416,7 +22416,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PSMD14 peptidase | MPR1 protein | S13 | yippee interacting protein 5 (Drosophila melanogaster) | RPN11 peptidase | RPN11 regulatory subunit | pad1+ g.p. (Schizosaccharomyces pombe) | Poh1 peptidase | proteasome regulatory subunit RPN11 (Saccharomyces cerevisiae)
+PSMD14 peptidase;RPN11 peptidase;RPN11 regulatory subunit;S13;yippee interacting protein 5 (Drosophila melanogaster);pad1+ g.p. (Schizosaccharomyces pombe);Poh1 peptidase;proteasome regulatory subunit RPN11 (Saccharomyces cerevisiae);MPR1 protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22438,7 +22438,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;0;0;2;0;0;0
 Arg;0;2;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Csn5 peptidase | Jab1/MPN domain metalloenzyme | JAB1/MPN/Mov34 metalloenzyme | JAMM | proteasome-associated ubiquitin isopeptidase | COP9 signalosome subunit 5 | COPS5 g.p. (Homo sapiens) | Csn5
+Csn5 peptidase;Jab1/MPN domain metalloenzyme;JAB1/MPN/Mov34 metalloenzyme;JAMM;COP9 signalosome subunit 5;COPS5 g.p. (Homo sapiens);Csn5;proteasome-associated ubiquitin isopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;4;4;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22460,7 +22460,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;4;0;0;4
 Arg;0;4;0;0;0;0;4;0
 His;0;0;0;0;0;0;0;0
-histone H2A deubiquitinase MYSM1 | KIAA1915 protein (Homo sapiens) | Mername-AA167 peptidase
+histone H2A deubiquitinase MYSM1;KIAA1915 protein (Homo sapiens);Mername-AA167 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;3;1;1;0;0
 Pro;0;1;0;0;0;0;0;0
@@ -22482,7 +22482,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;1;1;2;0;1;0
 Arg;0;3;0;0;0;0;1;0
 His;0;0;0;0;0;0;0;0
-STAMBP isopeptidase | STAMBP g.p. (Homo sapiens) | AMSH deubiquitinating peptidase
+STAMBP isopeptidase;AMSH deubiquitinating peptidase;STAMBP g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22526,7 +22526,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-desampylase | HVO_2505 g.p. (Haloferax volcanii) | EC 3.4.19.15
+desampylase;HVO_2505 g.p. (Haloferax volcanii);EC 3.4.19.15
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22548,7 +22548,7 @@ Glu;0;0;0;0;0;0;2;0
 Lys;0;0;0;0;2;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidyl-Asp metallopeptidase | Mep72 peptidase | AspN | PA2783 g.p. (Pseudomonas aeruginosa) | EC 3.4.24.33 | endoproteinase Asp-N
+peptidyl-Asp metallopeptidase;AspN;PA2783 g.p. (Pseudomonas aeruginosa);Mep72 peptidase;EC 3.4.24.33;endoproteinase Asp-N
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;3;0;0;3;1;2
 Pro;0;1;0;1;0;1;0;0
@@ -22592,7 +22592,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;1;0
 His;0;0;0;0;0;0;0;0
-camelysin | calY g.p. (Bacillus thuringiensis) | casein-cleaving membrane protease (Bacillus cereus) | CCMP
+camelysin;calY g.p. (Bacillus thuringiensis);casein-cleaving membrane protease (Bacillus cereus);CCMP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;0;0;1;0;2;2
 Pro;0;1;1;0;0;1;0;0
@@ -22614,7 +22614,7 @@ Glu;1;1;0;1;0;2;1;1
 Lys;0;0;0;0;0;0;1;0
 Arg;0;0;0;1;0;0;0;0
 His;1;0;1;0;0;0;0;0
-murein endopeptidase | MepA g.p. (Escherichia coli) | murein endopeptidase, penicillin-insensitive | penicillin-insensitive murein endopeptidase | pseudomurein endopeptidase
+murein endopeptidase;penicillin-insensitive murein endopeptidase;pseudomurein endopeptidase;MepA g.p. (Escherichia coli);murein endopeptidase, penicillin-insensitive
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22636,7 +22636,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-imelysin | insulin-cleaving membrane peptidase (Pseudomonas aeruginosa)
+imelysin;insulin-cleaving membrane peptidase (Pseudomonas aeruginosa)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;3;1;0;0;0;0;1
 Pro;0;0;1;0;0;0;1;0
@@ -22658,7 +22658,7 @@ Glu;1;0;0;1;0;0;1;0
 Lys;0;0;0;1;0;0;0;1
 Arg;1;0;0;3;0;0;0;0
 His;1;0;0;1;0;0;0;0
-ATP23 peptidase (Saccharomyces cerevisiae-type) | EC1118_1N18_0606g (Saccharomyces cerevisiae)
+ATP23 peptidase (Saccharomyces cerevisiae-type);EC1118_1N18_0606g (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -22680,7 +22680,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ImmA peptidase | YdcM g.p. (Bacillus subtilis)
+ImmA peptidase;YdcM g.p. (Bacillus subtilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -22702,7 +22702,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-NleC peptidase (Escherichia coli) | AIP56 (Photobacterium damselae) | apoptosis inducing protein of 56 kDa (Photobacterium damselae)
+NleC peptidase (Escherichia coli);AIP56 (Photobacterium damselae);apoptosis inducing protein of 56 kDa (Photobacterium damselae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;2;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22746,7 +22746,7 @@ Glu;1;1;1;1;1;1;1;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-chloride channel accessory protein 1 | chloride channel calcium-activated protein | CLCA protein | Clca1 (Rattus norvegicus) | CLCA1 g.p. (Homo sapiens) | Clca3 (Mus musculus)
+chloride channel accessory protein 1;chloride channel calcium-activated protein;CLCA protein;Clca1 (Rattus norvegicus);CLCA1 g.p. (Homo sapiens);Clca3 (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;5;0;0;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -22768,7 +22768,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;2;0;1;0;0;0;1
 His;0;0;0;0;0;0;0;0
-chloride channel accessory protein 4 | Clca4 (Rattus norvegicus) | CLCA4 g.p. (Homo sapiens) | Clca6 (Mus musculus)
+chloride channel accessory protein 4;Clca4 (Rattus norvegicus);CLCA4 g.p. (Homo sapiens);Clca6 (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;6;0;0;0;0;0;0;0
@@ -22790,7 +22790,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;6;0;0;0;0
 His;0;0;0;0;0;0;0;0
-chloride channel accessory protein 2 | calcium-activated chloride channel regulator 2 | Clca2 (Rattus norvegicus) | CLCA2 g.p. (Homo sapiens) | Clca5 (Mus musculus)
+chloride channel accessory protein 2;calcium-activated chloride channel regulator 2;Clca2 (Rattus norvegicus);CLCA2 g.p. (Homo sapiens);Clca5 (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;5;0;0;0;0;0;0
 Pro;5;0;0;0;0;0;0;0
@@ -22812,7 +22812,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;5;0;0;0;0
-chloride channel accessory protein 7 (Mus musculus) | CLCA7 (Mus musculus)
+chloride channel accessory protein 7 (Mus musculus);CLCA7 (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -22834,7 +22834,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-chloride channel accessory protein 4 (Mus musculus) | CLCA4 (Mus musculus)
+chloride channel accessory protein 4 (Mus musculus);CLCA4 (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22856,7 +22856,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-chloride channel accessory protein 1 (Mus musculus) | CLCA1 (Mus musculus)
+chloride channel accessory protein 1 (Mus musculus);CLCA1 (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -22900,7 +22900,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;2;0;4;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-IMPa peptidase (Pseudomonas aeruginosa) | immunomodulating metalloprotease
+IMPa peptidase (Pseudomonas aeruginosa);immunomodulating metalloprotease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;1;0;0;0;0;1;1
@@ -22922,7 +22922,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-MtfA peptidase | Mlc titration factor A | Yeel g.p. (Escherichia coli)
+MtfA peptidase;Yeel g.p. (Escherichia coli);Mlc titration factor A
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -22988,7 +22988,7 @@ Glu;1;0;0;0;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-YghJ g.p. (Escherichia coli) | secreted and surface associated lipoprotein | SslE | AcfD (Escherichia coli) | putative metallopeptidase with M60-like/PF13402 domain
+YghJ g.p. (Escherichia coli);AcfD (Escherichia coli);secreted and surface associated lipoprotein;SslE;putative metallopeptidase with M60-like/PF13402 domain
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -23010,7 +23010,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Csd4 peptidase (Helicobacter pylori) | D,L-carboxypeptidase Csd4 (Helicobacter pylori)
+Csd4 peptidase (Helicobacter pylori);D,L-carboxypeptidase Csd4 (Helicobacter pylori)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -23032,7 +23032,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-tripeptide aminopeptidase | aminoexotripeptidase | aminotripeptidase | tripeptidase | imidoendopeptidase | lymphopeptidase | PEPB g.p. (Homo sapiens) | peptidase B (animal) | EC 3.4.11.4
+tripeptide aminopeptidase;imidoendopeptidase;aminoexotripeptidase;aminotripeptidase;lymphopeptidase;tripeptidase;PEPB g.p. (Homo sapiens);peptidase B (animal);EC 3.4.11.4
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -23054,7 +23054,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-clostridial aminopeptidase | aminopeptidase (Clostridium histolyticum) | EC 3.4.11.13
+clostridial aminopeptidase;aminopeptidase (Clostridium histolyticum);EC 3.4.11.13
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;1;0;1;0;0
@@ -23076,7 +23076,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Xaa-Trp aminopeptidase | X-Trp aminopeptidase | aminopeptidase W | aminopeptidase, X-Trp | EC 3.4.11.16
+Xaa-Trp aminopeptidase;aminopeptidase W;aminopeptidase, X-Trp;X-Trp aminopeptidase;EC 3.4.11.16
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;2;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -23142,7 +23142,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;1;0;0;0
 His;0;0;0;0;0;0;0;0
-neuron-specific aminopeptidase | NAP
+neuron-specific aminopeptidase;NAP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;2;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -23186,7 +23186,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-neuron-specific aminopeptidase-2 | NAP2
+neuron-specific aminopeptidase-2;NAP2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;2;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -23208,7 +23208,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Xaa-Arg dipeptidase | X-Arg dipeptidase | aminoacyl-lysine dipeptidase | N2-(4-amino-butyryl)-L-lysine hydrolase | EC 3.4.13.4
+Xaa-Arg dipeptidase;aminoacyl-lysine dipeptidase;N2-(4-amino-butyryl)-L-lysine hydrolase;X-Arg dipeptidase;EC 3.4.13.4
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -23230,7 +23230,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;1;0;0;0
 His;0;0;0;0;0;0;0;0
-Met-Xaa dipeptidase | Met-X dipeptidase | methionyl dipeptidase | dipeptidase M | EC 3.4.13.12
+Met-Xaa dipeptidase;dipeptidase M;Met-X dipeptidase;methionyl dipeptidase;EC 3.4.13.12
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -23252,7 +23252,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidyl-dipeptidase B | atrial di-(tri-)peptidyl carboxyhydrolase | atriopeptin convertase | dipeptidyl carboxyhydrolase | EC 3.4.15.4
+peptidyl-dipeptidase B;dipeptidyl carboxyhydrolase;atrial di-(tri-)peptidyl carboxyhydrolase;atriopeptin convertase;EC 3.4.15.4
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;2;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -23274,7 +23274,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;4;0;0
 His;0;0;0;0;1;0;0;0
-proline-specific peptidyl-dipeptidase (Streptomyces) | peptidyl-dipeptidase, proline-specific (Streptomyces)
+proline-specific peptidyl-dipeptidase (Streptomyces);peptidyl-dipeptidase, proline-specific (Streptomyces)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;1;2;2;2;2;0;0
@@ -23296,7 +23296,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-alanine carboxypeptidase | N-benzoyl-L-alanine-amidohydrolase | EC 3.4.17.6
+alanine carboxypeptidase;N-benzoyl-L-alanine-amidohydrolase;EC 3.4.17.6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -23340,7 +23340,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-membrane Pro-Xaa carboxypeptidase | microsomal prolyl carboxypeptidase | prolyl carboxypeptidase, microsomal | carboxypeptidase P | EC 3.4.17.16
+membrane Pro-Xaa carboxypeptidase;carboxypeptidase P;prolyl carboxypeptidase, microsomal;microsomal prolyl carboxypeptidase;EC 3.4.17.16
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;2;1;0;0;0
 Pro;0;2;0;13;0;0;0;0
@@ -23494,7 +23494,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;1;0;1;1;1;1;0;1
 His;0;0;0;0;0;0;0;0
-metallopeptidase QG (Escherichia coli) | QG metalloendopeptidase
+metallopeptidase QG (Escherichia coli);QG metalloendopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -23516,7 +23516,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidase Ci (Escherichia coli) | protease Ci (Escherichia coli)
+peptidase Ci (Escherichia coli);protease Ci (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;0;0;0;0;2;1
 Pro;0;0;0;0;0;0;1;0
@@ -23538,7 +23538,7 @@ Glu;1;1;1;1;0;1;1;1
 Lys;0;0;0;0;0;0;0;1
 Arg;1;0;0;0;0;0;0;0
 His;1;0;1;2;0;0;0;0
-magnolysin | bovine neurosecretory granule protease cleaving pro-oxytocin/neurophysin | pro-oxytocin/neurophysin-converting enzyme | EC 3.4.24.62
+magnolysin;bovine neurosecretory granule protease cleaving pro-oxytocin/neurophysin;pro-oxytocin/neurophysin-converting enzyme;EC 3.4.24.62
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -23560,7 +23560,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-dactylysin | peptide hormone inactivating endopeptidase | peptide-hormone inactivating enzyme (Xenopus) | PHIE | EC 3.4.24.60
+dactylysin;peptide hormone inactivating endopeptidase;peptide-hormone inactivating enzyme (Xenopus);PHIE;EC 3.4.24.60
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;3;8;7;0;1;0;0
 Pro;0;1;1;1;0;0;2;0
@@ -23604,7 +23604,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;1;4;0;0;3
 Arg;0;0;0;0;0;0;0;0
 His;1;0;0;0;0;0;0;0
-dynorphin-processing endopeptidase (metallo-type) | probably prohormone convertase 2 (S08.073)
+dynorphin-processing endopeptidase (metallo-type);probably prohormone convertase 2 (S08.073)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -23648,7 +23648,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-metallopeptidase ShpII (Staphylococcus hyicus) | metalloprotease ShpII (Staphylococcus hyicus) | ShpII metalloprotease (Staphylococcus hyicus)
+metallopeptidase ShpII (Staphylococcus hyicus);ShpII metalloprotease (Staphylococcus hyicus);metalloprotease ShpII (Staphylococcus hyicus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;2;1;0;0;2;1
 Pro;0;1;3;0;0;0;1;1
@@ -23670,7 +23670,7 @@ Glu;2;1;1;0;0;0;1;1
 Lys;2;2;1;1;0;3;1;2
 Arg;2;1;2;1;0;0;1;2
 His;0;0;0;2;0;0;0;0
-gonadotropin beta-subunit nicking enzyme | GBNE
+gonadotropin beta-subunit nicking enzyme;GBNE
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -23692,7 +23692,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-hepatitis B virus binding factor | HBV-BF
+hepatitis B virus binding factor;HBV-BF
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -23714,7 +23714,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-aharin | venom prothrombin activator (Agkistrodon halys pallas) | prothrombin activator, venom (Agkistrodon halys pallas)
+aharin;venom prothrombin activator (Agkistrodon halys pallas);prothrombin activator, venom (Agkistrodon halys pallas)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -23736,7 +23736,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-insulin-cleaving periplasmic peptidase (Acinetobacter calcoaceticus) | insulin-cleaving periplasmic protease (Acinetobacter calcoaceticus)
+insulin-cleaving periplasmic peptidase (Acinetobacter calcoaceticus);insulin-cleaving periplasmic protease (Acinetobacter calcoaceticus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;1;1;0;0;1;0
 Pro;0;0;0;0;0;0;1;1
@@ -23758,7 +23758,7 @@ Glu;1;1;1;0;0;0;1;1
 Lys;0;0;0;0;0;0;0;1
 Arg;1;1;1;0;0;0;0;0
 His;0;0;0;1;0;1;0;0
-ZPA-processing enzyme | zona pellucia glycoprotein-A processing peptidase
+ZPA-processing enzyme;zona pellucia glycoprotein-A processing peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -23824,7 +23824,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-nodavirus peptide lyase | black beetle virus coat protein | flock house virus coat protein | coat protein | EC 3.4.23.44
+nodavirus peptide lyase;black beetle virus coat protein;flock house virus coat protein;coat protein;EC 3.4.23.44
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -23846,7 +23846,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-tetravirus coat protein | Dendrolimus punctatus tetravirus coat protein | Helicoverpa armigera stunt virus coat protein | Nudaurelia capensis omega virus coat protein | Providence virus coat protein
+tetravirus coat protein;Dendrolimus punctatus tetravirus coat protein;Helicoverpa armigera stunt virus coat protein;Nudaurelia capensis omega virus coat protein;Providence virus coat protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -23934,7 +23934,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;1;0
-SpaS protein (Salmonella sp.) | Spa40 protein (Shigella flexneri) | SpaS protein (Shigella flexneri) | Surface presentation of antigens protein
+SpaS protein (Salmonella sp.);Spa40 protein (Shigella flexneri);SpaS protein (Shigella flexneri);Surface presentation of antigens protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;2;0;0;0
@@ -24000,7 +24000,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;1;0
-reovirus type 1 coat protein | mu 1 protein | self-cleaving protein micro1 (mammalian reovirus)
+reovirus type 1 coat protein;self-cleaving protein micro1 (mammalian reovirus);mu 1 protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;0;1;1;0
 Pro;0;0;0;0;1;0;0;0
@@ -24022,7 +24022,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-poliovirus capsid VP0-type self-cleaving protein | swine vesicular disease virus VP0 protein
+poliovirus capsid VP0-type self-cleaving protein;swine vesicular disease virus VP0 protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;40;0;0;0;0;40;0;0
@@ -24044,7 +24044,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;1;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-intein-containing V-type proton ATPase catalytic subunit A | EC 3.6.3.14
+intein-containing V-type proton ATPase catalytic subunit A;EC 3.6.3.14
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;22;0;22;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -24088,7 +24088,7 @@ Glu;0;30;0;10;0;2;50;5
 Lys;0;2;0;11;0;0;1;4
 Arg;31;0;12;4;0;2;1;0
 His;1;1;80;0;0;4;0;3
-intein-containing DNA polymerase III subunit alpha precursor | EC 2.7.7.7
+intein-containing DNA polymerase III subunit alpha precursor;EC 2.7.7.7
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -24154,7 +24154,7 @@ Glu;0;0;0;0;0;1;0;1
 Lys;8;0;0;0;0;0;0;4
 Arg;0;8;8;0;0;0;0;1
 His;0;0;9;1;0;0;3;0
-intein-containing DNA polymerase II large subunit DP2 precursor Mername-AA282 | EC 2.7.7.7
+intein-containing DNA polymerase II large subunit DP2 precursor Mername-AA282;EC 2.7.7.7
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;8;0;0;0;9;4
 Pro;0;0;0;0;0;0;0;5
@@ -24220,7 +24220,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;1;0;0;0;0;0;0;0
-DmpA aminopeptidase | DmpA peptidase (Ochrobactrum anthropi)
+DmpA aminopeptidase;DmpA peptidase (Ochrobactrum anthropi)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;16;15;6;2;1
 Pro;0;0;0;0;0;0;0;0
@@ -24264,7 +24264,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;1;0;0;0
-EGF-like module containing mucin-like hormone receptor-like 2 | Mername-AA220 non-peptidase homologue (Homo sapiens) | FLJ00015 protein (Homo sapiens) | FLJ00046 protein (Homo sapiens) | EGF-like module EMR2 (Homo sapiens)
+EGF-like module containing mucin-like hormone receptor-like 2;FLJ00015 protein (Homo sapiens);FLJ00046 protein (Homo sapiens);Mername-AA220 non-peptidase homologue (Homo sapiens);EGF-like module EMR2 (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -24286,7 +24286,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-latrophilin-1 | lectomedin-2 | calcium-independent receptor of alpha-latrotoxin | CIRL
+latrophilin-1;lectomedin-2;calcium-independent receptor of alpha-latrotoxin;CIRL
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -24308,7 +24308,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-latrophilin 3 | ADGRL3 g.p. (Homo sapiens) | lectomedin-3
+latrophilin 3;ADGRL3 g.p. (Homo sapiens);lectomedin-3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -24330,7 +24330,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-KIAA1879 protein | PKD1L2 g.p. (Homo sapiens)
+KIAA1879 protein;PKD1L2 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -24352,7 +24352,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-chymotrypsin A (cattle-type) | alpha chymotrypsin (Bos) | chymotrypsinogen (activated) | EC 3.4.21.1
+chymotrypsin A (cattle-type);alpha chymotrypsin (Bos);chymotrypsinogen (activated);EC 3.4.21.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;125;105;110;0;87;68;111;104
 Pro;69;30;76;1;8;66;74;79
@@ -24374,7 +24374,7 @@ Glu;51;86;50;9;42;62;46;60
 Lys;62;103;121;2;132;88;110;106
 Arg;66;58;30;1;46;44;44;34
 His;18;8;9;36;9;17;22;21
-mast cell peptidase 4 (Rattus) | mast cell protease 4 (Rattus) | rat mast cell protease 4 | rMCP-4
+mast cell peptidase 4 (Rattus);rat mast cell protease 4;rMCP-4;mast cell protease 4 (Rattus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;1;20;2;0
 Pro;0;0;0;0;0;0;1;3
@@ -24396,7 +24396,7 @@ Glu;0;2;0;0;0;0;1;2
 Lys;0;0;0;0;0;0;1;0
 Arg;0;1;0;0;11;1;4;2
 His;0;0;0;0;1;1;3;5
-granzyme B (Homo sapiens-type) | GZMB g.p. (Homo sapiens)
+granzyme B (Homo sapiens-type);GZMB g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;39;232;207;6;102;212;77;104
 Pro;140;8;282;2;5;11;64;59
@@ -24418,7 +24418,7 @@ Glu;68;354;177;263;167;212;282;347
 Lys;36;61;40;19;62;57;152;79
 Arg;7;37;9;22;21;17;14;14
 His;10;42;10;2;16;13;10;14
-testisin | TESP5 | tryptase 4 (Mus musculus) | protease ESP-1 | PRSS21 g.p. (Homo sapiens) | ESP-1 protease
+testisin;TESP5;tryptase 4 (Mus musculus);protease ESP-1;PRSS21 g.p. (Homo sapiens);ESP-1 protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;3;0;0;1;0;1
 Pro;0;0;6;0;0;0;1;1
@@ -24440,7 +24440,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;3;1;1;0;0;0;0
 Arg;0;0;0;8;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Nudel peptidase | Nudel protease (Drosophila melanogaster) | NUDEL_DROME g.p. (Drosophila melanogaster) | ovarian serine protease Osp
+Nudel peptidase;ovarian serine protease Osp;Nudel protease (Drosophila melanogaster);NUDEL_DROME g.p. (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;0;0;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -24462,7 +24462,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-tryptase beta | TPSB2 g.p. (Homo sapiens) | tryptase 1 | tryptase 2B | tryptase 3 | tryptase alpha 2 (Homo sapiens) | tryptase beta 1 (Homo sapiens) | tryptase beta 2 (Homo sapiens) | tryptase beta 3 (Homo sapiens) | tryptase III
+tryptase beta;TPSB2 g.p. (Homo sapiens);tryptase 1;tryptase 2B;tryptase 3;tryptase alpha 2 (Homo sapiens);tryptase beta 1 (Homo sapiens);tryptase beta 2 (Homo sapiens);tryptase beta 3 (Homo sapiens);tryptase III
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;6;1;0;4;4;4;7
 Pro;12;1;3;0;0;0;2;6
@@ -24484,7 +24484,7 @@ Glu;7;7;6;0;1;1;2;9
 Lys;0;5;4;44;2;1;3;3
 Arg;0;8;0;21;2;1;1;1
 His;1;0;0;0;1;0;0;1
-kallikrein-related peptidase 5 | kallikrein 5 | kallikrein 5 (Mus musculus) | kallikrein hK5 | kallikrein-like protein 2 | KLK-L2 [obs.] g.p. (Homo sapiens) | KLK5 g.p. (Homo sapiens) | stratum corneum tryptic enzyme
+kallikrein-related peptidase 5;kallikrein 5;kallikrein 5 (Mus musculus);kallikrein hK5;kallikrein-like protein 2;KLK-L2 [obs.] g.p. (Homo sapiens);KLK5 g.p. (Homo sapiens);stratum corneum tryptic enzyme
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;8;9;6;5;7;3;15;18
 Pro;7;1;13;0;0;3;5;5
@@ -24506,7 +24506,7 @@ Glu;3;5;2;0;2;3;7;2
 Lys;2;4;1;15;5;3;4;2
 Arg;1;5;3;49;0;1;3;3
 His;0;1;2;0;0;2;3;0
-corin | ATC2 g.p. (Homo sapiens) | atrial natriuretic peptide-converting enzyme | heart-specific serine proteinase | low density lipoprotein receptor related protein 4
+corin;ATC2 g.p. (Homo sapiens);atrial natriuretic peptide-converting enzyme;low density lipoprotein receptor related protein 4;heart-specific serine proteinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -24528,7 +24528,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;3;0;0;1;1
 His;0;0;0;0;0;0;0;0
-kallikrein-related peptidase 12 | kallikrein 12 | kallikrein-like protein 5 | KLK-L5 [obs.] g.p. (Homo sapiens) | KLK12 g.p. (Homo sapiens)
+kallikrein-related peptidase 12;kallikrein 12;kallikrein-like protein 5;KLK-L5 [obs.] g.p. (Homo sapiens);KLK12 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;0;0;1;0;6;11
 Pro;0;0;2;0;0;0;3;0
@@ -24550,7 +24550,7 @@ Glu;2;4;0;0;0;0;1;2
 Lys;0;1;0;11;1;0;1;0
 Arg;0;0;0;9;1;0;0;1
 His;0;0;0;0;0;0;1;0
-DESC1 peptidase | Mername-AA170 peptidase | DESC1 protease | Differentially Expressed in Squamous cell Carcinoma-1 protein | TMPRSS11E
+DESC1 peptidase;DESC1 protease;Differentially Expressed in Squamous cell Carcinoma-1 protein;TMPRSS11E;Mername-AA170 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;11;6;7;0;14;1;21;16
 Pro;3;5;9;0;0;2;6;8
@@ -24572,7 +24572,7 @@ Glu;0;1;0;0;1;0;0;1
 Lys;6;4;4;2;15;3;10;13
 Arg;13;7;4;108;7;2;1;1
 His;3;1;1;0;1;0;2;0
-flavoxobin | acutin (Deinagkistrodon acutus) | BjussuSP-I peptidase (Bothrops jararacussu) | Dav-PA (Deinagkistrodon acutus) | defibrase-1 | jararacussin-I (Bothrops jararacussu)
+flavoxobin;BjussuSP-I peptidase (Bothrops jararacussu);jararacussin-I (Bothrops jararacussu);Dav-PA (Deinagkistrodon acutus);defibrase-1;acutin (Deinagkistrodon acutus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -24594,7 +24594,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-mast cell peptidase 6 (mouse numbering) | mast cell protease 6 (mouse numbering) | mast cell protease 6 (Mus musculus) | mast cell protease 6 (Rattus norvegicus) | Mcpt6 (g.p. Mus musculus) | tryptase mMCP-6 | rMCP-6 | rMCP-6
+mast cell peptidase 6 (mouse numbering);rMCP-6;rMCP-6;tryptase mMCP-6;mast cell protease 6 (mouse numbering);mast cell protease 6 (Mus musculus);mast cell protease 6 (Rattus norvegicus);Mcpt6 (g.p. Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;2;0;0;0;0;0
@@ -24616,7 +24616,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-mast cell peptidase 7 (mouse numbering) | mast cell protease 7 (mouse numbering) | mast cell protease 7 (Mus musculus) | mast cell protease 7 (Rattus norvegicus) | mMCP-7
+mast cell peptidase 7 (mouse numbering);mast cell protease 7 (mouse numbering);mast cell protease 7 (Mus musculus);mast cell protease 7 (Rattus norvegicus);mMCP-7
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;0;0;0;0;0;0
 Pro;0;0;2;0;0;0;0;0
@@ -24638,7 +24638,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-tryptase gamma 1 | TPSG1 g.p. (Homo sapiens) | transmembrane tryptase | tryptase, transmembrane | gamma I-tryptase | gamma II-tryptase
+tryptase gamma 1;gamma I-tryptase;gamma II-tryptase;TPSG1 g.p. (Homo sapiens);transmembrane tryptase;tryptase, transmembrane
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -24660,7 +24660,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;5;0;0;0;0
 His;0;0;0;0;0;0;0;0
-kallikrein-related peptidase 14 | kallikrein 14 | kallikrein-like protein 6 | KLK-14 g.p. (Homo sapiens) | KLK-L6 [obs.] g.p. (Homo sapiens)
+kallikrein-related peptidase 14;kallikrein 14;kallikrein-like protein 6;KLK-14 g.p. (Homo sapiens);KLK-L6 [obs.] g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;10;12;2;6;3;11;16
 Pro;6;3;17;0;1;2;4;9
@@ -24682,7 +24682,7 @@ Glu;3;4;2;0;1;1;3;1
 Lys;4;3;3;12;3;2;4;1
 Arg;4;5;2;58;2;4;4;2
 His;0;0;0;0;2;2;2;0
-peptidase 9 (Dermatophagoides-type) | mite elastase | allergen Der f 9 (Dermatophagoides farinae) | antigen Der p 9 (Dermatophagoides pteronissinus) | antigen Eur m 9 (Euroglyphus maynei) | Der f 9 antigenDer p 9 antigenEur m 9 antigenelastase, mite | protease 9 (Dermatophagoides-type)
+peptidase 9 (Dermatophagoides-type);Der f 9 antigenDer p 9 antigenEur m 9 antigenelastase, mite;allergen Der f 9 (Dermatophagoides farinae);antigen Der p 9 (Dermatophagoides pteronissinus);antigen Eur m 9 (Euroglyphus maynei);protease 9 (Dermatophagoides-type);mite elastase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;1
 Pro;0;0;1;0;0;0;0;0
@@ -24704,7 +24704,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-factor VII-activating peptidase | single-chain plasminogen activator-activating protease | HABP2 g.p. (Homo sapiens) | hyaluronan-binding peptidase | hyaluronan-binding protease | hyaluronic acid-binding protease | factor VII-activating protease | FSAP | PHBP | plasma hyaluronan-binding protein | plasma hyaluronan-binding serine protease
+factor VII-activating peptidase;factor VII-activating protease;FSAP;HABP2 g.p. (Homo sapiens);hyaluronan-binding peptidase;hyaluronan-binding protease;hyaluronic acid-binding protease;single-chain plasminogen activator-activating protease;PHBP;plasma hyaluronan-binding protein;plasma hyaluronan-binding serine protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;1;0;0;0;3;3
 Pro;1;1;1;0;1;1;0;0
@@ -24726,7 +24726,7 @@ Glu;1;1;0;0;0;0;1;0
 Lys;1;3;5;2;3;1;1;0
 Arg;1;0;2;13;1;0;1;1
 His;1;1;0;0;0;2;0;0
-transmembrane peptidase, serine 4 | membrane type serine protease 2 | MT-SP2 protease | TMPRSS4 g.p. (Homo sapiens) | transmembrane protease, serine 4 | CAP2 | channel-activating protease 2
+transmembrane peptidase, serine 4;TMPRSS4 g.p. (Homo sapiens);transmembrane protease, serine 4;CAP2;channel-activating protease 2;membrane type serine protease 2;MT-SP2 protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;1;1
 Pro;0;1;0;0;0;0;0;1
@@ -24748,7 +24748,7 @@ Glu;1;1;0;0;2;1;3;4
 Lys;0;1;0;3;0;0;0;0
 Arg;3;0;1;7;0;0;0;0
 His;0;0;0;0;0;0;0;0
-brachyurin-T | scolonase (Scolopendra subspinipes mutilans) | crustacean digestive trypsin-like enzyme
+brachyurin-T;crustacean digestive trypsin-like enzyme;scolonase (Scolopendra subspinipes mutilans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;1;1
 Pro;0;1;0;0;0;0;0;0
@@ -24770,7 +24770,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-kallikrein 1-related peptidase b22 (Mus musculus) | 7S nerve growth factor beta subunit (Mus musculus) | kallikrein mK22 (Mus musculus) | Klk1b22 g.p. (Mus musculus) | Klk22 g.p. [obs.] (Mus musculus) | EGF-BP A | epidermal growth factor binding protein A (Mus musculus) | epidermal growth factor binding protein type 1 (Mus musculus)
+kallikrein 1-related peptidase b22 (Mus musculus);7S nerve growth factor beta subunit (Mus musculus);kallikrein mK22 (Mus musculus);Klk1b22 g.p. (Mus musculus);Klk22 g.p. [obs.] (Mus musculus);EGF-BP A;epidermal growth factor binding protein A (Mus musculus);epidermal growth factor binding protein type 1 (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -24792,7 +24792,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;4;2;0;0;0;0
 Arg;1;1;1;5;1;0;0;0
 His;0;0;0;0;0;0;0;0
-chymotrypsin-like enzyme (Lepidoptera) | Slctlp1 g.p. (Spodoptera litura) | HaChy10 (Helicoverpa armigera) | HaChy11 (Helicoverpa armigera) | HaChy2 (Helicoverpa armigera) | HaChy3 (Helicoverpa armigera) | HaChy4 (Helicoverpa armigera)
+chymotrypsin-like enzyme (Lepidoptera);HaChy10 (Helicoverpa armigera);HaChy11 (Helicoverpa armigera);HaChy2 (Helicoverpa armigera);HaChy3 (Helicoverpa armigera);HaChy4 (Helicoverpa armigera);Slctlp1 g.p. (Spodoptera litura)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -24814,7 +24814,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-kallikrein 1-related peptidase b11 | kallikrein mK11 (Mus musculus) | Klk11 g.p. [obs.] (Mus musculus) | Klk1b11 g.p. (Mus musculus)
+kallikrein 1-related peptidase b11;kallikrein mK11 (Mus musculus);Klk11 g.p. [obs.] (Mus musculus);Klk1b11 g.p. (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;0;0;0;0
 Pro;0;1;0;0;0;0;1;0
@@ -24836,7 +24836,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;1;0;0;0;0
 His;0;0;0;0;0;1;0;0
-intestinal serine peptidase (rodent) | Mername-AA128 peptidase
+intestinal serine peptidase (rodent);Mername-AA128 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -24858,7 +24858,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;6;0;0;0;0
 His;0;0;0;0;0;0;0;0
-human airway trypsin-like peptidase | adrenal secretory serine protease | airway trypsin-like protease | HAT peptidase | TMPRSS11D g.p. (Homo sapiens) | respiratory trypsin-like enzyme (Homo sapiens)
+human airway trypsin-like peptidase;adrenal secretory serine protease;airway trypsin-like protease;respiratory trypsin-like enzyme (Homo sapiens);HAT peptidase;TMPRSS11D g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;6;6;9;0;19;5;10;12
 Pro;4;5;11;0;0;4;4;6
@@ -24902,7 +24902,7 @@ Glu;1;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;1;0;0;2;0;0;0;0
 His;1;0;0;0;0;1;0;0
-kallikrein 1-related peptidase b24 (Mus musculus) | kallikrein 24 (Mus musculus) | kallikrein mK24 (Mus musculus) | Klk1b24 g.p. (Mus musculus)
+kallikrein 1-related peptidase b24 (Mus musculus);kallikrein 24 (Mus musculus);kallikrein mK24 (Mus musculus);Klk1b24 g.p. (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;1
 Pro;1;0;0;0;0;0;0;0
@@ -24924,7 +24924,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-kallikrein 1-related peptidase b26 (Mus musculus) | kallikrein 26 (Mus musculus) | kallikrein mK26 (Mus musculus) | Klk1b26 g.p. (Mus musculus) | PRECE-2 | prorenin converting enzyme 2 | epidermal growth factor-binding protein type B (Mus musculus)
+kallikrein 1-related peptidase b26 (Mus musculus);kallikrein 26 (Mus musculus);kallikrein mK26 (Mus musculus);Klk1b26 g.p. (Mus musculus);PRECE-2;prorenin converting enzyme 2;epidermal growth factor-binding protein type B (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -24946,7 +24946,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-kallikrein 1-related peptidase b9 (Mus musculus) | kallikrein 9 (Mus musculus) | kallikrein mK9 (Mus musculus) | Klk1b9 g.p. (Mus musculus) | Klk9 [obs.] g.p. (Mus musculus) | mK9 | PRCE C | prorenin-converting enzyme C | EGF-BP C | epidermal growth factor binding protein 3 (Mus musculus) | epidermal growth factor binding protein C (Mus musculus)
+kallikrein 1-related peptidase b9 (Mus musculus);kallikrein 9 (Mus musculus);kallikrein mK9 (Mus musculus);Klk1b9 g.p. (Mus musculus);Klk9 [obs.] g.p. (Mus musculus);PRCE C;prorenin-converting enzyme C;mK9;EGF-BP C;epidermal growth factor binding protein 3 (Mus musculus);epidermal growth factor binding protein C (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;1
 Pro;0;1;0;0;0;1;1;1
@@ -24968,7 +24968,7 @@ Glu;1;3;0;0;0;0;0;0
 Lys;0;0;5;1;0;0;0;0
 Arg;1;1;1;13;1;0;0;0
 His;1;0;0;0;1;0;0;0
-matriptase-3 | Tryp_SPc peptidase
+matriptase-3;Tryp_SPc peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;7;1;15;3;15;15;23;7
 Pro;12;6;20;3;0;4;9;9
@@ -24990,7 +24990,7 @@ Glu;2;7;5;1;0;6;5;3
 Lys;3;5;1;3;28;3;5;7
 Arg;8;10;3;82;12;5;5;2
 His;0;0;0;2;6;5;1;0
-kallikrein 1-related peptidase b27 (Mus musculus) | kallikrein 27 (Mus musculus) | Klk1b27 g.p. (Mus musculus) | mouse glandular kallikrein 27 | GK27 g.p. (Mus musculus)
+kallikrein 1-related peptidase b27 (Mus musculus);GK27 g.p. (Mus musculus);kallikrein 27 (Mus musculus);Klk1b27 g.p. (Mus musculus);mouse glandular kallikrein 27
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -25012,7 +25012,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-marapsin | MPN | tryptase homologue 1 (Homo sapiens) | pancreasin | PRSS27 g.p. (Homo sapiens)
+marapsin;tryptase homologue 1 (Homo sapiens);pancreasin;PRSS27 g.p. (Homo sapiens);MPN
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -25034,7 +25034,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-tryptase-6 | serine protease EOS | tryptase homologue 2 (Homo sapiens) | PRSS33 g.p. (Homo sapiens) | EOS serine protease
+tryptase-6;tryptase homologue 2 (Homo sapiens);serine protease EOS;PRSS33 g.p. (Homo sapiens);EOS serine protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;0;2;0;0;0;0;0
@@ -25056,7 +25056,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;4;0;0;0;0
 His;0;0;0;0;0;0;0;0
-transmembrane peptidase, serine 3 | TADG-12 protease (Homo sapiens) | TMPRSS3 g.p. (Homo sapiens) | transmembrane protease, serine 3 | tumor associated differentially-expressed gene-12 | ECHOS1 protein
+transmembrane peptidase, serine 3;TADG-12 protease (Homo sapiens);TMPRSS3 g.p. (Homo sapiens);transmembrane protease, serine 3;tumor associated differentially-expressed gene-12;ECHOS1 protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -25078,7 +25078,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;1;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-kallikrein-related peptidase 15 | kallikrein 15 | kallikrein hK15 (Homo sapiens) | KLK15 g.p. (Homo sapiens) | ACO protein | prostin | prostinogen
+kallikrein-related peptidase 15;kallikrein 15;kallikrein hK15 (Homo sapiens);KLK15 g.p. (Homo sapiens);ACO protein;prostin;prostinogen
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;104;94;188;0;86;150;129;137
 Pro;102;47;113;0;5;60;96;111
@@ -25100,7 +25100,7 @@ Glu;19;20;18;0;8;24;41;53
 Lys;66;60;79;58;165;52;72;67
 Arg;68;82;59;1322;155;95;103;66
 His;19;23;11;0;29;25;32;36
-spermosin (Halocynthia roretzi) | EC 3.4.21.99
+spermosin (Halocynthia roretzi);EC 3.4.21.99
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -25122,7 +25122,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-30kP peptidase A (Bombyx-type) | 30kP protease A (Bombyx-type)
+30kP peptidase A (Bombyx-type);30kP protease A (Bombyx-type)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;1;0;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -25144,7 +25144,7 @@ Glu;0;2;1;0;0;0;2;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;1
 His;1;0;0;1;1;1;1;0
-TMPRSS13 peptidase | mosaic serine peptidase long-form | mosaic serine protease long-form | mosaic serine protease short-form | MSP | MSPL | MSPS | TMPRSS13 g.p. (Homo sapiens)
+TMPRSS13 peptidase;TMPRSS13 g.p. (Homo sapiens);mosaic serine peptidase long-form;mosaic serine protease long-form;mosaic serine protease short-form;MSP;MSPL;MSPS
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;3;0;0;4
 Pro;0;0;0;0;0;0;0;0
@@ -25210,7 +25210,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-vascular chymase (Rattus norvegicus) | rat vascular chymase | RVCH
+vascular chymase (Rattus norvegicus);rat vascular chymase;RVCH
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;1;1
@@ -25232,7 +25232,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;1;1;1;0;0;0
 His;0;1;0;0;1;1;1;1
-granzyme B (Equus-type) | horse mast cell peptidase-1 (Equus sp.)
+granzyme B (Equus-type);horse mast cell peptidase-1 (Equus sp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -25254,7 +25254,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-trypsin (Streptomyces griseus-type) | Mername-AA285 peptidase | SGT | SOT peptidase (Streptomyces omiyaensis) | sprT g.p. (Streptomyces griseus) | sprU g.p. (Streptomyces griseus)
+trypsin (Streptomyces griseus-type);SGT;SOT peptidase (Streptomyces omiyaensis);sprT g.p. (Streptomyces griseus);sprU g.p. (Streptomyces griseus);Mername-AA285 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;0;1;0;0
 Pro;0;0;1;0;0;0;1;1
@@ -25276,7 +25276,7 @@ Glu;1;0;0;0;0;1;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;6;0;0;0;0
 His;0;1;0;0;0;0;1;0
-trypsin (Streptomyces erythraeus-type) | Mername-AA286 peptidase
+trypsin (Streptomyces erythraeus-type);Mername-AA286 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -25298,7 +25298,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-trypsin (fungal) | trypsin (Fusarium oxysporum) | P27 peptidase (Trichoderma harzianum) | Pr2 endopeptidase (Metarhizium anisopliae) | PRA1 protease (Trichoderma harzianum)
+trypsin (fungal);trypsin (Fusarium oxysporum);P27 peptidase (Trichoderma harzianum);Pr2 endopeptidase (Metarhizium anisopliae);PRA1 protease (Trichoderma harzianum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -25320,7 +25320,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-tryptase-5 | 2010001p08rik protein (Mus musculus) | Mername-AA190 peptidase | Prss32 g.p. (Mus musculus)
+tryptase-5;2010001p08rik protein (Mus musculus);Prss32 g.p. (Mus musculus);Mername-AA190 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -25342,7 +25342,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-astrovirus serine peptidase | 3C-like serine protease (astrovirus) | astrovirus serine protease | avian nephritis virus endopeptidase
+astrovirus serine peptidase;3C-like serine protease (astrovirus);astrovirus serine protease;avian nephritis virus endopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -25364,7 +25364,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-trypsin alpha (insect) | trypsin alpha (Drosophila melanogaster) | trypsin beta (Drosophila melanogaster) | trypsin delta (Drosophila melanogaster) | trypsin epsilon (Drosophila melanogaster) | trypsin gamma (Drosophila melanogaster)
+trypsin alpha (insect);trypsin alpha (Drosophila melanogaster);trypsin beta (Drosophila melanogaster);trypsin delta (Drosophila melanogaster);trypsin epsilon (Drosophila melanogaster);trypsin gamma (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -25408,7 +25408,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;4;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cocoonase | SfT6 (Spodoptera frugiperda) | achelase | HaTry22 (Helicoverpa armigera) | HaTry4 (Helicoverpa armigera) | HaTry5 (Helicoverpa armigera) | HaTry6 (Helicoverpa armigera) | HaTry7 (Helicoverpa armigera) | trypsin (invertebrate) | trypsin SR36 (Helicoverpa armigera) | trypsin SR40 (Helicoverpa armigera) | early trypsin (Aedes aegypti)
+cocoonase;achelase;HaTry22 (Helicoverpa armigera);HaTry4 (Helicoverpa armigera);HaTry5 (Helicoverpa armigera);HaTry6 (Helicoverpa armigera);HaTry7 (Helicoverpa armigera);trypsin (invertebrate);trypsin SR36 (Helicoverpa armigera);trypsin SR40 (Helicoverpa armigera);SfT6 (Spodoptera frugiperda);early trypsin (Aedes aegypti)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;2;0;0;0;0;0
 Pro;0;2;0;0;0;0;0;0
@@ -25430,7 +25430,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;2;0;0;0;0
 Arg;0;0;0;4;0;2;0;0
 His;0;0;0;0;0;0;0;0
-vitellin-degrading peptidase (Bombyx-type) | Vtn protease
+vitellin-degrading peptidase (Bombyx-type);Vtn protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -25452,7 +25452,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-tryptase (mammalian, non-Homo sapiens-type) | tryptase-1 (Ovis aries) | tryptase-2 (Ovis aries)
+tryptase (mammalian, non-Homo sapiens-type);tryptase-1 (Ovis aries);tryptase-2 (Ovis aries)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;0;0;0;0;0;0
 Pro;0;0;2;0;0;0;0;0
@@ -25496,7 +25496,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-hypodermin C | JHA15 g.p. (Aedes aegypti) | EC 3.4.21.49
+hypodermin C;JHA15 g.p. (Aedes aegypti);EC 3.4.21.49
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;5;0;1;5;0;0
 Pro;1;1;1;1;0;0;1;4
@@ -25518,7 +25518,7 @@ Glu;1;1;1;0;0;0;1;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;1;0;1;0;0;0;1
 His;0;0;0;0;0;0;0;0
-brachyurin-C | Moricrase | plasminogen activator sPA (Scolopendra subspinipes) | chymotrypsin B (Penaeus spp.) | chymotrypsin B1 (Penaeus spp.) | chymotrypsin PM1 (Penaeus spp.) | chymotrypsin PM2 (Penaeus spp.) | collagenolytic endopeptidase (Uca pugilator) | crab collagenolytic endopeptidase | EC 3.4.21.32
+brachyurin-C;chymotrypsin B (Penaeus spp.);chymotrypsin B1 (Penaeus spp.);chymotrypsin PM1 (Penaeus spp.);chymotrypsin PM2 (Penaeus spp.);collagenolytic endopeptidase (Uca pugilator);crab collagenolytic endopeptidase;plasminogen activator sPA (Scolopendra subspinipes);Moricrase;EC 3.4.21.32
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;4;6;1;3;5;3;4
 Pro;1;2;2;0;0;2;3;1
@@ -25540,7 +25540,7 @@ Glu;3;2;1;1;0;1;1;0
 Lys;0;0;0;3;0;1;1;1
 Arg;1;3;1;11;3;0;0;2
 His;0;0;2;1;0;0;0;2
-euphauserase | krill serine endopeptidase | PHM-101 endopeptidase | collagenolytic endopeptidase (Euphausia superba) | euphaulysin
+euphauserase;krill serine endopeptidase;collagenolytic endopeptidase (Euphausia superba);PHM-101 endopeptidase;euphaulysin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -25562,7 +25562,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-trypsin Y | trypsin (Notothenia spp.) | trypsin (Paranotothenia magellanica) | trypsin 1 (Pleuronectes americanus) | trypsin 3 (Platichthys flesus) | trypsin Y (Gadus morhua) | chimeric antifreeze glycoprotein-serine proteinase (Dissostichus mawsoni)
+trypsin Y;trypsin (Notothenia spp.);trypsin (Paranotothenia magellanica);trypsin 1 (Pleuronectes americanus);trypsin 3 (Platichthys flesus);trypsin Y (Gadus morhua);chimeric antifreeze glycoprotein-serine proteinase (Dissostichus mawsoni)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;2;0;0;0;0;0
@@ -25584,7 +25584,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-trypsin-1 (fish) | trypsin 1 (Platichthys flesus) | trypsin 2 (Platichthys flesus) | trypsin I (Gadus morhua) | trypsin I (Salmo salar) | trypsin II (Salmo salar) | trypsin T1 (Epinephelus coioides) | trypsin X (Gadus morhua)
+trypsin-1 (fish);trypsin 1 (Platichthys flesus);trypsin 2 (Platichthys flesus);trypsin I (Gadus morhua);trypsin I (Salmo salar);trypsin II (Salmo salar);trypsin T1 (Epinephelus coioides);trypsin X (Gadus morhua)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -25606,7 +25606,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;4;0;0;0;0
 His;0;0;0;0;0;0;0;0
-trypsin-3 (fish) | Mername-AA135 trypsin | trypsin 1-P38 (Gallus gallus | trypsin III (Salmo salar) | trypsin P1 (Gallus gallus | trypsin T2 (Epinephelus coioides)
+trypsin-3 (fish);trypsin 1-P38 (Gallus gallus;trypsin III (Salmo salar);trypsin P1 (Gallus gallus;trypsin T2 (Epinephelus coioides);Mername-AA135 trypsin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -25628,7 +25628,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cationic trypsin (Homo sapiens-type) | trypsin 1 (Homo sapiens) | PRSS1 g.p. (Homo sapiens)
+cationic trypsin (Homo sapiens-type);trypsin 1 (Homo sapiens);PRSS1 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;1;0;0;1;1;1
 Pro;2;0;1;0;0;0;0;2
@@ -25650,7 +25650,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;2;0;1;0;0;0;0
 Arg;0;2;0;7;0;1;0;2
 His;0;0;0;0;0;0;0;1
-elastase-2 | medullasin | spleen fibrinolytic endopeptidase | neutrophil elastase | leukocyte elastase | lysosomal elastase | polymorphonuclear leukocyte elastase | EC 3.4.21.37 | ELANE g.p. (Homo sapiens) | elastase, neutrophilelastase, leukocytefibrinolytic endopeptidase, spleen
+elastase-2;leukocyte elastase;lysosomal elastase;neutrophil elastase;spleen fibrinolytic endopeptidase;polymorphonuclear leukocyte elastase;medullasin;EC 3.4.21.37;ELANE g.p. (Homo sapiens);elastase, neutrophilelastase, leukocytefibrinolytic endopeptidase, spleen
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;42;29;51;2;54;60;33;34
 Pro;35;3;77;2;3;9;39;66
@@ -25672,7 +25672,7 @@ Glu;27;69;20;1;9;13;23;27
 Lys;6;16;10;1;18;10;27;15
 Arg;10;13;10;5;14;13;5;7
 His;19;15;9;0;18;12;9;23
-mannan-binding lectin-associated serine peptidase-3 | mannan-binding lectin-associated serine protease-3 | MASP-3
+mannan-binding lectin-associated serine peptidase-3;mannan-binding lectin-associated serine protease-3;MASP-3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;1;4;0;0;0;0;1
@@ -25694,7 +25694,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;2;0;0;0;0
 Arg;0;1;0;6;0;0;2;0
 His;0;1;0;0;1;0;0;0
-cathepsin G | Stat5 protease | CatG | CTSG g.p. (Homo sapiens) | EC 3.4.21.20
+cathepsin G;CatG;CTSG g.p. (Homo sapiens);Stat5 protease;EC 3.4.21.20
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;34;34;13;2;36;33;52;40
 Pro;35;6;45;0;2;4;35;19
@@ -25716,7 +25716,7 @@ Glu;24;48;37;2;5;37;21;46
 Lys;0;2;5;3;19;1;12;20
 Arg;12;6;3;3;8;3;9;2
 His;20;8;5;105;14;15;9;4
-myeloblastin | AGP7 | Wegener’s granulomatosis autoantigen | neutrophil leukocyte proteinase 3 | neutrophil leukocyte proteinase 4 | p29b | PR3 | proteinase 3 | proteinase 3, neutrophil leukocyteproteinase 4, neutrophil leukocyteautoantigen, Wegener’s granulomatosis | PRTN3 g.p. (Homo sapiens) | c-ANCA | EC 3.4.21.76
+myeloblastin;AGP7;c-ANCA;neutrophil leukocyte proteinase 3;neutrophil leukocyte proteinase 4;Wegener’s granulomatosis autoantigen;p29b;PR3;proteinase 3;proteinase 3, neutrophil leukocyteproteinase 4, neutrophil leukocyteautoantigen, Wegener’s granulomatosis;PRTN3 g.p. (Homo sapiens);EC 3.4.21.76
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;0;3;0;2;4;4;2
 Pro;0;0;6;2;0;1;1;6
@@ -25738,7 +25738,7 @@ Glu;0;1;5;0;3;2;3;2
 Lys;3;3;0;4;0;1;2;1
 Arg;2;4;0;1;3;4;1;3
 His;0;4;1;0;2;2;0;0
-granzyme A | HuTSP | T-cell associated protease 1 | T-cell specific proteinase 1 | TSP-1 | GZMA g.p. (Homo sapiens) | protease 1, T-cell associatedendopeptidase 1, T-cell specific | CTLA3 | EC 3.4.21.78
+granzyme A;GZMA g.p. (Homo sapiens);HuTSP;T-cell associated protease 1;T-cell specific proteinase 1;TSP-1;CTLA3;protease 1, T-cell associatedendopeptidase 1, T-cell specific;EC 3.4.21.78
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;28;46;19;5;29;99;59;33
 Pro;44;4;67;4;0;2;17;11
@@ -25760,7 +25760,7 @@ Glu;21;32;12;1;10;33;32;45
 Lys;21;25;11;129;52;7;53;57
 Arg;35;18;13;253;0;0;2;0
 His;8;2;4;0;17;0;4;8
-granzyme B, rodent-type | asp-ase | fragmentin | GzmBP (Mus musculus) | GzmBW (Mus musculus) | CCP II | CGL-1 | CTLA1 | cytotoxic cell protease 2 | EC 3.4.21.79
+granzyme B, rodent-type;GzmBP (Mus musculus);GzmBW (Mus musculus);fragmentin;asp-ase;CCP II;CGL-1;CTLA1;cytotoxic cell protease 2;EC 3.4.21.79
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;5;61;64;0;34;76;18;26
 Pro;41;1;77;1;0;3;14;17
@@ -25782,7 +25782,7 @@ Glu;32;74;36;51;34;48;68;76
 Lys;8;12;10;1;31;12;58;21
 Arg;0;11;0;1;0;1;0;1
 His;5;24;2;1;1;1;0;0
-granzyme C | rat granzyme RNKP-4 | RNKP-4granzyme RNKP-4 (Rattus)
+granzyme C;rat granzyme RNKP-4;RNKP-4granzyme RNKP-4 (Rattus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;0;0;0;7;2;1
 Pro;1;0;0;0;1;2;0;1
@@ -25804,7 +25804,7 @@ Glu;2;1;3;0;2;1;8;4
 Lys;1;1;0;0;1;0;1;2
 Arg;0;1;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-granzyme M | met-ase | GZMM g.p. (Homo sapiens)
+granzyme M;GZMM g.p. (Homo sapiens);met-ase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;35;38;152;13;49;106;91;108
 Pro;115;11;313;6;2;5;97;80
@@ -25826,7 +25826,7 @@ Glu;25;251;85;12;65;36;175;158
 Lys;412;69;84;41;207;92;127;126
 Arg;72;49;23;28;13;10;14;23
 His;39;15;7;4;10;18;10;31
-chymase (Homo sapiens-type) | mast cell protease 3 (Mus musculus) | mMCP-3 | mouse chymase 3 | skeletal muscle protease | skin chymotryptic proteinase | alpha-chymase | chymase 3 (Mus musculus) | chymase I | chymotryptic proteinase, skin | CMA1 g.p. (Homo sapiens) | EC 3.4.21.39
+chymase (Homo sapiens-type);alpha-chymase;chymase 3 (Mus musculus);chymase I;chymotryptic proteinase, skin;CMA1 g.p. (Homo sapiens);skeletal muscle protease;skin chymotryptic proteinase;mast cell protease 3 (Mus musculus);mMCP-3;mouse chymase 3;EC 3.4.21.39
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;13;5;1;1;12;8;11;7
 Pro;4;1;15;0;1;0;9;5
@@ -25848,7 +25848,7 @@ Glu;1;7;2;0;8;21;5;6
 Lys;4;3;2;0;2;0;0;0
 Arg;9;2;3;0;3;0;2;5
 His;0;2;0;0;2;3;8;15
-mast cell peptidase 1 (Rattus-type) | rat mast cell protease 2 | rMCP-2 | chymase 2 (Rattus norvegicus)
+mast cell peptidase 1 (Rattus-type);rat mast cell protease 2;rMCP-2;chymase 2 (Rattus norvegicus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;0;2;0
 Pro;0;0;1;0;0;0;1;1
@@ -25870,7 +25870,7 @@ Glu;2;1;0;0;0;0;0;1
 Lys;0;1;0;0;0;0;0;0
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;0;2;1;0
-duodenase | sheep mast cell proteinase-1
+duodenase;sheep mast cell proteinase-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;1;0;0
 Pro;2;0;4;0;0;0;2;0
@@ -25892,7 +25892,7 @@ Glu;0;1;0;0;0;0;1;2
 Lys;0;1;0;8;1;2;1;0
 Arg;0;1;0;1;1;0;0;0
 His;0;1;0;0;2;2;0;0
-tryptase alpha | TPSAB1 g.p. (Homo sapiens) | tryptase alpha 1 (Homo sapiens) | EC 3.4.21.59
+tryptase alpha;TPSAB1 g.p. (Homo sapiens);tryptase alpha 1 (Homo sapiens);EC 3.4.21.59
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;2;0;1;0;3;2
 Pro;3;0;3;0;0;1;2;1
@@ -25914,7 +25914,7 @@ Glu;0;0;1;0;0;1;2;1
 Lys;1;2;1;13;3;0;0;0
 Arg;3;2;1;10;0;1;0;1
 His;0;1;0;0;0;0;0;1
-cercarial elastase (Schistosoma sp.) | SmCE | elastase, cercarial
+cercarial elastase (Schistosoma sp.);SmCE;elastase, cercarial
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;1;0;2;1;1;0
 Pro;1;0;2;0;0;0;1;0
@@ -25936,7 +25936,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-mastin | mast cell protease 3 (Canis familiaris) | mastocytoma tryptase | protease 3, mast celltryptase, mastocytoma
+mastin;protease 3, mast celltryptase, mastocytoma;mast cell protease 3 (Canis familiaris);mastocytoma tryptase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -25958,7 +25958,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-granzyme K | tryptase TL2 | NK tryptase 2 | granzyme 3 | GZMK g.p. (Homo sapiens) | RNK-Tryp-2
+granzyme K;granzyme 3;GZMK g.p. (Homo sapiens);RNK-Tryp-2;tryptase TL2;NK tryptase 2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;1;0;1;0;1;1
 Pro;0;0;5;0;0;0;1;2
@@ -25980,7 +25980,7 @@ Glu;1;0;2;0;0;0;1;1
 Lys;1;1;1;4;2;1;0;1
 Arg;0;1;0;16;1;0;1;0
 His;0;1;0;0;1;0;0;0
-granzyme H | granzyme Y | CGL-2
+granzyme H;granzyme Y;CGL-2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -26002,7 +26002,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;0;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-mast cell peptidase 4 (mouse numbering) | Mcpt4 g.p. (Mus musculus) | mekratin | mMCP-4 | myonase | hamster chymase 1 | rat mast cell protease 1 | rMCP-1 | protease 1, mast cell (Rattus)mouse mast cell protease 4mast cell protease 1 (Rattus) | chymase 1 (Rattus norvegicus) | chymase 4 (Mus musculus) | connective-tissue-type mast-cell-specific chymase (Mus musculus)
+mast cell peptidase 4 (mouse numbering);rat mast cell protease 1;rMCP-1;hamster chymase 1;chymase 1 (Rattus norvegicus);chymase 4 (Mus musculus);connective-tissue-type mast-cell-specific chymase (Mus musculus);protease 1, mast cell (Rattus)mouse mast cell protease 4mast cell protease 1 (Rattus);Mcpt4 g.p. (Mus musculus);mekratin;mMCP-4;myonase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;0;2;0
 Pro;0;0;3;0;0;0;3;1
@@ -26024,7 +26024,7 @@ Glu;2;1;0;0;0;0;0;2
 Lys;0;1;0;0;0;0;0;0
 Arg;1;2;0;0;0;0;0;0
 His;0;1;0;0;1;3;1;0
-mast cell peptidase 5 (mouse numbering) | mast cell protease 2 (Meriones unguiculatus) | mast cell protease 5 (mouse numbering) | mast cell protease 5 (Rattus norvegicus) | mMCP-5 | hamster chymase 2 | rMCP-5 | protease 5, mast cell (Mus)mouse mast cell protease 5 | chymase 2 (Mesocricetus auratus) | chymase 5 (Mus musculus)
+mast cell peptidase 5 (mouse numbering);rMCP-5;hamster chymase 2;chymase 2 (Mesocricetus auratus);chymase 5 (Mus musculus);protease 5, mast cell (Mus)mouse mast cell protease 5;mast cell protease 2 (Meriones unguiculatus);mast cell protease 5 (mouse numbering);mast cell protease 5 (Rattus norvegicus);mMCP-5
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;9;0;1;0;0;1;1;3
 Pro;8;1;3;3;0;0;0;0
@@ -26046,7 +26046,7 @@ Glu;1;5;0;0;2;15;0;0
 Lys;2;0;1;0;0;0;3;0
 Arg;2;2;0;0;5;0;4;4
 His;0;0;0;0;0;0;5;10
-trypsin 1 | trypsin 1 (tetrapod, non-Homo sapiens) | trypsin 1 (Sus scrofa) | trypsin 7 (Mus musculus) | trypsin III (cationic) (Rattus norvegicus) | trypsinogen (activated) | pseudotrypsin | psi-trypsin | EC 3.4.21.4
+trypsin 1;trypsin 1 (tetrapod, non-Homo sapiens);trypsin 1 (Sus scrofa);trypsin 7 (Mus musculus);trypsin III (cationic) (Rattus norvegicus);trypsinogen (activated);pseudotrypsin;psi-trypsin;EC 3.4.21.4
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1474;1663;1796;35;1589;1752;1736;1489
 Pro;1334;1017;1424;5;58;1082;1369;1474
@@ -26068,7 +26068,7 @@ Glu;2153;1595;1829;1;1690;1195;2182;2434
 Lys;1316;1250;1250;12979;1215;1115;789;740
 Arg;863;720;706;9850;703;688;510;521
 His;454;432;387;4;537;433;391;412
-chymotrypsin B | chymotrypsin (Homo sapiens-type) | chymotrypsin 2 (Canis familiaris) | CTRB1 g.p. (Homo sapiens)
+chymotrypsin B;chymotrypsin (Homo sapiens-type);chymotrypsin 2 (Canis familiaris);CTRB1 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;2;0;0;0
 Pro;1;1;7;0;0;0;1;1
@@ -26090,7 +26090,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;2;2;1;0;0;1;2;1
 Arg;0;2;0;0;1;0;0;0
 His;1;0;1;0;0;1;0;0
-elastase-1 | vonapanitase | p6-5 protein | pancreatic elastase | pancreatopeptidase E | PRT-201 | CELA g.p. (Mus musculus) | CELA g.p. (Rattus norvegicus) | CELA1 g.p. (Homo sapiens) | EC 3.4.21.36 | elastase I, pancreatic
+elastase-1;CELA g.p. (Mus musculus);CELA g.p. (Rattus norvegicus);CELA1 g.p. (Homo sapiens);vonapanitase;p6-5 protein;pancreatic elastase;pancreatopeptidase E;PRT-201;EC 3.4.21.36;elastase I, pancreatic
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;3;4;2;2;3;1;0
 Pro;3;0;10;0;0;1;3;1
@@ -26112,7 +26112,7 @@ Glu;2;5;2;0;3;2;4;7
 Lys;0;0;2;0;1;0;1;0
 Arg;0;1;2;0;0;1;0;2
 His;0;3;2;1;1;0;1;1
-pancreatic endopeptidase E | pancreatic endopeptidase E form A (Homo sapiens) | protease E | cattle subunit III | CELA3A g.p. (Homo sapiens) | cholesterol-binding proteinase | EC 3.4.21.70 | elastase 3A (Homo sapiens) | elastase IIIA (Homo sapiens) | endopeptidase E, pancreatic
+pancreatic endopeptidase E;cattle subunit III;CELA3A g.p. (Homo sapiens);cholesterol-binding proteinase;pancreatic endopeptidase E form A (Homo sapiens);protease E;EC 3.4.21.70;elastase 3A (Homo sapiens);elastase IIIA (Homo sapiens);endopeptidase E, pancreatic
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -26134,7 +26134,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-pancreatic elastase II | rat mesenteric arterial bed elastase-2 | pancreatic elastase 2 | pancreatic elastase IIA (Homo sapiens) | CELA2A g.p. (Homo sapiens) | CELA2B g.p. (Homo sapiens) | chymotrypsin-like elastase family, member 2A | EC 3.4.21.71 | ELA2A g.p. (Homo sapiens) | elastase 2, pancreaticelastase II, pancreatic | elastase 2A | elastase C (Gadus morhua)
+pancreatic elastase II;rat mesenteric arterial bed elastase-2;CELA2A g.p. (Homo sapiens);CELA2B g.p. (Homo sapiens);chymotrypsin-like elastase family, member 2A;pancreatic elastase 2;pancreatic elastase IIA (Homo sapiens);EC 3.4.21.71;ELA2A g.p. (Homo sapiens);elastase 2, pancreaticelastase II, pancreatic;elastase 2A;elastase C (Gadus morhua)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;3;0;1;0
 Pro;0;0;7;0;0;0;1;0
@@ -26156,7 +26156,7 @@ Glu;0;1;0;0;0;0;1;1
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;3;0;1;3;0;0;0
-enteropeptidase | TMPRSS15 | PRSS7 g.p. (Homo sapiens) | EC 3.4.21.9 | enterokinase
+enteropeptidase;TMPRSS15;PRSS7 g.p. (Homo sapiens);EC 3.4.21.9;enterokinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;4;0;0;1;5;14;8
 Pro;0;0;0;0;0;0;0;1
@@ -26178,7 +26178,7 @@ Glu;1;2;5;0;0;0;0;1
 Lys;0;0;0;7;0;1;0;0
 Arg;1;0;0;14;1;1;0;0
 His;1;0;0;0;0;0;0;0
-chymotrypsin C | caldecrin | CTRC g.p. (Homo sapiens) | EC 3.4.21.2
+chymotrypsin C;caldecrin;CTRC g.p. (Homo sapiens);EC 3.4.21.2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;1;0;2;2;2;2
 Pro;0;0;4;0;0;1;2;1
@@ -26200,7 +26200,7 @@ Glu;8;6;4;0;2;2;2;5
 Lys;0;1;1;0;0;1;2;1
 Arg;2;2;0;0;0;1;4;6
 His;0;1;2;0;1;0;0;1
-prostasin | PRSS8 g.p. (Homo sapiens) | CAP-1 | CAP1 | channel-activating protease-1
+prostasin;CAP-1;CAP1;channel-activating protease-1;PRSS8 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;1;0
 Pro;0;0;1;0;0;0;0;0
@@ -26222,7 +26222,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;1;0;0;0;1
 Arg;1;0;1;5;0;0;0;0
 His;0;0;0;0;0;0;0;0
-kallikrein 1 | kallikrein 1 (Homo sapiens) | kallikrein hK1 (Homo sapiens) | kallikrein, pancreatickallikrein submandibularkallikrein submaxillarykallikrein, urinarykallikrein hK1, tissue (Homo sapiens) | kidney kallikrein | KLK1 g.p. (Homo sapiens) | submandibular kallikrein | submaxillary kallikrein | urinary kallikrein | glandular kallikrein | pancreatic kallikrein | EC 3.4.21.35
+kallikrein 1;glandular kallikrein;kallikrein 1 (Homo sapiens);kallikrein hK1 (Homo sapiens);kallikrein, pancreatickallikrein submandibularkallikrein submaxillarykallikrein, urinarykallikrein hK1, tissue (Homo sapiens);kidney kallikrein;KLK1 g.p. (Homo sapiens);submandibular kallikrein;submaxillary kallikrein;urinary kallikrein;pancreatic kallikrein;EC 3.4.21.35
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;0;0;7;2
 Pro;1;3;1;0;0;0;2;2
@@ -26244,7 +26244,7 @@ Glu;4;1;1;0;0;0;0;0
 Lys;0;1;1;2;1;2;3;0
 Arg;0;2;1;15;6;6;3;3
 His;0;0;1;0;0;0;1;1
-kallikrein-related peptidase 2 | kallikrein 2 | kallikrein hk2 (Homo sapiens) | KLK2 g.p. (Homo sapiens) | hGK1 | hK2 | human glandular kallikrein 1 [obs.]
+kallikrein-related peptidase 2;kallikrein 2;kallikrein hk2 (Homo sapiens);KLK2 g.p. (Homo sapiens);hGK1;hK2;human glandular kallikrein 1 [obs.]
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;25;10;6;0;3;8;17;21
 Pro;4;3;3;0;1;8;4;1
@@ -26266,7 +26266,7 @@ Glu;7;4;1;0;0;2;3;2
 Lys;1;4;2;6;2;1;2;2
 Arg;0;5;5;57;2;1;3;1
 His;1;4;2;1;0;4;3;1
-kallikrein-related peptidase 3 | kallikrein 3 | kallikrein hK3 | KLK3 g.p. (Homo sapiens) | semenogelase | seminin | antigen, P-30antigen, prostate-specific | APS g.p. [obs.] (Homo sapiens) | hk3 | gamma-seminoprotein | P-30 antigen | prostate-specific antigen | PSA | EC 3.4.21.77
+kallikrein-related peptidase 3;gamma-seminoprotein;kallikrein 3;kallikrein hK3;KLK3 g.p. (Homo sapiens);antigen, P-30antigen, prostate-specific;APS g.p. [obs.] (Homo sapiens);hk3;semenogelase;seminin;P-30 antigen;prostate-specific antigen;PSA;EC 3.4.21.77
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;5;2;0;0;4;7;6;10
 Pro;1;3;5;0;0;1;3;5
@@ -26288,7 +26288,7 @@ Glu;1;1;0;1;1;3;7;8
 Lys;0;8;3;2;1;3;5;4
 Arg;8;4;1;9;3;1;1;2
 His;1;3;9;6;2;1;4;4
-kallikrein 1-related peptidase b16 (Mus musculus) | kallikrein mGK16 (Mus musculus) | Klk1b16 g.p. (Mus musculus) | gamma-renin (Mus musculus) | EC 3.4.21.54
+kallikrein 1-related peptidase b16 (Mus musculus);gamma-renin (Mus musculus);kallikrein mGK16 (Mus musculus);Klk1b16 g.p. (Mus musculus);EC 3.4.21.54
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -26310,7 +26310,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;1;0;0;0;0;0
-kallikrein 1-related peptidase b1 | Klk1b1 g.p. (Mus musculus) | mouse kallikrein 1 | proteinase A (Mus musculus)
+kallikrein 1-related peptidase b1;Klk1b1 g.p. (Mus musculus);proteinase A (Mus musculus);mouse kallikrein 1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;1;0;0;0;1;1;0
@@ -26332,7 +26332,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;3;1;0;0;0
 His;0;0;0;0;0;0;0;0
-kallikrein 1-related peptidase c10 (Rattus norvegicus) | kallikrein rK10 (Rattus norvegicus) | kallikrein rk10 (Rattus norvegicus) | Klk1c10 g.p. (Rattus norvegicus) | salivary gland proteinase K (Rattus norvegicus) | antigen gamma | T-kininogenase | proteinase B | proteinase K, salivary glandkininogenasekallikrein rk10 (Rattus)rk10
+kallikrein 1-related peptidase c10 (Rattus norvegicus);kallikrein rK10 (Rattus norvegicus);kallikrein rk10 (Rattus norvegicus);Klk1c10 g.p. (Rattus norvegicus);antigen gamma;T-kininogenase;salivary gland proteinase K (Rattus norvegicus);proteinase B;proteinase K, salivary glandkininogenasekallikrein rk10 (Rattus)rk10
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;1;0;0;0;0;0;1
@@ -26354,7 +26354,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;4;0;1;3;0
 His;0;0;0;0;0;0;0;0
-kallikrein 1 (Mus musculus) | Klk6 g.p. (Mus musculus) | mouse kallikrein 6 | proteinase F (Mus musculus)
+kallikrein 1 (Mus musculus);Klk6 g.p. (Mus musculus);proteinase F (Mus musculus);mouse kallikrein 6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;2
 Pro;0;2;0;0;0;2;2;0
@@ -26376,7 +26376,7 @@ Glu;2;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;4;2;0;0;0
 His;0;0;0;0;0;0;0;0
-kallikrein 1-related peptidase b3 | 7S nerve growth factor gamma subunit (Mus sp.) | Klk1b3 g.p. (Mus musculus) | Klk3 [obs.] g.p. (Mus musculus) | nerve growth factor gamma subunit (Mus musculus)
+kallikrein 1-related peptidase b3;7S nerve growth factor gamma subunit (Mus sp.);Klk1b3 g.p. (Mus musculus);Klk3 [obs.] g.p. (Mus musculus);nerve growth factor gamma subunit (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -26398,7 +26398,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;1;0;0;1;0;0;0
-kallikrein 1-related peptidase c2 (Rattus norvegicus) | kallikrein klk1c2 (Rattus sp.) | kallikrein rk2 (Rattus sp.) | tonin
+kallikrein 1-related peptidase c2 (Rattus norvegicus);kallikrein klk1c2 (Rattus sp.);kallikrein rk2 (Rattus sp.);tonin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;2;0;3;1;2;2
 Pro;1;1;5;0;0;0;0;0
@@ -26420,7 +26420,7 @@ Glu;0;0;2;0;0;1;0;0
 Lys;0;1;1;0;0;0;0;0
 Arg;0;1;0;12;0;0;0;0
 His;0;3;0;0;4;0;0;0
-kallikrein 13 (Mus musculus) | kallikrein mK13 (Mus musculus) | KLK13 g.p. (Mus musculus) | mGK-13 | mK13 | mKLK13 | PRECE | PRECE-1 | PRECEkallikrein 13, mouse glandular | prorenin converting enzyme 1 | prorenin-converting enzyme | proteinase P (Mus musculus)
+kallikrein 13 (Mus musculus);kallikrein mK13 (Mus musculus);KLK13 g.p. (Mus musculus);PRECE;PRECE-1;PRECEkallikrein 13, mouse glandular;prorenin converting enzyme 1;prorenin-converting enzyme;proteinase P (Mus musculus);mGK-13;mK13;mKLK13
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -26442,7 +26442,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;4;1;0;0;0;0
 Arg;1;1;1;5;0;0;0;0
 His;0;0;0;0;0;0;0;0
-mesotrypsin | mesotrypsinogen (activated) | zymogen-X (activated) | brain trypsin (Homo sapiens) | trypsin IV (Homo sapiens) | trypsin, brain | trypsin-3 (Homo sapiens) | trypsin-4 (Homo sapiens) | trypsinogen IV | trypsinogen-3 (Homo sapiens) | PRSS3 g.p. (Homo sapiens) | PRSS4 g.p. (Homo sapiens)
+mesotrypsin;zymogen-X (activated);brain trypsin (Homo sapiens);trypsin IV (Homo sapiens);trypsin, brain;trypsin-3 (Homo sapiens);trypsin-4 (Homo sapiens);trypsinogen IV;trypsinogen-3 (Homo sapiens);PRSS3 g.p. (Homo sapiens);PRSS4 g.p. (Homo sapiens);mesotrypsinogen (activated)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;3;4;0;2;3;0;2
 Pro;1;4;7;0;0;1;4;3
@@ -26464,7 +26464,7 @@ Glu;0;0;0;0;1;0;0;1
 Lys;0;2;1;6;0;0;1;0
 Arg;0;1;0;16;0;2;0;0
 His;1;3;0;0;2;0;1;0
-batroxobin | moojase (Bothrops moojeni) | Defibrase | leucurobin (Bothrops leucurus) | Reptilase
+batroxobin;Defibrase;Reptilase;leucurobin (Bothrops leucurus);moojase (Bothrops moojeni)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;1;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -26486,7 +26486,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;1;0
 His;0;0;0;0;0;0;0;0
-crotalase | Defibrizyme | Crotalase
+crotalase;Defibrizyme;Crotalase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;0;0;2;0;0;0
 Pro;0;0;0;0;0;2;0;0
@@ -26508,7 +26508,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;2;0
 His;0;0;0;0;0;0;0;0
-ancrod | Arvin
+ancrod;Arvin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;1;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -26530,7 +26530,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;2;0;0;1;0
 His;0;0;0;0;0;0;0;0
-bothrombin | BpSP-II peptidase (Bothrops pauloensis)
+bothrombin;BpSP-II peptidase (Bothrops pauloensis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;1;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -26552,7 +26552,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;1;0
 His;0;0;0;0;0;0;0;0
-platelet-aggregating venom peptidase | PA-BJ venom endopeptidase (Bothrops jararaca)
+platelet-aggregating venom peptidase;PA-BJ venom endopeptidase (Bothrops jararaca)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;2;0;0;1;0;0
@@ -26574,7 +26574,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;4;0;0;0;0
 His;0;0;0;0;0;0;0;0
-bilineobin | albolabrase (Cryptelytrops albolabris) | GPV-TL1 (Cryptelytrops albolabris) | GPV-TL2 (Cryptelytrops albolabris) | gyroxin (Crotalus durissus terrificus)
+bilineobin;GPV-TL1 (Cryptelytrops albolabris);GPV-TL2 (Cryptelytrops albolabris);gyroxin (Crotalus durissus terrificus);albolabrase (Cryptelytrops albolabris)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -26596,7 +26596,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-trypsin IV (Rattus norvegicus) | P23 peptidase (Rattus norvegicus)
+trypsin IV (Rattus norvegicus);P23 peptidase (Rattus norvegicus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;1;0;0;0;0;1
 Pro;0;0;2;0;0;0;0;0
@@ -26618,7 +26618,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-factor V activator (Daboia russellii) | factor V-activator, snake venomvenom factor V-activatorcoagulation factor V-activator, venom | Russell’s viper factor V activator | RVV-V | EC 3.4.21.95
+factor V activator (Daboia russellii);factor V-activator, snake venomvenom factor V-activatorcoagulation factor V-activator, venom;Russell’s viper factor V activator;RVV-V;EC 3.4.21.95
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -26640,7 +26640,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-snake venom plasminogen activator | TSV-PA (Trimeresurus sp.) | jerdonobin-II | plasminogen activator, venom (Trimeresurus stejnejeri)
+snake venom plasminogen activator;jerdonobin-II;TSV-PA (Trimeresurus sp.);plasminogen activator, venom (Trimeresurus stejnejeri)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;0;0;0;1;1
 Pro;0;1;0;0;0;0;0;0
@@ -26662,7 +26662,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;4;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidase 6 (Dermatophagoides sp.) | mite chymotrypsin | allergen Der f 6 (Dermatophagoides farinae) | antigen Der p 6 (Dermatophagoides pteronissinus) | antigen Eur m 6 (Euroglyphus maynei) | protease 6 (Dermatophagoides sp.) | chymotrypsin, miteDer f 6 antigenDer p 6 antigenEur m 6 antigen
+peptidase 6 (Dermatophagoides sp.);allergen Der f 6 (Dermatophagoides farinae);antigen Der p 6 (Dermatophagoides pteronissinus);antigen Eur m 6 (Euroglyphus maynei);chymotrypsin, miteDer f 6 antigenDer p 6 antigenEur m 6 antigen;protease 6 (Dermatophagoides sp.);mite chymotrypsin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -26684,7 +26684,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-capillary permeability-increasing enzyme-2 (Gloydius-type) | chitribrisin (Trimeresurus albolabris)
+capillary permeability-increasing enzyme-2 (Gloydius-type);chitribrisin (Trimeresurus albolabris)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;2;0;0;0;0;0;0;1
@@ -26706,7 +26706,7 @@ Glu;0;0;0;0;0;1;2;1
 Lys;0;0;0;1;1;0;0;0
 Arg;0;0;1;3;1;1;1;0
 His;0;0;0;0;0;1;0;0
-complement component C1r-like peptidase | C1r-like protein (Mus musculus)
+complement component C1r-like peptidase;C1r-like protein (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;1
 Pro;1;0;0;0;0;0;0;0
@@ -26728,7 +26728,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-complement factor D | adipsin | factor D, complement | PoDAK peptidase (Paralichthys olivaceus) | C3 proactivator convertase | EC 3.4.21.46
+complement factor D;factor D, complement;adipsin;C3 proactivator convertase;PoDAK peptidase (Paralichthys olivaceus);EC 3.4.21.46
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -26750,7 +26750,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;1;1;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-complement component activated C1r | C1r, complement component, activated | EC 3.4.21.41
+complement component activated C1r;C1r, complement component, activated;EC 3.4.21.41
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;2;0;1;0;2;2
 Pro;0;0;0;0;0;0;0;0
@@ -26772,7 +26772,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;1;0;1;0;0;1;0
 Arg;0;1;0;6;0;0;0;0
 His;0;0;0;0;0;0;0;0
-complement component activated C1s | C1 esterase | C1s, complement component, activated | calcium-dependent serine proteinase | EC 3.4.21.42
+complement component activated C1s;C1 esterase;C1s, complement component, activated;calcium-dependent serine proteinase;EC 3.4.21.42
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;9;0;0;1;0;1
 Pro;0;1;0;0;0;1;0;1
@@ -26794,7 +26794,7 @@ Glu;0;0;0;0;0;0;2;0
 Lys;0;0;0;1;2;0;2;1
 Arg;1;0;1;18;0;0;2;1
 His;0;0;0;0;0;0;0;0
-complement component C2a | complement component 2 (activated) | component 2 of classical-complement-pathway C3/C5 convertase | component C2a
+complement component C2a;complement component 2 (activated);component 2 of classical-complement-pathway C3/C5 convertase;component C2a
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;0;3;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -26816,7 +26816,7 @@ Glu;0;0;0;0;0;2;1;2
 Lys;0;0;0;1;0;0;0;1
 Arg;0;0;0;8;0;0;0;0
 His;0;0;0;0;0;1;0;0
-complement factor Bb | activated factor B of alternative-complement-pathway C3/C5 convertase | factor Bb
+complement factor Bb;factor Bb;activated factor B of alternative-complement-pathway C3/C5 convertase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;2;0;0;0;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -26838,7 +26838,7 @@ Glu;0;0;0;1;1;0;1;0
 Lys;0;1;1;2;0;0;0;1
 Arg;0;0;0;4;0;0;0;0
 His;0;0;0;0;0;1;0;0
-mannan-binding lectin-associated serine peptidase 1 | mannan-binding lectin-associated serine protease 1 | MASP1 g.p. (Homo sapiens) | MBP-associated serine protease | Ra-reactive factor | P100
+mannan-binding lectin-associated serine peptidase 1;Ra-reactive factor;P100;mannan-binding lectin-associated serine protease 1;MASP1 g.p. (Homo sapiens);MBP-associated serine protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;2;0;0;0;0;1
 Pro;1;0;0;0;0;0;0;0
@@ -26860,7 +26860,7 @@ Glu;0;0;0;0;0;1;1;1
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;8;0;0;0;0
 His;1;0;0;0;0;0;1;0
-complement factor I | C3b/C4b inactivator | C3bINA | complement component C3b inactivator | EC 3.4.21.45
+complement factor I;C3b/C4b inactivator;C3bINA;complement component C3b inactivator;EC 3.4.21.45
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;0;0;1;0;0
 Pro;0;2;0;0;0;0;0;0
@@ -26882,7 +26882,7 @@ Glu;0;0;0;0;0;2;3;0
 Lys;0;0;0;0;0;0;2;1
 Arg;0;1;0;7;0;0;0;0
 His;1;1;0;0;0;0;0;0
-Snake peptidase (Insecta) | Spirit peptidase (Drosophila melanogaster) | HP6 peptidase (Manduca sexta)
+Snake peptidase (Insecta);HP6 peptidase (Manduca sexta);Spirit peptidase (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -26904,7 +26904,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Easter peptidase | HP5 peptidase (Manduca sexta) | PPAF-III prophenoloxidase-activating endopeptidase (Holotrichia diomphalia) | Ea protein (Drosophila melanogaster)
+Easter peptidase;HP5 peptidase (Manduca sexta);PPAF-III prophenoloxidase-activating endopeptidase (Holotrichia diomphalia);Ea protein (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -26926,7 +26926,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-prophenoloxidase-activating peptidase-I | PPAF-1 | PPAF-I prophenoloxidase-activating endopeptidase (Holotrichia diomphalia)
+prophenoloxidase-activating peptidase-I;PPAF-1;PPAF-I prophenoloxidase-activating endopeptidase (Holotrichia diomphalia)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -26948,7 +26948,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-coagulation factor XIIa | Hageman factor (activated) | F12 g.p. (Homo sapiens) (activated) | factor XIIa, coagulation | EC 3.4.21.38
+coagulation factor XIIa;F12 g.p. (Homo sapiens) (activated);factor XIIa, coagulation;Hageman factor (activated);EC 3.4.21.38
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;0;0;0;4;5
 Pro;2;0;1;0;0;0;0;0
@@ -26970,7 +26970,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;1;0;0;0;0;0
 Arg;0;0;0;7;0;0;0;0
 His;0;0;0;0;0;0;0;0
-plasma kallikrein | kallidinogenase | kallikrein 3 [obs.] | kallikrein B1 | kallikrein, serumkallikrein, plasma | kininogenin | KLKB1 g.p. (Homo sapiens) (activated) | serum kallikrein | alpha-kallikrein | beta-kallikrein | Fletcher factor | follipsin (Sus scropha) | IRCM-serine protease 1 | prekallikrein (activated) | EC 3.4.21.34
+plasma kallikrein;beta-kallikrein;IRCM-serine protease 1;Fletcher factor;follipsin (Sus scropha);kallidinogenase;kallikrein 3 [obs.];kallikrein B1;kallikrein, serumkallikrein, plasma;kininogenin;KLKB1 g.p. (Homo sapiens) (activated);alpha-kallikrein;serum kallikrein;prekallikrein (activated);EC 3.4.21.34
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;3;1;0;1;7;13;9
 Pro;1;4;1;0;0;4;2;0
@@ -26992,7 +26992,7 @@ Glu;1;2;1;0;0;1;1;1
 Lys;1;1;9;11;2;0;1;0
 Arg;0;3;1;29;6;1;1;2
 His;0;1;2;0;1;1;1;0
-coagulation factor XIa | HEMOLEVEN | F11 g.p. (Homo sapiens) (activated) | factor XIa, coagulation | plasma thromboplastin antecedent | EC 3.4.21.27
+coagulation factor XIa;F11 g.p. (Homo sapiens) (activated);factor XIa, coagulation;HEMOLEVEN;plasma thromboplastin antecedent;EC 3.4.21.27
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;4;5
 Pro;0;0;2;0;0;0;0;0
@@ -27014,7 +27014,7 @@ Glu;1;1;0;0;0;3;0;0
 Lys;4;1;0;1;0;0;0;0
 Arg;0;0;0;11;0;0;0;0
 His;0;0;1;0;1;0;0;0
-coagulation factor IXa | trenonacog alfa | F9 g.p. (Homo sapiens) (activated) | factor IXa, coagulation | Christmas factor (activated) | EC 3.4.21.22
+coagulation factor IXa;F9 g.p. (Homo sapiens) (activated);factor IXa, coagulation;trenonacog alfa;Christmas factor (activated);EC 3.4.21.22
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;6;0;0;0;3;3
 Pro;2;0;1;0;0;0;0;0
@@ -27036,7 +27036,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;0
 Arg;0;0;0;12;0;0;0;0
 His;0;0;0;0;0;0;0;0
-coagulation factor VIIa | Aryoseven | F7 g.p. (Homo sapiens) (activated) | factor VIIa, coagulation | FVIIa | NovoSeven | EC 3.4.21.21
+coagulation factor VIIa;F7 g.p. (Homo sapiens) (activated);factor VIIa, coagulation;FVIIa;Aryoseven;NovoSeven;EC 3.4.21.21
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;4;4
 Pro;1;0;1;0;0;0;0;2
@@ -27058,7 +27058,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;1;0;0;0;1;0;0;0
 Arg;0;0;0;9;0;0;1;0
 His;0;0;0;0;0;0;2;0
-coagulation factor Xa | Stuart factor (activated) | thrombokinase | F10 g.p. (Homo sapiens) (activated) | factor Xa, coagulation | prothrombase | prothrombinase | EC 3.4.21.6
+coagulation factor Xa;F10 g.p. (Homo sapiens) (activated);factor Xa, coagulation;thrombokinase;Stuart factor (activated);prothrombase;prothrombinase;EC 3.4.21.6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;3;30;0;1;0;9;13
 Pro;4;0;10;0;0;0;1;1
@@ -27080,7 +27080,7 @@ Glu;5;11;6;0;0;1;5;0
 Lys;1;4;1;8;1;1;2;3
 Arg;2;1;0;55;0;0;1;2
 His;0;0;0;0;1;0;4;0
-thrombin | meizothrombin | F2 g.p. (Homo sapiens) (activated) | fibrinogenase | prothrombin | prothrombin (activated)factor II, coagulation | coagulation factor II | EC 3.4.21.5
+thrombin;F2 g.p. (Homo sapiens) (activated);fibrinogenase;coagulation factor II;prothrombin;prothrombin (activated)factor II, coagulation;meizothrombin;EC 3.4.21.5
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;14;15;20;0;26;8;23;16
 Pro;14;3;79;0;0;8;10;9
@@ -27102,7 +27102,7 @@ Glu;1;5;0;0;0;3;4;3
 Lys;6;12;0;25;2;13;16;13
 Arg;2;18;0;167;9;9;11;7
 His;2;4;1;2;9;4;6;4
-protein C (activated) | activated protein C | APC | PROC g.p. (Homo sapiens) (activated) | protein Ca | EC 3.4.21.69
+protein C (activated);activated protein C;APC;PROC g.p. (Homo sapiens) (activated);protein Ca;EC 3.4.21.69
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;3;0;0;0
 Pro;1;1;4;0;0;1;1;0
@@ -27124,7 +27124,7 @@ Glu;0;2;0;0;0;0;0;1
 Lys;2;2;1;1;1;1;3;1
 Arg;1;0;1;13;1;0;0;2
 His;0;0;0;0;0;0;1;0
-coagulation factor C (Limulus, Tachypleus), activated | factor C, coagulation (Tachypleus) | chelicerase C | EC 3.4.21.84
+coagulation factor C (Limulus, Tachypleus), activated;factor C, coagulation (Tachypleus);chelicerase C;EC 3.4.21.84
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;2;0;0;1;1;1
 Pro;0;0;2;0;0;0;0;1
@@ -27146,7 +27146,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-coagulation factor B (Limulus, Tachypleus), activated | factor B, coagulation (Tachypleus) | chelicerase B | EC 3.4.21.85
+coagulation factor B (Limulus, Tachypleus), activated;factor B, coagulation (Tachypleus);chelicerase B;EC 3.4.21.85
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -27168,7 +27168,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;4;0;0;0;0
 His;0;0;0;0;0;0;0;0
-clotting enzyme (Tachypleus-type) | EC 3.4.21.86
+clotting enzyme (Tachypleus-type);EC 3.4.21.86
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;4;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -27212,7 +27212,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;4;0;0;0;0
 His;0;0;0;0;0;0;0;0
-acrosin | acrosomal proteinase | EC 3.4.21.10
+acrosin;acrosomal proteinase;EC 3.4.21.10
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;0;0;1;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -27234,7 +27234,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;5;0;0;0;0
 His;0;0;0;0;0;0;0;0
-hepsin | HPN g.p. (Homo sapiens) | TMPRSS1 | EC 3.4.21.106
+hepsin;HPN g.p. (Homo sapiens);TMPRSS1;EC 3.4.21.106
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;6;7;6;1;21;10;21;23
 Pro;9;2;10;0;0;6;7;4
@@ -27256,7 +27256,7 @@ Glu;1;0;0;0;0;1;1;3
 Lys;6;6;8;1;23;7;4;11
 Arg;11;7;8;105;11;3;0;0
 His;0;0;0;0;3;4;5;1
-hepatocyte growth factor activator | hepatocyte growth factor activating endopeptidase | HGFA | PHBP
+hepatocyte growth factor activator;hepatocyte growth factor activating endopeptidase;HGFA;PHBP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;2
 Pro;0;0;0;0;0;0;0;0
@@ -27278,7 +27278,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;1;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-mannan-binding lectin-associated serine peptidase 2 | mannan-binding lectin-associated serine protease 2 | mannose binding lectin-associated serine protease-2 | MASP2 g.p. (Homo sapiens) | MBP-associated serine protease 2 | EC 3.4.21.104
+mannan-binding lectin-associated serine peptidase 2;mannan-binding lectin-associated serine protease 2;mannose binding lectin-associated serine protease-2;MASP2 g.p. (Homo sapiens);MBP-associated serine protease 2;EC 3.4.21.104
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;2;0;0;0;2;1
 Pro;0;0;1;0;0;0;0;0
@@ -27300,7 +27300,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;2;1;0;0;0
 Arg;0;0;0;6;0;0;0;0
 His;0;0;0;0;0;1;0;0
-urokinase-type plasminogen activator | u-plasminogen activator | uPA | urinary plasminogen activator | urokinase | plasminogen activator, urinary type | cellular plasminogen activator | EC 3.4.21.73
+urokinase-type plasminogen activator;cellular plasminogen activator;u-plasminogen activator;uPA;urinary plasminogen activator;urokinase;plasminogen activator, urinary type;EC 3.4.21.73
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;7;0;4;0;2;3
 Pro;2;1;0;0;0;1;0;0
@@ -27322,7 +27322,7 @@ Glu;0;0;0;0;0;0;2;0
 Lys;2;0;1;4;0;0;0;0
 Arg;1;0;0;13;1;3;0;0
 His;0;0;0;0;0;0;0;1
-t-plasminogen activator | Alteplase | Tenecteplase | tissue plasminogen activator | tPA | Lekteplase | Reteplase | plasminogen activator, tissue type | EC 3.4.21.68
+t-plasminogen activator;Alteplase;Reteplase;Lekteplase;Tenecteplase;tissue plasminogen activator;tPA;plasminogen activator, tissue type;EC 3.4.21.68
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;0;0;0;2;2
 Pro;1;1;1;0;0;0;2;0
@@ -27344,7 +27344,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;2;0;1;0;0
 Arg;0;0;0;7;0;0;0;0
 His;0;0;0;0;0;0;0;0
-plasmin | microplasmin | miniplasmin | delta-plasmin | TAL6003 | fibrinase | fibrinolysin | follicular regulatory protein | ocriplasmin | plasminogen (activated) | PLG g.p. (Homo sapiens) | EC 3.4.21.7
+plasmin;delta-plasmin;fibrinase;fibrinolysin;follicular regulatory protein;TAL6003;ocriplasmin;plasminogen (activated);PLG g.p. (Homo sapiens);microplasmin;miniplasmin;EC 3.4.21.7
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;10;10;8;0;11;4;7;12
 Pro;18;2;12;0;0;5;12;11
@@ -27366,7 +27366,7 @@ Glu;5;8;3;1;3;3;8;6
 Lys;6;5;4;59;6;9;3;4
 Arg;13;18;3;69;10;14;6;7
 His;2;6;2;1;3;3;4;4
-peptidase 3 (Dermatophagoides-type) | mite trypsin | allergen Der f 3 (Dermatophagoides farinae) | antigen Der p 3 (Dermatophagoides pteronissinus) | antigen Eur m 3 (Euroglyphus maynei) | Der f 3 antigenDer p 3 antigenEur m 3 antigentrypsin, mite | protease 3 (Dermatophagoides-type)
+peptidase 3 (Dermatophagoides-type);Der f 3 antigenDer p 3 antigenEur m 3 antigentrypsin, mite;allergen Der f 3 (Dermatophagoides farinae);antigen Der p 3 (Dermatophagoides pteronissinus);antigen Eur m 3 (Euroglyphus maynei);protease 3 (Dermatophagoides-type);mite trypsin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -27388,7 +27388,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-acutobin | acutase | acuthrombin | acutobin II
+acutobin;acutase;acuthrombin;acutobin II
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -27410,7 +27410,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-kallikrein-related peptidase 6 | kallikrein 29 [obs.] | kallikrein 6 | kallikrein hK6 | KLK6 g.p. (Homo sapiens) | mouse serine peptidase 18 | MSP | myelencephalon-specific protease | zyme | BSSP | neurosin | protease M | Prss18 g.p. (Mus musculus) | PRSS9 [obs.] g.p. (Homo sapiens)
+kallikrein-related peptidase 6;zyme;BSSP;kallikrein 29 [obs.];kallikrein 6;kallikrein hK6;KLK6 g.p. (Homo sapiens);neurosin;protease M;Prss18 g.p. (Mus musculus);PRSS9 [obs.] g.p. (Homo sapiens);mouse serine peptidase 18;MSP;myelencephalon-specific protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;12;13;1;6;4;11;22
 Pro;5;4;12;1;2;2;6;3
@@ -27432,7 +27432,7 @@ Glu;3;4;0;0;1;0;1;2
 Lys;2;6;1;10;0;0;1;0
 Arg;1;4;1;63;1;1;2;1
 His;3;3;1;0;3;0;3;0
-neurotrypsin | motopsin | brain-specific serine protease BSSP-3 | BSSP-3 | leydin | PRSS12 g.p. (Homo sapiens)
+neurotrypsin;brain-specific serine protease BSSP-3;BSSP-3;leydin;PRSS12 g.p. (Homo sapiens);motopsin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;1;0;0;0;0;0;0;0
@@ -27454,7 +27454,7 @@ Glu;0;0;2;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-plasminogen activator (Desmodus-type) | desmoteplase | vampire bat salivary plasminogen activator | plasminogen activator, salivary (Desmodus)salivary plasminogen activator (Desmodus)
+plasminogen activator (Desmodus-type);desmoteplase;vampire bat salivary plasminogen activator;plasminogen activator, salivary (Desmodus)salivary plasminogen activator (Desmodus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -27476,7 +27476,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ovochymase-2 | OVCH2 g.p. (Homo sapiens) | oviductin | EC 3.4.21.120
+ovochymase-2;OVCH2 g.p. (Homo sapiens);oviductin;EC 3.4.21.120
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;0;0;0;0;0;0
 Pro;1;0;0;0;0;0;1;0
@@ -27498,7 +27498,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-lumbrokinase | F-III protease (Lumbricus rubellus) | fibrinolytic endopeptidase (Lumbricus rubellus) | fibrinolytic enzyme-3 (Eisenia fetida) | earthworm fibrinolytic enzyme-b | EFE-b | EfP-0-1 | EfP-0-2 | EfP-III-1 | EfP-III-2
+lumbrokinase;F-III protease (Lumbricus rubellus);fibrinolytic endopeptidase (Lumbricus rubellus);fibrinolytic enzyme-3 (Eisenia fetida);earthworm fibrinolytic enzyme-b;EFE-b;EfP-0-1;EfP-0-2;EfP-III-1;EfP-III-2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;4;5;0;3;1;4;5
 Pro;0;1;5;0;0;0;1;0
@@ -27520,7 +27520,7 @@ Glu;2;3;4;0;0;1;3;0
 Lys;1;1;0;4;0;0;0;2
 Arg;4;0;1;15;1;0;0;1
 His;1;1;0;0;1;1;0;0
-kallikrein-related peptidase 8 | kallikrein 8 | kallikrein hK8 | kallikrein-8 (Homo sapiens) | KLK8 g.p. (Homo sapiens) | bsp1 (Rattus norvegicus) | TADG-14 | tumor-associated differentially expressed gene 14 | neuropsin | ovasin | Prss19 g.p. (Mus musculus) | PRSS19 [obs.] g.p. (Homo sapiens) | EC 3.4.21.118
+kallikrein-related peptidase 8;bsp1 (Rattus norvegicus);kallikrein 8;kallikrein hK8;kallikrein-8 (Homo sapiens);KLK8 g.p. (Homo sapiens);TADG-14;tumor-associated differentially expressed gene 14;ovasin;neuropsin;Prss19 g.p. (Mus musculus);PRSS19 [obs.] g.p. (Homo sapiens);EC 3.4.21.118
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;3;0;0;1;5;8
 Pro;1;1;5;0;0;0;0;0
@@ -27564,7 +27564,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-kallikrein-related peptidase 10 | kallikrein 10 | KLK10 g.p. (Homo sapiens) | hk10 | NES1 protein | normal epithelial cell-specific 1 protein (Homo sapiens) | PRSSL1 [obs.] g.p. (Homo sapiens)
+kallikrein-related peptidase 10;kallikrein 10;KLK10 g.p. (Homo sapiens);hk10;NES1 protein;normal epithelial cell-specific 1 protein (Homo sapiens);PRSSL1 [obs.] g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -27586,7 +27586,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-epitheliasin | serine endopeptidase TMPRSS2 | TMPRSS2 | TMPRSS2 g.p. (Homo sapiens) | transmembrane protease, serine 2 | plasmic transmembrane protein X
+epitheliasin;TMPRSS2;TMPRSS2 g.p. (Homo sapiens);transmembrane protease, serine 2;serine endopeptidase TMPRSS2;plasmic transmembrane protein X
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;3;0;2;5
 Pro;2;0;0;0;0;0;0;0
@@ -27608,7 +27608,7 @@ Glu;0;0;0;0;0;0;0;3
 Lys;0;0;2;0;0;0;0;0
 Arg;5;0;1;8;0;0;0;0
 His;0;0;0;0;0;0;0;0
-kallikrein-related peptidase 4 | kallikrein 4 (Homo sapiens) | kallikrein hK4 | kallikrein-like 1 protein (Homo sapiens) | KLK-L1[obs.] g.p. (Homo sapiens) | KLK4 g.p. (Homo sapiens) | Klk4 g.p. (Mus musculus) | serine protease 17 [obs.] | prostase | PRSS17 [obs.] g.p. (Homo sapiens) | EMSP1 | enamel matrix serine proteinase 1
+kallikrein-related peptidase 4;kallikrein 4 (Homo sapiens);kallikrein hK4;kallikrein-like 1 protein (Homo sapiens);KLK-L1[obs.] g.p. (Homo sapiens);KLK4 g.p. (Homo sapiens);Klk4 g.p. (Mus musculus);serine protease 17 [obs.];prostase;PRSS17 [obs.] g.p. (Homo sapiens);EMSP1;enamel matrix serine proteinase 1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;6;4;8;1;12;8;14;27
 Pro;9;2;14;0;1;6;10;12
@@ -27630,7 +27630,7 @@ Glu;3;6;2;0;6;2;8;8
 Lys;1;11;23;9;2;3;2;6
 Arg;34;7;12;92;3;4;4;4
 His;0;3;1;3;4;0;3;3
-prosemin | SP001LA protein (Homo sapiens) | brain serine proteinase 2 | brain-specific serine peptidase 4 (BSSP4) | BSSP4 | tryptase epsilon (Homo sapiens) | PRSS22 g.p. (Homo sapiens)
+prosemin;brain serine proteinase 2;brain-specific serine peptidase 4 (BSSP4);BSSP4;tryptase epsilon (Homo sapiens);SP001LA protein (Homo sapiens);PRSS22 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;2;2
 Pro;1;0;0;0;0;0;0;0
@@ -27652,7 +27652,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;1;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-halystase | shedaoenase | AhV_TL-I
+halystase;AhV_TL-I;shedaoenase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;0;0;0;0;0;1
 Pro;0;2;0;0;0;1;3;1
@@ -27674,7 +27674,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;1;0;0;1;1;0;0;0
 Arg;0;0;0;5;1;2;0;0
 His;0;0;0;0;1;0;1;0
-chymopasin | chymotrypsin-like protease-1 | CTRL1
+chymopasin;chymotrypsin-like protease-1;CTRL1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;2;0;0;0;0;0
@@ -27696,7 +27696,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;2;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-kallikrein-related peptidase 11 | kallikrein 11 | kallikrein 11 (Homo sapiens) | kallikrein 11-like peptidase (Mus musculus ) | KLK11 g.p. (Homo sapiens) | hippostasin | TLSP peptidase | PRSS20 [obs.] g.p. (Homo sapiens)
+kallikrein-related peptidase 11;kallikrein 11;kallikrein 11 (Homo sapiens);kallikrein 11-like peptidase (Mus musculus );KLK11 g.p. (Homo sapiens);hippostasin;TLSP peptidase;PRSS20 [obs.] g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;3;8
 Pro;0;1;3;0;0;0;0;0
@@ -27718,7 +27718,7 @@ Glu;1;2;0;0;0;0;0;0
 Lys;0;0;0;3;0;0;1;0
 Arg;0;0;0;12;0;0;0;0
 His;0;0;0;0;0;0;1;0
-trypsin-2 type A | anionic trypsin (Homo sapiens) | TAT-2 | trypsin 2 | trypsin 8 (Homo sapiens) | trypsinogen-2 (Homo sapiens) | tumor-associated trypsin-2 | PRSS2 g.p. (Homo sapiens)
+trypsin-2 type A;anionic trypsin (Homo sapiens);TAT-2;trypsin 2;trypsin 8 (Homo sapiens);trypsinogen-2 (Homo sapiens);tumor-associated trypsin-2;PRSS2 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;3;3;0;2;2;0;3
 Pro;1;0;2;0;0;1;2;1
@@ -27740,7 +27740,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;1;0;0;1;0;0;0
 Arg;0;0;0;9;0;1;2;0
 His;0;0;0;0;0;0;0;0
-streptogrisin A | SGP3 | SGPA | alkaline protease A | lysine-free chymoelastase | PNPA hydrolase I | protease A (Streptomyces griseus) | EC 3.4.21.80 | elastase-like enzyme II
+streptogrisin A;alkaline protease A;lysine-free chymoelastase;SGP3;SGPA;PNPA hydrolase I;protease A (Streptomyces griseus);EC 3.4.21.80;elastase-like enzyme II
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -27762,7 +27762,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-streptogrisin B | SGP1 | SGPB | alkaline proteinase C | guanidine-stable chymoelastase | PNPA hydrolase II | pronase elastase | protease B (Streptomyces griseus) | EC 3.4.21.81 | elastase-like enzyme III
+streptogrisin B;guanidine-stable chymoelastase;alkaline proteinase C;SGP1;SGPB;PNPA hydrolase II;pronase elastase;protease B (Streptomyces griseus);EC 3.4.21.81;elastase-like enzyme III
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;1;1
 Pro;1;0;6;0;0;0;0;0
@@ -27784,7 +27784,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;1;0;0;0;0;1;0;0
-streptogrisin C | SFP1 (Streptomyces fradiae) | SGPC | sprC g.p. (Streptomyces griseus) | protease 3 (Streptomyces griseus) | protease C (Streptomyces griseus) | protease C (Streptomyces griseus)
+streptogrisin C;SFP1 (Streptomyces fradiae);SGPC;sprC g.p. (Streptomyces griseus);protease 3 (Streptomyces griseus);protease C (Streptomyces griseus);protease C (Streptomyces griseus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -27806,7 +27806,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-streptogrisin D | protease D (Streptomyces griseus)SGPD
+streptogrisin D;protease D (Streptomyces griseus)SGPD
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -27828,7 +27828,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-streptogrisin E | SFase endopeptidase (Streptomyces fradiae) | GluSGPprotease E (Streptomyces griseus)SGPE | glutamyl endopeptidase (Streptomyces fradiae) | glutamyl endopeptidase II (Streptomyces sp.) | EC 3.4.21.82
+streptogrisin E;GluSGPprotease E (Streptomyces griseus)SGPE;glutamyl endopeptidase (Streptomyces fradiae);glutamyl endopeptidase II (Streptomyces sp.);SFase endopeptidase (Streptomyces fradiae);EC 3.4.21.82
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;0;0;0;0;0;0;0
 Pro;1;0;2;0;0;0;0;0
@@ -27850,7 +27850,7 @@ Glu;0;0;0;21;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;1;0;1;0;0;0
 His;0;0;0;0;0;0;0;0
-alpha-lytic endopeptidase | peptidase L1 (Lysobacter sp. XL1) | peptidase L5 (Lysobacter sp. XL1) | EC 3.4.21.12
+alpha-lytic endopeptidase;peptidase L1 (Lysobacter sp. XL1);peptidase L5 (Lysobacter sp. XL1);EC 3.4.21.12
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;9;0;0;0;0;0
@@ -27872,7 +27872,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-glutamyl endopeptidase I | Spase | sspA g.p. (Staphylococcus aureus) | staphylococcal serine proteinase | V8 proteinase | GluC | GluSE (Staphylococcus epidermidis) | GluSW (Staphylococcus warneri) | GluV8 (Staphylococcus aureus) | gseA g.p. (Staphylococcus epidermidis) | EC 3.4.21.19 | endopeptidase Glu-C | endoprotease Glu-C | endoproteinase Glu-C | Esp peptidase (Staphylococcus epidermidis)
+glutamyl endopeptidase I;GluC;GluSE (Staphylococcus epidermidis);GluSW (Staphylococcus warneri);GluV8 (Staphylococcus aureus);gseA g.p. (Staphylococcus epidermidis);V8 proteinase;Spase;sspA g.p. (Staphylococcus aureus);staphylococcal serine proteinase;EC 3.4.21.19;endopeptidase Glu-C;endoprotease Glu-C;endoproteinase Glu-C;Esp peptidase (Staphylococcus epidermidis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;264;194;154;62;341;377;287;215
 Pro;236;78;223;0;8;49;223;200
@@ -27894,7 +27894,7 @@ Glu;367;331;450;3977;58;245;220;159
 Lys;399;363;426;3;321;374;464;464
 Arg;173;191;208;10;227;229;285;237
 His;79;112;68;0;110;77;118;83
-glutamyl peptidase BL | glutamyl endopeptidase (Bacillus licheniformis-type) | GSE-BL
+glutamyl peptidase BL;glutamyl endopeptidase (Bacillus licheniformis-type);GSE-BL
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;3;1;0;1;0;2;1
 Pro;6;3;4;0;0;2;4;4
@@ -27916,7 +27916,7 @@ Glu;6;2;7;67;3;3;3;2
 Lys;5;2;6;0;5;1;4;5
 Arg;1;1;2;0;3;0;1;2
 His;0;1;0;0;0;0;4;0
-DegP peptidase | high temperature requirement A peptidase | HtrA | protease Do | EC 3.4.21.107
+DegP peptidase;high temperature requirement A peptidase;HtrA;protease Do;EC 3.4.21.107
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;0;0;1;1;0
 Pro;0;1;2;0;0;0;0;1
@@ -27938,7 +27938,7 @@ Glu;0;2;1;0;0;3;2;1
 Lys;0;2;2;0;1;1;1;0
 Arg;0;2;2;0;1;0;0;0
 His;0;0;0;0;0;0;0;0
-DegQ peptidase | HhoA (Escherichia coli)
+DegQ peptidase;HhoA (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -27960,7 +27960,7 @@ Glu;0;2;1;0;0;3;2;1
 Lys;0;0;2;0;0;1;1;0
 Arg;0;2;1;0;1;0;0;0
 His;0;0;0;0;0;0;0;0
-DegS peptidase | HhoB (Escherichia coli)
+DegS peptidase;HhoB (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;3;0
 Pro;0;0;4;0;0;0;0;0
@@ -28004,7 +28004,7 @@ Glu;0;1;1;0;1;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;1
 His;0;1;0;0;0;0;0;0
-HtrA1 peptidase (Homo sapiens-type) | high temperature requirement A1 peptidase | HTRA1 g.p. (Homo sapiens) | IGF-binding serine protease | osteoblast serine protease | PRSS11 g.p. (Homo sapiens)
+HtrA1 peptidase (Homo sapiens-type);IGF-binding serine protease;high temperature requirement A1 peptidase;HTRA1 g.p. (Homo sapiens);osteoblast serine protease;PRSS11 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -28026,7 +28026,7 @@ Glu;0;0;1;0;0;1;1;0
 Lys;0;1;0;0;1;0;0;1
 Arg;0;0;0;0;0;0;0;1
 His;0;1;1;0;1;1;0;0
-HtrA2 peptidase | high temperature requirement A2 peptidase | HTRA2 g.p. (Homo sapiens) | OMI g.p. (Homo sapiens) | OMI/HtrA2 protease | PARK13 protein | PRSS25 g.p. (Homo sapiens) | EC 3.4.21.108
+HtrA2 peptidase;high temperature requirement A2 peptidase;HTRA2 g.p. (Homo sapiens);OMI g.p. (Homo sapiens);OMI/HtrA2 protease;PARK13 protein;PRSS25 g.p. (Homo sapiens);EC 3.4.21.108
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;39;10;8;0;22;23;49;22
 Pro;32;12;12;0;0;0;33;22
@@ -28048,7 +28048,7 @@ Glu;0;14;12;0;30;20;20;19
 Lys;0;5;26;0;15;8;0;13
 Arg;0;15;15;0;11;1;1;1
 His;8;22;8;0;11;13;0;10
-lysyl endopeptidase (bacteria) | achromopeptidase | LepA peptidase (Lysobacter sp.) | LepB peptidase (Lysobacter sp.) | EC 3.4.21.50 | endopeptidase Lys-C
+lysyl endopeptidase (bacteria);achromopeptidase;LepA peptidase (Lysobacter sp.);LepB peptidase (Lysobacter sp.);EC 3.4.21.50;endopeptidase Lys-C
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;46;42;52;0;44;51;39;45
 Pro;45;27;50;0;1;38;36;40
@@ -28070,7 +28070,7 @@ Glu;74;70;83;0;60;46;77;85
 Lys;58;62;48;809;59;58;68;48
 Arg;35;39;55;0;64;49;47;47
 His;12;16;9;0;15;20;21;23
-arginyl peptidase | protease IV (Pseudomonas aeruginosa) | prpL endoprotease (Pseudomonas aeruginosa) | endoproteinase Arg-C
+arginyl peptidase;protease IV (Pseudomonas aeruginosa);prpL endoprotease (Pseudomonas aeruginosa);endoproteinase Arg-C
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;0;1;0;1;0
 Pro;1;3;3;0;0;2;1;1
@@ -28114,7 +28114,7 @@ Glu;1;13;0;0;2;1;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;1
-Tysnd1 peptidase | 1300019n10rik protein (Mus musculus) | trypsin domain-containing 1 peptidase
+Tysnd1 peptidase;1300019n10rik protein (Mus musculus);trypsin domain-containing 1 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;0;0;1;0;0;0;0;0
@@ -28136,7 +28136,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-HAT-like 3 peptidase | Mername-AA171 peptidase | TMPRSS11C (Mus musculus) | neurobin
+HAT-like 3 peptidase;TMPRSS11C (Mus musculus);neurobin;Mername-AA171 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;3;1;0;0;0;1;1
 Pro;1;1;2;0;0;0;2;0
@@ -28158,7 +28158,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;4;0;0;1;0
 Arg;1;1;0;7;0;1;0;0
 His;0;1;2;0;0;1;0;1
-kallikrein-related peptidase 7 | kallikrein 7 (Homo sapiens) | kallikrein hK7 | KLK7 g.p. (Homo sapiens) | stratum corneum chymotryptic enzyme | HSCCE | PRSS6 [obs.] g.p. (Homo sapiens) | chymotryptic enzyme, stratum corneum | EC 3.4.21.117
+kallikrein-related peptidase 7;kallikrein 7 (Homo sapiens);kallikrein hK7;KLK7 g.p. (Homo sapiens);HSCCE;chymotryptic enzyme, stratum corneum;stratum corneum chymotryptic enzyme;PRSS6 [obs.] g.p. (Homo sapiens);EC 3.4.21.117
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;5;0;0;3;8;4;5
 Pro;1;2;4;0;0;1;1;3
@@ -28180,7 +28180,7 @@ Glu;2;2;3;0;1;2;1;1
 Lys;2;4;2;0;3;1;5;4
 Arg;3;1;2;7;5;4;0;0
 His;1;0;2;0;1;1;2;1
-matriptase | matriptase-1 | membrane-type serine protease 1 | MT-SP1 | serine endopeptidase SNC19 | serine protease TADG-15 | SNC19 serine endopeptidaseserine protease 1, membrane-typeTADG-15 serine protease | ST14 g.p. (Homo sapiens) | suppression of tumorigenicity-14 | breast cancer 80 kDa protease | PRSS14 [obs.] g.p. (Homo sapiens) | CAP3 | channel-activating protease 3 | EC 3.4.21.109 | epithin
+matriptase;breast cancer 80 kDa protease;CAP3;channel-activating protease 3;serine endopeptidase SNC19;serine protease TADG-15;SNC19 serine endopeptidaseserine protease 1, membrane-typeTADG-15 serine protease;ST14 g.p. (Homo sapiens);suppression of tumorigenicity-14;PRSS14 [obs.] g.p. (Homo sapiens);matriptase-1;membrane-type serine protease 1;MT-SP1;EC 3.4.21.109;epithin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;7;8;19;1;10;13;21;24
 Pro;6;5;9;0;0;4;8;15
@@ -28202,7 +28202,7 @@ Glu;0;2;0;0;0;0;0;1
 Lys;11;7;8;5;35;0;7;5
 Arg;24;6;6;110;9;1;1;2
 His;4;1;1;1;1;1;1;0
-mast cell peptidase-11 (rodent) | Mername-AA177 peptidase | mMCP-11 | basophil tryptase | Prss34 g.p. (Mus musculus)
+mast cell peptidase-11 (rodent);basophil tryptase;Prss34 g.p. (Mus musculus);Mername-AA177 peptidase;mMCP-11
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;2;0;0;0;0;0
 Pro;0;0;2;0;0;0;0;0
@@ -28224,7 +28224,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;5;0;0;0;0
 His;0;0;0;0;0;0;0;0
-prophenoloxidase-activating peptidase (Bombyx-type) | hemolymph proteinase 12 (HP12) (Manduca sexta) | hemolymph proteinase 23 (HP23) (Manduca sexta) | hemolymph proteinase 24 (HP24) (Manduca sexta) | PAP-3 | PPAE-I prophenoloxidase-activating endopeptidase (Bombyx mori) | PPAE-II prophenoloxidase-activating endopeptidase (Bombyx mori) | prophenoloxidase activating proteinase-2 (PAP-2) (Manduca sexta) | prophenoloxidase activating proteinase-3 (PAP-3) (Manduca sexta)
+prophenoloxidase-activating peptidase (Bombyx-type);hemolymph proteinase 12 (HP12) (Manduca sexta);hemolymph proteinase 23 (HP23) (Manduca sexta);hemolymph proteinase 24 (HP24) (Manduca sexta);PAP-3;PPAE-I prophenoloxidase-activating endopeptidase (Bombyx mori);PPAE-II prophenoloxidase-activating endopeptidase (Bombyx mori);prophenoloxidase activating proteinase-2 (PAP-2) (Manduca sexta);prophenoloxidase activating proteinase-3 (PAP-3) (Manduca sexta)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -28246,7 +28246,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;1;0
 His;0;0;0;0;0;0;0;0
-kallikrein-related peptidase 13 | kallikrein 13 | kallikrein-like protein 4 (Homo sapiens) | KLK-L4 [obs.] g.p. (Homo sapiens) | KLK13 g.p. (Homo sapiens) | EC 3.4.21.119
+kallikrein-related peptidase 13;kallikrein 13;kallikrein-like protein 4 (Homo sapiens);KLK-L4 [obs.] g.p. (Homo sapiens);KLK13 g.p. (Homo sapiens);EC 3.4.21.119
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;0;0;0;2;2;5;7
 Pro;1;0;2;0;0;2;0;1
@@ -28268,7 +28268,7 @@ Glu;2;1;0;0;0;0;0;0
 Lys;0;0;0;3;0;0;3;1
 Arg;0;8;1;17;0;1;2;0
 His;0;0;0;0;0;0;1;1
-kallikrein-related peptidase 9 | kallikrein 9 | kallikrein 9 (Homo sapiens) | kallikrein 9-like peptidase (Mus musculus) | kallikrein hK9 | kallikrein-like protein 3 (Homo sapiens) | KLK-L3 [obs.] g.p. (Homo sapiens) | KLK9 g.p. (Homo sapiens)
+kallikrein-related peptidase 9;kallikrein 9;kallikrein 9 (Homo sapiens);kallikrein 9-like peptidase (Mus musculus);kallikrein hK9;kallikrein-like protein 3 (Homo sapiens);KLK-L3 [obs.] g.p. (Homo sapiens);KLK9 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -28290,7 +28290,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-matriptase-2 | Mer-S01AAA peptidase | Mername-AA035 peptidase | dJ1170K4.2 protein | TMPRSS6 g.p. (Homo sapiens) | transmembrane protease, serine 6
+matriptase-2;dJ1170K4.2 protein;TMPRSS6 g.p. (Homo sapiens);transmembrane protease, serine 6;Mer-S01AAA peptidase;Mername-AA035 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;15;8;12;0;21;14;23;10
 Pro;9;12;17;0;0;8;9;16
@@ -28312,7 +28312,7 @@ Glu;4;2;3;0;0;2;4;8
 Lys;7;12;18;1;50;6;18;16
 Arg;10;10;2;161;14;3;2;3
 His;1;0;4;0;5;2;1;1
-LCLP peptidase | LCLP proteinase
+LCLP peptidase;LCLP proteinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -28356,7 +28356,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;2;0;0;2;1;0;0;0
 His;0;1;0;13;0;0;0;0
-spinesin | TMPRSS5 g.p. (Homo sapiens) | transmembrane protease, serine 5
+spinesin;TMPRSS5 g.p. (Homo sapiens);transmembrane protease, serine 5
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -28466,7 +28466,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;3;0;0;1;0
 His;0;0;0;0;0;1;0;0
-contortrixobin | saxthrombin (Gloydius saxatilis)
+contortrixobin;saxthrombin (Gloydius saxatilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;0;3;0;0;0;0;0
@@ -28488,7 +28488,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;6;0;0;0;0
 His;0;0;0;0;0;0;0;0
-KN-BJ peptidase 1 (Bothrops jararaca) | kinase-activating proteinase 1 (Bothrops jararaca)
+KN-BJ peptidase 1 (Bothrops jararaca);kinase-activating proteinase 1 (Bothrops jararaca)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;0;0;0;0;1
 Pro;0;1;0;0;0;1;1;0
@@ -28510,7 +28510,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;6;1;0;0;0
 His;0;0;0;0;0;0;0;0
-afaacytin (Cerastes cerastes) | rCC-PPP
+afaacytin (Cerastes cerastes);rCC-PPP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -28532,7 +28532,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-polyserase-IA unit 1 | serase-1
+polyserase-IA unit 1;serase-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;0;0;0;1;1
 Pro;1;1;0;0;0;0;0;0
@@ -28554,7 +28554,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;2;0;0;0;0
 Arg;0;1;1;9;0;0;0;0
 His;0;0;0;0;0;0;0;0
-polyserase-IA unit 2 | serase-2
+polyserase-IA unit 2;serase-2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -28576,7 +28576,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-HtrA-like peptidase (Listeria-type) | HtrC (Bacillus spp.)
+HtrA-like peptidase (Listeria-type);HtrC (Bacillus spp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -28620,7 +28620,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;4;0
 Arg;0;0;0;5;0;0;0;0
 His;0;0;0;0;0;0;0;0
-kallikrein 1 (Rattus sp.) | kallikrein rK1 (Rattus sp.) | Klk1 g.p. (Rattus norvegicus) | rKLK-1
+kallikrein 1 (Rattus sp.);kallikrein rK1 (Rattus sp.);Klk1 g.p. (Rattus norvegicus);rKLK-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;3;0;0;0;2;1;0
@@ -28642,7 +28642,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;10;1;1;1;0
 His;0;0;0;0;0;0;0;0
-kallikrein 1-related peptidase c9 (Rattus sp.) | kallikrein rK9 (Rattus sp.) | Klk1c9 g.p. (Rattus norvegicus) | S3 protein | rKLK-9
+kallikrein 1-related peptidase c9 (Rattus sp.);kallikrein rK9 (Rattus sp.);Klk1c9 g.p. (Rattus norvegicus);rKLK-9;S3 protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;0;0;4;1;2;1
 Pro;0;1;3;0;0;0;0;0
@@ -28708,7 +28708,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;1;2;0;0;0;0
 Arg;0;0;0;5;0;0;0;0
 His;0;0;0;0;0;0;0;0
-CHY1 peptidase (Metarhizium anisopliae) | Prot-2 peptidase (Botrytis cinerea) | CHY1 protease (Metarhizium anisopliae)
+CHY1 peptidase (Metarhizium anisopliae);CHY1 protease (Metarhizium anisopliae);Prot-2 peptidase (Botrytis cinerea)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;3;0;0;0;0;0
@@ -28730,7 +28730,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-prophenoloxidase-activating peptidase (Pacifastacus leniusculus) | PmPPAE1 (Penaeus monodon)
+prophenoloxidase-activating peptidase (Pacifastacus leniusculus);PmPPAE1 (Penaeus monodon)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;1;1
 Pro;1;1;0;0;0;1;1;0
@@ -28752,7 +28752,7 @@ Glu;2;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-prothrombin activator (Lonomia sp.) | achelase | lonomin V (Lonomia achelous) | Lopap
+prothrombin activator (Lonomia sp.);achelase;lonomin V (Lonomia achelous);Lopap
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;3;0;0;0;0;0
@@ -28774,7 +28774,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-fibrinolytic enzyme A (Annelida-type) | apoptosis-related serine protease (Eisenia fetida) | ARSP1 peptidase (Eisenia fetida) | earthworm fibrinolytic enzyme EfP-I (Eisenia fetida) | EfP-I-1 | EfP-I-2 | EfP-II-1 | EfP-II-2
+fibrinolytic enzyme A (Annelida-type);apoptosis-related serine protease (Eisenia fetida);ARSP1 peptidase (Eisenia fetida);earthworm fibrinolytic enzyme EfP-I (Eisenia fetida);EfP-I-1;EfP-I-2;EfP-II-1;EfP-II-2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;1;4;1;4;2;1;0
 Pro;0;0;1;0;0;1;0;1
@@ -28818,7 +28818,7 @@ Glu;0;0;0;3;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;1;0;0;0
 His;1;0;0;0;0;0;0;0
-trocarin D | notecarin (Notechis sp.) | notecarin D
+trocarin D;notecarin (Notechis sp.);notecarin D
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;4;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -28840,7 +28840,7 @@ Glu;0;2;0;0;0;0;2;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;4;0;0;0;0
 His;0;0;0;0;0;0;0;0
-LV-Ka peptidase | kallikrein-like enzyme (Lachesis muta muta)
+LV-Ka peptidase;kallikrein-like enzyme (Lachesis muta muta)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -28862,7 +28862,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-gabonase (Bitis gabonica) | EC 3.4.21.55
+gabonase (Bitis gabonica);EC 3.4.21.55
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;3;0;0;0
 Pro;0;0;1;0;0;1;0;1
@@ -28884,7 +28884,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;4;0;0;2;0
 His;0;0;0;0;0;1;0;0
-SFase-2 endopeptidase | keratinase Sfp2 | sfp2 g.p. (Streptomyces fradiae)
+SFase-2 endopeptidase;keratinase Sfp2;sfp2 g.p. (Streptomyces fradiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -28906,7 +28906,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-rhombeobin (Lachesis muta rhombeata ) | LMR-47
+rhombeobin (Lachesis muta rhombeata );LMR-47
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;1;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -28950,7 +28950,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;1;1
 Arg;1;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-fire ant chymotrypsin | chymotrypsin (Solenopsis invicta)
+fire ant chymotrypsin;chymotrypsin (Solenopsis invicta)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;12;0;0;0;0;0
@@ -28972,7 +28972,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;1;0;0;0;0;0;0
-glutamyl peptidase BI | glutamyl endopeptidase (Bacillus intermedius-type)
+glutamyl peptidase BI;glutamyl endopeptidase (Bacillus intermedius-type)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;0;2;1;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -28994,7 +28994,7 @@ Glu;0;0;0;7;0;1;0;0
 Lys;1;0;2;0;0;0;1;0
 Arg;1;2;0;0;1;1;2;0
 His;1;1;0;0;0;0;1;0
-hemolymph proteinase 14 | HP14 (Manduca sexta)
+hemolymph proteinase 14;HP14 (Manduca sexta)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;1
 Pro;0;0;0;1;0;0;0;0
@@ -29016,7 +29016,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-pseutarin C | scutelarin (Oxyuranus scutellatus) | Q8009 | oscutarin | EC 3.4.21.60
+pseutarin C;oscutarin;Q8009;scutelarin (Oxyuranus scutellatus);EC 3.4.21.60
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;7;0;0;0;2;3
 Pro;0;0;2;0;0;0;0;0
@@ -29038,7 +29038,7 @@ Glu;1;3;0;0;0;0;4;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;9;0;0;0;0
 His;0;0;0;0;0;0;0;0
-blarina toxin (Blarina brevicauda) | blarina toxin | BLTX
+blarina toxin (Blarina brevicauda);blarina toxin;BLTX
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;1;0;0;0;0;0;0
@@ -29060,7 +29060,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-chymase 1 (Mus musculus-type) | mast cell protease 1 (Mus musculus) | Mcpt-1 g.p. (Mus musculus) | mMCP-1 | mMCP1 | mouse chymase 1 | mouse mast cell protease 1 | mouse mast cell protease-1 | beta-chymase | intestinal-mucosal mast cell-specific chymase (Mus musculus) | chymase 2 (Mus musculus) | chymase beta (Mus-type)
+chymase 1 (Mus musculus-type);beta-chymase;intestinal-mucosal mast cell-specific chymase (Mus musculus);chymase 2 (Mus musculus);chymase beta (Mus-type);mast cell protease 1 (Mus musculus);Mcpt-1 g.p. (Mus musculus);mMCP-1;mMCP1;mouse chymase 1;mouse mast cell protease 1;mouse mast cell protease-1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;6;6;4;0;0;0;8;3
 Pro;7;0;1;0;1;0;0;1
@@ -29082,7 +29082,7 @@ Glu;0;0;0;0;1;0;1;0
 Lys;1;0;1;0;0;0;0;1
 Arg;2;5;5;0;10;1;10;2
 His;0;0;0;0;0;1;5;14
-Spatzle-processing enzyme (Drosophila sp.) | DmSPE
+Spatzle-processing enzyme (Drosophila sp.);DmSPE
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -29126,7 +29126,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-OET-03 peptidase (Homarus americanus) | olfactory enriched transcript 03
+OET-03 peptidase (Homarus americanus);olfactory enriched transcript 03
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -29148,7 +29148,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ACC-C peptidase | Protac | protein C activator (Agkistrodon contortrix contortrix)
+ACC-C peptidase;Protac;protein C activator (Agkistrodon contortrix contortrix)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -29170,7 +29170,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-hemolymph proteinase 21 | HP21 (Manduca sexta)
+hemolymph proteinase 21;HP21 (Manduca sexta)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -29258,7 +29258,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;2;0;0;0;0
 His;0;1;1;0;1;1;0;0
-venom serine peptidase (Hymenoptera) | magnvesin (Vespa magnifica) | allergen Api m 7 | PDSP peptidase (Polistes dominulus)
+venom serine peptidase (Hymenoptera);allergen Api m 7;PDSP peptidase (Polistes dominulus);magnvesin (Vespa magnifica)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -29280,7 +29280,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Htra2 peptidase (Mycobacterium-type) | PepD (Mycobacterium-type)
+Htra2 peptidase (Mycobacterium-type);PepD (Mycobacterium-type)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;5;1;4;0;2;3;6;4
 Pro;2;1;6;0;0;0;0;3
@@ -29324,7 +29324,7 @@ Glu;1;1;0;0;0;0;0;1
 Lys;0;0;0;0;0;0;1;1
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;2;0;0;0
-DEG15 peptidase | glyoxysomal processing protease | GPP
+DEG15 peptidase;glyoxysomal processing protease;GPP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;2;2
 Pro;0;0;0;0;0;0;0;0
@@ -29434,7 +29434,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-kangshuanmei peptidase | kangshuanmei (Agkistrodon halys)
+kangshuanmei peptidase;kangshuanmei (Agkistrodon halys)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;2;0;0;0
 Pro;0;0;0;0;0;1;0;1
@@ -29478,7 +29478,7 @@ Glu;0;0;0;0;1;0;1;0
 Lys;1;0;0;0;0;0;0;0
 Arg;8;0;0;0;0;0;0;0
 His;0;1;0;0;0;0;0;0
-pepK (Porphyromonas gingivalis) | PGN_1416 g.p. (Porphyromonas gingivalis)
+pepK (Porphyromonas gingivalis);PGN_1416 g.p. (Porphyromonas gingivalis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -29522,7 +29522,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-macrophage-stimulating protein | HGF/MSP
+macrophage-stimulating protein;HGF/MSP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;1
 Pro;0;0;0;0;0;0;0;0
@@ -29544,7 +29544,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-subfamily S1A unassigned peptidases | xepsin (Xenopus laevis) | keratinase Streptomyces albidoflavus | Kn-Ba (Bitis arietans) | malabarase (Trimeresurus malabaricus) | myofibril-bound serine protease (Argyrosomus argentatus) | SAM-P26 (Streptomyces griseus) | Sc-CHYM (Steinernema carpocapsae) | Sc-SP-1 (Steinernema carpocapsae) | Sc-SP-3 (Steinernema carpocapsae) | sericase (Lucilia sericata) | serine endopeptidase (Arenicola cristata) | serine protease P-IIc (Bombyx mori) | Soli E2 peptidase (Solenopsis invicta) | AaSPVI (Aedes aegypti) | AaSPVII (Aedes aegypti) | ABUSV-SPase (Agkistrodon blomhoffii ussurensis) | actibin (Deinagkistrodon acutus) | agacutin (Agkistrodon acutus) | AH144 peptidase (Agkistrodon halys) | AHP-Ka peptidase (Agkistrodon halys) | allergen Blo t 5 (Blomia tropicalis) | allergen Tyr p 3 (Tyrophagus putrescentiae) | antigen Api SI (Apis mellifera) | antigen Api SII (Apis mellifera) | ZsTRYP (Zabrotes subfasciatus) | barnettobin (Bothrops barnetti) | BbPlgl (Branchiostoma belcheri) | BbrzSP-32 (Bothrops brazili) | bhalternin (Bothrops alternatus) | BmooSP (Bothrops moojeni) | BpirSP27 (Bothrops pirajai) | BpirSP41 (Bothrops pirajai) | UFE peptidase (Urechis unicinctus) | UFEII peptidase (Urechis unicinctus) | UFEIII peptidase (Urechis unicinctus) | DAnase (Deinagkistrodon acutus) | datrypsin (Delia antiqua) | Dav-KN (Deinagkistrodon acutus) | HP1 peptidase (Manduca sexta) | HP2 (Manduca sexta) | TA-2 (Trimeresurus albolabris) | tilapia granzyme-1 (Oreochromis niloticus) | TL-BJ peptidase (Bothrops jararaca) | TLBan peptidase (Bothrops andianus) | tryptase Clara (Sus scrofa) | tryptase TC30 | Ts-ADSp-7 (Trichinella spiralis) | TspSP-1.2 peptidase (Trichinella spiralis) | FcSP (Fenneropenaeus chinensis) | fibrinogenase (Echis multisquamatis) | initiatorin (Bombyx mori) | IXOSP peptidase (Ixodes scapularis) | VASP1 peptidase (Vipera ammodytes) | VMD_27150 g.p. (Vibrio mimicus) | NBL1 (Trichinella spiralis) | nikobin (Vipera nikolskii) | grambin (Trimeresurus gramineus) | granzyme O (Bos taurus) | gussurobin (Gloydius ussuriensis) | jararacussin-I (Bothrops jararacussu) | JHA15 g.p. (Aedes aegypti ) | Jonahm peptidase (Lucilia sericata) | lectizyme (Glossina fuscipes) | rhinocerase (Bitis gabonica rhinoceros) | RP34 peptidase (Cerastes cerastes) | russelobin (Daboia russelii) | PmClipSP1 (Penaeus monodon) | PmClipSP2 (Penaeus monodon) | prophenoloxidase-activating proteinase-1 (Manduca sexta) | Ps82 complement activator (Premolis semirufa) | purpurase (Cryptelytrops purpureomaculatus) | PxPAP (Plutella xylostella) | CC3-SPase peptidase (Cerastes cerastes) | Cdc SI peptidase (Crotalus durissus) | Cdc SII peptidase (Crotalus durissus) | Cdtsp 2 (Crotalus durissus terrificus) | CLIPB10 peptidase (Anopheles gambiae) | CLIPB9 peptidase (Anopheles gambiae) | collinein (Crotalus durissus) | Collinein-1 (Crotalus durissus collilineatus) | cSP peptidase (Eriocheir sinensis) | EoSer-1 (Echis ocellatus) | EoSer-2 (Echis ocellatus) | EoSer-3 (Echis ocellatus) | EoSer-4 (Echis ocellatus)
+subfamily S1A unassigned peptidases;ZsTRYP (Zabrotes subfasciatus);grambin (Trimeresurus gramineus);granzyme O (Bos taurus);gussurobin (Gloydius ussuriensis);barnettobin (Bothrops barnetti);BbPlgl (Branchiostoma belcheri);BbrzSP-32 (Bothrops brazili);bhalternin (Bothrops alternatus);BmooSP (Bothrops moojeni);BpirSP27 (Bothrops pirajai);BpirSP41 (Bothrops pirajai);jararacussin-I (Bothrops jararacussu);JHA15 g.p. (Aedes aegypti );Jonahm peptidase (Lucilia sericata);initiatorin (Bombyx mori);IXOSP peptidase (Ixodes scapularis);DAnase (Deinagkistrodon acutus);datrypsin (Delia antiqua);Dav-KN (Deinagkistrodon acutus);FcSP (Fenneropenaeus chinensis);fibrinogenase (Echis multisquamatis);keratinase Streptomyces albidoflavus;Kn-Ba (Bitis arietans);AaSPVI (Aedes aegypti);AaSPVII (Aedes aegypti);ABUSV-SPase (Agkistrodon blomhoffii ussurensis);actibin (Deinagkistrodon acutus);agacutin (Agkistrodon acutus);AH144 peptidase (Agkistrodon halys);AHP-Ka peptidase (Agkistrodon halys);allergen Blo t 5 (Blomia tropicalis);allergen Tyr p 3 (Tyrophagus putrescentiae);antigen Api SI (Apis mellifera);antigen Api SII (Apis mellifera);rhinocerase (Bitis gabonica rhinoceros);RP34 peptidase (Cerastes cerastes);russelobin (Daboia russelii);lectizyme (Glossina fuscipes);HP1 peptidase (Manduca sexta);HP2 (Manduca sexta);TA-2 (Trimeresurus albolabris);tilapia granzyme-1 (Oreochromis niloticus);TL-BJ peptidase (Bothrops jararaca);TLBan peptidase (Bothrops andianus);tryptase Clara (Sus scrofa);tryptase TC30;Ts-ADSp-7 (Trichinella spiralis);TspSP-1.2 peptidase (Trichinella spiralis);CC3-SPase peptidase (Cerastes cerastes);Cdc SI peptidase (Crotalus durissus);Cdc SII peptidase (Crotalus durissus);Cdtsp 2 (Crotalus durissus terrificus);CLIPB10 peptidase (Anopheles gambiae);CLIPB9 peptidase (Anopheles gambiae);collinein (Crotalus durissus);Collinein-1 (Crotalus durissus collilineatus);cSP peptidase (Eriocheir sinensis);NBL1 (Trichinella spiralis);nikobin (Vipera nikolskii);VASP1 peptidase (Vipera ammodytes);VMD_27150 g.p. (Vibrio mimicus);SAM-P26 (Streptomyces griseus);Sc-CHYM (Steinernema carpocapsae);Sc-SP-1 (Steinernema carpocapsae);Sc-SP-3 (Steinernema carpocapsae);sericase (Lucilia sericata);serine endopeptidase (Arenicola cristata);serine protease P-IIc (Bombyx mori);Soli E2 peptidase (Solenopsis invicta);UFE peptidase (Urechis unicinctus);UFEII peptidase (Urechis unicinctus);UFEIII peptidase (Urechis unicinctus);xepsin (Xenopus laevis);PmClipSP1 (Penaeus monodon);PmClipSP2 (Penaeus monodon);prophenoloxidase-activating proteinase-1 (Manduca sexta);Ps82 complement activator (Premolis semirufa);purpurase (Cryptelytrops purpureomaculatus);PxPAP (Plutella xylostella);malabarase (Trimeresurus malabaricus);myofibril-bound serine protease (Argyrosomus argentatus);EoSer-1 (Echis ocellatus);EoSer-2 (Echis ocellatus);EoSer-3 (Echis ocellatus);EoSer-4 (Echis ocellatus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;2;0;0;0;0;0
 Pro;1;0;3;0;0;0;1;0
@@ -29566,7 +29566,7 @@ Glu;0;1;0;0;0;0;0;1
 Lys;0;0;0;2;0;0;0;0
 Arg;0;0;1;11;0;1;0;0
 His;0;0;0;0;0;0;0;0
-togavirin | Semliki forest virus core protein protease | Sindbis virus core protein protease | aura virus capsid peptidase | aura virus serine peptidase | Western equine encephalitis capsid peptidase | Venezuelan equine encephalitis capsid peptidase | Ross River capsid peptidase | Chikungunya virus capsid protease | core protein, sindbis virus | EC 3.4.21.90
+togavirin;aura virus capsid peptidase;aura virus serine peptidase;Ross River capsid peptidase;Chikungunya virus capsid protease;core protein, sindbis virus;Venezuelan equine encephalitis capsid peptidase;Semliki forest virus core protein protease;Sindbis virus core protein protease;Western equine encephalitis capsid peptidase;EC 3.4.21.90
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;1;1
@@ -29588,7 +29588,7 @@ Glu;0;2;2;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-IgA1-specific serine peptidase (Neisseria-type) | IgA protease (Neisseria) | igaB g.p. (nontypeable Haemophilus influenzae) | EC 3.4.21.72
+IgA1-specific serine peptidase (Neisseria-type);IgA protease (Neisseria);igaB g.p. (nontypeable Haemophilus influenzae);EC 3.4.21.72
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;2;2;2;6;0;6;1;0
@@ -29610,7 +29610,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;0;1;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-EspP peptidase (Escherichia coli) | PssA g.p. (Escherichia coli) | EspP alpha form | EspP beta form | EspP delta form | EspP epsilon form | EspP g.p. (Escherichia coli) | EspP gamma form
+EspP peptidase (Escherichia coli);PssA g.p. (Escherichia coli);EspP alpha form;EspP beta form;EspP delta form;EspP epsilon form;EspP g.p. (Escherichia coli);EspP gamma form
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;1;1;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -29632,7 +29632,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Sat peptidase | Sat g.p. (Escherichia coli) | secreted autotransporter toxin (Escherichia coli) | Pet peptidase | plasmid-encoded toxin (Escherichia coli)
+Sat peptidase;Sat g.p. (Escherichia coli);secreted autotransporter toxin (Escherichia coli);Pet peptidase;plasmid-encoded toxin (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -29654,7 +29654,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;1;0;0
-Pic peptidase | PicU peptidase (Escherichia coli) | protein involved in colonization | Escherichia coli secreted protease island encoded | EspI peptidase
+Pic peptidase;PicU peptidase (Escherichia coli);protein involved in colonization;Escherichia coli secreted protease island encoded;EspI peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;1;0;1;0;0;0
 Pro;1;1;0;1;1;2;0;0
@@ -29676,7 +29676,7 @@ Glu;1;0;0;1;0;0;0;0
 Lys;0;0;0;1;1;0;0;0
 Arg;0;0;0;1;1;2;0;1
 His;1;0;0;0;0;0;0;0
-Hap serine peptidase | adhesion and penetration protein (Haemophilus) | App g.p. (Neisseria meningitidis) | Hap g.p. (Haemophilus influenzae
+Hap serine peptidase;adhesion and penetration protein (Haemophilus);App g.p. (Neisseria meningitidis);Hap g.p. (Haemophilus influenzae
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -29698,7 +29698,7 @@ Glu;0;0;1;0;0;0;2;1
 Lys;0;0;0;0;0;0;0;0
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-IgA1-specific serine peptidase type 1 (Haemophilus sp.) | IgA protease (Haemophilus sp.) | EC 3.4.21.72
+IgA1-specific serine peptidase type 1 (Haemophilus sp.);IgA protease (Haemophilus sp.);EC 3.4.21.72
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;1;2;3;0;2;1;3
@@ -29720,7 +29720,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-IgA1-specific serine peptidase type 2 (Haemophilus sp.) | EC 3.4.21.72
+IgA1-specific serine peptidase type 2 (Haemophilus sp.);EC 3.4.21.72
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;1;0;1;0;1
@@ -29742,7 +29742,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-EatA peptidase Mername-AA278 (Escherichia coli) | ETEC autotransporter A (EatA)
+EatA peptidase Mername-AA278 (Escherichia coli);ETEC autotransporter A (EatA)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;5;0;0;0;0;0
@@ -29764,7 +29764,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-flavivirin | Murray Valley encephalitis virus proteinase | St. Louis encephalitis virus peptidase | West Nile flavivirus proteinase | yellow fever virus (flavivirus) protease | dengue virus NS3 protease | tick-borne encephalitis virus peptidase | NS2B-3 proteinase | NS2B/NS3 peptidase | NS3 protein | Langat virus NS3 peptidase | EC 3.4.21.91 | encephalitis virus proteinase
+flavivirin;dengue virus NS3 protease;Langat virus NS3 peptidase;tick-borne encephalitis virus peptidase;NS2B-3 proteinase;NS2B/NS3 peptidase;NS3 protein;St. Louis encephalitis virus peptidase;West Nile flavivirus proteinase;yellow fever virus (flavivirus) protease;Murray Valley encephalitis virus proteinase;EC 3.4.21.91;encephalitis virus proteinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;6;2;0;14;6;2;1
 Pro;1;1;0;0;0;0;3;0
@@ -29808,7 +29808,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;1;0;0;0;0;0
 Arg;0;1;0;2;0;0;0;0
 His;0;1;0;0;0;0;0;0
-subtilisin Carlsberg | Ker BL (Bacillus licheniformis) | Ker BP (Bacillus pumilus) | kerA g.p. (Bacillus licheniformis) | keratinase (Bacillus sp.) | subtilisin A | subtilisin JB1 | subtilopeptidase A | Alcalase Novo | thiolsubtilisin | Thrombovasim | EC 3.4.21.62
+subtilisin Carlsberg;Ker BL (Bacillus licheniformis);Ker BP (Bacillus pumilus);kerA g.p. (Bacillus licheniformis);keratinase (Bacillus sp.);Alcalase Novo;thiolsubtilisin;Thrombovasim;subtilisin A;subtilisin JB1;subtilopeptidase A;EC 3.4.21.62
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;4;4;0;2;1;4;5
 Pro;3;0;6;0;0;1;3;4
@@ -29830,7 +29830,7 @@ Glu;2;1;1;2;0;3;0;3
 Lys;0;3;0;2;0;0;4;1
 Arg;0;1;1;2;0;2;2;0
 His;3;4;3;2;2;3;1;2
-subtilisin lentus | Maxacal | Savinase | subtilisin (Bacillus lentus variant) | subtilisin 309 | subtilisin BL | subtilisin MC3 | AprB peptidase (Bacillus sp. B001) | protease PB92 (Bacillus sp.) | Esperase
+subtilisin lentus;AprB peptidase (Bacillus sp. B001);Savinase;subtilisin (Bacillus lentus variant);subtilisin 309;subtilisin BL;subtilisin MC3;protease PB92 (Bacillus sp.);Maxacal;Esperase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;2;0;1;1;0;2
 Pro;0;0;2;0;0;0;0;1
@@ -29874,7 +29874,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;0;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-endopeptidase Q | SAPB peptidase (Bacillus pumilus CBS) | dehairing alklaine protease (Bacillus pumilis) | DHAP (Bacillus pumilis) | peptidase AprBi | protease Q (Bacillus pumilis)
+endopeptidase Q;dehairing alklaine protease (Bacillus pumilis);DHAP (Bacillus pumilis);SAPB peptidase (Bacillus pumilus CBS);peptidase AprBi;protease Q (Bacillus pumilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;0;0;0;0;1;0
 Pro;0;0;2;0;0;1;0;0
@@ -29896,7 +29896,7 @@ Glu;0;1;0;1;0;1;0;0
 Lys;0;0;0;0;0;0;1;0
 Arg;0;0;0;0;0;0;0;0
 His;1;0;1;1;0;0;0;0
-thermitase | thermophilic Streptomyces serine proteinase | EC 3.4.21.66
+thermitase;thermophilic Streptomyces serine proteinase;EC 3.4.21.66
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;2;0;1;0;1;1
 Pro;1;0;1;0;0;1;1;1
@@ -29918,7 +29918,7 @@ Glu;1;1;1;0;0;1;0;1
 Lys;0;0;0;0;0;0;1;1
 Arg;1;1;0;1;0;0;0;0
 His;0;0;1;1;2;0;0;0
-Mername-AA053 peptidase | subtilisin homologue (Thermus strain Rt41A)
+Mername-AA053 peptidase;subtilisin homologue (Thermus strain Rt41A)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;2;0;2;2;1;3
 Pro;0;0;2;0;0;1;1;1
@@ -29940,7 +29940,7 @@ Glu;2;1;1;2;0;2;0;0
 Lys;0;0;0;1;0;0;1;1
 Arg;1;1;0;0;1;0;1;0
 His;1;1;2;1;1;0;1;1
-subtilisin Ak1 | Mername-AA054 peptidase | F1 protease (Bacillus stearothermophilus)
+subtilisin Ak1;F1 protease (Bacillus stearothermophilus);Mername-AA054 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;1
 Pro;0;0;1;0;0;0;0;0
@@ -29962,7 +29962,7 @@ Glu;0;1;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;1;0;0;0;1;0;0;0
-M-peptidase | M-protease
+M-peptidase;M-protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;2;0;1;1;1;3
 Pro;0;0;1;0;0;1;0;1
@@ -29984,7 +29984,7 @@ Glu;2;1;1;1;0;2;1;1
 Lys;0;0;0;1;0;0;1;0
 Arg;0;1;0;0;0;0;1;0
 His;1;0;2;2;2;0;0;1
-PfSUB1 peptidase | subtilisin-like peptidase 1 (Plasmodium sp.) | subtilisin-like protease 1 (Plasmodium sp.) | PfSUB-1 protease
+PfSUB1 peptidase;subtilisin-like peptidase 1 (Plasmodium sp.);subtilisin-like protease 1 (Plasmodium sp.);PfSUB-1 protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;10;0;0;0;0;2
 Pro;0;0;0;0;0;0;1;2
@@ -30006,7 +30006,7 @@ Glu;0;0;0;4;1;6;3;2
 Lys;0;5;0;0;0;0;0;1
 Arg;0;1;0;0;0;0;0;0
 His;0;1;0;0;0;0;0;0
-subtilisin-like peptidase 2 (Plasmodium-type) | subtilisin-like protease 2 (Plasmodium-type) | PfSUB-2 protease
+subtilisin-like peptidase 2 (Plasmodium-type);subtilisin-like protease 2 (Plasmodium-type);PfSUB-2 protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -30028,7 +30028,7 @@ Glu;0;1;0;0;0;0;0;1
 Lys;0;0;1;0;0;0;0;0
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ALE1 peptidase | meiosis serine protease (Oryza sativa) | ABNORMAL LEAF SHAPE1 g.p. (Arabidopsis thaliana) | AtSBT2.4 (Arabidopsis thaliana) | OsMSP
+ALE1 peptidase;ABNORMAL LEAF SHAPE1 g.p. (Arabidopsis thaliana);AtSBT2.4 (Arabidopsis thaliana);OsMSP;meiosis serine protease (Oryza sativa)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;0;2;1;3;1
 Pro;1;1;1;1;0;1;0;0
@@ -30050,7 +30050,7 @@ Glu;0;1;0;0;0;2;1;0
 Lys;1;2;0;0;1;0;2;2
 Arg;2;1;1;0;0;0;1;2
 His;0;1;0;2;0;0;1;0
-bacillopeptidase F | Bpr g.p. (Bacillus subtilis)
+bacillopeptidase F;Bpr g.p. (Bacillus subtilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;1;0;0;3
 Pro;0;0;1;0;0;0;1;0
@@ -30072,7 +30072,7 @@ Glu;1;0;0;1;1;1;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;1;0;0;1;0;0;1;0
 His;0;1;0;0;0;0;0;0
-lactocepin I | lactococcal cell envelope-associated proteinase | lactococcal cell wall-associated proteinase | lactococcal proteinase | PrtP peptidase (Lactococcus sp.) | CEP | EC 3.4.21.96 | extracellular lactococcal proteinase
+lactocepin I;lactococcal cell envelope-associated proteinase;lactococcal cell wall-associated proteinase;lactococcal proteinase;CEP;PrtP peptidase (Lactococcus sp.);EC 3.4.21.96;extracellular lactococcal proteinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;1;1;2;1;2;3
 Pro;20;22;22;19;14;19;20;22
@@ -30094,7 +30094,7 @@ Glu;4;6;4;2;5;5;5;6
 Lys;5;3;5;5;6;5;5;3
 Arg;3;2;1;1;2;2;1;1
 His;1;5;1;5;3;4;2;2
-C5a peptidase | scpA g.p. (Streptococcus pyogenes) | scpB g.p. (Streptococcus agalaciae) | EC 3.4.21.110
+C5a peptidase;scpA g.p. (Streptococcus pyogenes);scpB g.p. (Streptococcus agalaciae);EC 3.4.21.110
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -30116,7 +30116,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;1;0;0;0;0
-bpr peptidase (Dichelobacter nodosus) | bprB g.p. (Dichelobacter) | bprV g.p. (Dichelobacter)
+bpr peptidase (Dichelobacter nodosus);bprB g.p. (Dichelobacter);bprV g.p. (Dichelobacter)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;1;0;1;1;1;2
 Pro;0;0;1;0;0;0;1;1
@@ -30138,7 +30138,7 @@ Glu;2;1;1;0;1;0;0;0
 Lys;0;0;0;1;0;0;0;1
 Arg;1;1;0;1;0;0;0;0
 His;0;1;1;1;1;1;0;1
-apr5 peptidase (Dichelobacter nodosus) | aprB5 peptidase (Dichelobacter nodosus) | aprV5 peptidase (Dichelobacter nodosus)
+apr5 peptidase (Dichelobacter nodosus);aprB5 peptidase (Dichelobacter nodosus);aprV5 peptidase (Dichelobacter nodosus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;2;0;0;0;0;1
 Pro;0;0;1;0;0;0;1;1
@@ -30160,7 +30160,7 @@ Glu;1;1;0;0;0;0;0;1
 Lys;0;0;0;1;0;0;0;1
 Arg;1;1;0;0;0;0;0;0
 His;0;0;0;0;2;0;0;0
-dentilisin | membrane-associated chymotrypsin-like protease | trepolisin | PrtP g.p. (Treponema denticola) | CTLP
+dentilisin;trepolisin;CTLP;PrtP g.p. (Treponema denticola);membrane-associated chymotrypsin-like protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;0;0;4;0;0;0
 Pro;0;0;5;0;0;2;0;0
@@ -30182,7 +30182,7 @@ Glu;0;2;0;0;0;0;1;0
 Lys;3;0;1;2;0;1;2;1
 Arg;2;2;0;1;2;2;1;1
 His;0;1;0;0;2;0;0;1
-allergen 13 (Penicillium sp.) | allergen Pen c 13 (Penicillium citrinum) | allergen Pen n 13 (Penicillium notatum) | antigen Pen ch 13 (Penicillium chrysogenum)
+allergen 13 (Penicillium sp.);allergen Pen c 13 (Penicillium citrinum);allergen Pen n 13 (Penicillium notatum);antigen Pen ch 13 (Penicillium chrysogenum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;1;0
 Pro;1;0;0;0;0;0;0;0
@@ -30204,7 +30204,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cell envelope peptidase A (Streptococcus-type) | ScpC | SpyCEP peptidase | SspA | IL-8 protease | PrtS peptidase (Streptococcus thermophilus) | cell envelope protease (Streptococcus pyogenes) | CepA g.p. Streptococcus pyogenes | challisin (Streptococcus gordonii) | CspA (Streptococcus agalactiae)
+cell envelope peptidase A (Streptococcus-type);IL-8 protease;cell envelope protease (Streptococcus pyogenes);CepA g.p. Streptococcus pyogenes;challisin (Streptococcus gordonii);CspA (Streptococcus agalactiae);ScpC;SpyCEP peptidase;SspA;PrtS peptidase (Streptococcus thermophilus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -30226,7 +30226,7 @@ Glu;1;0;0;0;0;0;1;1
 Lys;1;0;0;1;1;1;0;1
 Arg;0;0;1;0;1;0;0;0
 His;0;0;0;0;0;0;0;0
-high alkaline protease (Alkaliphilus transvaalensis) | apr
+high alkaline protease (Alkaliphilus transvaalensis);apr
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;2;3;3;2;3;3;2
 Pro;0;0;5;0;0;1;1;1
@@ -30270,7 +30270,7 @@ Glu;0;2;0;0;1;0;0;1
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;1;0;0;0;0;0;0
-IspA peptidase | Mername-AA055 peptidase | intracellular serine proteinase (Bacillus megaterium) | ISP-1 (Bacillus-type)
+IspA peptidase;intracellular serine proteinase (Bacillus megaterium);ISP-1 (Bacillus-type);Mername-AA055 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;1;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -30292,7 +30292,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;1;0
 His;0;0;0;0;0;0;0;0
-bli-4 g.p. (Caenorhabditis sp.) | kpc-4 peptidase | bli-4/kpc-4 | blisterase
+bli-4 g.p. (Caenorhabditis sp.);bli-4/kpc-4;blisterase;kpc-4 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -30336,7 +30336,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;2;1;0;0;0;0
 Arg;1;0;1;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-subtilisin BPN' | subtiligase | subtilisin B | subtilisin Novo | subtilopeptidase B | subtilopeptidase C | Bace16 peptidase (Bacillus sp. B16) | bacterial protease Novo | BAS | BLG4 cuticle-degrading peptidase (Brevibacillus laterosporus) | furilysin | Nagarse | Novozym FM | Genenase | EC 3.4.21.62
+subtilisin BPN';Genenase;Bace16 peptidase (Bacillus sp. B16);bacterial protease Novo;BAS;BLG4 cuticle-degrading peptidase (Brevibacillus laterosporus);furilysin;Nagarse;Novozym FM;subtiligase;subtilisin B;subtilisin Novo;subtilopeptidase B;subtilopeptidase C;EC 3.4.21.62
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;1;1;0;0;0;2;4
 Pro;1;0;0;0;0;1;3;1
@@ -30358,7 +30358,7 @@ Glu;1;1;0;1;0;1;0;3
 Lys;0;2;0;0;1;0;1;3
 Arg;1;0;1;1;0;1;0;0
 His;1;1;1;0;2;1;1;0
-subtilisin E | subtilisin 147 | aprE g.p. (Bacillus subtilis) | BSUW23_05210 (Bacillus subtilis)
+subtilisin E;BSUW23_05210 (Bacillus subtilis);aprE g.p. (Bacillus subtilis);subtilisin 147
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;3;0;0;0;0;0
@@ -30402,7 +30402,7 @@ Glu;0;1;0;1;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PCSK9 peptidase | Mername-AA185 peptidase | NARC-1 | neural apoptosis-regulated convertase 1 | PC9 | PCSK9 | PCSK9 g.p. (Homo sapiens) | proprotein convertase 9 | proprotein convertase subtilisin/kexin 9
+PCSK9 peptidase;NARC-1;neural apoptosis-regulated convertase 1;PC9;PCSK9;PCSK9 g.p. (Homo sapiens);proprotein convertase 9;proprotein convertase subtilisin/kexin 9;Mername-AA185 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -30424,7 +30424,7 @@ Glu;0;0;0;0;1;2;1;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-apr2 peptidase (Dichelobacter nodosus) | aprB2 peptidase (Dichelobacter nodosus) | aprV2 peptidase (Dichelobacter nodosus)
+apr2 peptidase (Dichelobacter nodosus);aprB2 peptidase (Dichelobacter nodosus);aprV2 peptidase (Dichelobacter nodosus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;1;0;0;0;0;1
 Pro;0;0;1;0;0;1;1;1
@@ -30512,7 +30512,7 @@ Glu;0;1;0;1;0;1;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;1;0;1;1;0;0;0;0
-KPC1-type peptidase | kpc-1 g.p. (Caenorhabditis elegans) | difur g.p. (Dirofilaria immitis) | CelfurPC g.p. (Caenorhabditis elegans)
+KPC1-type peptidase;difur g.p. (Dirofilaria immitis);kpc-1 g.p. (Caenorhabditis elegans);CelfurPC g.p. (Caenorhabditis elegans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -30534,7 +30534,7 @@ Glu;0;0;0;0;0;0;1;1
 Lys;0;0;0;0;0;0;0;0
 Arg;2;0;2;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-furin-1 (arthropod-type) | kexin-like peptidase (Tachypleus) | kexin-like protease (Tachypleus) | Dfur1 protein (Drosophila melanogaster) | Dfurin1 | Furin-1 protein (Drosophila melanogaster) | vitellogenin convertase (Diptera) | limulus kexin
+furin-1 (arthropod-type);Dfur1 protein (Drosophila melanogaster);Dfurin1;Furin-1 protein (Drosophila melanogaster);kexin-like peptidase (Tachypleus);kexin-like protease (Tachypleus);limulus kexin;vitellogenin convertase (Diptera)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;1;1
 Pro;0;0;0;0;0;0;0;2
@@ -30556,7 +30556,7 @@ Glu;2;0;0;0;1;0;2;0
 Lys;0;1;2;0;0;0;0;0
 Arg;3;0;2;6;0;0;0;0
 His;0;1;0;0;0;0;0;0
-furin-2 (insect) | Furin-2 protein (Drosophila melanogaster)
+furin-2 (insect);Furin-2 protein (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;1
@@ -30578,7 +30578,7 @@ Glu;2;0;0;0;1;0;2;0
 Lys;0;1;2;0;0;0;0;0
 Arg;1;0;1;4;0;0;0;0
 His;0;0;0;0;0;0;0;0
-secreted peptidase A | Vhp1 peptidase (Vibrio harveyi) | VPR peptidase (Vibrio sp.) | exoprotease A
+secreted peptidase A;Vhp1 peptidase (Vibrio harveyi);VPR peptidase (Vibrio sp.);exoprotease A
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -30600,7 +30600,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-aqualysin 1 | protease PA720 (Streptomyces rutgersensis) | caldolysin (Thermus aquaticus strain T351) | EC 3.4.21.111
+aqualysin 1;caldolysin (Thermus aquaticus strain T351);protease PA720 (Streptomyces rutgersensis);EC 3.4.21.111
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;2;0;1;1;0;3
 Pro;0;0;2;0;0;0;1;1
@@ -30622,7 +30622,7 @@ Glu;2;1;0;1;0;1;0;1
 Lys;0;0;0;1;0;0;0;1
 Arg;1;1;0;0;0;0;1;0
 His;1;0;1;0;2;0;0;1
-cerevisin | SL41 g.p. (Trichoderma harzianum) | SPMI g.p. (Magnaporthe grisea) | alkaline proteinase (Penicillium citrinum) | allergen Pen c 2 (Penicillium citrinum) | allergen Rho m 2 (Rhodotorula mucilaginosa) | antigen Pen c 18 (Penicillium citrinum) | antigen Pen c 2 (Penicillium citrinum) | antigen Pen ch 18 (Penicillium chrysogenum) | antigen Pen o 18 (Penicillium oxalicum) | Isp6 protein (Schizosaccharomyces pombe) | PRB1 g.p. (Saccharomyces cerevisiae) | proteinase B (Saccharomyces cerevisiae) | proteinase B (Saccharomyces cerevisiae) | proteinase yscB (Saccharomyces cerevisiae) | Psp1 g.p. (Pyrenopeziza brassicae) | EC 3.4.21.48 | Evsp peptidase (Esteya vermicola)
+cerevisin;Isp6 protein (Schizosaccharomyces pombe);alkaline proteinase (Penicillium citrinum);allergen Pen c 2 (Penicillium citrinum);allergen Rho m 2 (Rhodotorula mucilaginosa);antigen Pen c 18 (Penicillium citrinum);antigen Pen c 2 (Penicillium citrinum);antigen Pen ch 18 (Penicillium chrysogenum);antigen Pen o 18 (Penicillium oxalicum);SL41 g.p. (Trichoderma harzianum);SPMI g.p. (Magnaporthe grisea);PRB1 g.p. (Saccharomyces cerevisiae);proteinase B (Saccharomyces cerevisiae);proteinase B (Saccharomyces cerevisiae);proteinase yscB (Saccharomyces cerevisiae);Psp1 g.p. (Pyrenopeziza brassicae);EC 3.4.21.48;Evsp peptidase (Esteya vermicola)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;3;2;0;1;0;1;2
 Pro;0;0;0;0;0;0;1;1
@@ -30644,7 +30644,7 @@ Glu;2;2;1;0;1;1;0;1
 Lys;0;0;2;2;0;0;0;2
 Arg;2;1;1;8;0;0;1;0
 His;0;0;1;0;1;1;0;0
-oryzin | alkaline proteinase (Aspergillus sp.) | alkaline proteinase (Aspergillus)Asp fl 13 allergen | allergen Asp f 13 (Aspergillus fumigatus) | allergen Asp fl 1 (Aspergillus flavus) | allergen Asp fl 13 (Aspergillus flavus) | allergen Asp v 13 (Aspergillus versicolor) | ALP g.p. (Aspergillus spp.) | aspergillopeptidase B | PepD | protease IP (Aspergillus sojae) | prtA | EC 3.4.21.63
+oryzin;alkaline proteinase (Aspergillus sp.);alkaline proteinase (Aspergillus)Asp fl 13 allergen;allergen Asp f 13 (Aspergillus fumigatus);allergen Asp fl 1 (Aspergillus flavus);allergen Asp fl 13 (Aspergillus flavus);allergen Asp v 13 (Aspergillus versicolor);ALP g.p. (Aspergillus spp.);aspergillopeptidase B;PepD;protease IP (Aspergillus sojae);prtA;EC 3.4.21.63
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -30666,7 +30666,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-endopeptidase K | alkaline proteinase (Tritirachium) | proteinase K | EC 3.4.21.64
+endopeptidase K;alkaline proteinase (Tritirachium);proteinase K;EC 3.4.21.64
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;6;7;7;4;5;4;5;8
 Pro;1;0;2;0;0;1;2;1
@@ -30688,7 +30688,7 @@ Glu;2;2;0;3;2;4;3;5
 Lys;1;3;4;2;1;2;6;4
 Arg;1;2;0;0;1;1;1;0
 His;2;2;1;1;2;1;1;0
-cuticle-degrading peptidase of parasitic fungus | SprT peptidase (Trichoderma pseudokoningii) | bassiasin I (Beauveria bassiana) | Hasp peptidase (Hirsutella rhossiliensis) | VCP1 peptidase (Pochonia chlamydosporia) | Ver112 extracellular protease (Lecanicillium psalliotae) | P32 peptidase (Pochonia sp.) | PeSpr1 (Pleurotus eryngii) | PL646 peptidase (Paecilomyces lilacinus) | Pr1A g.p. (Metarhizium anisopliae) | CDEP1 g.p. (Beauveria bassiana) | CDEP2 g.p. (Beauveria bassiana)
+cuticle-degrading peptidase of parasitic fungus;bassiasin I (Beauveria bassiana);Hasp peptidase (Hirsutella rhossiliensis);CDEP1 g.p. (Beauveria bassiana);CDEP2 g.p. (Beauveria bassiana);VCP1 peptidase (Pochonia chlamydosporia);Ver112 extracellular protease (Lecanicillium psalliotae);SprT peptidase (Trichoderma pseudokoningii);P32 peptidase (Pochonia sp.);PeSpr1 (Pleurotus eryngii);PL646 peptidase (Paecilomyces lilacinus);Pr1A g.p. (Metarhizium anisopliae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;2;0;3;1;1;1
 Pro;0;0;3;0;0;0;0;1
@@ -30710,7 +30710,7 @@ Glu;1;1;1;1;1;1;1;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;1;1;0;1;0
 His;0;2;0;1;0;1;1;1
-thermomycolin | thermomycolase | EC 3.4.21.65
+thermomycolin;thermomycolase;EC 3.4.21.65
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;3;2;2;3;0;0;0
 Pro;0;0;2;0;0;3;0;1
@@ -30732,7 +30732,7 @@ Glu;1;1;0;2;0;0;0;1
 Lys;1;1;1;1;0;0;2;2
 Arg;1;2;0;1;2;2;2;3
 His;1;1;0;0;0;0;0;0
-NisP (Lactococcus lactis)-type lantibiotic leader peptidase | nisin lantibiotic leader peptidase | lantibiotic leader peptidase NisP
+NisP (Lactococcus lactis)-type lantibiotic leader peptidase;lantibiotic leader peptidase NisP;nisin lantibiotic leader peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;3;0;0;0;0;0
@@ -30754,7 +30754,7 @@ Glu;0;1;0;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;1
 Arg;0;0;0;4;0;0;0;0
 His;0;0;0;0;0;0;0;0
-EpiP lantibiotic leader peptidase | lantibiotic leader peptidase EpiP | epidermin lantibiotic leader peptidase
+EpiP lantibiotic leader peptidase;lantibiotic leader peptidase EpiP;epidermin lantibiotic leader peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -30776,7 +30776,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidase T | PrC (Clonostachys rosea) | proteinase T (Tritirachium album) | cephalosporin C acetylhydrolase (Acremonium chrysogenum)
+peptidase T;cephalosporin C acetylhydrolase (Acremonium chrysogenum);PrC (Clonostachys rosea);proteinase T (Tritirachium album)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -30798,7 +30798,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-site-1 peptidase | KIAA0091 putative peptidase | mammalian subtilisin/kexin isozyme 1 | MBTPS1 g.p. (Homo sapiens) | membrane-bound transcription factor peptidase site 1 | S1P protease | site-1 protease | SKI-1 (Mus musculus) | SREBP S1 protease | sterol regulatory element-binding protein site 1 protease | AtS1P (Arabidopsis thaliana) | AtSBT6.1 (Arabidopsis thaliana) | proprotein convertase SKI-1 | PS1 | EC 3.4.21.112
+site-1 peptidase;KIAA0091 putative peptidase;AtS1P (Arabidopsis thaliana);AtSBT6.1 (Arabidopsis thaliana);S1P protease;site-1 protease;SKI-1 (Mus musculus);SREBP S1 protease;sterol regulatory element-binding protein site 1 protease;proprotein convertase SKI-1;PS1;mammalian subtilisin/kexin isozyme 1;MBTPS1 g.p. (Homo sapiens);membrane-bound transcription factor peptidase site 1;EC 3.4.21.112
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;8;0;0;0
 Pro;0;0;2;0;0;0;1;1
@@ -30820,7 +30820,7 @@ Glu;0;0;0;0;0;1;6;1
 Lys;0;4;0;4;0;1;1;1
 Arg;28;11;1;1;2;0;1;1
 His;0;1;0;1;0;1;0;0
-MutP (Streptococcus mutans)-type lantibiotic leader peptidase | mutacin lantibiotic leader peptidase | MutP g.p. (Streptococcus mutans)
+MutP (Streptococcus mutans)-type lantibiotic leader peptidase;mutacin lantibiotic leader peptidase;MutP g.p. (Streptococcus mutans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -30842,7 +30842,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-SAM-P45 peptidase | DHP-A peptidase (Streptomyces viridisporus)
+SAM-P45 peptidase;DHP-A peptidase (Streptomyces viridisporus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;1
@@ -30864,7 +30864,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-kexin | XPR6 g.p. (Yarrowia lipolytica) | KEX2 g.p. (Saccharomyces cerevisiae) | KexB g.p. (Aspergillus sp.) | Krp1 g.p. (Schizosaccharomyces pombe) | yeast cysteine proteinase F (misleading) | paired-basic endopeptidase | prohormone-processing endoprotease | cysteine proteinase F (Saccharomyces)proteinase F (Saccharomyces) | EC 3.4.21.61
+kexin;KEX2 g.p. (Saccharomyces cerevisiae);KexB g.p. (Aspergillus sp.);Krp1 g.p. (Schizosaccharomyces pombe);cysteine proteinase F (Saccharomyces)proteinase F (Saccharomyces);yeast cysteine proteinase F (misleading);XPR6 g.p. (Yarrowia lipolytica);paired-basic endopeptidase;prohormone-processing endoprotease;EC 3.4.21.61
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;6;0;0;12;9;14;8
 Pro;4;0;0;0;2;15;6;13
@@ -30886,7 +30886,7 @@ Glu;6;18;2;0;32;12;13;12
 Lys;28;13;169;1;0;3;14;8
 Arg;9;6;13;191;0;2;1;1
 His;10;22;0;0;2;1;9;5
-furin | kexin (Tachypleus) | SPC1 | dibasic processing enzyme | FURIN g.p. (Homo sapiens) | PACE | PCSK3 peptidase | prohormone convertase | prohormone convertase 3 | proprotein convertase subtilisin/kexin type 3 | EC 3.4.21.75
+furin;dibasic processing enzyme;FURIN g.p. (Homo sapiens);kexin (Tachypleus);SPC1;PACE;PCSK3 peptidase;prohormone convertase;prohormone convertase 3;proprotein convertase subtilisin/kexin type 3;EC 3.4.21.75
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;5;2;0;17;3;21;22
 Pro;1;2;10;0;2;7;10;15
@@ -30908,7 +30908,7 @@ Glu;1;9;4;0;20;1;17;16
 Lys;7;37;90;5;7;10;7;14
 Arg;165;28;69;211;8;8;16;11
 His;2;8;5;0;6;3;4;6
-PCSK1 peptidase | NEC1 | neuroendocrine convertase 1 (NEC1) | PC1 | PC1/3 | PC3 [obs.] | PCSK1 g.p. (Homo sapiens) | prohormone convertase 3 [obs.] | proprotein convertase 1 | proprotein convertase subtilisin/kexin type 1 | EC 3.4.21.93
+PCSK1 peptidase;NEC1;neuroendocrine convertase 1 (NEC1);PC1;PC1/3;PC3 [obs.];PCSK1 g.p. (Homo sapiens);prohormone convertase 3 [obs.];proprotein convertase 1;proprotein convertase subtilisin/kexin type 1;EC 3.4.21.93
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;19;0;0;4;10;11;20
 Pro;9;2;3;0;1;3;17;3
@@ -30930,7 +30930,7 @@ Glu;7;8;4;0;7;1;27;12
 Lys;6;1;50;6;3;1;0;4
 Arg;17;1;27;91;1;4;1;4
 His;2;5;1;0;12;8;1;2
-PCSK2 peptidase | SPC2 | Amontillado protein (Drosophila melanogaster) | NEC2 | neuroendocrine convertase 2 (NEC2) | PC2 | PCSK2 g.p. (Homo sapiens) | proprotein convertase 2 | proprotein convertase subtilisin/kexin type 2 | EC 3.4.21.94
+PCSK2 peptidase;Amontillado protein (Drosophila melanogaster);NEC2;neuroendocrine convertase 2 (NEC2);SPC2;PC2;PCSK2 g.p. (Homo sapiens);proprotein convertase 2;proprotein convertase subtilisin/kexin type 2;EC 3.4.21.94
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;13;0;0;15;23;31;14
 Pro;4;3;9;0;6;14;11;15
@@ -30952,7 +30952,7 @@ Glu;10;19;2;0;14;6;27;22
 Lys;13;20;123;11;5;7;5;7
 Arg;86;15;44;192;3;7;9;7
 His;2;7;0;0;9;0;1;4
-PCSK4 peptidase | SPC5 | SPSK4 g.p. (Homo sapiens) | neuroendocrine convertase | PC4 | PCSK4 | proprotein convertase 4 | proprotein convertase subtilisin/kexin type 4
+PCSK4 peptidase;neuroendocrine convertase;SPC5;SPSK4 g.p. (Homo sapiens);PC4;PCSK4;proprotein convertase 4;proprotein convertase subtilisin/kexin type 4
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;4;0;0;3;4;12;8
 Pro;0;0;6;0;2;4;2;11
@@ -30974,7 +30974,7 @@ Glu;1;2;1;0;9;0;11;13
 Lys;8;18;49;3;0;2;4;3
 Arg;77;12;32;100;1;0;2;2
 His;2;6;0;0;5;0;2;3
-PCSK6 peptidase | PAC4SPC4 | PACE4 proprotein convertase | PCSK6 g.p. (Homo sapiens) | proprotein convertase 6 | proprotein convertase PACE4 | proprotein convertase subtilisin/kexin type 6
+PCSK6 peptidase;PAC4SPC4;PACE4 proprotein convertase;PCSK6 g.p. (Homo sapiens);proprotein convertase 6;proprotein convertase PACE4;proprotein convertase subtilisin/kexin type 6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;4;0;0;3;4;15;8
 Pro;0;0;6;0;2;4;2;11
@@ -30996,7 +30996,7 @@ Glu;1;3;1;0;9;0;11;13
 Lys;7;19;53;3;0;2;5;3
 Arg;85;12;36;102;1;0;3;3
 His;2;7;0;0;5;0;2;3
-PCSK5 peptidase | PC5 | PC5/6 [obs.] | PC5A | PC5B | PC6A [obs.] | PC6B [obs.] | PCSK5 | proprotein convertase 5 | proprotein convertase 6 [obs.] | proprotein convertase subtilisin/kexin type 5
+PCSK5 peptidase;PC5;PC5/6 [obs.];PC5A;PC5B;PC6A [obs.];PC6B [obs.];PCSK5;proprotein convertase 5;proprotein convertase 6 [obs.];proprotein convertase subtilisin/kexin type 5
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;6;1;0;7;5;15;11
 Pro;1;1;8;0;2;6;4;12
@@ -31018,7 +31018,7 @@ Glu;3;5;2;0;11;1;13;15
 Lys;8;23;59;4;1;8;8;5
 Arg;97;13;41;125;2;0;4;4
 His;3;6;1;0;8;0;3;3
-PCSK7 peptidase | LPC | lymphoma proprotein convertase | PC7 | PC8 | PCSK7 g.p. (Homo sapiens) | proprotein convertase 7 | proprotein convertase 8 | proprotein convertase subtilisin kexin 7 | proprotein convertase subtilisin/kexin type 7 | protein convertase, lymphoma
+PCSK7 peptidase;LPC;lymphoma proprotein convertase;PC7;PC8;PCSK7 g.p. (Homo sapiens);proprotein convertase 7;proprotein convertase 8;proprotein convertase subtilisin kexin 7;proprotein convertase subtilisin/kexin type 7;protein convertase, lymphoma
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;5;0;0;7;4;13;9
 Pro;0;0;7;0;2;4;3;11
@@ -31040,7 +31040,7 @@ Glu;1;2;2;0;11;1;13;15
 Lys;9;23;54;4;0;2;4;3
 Arg;85;12;38;112;2;0;2;2
 His;2;6;0;0;5;0;2;3
-PrcA peptidase | PrcA g.p. (Anabaena viriabilis) | PrcA protease
+PrcA peptidase;PrcA g.p. (Anabaena viriabilis);PrcA protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;0;0;0;0;0;0
 Pro;0;0;2;0;0;0;0;1
@@ -31062,7 +31062,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;1;0;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PepP lantibiotic leader peptidase | lantibiotic leader peptidase PepP | Pep5 lantibiotic leader peptidase
+PepP lantibiotic leader peptidase;lantibiotic leader peptidase PepP;Pep5 lantibiotic leader peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;0;0;1;0;0;0;0;1
@@ -31084,7 +31084,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-CylA lantibiotic leader peptidase | lantibiotic leader peptidase CylP/CylA | CylP lantibiotic leader peptidase | cytolysin leader peptidase
+CylA lantibiotic leader peptidase;lantibiotic leader peptidase CylP/CylA;CylP lantibiotic leader peptidase;cytolysin leader peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -31106,7 +31106,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-EciP lantibiotic leader peptidase (Staphylococcus epidermidis) | lantibiotic leader peptidase EciP | epicidin 280 lantibiotic leader peptidase
+EciP lantibiotic leader peptidase (Staphylococcus epidermidis);lantibiotic leader peptidase EciP;epicidin 280 lantibiotic leader peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;0;0;1;0;0;0;0;1
@@ -31128,7 +31128,7 @@ Glu;0;2;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-tripeptidyl-peptidase II | multicorn peptidase (Schizosaccharomyces pombe) | AtSBT6.2 (Arabidopsis thaliana) | TPP II | TPP2 g.p. (Homo sapiens) | tripeptidyl aminopeptidase | tripeptidyl peptidase | cholecystokinin 8-inactivating peptidase | EC 3.4.14.10
+tripeptidyl-peptidase II;AtSBT6.2 (Arabidopsis thaliana);TPP II;TPP2 g.p. (Homo sapiens);tripeptidyl aminopeptidase;tripeptidyl peptidase;cholecystokinin 8-inactivating peptidase;multicorn peptidase (Schizosaccharomyces pombe);EC 3.4.14.10
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -31172,7 +31172,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cucumisin | macluralisin | SEP-1 endopeptidase (Hordeum vulgare) | allergen Cuc m 1 (Cucumis melo) | hordolisin | taraxalisin | protease D (Cucumis melo) | EC 3.4.21.25
+cucumisin;allergen Cuc m 1 (Cucumis melo);hordolisin;taraxalisin;SEP-1 endopeptidase (Hordeum vulgare);protease D (Cucumis melo);macluralisin;EC 3.4.21.25
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;2;3;2;3;2;2;3
 Pro;0;0;10;1;0;1;1;1
@@ -31194,7 +31194,7 @@ Glu;2;2;2;2;1;2;0;2
 Lys;0;0;0;1;1;0;1;1
 Arg;1;1;1;1;1;2;3;1
 His;1;1;2;1;2;0;1;1
-LasP lantibiotic leader peptidase (Lactobacillus sakei) | lactocidin S lantibiotic leader peptidase | lantibiotic leader peptidase LasP
+LasP lantibiotic leader peptidase (Lactobacillus sakei);lactocidin S lantibiotic leader peptidase;lantibiotic leader peptidase LasP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -31216,7 +31216,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ElkP lantibiotic leader peptidase | lantibiotic leader peptidase ElkP
+ElkP lantibiotic leader peptidase;lantibiotic leader peptidase ElkP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -31238,7 +31238,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidase C1 | protease C1 (Glycine max)
+peptidase C1;protease C1 (Glycine max)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -31326,7 +31326,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-halolysin R4 | halolysin SptA | Nep peptidase (Natrialba magadii)
+halolysin R4;halolysin SptA;Nep peptidase (Natrialba magadii)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -31370,7 +31370,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-KPC2-type peptidase | C51E3.7B protein (Caenorhabditis elegans) | EGL-3 proprotein convertase (Caenorhabditis elegans)
+KPC2-type peptidase;C51E3.7B protein (Caenorhabditis elegans);EGL-3 proprotein convertase (Caenorhabditis elegans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;52;14;0;12;18;6;11
 Pro;5;1;0;0;0;19;19;10
@@ -31392,7 +31392,7 @@ Glu;3;9;0;0;6;3;12;7
 Lys;2;3;91;10;7;0;0;2
 Arg;15;1;3;104;3;3;5;9
 His;3;1;0;0;1;4;1;2
-keratinase K1 (Stenotrophomonas maltophilia) | KerSMD (Stenotrophomonas maltophilia) | StmPr1 peptidase (Stenotrophomonas-type) | PN4 peptidase (Stenotrophomonas maltophilia)
+keratinase K1 (Stenotrophomonas maltophilia);KerSMD (Stenotrophomonas maltophilia);StmPr1 peptidase (Stenotrophomonas-type);PN4 peptidase (Stenotrophomonas maltophilia)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;1;0;1;2
 Pro;0;0;2;0;0;0;0;1
@@ -31414,7 +31414,7 @@ Glu;2;1;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;1;0;1;1;0;1;0
-ARA12 peptidase | ARA12 g.p. (Arabidopsis thaliana) | AtSBT1.7 (Arabidopsis thaliana) | LeSBT1 peptidase | PsSBT1.1 (Pisum sativum)
+ARA12 peptidase;ARA12 g.p. (Arabidopsis thaliana);AtSBT1.7 (Arabidopsis thaliana);LeSBT1 peptidase;PsSBT1.1 (Pisum sativum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;1;36;36;37;0
 Pro;0;0;40;0;0;1;1;0
@@ -31458,7 +31458,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;0;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-lactocepin-3 | lactocepin III
+lactocepin-3;lactocepin III
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;4;3;1;7;3;2;3
 Pro;24;15;33;17;9;20;28;29
@@ -31480,7 +31480,7 @@ Glu;14;22;12;13;12;9;15;8
 Lys;8;10;6;9;14;11;10;10
 Arg;3;6;4;1;3;6;4;2
 His;1;5;4;4;5;4;4;4
-cuticle-degrading peptidase of nematode-trapping fungus | Mc1 peptidase (Monacrosporium cystosporium) | Aoz1-type peptidase | PII peptidase (Arthrobotrys oligospora)
+cuticle-degrading peptidase of nematode-trapping fungus;Aoz1-type peptidase;PII peptidase (Arthrobotrys oligospora);Mc1 peptidase (Monacrosporium cystosporium)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -31502,7 +31502,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cytotoxin SubAB | subtilase cytotoxin SubAB | AB5 subunit cytotoxin
+cytotoxin SubAB;AB5 subunit cytotoxin;subtilase cytotoxin SubAB
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -31546,7 +31546,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ASUB peptidase | major serine peptidase (Acanthamoeba sp.) | AhSUB g.p. (Acanthamoeba sp.) | encystation-mediating serine proteinase (Acanthamoeba sp.)
+ASUB peptidase;AhSUB g.p. (Acanthamoeba sp.);major serine peptidase (Acanthamoeba sp.);encystation-mediating serine proteinase (Acanthamoeba sp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;2;0;0;0;0;0
@@ -31568,7 +31568,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-AspA (Aeromonas sobria)-type peptidase | AhpA peptidase (Aeromonas hydrophila) | AspA peptidase (Aeromonas salmonicida) | EC 3.4.21.121
+AspA (Aeromonas sobria)-type peptidase;AhpA peptidase (Aeromonas hydrophila);AspA peptidase (Aeromonas salmonicida);EC 3.4.21.121
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -31590,7 +31590,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;3;1;0;0;0;0
 Arg;2;0;1;3;0;0;0;0
 His;0;0;0;0;0;0;0;0
-TagC peptidase (Dictyostelium discoideum) | TagB peptidase (Dictyostelium discoideum) | TagD peptidase (Dictyostelium discoideum)
+TagC peptidase (Dictyostelium discoideum);TagB peptidase (Dictyostelium discoideum);TagD peptidase (Dictyostelium discoideum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;1;0;0;0
@@ -31612,7 +31612,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;1;2;0;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Tk-subtilisin | subtilisin TK1675 (Thermococcus kodakarensis) | Tk-SP | pernisine (Aeropyrum pernix)
+Tk-subtilisin;Tk-SP;subtilisin TK1675 (Thermococcus kodakarensis);pernisine (Aeropyrum pernix)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -31634,7 +31634,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-MCP-01 peptidase | deseasin | cold-adapted deseasin
+MCP-01 peptidase;deseasin;cold-adapted deseasin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;2;1;0;2;1;0
 Pro;0;1;2;0;0;1;0;0
@@ -31656,7 +31656,7 @@ Glu;1;0;0;0;0;0;0;1
 Lys;0;1;0;0;0;0;0;0
 Arg;0;1;0;1;0;0;0;0
 His;1;0;0;1;0;0;0;0
-tengconlysin | TTE0824 g.p. (Thermoanaerobacter tengcongensis)
+tengconlysin;TTE0824 g.p. (Thermoanaerobacter tengcongensis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;3;0;1;1;2;2
 Pro;0;0;3;0;0;1;1;1
@@ -31678,7 +31678,7 @@ Glu;1;1;0;2;0;2;1;2
 Lys;0;0;0;1;0;0;1;1
 Arg;1;1;0;0;1;0;1;0
 His;1;0;1;2;2;1;1;1
-AprX peptidase (Bacillus sp.) | W10 antifungal protein (Bacillus licheniformis W10)
+AprX peptidase (Bacillus sp.);W10 antifungal protein (Bacillus licheniformis W10)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -31722,7 +31722,7 @@ Glu;2;2;0;1;0;1;2;0
 Lys;0;0;0;1;0;0;1;0
 Arg;0;1;1;0;0;0;1;1
 His;1;1;0;1;0;0;1;0
-sporangin | sporangial autolysin (Chlamydomonas reinhardtii) | vegetative lytic enzyme | VLE | p-lysinase (Chlamydomonas)
+sporangin;vegetative lytic enzyme;VLE;sporangial autolysin (Chlamydomonas reinhardtii);p-lysinase (Chlamydomonas)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;0;0;0;0;0;0
 Pro;0;0;0;0;1;1;1;2
@@ -31810,7 +31810,7 @@ Glu;1;1;0;0;0;1;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;2;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-phytaspase | SAS-1 | SAS-2 | saspase, plant | plant saspase
+phytaspase;SAS-1;SAS-2;saspase, plant;plant saspase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -31832,7 +31832,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;1;0
-SlSBT3 g.p. (Solanum lycopersicum) | StSBTc-3 (Solanum tuberosum)
+SlSBT3 g.p. (Solanum lycopersicum);StSBTc-3 (Solanum tuberosum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;0;2;1;3;1
 Pro;5;1;0;1;0;1;0;0
@@ -31876,7 +31876,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-SUB2 g.p. (Toxoplasma gondii) | TgSUB2
+SUB2 g.p. (Toxoplasma gondii);TgSUB2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -31964,7 +31964,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;1;11;0;0;0;0
 His;0;0;0;0;0;0;0;0
-At5g59120 (Arabidopsis thaliana) | AtSBT4.13 g.p. (Arabidopsis thaliana)
+At5g59120 (Arabidopsis thaliana);AtSBT4.13 g.p. (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;1;1
 Pro;0;0;1;0;0;1;1;0
@@ -31986,7 +31986,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;1;0;0;0;0
-prolyl oligopeptidase | dpoA g.p. (Dictyostelium sp.) | post-proline cleaving enzyme | proline-specific endopeptidase | prolyl endopeptidase | EC 3.4.21.26 | endo-oligopeptidase B | endoproteinase Pro-C
+prolyl oligopeptidase;dpoA g.p. (Dictyostelium sp.);post-proline cleaving enzyme;proline-specific endopeptidase;prolyl endopeptidase;EC 3.4.21.26;endo-oligopeptidase B;endoproteinase Pro-C
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;8;3;7;0;7;7;4;2
 Pro;9;15;5;50;1;22;3;14
@@ -32008,7 +32008,7 @@ Glu;0;0;0;0;2;0;3;1
 Lys;1;0;3;0;1;0;2;0
 Arg;3;2;9;0;2;3;0;1
 His;1;0;1;0;0;0;1;0
-prolyl oligopeptidase homologue (Pyrococcus-type) | PrpA g.p. (Pyrococcus furiosus)
+prolyl oligopeptidase homologue (Pyrococcus-type);PrpA g.p. (Pyrococcus furiosus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;2;0;0;0;0
@@ -32030,7 +32030,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-dipeptidyl-peptidase IV (eukaryote) | Xaa-Pro-dipeptidyl-aminopeptidase | adenosine deaminase binding protein | dipeptidyl aminopeptidase IV | DPP IV | DPP IVTHAM | DPP4 | thymocyte-activating molecule (Mus musculus) | Gly-Pro naphthylamidase | glycoprotein GP110 | lymphocyte antigen CD26 | plasminogen receptor, type 2 | postproline dipeptidyl aminopeptidase IV | CD26 | EC 3.4.14.5
+dipeptidyl-peptidase IV (eukaryote);Gly-Pro naphthylamidase;glycoprotein GP110;dipeptidyl aminopeptidase IV;DPP IV;DPP IVTHAM;DPP4;adenosine deaminase binding protein;lymphocyte antigen CD26;thymocyte-activating molecule (Mus musculus);CD26;Xaa-Pro-dipeptidyl-aminopeptidase;plasminogen receptor, type 2;postproline dipeptidyl aminopeptidase IV;EC 3.4.14.5
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;7;1;0;3;0;1
 Pro;0;0;0;21;0;2;0;2
@@ -32052,7 +32052,7 @@ Glu;0;0;0;0;3;0;1;3
 Lys;0;0;1;0;1;0;2;1
 Arg;0;0;2;0;0;1;2;2
 His;0;0;2;0;0;0;0;0
-acylaminoacyl-peptidase | acylamino-acid-releasing enzyme | APEH g.p. (Homo sapiens) | N-acylpeptide hydrolase | N-formylmethionine (fMet) aminopeptidase | OPH | oxidized protein hydrolase | EC 3.4.19.1
+acylaminoacyl-peptidase;acylamino-acid-releasing enzyme;APEH g.p. (Homo sapiens);OPH;oxidized protein hydrolase;N-acylpeptide hydrolase;N-formylmethionine (fMet) aminopeptidase;EC 3.4.19.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;0;0;0;0;0
 Pro;0;0;0;0;0;1;0;0
@@ -32074,7 +32074,7 @@ Glu;1;1;0;1;1;0;1;1
 Lys;1;0;0;0;0;1;1;0
 Arg;0;0;0;0;0;0;0;1
 His;0;0;1;2;1;0;0;0
-dipeptidyl aminopeptidase A | STE13 (Saccharomyces cerevisiae) | yscIV peptidase
+dipeptidyl aminopeptidase A;STE13 (Saccharomyces cerevisiae);yscIV peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;0;0;0;0;0
 Pro;0;0;0;8;0;2;1;1
@@ -32096,7 +32096,7 @@ Glu;0;0;4;0;2;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;2;0;2
-dipeptidyl aminopeptidase B (fungus) | DAP2 g.p. (Saccharomyces cerevisiae) | dipeptidyl aminopeptidase 2 (Saccharomyces cerevisiae) | dipeptidyl aminopeptidase yscV (Saccharomyces cerevisiae) | HcDPPIVB peptidase (Ajellomyces capsulatus)
+dipeptidyl aminopeptidase B (fungus);DAP2 g.p. (Saccharomyces cerevisiae);dipeptidyl aminopeptidase 2 (Saccharomyces cerevisiae);dipeptidyl aminopeptidase yscV (Saccharomyces cerevisiae);HcDPPIVB peptidase (Ajellomyces capsulatus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;5;0;0;0;0
@@ -32118,7 +32118,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-fibroblast activation protein alpha subunit | seprase | antiplasmin-cleaving enzyme | APCE | FAP alpha | EC 3.4.21.B28
+fibroblast activation protein alpha subunit;FAP alpha;antiplasmin-cleaving enzyme;APCE;seprase;EC 3.4.21.B28
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;0;0;1;0;0
 Pro;0;0;0;6;0;0;0;0
@@ -32140,7 +32140,7 @@ Glu;0;0;1;0;0;0;3;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;1;0
 His;0;0;0;0;0;0;0;0
-dipeptidyl peptidase 4 (Aspergillus-type) | dipeptidyl peptidase IV | HcDPPIVA peptidase (Ajellomyces capsulatus)
+dipeptidyl peptidase 4 (Aspergillus-type);dipeptidyl peptidase IV;HcDPPIVA peptidase (Ajellomyces capsulatus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;0;1;1;0;0
 Pro;0;0;1;6;0;0;0;1
@@ -32184,7 +32184,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-oligopeptidase B | alkaline peptidase | dipeptidyl aminopeptidase BI (Pseudomonas sp. WO24) | oligopeptidase (Treponema)OP-TbOP-Tc | oligopeptidase Tb (Trypanosoma brucei) | oligopeptidase Tc (Trypanosoma congolense) | oligopeptidase Tc80 (Trypanosoma cruzi) | OpdB g.p. (Salmonella typhimurium) | peptidase A | peptidase I-mes (Prosopis velutina) | protease II (Escherichia coli) | EC 3.4.21.83
+oligopeptidase B;dipeptidyl aminopeptidase BI (Pseudomonas sp. WO24);alkaline peptidase;oligopeptidase (Treponema)OP-TbOP-Tc;oligopeptidase Tb (Trypanosoma brucei);oligopeptidase Tc (Trypanosoma congolense);oligopeptidase Tc80 (Trypanosoma cruzi);OpdB g.p. (Salmonella typhimurium);peptidase A;peptidase I-mes (Prosopis velutina);protease II (Escherichia coli);EC 3.4.21.83
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;7;6;0;2;0;0;2
 Pro;1;2;4;1;1;1;0;0
@@ -32206,7 +32206,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;0;5;3;0;0;0;0
 Arg;1;1;11;37;1;1;2;1
 His;0;0;1;0;0;1;0;1
-dipeptidyl-peptidase 5 | secreted alanyl dipeptidyl peptidase (Aspergillus oryzae) | allergen Tri m 4 (Trichophyton mentagrophytes) | allergen Tri r 4 (Trichophyton rubrum) | allergen Tri t 4 (Trichophyton tonsurans) | dipeptidyl-peptidase V | DPP V | Tri t 4 allergen (Trichophyton tonsurans)
+dipeptidyl-peptidase 5;dipeptidyl-peptidase V;DPP V;allergen Tri m 4 (Trichophyton mentagrophytes);allergen Tri r 4 (Trichophyton rubrum);allergen Tri t 4 (Trichophyton tonsurans);Tri t 4 allergen (Trichophyton tonsurans);secreted alanyl dipeptidyl peptidase (Aspergillus oryzae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -32228,7 +32228,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;2;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-dipeptidyl-peptidase 4 (bacteria-type 2) | dipeptidyl-peptidase IV | outer membrane protein adhesin (Capnocytophaga gingivalis)
+dipeptidyl-peptidase 4 (bacteria-type 2);dipeptidyl-peptidase IV;outer membrane protein adhesin (Capnocytophaga gingivalis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;0;2;2;1;0
 Pro;0;0;0;15;0;4;1;2
@@ -32250,7 +32250,7 @@ Glu;0;0;0;0;1;0;0;2
 Lys;0;0;1;0;1;0;0;0
 Arg;0;0;2;0;2;2;0;0
 His;0;0;0;0;0;0;1;0
-prolyl tripeptidyl peptidase | YuxL peptidase (Bacillus subtilis) | tripeptidyl peptidase, prolyl | prolyl tripeptidyl aminopeptidase | EC 3.4.14.12
+prolyl tripeptidyl peptidase;tripeptidyl peptidase, prolyl;YuxL peptidase (Bacillus subtilis);prolyl tripeptidyl aminopeptidase;EC 3.4.14.12
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;6;0;1;0
 Pro;0;1;5;13;0;2;1;2
@@ -32272,7 +32272,7 @@ Glu;0;0;1;0;0;3;0;0
 Lys;0;0;0;0;2;1;2;0
 Arg;0;4;1;0;0;0;0;0
 His;0;0;1;0;0;0;1;0
-dipeptidyl-peptidase 8 | DPP8
+dipeptidyl-peptidase 8;DPP8
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;2;0;0
 Pro;0;0;0;8;0;0;1;1
@@ -32294,7 +32294,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;0;1;0;0;1;2;0
 Arg;0;0;1;0;0;0;1;1
 His;0;0;2;0;0;0;0;0
-dipeptidyl-peptidase 9 | DPP9 | R26984_1 | peptidase like H.s. R26984_1
+dipeptidyl-peptidase 9;DPP9;R26984_1;peptidase like H.s. R26984_1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;0;0;3;0;0
 Pro;0;0;0;13;0;0;1;1
@@ -32316,7 +32316,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;0;1;0;0;1;1;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;2;0;0;0;0;0
-glutamyl endopeptidase C | CGEP
+glutamyl endopeptidase C;CGEP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;3;0;0;0;2;1
 Pro;0;1;4;0;0;2;0;1
@@ -32338,7 +32338,7 @@ Glu;0;0;0;15;2;2;0;0
 Lys;1;0;0;0;0;1;1;1
 Arg;0;1;1;0;0;0;0;0
 His;0;0;0;0;0;0;1;0
-AlbD protein (Pantoea dispersa) | albicidin-resistance factor
+AlbD protein (Pantoea dispersa);albicidin-resistance factor
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -32382,7 +32382,7 @@ Glu;0;0;0;0;0;10;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-lasso peptide isopeptidase (Asticcacaulis-type) | AtxE2 g.p. (Asticcacaulis excentricus) | BenE1 g.p. (Asticcacaulis benevestitus)
+lasso peptide isopeptidase (Asticcacaulis-type);BenE1 g.p. (Asticcacaulis benevestitus);AtxE2 g.p. (Asticcacaulis excentricus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;1;0;0;0
 Pro;0;0;0;0;0;1;0;1
@@ -32426,7 +32426,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-apsC g.p. (Aspergillus niger N400) | aminopeptidase C (Aspergillus niger)
+apsC g.p. (Aspergillus niger N400);aminopeptidase C (Aspergillus niger)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -32448,7 +32448,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-omega peptidase (Drosophila melanogaster) | IP17501 | ome protein | CG32145 protein (Drosophila melanogaster) | CG9370 protein (Drosophila melanogaster)
+omega peptidase (Drosophila melanogaster);IP17501;CG32145 protein (Drosophila melanogaster);CG9370 protein (Drosophila melanogaster);ome protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;4;0;9;0;4;0;4
@@ -32470,7 +32470,7 @@ Glu;0;0;6;0;3;0;3;0
 Lys;0;0;2;0;0;1;0;2
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-acylaminoacyl peptidase (Aeropyrum-type) | oligopeptidase B (Streptomyces griseus-type)
+acylaminoacyl peptidase (Aeropyrum-type);oligopeptidase B (Streptomyces griseus-type)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;4;0;0;1;0;0
 Pro;0;0;1;0;0;3;1;0
@@ -32492,7 +32492,7 @@ Glu;1;0;1;0;2;1;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;1;1;0;0;2;0;0;3
 His;0;0;0;0;0;0;0;0
-puromycin hydrolase | S9AP aminopeptidase (Streptomyces sp.)
+puromycin hydrolase;S9AP aminopeptidase (Streptomyces sp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;3;0;0;0;0
@@ -32514,7 +32514,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Xaa-Pro dipeptidylpeptidase | X-PDAP | X-prolyl dipeptidyl aminopeptidase
+Xaa-Pro dipeptidylpeptidase;X-PDAP;X-prolyl dipeptidyl aminopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;19;0;0;0;0
@@ -32536,7 +32536,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-dipeptidyl-peptidase 5 (Porphyromonas sp.) | DPP5 (Porphyromonas sp.) | PGN_0756
+dipeptidyl-peptidase 5 (Porphyromonas sp.);DPP5 (Porphyromonas sp.);PGN_0756
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -32558,7 +32558,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;4;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-prolyl oligopeptidase (Myxococcus xanthus) | MX PEP | prolyl endopeptidase (Myxococcus xanthus)
+prolyl oligopeptidase (Myxococcus xanthus);prolyl endopeptidase (Myxococcus xanthus);MX PEP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;1;0;0;2;0;1;0;1
@@ -32580,7 +32580,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-prolyl oligopeptidase B (Galerina marginata) | GmPOPB g.p. (Galerina marginata)
+prolyl oligopeptidase B (Galerina marginata);GmPOPB g.p. (Galerina marginata)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;0;0;0;1;0
 Pro;0;0;0;3;0;0;0;0
@@ -32602,7 +32602,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptide cyclase 1 | PCY1
+peptide cyclase 1;PCY1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;1;0;0;0;0
 Pro;24;1;0;4;0;0;1;1
@@ -32668,7 +32668,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-subfamily S9A unassigned peptidases | PpcE peptidase (Rickettsia typhi)
+subfamily S9A unassigned peptidases;PpcE peptidase (Rickettsia typhi)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;0;0;0;0;0
 Pro;0;0;0;3;0;0;0;0
@@ -32690,7 +32690,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-carboxypeptidase Y | yeast carboxypeptidase Y | PRC1 g.p. (Saccharomyces cerevisiae) | proteinase C | cpyA g.p. (Aspergillus nidulans) | EC 3.4.16.5
+carboxypeptidase Y;cpyA g.p. (Aspergillus nidulans);yeast carboxypeptidase Y;PRC1 g.p. (Saccharomyces cerevisiae);proteinase C;EC 3.4.16.5
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;1;0;0;0
@@ -32712,7 +32712,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;1;0;0;0
 His;0;0;0;0;0;0;0;0
-serine carboxypeptidase A | urinary kininase | deamidase | HlSCP1 (Haemaphysalis longicornis) | lysosomal carboxypeptidase A | lysosomal protective protein | protective protein | carboxypeptidase A, lysosomal | carboxypeptidase Y-like kininase | carboxypeptidase-L | cathepsin A | cathepsin I (obs.) | CTSA g.p. (Homo sapiens) | EC 3.4.16.5
+serine carboxypeptidase A;deamidase;lysosomal carboxypeptidase A;lysosomal protective protein;HlSCP1 (Haemaphysalis longicornis);carboxypeptidase A, lysosomal;carboxypeptidase Y-like kininase;carboxypeptidase-L;cathepsin A;cathepsin I (obs.);CTSA g.p. (Homo sapiens);urinary kininase;protective protein;EC 3.4.16.5
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;1;0;0;0;0;1;0
@@ -32734,7 +32734,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;1;0;0;1;0;0;0;0
-serine carboxypeptidase C | serine carboxypeptidase I | wheat carboxypeptidase I | barley carboxypeptidase I | phaseolain | carboxypeptidase I, barley | carboxypeptidase W | EC 3.4.16.5
+serine carboxypeptidase C;barley carboxypeptidase I;carboxypeptidase I, barley;carboxypeptidase W;serine carboxypeptidase I;wheat carboxypeptidase I;phaseolain;EC 3.4.16.5
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;1;0;0;0
@@ -32756,7 +32756,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;1;1;0;0;0
-serine carboxypeptidase D | wheat carboxypeptidase II | carboxypeptidase D, serine | carboxypeptidase II, wheat | carboxypeptidase WII | EC 3.4.16.6
+serine carboxypeptidase D;carboxypeptidase D, serine;carboxypeptidase II, wheat;carboxypeptidase WII;wheat carboxypeptidase II;EC 3.4.16.6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -32778,7 +32778,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;2;0;0;0
 Arg;0;0;0;1;1;0;0;0
 His;0;0;0;0;1;0;0;0
-Mername-AA083 peptidase | PepF (Aspergillus niger) | carboxypeptidase S3 (Penicillium janthinellum IBT 3991) | CPD-II (Aspergillus niger) | EC 3.4.16.6
+Mername-AA083 peptidase;carboxypeptidase S3 (Penicillium janthinellum IBT 3991);CPD-II (Aspergillus niger);PepF (Aspergillus niger);EC 3.4.16.6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;2;4;1;0;0;0
 Pro;4;4;6;5;4;0;0;0
@@ -32800,7 +32800,7 @@ Glu;5;7;7;8;7;0;0;0
 Lys;1;1;1;3;6;0;0;0
 Arg;2;2;3;3;7;0;0;0
 His;1;1;0;0;0;0;0;0
-kex carboxypeptidase | Kex-1 g.p. (Saccharomyces cerevisiae) | kexA carboxypeptidase (Aspergillus oryzae) | EC 3.4.16.6
+kex carboxypeptidase;Kex-1 g.p. (Saccharomyces cerevisiae);kexA carboxypeptidase (Aspergillus oryzae);EC 3.4.16.6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;4;0;0;0;0;0;0
 Pro;1;1;0;0;0;0;0;0
@@ -32822,7 +32822,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;4;0;0;0
 Arg;0;0;0;0;5;0;0;0
 His;0;0;0;0;0;0;0;0
-carboxypeptidase OcpA | carboxypeptidase O1 (Aspergillus oryzae) | carboxypeptidase O2 (Aspergillus oryzae) | carboxypeptidase S1
+carboxypeptidase OcpA;carboxypeptidase O1 (Aspergillus oryzae);carboxypeptidase O2 (Aspergillus oryzae);carboxypeptidase S1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -32844,7 +32844,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;1;1;0;0;0
 Arg;0;0;0;1;1;0;0;0
 His;0;0;0;0;1;0;0;0
-serine carboxypeptidase III (plant) | wheat carboxypeptidase III | carboxypeptidase III, wheat
+serine carboxypeptidase III (plant);carboxypeptidase III, wheat;wheat carboxypeptidase III
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;1;0;0;0
@@ -32866,7 +32866,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;1;0;0;0
-serine carboxypeptidase Z (Absidia zachae) and similar | scpZ g.p. (Absidia zachae) | carboxypeptidase Z, serine (Absibia zachae)
+serine carboxypeptidase Z (Absidia zachae) and similar;carboxypeptidase Z, serine (Absibia zachae);scpZ g.p. (Absidia zachae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;1;1;0;0;0
 Pro;0;1;1;1;1;0;0;0
@@ -32888,7 +32888,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;1;1;1;1;1;0;0;0
 His;1;1;1;2;2;0;0;0
-carboxypeptidase O | Mername-AA085 peptidase | carboxypeptidase CPD-1 (Aspergillus niger) | cpdS g.p. (Aspergillus saitoi)
+carboxypeptidase O;carboxypeptidase CPD-1 (Aspergillus niger);cpdS g.p. (Aspergillus saitoi);Mername-AA085 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;2;2;3;2;0;0;0
 Pro;5;6;5;5;4;0;0;0
@@ -32910,7 +32910,7 @@ Glu;6;9;9;11;10;0;0;0
 Lys;1;1;1;2;4;0;0;0
 Arg;2;2;3;4;7;0;0;0
 His;0;0;0;1;0;0;0;0
-family S10 unassigned peptidases | OcpG g.p. (Aspergillus oryzae)
+family S10 unassigned peptidases;OcpG g.p. (Aspergillus oryzae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;3;4;2;1;0;0;0
 Pro;3;4;4;4;4;0;0;0
@@ -32932,7 +32932,7 @@ Glu;1;1;1;1;2;0;0;0
 Lys;1;1;1;1;1;0;0;0
 Arg;3;3;3;4;3;0;0;0
 His;1;1;1;2;2;0;0;0
-D-Ala-D-Ala carboxypeptidase A | D-alanyl-D-alanine-carboxypeptidase | dacA | DD-peptidase | PBP3 (Streptococcus pneumoniae) | PBP5 (Bacillus sp.) | penicillin-binding protein 5 | EC 3.4.16.4
+D-Ala-D-Ala carboxypeptidase A;D-alanyl-D-alanine-carboxypeptidase;dacA;DD-peptidase;PBP3 (Streptococcus pneumoniae);PBP5 (Bacillus sp.);penicillin-binding protein 5;EC 3.4.16.4
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -32954,7 +32954,7 @@ Glu;0;2;0;0;0;0;0;0
 Lys;0;0;3;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-murein-DD-endopeptidase | PBP7 | PBP8 | penicillin-binding protein 7 | penicillin-binding protein 8
+murein-DD-endopeptidase;PBP7;PBP8;penicillin-binding protein 7;penicillin-binding protein 8
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -32998,7 +32998,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;2;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-D,D-carboxypeptidase PBP3 (Streptococcus-type) | DacA D,D-carboxypeptidase (Streptococcus pneumoniae)
+D,D-carboxypeptidase PBP3 (Streptococcus-type);DacA D,D-carboxypeptidase (Streptococcus pneumoniae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33020,7 +33020,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-penicillin-binding protein 4 (Neisseria-type) peptidase | PBP4
+penicillin-binding protein 4 (Neisseria-type) peptidase;PBP4
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33042,7 +33042,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-penicillin-binding protein 5-type peptidase | DacA g.p. (Escherichia coli) | DacA-1 (Vibrio cholerae) | PBP5
+penicillin-binding protein 5-type peptidase;DacA g.p. (Escherichia coli);DacA-1 (Vibrio cholerae);PBP5
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33064,7 +33064,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;4;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-D-alanyl-D-alanine carboxypeptidase (Mycobacterium smegmatis) | MSMEG_2432 g.p. (Mycobacterium smegmatis)
+D-alanyl-D-alanine carboxypeptidase (Mycobacterium smegmatis);MSMEG_2432 g.p. (Mycobacterium smegmatis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33086,7 +33086,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-D-Ala-D-Ala carboxypeptidase B | dac DD-peptidase (Streptomyces strain R61) | EC 3.4.16.4
+D-Ala-D-Ala carboxypeptidase B;dac DD-peptidase (Streptomyces strain R61);EC 3.4.16.4
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;1;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33108,7 +33108,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-aminopeptidase DmpB | Dap g.p. (Ochrobactrum anthropi strain SCRC Cl-38) | DmpB g.p. (Ochrobactrum anthropi) | glycine-D-alanine aminopeptidase (GdaA) (Aspergillus oryzae) | EC 3.4.11.19
+aminopeptidase DmpB;glycine-D-alanine aminopeptidase (GdaA) (Aspergillus oryzae);Dap g.p. (Ochrobactrum anthropi strain SCRC Cl-38);DmpB g.p. (Ochrobactrum anthropi);EC 3.4.11.19
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;2;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33130,7 +33130,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-alkaline D-peptidase | ADP | D-stereospecific endopeptidase (Bacillus cereus)
+alkaline D-peptidase;D-stereospecific endopeptidase (Bacillus cereus);ADP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33240,7 +33240,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-D-Ala-D-Ala peptidase C | muramoyl pentapeptide carboxypeptidase | dacB g.p. (Escherichia coli) | dd-Peptidase | PBP4 (Escherichia coli) | penicillin-binding protein 4 | EC 3.4.16.4
+D-Ala-D-Ala peptidase C;dacB g.p. (Escherichia coli);dd-Peptidase;PBP4 (Escherichia coli);penicillin-binding protein 4;muramoyl pentapeptide carboxypeptidase;EC 3.4.16.4
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33262,7 +33262,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-D-Ala-D-Ala carboxypeptidase (Actinomadura-type) | D-Ala-D-Ala carboxypeptidase (Actinomadura strain R39) | D-Ala-D-Ala carboxypeptidase C2 | PBP4a peptidase (Bacillus subtilis)
+D-Ala-D-Ala carboxypeptidase (Actinomadura-type);D-Ala-D-Ala carboxypeptidase (Actinomadura strain R39);D-Ala-D-Ala carboxypeptidase C2;PBP4a peptidase (Bacillus subtilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33284,7 +33284,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;5;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-penillin-binding protein 4 | PBP4 (Corynebacterium jeikeium)
+penillin-binding protein 4;PBP4 (Corynebacterium jeikeium)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33328,7 +33328,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidase Clp (type 1) | LmCP2 (Listeria monocytogenes) | protease Ti | caseinolytic protease | ClpP | EC 3.4.21.92 | endopeptidase Ti
+peptidase Clp (type 1);LmCP2 (Listeria monocytogenes);caseinolytic protease;ClpP;protease Ti;EC 3.4.21.92;endopeptidase Ti
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;1;0;1;1;0
 Pro;0;6;0;0;0;0;0;7
@@ -33350,7 +33350,7 @@ Glu;0;2;2;0;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;4;0;0;1;0;1
-peptidase Clp (type 2) | Chloroplastic ATP-dependent Clp protease proteolytic subunit 1 | clpP1 (Arabidopsis thaliana)
+peptidase Clp (type 2);Chloroplastic ATP-dependent Clp protease proteolytic subunit 1;clpP1 (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33372,7 +33372,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidase Clp (type 3) | CLPP g.p. (Homo sapiens) | Clpp g.p. (Mus musculus)
+peptidase Clp (type 3);CLPP g.p. (Homo sapiens);Clpp g.p. (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;2;0;0;1;0
 Pro;0;4;0;0;0;0;0;5
@@ -33394,7 +33394,7 @@ Glu;0;2;2;0;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;1;0;2;0;0;1;0;0
-PFC0310c peptidase | Mername-AA263 peptidase | PfClpP
+PFC0310c peptidase;PfClpP;Mername-AA263 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33416,7 +33416,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Xaa-Pro dipeptidyl-peptidase | X-Pro dipeptidyl-peptidase | X-prolyl dipeptidyl aminopeptidase | dipeptidyl-peptidase IV (Lactococcus) | dipeptidyl-peptidase, X-Prodipeptidyl aminopeptidase, X-prolyl | PepX | PepXP | EC 3.4.14.11
+Xaa-Pro dipeptidyl-peptidase;dipeptidyl-peptidase IV (Lactococcus);dipeptidyl-peptidase, X-Prodipeptidyl aminopeptidase, X-prolyl;X-Pro dipeptidyl-peptidase;X-prolyl dipeptidyl aminopeptidase;PepX;PepXP;EC 3.4.14.11
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;0;1;0;1;0
 Pro;0;0;0;8;0;2;0;1
@@ -33438,7 +33438,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Lon-A peptidase | ATP-dependent serine proteinase | BsgA protease (Myxococcus xanthus) | Lon g.p. (Escherichia coli) | Lon peptidase (type 1) | Lon protease | LonA | EC 3.4.21.53 | EcLon peptidase (Escherichia coli) | endopeptidase La
+Lon-A peptidase;BsgA protease (Myxococcus xanthus);ATP-dependent serine proteinase;Lon g.p. (Escherichia coli);Lon peptidase (type 1);Lon protease;LonA;EC 3.4.21.53;EcLon peptidase (Escherichia coli);endopeptidase La
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;1;0;0;1;4;0;0
 Pro;0;0;0;0;0;2;0;1
@@ -33460,7 +33460,7 @@ Glu;0;0;1;0;2;2;1;2
 Lys;0;0;3;0;1;1;0;2
 Arg;2;1;2;0;0;2;1;1
 His;0;0;0;0;0;0;0;1
-PIM1 peptidase | mitochondrial endopeptidase La homologue | Lon-1 peptidase (Borrelia burgdorferi) | LONM peptidase | LONP1 g.p. (Homo sapiens) | LONP1 peptidase | PRSS15 g.p. (Homo sapiens)
+PIM1 peptidase;Lon-1 peptidase (Borrelia burgdorferi);LONM peptidase;LONP1 g.p. (Homo sapiens);LONP1 peptidase;PRSS15 g.p. (Homo sapiens);mitochondrial endopeptidase La homologue
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;3;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -33482,7 +33482,7 @@ Glu;1;0;1;0;0;1;1;2
 Lys;0;2;1;0;2;0;0;1
 Arg;2;0;0;0;0;1;1;0
 His;0;0;0;0;1;1;0;0
-LonC peptidase | MtaLonC (Meiothermus taiwanensis) | TTC1975-type peptidase
+LonC peptidase;TTC1975-type peptidase;MtaLonC (Meiothermus taiwanensis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33526,7 +33526,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;1;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-assemblin | assemblin (pseudorabies virus) | UL26 g.p. (herpes simplex virus) | herpes simplex virus endopeptidase | HSV-1 | HSV-2 | VP24 | pseudorabies virus assemblin | EC 3.4.21.97
+assemblin;assemblin (pseudorabies virus);herpes simplex virus endopeptidase;HSV-1;HSV-2;VP24;UL26 g.p. (herpes simplex virus);pseudorabies virus assemblin;EC 3.4.21.97
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33548,7 +33548,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;0;0;0;0;1;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cytomegalovirus assemblin | assemblin (cytomegalovirus) | UL80 g.p. (human cytomegalovirus) | protease No | CMV protease
+cytomegalovirus assemblin;assemblin (cytomegalovirus);CMV protease;UL80 g.p. (human cytomegalovirus);protease No
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;0;0
 Pro;0;0;0;0;0;0;0;4
@@ -33570,7 +33570,7 @@ Glu;0;0;1;0;0;0;1;0
 Lys;0;0;3;0;0;0;0;0
 Arg;0;0;0;0;0;0;4;0
 His;0;0;0;0;0;0;0;0
-Epstein-Barr virus-type assemblin | assemblin (Epstein-Barr virus)
+Epstein-Barr virus-type assemblin;assemblin (Epstein-Barr virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -33592,7 +33592,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;1;0
 His;0;0;0;0;0;0;0;0
-herpesvirus 6-type assemblin | assemblin (herpesvirus 6)
+herpesvirus 6-type assemblin;assemblin (herpesvirus 6)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;2;4
@@ -33614,7 +33614,7 @@ Glu;0;0;0;0;0;2;0;0
 Lys;0;0;2;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Varicella zoster assemblin | assemblin (Varicella zoster)
+Varicella zoster assemblin;assemblin (Varicella zoster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -33636,7 +33636,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;1;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-herpesvirus 8-type assemblin | Kaposi sarcoma virus assemblin | Kaposi sarcoma-associated herpesvirus peptidase | assemblin (herpesvirus 8)
+herpesvirus 8-type assemblin;Kaposi sarcoma virus assemblin;Kaposi sarcoma-associated herpesvirus peptidase;assemblin (herpesvirus 8)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -33658,7 +33658,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;1;0;0;0;0;0;1;0
 His;0;0;0;0;0;0;0;0
-repressor LexA | LexA repressor | EC 3.4.21.88
+repressor LexA;LexA repressor;EC 3.4.21.88
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;4;0;0;0
 Pro;0;0;0;0;0;0;4;0
@@ -33680,7 +33680,7 @@ Glu;0;0;0;0;0;3;0;0
 Lys;1;0;0;0;0;0;0;0
 Arg;3;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-UmuD protein | UmuD g.p. (Escherichia coli) | pol V (Escherichia coli)
+UmuD protein;UmuD g.p. (Escherichia coli);pol V (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -33702,7 +33702,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-family S24 unassigned peptidases | Arp1 g.p. (Streptococcus thermophilus) | UmudAb (Acinetobacter baumannii) | NG1427 g.p. (Neisseria gonorrhoeae) | gp6 protein (bacteriophage GIL01)
+family S24 unassigned peptidases;gp6 protein (bacteriophage GIL01);Arp1 g.p. (Streptococcus thermophilus);NG1427 g.p. (Neisseria gonorrhoeae);UmudAb (Acinetobacter baumannii)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;4;0;1;0
 Pro;0;0;1;0;0;0;3;0
@@ -33724,7 +33724,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;3;0;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-signal peptidase I | leader peptidase B | leader peptidase I | LepB | EC 3.4.21.89
+signal peptidase I;leader peptidase B;leader peptidase I;LepB;EC 3.4.21.89
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;20;2;5;10;15;20;27;14
 Pro;34;0;0;1;0;30;16;33
@@ -33746,7 +33746,7 @@ Glu;3;0;5;0;29;97;20;17
 Lys;8;0;7;0;19;5;22;20
 Arg;7;0;6;0;1;0;8;4
 His;2;0;33;0;8;1;6;3
-mitochondrial inner membrane peptidase 1 | mitochondrial inner membrane protease 1 | Imp1 g.p. (Saccharomyces cerevisiae) | CG9240 protein (Drosophila melanogaster) | EC 3.4.21.89
+mitochondrial inner membrane peptidase 1;Imp1 g.p. (Saccharomyces cerevisiae);CG9240 protein (Drosophila melanogaster);mitochondrial inner membrane protease 1;EC 3.4.21.89
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;0;0;0;0
 Pro;1;0;0;0;0;2;1;0
@@ -33768,7 +33768,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;0;0;0;0;0;1;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-signal peptidase SipS | SipS g.p. (Bacillus subtilis) | EC 3.4.21.89
+signal peptidase SipS;SipS g.p. (Bacillus subtilis);EC 3.4.21.89
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -33790,7 +33790,7 @@ Glu;0;0;1;0;0;2;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;1
-signal peptidase SipT | SipT g.p. (Bacillus subtilis) | EC 3.4.21.89
+signal peptidase SipT;SipT g.p. (Bacillus subtilis);EC 3.4.21.89
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33812,7 +33812,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;1
-thylakoidal processing peptidase | Plsp2B peptidase (Arabidopsis thaliana) | processing peptidase, thylakoid | chloroplast leader peptidase | EC 3.4.21.89
+thylakoidal processing peptidase;chloroplast leader peptidase;Plsp2B peptidase (Arabidopsis thaliana);processing peptidase, thylakoid;EC 3.4.21.89
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;1;1;0;0;6;6;1
 Pro;13;0;0;1;0;4;2;6
@@ -33834,7 +33834,7 @@ Glu;1;0;3;0;9;13;2;5
 Lys;1;0;2;1;2;2;4;5
 Arg;2;1;1;0;2;0;1;2
 His;0;0;0;0;0;0;0;0
-signalase (animal) 21 kDa component | signal peptidase complex 21 kDa component | SPC21 | leader peptidase | EC 3.4.21.89
+signalase (animal) 21 kDa component;leader peptidase;signal peptidase complex 21 kDa component;SPC21;EC 3.4.21.89
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;34;10;9;46;25;37;22;23
 Pro;18;3;4;6;0;30;39;39
@@ -33856,7 +33856,7 @@ Glu;9;8;34;4;24;22;16;21
 Lys;10;7;9;5;10;17;4;18
 Arg;8;2;17;18;6;7;6;8
 His;6;1;23;0;5;4;4;3
-signal peptidase SipW (Bacillus-type) | EC 3.4.21.89
+signal peptidase SipW (Bacillus-type);EC 3.4.21.89
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33878,7 +33878,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-mitochondrial inner membrane peptidase 2 | mitochondrial inner membrane protease 2 | IMMP2L g.p. (Homo sapiens) | Imp2 g.p. (Saccharomyces cerevisiae) | EC 3.4.21.89
+mitochondrial inner membrane peptidase 2;IMMP2L g.p. (Homo sapiens);Imp2 g.p. (Saccharomyces cerevisiae);mitochondrial inner membrane protease 2;EC 3.4.21.89
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33900,7 +33900,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-TraF peptidase | TraF plasmid-transfer protein | pilin maturase
+TraF peptidase;TraF plasmid-transfer protein;pilin maturase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -33922,7 +33922,7 @@ Glu;0;0;0;0;0;1;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Streptococcus-type signal peptidase | SipL g.p. (Lactococcus lactis) | LL258 protein (Lactococcus lactis)
+Streptococcus-type signal peptidase;LL258 protein (Lactococcus lactis);SipL g.p. (Lactococcus lactis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -33944,7 +33944,7 @@ Glu;0;0;1;0;0;1;1;0
 Lys;1;0;0;0;0;0;0;0
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;2;0;0;2
-SpsB signal peptidase | Sip2 (Staphylococcus sp.) | Sip3 (Staphylococcus sp.)
+SpsB signal peptidase;Sip2 (Staphylococcus sp.);Sip3 (Staphylococcus sp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;1;1;1;0;3;2
 Pro;1;0;0;0;0;1;0;6
@@ -33966,7 +33966,7 @@ Glu;4;1;1;0;11;11;2;1
 Lys;3;0;18;1;3;2;15;4
 Arg;0;0;3;0;0;0;1;0
 His;1;0;5;0;0;0;2;0
-lysosomal Pro-Xaa carboxypeptidase | acid angiotensinase | angiotensinase C | lysosomal carboxypeptidase C | PRCP g.p. (Homo sapiens) | prolylcarboxypeptidase | EC 3.4.16.2
+lysosomal Pro-Xaa carboxypeptidase;acid angiotensinase;angiotensinase C;lysosomal carboxypeptidase C;PRCP g.p. (Homo sapiens);prolylcarboxypeptidase;EC 3.4.16.2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;0;1;0;0;0
 Pro;1;0;0;11;0;0;0;0
@@ -33988,7 +33988,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;3;0;0;0;0;0
-dipeptidyl-peptidase II | quiescent cell proline dipeptidase | dipeptidyl aminopeptidase II | dipeptidyl arylamidase II | dipeptidyl peptidase 2 | dipeptidyl peptidase VII | DPP II | DPP2 | DPP7 g.p. (Homo sapiens) | carboxytripeptidase | EC 3.4.14.2
+dipeptidyl-peptidase II;dipeptidyl aminopeptidase II;dipeptidyl arylamidase II;dipeptidyl peptidase 2;dipeptidyl peptidase VII;DPP II;DPP2;DPP7 g.p. (Homo sapiens);carboxytripeptidase;quiescent cell proline dipeptidase;EC 3.4.14.2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;4;0;2;1;1;0
 Pro;0;0;2;18;3;3;0;1
@@ -34032,7 +34032,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-hepacivirin | NS3 polyprotein peptidase (hepatitis C virus) | NS3/4A protease (hepatitis C virus) | Cpro-2 | EC 3.4.21.98
+hepacivirin;Cpro-2;NS3 polyprotein peptidase (hepatitis C virus);NS3/4A protease (hepatitis C virus);EC 3.4.21.98
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;2;0;0
 Pro;0;0;1;0;0;0;0;1
@@ -34054,7 +34054,7 @@ Glu;1;1;2;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;1;0
 His;0;0;0;0;0;0;1;0
-potyvirus P1 peptidase | 35 kDa proteinase | potyvirus P1 proteinase | potyvirus proteinaseP1 proteinase (potyvirus)
+potyvirus P1 peptidase;35 kDa proteinase;potyvirus P1 proteinase;potyvirus proteinaseP1 proteinase (potyvirus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -34076,7 +34076,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;1;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-clover yellow vein potyvirus-type P1 peptidase | bean yellow mosaic potyvirus P1 peptidase
+clover yellow vein potyvirus-type P1 peptidase;bean yellow mosaic potyvirus P1 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -34098,7 +34098,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-pestivirus NS3 polyprotein peptidase | border disease virus (BDV) NS3 endopeptidase | bovine viral diarrhea virus (BVDV) NS3 endopeptidase | NS3 polyprotein peptidase (pestivirus)viral diarrhea virus endopeptidase | p80 | classical swine fever virus (CSFV) NS3 endopeptidase | EC 3.4.21.113
+pestivirus NS3 polyprotein peptidase;border disease virus (BDV) NS3 endopeptidase;bovine viral diarrhea virus (BVDV) NS3 endopeptidase;classical swine fever virus (CSFV) NS3 endopeptidase;NS3 polyprotein peptidase (pestivirus)viral diarrhea virus endopeptidase;p80;EC 3.4.21.113
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;1;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -34120,7 +34120,7 @@ Glu;0;0;1;0;0;0;0;1
 Lys;0;1;1;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-equine arteritis virus serine peptidase | 3CLSP | nonstructural protein 4 | nsp4 protease | EC 3.4.21.114
+equine arteritis virus serine peptidase;3CLSP;nonstructural protein 4;nsp4 protease;EC 3.4.21.114
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;1;10;1;0;0
 Pro;0;0;1;0;0;0;0;1
@@ -34142,7 +34142,7 @@ Glu;0;1;1;13;0;0;0;0
 Lys;1;0;1;0;1;1;2;1
 Arg;0;0;1;0;0;0;1;3
 His;0;0;1;0;0;1;0;0
-porcine reproductive and respiratory syndrome virus nsp4 peptidase | PRRSV 3C-like peptidase | PRRSV 3CL protease | PRRSV nsp4 peptidase
+porcine reproductive and respiratory syndrome virus nsp4 peptidase;PRRSV 3C-like peptidase;PRRSV 3CL protease;PRRSV nsp4 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;1;7;1;0;0
 Pro;1;0;0;0;0;0;0;0
@@ -34164,7 +34164,7 @@ Glu;0;0;0;9;0;1;1;0
 Lys;1;0;0;0;0;1;2;0
 Arg;0;0;0;0;0;0;0;2
 His;0;1;0;0;0;0;0;0
-prolyl aminopeptidase | TsPAP1 (Triticosecale sp.) | pap | PchPiPA (Phanerochaete chrysosporium) | pepIP | Pro-X aminopeptidase | proline aminopeptidase | proline iminopeptidase | prolyl iminopeptidase (bacteria) | cytosol aminopeptidase V | EC 3.4.11.5
+prolyl aminopeptidase;TsPAP1 (Triticosecale sp.);cytosol aminopeptidase V;pap;PchPiPA (Phanerochaete chrysosporium);pepIP;Pro-X aminopeptidase;proline aminopeptidase;proline iminopeptidase;prolyl iminopeptidase (bacteria);EC 3.4.11.5
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;4;0;0;0;0
@@ -34186,7 +34186,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-tripeptidyl-peptidase A | Tap | TppA g.p. (Streptomyces lividans)
+tripeptidyl-peptidase A;Tap;TppA g.p. (Streptomyces lividans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;5;0;0;0;1;0
@@ -34208,7 +34208,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;1;0;0;0
 His;0;0;0;0;0;0;0;0
-prolyl dipeptidase (Lactobacillus-type) | pepR g.p. (Lactobacillus sp.) | PepR1 (Lactobacillus plantarum) | PepR2 (Lactobacillus plantarum) | prolinase (Lactobacillus-type)
+prolyl dipeptidase (Lactobacillus-type);pepR g.p. (Lactobacillus sp.);PepR1 (Lactobacillus plantarum);PepR2 (Lactobacillus plantarum);prolinase (Lactobacillus-type)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;3;1;0;0
 Pro;0;0;0;17;2;0;0;0
@@ -34252,7 +34252,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-tripeptidyl-peptidase B | SlpD g.p. (Streptomyces lividans)
+tripeptidyl-peptidase B;SlpD g.p. (Streptomyces lividans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -34274,7 +34274,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-tripeptidyl-peptidase C | SlpE g.p. (Streptomyces lividans)
+tripeptidyl-peptidase C;SlpE g.p. (Streptomyces lividans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;1;0;0;0;1;0;0
@@ -34296,7 +34296,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;0;0;0
 His;0;0;0;0;0;0;0;0
-prolyl aminopeptidase 2 | TePAP | prolyl aminopeptidase (Aeromonas sobria) | prolyl aminopeptidase (Hafnia alvei) | prolyl aminopeptidase (Propionibacterium freudenreichii) | prolyl aminopeptidase (Talaromyces emersonii)
+prolyl aminopeptidase 2;TePAP;prolyl aminopeptidase (Aeromonas sobria);prolyl aminopeptidase (Hafnia alvei);prolyl aminopeptidase (Propionibacterium freudenreichii);prolyl aminopeptidase (Talaromyces emersonii)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;4;0;0
 Pro;0;0;0;9;1;0;0;0
@@ -34340,7 +34340,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;2;6;0;0;0;0
 His;0;0;0;0;0;0;0;0
-iminopeptidase I (Lactobacillus delbrueckii) and similar | PepI (Lactobacillus delbrueckii)
+iminopeptidase I (Lactobacillus delbrueckii) and similar;PepI (Lactobacillus delbrueckii)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -34362,7 +34362,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Hip1 peptidase (Mycobacterium tuberculosis) | hydrolase important for pathogenesis 1 | Rv2224c g.p. (Mycobacterium tuberculosis)
+Hip1 peptidase (Mycobacterium tuberculosis);Rv2224c g.p. (Mycobacterium tuberculosis);hydrolase important for pathogenesis 1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;2;0;0;0
 Pro;0;0;2;0;0;0;0;0
@@ -34384,7 +34384,7 @@ Glu;2;0;0;0;0;0;1;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;2;2;0;0;0;1
 His;0;0;0;0;0;0;0;0
-PS-10 peptidase | prolyl tri/tetra-peptidyl aminopeptidase (Streptomyces mobaraensis)
+PS-10 peptidase;prolyl tri/tetra-peptidyl aminopeptidase (Streptomyces mobaraensis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;3;0;0;0;0
@@ -34406,7 +34406,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-sobemovirus peptidase | Sesbania mosaic virus polyprotein peptidase | southern bean mosaic virus serine endopeptidase | lucerne transient streak virus serine proteinase | rice yellow mottle virus serine endopeptidase | cocksfoot mottle sobemovirus serine proteinase
+sobemovirus peptidase;rice yellow mottle virus serine endopeptidase;lucerne transient streak virus serine proteinase;cocksfoot mottle sobemovirus serine proteinase;Sesbania mosaic virus polyprotein peptidase;southern bean mosaic virus serine endopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;1;1
@@ -34428,7 +34428,7 @@ Glu;0;0;0;5;0;0;1;0
 Lys;0;1;0;0;0;0;0;0
 Arg;1;0;0;0;0;0;1;0
 His;0;0;0;0;0;0;0;0
-C-terminal processing peptidase-1 | tail-specific protease-1 | Tsp g.p. (Escherichia coli) | Tsp protease | Prc g.p. (Escherichia coli, (Haemophilus influenzae) | protease Re (Escherichia coli) | C-terminal processing protease-1 | CT441 g.p. (Chlamydia trachomatis ) | EC 3.4.21.102
+C-terminal processing peptidase-1;tail-specific protease-1;Tsp g.p. (Escherichia coli);Tsp protease;C-terminal processing protease-1;CT441 g.p. (Chlamydia trachomatis );Prc g.p. (Escherichia coli, (Haemophilus influenzae);protease Re (Escherichia coli);EC 3.4.21.102
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;0;0;0;0;2
 Pro;2;0;1;0;0;0;0;1
@@ -34450,7 +34450,7 @@ Glu;0;2;0;0;0;1;1;0
 Lys;0;0;0;0;1;0;0;2
 Arg;0;0;0;0;2;0;0;0
 His;0;0;0;0;0;0;0;0
-C-terminal processing peptidase-2 | tail-specific protease-2 | photosystem II D1 protein-processing proteinase | C-terminal processing protease-2 | ctpA g.p. (higher plant) | CtpA g.p. (Synechocystis sp.) | EC 3.4.21.102
+C-terminal processing peptidase-2;tail-specific protease-2;C-terminal processing protease-2;ctpA g.p. (higher plant);CtpA g.p. (Synechocystis sp.);photosystem II D1 protein-processing proteinase;EC 3.4.21.102
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -34472,7 +34472,7 @@ Glu;0;0;0;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-tricorn core peptidase (bacteria) | TRI-ScC77 protein (Streptomyces coelicolor) | tricorn core protease (bacteria)
+tricorn core peptidase (bacteria);TRI-ScC77 protein (Streptomyces coelicolor);tricorn core protease (bacteria)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;2;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -34494,7 +34494,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;3;5;0;0;0;0
 His;0;0;0;0;0;0;0;0
-ctpB peptidase | yvjB g.p. (Bacillus subtilis) | ctpB protease (Bacillus subtilis)
+ctpB peptidase;ctpB protease (Bacillus subtilis);yvjB g.p. (Bacillus subtilis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;1;1;1;1;2
 Pro;3;4;1;1;2;1;0;2
@@ -34516,7 +34516,7 @@ Glu;2;2;2;2;3;4;1;1
 Lys;0;1;0;0;1;2;1;1
 Arg;0;0;1;0;1;2;2;2
 His;0;0;0;0;0;0;0;0
-chlamydial protease-like activity factor | chlamydial proteasome-like activity factor | CPAF
+chlamydial protease-like activity factor;chlamydial proteasome-like activity factor;CPAF
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;71;32;20;114;55;22;59;52
 Pro;53;21;13;1;1;8;80;38
@@ -34538,7 +34538,7 @@ Glu;48;11;23;0;10;7;28;27
 Lys;25;48;64;1;42;34;23;21
 Arg;38;32;50;7;29;17;18;16
 His;19;13;26;2;16;9;16;21
-CtpA peptidase (Borrelia-type) | BB0359 g.p. (Borrelia burgdorferi)
+CtpA peptidase (Borrelia-type);BB0359 g.p. (Borrelia burgdorferi)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;1;0
 Pro;1;0;0;0;0;0;1;0
@@ -34560,7 +34560,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-penicillin G acylase precursor | penicillin amidohydrolase precursor | EC 3.5.1.11
+penicillin G acylase precursor;penicillin amidohydrolase precursor;EC 3.5.1.11
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;3;0;0;0;0
 Pro;0;0;0;0;0;1;1;0
@@ -34582,7 +34582,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-dipeptidyl-peptidase 7 (Porphyromonas gingivalis-type) | DPP7 (Porphyromonas gingivalis)
+dipeptidyl-peptidase 7 (Porphyromonas gingivalis-type);DPP7 (Porphyromonas gingivalis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;1;2;5;0;0
 Pro;0;0;0;0;0;0;2;2
@@ -34604,7 +34604,7 @@ Glu;0;0;1;0;1;2;0;0
 Lys;0;0;3;1;0;1;0;1
 Arg;0;0;0;1;4;2;0;0
 His;0;0;0;0;0;1;2;3
-dipeptidyl-peptidase 11 (Porphyromonas gingivalis-type) | DPP 11 (Porphyromonas gingivalis)
+dipeptidyl-peptidase 11 (Porphyromonas gingivalis-type);DPP 11 (Porphyromonas gingivalis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -34648,7 +34648,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-signal peptide peptidase A (Pseudomonas aeruginosa) | signal peptide peptidase (bacteria) | sppA g.p. (Escherichia coli) | protease 4 | protease IV | cjsT g.p. (Rickettsia rickettsii)
+signal peptide peptidase A (Pseudomonas aeruginosa);cjsT g.p. (Rickettsia rickettsii);signal peptide peptidase (bacteria);sppA g.p. (Escherichia coli);protease 4;protease IV
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -34670,7 +34670,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-protein C (bacteriophage lambda) | gpC g.p. (bacteriophage lambda)
+protein C (bacteriophage lambda);gpC g.p. (bacteriophage lambda)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -34692,7 +34692,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-archaean signal peptide peptidase 1 | stomatin operon partner protein | STOPP | protein 1510-N (Pyrococcus horikoshii)
+archaean signal peptide peptidase 1;stomatin operon partner protein;STOPP;protein 1510-N (Pyrococcus horikoshii)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;2;2;1;0;0;0;3;3
@@ -34714,7 +34714,7 @@ Glu;1;0;0;0;2;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-infectious pancreatic necrosis birnavirus Vp4 peptidase | birnavirus-type endopeptidase, infectious pancreatic necrosis virus | infectious pancreatic necrosis birnavirus Vp4 protease | Vp4 protease (infectious pancreatic necrosis birnavirus) | Ns protease | EC 3.4.21.115
+infectious pancreatic necrosis birnavirus Vp4 peptidase;birnavirus-type endopeptidase, infectious pancreatic necrosis virus;infectious pancreatic necrosis birnavirus Vp4 protease;Ns protease;Vp4 protease (infectious pancreatic necrosis birnavirus);EC 3.4.21.115
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;5;4;0
 Pro;1;0;0;0;0;0;1;1
@@ -34736,7 +34736,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;1;0;1;1;0;1;0;0
 Arg;1;0;0;2;2;0;0;3
 His;1;0;0;0;0;0;0;1
-avian infectious bursal disease birnavirus Vp4 peptidase | birnavirus-type endopeptidase, avian infectious bursal disease virus | Nsp
+avian infectious bursal disease birnavirus Vp4 peptidase;birnavirus-type endopeptidase, avian infectious bursal disease virus;Nsp
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;3;1
 Pro;0;0;0;0;0;0;0;0
@@ -34758,7 +34758,7 @@ Glu;1;0;0;0;0;0;1;0
 Lys;1;0;0;0;0;0;1;1
 Arg;0;0;2;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-Drosophila X virus Vp4 peptidase | birnavirus-type endopeptidase, Drosophila X virus
+Drosophila X virus Vp4 peptidase;birnavirus-type endopeptidase, Drosophila X virus
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;1
@@ -34780,7 +34780,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-blotched snakehead birnavirus Vp4 peptidase | blotched snakehead birnavirus Vp4 protease
+blotched snakehead birnavirus Vp4 peptidase;blotched snakehead birnavirus Vp4 protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;1;3;1
 Pro;0;9;0;0;0;0;0;1
@@ -34802,7 +34802,7 @@ Glu;0;0;1;0;19;6;8;1
 Lys;3;1;1;0;0;0;0;0
 Arg;17;0;4;0;0;0;0;2
 His;3;0;0;0;0;0;0;0
-dipeptidase E | alpha-aspartyl dipeptidase | PepE g.p. (Escheria coli, Salmonella typhimurium) | EC 3.4.13.21
+dipeptidase E;alpha-aspartyl dipeptidase;PepE g.p. (Escheria coli, Salmonella typhimurium);EC 3.4.13.21
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -34824,7 +34824,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-cyanophycinase | CGPase | cphB g.p. (Synechocystis sp.) | CphE g.p. (Pseudomonas sp.) | EC 3.4.15.6
+cyanophycinase;CGPase;cphB g.p. (Synechocystis sp.);CphE g.p. (Pseudomonas sp.);EC 3.4.15.6
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -34846,7 +34846,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;1;0;1;0;0
 His;0;0;0;0;0;0;0;0
-sedolisin | pepstatin-insensitive carboxyl proteinase (Pseudomonas sp.)carboxyl proteinase, pepstatin-insensitive (Pseudomonas sp.) | pseudomonapepsin | EC 3.4.21.100
+sedolisin;pepstatin-insensitive carboxyl proteinase (Pseudomonas sp.)carboxyl proteinase, pepstatin-insensitive (Pseudomonas sp.);pseudomonapepsin;EC 3.4.21.100
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;13;0;0;0;0;0;2;0
@@ -34868,7 +34868,7 @@ Glu;0;1;1;1;0;0;0;0
 Lys;0;0;12;0;0;0;0;1
 Arg;2;1;0;0;0;17;0;0
 His;1;0;0;0;0;1;0;0
-sedolisin-B | xanthomonapepsin | aspartic proteinase (Xanthomonas) | EC 3.4.21.101
+sedolisin-B;aspartic proteinase (Xanthomonas);xanthomonapepsin;EC 3.4.21.101
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;47;0;1;0;0;0;0;0
@@ -34890,7 +34890,7 @@ Glu;0;1;32;0;0;1;0;0
 Lys;0;1;1;0;0;1;0;0
 Arg;0;1;1;0;0;38;1;0
 His;0;0;1;0;0;0;0;0
-tripeptidyl-peptidase I | TPP I | TPP1 | tripeptidyl aminopeptidase | tripeptidyl peptidase | tripeptidyl peptidase 1 | lysosomal pepstatin-insensitive proteinase | Cerliponase alfa | CLN2 g.p. (Homo sapiens) | EC 3.4.14.9
+tripeptidyl-peptidase I;lysosomal pepstatin-insensitive proteinase;TPP I;TPP1;tripeptidyl aminopeptidase;tripeptidyl peptidase;tripeptidyl peptidase 1;Cerliponase alfa;CLN2 g.p. (Homo sapiens);EC 3.4.14.9
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;10;4;6;5;0;3;3
 Pro;1;0;9;3;1;1;2;5
@@ -34912,7 +34912,7 @@ Glu;0;1;0;0;1;0;0;0
 Lys;0;0;0;2;0;0;2;3
 Arg;0;3;5;1;1;6;4;3
 His;0;2;1;2;0;2;3;0
-kumamolisin | kumamolysin | acid endopeptidase, pepstatin-insensitive (Bacillus) | pepstatin-insensitive acid proteinase (Bacillus) | pepstatin-insensitive carboxyl proteinase (Bacillus)
+kumamolisin;kumamolysin;acid endopeptidase, pepstatin-insensitive (Bacillus);pepstatin-insensitive acid proteinase (Bacillus);pepstatin-insensitive carboxyl proteinase (Bacillus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;4;0;0;0;0;1;1
 Pro;0;0;0;0;0;0;3;0
@@ -34934,7 +34934,7 @@ Glu;0;4;0;0;0;0;1;0
 Lys;0;0;0;0;0;0;0;3
 Arg;3;0;0;0;0;0;0;0
 His;0;0;0;2;1;0;1;0
-kumamolisin-B | acid endopeptidase, pepstatin-insensitive (Bacillus) | J-4 serine-carboxyl proteinase (Bacillus coagulans) | pepstatin-insensitive acid proteinase (Bacillus) | pepstatin-insensitive carboxyl proteinase (Bacillus)
+kumamolisin-B;J-4 serine-carboxyl proteinase (Bacillus coagulans);acid endopeptidase, pepstatin-insensitive (Bacillus);pepstatin-insensitive acid proteinase (Bacillus);pepstatin-insensitive carboxyl proteinase (Bacillus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;56;0;1;0;0;0;0;0
@@ -34956,7 +34956,7 @@ Glu;0;1;29;0;0;1;0;0
 Lys;0;1;16;0;0;1;0;0
 Arg;1;2;2;0;0;53;2;0
 His;0;0;1;0;0;0;0;0
-physarolisin | aspartic proteinase (Physarum) | physaropepsin | EC 3.4.21.103
+physarolisin;aspartic proteinase (Physarum);physaropepsin;EC 3.4.21.103
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;2;2;1;2;2;1
 Pro;1;0;0;0;0;0;0;1
@@ -35000,7 +35000,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;2;1;0;0;0;1
 Arg;0;0;4;9;0;1;0;0
 His;0;0;0;0;0;0;0;0
-kumamolisin-As | Kuma010 | ScpA peptidase (Alicyclobacillus sendaiensis)
+kumamolisin-As;Kuma010;ScpA peptidase (Alicyclobacillus sendaiensis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -35044,7 +35044,7 @@ Glu;1;1;1;1;1;1;0;1
 Lys;0;0;0;0;0;0;0;1
 Arg;1;1;1;0;1;2;0;0
 His;0;0;1;0;1;0;1;1
-scytalidolisin | scytalidopepsin A | aspartic proteinase A (Scytalidium) | EC 3.4.23.31
+scytalidolisin;aspartic proteinase A (Scytalidium);scytalidopepsin A;EC 3.4.23.31
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;6;0;5;1;0;1
 Pro;0;0;0;0;0;0;0;1
@@ -35066,7 +35066,7 @@ Glu;1;0;0;1;0;1;0;0
 Lys;0;0;3;3;0;0;0;0
 Arg;0;1;0;0;0;0;1;0
 His;0;0;0;0;0;0;0;0
-rhomboid-like protein 2 | RHBDL2 g.p. (Homo sapiens) | EC 3.4.21.105
+rhomboid-like protein 2;RHBDL2 g.p. (Homo sapiens);EC 3.4.21.105
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -35088,7 +35088,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-AarA peptidase | PsAarA (Providencia stuartii) | EC 3.4.21.105
+AarA peptidase;PsAarA (Providencia stuartii);EC 3.4.21.105
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;56;0
 Pro;0;0;1;0;0;0;0;0
@@ -35110,7 +35110,7 @@ Glu;0;1;1;0;1;0;0;0
 Lys;0;1;3;0;1;0;0;0
 Arg;0;2;1;0;0;0;0;0
 His;0;1;1;0;1;0;0;0
-Pcp1 peptidase (yeast) | Ygr101w g.p. (Saccharomyces cereviseae) | EC 3.4.21.105
+Pcp1 peptidase (yeast);Ygr101w g.p. (Saccharomyces cereviseae);EC 3.4.21.105
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;1;0
@@ -35132,7 +35132,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PARL peptidase | mitochondrial rhomboid peptidase | rhomboid-7 peptidase | presenilins-associated rhomboid-like protein | PSARL peptidase | EC 3.4.21.105
+PARL peptidase;rhomboid-7 peptidase;presenilins-associated rhomboid-like protein;PSARL peptidase;mitochondrial rhomboid peptidase;EC 3.4.21.105
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;1;0;1
 Pro;0;0;0;0;0;0;0;1
@@ -35154,7 +35154,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;2;0;0;0;0;1;0
 Arg;0;0;1;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-rhomboid YqgP peptidase | EC 3.4.21.105
+rhomboid YqgP peptidase;EC 3.4.21.105
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;2;0
 Pro;0;0;0;0;0;0;0;0
@@ -35176,7 +35176,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;2;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;1;0;0;0
-GlpG peptidase (Escherichia-type) | EC 3.4.21.105
+GlpG peptidase (Escherichia-type);EC 3.4.21.105
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;3;0
 Pro;0;0;0;0;0;0;0;1
@@ -35198,7 +35198,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;0;4;0;0;0;0;0
 Arg;1;1;0;0;0;0;0;0
 His;0;0;0;1;1;0;0;0
-ROM4 peptidase (Plasmodium-type) | PfROM4 (Plasmodium sp.) | EC 3.4.21.105
+ROM4 peptidase (Plasmodium-type);PfROM4 (Plasmodium sp.);EC 3.4.21.105
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;1;0
 Pro;1;0;0;0;0;0;0;0
@@ -35220,7 +35220,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-SpoIVB peptidase | EC 3.4.21.116
+SpoIVB peptidase;EC 3.4.21.116
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -35242,7 +35242,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;1;0;0;0;1;2;1
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-nucleoporin 145 | Nup145 | NUP98 g.p. (Mus musculus)
+nucleoporin 145;Nup145;NUP98 g.p. (Mus musculus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -35264,7 +35264,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;1;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-nuclear pore complex component Nup145 (Saccharomyces-type) | YGL092W (Saccharomyces cerevisiae) | NUP145 (Saccharomyces cerevisiae)
+nuclear pore complex component Nup145 (Saccharomyces-type);NUP145 (Saccharomyces cerevisiae);YGL092W (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -35286,7 +35286,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-nup189 (Schizosaccharomyces pombe) | SPAC1486.05 (Schizosaccharomyces pombe)
+nup189 (Schizosaccharomyces pombe);SPAC1486.05 (Schizosaccharomyces pombe)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -35330,7 +35330,7 @@ Glu;0;1;0;0;0;0;0;1
 Lys;0;0;0;1;2;0;0;1
 Arg;3;2;2;6;2;0;2;2
 His;0;0;0;0;0;0;0;0
-serotransferrin precursor (domain 1) | siderophilin | beta-1-metal binding globulin | transferrin | ovotransferrin
+serotransferrin precursor (domain 1);beta-1-metal binding globulin;transferrin;ovotransferrin;siderophilin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;0;2
 Pro;0;0;0;0;0;0;0;0
@@ -35374,7 +35374,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-murein tetrapeptidase LD-carboxypeptidase (Pseudomonas-type) | EC 3.4.17.13
+murein tetrapeptidase LD-carboxypeptidase (Pseudomonas-type);EC 3.4.17.13
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -35396,7 +35396,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-murein tetrapeptidase LD-carboxypeptidase (Escherichia-type) | muramoyl-tetrapeptide carboxypeptidase | LD-carboxypeptidase A (Escherichia coli) | ldcA g.p. Escherichia coli) | ldcA protein (E. coli) | carboxypeptidase IIW | EC 3.4.17.13
+murein tetrapeptidase LD-carboxypeptidase (Escherichia-type);LD-carboxypeptidase A (Escherichia coli);ldcA g.p. Escherichia coli);ldcA protein (E. coli);carboxypeptidase IIW;muramoyl-tetrapeptide carboxypeptidase;EC 3.4.17.13
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -35462,7 +35462,7 @@ Glu;0;0;0;0;0;2;0;0
 Lys;0;0;0;0;0;0;0;1
 Arg;1;0;0;0;0;0;2;1
 His;0;0;0;0;0;0;0;0
-MUC1 self-cleaving mucin | MAM-6 | episialin
+MUC1 self-cleaving mucin;MAM-6;episialin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -35484,7 +35484,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-dystroglycan | DAG1 g.p. (Homo sapiens) | cranin
+dystroglycan;DAG1 g.p. (Homo sapiens);cranin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -35550,7 +35550,7 @@ Glu;0;0;0;0;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-myelin regulatory factor | MYRF g.p. (Homo sapiens)
+myelin regulatory factor;MYRF g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -35594,7 +35594,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;1;0;2;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-prohead peptidase gp21 (bacteriophage T4) | prohead proteinase (bacteriophage T4) | proteinase P21
+prohead peptidase gp21 (bacteriophage T4);prohead proteinase (bacteriophage T4);proteinase P21
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;1;2;3
 Pro;1;0;0;0;0;0;0;2
@@ -35682,7 +35682,7 @@ Glu;0;0;0;3;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;2;1
 His;0;0;0;0;0;0;0;0
-destabilase | chlamysin (Chlamys islandica) | endo-epsilon-(gamma-Glu)-Lys isopeptidase
+destabilase;chlamysin (Chlamys islandica);endo-epsilon-(gamma-Glu)-Lys isopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -35704,7 +35704,7 @@ Glu;0;0;0;3;0;0;0;0
 Lys;0;0;0;1;2;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-autocrine proliferation repressor protein A (Dictyostelium discoideum) | AprA g.p. (Dictyostelium discoideum)
+autocrine proliferation repressor protein A (Dictyostelium discoideum);AprA g.p. (Dictyostelium discoideum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -35726,7 +35726,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-small protease (Pseudomonas aeruginosa) | PA0423 g.p. (Pseudomonas aeruginosa) | PASP
+small protease (Pseudomonas aeruginosa);PA0423 g.p. (Pseudomonas aeruginosa);PASP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -35748,7 +35748,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;2;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidyl-glycinamidase | peptidyl carboxy-amidase | peptidyl-aminoacylamidase | carboxamidopeptidase | carboxyamidase | EC 3.4.19.2
+peptidyl-glycinamidase;carboxamidopeptidase;carboxyamidase;peptidyl carboxy-amidase;peptidyl-aminoacylamidase;EC 3.4.19.2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;2;0;0;0
 Pro;0;0;2;0;0;0;0;0
@@ -35770,7 +35770,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-tryase | microsomal membrane trypsin-like serine endopeptidase
+tryase;microsomal membrane trypsin-like serine endopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;1;0;0;0;0;0
 Pro;0;0;2;0;0;1;1;1
@@ -35792,7 +35792,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;0;1;3;1;1;0;0;1
 Arg;0;0;4;13;2;0;1;0
 His;0;0;0;0;0;0;0;0
-guanidinobenzoatase | SP220K proteinase | leukocyte-membrane neutral endopeptidase | cell membrane serine endopeptidase
+guanidinobenzoatase;leukocyte-membrane neutral endopeptidase;cell membrane serine endopeptidase;SP220K proteinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -35858,7 +35858,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-snake venom coagulation factor X activator, serine-type (Bungarus fasciatus, Cerastes vipera, Ophiophagus hannah) | coagulation factor X activator, venomfactor X activator, venom
+snake venom coagulation factor X activator, serine-type (Bungarus fasciatus, Cerastes vipera, Ophiophagus hannah);coagulation factor X activator, venomfactor X activator, venom
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;0;0;0;2;2
 Pro;0;1;0;0;0;0;0;0
@@ -35880,7 +35880,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;0;0;0
 Arg;0;0;0;5;0;0;0;0
 His;0;0;0;0;0;0;0;0
-leucyl endopeptidase (Spinacia oleracea) | leucine-specific serine proteinase | plant Leu-proteinase | EC 3.4.21.57
+leucyl endopeptidase (Spinacia oleracea);leucine-specific serine proteinase;plant Leu-proteinase;EC 3.4.21.57
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -35902,7 +35902,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-metridin | EC 3.4.21.3 | endopeptidase A (Metridium)
+metridin;EC 3.4.21.3;endopeptidase A (Metridium)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -35924,7 +35924,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;1;0;0
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;0;0;0;0;0
-endopeptidase So | cytoplasmic proteinase (Escherichia coli) | EC 3.4.21.67
+endopeptidase So;cytoplasmic proteinase (Escherichia coli);EC 3.4.21.67
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -35946,7 +35946,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidase V (Escherichia coli) | protease V (Escherichia coli)
+peptidase V (Escherichia coli);protease V (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;1;0;0;0;0
@@ -36012,7 +36012,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-beta-secretase Matsumoto | secretase, (Matsumoto) beta-
+beta-secretase Matsumoto;secretase, (Matsumoto) beta-
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36034,7 +36034,7 @@ Glu;1;1;0;0;0;0;1;1
 Lys;0;0;1;1;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-thrombocytin | factor V-activator, venom (Bothrops atrox)
+thrombocytin;factor V-activator, venom (Bothrops atrox)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;2;0;0;1;0;0
@@ -36078,7 +36078,7 @@ Glu;2;1;1;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;1;0;3;0;0;0;0
 His;0;0;0;0;0;1;0;0
-apoptotic serine peptidase AP24 | AP24 | apoptotic serine protease AP24
+apoptotic serine peptidase AP24;AP24;apoptotic serine protease AP24
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -36254,7 +36254,7 @@ Glu;1;0;1;0;0;0;0;0
 Lys;0;0;0;3;0;0;0;1
 Arg;1;0;0;2;1;0;0;0
 His;0;0;0;0;0;0;0;0
-seaprose (Aspergillus melleus) | onoprose | promelasum | prozime-10
+seaprose (Aspergillus melleus);onoprose;promelasum;prozime-10
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;2;0;0;0;1;1
@@ -36276,7 +36276,7 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;1;0
 His;0;0;0;0;0;0;0;0
-milin (Euphorbia milii) | miliin (Euphorbia milii) | eumiliin (Euphorbia milii var. hislopii)
+milin (Euphorbia milii);miliin (Euphorbia milii);eumiliin (Euphorbia milii var. hislopii)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36386,7 +36386,7 @@ Glu;0;1;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;1;0;0;0
 His;1;0;0;0;0;0;0;0
-archaean proteasome, beta component | proteasome, archaean | EC 3.4.25.1
+archaean proteasome, beta component;proteasome, archaean;EC 3.4.25.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36408,7 +36408,7 @@ Glu;0;0;0;1;0;0;1;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;1
 His;2;0;0;0;0;1;0;0
-bacterial proteasome, beta component | proteasome, bacterial | EC 3.4.25.1
+bacterial proteasome, beta component;proteasome, bacterial;EC 3.4.25.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36430,7 +36430,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-HslV component of HslUV peptidase | heat-shock locus V | HslV | HslVU peptidase complex | ClpQ | ClpQ component of ClpYQ peptidase complex | EC 3.4.25.2
+HslV component of HslUV peptidase;heat-shock locus V;HslV;HslVU peptidase complex;ClpQ;ClpQ component of ClpYQ peptidase complex;EC 3.4.25.2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36474,7 +36474,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-proteasome subunit beta1c | peptidylglutamyl-peptide hydrolysing proteasome subunit | PRE3 g.p. (Saccharomyces cerevisiae) | proteasome subunit beta 1 | proteasome subunit beta 1c | proteasome subunit beta 6 | proteasome subunit delta (Homo sapiens) | proteasome subunit Y (Homo sapiens) | PSMB6 g.p. (Homo sapiens) | constitutive proteasome catalytic subunit 1 | EC 3.4.25.1
+proteasome subunit beta1c;constitutive proteasome catalytic subunit 1;peptidylglutamyl-peptide hydrolysing proteasome subunit;PRE3 g.p. (Saccharomyces cerevisiae);proteasome subunit beta 1;proteasome subunit beta 1c;proteasome subunit beta 6;proteasome subunit delta (Homo sapiens);proteasome subunit Y (Homo sapiens);PSMB6 g.p. (Homo sapiens);EC 3.4.25.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;6;3;0;0;1;1;4;2
 Pro;1;11;1;0;1;5;2;1
@@ -36496,7 +36496,7 @@ Glu;1;0;2;20;1;2;4;4
 Lys;2;0;0;0;1;0;2;1
 Arg;4;1;2;0;2;2;2;1
 His;0;1;0;0;2;2;0;2
-proteasome subunit beta2c | trypsin-like proteasome subunit | proteasome subunit alpha (Homo sapiens) | proteasome subunit beta 7 | proteasome subunit Z (Homo sapiens) | PSMB7 g.p. (Homo sapiens) | PUP1 g.p. (Saccharomyces cerevisiae) | constitutive proteasome catalytic subunit 2 | constitutive proteasome subunit beta 2c | EC 3.4.25.1
+proteasome subunit beta2c;trypsin-like proteasome subunit;constitutive proteasome catalytic subunit 2;constitutive proteasome subunit beta 2c;proteasome subunit alpha (Homo sapiens);proteasome subunit beta 7;proteasome subunit Z (Homo sapiens);PSMB7 g.p. (Homo sapiens);PUP1 g.p. (Saccharomyces cerevisiae);EC 3.4.25.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;2;0;1;3;1;3
 Pro;4;0;0;0;2;0;1;0
@@ -36518,7 +36518,7 @@ Glu;6;1;5;0;1;0;0;1
 Lys;0;2;2;3;1;1;1;2
 Arg;3;7;6;23;5;5;2;2
 His;0;1;0;2;0;0;0;0
-proteasome subunit beta5c | DOA3 g.p. (Saccharomyces cerevisiae) | PRE2 g.p. (Saccharomyces cerevisiae) | proteasome subunit beta 5c | proteasome subunit beta5 | proteasome subunit epsilon (Homo sapiens) | proteasome subunit MB1 (Homo sapiens) | proteasome subunit X (Homo sapiens) | PSMB5 g.p. (Homo sapiens) | chymotrypsin-like proteasome subunit | constitutive proteasome catalytic subunit 3 | EC 3.4.25.1
+proteasome subunit beta5c;DOA3 g.p. (Saccharomyces cerevisiae);chymotrypsin-like proteasome subunit;constitutive proteasome catalytic subunit 3;PRE2 g.p. (Saccharomyces cerevisiae);proteasome subunit beta 5c;proteasome subunit beta5;proteasome subunit epsilon (Homo sapiens);proteasome subunit MB1 (Homo sapiens);proteasome subunit X (Homo sapiens);PSMB5 g.p. (Homo sapiens);EC 3.4.25.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;12;7;7;7;16;18;18;16
 Pro;19;7;7;3;14;12;13;14
@@ -36540,7 +36540,7 @@ Glu;9;20;15;0;14;14;16;14
 Lys;6;3;4;0;5;5;6;9
 Arg;16;19;13;0;12;13;13;18
 His;6;4;9;5;1;4;1;2
-proteasome subunit beta1i | immunoproteasome catalytic subunit 1 | immunoproteasome catalytic subunit beta1i | LMP2 (Homo sapiens) | low molecular mass peptide 2 | RING12 (Homo sapiens) | proteasome subunit beta 6i | proteasome subunit beta 9 | PSMB9 g.p. (Homo sapiens) | EC 3.4.25.1
+proteasome subunit beta1i;immunoproteasome catalytic subunit 1;immunoproteasome catalytic subunit beta1i;RING12 (Homo sapiens);LMP2 (Homo sapiens);low molecular mass peptide 2;proteasome subunit beta 6i;proteasome subunit beta 9;PSMB9 g.p. (Homo sapiens);EC 3.4.25.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36562,7 +36562,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-proteasome subunit beta5i | immunoproteasome catalytic subunit 3 | immunoproteasome subunit beta5i | large multifunctional protease 7 | LMP7 (Homo sapiens) | low molecular mass peptide 7 | RING10 (Homo sapiens) | proteasome catalytic subunit 3i | proteasome subunit beta 8 | proteasome subunit Y2 (Homo sapiens) | PSMB8 g.p. (Homo sapiens) | EC 3.4.25.1
+proteasome subunit beta5i;immunoproteasome catalytic subunit 3;immunoproteasome subunit beta5i;RING10 (Homo sapiens);large multifunctional protease 7;LMP7 (Homo sapiens);low molecular mass peptide 7;proteasome catalytic subunit 3i;proteasome subunit beta 8;proteasome subunit Y2 (Homo sapiens);PSMB8 g.p. (Homo sapiens);EC 3.4.25.1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36606,7 +36606,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-TbHslUV peptidase | TbHslVU peptidase
+TbHslUV peptidase;TbHslVU peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36628,7 +36628,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-glycosylasparaginase precursor | aspartylglucosaminidase precursor | glycoasparaginase precursor
+glycosylasparaginase precursor;glycoasparaginase precursor;aspartylglucosaminidase precursor
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;3;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36650,7 +36650,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-isoaspartyl dipeptidase (threonine type) | Mername-AA125 peptidase | asparaginase | asparaginase precursor | asparaginase, plant type | ASRGL1 g.p. (Homo sapiens) | ybiK g.p. (Escherichia coli) | beta-aspartyl peptidase (eukaryote) | beta-aspartyldipeptidase | hASNase3 | human asparaginase 3 | isoaspartyl aminopeptidase | isoaspartyl peptidase | plant-type asparaginase | EC 3.4.19.5;  | EcAIII (Escherichia coli)
+isoaspartyl dipeptidase (threonine type);beta-aspartyl peptidase (eukaryote);beta-aspartyldipeptidase;isoaspartyl aminopeptidase;isoaspartyl peptidase;asparaginase;asparaginase precursor;asparaginase, plant type;ASRGL1 g.p. (Homo sapiens);hASNase3;human asparaginase 3;ybiK g.p. (Escherichia coli);plant-type asparaginase;Mername-AA125 peptidase;EC 3.4.19.5; ;EcAIII (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;4;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36672,7 +36672,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;1;0;0;0
-taspase-1 | Mername-AA199 putative peptidase | TASP1 g.p. (Homo sapiens) | threonine aspartase1 | C20orf13 protein (Homo sapiens)
+taspase-1;TASP1 g.p. (Homo sapiens);threonine aspartase1;C20orf13 protein (Homo sapiens);Mername-AA199 putative peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;0;0;0;4;0;2;0
 Pro;0;0;0;0;0;0;0;0
@@ -36694,7 +36694,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-gamma-glutamyltransferase 1 (bacterial-type) | gamma glutamyl transpeptidase | gamma-glutamyl aminopeptidase (Neisseria sp.) | EC 2.3.2.2
+gamma-glutamyltransferase 1 (bacterial-type);gamma glutamyl transpeptidase;gamma-glutamyl aminopeptidase (Neisseria sp.);EC 2.3.2.2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -36716,7 +36716,7 @@ Glu;3;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;3;0
-gamma-glutamyltransferase 1 (mammalian-type) | gamma-glutamyl leukotrienase | GGT1 g.p. (Homo sapiens) | EC 2.3.2.2; E
+gamma-glutamyltransferase 1 (mammalian-type);gamma-glutamyl leukotrienase;GGT1 g.p. (Homo sapiens);EC 2.3.2.2; E
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36738,7 +36738,7 @@ Glu;0;0;0;3;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-CapD poly-gamma-glutamate hydrolase | EC 2.3.2.2; E
+CapD poly-gamma-glutamate hydrolase;EC 2.3.2.2; E
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36760,7 +36760,7 @@ Glu;1;0;1;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;1;0;0;0;0;1;0
-ornithine acetyltransferase precursor | ArgJ g.p. (bacteria, fungi) | EC 2.3.1.35
+ornithine acetyltransferase precursor;ArgJ g.p. (bacteria, fungi);EC 2.3.1.35
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;1;0
 Pro;0;0;0;0;0;0;0;0
@@ -36804,7 +36804,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-CwpV (Clostridium difficile) self-cleaving threonine peptidase | cell wall protein V (Clostridium difficile)
+CwpV (Clostridium difficile) self-cleaving threonine peptidase;cell wall protein V (Clostridium difficile)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36826,7 +36826,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-protein P5 murein endopeptidase (bacteriophage phi-6) | P5 protein | phage lysis protein
+protein P5 murein endopeptidase (bacteriophage phi-6);P5 protein;phage lysis protein
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36848,7 +36848,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Lit peptidase | Lit protease (Escherichia coli) | e14 g.p. (Escherichia coli)
+Lit peptidase;Lit protease (Escherichia coli);e14 g.p. (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;1;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36870,7 +36870,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-AIDA-I self-cleaving autotransporter protein (Escherichia coli) | Adhesin Involved in Diffuse Adherence
+AIDA-I self-cleaving autotransporter protein (Escherichia coli);Adhesin Involved in Diffuse Adherence
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36892,7 +36892,7 @@ Glu;0;0;1;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-Dop isopeptidase | deamidase of Pup | deamidase of Pup (Mycobacterium sp.) | depupylase | Rv2112
+Dop isopeptidase;deamidase of Pup;deamidase of Pup (Mycobacterium sp.);depupylase;Rv2112
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36914,7 +36914,7 @@ Glu;0;0;0;1;0;0;0;0
 Lys;1;0;0;0;1;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-neprosin | DUF239 peptidase | Npr1 (Nepenthes sp.)
+neprosin;DUF239 peptidase;Npr1 (Nepenthes sp.)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;5;1;5;1;2;5;3;8
 Pro;18;14;10;51;6;9;21;9
@@ -36936,7 +36936,7 @@ Glu;7;8;5;5;7;8;7;6
 Lys;7;8;4;3;3;4;5;3
 Arg;5;7;5;3;2;6;3;4
 His;6;1;0;0;3;5;1;3
-Glu-Glu dipeptidase | alpha-glutamyl-glutamate dipeptidase | EC 3.4.13.7
+Glu-Glu dipeptidase;alpha-glutamyl-glutamate dipeptidase;EC 3.4.13.7
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -36958,7 +36958,7 @@ Glu;0;0;0;1;1;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidyl-D-amino acid hydrolase (cephalopod) | D-(or L-)aminoacyl-dipeptidase | non-stereospecific dipeptidase | peptidyl-D-amino acid hydrolase | EC 3.4.13.17
+peptidyl-D-amino acid hydrolase (cephalopod);D-(or L-)aminoacyl-dipeptidase;non-stereospecific dipeptidase;peptidyl-D-amino acid hydrolase;EC 3.4.13.17
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;7;1;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -37002,7 +37002,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;3;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-dipeptidylaminopeptidase dDAP | dipeptidylaminopeptidase V (Dictyostelium)
+dipeptidylaminopeptidase dDAP;dipeptidylaminopeptidase V (Dictyostelium)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -37024,7 +37024,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;1;2;0;0;0;0
 His;0;0;0;0;0;0;0;0
-N-formylmethionyl-peptidase | fMet-releasing enzyme | EC 3.4.19.7
+N-formylmethionyl-peptidase;fMet-releasing enzyme;EC 3.4.19.7
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -37090,7 +37090,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;1;0;2;0;0;0
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-peptidase yscJ | yscJ endopeptidase
+peptidase yscJ;yscJ endopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -37134,7 +37134,7 @@ Glu;1;0;0;0;0;0;0;0
 Lys;0;0;1;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-substance P endopeptidase (of CSF) | SPE
+substance P endopeptidase (of CSF);SPE
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;1;1;0;1
 Pro;1;0;0;0;0;0;0;0
@@ -37156,7 +37156,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-miniglucagon endopeptidase | miniglucagon-generating endopeptidase
+miniglucagon endopeptidase;miniglucagon-generating endopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -37200,7 +37200,7 @@ Glu;1;0;1;2;1;1;2;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-D-aspartyl endopeptidase | DAEP
+D-aspartyl endopeptidase;DAEP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;2;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -37222,7 +37222,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;1;0;0;0;0;0
-nuclear-scaffold peptidase activity | NSPA | chymotrypsin-like nuclear protease
+nuclear-scaffold peptidase activity;chymotrypsin-like nuclear protease;NSPA
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;3;0;0;0;0;0
@@ -37244,7 +37244,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;1;0;1;0;0
 Arg;0;0;0;1;1;0;0;0
 His;0;0;0;0;0;0;0;0
-cancer procoagulant | EC 3.4.22.26
+cancer procoagulant;EC 3.4.22.26
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;1;0;0;0;0;0
@@ -37288,7 +37288,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-transthyretin | TTR | prealbumin
+transthyretin;TTR;prealbumin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;1;0;1
 Pro;0;0;0;0;0;0;0;0
@@ -37310,7 +37310,7 @@ Glu;0;2;0;1;0;1;0;0
 Lys;0;0;0;0;2;0;0;0
 Arg;0;0;0;1;0;1;0;1
 His;0;0;0;0;1;0;1;0
-protease I | apeA g.p. (Escherichia coli) | TAP | TEP-I | tesA g.p. (Escherichia coli) | thioesterase/protease I | pldC g.p. (Escherichia coli)
+protease I;apeA g.p. (Escherichia coli);TAP;TEP-I;tesA g.p. (Escherichia coli);thioesterase/protease I;pldC g.p. (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -37332,7 +37332,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-angiotensin-converting enzyme compound peptidase | kininase II | somatic ACE | ACE | angiotensin I-converting enzyme | dipeptide hydrolase | dipeptidyl carboxypeptidase I | peptidase P | peptidyl-dipeptidase A compound peptidase | carboxycathepsin | CD143
+angiotensin-converting enzyme compound peptidase;dipeptide hydrolase;dipeptidyl carboxypeptidase I;kininase II;ACE;angiotensin I-converting enzyme;carboxycathepsin;CD143;somatic ACE;peptidase P;peptidyl-dipeptidase A compound peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;3;3;4;3;2;2;1
 Pro;2;1;3;2;1;7;0;1
@@ -37354,7 +37354,7 @@ Glu;0;0;1;0;1;0;1;0
 Lys;0;0;0;1;3;0;1;0
 Arg;2;1;1;2;2;2;0;1
 His;0;1;1;1;4;1;0;1
-meprin A complex peptidase | PABA-peptide hydrolase | endopeptidase 2
+meprin A complex peptidase;PABA-peptide hydrolase;endopeptidase 2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;7;9;7;6;7;8;5
 Pro;5;3;1;0;0;7;3;3
@@ -37376,7 +37376,7 @@ Glu;3;2;2;1;2;2;3;4
 Lys;5;3;3;2;3;2;1;3
 Arg;9;8;1;6;4;5;6;6
 His;2;2;5;4;1;1;2;2
-metallocarboxypeptidase D compound peptidase | silver protein (Drosophila melanogaster) | gp180 | carboxypeptidase D, metallo
+metallocarboxypeptidase D compound peptidase;gp180;carboxypeptidase D, metallo;silver protein (Drosophila melanogaster)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -37420,7 +37420,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;4;8;5;3;2;1
 His;0;0;0;0;0;0;0;0
-polyserase-1 | TMPRSS9 | polyserase-1A | polyserase-1B
+polyserase-1;TMPRSS9;polyserase-1A;polyserase-1B
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -37442,7 +37442,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;1;0;0
 His;0;0;0;0;0;0;0;0
-polyserase-2 | PRSS36
+polyserase-2;PRSS36
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;0;0;0;0
 Pro;0;0;0;0;0;0;0;0
@@ -37508,7 +37508,7 @@ Glu;51;1;194;8;151;189;78;137
 Lys;27;2;28;3;95;97;61;95
 Arg;67;10;112;10;91;108;45;76
 His;19;5;88;0;44;49;44;55
-mitochondrial signal peptidase complex | IMP peptidase | inner membrane peptidase
+mitochondrial signal peptidase complex;IMP peptidase;inner membrane peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;0;0;0;0;0;1;0
@@ -37530,7 +37530,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PIDD auto-processing protein | leucine-rich repeat and death domain containing protein | LRDD | p53-induced protein with a death domain
+PIDD auto-processing protein;leucine-rich repeat and death domain containing protein;LRDD;p53-induced protein with a death domain
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
 Pro;0;1;0;0;0;0;0;0
@@ -37552,7 +37552,7 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;2;0;0;0;0;0
-20S constitutive proteasome peptidase complex (eukaryote) | macropain [obs] | multicatalytic endopeptidase complex [obs] | multicatalytic proteinase (complex) [obs] | yeast cysteine proteinase E [misleading] | ingensin [obs] | lens neutral proteinase (component of) | prosome [obs] | proteasome | proteasome, 20 S
+20S constitutive proteasome peptidase complex (eukaryote);ingensin [obs];lens neutral proteinase (component of);yeast cysteine proteinase E [misleading];prosome [obs];proteasome;proteasome, 20 S;macropain [obs];multicatalytic endopeptidase complex [obs];multicatalytic proteinase (complex) [obs]
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;77;54;71;50;65;71;63;70
 Pro;66;41;22;11;62;43;48;57
@@ -37574,7 +37574,7 @@ Glu;62;82;69;77;74;77;87;63
 Lys;35;62;63;24;59;46;45;57
 Arg;39;58;51;48;46;41;47;43
 His;24;23;29;27;23;26;21;21
-26S proteasome peptidase complex (eukaryote) | ubiquitin-conjugate-degrading enzyme | UCDEN | proteasome, 26 SUCDEN
+26S proteasome peptidase complex (eukaryote);ubiquitin-conjugate-degrading enzyme;UCDEN;proteasome, 26 SUCDEN
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;9;5;6;7;10;7;10;11
 Pro;26;19;9;8;20;17;21;20
@@ -37596,7 +37596,7 @@ Glu;11;8;10;9;8;8;9;8
 Lys;3;8;6;3;4;5;3;7
 Arg;8;13;10;11;10;8;7;9
 His;2;0;4;2;3;3;2;0
-20 S immunoproteasome peptidase complex (eukaryote) | immunoproteasome | proteasome 20 Si
+20 S immunoproteasome peptidase complex (eukaryote);immunoproteasome;proteasome 20 Si
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;40;28;23;17;36;21;39;35
 Pro;17;16;7;1;15;19;18;12
