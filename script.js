@@ -39,7 +39,7 @@ function parseCSV(data) {
     psc.Translate_File(data);
     updateProteaseDropdown();
     document.getElementById("csvFileLabelBss").innerText = "CSV File Loaded Successfully!";
-    document.getElementById("csvLoadFileText").innerText = "Reload CSV File"
+    document.getElementById("csvLoadFileText").innerText = "Reload CSV File";
 }
 
 function updateProteaseDropdown() {
@@ -213,9 +213,9 @@ function searchAllSequences() {
     document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
 
     const res = bss.Multiple_Calculations(proteaseToConsiderBss, proteaseOfInterest, finalMinScore, finalMinSelec, aminoAcidsToExclude);
+    var div = document.createElement('div');
 
     if (res.combinations.length > 200) {
-        div = document.createElement('div');
         let p = document.createElement('p');
         p.appendChild(document.createTextNode("It seems that you have generated a library of " + res.combinations.length + " sequences."));
         div.appendChild(p);
@@ -236,10 +236,8 @@ function searchAllSequences() {
         li.appendChild(document.createTextNode("Exclude amino acids from the calculation."));
         ul.appendChild(li);
         div.appendChild(ul);
-        document.getElementById("searchResults").appendChild(div);
     }
 
-    var div = document.createElement('div');
     var h3 = document.createElement('h3');
     h3.appendChild(document.createTextNode("Summary of results"));
     div.appendChild(h3);
@@ -270,9 +268,7 @@ function searchAllSequences() {
             }
         }
     }
-    document.getElementById("searchResults").appendChild(div);
 
-    div = document.createElement('div');
     h3 = document.createElement('h3');
     h3.appendChild(document.createTextNode("Detailed results"));
     div.appendChild(h3);
@@ -301,33 +297,56 @@ function searchAllSequences() {
             td.appendChild(document.createTextNode(data));
         }
     }
-    document.getElementById("searchResults").appendChild(div);
 
-    div = document.createElement('div');
-    h3 = document.createElement('h3');
-    h3.appendChild(document.createTextNode("Possible combinations"));
-    div.appendChild(h3);
-    tbl = document.createElement('table');
-    tbl.style.width = '900px';
-    tbl.classList.add("withBorder");
-    div.appendChild(tbl);
-    
-    colnames = ["Id", "P4", "P3", "P2", "P1", "P1'", "P2'", "P3'", "P4'", "Score"];
-    var tr = tbl.insertRow();
-    colnames.forEach(value => {
-        let th = document.createElement("th");
-        th.classList.add("withBorder");
-        th.appendChild(document.createTextNode(value));
-        tr.appendChild(th);
-    })
-    for (let i = 0; i < res.combinations.length; i++) {
+    function displayPossibleCombinations(limitToFirst200) {
+        let details = document.createElement('details');
+        let summary = document.createElement('summary');
+        h3 = document.createElement('h3');
+        h3.appendChild(document.createTextNode(limitToFirst200 ? "First 200 possible combinations" : "Possible combinations"));
+        summary.appendChild(h3);
+        details.appendChild(summary);
+        tbl = document.createElement('table');
+        tbl.style.width = '900px';
+        tbl.classList.add("withBorder");
+
+        colnames = ["Id", "P4", "P3", "P2", "P1", "P1'", "P2'", "P3'", "P4'", "Score"];
         var tr = tbl.insertRow();
-        for (let j = 0; j < res.combinations[i].length; j++) {
-            let td = tr.insertCell();
-            td.classList.add("withBorder");
-            td.appendChild(document.createTextNode(res.combinations[i][j]));
+        colnames.forEach(value => {
+            let th = document.createElement("th");
+            th.classList.add("withBorder");
+            th.appendChild(document.createTextNode(value));
+            tr.appendChild(th);
+        })
+        const numRows = limitToFirst200 ? Math.min(res.combinations.length, 200) : res.combinations.length;
+        for (let i = 0; i < numRows; i++) {
+            var tr = tbl.insertRow();
+            for (let j = 0; j < res.combinations[i].length; j++) {
+                let td = tr.insertCell();
+                td.classList.add("withBorder");
+                td.appendChild(document.createTextNode(res.combinations[i][j]));
+            }
         }
+        details.appendChild(tbl);
+        details.open = true;
+        div.appendChild(details);
+        return details;
     }
+
+    if (res.combinations.length <= 200) {
+        displayPossibleCombinations(false);
+    } else {
+        let details = displayPossibleCombinations(true);
+        let button = document.createElement('button');
+        button.style.fontSize = "24px";
+        button.appendChild(document.createTextNode(`Display all ${res.combinations.length} possible combinations`));
+        button.onclick = () => {
+            div.removeChild(details);
+            div.removeChild(button);
+            displayPossibleCombinations(false);
+        }
+        div.appendChild(button);
+    }
+
     document.getElementById("searchResults").appendChild(div);
     document.getElementById("searchResults").scrollIntoView();
 }

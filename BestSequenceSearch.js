@@ -12,6 +12,8 @@ class BestSequenceSearch {
         this.Final_Result = [];
         this.Ratio_By_AA_And_Position = [];
         this.Final_Result_LOOP = [];
+        this.MaxNormalisedScore = [];
+        this.MEROPS_Normalised_Values_Per_AA = [];
     }
 
     Translate_File(csvContent) {
@@ -41,16 +43,27 @@ class BestSequenceSearch {
             return res;
         });
 
+        let maxValue = 0;
         this.MEROPS_Normalised_Values = this.MEROPS_Raw_Values.map((array, i) => {
             var res = [];
             for(var j = 0; j < array.length; ++j) {
                 res.push([]) 
                 for(var k = 0; k < array[j].length; ++k) { 
-                    res[j].push(sum_axis_1[i][k] != 0 ? (array[j][k] * 100) / sum_axis_1[i][k] : 0); 
+                    let value = sum_axis_1[i][k] != 0 ? (array[j][k] * 100) / sum_axis_1[i][k] : 0;
+                    res[j].push(value);
+                    if (value > maxValue) {
+                        maxValue = value;
+                    }
                 }; 
             };
             return res; 
         });
+        this.MaxNormalisedScore = Math.round(maxValue);
+
+        for (let k = 0; k < 8; k++) {
+            this.MEROPS_Normalised_Values_Per_AA[k] = this.MEROPS_Normalised_Values.map(row => row.map(pos => pos[k]));
+        }
+
 
         this.Proteases_List = [...this.MEROPS_Proteases_List];
     }
@@ -72,7 +85,7 @@ class BestSequenceSearch {
         this.Final_Result = Array.from({ length: 4 }, () => Array(8).fill(''));
 
         for (let k = 0; k < 8; k++) {
-            const Values_By_AA = this.MEROPS_Normalised_Values.map(row => row.map(pos => pos[k]));
+            const Values_By_AA = this.MEROPS_Normalised_Values_Per_AA[k];
             let Max_By_AA = Array(20).fill(0);
 
             for (let i = 0; i < 20; i++) {
@@ -119,7 +132,7 @@ class BestSequenceSearch {
         AA_Changed[0][0] = this.Final_Result_LOOP[0];
         AA_Changed[1][0] = this.Final_Result_LOOP[3];
 
-        for (let MinScore = inputMinScore; MinScore < Math.round(Math.max.apply(null, this.MEROPS_Normalised_Values.flat().flat())); MinScore++) {
+        for (let MinScore = inputMinScore; MinScore < this.MaxNormalisedScore; MinScore++) {
             this.The_Calculation(PTC, POI, MinScore, inputMinSelec, AAExclude);
 
             if (this.Final_Result[1].some(val => val != 0.0)) {
