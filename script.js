@@ -320,6 +320,9 @@ function searchAllSequences() {
         const numRows = limitToFirst200 ? Math.min(res.combinations.length, 200) : res.combinations.length;
         for (let i = 0; i < numRows; i++) {
             var tr = tbl.insertRow();
+            let td = tr.insertCell();
+            td.classList.add("withBorder");
+            td.appendChild(document.createTextNode(i+1));
             for (let j = 0; j < res.combinations[i].length; j++) {
                 let td = tr.insertCell();
                 td.classList.add("withBorder");

@@ -159,7 +159,6 @@ class BestSequenceSearch {
         }
 
         let combinations = []
-        let index = 1;
 
         for (let a = 0; a < AA_Changed[0].length; a++) {
             for (let b = 0; b < AA_Changed[0].length; b++) {
@@ -172,8 +171,7 @@ class BestSequenceSearch {
                                         let new_sequence = [AA_Changed[0][a][0], AA_Changed[0][b][1], AA_Changed[0][c][2], AA_Changed[0][d][3], AA_Changed[0][e][4], AA_Changed[0][f][5], AA_Changed[0][g][6], AA_Changed[0][h][7]];
                                         if (new_sequence.every(val => val !== '')) {
                                             const mean_sequence = +((Number(AA_Changed[1][a][0]) + Number(AA_Changed[1][b][1]) + Number(AA_Changed[1][c][2]) + Number(AA_Changed[1][d][3]) + Number(AA_Changed[1][e][4]) + Number(AA_Changed[1][f][5]) + Number(AA_Changed[1][g][6]) + Number(AA_Changed[1][h][7])) / 8).toFixed(2);
-                                            combinations.push([index, new_sequence, mean_sequence].flat());
-                                            index += 1;
+                                            combinations.push([new_sequence, mean_sequence].flat());
                                         }
                                     }
                                 }
@@ -183,6 +181,18 @@ class BestSequenceSearch {
                 }
             }
         }
+
+        function compare(a, b) {
+          if (a[8] < b[8]) {
+            return -1;
+          }
+          if (a[8] > b[8]) {
+            return 1;
+          }
+          return 0;
+        }
+
+        combinations = combinations.sort(compare);
 
         return {
             "AA_Changed": AA_Changed,
