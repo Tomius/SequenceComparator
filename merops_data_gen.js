@@ -151,8 +151,8 @@ Promise.all(promisesToAwait).then(x => {
     		let alternativeNames = proteaseInfo.names.filter(x => x !== proteaseInfo.mainName).sort(lowerCaseCompare);
     		let listOfNames = 
     			alternativeNames.length === 0 ?
-    			proteaseInfo.mainName :
-    			`${proteaseInfo.mainName};${alternativeNames.join(";")}`;
+    			`${proteaseInfo.mainName};${proteaseId}` :
+    			`${proteaseInfo.mainName};${proteaseId};${alternativeNames.join(";")}`;
     		proteaseData.push({ 
     			"id": proteaseId,
     			"mainName": proteaseInfo.mainName,
