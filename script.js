@@ -12,7 +12,6 @@ document.getElementById("StartPsc").addEventListener("click", startPsc);
 
 parseCSV(meropsData);
 
-$(".chosen-select").chosen();
 $("#ProteasesToConsiderBss").chosen().change(onProteasesToConsiderBssChanged);
 $("#ProteasesToConsiderPsc").chosen().change(onProteasesToConsiderPscChanged);
 $("#AminoAcidsToExclude").chosen().change(onAminoAcidsToExcludeChanged);
