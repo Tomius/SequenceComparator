@@ -122,35 +122,66 @@ let promisesToAwait = pages.map(page => {
 
 promisesToAwait.push(getResultsMatrix);
 
+function lowerCaseCompare(a, b) {
+  if (a.toLowerCase() < b.toLowerCase()) {
+    return -1;
+  }
+  if (a.toLowerCase() > b.toLowerCase()) {
+    return 1;
+  }
+  return 0;
+}
+
+function mainNameCompare(a, b) {
+  if (a.mainName.toLowerCase() < b.mainName.toLowerCase()) {
+    return -1;
+  }
+  if (a.mainName.toLowerCase() > b.mainName.toLowerCase()) {
+    return 1;
+  }
+  return 0;
+}
+
 Promise.all(promisesToAwait).then(x => {
-	let csv_data = [];
+	let proteaseData = [];
 	for (let proteaseId in resultMatrix) {
-	    if (Object.prototype.hasOwnProperty.call(resultMatrix, proteaseId)) {
-	    	if (proteaseDict[proteaseId] !== undefined) {
-	    		let proteaseInfo = proteaseDict[proteaseId]
-	    		let alternativeNames = proteaseInfo.names.filter(x => x !== proteaseInfo.mainName);
-	    		if (alternativeNames.length === 0) {
-					csv_data.push(proteaseInfo.mainName);
-	    		} else {
-	    			csv_data.push(`${proteaseInfo.mainName};${alternativeNames.join(";")}`);
-	    		}
-	    		
-	    		csv_data.push("Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'")
-	    		aminoAcidsToConsider.forEach(aa => {
-	    			line = [aa]
-	    			for (let i = 0; i < 8; ++i) {
-	    				if (resultMatrix[proteaseId][i] === undefined || 
-	    					resultMatrix[proteaseId][i][aa] === undefined) {
-	    					line.push(0)
-	    				} else {
-	    					line.push(resultMatrix[proteaseId][i][aa])
-	    				}
-	    			}
-	    			csv_data.push(line.join(";"))
-	    		})
-	    	}
-	    }
-	}
+    if (Object.prototype.hasOwnProperty.call(resultMatrix, proteaseId)) {
+    	if (proteaseDict[proteaseId] !== undefined) {
+    		let proteaseInfo = proteaseDict[proteaseId]
+    		let alternativeNames = proteaseInfo.names.filter(x => x !== proteaseInfo.mainName).sort(lowerCaseCompare);
+    		let listOfNames = 
+    			alternativeNames.length === 0 ?
+    			proteaseInfo.mainName :
+    			`${proteaseInfo.mainName};${alternativeNames.join(";")}`;
+    		proteaseData.push({ 
+    			"id": proteaseId,
+    			"mainName": proteaseInfo.mainName,
+    			"names": listOfNames
+    		})
+    	}
+    }
+  };
+
+  proteaseData = proteaseData.sort(mainNameCompare);
+   
+  let csv_data = [];
+ 	proteaseData.forEach(proteaseInfo => { 
+		csv_data.push(proteaseInfo.names);
+		csv_data.push("Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'");
+		aminoAcidsToConsider.forEach(aa => {
+			line = [aa]
+			for (let i = 0; i < 8; ++i) {
+				if (resultMatrix[proteaseInfo.id][i] === undefined || 
+					resultMatrix[proteaseInfo.id][i][aa] === undefined) {
+					line.push(0)
+				} else {
+					line.push(resultMatrix[proteaseInfo.id][i][aa])
+				}
+			}
+			csv_data.push(line.join(";"))
+		});
+	});
+
 	// Combine each row data with new line character
 	csv_data = "var meropsData = `" + csv_data.join('\n') + "`;\n";
 
