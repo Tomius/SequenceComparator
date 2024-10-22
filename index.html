@@ -25,18 +25,23 @@
     <table><tr>
       <td style="width: 700px; vertical-align:top ">
         <div class="section">
-          <details>
-            <summary>
-              <h2>Best Sequence Search 
-                <span class="info">
-                  <i class="icon-info-sign"></i>
-                </span>
-              </h2>
-            </summary>
-            <span class="extra-info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </span>
-          </details>
+          <h2>Best Sequence Search</h2>
+          <span class="extra-info"><i>
+            <p>
+              This part of the software is designed to calculate natural amino acids sequences that can be cleaved by a Protease Of Interest (POI), regarding other proteases of the medium. Click on the Info buttons to be guided in the utilization of each parameter.
+            </p>
+
+            <p>
+              Our recommendations for the software are:
+            </p>
+
+            <p>
+              If you wish to use the “Search Best Sequence” button, you will only need to enter the proteases to consider and the POI for the first attempt (<span style="color:red;">red stars</span>). Then, you can adjust the sequence by excluding Amino Acids (AAs), or by increasing the minimal POI Score.
+            </p>
+            <p>
+              If you wish to use the “Search All Sequence” button, you will only need to enter the proteases to consider and the POI for the first attempt (<span style="color:red;">red stars</span>). Then, you can adjust the sequence library by excluding Amino Acids (AAs) or by increasing the minimal POI Score or the minimal POI Selectivity.
+            </p>
+          </i></span>
 
           <details>
             <summary>
@@ -47,7 +52,17 @@
               </h3>
             </summary>
             <span class="extra-info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <p>
+                Here, you may input every protease of the medium that is susceptible to cleave the sequence(s). If you do not know which one can cleave the sequence(s), you may input every known protease of the medium.
+              </p>
+
+              <p>
+                You may search for proteases by their MEROPS code, their full name, or the MEROPS name given on the MEROPS website. Please be aware that proteases have several names: if you fail at inputting your protease, please try other names of this enzyme.
+              </p>
+
+              <p>
+                You may delete a protease by clicking in the upper right corner of the protease box.
+              </p>
             </span>
           </details>
 
@@ -64,7 +79,14 @@
               </h3>
             </summary>
             <span class="extra-info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <p>
+                If you wish to exclude amino acid(s), you may select them here (for example, if you do not want acidic AAs for easy synthesis, or if you have too many sequences output with the “Search All Sequences” button).
+              </p>
+
+              <p>
+                You may delete an AA by clicking in the upper right corner of the AA box.
+              </p>
+
             </span>
           </details>
           <select style="width: 500px; height: 30px" data-placeholder="Begin typing a name to filter..." id="AminoAcidsToExclude" multiple class="chosen-select" name="AminoAcidsToExclude">
@@ -92,14 +114,14 @@
 
           <details>
             <summary>
-              <h3>Protease of interest <span style="color:red;">*</span>
+              <h3>Protease of interest (POI) <span style="color:red;">*</span>
                 <span class="info">
                   <i class="icon-info-sign"></i>
                 </span>
               </h3>
             </summary>
             <span class="extra-info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Here, you may select the protease that will cleave your peptide. Its MEROPS values will be compared to the other ones of the medium, and the selectivity will be calculated from the comparison.
             </span>
           </details>
           <select name="ProteaseInterest" id="ProteaseInterest" class="chosen-select" style="width: 500px"> </select>
@@ -114,7 +136,7 @@
               </h3>
             </summary>
             <span class="extra-info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Here, you may select the minimal MEROPS Score for your protease of interest. The MEROPS Score is a value describing the percentage of cleavages bearing a given amino acid at a given position, for any given protease. On the MEROPS website, the values are arranged in a table named “Specificity matrix”. The higher the POI Score, the higher the efficiency of the whole sequence, but the lower the selectivity.
             </span>
           </details>
           <input type="number" step="1" id="minPoiScore" />
@@ -129,7 +151,7 @@
               </h3>
             </summary>
             <span class="extra-info">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Here, you may adjust the minimal selectivity of the AAs, to calculate only the most selective sequences. This option is useless for the “Search Best Sequence” button, but useful for the “Search All Sequences” button to deal with large libraries.
             </span>
           </details>
           <input type="number" step="1" id="minPoiSelectivity" />
@@ -143,18 +165,10 @@
         </div>
       </td>
       <td style="width: 700px; vertical-align:top">
-        <details>
-          <summary>
-            <h2>Protease Score Calculation 
-              <span class="info">
-                <i class="icon-info-sign"></i>
-              </span>
-            </h2>
-          </summary>
-          <span class="extra-info">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </span>
-        </details>
+        <h2>Protease Score Calculation </h2>
+        <span class="extra-info"><i>
+          This part of the software is designed to calculate mean MEROPS Score of sequences for every protease in the medium. This part can be useful to determine the proteases with the highest efficiency and use them as selectivity controls in the experimental procedures. Click on the Info buttons to be guided in the utilization of each parameter.
+        </i></span>
 
         <details>
           <summary>
@@ -165,7 +179,7 @@
             </h3>
           </summary>
           <span class="extra-info">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Here, you only need to enter your sequence. If you wish to add less than 8 AAs, you may add only the positions of your choice.
           </span>
         </details>
 
@@ -368,7 +382,17 @@
             </h3>
           </summary>
           <span class="extra-info">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <p>
+              Here, you may input every protease of the medium that is susceptible to cleave the sequence(s). If you do not know which one can cleave the sequence(s), you may input every known protease of the medium.
+            </p>
+
+            <p>
+              You may search for proteases by their MEROPS code, their full name, or the MEROPS name given on the MEROPS website. Please be aware that proteases have several names: if you fail at inputting your protease, please try other names of this enzyme.
+            </p>
+
+            <p>
+              You may delete a protease by clicking in the upper right corner of the protease box.
+            </p>
           </span>
         </summary>
       </details>
