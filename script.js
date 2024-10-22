@@ -370,7 +370,15 @@ function startPsc() {
     tbl.style.width = '1000px';
     tbl.classList.add("withBorder");
 
-    const rownames = ["", "Highest Score", "Closest Protease", "Lowest Score", "Farthest Protease"];
+    colnames = ["", "P4", "P3", "P2", "P1", "P1'", "P2'", "P3'", "P4'", "Mean"];
+    var tr = tbl.insertRow();
+    colnames.forEach(value => {
+        let th = document.createElement("th");
+        th.classList.add("withBorder");
+        th.appendChild(document.createTextNode(value));
+        tr.appendChild(th);
+    })
+    const rownames = ["Sequence", "Highest Score", "Closest Protease", "Lowest Score", "Farthest Protease"];
     let rowsToDisplay = proteaseToConsiderPsc.length == 1 ? 1 : psc.Final_Result.length;
     for (let i = 0; i < rowsToDisplay; i++) {
         var tr = tbl.insertRow();

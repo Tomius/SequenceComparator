@@ -72,7 +72,13 @@ class ProteaseScoreCalculation {
         let Min_By_Position = new Array(8).fill(100);
         let Farthest_Protease_By_Position = new Array(8).fill('');
 
+        let divisor = 0;
         for (let k = 0; k < 8; k++) {
+            if (this.Index_STC[k] === -1) {
+                Min_By_Position[k] = 0;
+                continue;
+            }
+            divisor++;
             let Values_By_Proteases_At_Given_Position = this.MEROPS_Normalised_Values.map(row => row[this.Index_STC[k]][k]);
 
             let Increment = 0;
@@ -98,7 +104,7 @@ class ProteaseScoreCalculation {
         }
 
         let Sum_By_Proteases = this.Values_By_Protease_And_Position.map(row => row.reduce((a, b) => a + b, 0));
-        this.Mean_By_Proteases = Sum_By_Proteases.map(sum => +(sum / 8).toFixed(2));
+        this.Mean_By_Proteases = Sum_By_Proteases.map(sum => +(sum / divisor).toFixed(2));
         let Closest_Protease_Mean = Math.max(...this.Mean_By_Proteases);
         let Closest_Protease = PTC[this.Mean_By_Proteases.indexOf(Closest_Protease_Mean)];
         let Farthest_Protease_Mean = Math.min(...this.Mean_By_Proteases);
@@ -107,7 +113,7 @@ class ProteaseScoreCalculation {
         this.Final_Result[0] = STC.slice(0, 8);
         this.Final_Result[1] = Max_By_Position.map(val => Math.round(val * 100) / 100).slice(0, 8);
         this.Final_Result[2] = Closest_Protease_By_Position.slice(0, 8);
-        this.Final_Result[0][8] = "Mean";
+        this.Final_Result[0][8] = "";
         this.Final_Result[1][8] = Closest_Protease_Mean;
         this.Final_Result[2][8] = Closest_Protease;
         this.Final_Result[3] = Min_By_Position.map(val => Math.round(val * 100) / 100).slice(0, 8);

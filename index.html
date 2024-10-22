@@ -195,7 +195,8 @@
             <th>P4'</th>
           </tr>
           <tr>
-            <td><select style="width: 70px;" id="AA1" class="chosen-select">
+            <td><select style="width: 70px;" id="AA1" class="chosen-select-empty">
+              <option value='' >&nbsp;</option>
               <option>Ala</option>
               <option>Arg</option>
               <option>Asn</option>
@@ -217,7 +218,8 @@
               <option>Tyr</option>
               <option>Val</option>
             </select></td>
-            <td><select style="width: 70px;" id="AA2" class="chosen-select">
+            <td><select style="width: 70px;" id="AA2" class="chosen-select-empty">
+              <option value='' >&nbsp;</option>
               <option>Ala</option>
               <option>Arg</option>
               <option>Asn</option>
@@ -239,7 +241,8 @@
               <option>Tyr</option>
               <option>Val</option>
             </select></td>
-            <td><select style="width: 70px;" id="AA3" class="chosen-select">
+            <td><select style="width: 70px;" id="AA3" class="chosen-select-empty">
+              <option value='' >&nbsp;</option>
               <option>Ala</option>
               <option>Arg</option>
               <option>Asn</option>
@@ -261,7 +264,8 @@
               <option>Tyr</option>
               <option>Val</option>
             </select></td>
-            <td><select style="width: 70px;" id="AA4" class="chosen-select">
+            <td><select style="width: 70px;" id="AA4" class="chosen-select-empty">
+              <option value='' >&nbsp;</option>
               <option>Ala</option>
               <option>Arg</option>
               <option>Asn</option>
@@ -283,7 +287,8 @@
               <option>Tyr</option>
               <option>Val</option>
             </select></td>
-            <td><select style="width: 70px;" id="AA5" class="chosen-select">
+            <td><select style="width: 70px;" id="AA5" class="chosen-select-empty">
+              <option value='' >&nbsp;</option>
               <option>Ala</option>
               <option>Arg</option>
               <option>Asn</option>
@@ -305,7 +310,8 @@
               <option>Tyr</option>
               <option>Val</option>
             </select></td>
-            <td><select style="width: 70px;" id="AA6" class="chosen-select">
+            <td><select style="width: 70px;" id="AA6" class="chosen-select-empty">
+              <option value='' >&nbsp;</option>
               <option>Ala</option>
               <option>Arg</option>
               <option>Asn</option>
@@ -327,7 +333,8 @@
               <option>Tyr</option>
               <option>Val</option>
             </select></td>
-            <td><select style="width: 70px;" id="AA7" class="chosen-select">
+            <td><select style="width: 70px;" id="AA7" class="chosen-select-empty">
+              <option value='' >&nbsp;</option>
               <option>Ala</option>
               <option>Arg</option>
               <option>Asn</option>
@@ -349,7 +356,8 @@
               <option>Tyr</option>
               <option>Val</option>
             </select></td>
-            <td><select style="width: 70px;" id="AA8" class="chosen-select">
+            <td><select style="width: 70px;" id="AA8" class="chosen-select-empty">
+              <option value='' >&nbsp;</option>
               <option>Ala</option>
               <option>Arg</option>
               <option>Asn</option>
@@ -409,7 +417,8 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
-<script>
+<script>  
+  $(".chosen-select-empty").chosen({ allow_single_deselect:true });
   $(".chosen-select").chosen();
 </script>
 <script src="merops_data.js"></script>
