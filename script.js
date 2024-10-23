@@ -17,6 +17,9 @@ $("#ProteasesToConsiderPsc").chosen().change(onProteasesToConsiderPscChanged);
 $("#AminoAcidsToExclude").chosen().change(onAminoAcidsToExcludeChanged);
 document.getElementById("AminoAcidsToExclude").value = null;
 $('#AminoAcidsToExclude').trigger('chosen:updated');
+for (let i = 1; i <= 8; ++i) {
+    $(`#AA${i}`).chosen().change(aminoAcidChanged);
+}
 
 function handleFileSelectBss(event) {
     const file = event.target.files[0];
@@ -96,6 +99,12 @@ function onProteasesToConsiderPscChanged(evt, params) {
         if (index > -1) {
           proteaseToConsiderPsc.splice(index, 1);
         }
+    }
+}
+
+function aminoAcidChanged(evt, params) {
+    if (params.selected) {
+        document.getElementById("AminoAcidsEmptyWarning").style.display = "none";
     }
 }
 
@@ -354,8 +363,22 @@ function searchAllSequences() {
 }
 
 function startPsc() {
+    let hasAminoAcidSelected = false;
+    let hasError = false;
+    for (let i = 1; i <= 8; i++) {
+        if (document.getElementById(`AA${i}`).value !== '') {
+            hasAminoAcidSelected = true;
+        }
+    }
+    if (!hasAminoAcidSelected) {
+        document.getElementById("AminoAcidsEmptyWarning").style.display = "block";
+        hasError = true;
+    }
     if (proteaseToConsiderPsc.length === 0) {
         document.getElementById("ProteasesToConsiderPscEmptyWarning").style.display = "block";
+        hasError = true;
+    }
+    if (hasError) {
         return;
     }
 
