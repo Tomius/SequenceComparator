@@ -23,14 +23,14 @@ async function fetchRetry(...args) {
   throw new Error(`Too many retries for fetch(${args.join(",")})`);
 }
 
-String.prototype.removeNewLinesInsideQuotes = function () {
+String.prototype.removeNewLinesAndTabsInsideQuotes = function () {
 	var tmp = this.split('');
 	let isInsideQuote = false;
 	let escapeNextChar = false;
 	for (let i = 0; i < tmp.length; i++) {
 	  if (tmp[i] === "'" && !escapeNextChar) {
 	  	isInsideQuote = !isInsideQuote;
-	  } else if ((tmp[i] === "\n" || tmp[i] === "\r") && isInsideQuote) {
+	  } else if ((tmp[i] === "\n" || tmp[i] === "\r" || tmp[i] === "\t") && isInsideQuote) {
 	  	tmp[i] = " ";
 	  } 
 	  
@@ -44,7 +44,7 @@ var resultMatrix = {}
 let getResultsMatrix = fetchRetry(url)
 .then(html => {
 	html
-	.removeNewLinesInsideQuotes()
+	.removeNewLinesAndTabsInsideQuotes()
 	.split('\n')
 	.forEach(line => {
 		let values = line.split('\t');
@@ -69,7 +69,37 @@ let getResultsMatrix = fetchRetry(url)
 			resultMatrix[proteaseId][i][aas[i]]++
 		}
 	})
-});
+})
+.then(x => {
+		const Raw_CSV = meropsDataFromTheWebsite.split('\n').map(line => line.split(';'));
+
+	  for (let a = 0; a < Math.floor(Raw_CSV.length / 22); a++) {
+	  		let id = Raw_CSV[22 * a];
+	  		if (resultMatrix[id] === undefined) {
+	  			console.error(`Did not find ${id} in resultMatrix`);
+	  			continue;
+	  		}
+	      const values = Raw_CSV.slice(22 * a + 2, 22 * (a + 1));
+	      for (let aaIdx = 0; aaIdx < 20; ++aaIdx) {
+	      	let aa = values[aaIdx][0];
+		      for (let i = 0; i < 8; ++i) {
+		      	let websiteValue = values[aaIdx][i+1];
+		      	if (resultMatrix[id][i] === undefined) {
+		      		resultMatrix[id][i] = {};
+		      	}
+		      	if (resultMatrix[id][i][aa] === undefined) {
+		      		resultMatrix[id][i][aa] = 0;
+		      	}
+		      	let sqlValue = resultMatrix[id][i][aa];
+		      	if (sqlValue > websiteValue) {
+		      		alert(`Sql value ${sqlValue} is greater than website value ${websiteValue} for (${id}, ${aa}, idx=${i})`);
+		      	}
+		      	resultMatrix[id][i][aa] = Math.max(websiteValue, sqlValue);
+		      }
+		    }
+	  }
+	}
+);
 
 let meropsDiscoveryLink = "https://www.ebi.ac.uk/merops/cgi-bin/name_index?id=P;action="
 
@@ -166,8 +196,21 @@ Promise.all(promisesToAwait).then(x => {
    
   let csv_data = [];
  	proteaseData.forEach(proteaseInfo => { 
+ 		let sumReferences = 0;
+		for (let i = 0; i < 8; ++i) {
+			aminoAcidsToConsider.forEach(aa => {
+				if (resultMatrix[proteaseInfo.id][i] && resultMatrix[proteaseInfo.id][i][aa]) {
+					sumReferences += Number(resultMatrix[proteaseInfo.id][i][aa])
+				}
+			});
+		}
+		if (sumReferences < 64) {
+			return;
+		}
+
 		csv_data.push(proteaseInfo.names);
 		csv_data.push("Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'");
+		
 		aminoAcidsToConsider.forEach(aa => {
 			line = [aa]
 			for (let i = 0; i < 8; ++i) {
