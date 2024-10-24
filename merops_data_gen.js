@@ -76,8 +76,7 @@ let getResultsMatrix = fetchRetry(url)
 	  for (let a = 0; a < Math.floor(Raw_CSV.length / 22); a++) {
 	  		let id = Raw_CSV[22 * a];
 	  		if (resultMatrix[id] === undefined) {
-	  			console.error(`Did not find ${id} in resultMatrix`);
-	  			continue;
+	  			resultMatrix[id] = [];
 	  		}
 	      const values = Raw_CSV.slice(22 * a + 2, 22 * (a + 1));
 	      for (let aaIdx = 0; aaIdx < 20; ++aaIdx) {

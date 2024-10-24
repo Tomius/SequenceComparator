@@ -6579,25 +6579,25 @@ His;8;4;2;1;1;6;2;0
 matrix metallopeptidase-8;M10.002;collagenase 2;collagenase, neutrophil;EC 3.4.24.34;matrix metalloproteinase 8;MMP-8;neutrophil collagenase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;36;2;3;35;1;2;38;7
-Pro;3;44;9;10;0;2;3;11
-Ala;6;16;9;8;8;9;13;13
-Val;6;6;3;2;8;7;4;4
-Leu;8;7;10;4;37;5;3;13
+Pro;4;45;10;10;0;2;3;12
+Ala;6;21;12;14;9;10;14;13
+Val;6;6;3;3;12;8;5;4
+Leu;13;10;11;4;38;5;3;13
 Ile;3;2;1;0;13;5;4;5
 Met;0;1;3;0;1;5;0;1
-Phe;5;5;3;9;11;5;0;1
-Tyr;1;0;2;4;2;1;1;0
+Phe;5;5;3;9;11;5;0;2
+Tyr;1;0;2;4;3;1;1;0
 Trp;0;0;1;0;0;4;1;0
-Ser;6;16;16;6;4;12;7;6
-Thr;7;0;1;3;2;4;8;8
+Ser;6;16;16;6;4;12;13;11
+Thr;7;0;1;3;2;5;8;8
 Cys;0;0;0;0;0;0;2;0
 Asn;3;2;4;9;3;4;1;5
-Gln;4;3;15;2;5;12;8;11
+Gln;4;3;19;3;6;12;8;11
 Asp;4;1;2;4;2;2;2;5
-Glu;5;3;6;6;1;3;4;5
-Lys;9;4;12;9;7;9;4;1
-Arg;2;0;11;1;6;17;2;8
-His;2;2;3;2;2;2;3;0
+Glu;5;3;6;7;1;4;4;5
+Lys;9;4;12;9;7;9;4;2
+Arg;4;0;11;1;6;21;3;9
+His;2;2;3;2;2;3;3;0
 matrix metallopeptidase-9;M10.004;EC 3.4.24.35;gelatinase B;gelatinase, 92 kDagelatinase, macrophagegelatinase, neutrophilcollagenase, type IVcollagenase, type V;macrophage gelatinase;matrix metalloproteinase 9;MMP-9;MMP9;neutrophil gelatinase;type IV collagenase;type V collagenase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;120;33;45;124;23;31;129;42
