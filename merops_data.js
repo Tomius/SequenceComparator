@@ -3872,26 +3872,26 @@ Arg;0;0;0;2;0;0;3;2
 His;0;0;0;0;0;0;0;1
 epitheliasin;S01.247;plasmic transmembrane protein X;serine endopeptidase TMPRSS2;TMPRSS2;TMPRSS2 g.p. (Homo sapiens);transmembrane protease, serine 2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;3;0;2;5
-Pro;2;0;0;0;0;0;0;0
-Ala;0;0;1;0;0;1;0;0
-Val;1;0;0;0;0;2;0;0
+Gly;2;1;2;0;4;1;4;7
+Pro;3;0;1;0;0;0;0;0
+Ala;0;0;2;0;2;2;2;1
+Val;1;0;0;0;1;3;1;2
 Leu;0;0;0;0;0;3;0;0
-Ile;0;0;0;0;2;0;3;0
+Ile;1;1;0;0;2;0;3;0
 Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;0;0;2;3;0
+Phe;1;0;0;0;1;3;4;1
 Tyr;0;0;0;0;0;0;0;0
 Trp;0;0;0;0;0;0;0;0
-Ser;0;5;4;0;3;0;0;0
-Thr;0;1;0;0;0;0;0;0
+Ser;1;6;5;0;3;2;0;2
+Thr;1;2;0;0;0;0;0;1
 Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;2;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;0;3
-Lys;0;0;2;0;0;0;0;0
-Arg;5;0;1;8;0;0;0;0
-His;0;0;0;0;0;0;0;0
+Asn;0;0;0;0;0;0;1;0
+Gln;1;3;0;0;0;0;0;0
+Asp;0;1;0;0;1;0;1;0
+Glu;2;1;1;0;1;1;2;5
+Lys;1;4;4;6;3;2;1;0
+Arg;7;2;5;15;3;4;1;2
+His;0;0;1;0;0;0;1;0
 equine arteritis virus serine peptidase;S32.001;3CLSP;EC 3.4.21.114;nonstructural protein 4;nsp4 protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;1;10;1;0;0
