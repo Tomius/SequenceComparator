@@ -144,7 +144,7 @@
           <details>
             <summary>
               <h3>Minimal POI Selectivity
-                <small>range: [0,100]</small>
+                <small>range: [0, &infin;]</small>
                 <span class="info">
                   <i class="icon-info-sign"></i>
                 </span>
@@ -158,8 +158,46 @@
 
           <table>
             <tr>
-              <td><button id="searchBestSequence">Search Best Sequence</button></td>
-              <td><button id="searchAllSequences">Search All Sequences</button></td>
+              <td>
+                <details>
+                  <summary>
+                    <button style="margin-top:20px;" class="button-30" id="searchBestSequence">Search Best Sequence</button>
+                    <span class="info"><i class="icon-info-sign"></i></span>
+                  </summary>
+                  <span class="extra-info">
+                    Outputs 2 tables:
+                    <ul>
+                      <li>Best Sequence table: the sequence with the highest selectivity for each
+                      position, giving the most selective sequence of the model; The selectivity
+                      value for each AA of the sequence; the protease with the highest MEROPS
+                      score for the selected AAs; the POI Score of the selected AAs.</li>
+                      <li>Selectivity for each AAs at each position. The highest value is given in the
+                      Best Sequence table.</li>
+                    </ul>
+                  </span>
+                </details>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <details>
+                  <summary>
+                    <button style="margin-top:10px;" class="button-30" id="searchAllSequences">Search All Sequences</button>
+                    <span class="info"><i class="icon-info-sign"></i></span>
+                  </summary>
+                  <span class="extra-info">
+                    Outputs 3 tables:
+                    <ul>
+                      <li>Summary of results: Table with every AAs involved in the library creation at
+each position, with the POI Score.</li>
+                      <li>Detailed results: “Best Sequence table” (See “Search Best Sequence” Info)
+calculated with increasing minimal POI Score and concatenated.</li>
+                      <li>Possible combinations: Library of sequences ranged by their increasing mean
+POI score.</li>
+                    </ul>
+                  </span>
+                </details>
+              </td>
             </tr>
           </table>
         </div>
@@ -409,7 +447,7 @@
       </select>
       <p style="color:red;display:none;" id="ProteasesToConsiderPscEmptyWarning">Please select the proteases to consider</p>
       <div>
-        <button id="StartPsc">Start Calculation</button>
+        <button style="margin-top:20px;" class="button-30" id="StartPsc">Start Calculation</button>
       </div>
     </td>
   </tr></table>

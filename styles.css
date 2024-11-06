@@ -68,3 +68,38 @@ button {
 .info:hover {
   background-color: white;
 }
+
+/* CSS */
+.button-30 {
+   align-items: center;
+   appearance: none;
+   background-color: #F8F8F8;
+   border-radius: 4px;
+   border-width: 0;
+   box-shadow: rgba(45, 35, 66, 0.4) 0 1px 2px,rgba(45, 35, 66, 0.3) 0 3px 4px -2px,#D6D6E7 0 -3px 0 inset;
+   box-sizing: border-box;
+   color: #36395A;
+   cursor: pointer;
+   display: inline-flex;
+   height: 32px;
+   justify-content: center;
+   line-height: 1;
+   list-style: none;
+   overflow: hidden;
+   padding-left: 16px;
+   padding-right: 16px;
+   position: relative;
+   text-align: left;
+   text-decoration: none;
+   transition: box-shadow .15s,transform .15s;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   white-space: nowrap;
+   will-change: box-shadow,transform;
+   font-size: 18px;
+}
+
+.button-30:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 1px 2px, rgba(45, 35, 66, 0.3) 0 6px 7px -2px, #D6D6E7 0 -3px 0 inset;
+}
