@@ -12,6 +12,7 @@ document.getElementById("StartPsc").addEventListener("click", startPsc);
 
 parseCSV(meropsData);
 
+$("#ProteaseInterest").chosen().change(onProteaseInterestChanged);
 $("#ProteasesToConsiderBss").chosen().change(onProteasesToConsiderBssChanged);
 $("#ProteasesToConsiderPsc").chosen().change(onProteasesToConsiderPscChanged);
 $("#AminoAcidsToExclude").chosen().change(onAminoAcidsToExcludeChanged);
@@ -45,28 +46,61 @@ function parseCSV(data) {
 }
 
 function updateProteaseDropdown() {
-    const proteasesBss = document.getElementById("ProteasesToConsiderBss");
     const proteasesPsc = document.getElementById("ProteasesToConsiderPsc");
+    const proteaseInterest = document.getElementById("ProteaseInterest");
+
+    var opt = document.createElement('option');
+    opt.value = "";
+    opt.innerHTML = "";
+    proteaseInterest.appendChild(opt);
 
     bss.Proteases_List.forEach(protease => {
-        var opt = document.createElement('option');
-        opt.value = protease;
-        opt.innerHTML = protease;
-        proteasesBss.appendChild(opt);
-
         opt = document.createElement('option');
         opt.value = protease;
         opt.innerHTML = protease;
         proteasesPsc.appendChild(opt);
+
+        opt = document.createElement('option');
+        opt.value = protease;
+        opt.innerHTML = protease;
+        proteaseInterest.appendChild(opt);
     })
-    $('#ProteasesToConsiderBss').trigger('chosen:updated');
     $('#ProteasesToConsiderPsc').trigger('chosen:updated');
+    $('#ProteaseInterest').trigger('chosen:updated');
+    document.getElementById("ProteasesToConsiderBss").disabled = true;
+    $('#ProteasesToConsiderBss').trigger('chosen:updated');
+}
+
+function onProteaseInterestChanged(evt, params) {
+    if (params.selected) {
+        const proteasesBss = document.getElementById("ProteasesToConsiderBss");
+        proteasesBss.innerHTML = "";
+        const index = proteaseToConsiderBss.indexOf(params.selected);
+        if (index !== -1) {
+            proteaseToConsiderBss.splice(index, 1);
+        }
+
+        bss.Proteases_List.forEach(protease => {
+            if (protease !== params.selected) {
+                var opt = document.createElement('option');
+                opt.value = protease;
+                opt.innerHTML = protease;
+                proteasesBss.appendChild(opt);
+            }
+        })
+        document.getElementById("ProteasesToConsiderBss").disabled = false;
+        $('#ProteasesToConsiderBss').val(proteaseToConsiderBss).trigger('chosen:updated');
+        document.getElementById("ProteasesOfInterestEmptyWarning").style.display = "none";
+    } else {
+        document.getElementById("ProteasesToConsiderBss").disabled = true;
+        $('#ProteasesToConsiderBss').trigger('chosen:updated');
+    }
 }
 
 function onProteasesToConsiderBssChanged(evt, params) {
     if (params.selected) {
         proteaseToConsiderBss.push(params.selected);
-        document.getElementById("ProteasesToConsiderBssEmptyWarning").style.display = "none";
+        document.getElementById("CompetingProteasesEmptyWarning").style.display = "none";
     }
     if (params.deselected) {
         const index = proteaseToConsiderBss.indexOf(params.deselected);
@@ -74,19 +108,6 @@ function onProteasesToConsiderBssChanged(evt, params) {
           proteaseToConsiderBss.splice(index, 1);
         }
     }
-    const proteaseInterest = document.getElementById("ProteaseInterest");
-    let oldValue = proteaseInterest.value;
-    proteaseInterest.innerHTML = "";
-    proteaseToConsiderBss.forEach(protease => {
-        var opt = document.createElement('option');
-        opt.value = protease;
-        opt.innerHTML = protease;
-        proteaseInterest.appendChild(opt);
-    })
-    if (proteaseToConsiderBss.includes(oldValue)) {
-        proteaseInterest.value = oldValue;
-    }
-    $('#ProteaseInterest').trigger('chosen:updated');
 }
 
 function onProteasesToConsiderPscChanged(evt, params) {
@@ -121,12 +142,15 @@ function onAminoAcidsToExcludeChanged(evt, params) {
 }
 
 function searchBestSequence() {
-    if (proteaseToConsiderBss.length === 0) {
-        document.getElementById("ProteasesToConsiderBssEmptyWarning").style.display = "block";
+    const proteaseOfInterest = document.getElementById("ProteaseInterest").value;
+    if (!proteaseOfInterest) {
+        document.getElementById("ProteasesOfInterestEmptyWarning").style.display = "block";
         return;
     }
-
-    const proteaseOfInterest = document.getElementById("ProteaseInterest").value;
+    if (proteaseToConsiderBss.length === 0) {
+        document.getElementById("CompetingProteasesEmptyWarning").style.display = "block";
+        return;
+    }
     finalMinScore = document.getElementById("minPoiScore").value;
     if (finalMinScore == '') 
        finalMinScore = 0;
@@ -134,7 +158,7 @@ function searchBestSequence() {
     finalMinSelec = document.getElementById("minPoiSelectivity").value;
     if (finalMinSelec == '')
        finalMinSelec = 0;
-    const res = bss.The_Calculation(proteaseToConsiderBss, proteaseOfInterest, finalMinScore, finalMinSelec, aminoAcidsToExclude);
+    const res = bss.The_Calculation(proteaseToConsiderBss.concat([proteaseOfInterest]), proteaseOfInterest, finalMinScore, finalMinSelec, aminoAcidsToExclude);
     
     document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
     
@@ -204,12 +228,15 @@ function searchBestSequence() {
 }
 
 function searchAllSequences() {
-    if (proteaseToConsiderBss.length === 0) {
-        document.getElementById("ProteasesToConsiderBssEmptyWarning").style.display = "block";
+    const proteaseOfInterest = document.getElementById("ProteaseInterest").value;
+    if (!proteaseOfInterest) {
+        document.getElementById("ProteasesOfInterestEmptyWarning").style.display = "block";
         return;
     }
-
-    const proteaseOfInterest = document.getElementById("ProteaseInterest").value;
+    if (proteaseToConsiderBss.length === 0) {
+        document.getElementById("CompetingProteasesEmptyWarning").style.display = "block";
+        return;
+    }
     finalMinScore = document.getElementById("minPoiScore").value;
     if (finalMinScore == '') 
        finalMinScore = 0;
@@ -220,7 +247,7 @@ function searchAllSequences() {
 
     document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
 
-    const res = bss.Multiple_Calculations(proteaseToConsiderBss, proteaseOfInterest, finalMinScore, finalMinSelec, aminoAcidsToExclude);
+    const res = bss.Multiple_Calculations(proteaseToConsiderBss.concat([proteaseOfInterest]), proteaseOfInterest, finalMinScore, finalMinSelec, aminoAcidsToExclude);
     var div = document.createElement('div');
 
     if (res.combinations.length > 200) {
