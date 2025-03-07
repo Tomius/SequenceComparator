@@ -306,28 +306,6 @@ Glu;38;27;42;177;5;13;44;47
 Lys;31;14;6;1;3;5;2;1
 Arg;28;15;15;5;4;63;26;11
 His;11;4;5;7;13;6;3;11
-ADAMTS8 peptidase;M12.226;ADAMTS8 g.p. (Homo sapiens);METH-2
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;1;0;0;0;1;1
-Pro;0;0;0;0;0;0;0;2
-Ala;0;0;0;1;1;0;1;2
-Val;0;1;1;0;0;0;1;1
-Leu;1;0;2;1;5;3;1;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;1;0;1;0;0;0;0
-Phe;0;1;0;0;0;0;0;0
-Tyr;0;1;0;1;0;0;0;1
-Trp;0;0;0;0;0;0;0;0
-Ser;3;0;1;1;2;1;2;1
-Thr;2;1;0;0;0;1;2;0
-Cys;0;0;0;0;0;0;0;0
-Asn;1;0;0;1;0;0;1;0
-Gln;1;1;4;2;1;1;0;0
-Asp;2;0;0;1;1;0;0;0
-Glu;0;1;0;1;0;0;1;0
-Lys;0;1;1;0;0;2;0;1
-Arg;0;0;0;0;0;2;0;1
-His;0;1;0;0;0;0;0;0
 adenain;C05.001;adenovirus endopeptidase;adenovirus protease;EC 3.4.22.39;L3;p23
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;23;14;11;1;1;1
@@ -350,28 +328,6 @@ Glu;0;1;0;0;0;1;0;1
 Lys;0;1;0;0;0;2;3;0
 Arg;0;1;0;2;0;3;1;3
 His;0;0;0;0;0;0;1;0
-aeruginolysin;M10.056;alkaline protease (Pseudomonas aeruginosa);apr g.p. (Pseudomonas aeruginosa);EC 3.4.24.40
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;2;3;1;4;4;1;1;1
-Pro;0;0;0;0;0;1;1;0
-Ala;0;1;1;0;1;0;2;1
-Val;0;1;2;0;0;1;0;1
-Leu;1;2;2;1;2;3;2;2
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;2;3;1;1;2;1;1
-Tyr;0;0;0;2;1;0;2;1
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;1;1;0;0
-Thr;0;0;0;0;1;1;0;1
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;1;0;0;0;0
-Gln;1;0;0;0;1;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;1;1;1;1;1;0;0;0
-Lys;0;0;0;0;0;0;1;1
-Arg;1;0;1;2;0;1;0;0
-His;2;1;0;0;0;2;1;0
 ALE1 peptidase;S08.014;ABNORMAL LEAF SHAPE1 g.p. (Arabidopsis thaliana);AtSBT2.4 (Arabidopsis thaliana);meiosis serine protease (Oryza sativa);OsMSP
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;0;2;1;3;1
@@ -416,50 +372,6 @@ Glu;0;0;0;0;3;4;5;4
 Lys;0;0;0;4;2;1;1;1
 Arg;0;0;0;2;4;3;2;3
 His;0;0;0;3;3;3;3;3
-aminopeptidase Ey;M01.016;apdE g.p. (Gallus gallus domesticus);EC 3.4.11.20
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;3;3;3;2;0
-Pro;0;0;0;1;3;1;1;0
-Ala;0;0;0;0;0;0;0;0
-Val;0;0;0;0;0;0;0;0
-Leu;0;0;0;5;3;2;1;1
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;2;2;2;1;1
-Phe;0;0;0;1;2;2;2;3
-Tyr;0;0;0;1;1;1;0;0
-Trp;0;0;0;1;1;1;1;1
-Ser;0;0;0;0;0;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;1;0;1;1;1
-Glu;0;0;0;0;0;0;0;0
-Lys;0;0;0;0;0;1;1;0
-Arg;0;0;0;2;0;0;1;0
-His;0;0;0;0;0;0;0;0
-aminopeptidase N;M01.001;alanine aminopeptidase;alanyl-aminopeptidase;amino-oligopeptidase;aminopeptidase M;aminopeptidase, alanineaminopeptidase, microsomal;ANPEP g.p. (Homo sapiens);AOP;CD13;EC 3.4.11.2;membrane alanyl aminopeptidase (eukaryote);membrane aminopeptidase I;membrane Cys-Gly dipeptidase;microsomal aminopeptidase;neutral aminopeptidase;particle-bound aminopeptidase;peptidase E;pseudo leucine aminopeptidase
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;3;5;2;0;1
-Pro;0;0;0;2;0;0;0;0
-Ala;0;0;0;7;0;0;0;0
-Val;0;0;0;1;3;1;0;0
-Leu;0;0;0;5;3;0;0;2
-Ile;0;0;0;0;0;0;3;1
-Met;0;0;0;1;0;0;0;1
-Phe;0;0;0;3;4;2;3;0
-Tyr;0;0;0;3;2;3;1;0
-Trp;0;0;0;2;7;0;0;0
-Ser;0;0;0;1;0;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;2;0;1;0;0
-Asn;0;0;0;2;0;0;0;1
-Gln;0;0;0;2;1;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;1;0;0;0;0
-Lys;0;0;0;1;0;0;1;0
-Arg;0;0;0;5;1;0;0;0
-His;0;0;0;1;0;0;0;3
 aminopeptidase P3;M24.026;EC 3.4.11.26;ICP55 peptidase;mitochondrial intermediate cleaving peptidase 55 kDa;X-prolyl aminopeptidase P3;XPNPEP3 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;1;4;2
@@ -504,50 +416,6 @@ Glu;0;0;1;0;1;0;1;0
 Lys;0;0;0;1;3;0;1;0
 Arg;2;1;1;2;2;2;0;1
 His;0;1;1;1;4;1;0;1
-angiotensin-converting enzyme peptidase unit 2;M02.004;ACA(T)angiotensin-converting enzyme, testicularangiotensin-converting enzyme, C domain;EC 3.4.15.1;germinal peptidyl-dipeptidase A;peptidyl-dipeptidase A peptidase unit 2;peptidyl-dipeptidase A, C domain;tACE;testicular angiotensin-converting enzyme
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;1;0;2;1;1;1;0
-Pro;0;0;0;1;0;1;0;0
-Ala;0;0;0;0;0;0;0;0
-Val;2;3;2;0;0;0;0;0
-Leu;1;0;0;0;1;2;0;1
-Ile;0;0;0;0;0;0;0;1
-Met;0;0;0;0;0;1;1;0
-Phe;1;2;2;3;3;0;0;0
-Tyr;1;0;0;0;0;1;0;0
-Trp;0;0;0;1;0;0;0;0
-Ser;0;0;2;0;1;0;1;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;1;0
-Gln;2;1;0;1;2;2;0;0
-Asp;0;0;0;1;0;0;0;1
-Glu;2;2;0;0;0;0;0;0
-Lys;0;0;0;0;2;3;2;0
-Arg;0;1;2;1;0;1;0;0
-His;0;0;4;3;3;0;0;0
-angiotensin-converting enzyme-2;M02.006;ACE2;ACEH;EC 3.4.17.23
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;4;0;0;0;0;0;0;0
-Pro;0;5;1;10;0;0;0;0
-Ala;1;0;2;0;0;0;0;0
-Val;0;1;0;0;0;0;0;0
-Leu;0;1;0;1;2;0;0;0
-Ile;0;1;0;1;1;0;0;0
-Met;0;0;2;0;0;0;0;0
-Phe;2;2;1;1;5;0;0;0
-Tyr;1;0;1;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;2;0;0;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;1;0;0;0;0;0;0
-Gln;0;0;1;0;0;0;0;0
-Asp;0;1;0;0;0;0;0;0
-Glu;1;0;1;0;0;0;0;0
-Lys;1;0;2;0;1;0;0;0
-Arg;2;0;0;0;3;0;0;0
-His;1;0;1;1;0;0;0;0
 antarease;M12.191
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;2;1;1;1;1;0
@@ -592,50 +460,6 @@ Glu;0;0;0;0;0;1;0;3
 Lys;7;0;0;4;0;0;1;0
 Arg;2;1;3;2;0;0;2;1
 His;2;1;0;0;0;0;0;1
-ApiP peptidase (Actinoplanes sp. NAI112);M01.036;LabP (Actinoplanes sp. NAI112);lanthipeptide leader peptidase
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;1;0;2;1;0;2
-Pro;1;0;0;1;1;1;3;1
-Ala;0;0;2;1;1;0;0;0
-Val;0;0;0;0;1;1;1;1
-Leu;1;0;4;3;1;4;1;2
-Ile;0;0;1;0;0;0;0;0
-Met;1;0;0;3;1;3;1;0
-Phe;1;0;0;0;0;0;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;1;0;0;0;0
-Ser;0;1;2;1;1;1;1;2
-Thr;1;1;0;1;0;2;2;2
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;1;0;0;3;0;1;2;1
-Asp;0;3;0;1;2;1;1;1
-Glu;0;2;0;1;5;0;3;2
-Lys;0;0;0;0;0;0;0;1
-Arg;0;0;0;0;0;0;0;0
-His;0;0;0;0;0;0;0;0
-aqualysin 1;S08.051;caldolysin (Thermus aquaticus strain T351);EC 3.4.21.111;protease PA720 (Streptomyces rutgersensis)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;2;0;1;1;0;3
-Pro;0;0;2;0;0;0;1;1
-Ala;1;2;1;0;2;0;0;0
-Val;1;1;2;0;0;1;2;0
-Leu;1;2;1;2;1;4;0;1
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;1;0;1;3;1;0;0;0
-Tyr;2;0;0;1;2;1;1;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;1;0;0;1;0
-Thr;0;1;0;0;0;1;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;1;0;1;0;0;0;0;0
-Gln;0;1;0;1;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;2;1;0;1;0;1;0;1
-Lys;0;0;0;1;0;0;0;1
-Arg;1;1;0;0;0;0;1;0
-His;1;0;1;0;2;0;0;1
 ARA12 peptidase;S08.112;ARA12 g.p. (Arabidopsis thaliana);AtSBT1.7 (Arabidopsis thaliana);LeSBT1 peptidase;PsSBT1.1 (Pisum sativum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;1;36;36;37;0
@@ -658,50 +482,6 @@ Glu;0;0;0;0;1;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;1;3;1;1;1;1;1;0
 His;0;0;0;0;0;0;0;0
-arginyl peptidase;S01.281;endoproteinase Arg-C;protease IV (Pseudomonas aeruginosa);prpL endoprotease (Pseudomonas aeruginosa)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;1;0;1;0;1;0
-Pro;1;3;3;0;0;2;1;1
-Ala;2;4;2;0;2;1;4;2
-Val;2;0;0;0;0;2;0;3
-Leu;2;1;2;0;0;1;3;1
-Ile;0;0;0;0;0;2;0;0
-Met;0;1;0;0;0;0;0;0
-Phe;2;0;0;0;0;0;0;0
-Tyr;0;0;0;0;0;1;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;0;0;2;0;1;2
-Thr;0;0;2;0;1;1;0;0
-Cys;0;0;1;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;1
-Gln;0;0;0;0;1;0;1;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;1;0;0;1
-Lys;0;1;0;2;3;0;0;0
-Arg;1;0;0;9;0;1;0;0
-His;0;0;0;0;0;0;0;0
-asclepain A;C01.008;EC 3.4.22.7
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;2;2;0;2;1;1;2
-Pro;0;0;0;0;0;1;1;1
-Ala;1;0;0;1;0;0;0;1
-Val;0;2;1;0;1;0;1;1
-Leu;2;2;0;2;1;2;1;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;1;1;2;2;1;1;1;0
-Tyr;1;0;1;1;1;2;0;1
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;1;0;0;1;0
-Thr;0;0;0;0;1;1;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;1;0;1;0;0;0;0;0
-Gln;0;1;0;1;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;1;0;2;0;0;1;0;2
-Lys;0;0;0;0;0;0;1;1
-Arg;1;1;0;2;0;0;1;0
-His;0;0;1;0;2;0;0;1
 aspergilloglutamic peptidase;G01.002;aspartic proteinase (Aspergillus niger var. macrosporus);aspergillopepsin B;aspergillopepsin II;EC 3.4.23.19;PepB g.p. (Aspergillus niger);proctase A;proteinase A
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;8;3;0;0;6;2;0;0
@@ -944,29 +724,7 @@ Glu;2;3;2;0;0;1;3;0
 Lys;0;0;4;5;1;1;0;1
 Arg;1;3;1;2;0;0;1;1
 His;0;0;0;2;0;0;0;0
-autophagin-1;C54.003;ATG4B g.p. (Homo sapiens);autophagy-related 4B;HsApg4B protein (obs.);HsAtg4B protein;Mername-AA007 peptidase
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;3;0;0;15;0;0;0;0
-Pro;0;0;0;0;0;0;0;0
-Ala;0;0;0;0;0;0;0;0
-Val;0;4;0;0;0;0;0;0
-Leu;0;2;0;0;1;1;1;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;1;0;0;0
-Phe;0;0;13;0;1;0;0;0
-Tyr;0;0;2;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;5;0;0;0;0;0;0;2
-Thr;0;9;0;0;0;0;0;0
-Cys;0;0;0;0;1;0;0;0
-Asn;3;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;4;0;0;0;0;0;1;0
-Lys;0;0;0;0;1;1;0;0
-Arg;0;0;0;0;0;0;0;0
-His;0;0;0;0;0;0;0;0
-avian infectious bronchitis coronavirus 3C-like peptidase;C30.002;3CL endopeptidase (avian infectious bronchitis virus)3C-like endopeptidase  (avian infectious bronchitis virus);3CLpro;IBV picornain 3C-like endopeptidase
+avian infectious bronchitis coronavirus 3C-like peptidase;C30.002;IBV picornain 3C-like endopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;2;4;1
 Pro;2;0;0;0;0;0;0;0
@@ -1120,72 +878,6 @@ Glu;7;6;4;6;0;0;2;5
 Lys;2;2;1;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;2;2;0;0;5;0;2;0
-beta-lytic metallopeptidase;M23.001;achromopeptidase component;EC 3.4.24.32
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;2;13;1;1;0;0
-Pro;0;0;0;0;0;0;0;0
-Ala;0;5;1;0;0;1;2;0
-Val;0;0;3;1;0;0;0;0
-Leu;1;0;1;0;4;1;0;0
-Ile;0;0;2;0;0;0;0;0
-Met;0;0;2;0;0;4;4;0
-Phe;0;2;0;0;2;4;0;1
-Tyr;0;3;0;0;0;0;1;0
-Trp;2;1;0;0;2;1;0;0
-Ser;0;0;0;0;0;0;1;1
-Thr;0;0;1;0;0;0;0;2
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;1;1;1;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;1;0;0;0;0;0;2;0
-Glu;0;1;0;0;0;0;1;0
-Lys;1;0;0;0;0;0;0;0
-Arg;0;0;1;0;0;0;0;1
-His;0;0;0;0;4;0;0;0
-BHRa hemorrhagin (Bitis arietans);M12.137
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;1;1;2;1;1;1;1
-Pro;0;1;0;1;0;0;0;2
-Ala;0;1;0;2;0;0;0;1
-Val;0;3;0;0;0;2;0;2
-Leu;3;0;1;1;4;1;3;0
-Ile;0;1;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;2;1;3;1;0;1
-Tyr;1;0;0;2;0;3;1;0
-Trp;0;0;1;0;0;0;0;0
-Ser;0;1;1;0;0;0;1;0
-Thr;0;0;0;0;0;0;1;1
-Cys;0;0;0;0;0;0;0;0
-Asn;1;0;0;0;0;0;0;0
-Gln;0;1;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;2;1;2;0;1;0;1;0
-Lys;0;0;0;0;0;0;0;0
-Arg;0;1;1;4;0;1;1;0
-His;1;0;2;1;0;1;0;1
-BHRb haemorrhagin (Bitis arietans);M12.306
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;1;1;3;1;1;1;3
-Pro;0;0;0;1;0;0;2;2
-Ala;0;1;0;1;0;0;0;0
-Val;0;2;0;0;0;1;0;1
-Leu;2;0;1;0;3;1;3;0
-Ile;0;1;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;1;2;3;1;0;1
-Tyr;1;0;1;2;2;2;2;0
-Trp;1;1;1;0;1;0;0;0
-Ser;0;0;0;1;0;1;0;0
-Thr;0;0;0;0;0;1;1;1
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;1;1;0;0;0;0;0
-Glu;2;1;1;0;1;0;0;0
-Lys;0;0;0;0;0;0;0;1
-Arg;1;1;1;0;0;2;1;1
-His;1;1;1;1;0;1;0;0
 blotched snakehead birnavirus Vp4 peptidase;S50.004;blotched snakehead birnavirus Vp4 protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;1;3;1
@@ -1230,28 +922,6 @@ Glu;1;0;3;1;0;1;0;0
 Lys;7;1;2;0;1;7;1;0
 Arg;2;0;0;1;2;14;2;2
 His;0;0;1;0;0;1;0;0
-bontoxilysin;M27.002;BoNT/A;BoNT/B;BoNT/C;BoNT/D;BoNT/E;BoNT/F;BoNT/G;BoNT/X;botox A;botulinum neurotoxin type A;botulinum neurotoxin type B;botulinum neurotoxin type C;botulinum neurotoxin type D;botulinum neurotoxin type E;botulinum neurotoxin type F;botulinum neurotoxin type G;botulinum neurotoxin type H;botulinum toxin;Dysport;EC 3.4.24.69;myobloc;neurotoxin, botulinumtoxin, botulinumonabotulinum toxin type A
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;2;0;0;0;0;0;0;0
-Pro;0;0;0;0;0;0;0;0
-Ala;1;3;0;1;3;1;0;0
-Val;0;0;0;0;0;1;0;0
-Leu;0;0;0;0;1;1;1;1
-Ile;0;2;0;0;2;0;0;0
-Met;0;0;0;0;0;2;0;1
-Phe;0;0;0;0;2;0;0;0
-Tyr;0;0;0;0;0;0;0;1
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;3;0;0;1;1;2
-Thr;0;2;0;0;0;1;3;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;1;1;0;0;0;0;0
-Gln;2;0;2;4;0;0;0;0
-Asp;1;1;3;0;0;0;0;0
-Glu;3;0;0;0;0;2;3;1
-Lys;0;0;1;2;1;1;2;4
-Arg;1;1;0;3;1;0;0;0
-His;0;0;0;0;0;0;0;0
 bothropasin;M12.140;Atr-III;atroxlysin-III (Bothrops atrox);caseinolytic endopeptidase Bothrops jararaca;EC 3.4.24.49
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;4;11;6;0;1;3;3
@@ -1274,28 +944,6 @@ Glu;6;4;6;5;0;5;7;6
 Lys;3;1;1;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;1;3;1;4;1;0;4;1
-bovine immunodeficiency virus retropepsin;A02.005;retropepsin (bovine immunodeficiency virus)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;0;0;0;0
-Pro;1;0;0;1;2;0;0;0
-Ala;0;0;2;1;1;2;2;1
-Val;0;1;0;0;1;1;1;1
-Leu;1;0;0;2;1;1;1;0
-Ile;0;1;1;0;0;0;1;0
-Met;1;1;0;1;2;0;0;2
-Phe;0;0;1;2;0;0;0;0
-Tyr;0;0;1;2;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;1;2;2;0;2;4;2;1
-Thr;2;0;0;0;0;0;2;4
-Cys;0;0;0;0;0;0;0;0
-Asn;0;1;3;1;0;0;0;1
-Gln;2;4;1;0;0;2;1;1
-Asp;0;0;0;0;0;0;0;0
-Glu;0;1;0;0;0;0;1;0
-Lys;2;0;0;1;1;1;0;0
-Arg;0;0;0;0;0;0;0;0
-His;1;0;0;0;1;0;0;0
 bovine leukemia virus retropepsin;A02.013;retropepsin (bovine leukemia virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;2;0;0;0;1
@@ -1318,28 +966,6 @@ Glu;0;2;0;0;0;0;1;0
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-bpr peptidase (Dichelobacter nodosus);S08.022;bprB g.p. (Dichelobacter);bprV g.p. (Dichelobacter)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;2;1;0;1;1;1;2
-Pro;0;0;1;0;0;0;1;1
-Ala;0;1;1;0;1;1;0;0
-Val;2;1;1;1;0;1;1;0
-Leu;0;0;2;2;2;2;2;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;1;1;1;2;1;1;1;0
-Tyr;1;0;0;2;2;1;0;2
-Trp;0;0;0;0;0;0;0;0
-Ser;1;0;0;0;0;0;1;1
-Thr;0;1;0;0;0;1;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;1;1;1;1;0;0;0;0
-Gln;0;1;1;1;1;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;2;1;1;0;1;0;0;0
-Lys;0;0;0;1;0;0;0;1
-Arg;1;1;0;1;0;0;0;0
-His;0;1;1;1;1;1;0;1
 brachyurin-C;S01.122;chymotrypsin B (Penaeus spp.);chymotrypsin B1 (Penaeus spp.);chymotrypsin PM1 (Penaeus spp.);chymotrypsin PM2 (Penaeus spp.);collagenolytic endopeptidase (Uca pugilator);crab collagenolytic endopeptidase;EC 3.4.21.32;Moricrase;plasminogen activator sPA (Scolopendra subspinipes)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;4;6;1;3;5;3;4
@@ -1384,72 +1010,6 @@ Glu;2;0;2;0;0;0;4;2
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;2;0
 His;2;0;0;2;4;0;0;0
-butelase 1;C13.009;butelase 2
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;0;0;1;1
-Pro;0;0;0;0;0;0;0;0
-Ala;1;0;0;0;0;0;0;8
-Val;0;0;0;0;0;9;0;0
-Leu;0;0;0;0;0;1;0;0
-Ile;0;0;0;0;0;2;8;0
-Met;0;1;0;0;0;0;0;0
-Phe;0;0;0;0;0;0;0;0
-Tyr;0;6;0;0;0;0;0;2
-Trp;0;0;0;0;0;0;0;0
-Ser;2;0;0;0;0;0;0;0
-Thr;0;0;1;0;0;0;0;1
-Cys;8;2;0;0;0;0;2;0
-Asn;0;0;2;10;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;1;0;2;0;0;1;0
-Glu;0;0;0;0;1;0;0;0
-Lys;1;1;5;0;2;0;0;0
-Arg;0;0;4;0;0;0;0;0
-His;0;1;0;0;9;0;0;0
-C-terminal processing peptidase-1;S41.001;C-terminal processing protease-1;CT441 g.p. (Chlamydia trachomatis );EC 3.4.21.102;Prc g.p. (Escherichia coli, (Haemophilus influenzae);protease Re (Escherichia coli);tail-specific protease-1;Tsp g.p. (Escherichia coli);Tsp protease
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;1;0;0;0;0;2
-Pro;2;0;1;0;0;0;0;1
-Ala;1;0;2;6;1;1;1;1
-Val;0;1;0;2;0;0;0;0
-Leu;2;1;3;0;1;0;1;1
-Ile;0;0;1;0;1;2;1;0
-Met;0;0;0;0;0;1;0;0
-Phe;0;0;1;1;0;1;0;0
-Tyr;1;1;0;0;0;0;0;1
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;0;0;2;1;1;1
-Thr;0;0;0;0;1;1;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;1;0;0;0;0;1;2;0
-Gln;0;0;0;0;0;0;2;0
-Asp;0;2;0;0;0;0;0;0
-Glu;0;2;0;0;0;1;1;0
-Lys;0;0;0;0;1;0;0;2
-Arg;0;0;0;0;2;0;0;0
-His;0;0;0;0;0;0;0;0
-calicivirin;C37.001;Camberwell virus processing peptidase;Chiba virus processing peptidase;EC 3.4.22.66;norovirus 3C-like peptidase;norovirus NS6 endopeptidase;norovirus virus processing peptidase;Norwalk virus processing peptidase;processing peptidase (Southampton virus)processing peptidase (Chiba virus)processing peptidase (Norwalk virus);Southampton virus processing peptidase
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;9;1;0;1
-Pro;0;0;1;0;0;7;1;1
-Ala;2;0;0;0;1;0;1;0
-Val;1;0;1;0;0;0;0;0
-Leu;1;0;7;0;0;0;0;1
-Ile;1;1;0;0;0;0;0;0
-Met;1;0;0;0;0;0;0;0
-Phe;2;0;1;0;0;0;0;0
-Tyr;3;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;0;0;0;0;0;2
-Thr;0;1;1;0;1;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;1;0
-Gln;0;0;0;8;0;2;0;0
-Asp;0;0;0;0;0;0;1;5
-Glu;0;4;0;3;0;0;6;0
-Lys;0;1;0;0;0;1;1;0
-Arg;0;0;0;0;0;0;0;1
-His;0;3;0;0;0;0;0;0
 calpain-1;C02.001;Ca2+-activated neutral protease;calpain I;CANP I;CAPN1 g.p. (Homo sapiens);EC 3.4.22.52;micro-calpain;mu-calpain
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;27;35;14;29;29;36;17;38
@@ -1516,28 +1076,6 @@ Glu;2;2;0;1;1;1;4;1
 Lys;0;1;1;3;3;2;0;1
 Arg;2;1;0;1;1;1;3;2
 His;0;1;0;1;0;0;0;0
-camelysin;M73.001;calY g.p. (Bacillus thuringiensis);casein-cleaving membrane protease (Bacillus cereus);CCMP
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;2;0;0;0;1;0;2;2
-Pro;0;1;1;0;0;1;0;0
-Ala;1;1;1;1;1;0;1;2
-Val;0;0;1;0;3;3;0;0
-Leu;1;3;2;3;2;3;0;2
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;1;1;0;0;0;0;0
-Tyr;0;0;2;4;0;0;1;1
-Trp;0;0;0;0;0;0;0;0
-Ser;1;2;0;0;1;0;0;1
-Thr;0;0;0;0;1;0;0;0
-Cys;1;0;0;0;0;0;0;0
-Asn;0;0;1;0;0;1;1;1
-Gln;1;0;0;1;1;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;1;1;0;1;0;2;1;1
-Lys;0;0;0;0;0;0;1;0
-Arg;0;0;0;1;0;0;0;0
-His;1;0;1;0;0;0;0;0
 candidapepsin SAP1;A01.014;EC 3.4.23.24;SAP1 g.p. (Candida albicans);SAP1 proteinase (Candida albicans);secreted aspartic proteinase 1 (Candida albicans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;0;0;1;1
@@ -1670,50 +1208,6 @@ Glu;3;0;0;0;2;0;1;1
 Lys;0;1;2;7;2;0;3;2
 Arg;0;0;1;3;0;1;0;0
 His;1;1;0;0;0;1;1;0
-canditropsin;A01.037;secreted aspartic protease (Candida tropicalis)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;1;0;0;0;0;1
-Pro;2;0;0;0;0;0;1;1
-Ala;0;3;0;1;0;1;0;0
-Val;0;1;0;1;0;1;0;2
-Leu;2;1;2;0;2;0;3;1
-Ile;0;1;1;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;2;4;1;0;0;0
-Tyr;0;0;0;1;1;2;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;1;1;0
-Thr;0;0;0;0;0;1;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;1;0;0;0
-Gln;0;0;1;1;0;1;0;0
-Asp;0;0;0;0;0;0;1;1
-Glu;2;0;2;0;0;0;0;0
-Lys;0;0;0;1;1;0;0;1
-Arg;2;1;0;0;1;2;0;0
-His;0;0;0;0;0;0;1;0
-carboxypeptidase A1;M14.001;carboxypeptidase A, CPA1 g.p. (Homo sapiens);carboxypolypeptidase;EC 3.4.17.1;pancreatic carboxypeptidase A
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;5;8;0;0;0;0
-Pro;1;1;1;1;0;0;0;0
-Ala;0;0;0;0;1;0;0;0
-Val;1;0;0;1;3;0;0;0
-Leu;0;0;1;2;4;0;0;0
-Ile;1;1;0;0;2;0;0;0
-Met;0;0;0;0;1;0;0;0
-Phe;1;1;1;8;7;0;0;0
-Tyr;1;0;0;0;0;0;0;0
-Trp;0;0;0;0;3;0;0;0
-Ser;0;0;1;0;0;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;1;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;0;0
-Lys;0;0;0;0;0;0;0;0
-Arg;0;0;0;0;0;0;0;0
-His;1;2;2;1;1;0;0;0
 carboxypeptidase A4;M14.017;carboxypeptidase A3 [obs.];carboxypeptidase A3-2 [obs.];CPA4 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;5;6;6;0;0;0;0;0
@@ -1758,28 +1252,6 @@ Glu;2;0;1;0;0;0;0;0
 Lys;1;2;0;0;0;0;0;0
 Arg;2;0;4;6;0;0;0;0
 His;2;3;1;3;4;0;0;0
-carboxypeptidase B2;M14.009;arginine carboxypeptidase;brain-specific carboxypeptidase B;carboxypeptidase B, plasma;carboxypeptidase R;carboxypeptidase U;CPB2 g.p. (Homo sapiens);EC 3.4.17.20;HBCPB;plasma carboxypeptidase B;TAFI;thrombin-activatable fibrinolysis inhibitor
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;2;4;0;0;0;0
-Pro;0;0;1;0;0;0;0;0
-Ala;1;1;0;3;0;0;0;0
-Val;1;0;0;0;0;0;0;0
-Leu;2;1;4;2;0;0;0;0
-Ile;0;0;0;1;0;0;0;0
-Met;1;0;0;0;0;0;0;0
-Phe;1;0;0;1;0;0;0;0
-Tyr;0;1;0;2;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;3;1;2;0;0;0;0;0
-Thr;1;0;1;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;1;3;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;1;2;1;1;0;0;0;0
-Lys;2;3;1;2;10;0;0;0
-Arg;0;1;2;2;9;0;0;0
-His;0;0;0;0;0;0;0;0
 carboxypeptidase E;M14.005;carboxypeptidase H;cobalt-stimulated chromaffin granule carboxypeptidase;crino carboxypeptidase B;EC 3.4.17.10;enkephalin convertase;insulin granule-associated carboxypeptidase;neurotrophic factor-alpha1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;3;6;6;1;0;0;0
@@ -1801,28 +1273,6 @@ Asp;2;3;0;0;0;0;0;0
 Glu;0;0;0;0;0;0;0;0
 Lys;1;1;1;3;4;0;0;0
 Arg;1;1;1;5;19;0;0;0
-His;0;0;0;0;0;0;0;0
-carboxypeptidase N;M14.004;anaphylatoxin inactivator;arginine carboxypeptidase;carboxypeptidase B, plasmacarboxypeptidase, lysine;carboxypeptidase K;CPN1 g.p. (Homo sapiens);creatine kinase conversion factor;EC 3.4.17.3;kininase I;lysine carboxypeptidase;plasma carboxypeptidase B
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;2;2;2;0;0;0;0
-Pro;0;0;1;0;0;0;0;0
-Ala;2;2;0;4;0;0;0;0
-Val;1;0;0;0;0;0;0;0
-Leu;1;0;6;2;0;0;0;0
-Ile;0;0;0;1;0;0;0;0
-Met;1;0;0;0;0;0;0;0
-Phe;1;0;0;1;0;0;0;0
-Tyr;0;1;0;1;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;1;2;0;0;0;0;0;0
-Thr;1;0;1;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;1;0;0;0;0
-Gln;1;3;0;1;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;1;0;1;0;0;0;0
-Lys;3;1;2;1;8;0;0;0
-Arg;0;0;0;0;7;0;0;0
 His;0;0;0;0;0;0;0;0
 carboxypeptidase O;S10.014;carboxypeptidase CPD-1 (Aspergillus niger);cpdS g.p. (Aspergillus saitoi);Mername-AA085 peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
@@ -1846,72 +1296,6 @@ Glu;6;9;9;11;10;0;0;0
 Lys;1;1;1;2;4;0;0;0
 Arg;2;2;3;4;7;0;0;0
 His;0;0;0;1;0;0;0;0
-carboxypeptidase Q;M28.014;dipeptidase, lysosomal;hemopoietic lineage switch 2 protein;LCH1 peptidase;liver annexin-like protein (Rattus norvegicus);lysosomal dipeptidase;PGCP;plasma glutamate carboxypeptidase;Ser-Met dipeptidase
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;5;2;0;0;0
-Pro;0;0;0;0;0;0;0;0
-Ala;0;0;0;4;3;0;0;0
-Val;0;0;0;1;1;0;0;0
-Leu;0;0;0;6;4;0;0;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;3;4;0;0;0
-Phe;0;0;0;0;9;0;0;0
-Tyr;0;0;0;1;5;0;0;0
-Trp;0;0;0;0;1;0;0;0
-Ser;0;0;0;7;2;0;0;0
-Thr;0;0;0;1;0;0;0;0
-Cys;0;0;0;1;0;0;0;0
-Asn;0;0;0;0;1;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;1;0;0;0;0
-Glu;0;0;0;1;0;0;0;0
-Lys;0;0;0;0;0;0;0;0
-Arg;0;0;0;1;0;0;0;0
-His;0;0;0;1;1;0;0;0
-cardiovirus picornain 3C;C03.009;EMCV 3C peptidase;encephalomyocarditis virus 3C peptidase;mengo virus endopeptidase;picornain 3C (cardiovirus)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;7;0;0;0
-Pro;0;0;2;0;0;5;0;2
-Ala;0;0;1;0;0;2;1;0
-Val;0;1;0;0;0;1;1;1
-Leu;3;0;1;0;0;0;2;0
-Ile;0;0;1;0;0;0;1;0
-Met;0;0;0;0;0;0;0;0
-Phe;4;0;0;0;0;0;0;0
-Tyr;0;0;0;0;0;0;1;0
-Trp;1;0;0;0;0;0;0;0
-Ser;0;2;0;0;2;0;1;0
-Thr;0;0;1;0;0;0;0;1
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;1;1;2
-Gln;0;3;1;9;0;0;0;0
-Asp;0;1;0;0;0;0;0;1
-Glu;1;2;1;0;0;0;1;1
-Lys;0;0;0;0;0;0;0;1
-Arg;0;0;1;0;0;0;0;0
-His;0;0;0;0;0;0;0;0
-caspase (insect 1);C14.015;caspase Ice Drosophila;caspase-1 (Drosophila)caspase-1 (Spodoptera);CASPS7 (Aedes aegypti);drICE;Sf-caspase-1
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;1;0;3;2;1;0
-Pro;0;0;0;0;0;1;1;0
-Ala;0;0;0;0;2;0;0;0
-Val;0;0;2;0;1;0;0;0
-Leu;0;0;1;0;0;1;1;1
-Ile;0;0;0;0;0;0;1;0
-Met;0;0;1;0;0;1;0;0
-Phe;1;0;0;0;0;1;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;1;0;2
-Thr;1;1;2;0;0;0;1;2
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;1;1;1;1
-Gln;0;3;0;0;0;0;0;1
-Asp;5;1;1;8;1;0;1;1
-Glu;0;2;0;0;0;0;0;0
-Lys;0;0;0;0;0;0;0;0
-Arg;0;1;0;0;0;0;0;0
-His;0;0;0;0;0;0;1;0
 caspase-1;C14.001;converting enzyme, interleukin 1-beta;EC 3.4.22.36;interleukin 1-beta-converting enzyme
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;4;6;1;62;10;19;26
@@ -1934,28 +1318,6 @@ Glu;19;39;7;5;6;9;10;12
 Lys;2;1;4;0;2;5;8;5
 Arg;0;7;4;3;1;2;2;6
 His;4;4;6;2;2;3;0;3
-caspase-10;C14.011;EC 3.4.22.63;FLICE2;Mch4
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;2;2;1;1
-Pro;0;0;0;0;0;0;0;1
-Ala;1;1;1;0;2;0;1;0
-Val;1;0;3;0;1;0;1;0
-Leu;0;0;1;0;0;1;1;0
-Ile;2;0;0;0;0;0;0;1
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;0;0;0;0;1
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;2;2;0;0;3;1;1;2
-Thr;0;0;3;0;0;0;1;1
-Cys;0;0;0;0;0;1;1;0
-Asn;1;0;0;0;0;0;1;0
-Gln;0;2;0;0;0;0;0;0
-Asp;1;1;0;10;0;1;1;2
-Glu;2;4;1;0;0;0;0;0
-Lys;0;0;0;0;0;3;0;0
-Arg;0;0;0;0;1;0;0;0
-His;0;0;1;0;0;0;0;0
 caspase-14;C14.018;MICE;mini-ICE
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;0;7;1;0;0
@@ -2022,28 +1384,6 @@ Glu;76;180;20;2;9;21;46;56
 Lys;4;12;14;0;8;50;44;34
 Arg;2;8;20;0;14;20;23;22
 His;5;14;9;1;11;11;21;11
-caspase-4;C14.007;EC 3.4.22.57;ICErel-II;Ich-2;TX
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;0;0;3;1;1;1
-Pro;1;0;2;0;0;2;2;0
-Ala;0;0;1;0;2;0;1;2
-Val;0;1;0;0;0;1;3;1
-Leu;1;1;0;0;0;1;1;0
-Ile;1;0;0;0;0;0;0;0
-Met;1;0;0;0;0;0;0;0
-Phe;2;0;0;0;0;1;0;1
-Tyr;1;0;1;0;1;1;0;0
-Trp;1;0;0;0;0;0;0;0
-Ser;1;0;1;0;4;1;0;1
-Thr;0;2;3;0;0;1;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;1;0;0;0;0;0;1
-Asp;1;0;0;11;0;0;0;1
-Glu;0;6;0;0;0;0;0;0
-Lys;0;0;1;0;0;1;1;1
-Arg;0;0;0;0;0;0;0;1
-His;0;0;2;0;0;0;0;0
 caspase-6;C14.005;EC 3.4.22.59;Mch2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;25;34;29;0;464;78;108;119
@@ -2374,28 +1714,6 @@ Glu;513;313;82;534;662;711;563;778
 Lys;546;750;120;906;856;614;644;609
 Arg;418;319;106;532;210;89;102;73
 His;146;132;32;123;112;90;115;76
-cathepsin L1 (arthropod-type);C01.092;cathepsin L-like endopeptidase (insect);Cp1 g.p. (Drosophila melanogaster);cysteine proteinase-1 (Drosophila melanogaster);DcCathL (Delia coarctata);fibroinase (Bombyx mori);HlCPL-A peptidase (Haemaphysalis longicornis);Mername-AA198 peptidase;Mername-AA288 peptidase;ScathL (Sarcophaga peregrina);vitellin-degrading cysteine endopeptidase (Boophilus) microplus);VTDCE
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;2;2;0;1;3;0;1;2
-Pro;0;0;0;0;0;1;1;0
-Ala;1;1;1;0;1;0;0;1
-Val;1;0;3;0;1;1;1;0
-Leu;0;3;2;2;1;2;1;2
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;2;3;1;1;2;1;0
-Tyr;1;0;1;2;2;0;2;1
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;1;0;0
-Thr;0;0;0;0;1;1;0;1
-Cys;0;0;0;0;0;0;0;1
-Asn;0;0;0;1;0;0;0;0
-Gln;1;0;0;0;1;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;1;2;1;1;0;1;0;1
-Lys;0;0;0;0;0;0;1;1
-Arg;1;0;1;2;0;0;1;0
-His;1;1;0;0;0;1;1;0
 cathepsin L1 (Fasciola sp.);C01.033;CL1;FhCL1;FheCL1;FhPcW1 (Fasciola hepatica)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;14;12;8;17;15;13;14;15
@@ -2462,50 +1780,6 @@ Glu;3;3;2;4;6;5;1;3
 Lys;7;5;0;6;5;3;2;1
 Arg;3;4;3;5;3;3;4;3
 His;0;1;2;2;0;3;1;0
-cathepsin N;C9G.001
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;2;1;1;2;0;0;1;0
-Pro;0;0;1;0;0;1;1;0
-Ala;0;0;1;1;2;0;0;1
-Val;1;2;3;0;1;0;2;1
-Leu;3;1;0;1;1;3;2;1
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;3;3;2;1;1;0;1
-Tyr;1;0;0;1;2;1;2;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;1;0;0;0;0
-Thr;0;1;0;0;1;1;0;1
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;1;0;1;0;0
-Gln;0;0;0;0;1;0;1;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;2;1;1;1;0;0;1
-Lys;0;0;0;1;0;0;1;1
-Arg;1;0;2;3;0;1;0;0
-His;1;0;0;0;1;1;0;1
-cathepsin P;C01.038;cathepsin J
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;0;0;0;0
-Pro;0;0;0;0;0;0;0;0
-Ala;0;0;0;0;0;0;0;0
-Val;0;0;0;0;0;1;0;0
-Leu;0;0;9;0;0;1;0;0
-Ile;0;0;1;0;1;1;0;0
-Met;0;0;0;2;0;0;0;0
-Phe;0;0;0;1;0;1;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;9;6;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;10
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;0;0
-Lys;0;10;0;0;0;0;10;0
-Arg;0;0;0;7;0;0;0;0
-His;0;0;0;0;0;0;0;0
 cathepsin S;C01.034;CTSS g.p. (Homo sapiens);EC 3.4.22.27
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;251;257;9;395;279;287;337;243
@@ -2704,28 +1978,6 @@ Glu;0;0;0;0;1;0;1;0
 Lys;1;0;1;0;0;0;0;1
 Arg;2;5;5;0;10;1;10;2
 His;0;0;0;0;0;1;5;14
-chymopapain;C01.002;chymopapain A;chymopapain B;EC 3.4.22.6
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;2;0;0;3;0;0;1
-Pro;0;2;0;0;0;1;1;0
-Ala;2;0;0;0;2;0;0;1
-Val;0;0;5;0;0;0;0;0
-Leu;0;2;1;0;0;1;1;2
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;2;3;1;0;1;1;0
-Tyr;1;0;0;2;1;0;1;1
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;1;0;0
-Thr;0;0;0;0;1;1;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;1;0;0;0;0
-Gln;1;0;0;0;1;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;1;1;0;1;0;0
-Lys;0;0;0;2;0;0;1;1
-Arg;1;0;0;3;0;0;1;0
-His;1;1;0;0;0;1;1;0
 chymosin;A01.006;chymosin A;chymosin B;chymosin C;EC 3.4.23.4;rennet;rennin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;1;0;0;1;0;0
@@ -2814,28 +2066,6 @@ Glu;8;6;4;0;2;2;2;5
 Lys;0;1;1;0;0;1;2;1
 Arg;2;2;0;0;0;1;4;6
 His;0;1;2;0;1;0;0;1
-coagulation factor VIIa;S01.215;Aryoseven;EC 3.4.21.21;F7 g.p. (Homo sapiens) (activated);factor VIIa, coagulation;FVIIa;NovoSeven
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;1;0;0;0;4;4
-Pro;1;0;1;0;0;0;0;2
-Ala;0;1;0;0;1;0;0;0
-Val;0;1;1;0;1;4;0;1
-Leu;3;2;0;0;0;1;0;0
-Ile;0;1;1;0;3;0;0;0
-Met;1;0;0;0;0;1;0;0
-Phe;0;1;0;0;0;2;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;0;0;1;0;1;0
-Thr;0;0;4;0;1;0;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;1;0;0;0;1;0;0;1
-Gln;1;1;1;0;0;0;0;0
-Asp;1;0;0;0;0;0;0;1
-Glu;0;0;0;0;0;1;0;0
-Lys;1;0;0;0;1;0;0;0
-Arg;0;0;0;9;0;0;1;0
-His;0;0;0;0;0;0;2;0
 coagulation factor Xa;S01.216;EC 3.4.21.6;F10 g.p. (Homo sapiens) (activated);factor Xa, coagulation;prothrombase;prothrombinase;Stuart factor (activated);thrombokinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;3;30;0;1;0;9;13
@@ -2858,28 +2088,6 @@ Glu;5;11;6;0;0;1;5;0
 Lys;1;4;1;8;1;1;2;3
 Arg;2;1;0;55;0;0;1;2
 His;0;0;0;0;1;0;4;0
-coagulation factor XIa;S01.213;EC 3.4.21.27;F11 g.p. (Homo sapiens) (activated);factor XIa, coagulation;HEMOLEVEN;plasma thromboplastin antecedent
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;0;0;4;5
-Pro;0;0;2;0;0;0;0;0
-Ala;1;0;1;0;3;0;1;0
-Val;0;0;0;0;4;5;0;2
-Leu;0;4;1;0;0;0;0;0
-Ile;1;0;0;0;1;1;0;1
-Met;0;0;0;0;0;0;0;0
-Phe;0;4;0;0;0;0;1;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;1;0;0;0;0;1
-Ser;0;0;1;0;0;0;0;1
-Thr;0;0;5;0;1;0;3;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;1;0
-Gln;0;1;0;0;0;0;0;0
-Asp;3;0;0;0;0;1;0;0
-Glu;1;1;0;0;0;3;0;0
-Lys;4;1;0;1;0;0;0;0
-Arg;0;0;0;11;0;0;0;0
-His;0;0;1;0;1;0;0;0
 coccolysin;M04.007;EC 3.4.24.30;gelatinase (Enterococcus faecalis);gelE g.p. (Enterococcus faecalis);intracellular endopeptidase (Enterococcus, Streptococcus thermophilus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;1;2;0;3;3;0
@@ -2946,28 +2154,6 @@ Glu;15;4;0;9;0;5;7;12
 Lys;2;3;2;0;1;3;0;2
 Arg;0;7;2;0;1;0;2;2
 His;6;1;4;4;6;7;2;4
-collagenolytic endopeptidase (Geobacillus sp. MO-1);S08.142
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;2;1;1;1;2;1;0;2
-Pro;0;0;1;0;0;1;0;1
-Ala;0;1;1;0;2;0;0;2
-Val;1;0;2;1;0;2;1;0
-Leu;1;2;3;1;2;2;0;2
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;1;1;1;2;1;0;0
-Tyr;2;1;0;2;1;1;2;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;1;0;0;1;0;0
-Thr;0;1;0;0;1;0;1;1
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;1;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;2;2;0;1;0;1;2;0
-Lys;0;0;0;1;0;0;1;0
-Arg;0;1;1;0;0;0;1;1
-His;1;1;0;1;0;0;1;0
 complement component activated C1s;S01.193;C1 esterase;C1s, complement component, activated;calcium-dependent serine proteinase;EC 3.4.21.42
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;9;0;0;1;0;1
@@ -2990,29 +2176,7 @@ Glu;0;0;0;0;0;0;2;0
 Lys;0;0;0;1;2;0;2;1
 Arg;1;0;1;18;0;0;2;1
 His;0;0;0;0;0;0;0;0
-Copia transposon peptidase;A11.001
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;2;1;1;0;0;1;0;1
-Pro;0;0;0;0;0;0;1;0
-Ala;0;2;3;1;1;0;0;0
-Val;2;1;1;0;1;3;1;2
-Leu;1;1;1;1;2;2;1;1
-Ile;1;2;0;0;0;0;0;0
-Met;0;0;0;1;2;0;0;0
-Phe;0;0;2;3;0;0;1;1
-Tyr;0;0;0;1;2;1;1;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;0;0
-Thr;0;0;0;0;0;1;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;1;1;1;2;0;0;1;2
-Lys;0;0;0;0;0;1;2;1
-Arg;1;0;0;0;1;0;0;0
-His;1;0;0;0;0;0;0;0
-coronavirus COVID-19 3C-like peptidase;C30.007;3-chymotrypsin-like protease;3CL(pro);3CLpro;COVID-19 virus main protease;Mpro;nsp5;SARS-CoV-2 M(pro) protease;SARS-CoV-2 main protease
+coronavirus COVID-19 3C-like peptidase;C30.007;COVID-19 virus main protease;Mpro;nsp5;SARS-CoV-2 M(pro) protease;SARS-CoV-2 main protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;2;4;5;4;1;1
 Pro;1;0;0;0;0;0;3;3
@@ -3034,7 +2198,7 @@ Glu;0;1;0;0;1;1;2;1
 Lys;1;1;0;0;0;2;1;1
 Arg;0;6;0;0;0;1;0;1
 His;0;0;0;0;0;1;2;2
-coronavirus picornain 3C-like peptidase-1;C30.001;3CL-PRO;3CLpro;MHV picornain 3C-like endopeptidase;mouse hepatitis coronavirus nsp5;mouse hepatitis coronavirus picornain 3C-like endopeptidase;picornain 3C-like polyprotein endopeptidase (murine hepatitis coronavirus)p803Cpro3CLpromurine hepatitis coronavirus picornain 3C-like endopeptidase
+coronavirus picornain 3C-like peptidase-1;C30.001;MHV picornain 3C-like endopeptidase;mouse hepatitis coronavirus nsp5;mouse hepatitis coronavirus picornain 3C-like endopeptidase;picornain 3C-like polyprotein endopeptidase (murine hepatitis coronavirus)p803Cpro3CLpromurine hepatitis coronavirus picornain 3C-like endopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;8;6;1
 Pro;6;0;0;0;0;0;0;0
@@ -3056,28 +2220,6 @@ Glu;0;0;0;0;0;3;8;0
 Lys;0;3;0;0;0;7;2;1
 Arg;0;11;0;0;0;2;2;1
 His;0;0;0;0;0;0;0;1
-Coxsackievirus-type picornain 3C;C03.011;picornain 3C (Coxsackievirus)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;0;0;10;1;0;0
-Pro;0;0;0;0;0;7;6;1
-Ala;9;0;0;0;0;0;0;0
-Val;1;0;0;0;0;0;0;6
-Leu;0;8;1;0;0;0;0;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;7;0;0;0;0;0
-Tyr;0;0;2;0;0;1;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;1;0
-Thr;0;1;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;10;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;0;0
-Lys;0;0;0;0;0;0;0;0
-Arg;0;0;0;0;0;0;0;0
-His;0;0;0;0;0;0;0;0
 CP790 peptidase (Lactobacillus helveticus CP790);S9G.114
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;0;0;0;5;2;0;1
@@ -3254,50 +2396,6 @@ Glu;2;2;2;2;1;2;0;2
 Lys;0;0;0;1;1;0;1;1
 Arg;1;1;1;1;1;2;3;1
 His;1;1;2;1;2;0;1;1
-cuticle-degrading peptidase of parasitic fungus;S08.056;bassiasin I (Beauveria bassiana);CDEP1 g.p. (Beauveria bassiana);CDEP2 g.p. (Beauveria bassiana);Hasp peptidase (Hirsutella rhossiliensis);P32 peptidase (Pochonia sp.);PeSpr1 (Pleurotus eryngii);PL646 peptidase (Paecilomyces lilacinus);Pr1A g.p. (Metarhizium anisopliae);SprT peptidase (Trichoderma pseudokoningii);VCP1 peptidase (Pochonia chlamydosporia);Ver112 extracellular protease (Lecanicillium psalliotae)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;2;2;0;3;1;1;1
-Pro;0;0;3;0;0;0;0;1
-Ala;4;3;1;0;0;1;0;1
-Val;2;0;2;1;2;1;1;0
-Leu;0;2;2;3;1;1;2;1
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;1;0;0;0;0
-Phe;0;1;0;3;1;1;2;1
-Tyr;1;0;1;0;1;1;0;2
-Trp;0;0;0;0;0;0;0;0
-Ser;1;0;1;0;0;1;0;0
-Thr;0;0;0;0;0;0;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;1;0;1;0;0
-Gln;1;0;0;0;1;0;1;0
-Asp;0;0;0;0;0;0;0;0
-Glu;1;1;1;1;1;1;1;1
-Lys;0;0;0;0;0;0;0;0
-Arg;0;1;0;1;1;0;1;0
-His;0;2;0;1;0;1;1;1
-cytomegalovirus assemblin;S21.002;assemblin (cytomegalovirus);CMV protease;protease No;UL80 g.p. (human cytomegalovirus)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;0;1;0;0
-Pro;0;0;0;0;0;0;0;4
-Ala;1;0;0;13;2;1;0;0
-Val;3;12;0;0;0;3;0;1
-Leu;2;0;0;0;0;0;0;3
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;0;0;0;0;0
-Tyr;3;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;11;1;5;0
-Thr;0;0;0;0;0;1;0;0
-Cys;0;0;0;0;0;2;0;0
-Asn;0;0;5;0;0;0;0;0
-Gln;0;0;1;0;0;0;0;0
-Asp;1;0;1;0;0;0;1;0
-Glu;0;0;1;0;0;0;1;0
-Lys;0;0;3;0;0;0;0;0
-Arg;0;0;0;0;0;0;4;0
-His;0;0;0;0;0;0;0;0
 cytosol alanyl aminopeptidase;M01.010;aminopeptidase III;aminopeptidase PS;aminopeptidase, puromycin-sensitivealanyl aminopeptidase, solublealanyl aminopeptidase, cytosolaminopeptidase, thiol-activatedPSA;aminopolypeptidase;arylamidase;cytosol aminopeptidase III;EC 3.4.11.14;enkephalin-degrading aminopeptidase;human liver aminopeptidase;meiotic prophase aminopeptidase (Arabidopsis thaliana);MP100 brain metalloprotease;MPA1 (Arabidopsis thaliana);PAM-1 aminopeptidase (Caenorhabditis elegans);puromycin-sensitive aminopeptidase;soluble alanyl aminopeptidase;thiol-activated aminopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;2;3;2;0;0
@@ -3319,28 +2417,6 @@ Asp;0;0;0;0;0;0;0;0
 Glu;0;0;0;1;1;1;0;0
 Lys;0;0;0;10;5;1;0;0
 Arg;1;0;0;6;3;1;0;0
-His;0;0;0;0;0;0;0;0
-cytosolic carboxypeptidase 1;M14.028;AGTPBP1 g.p. (Homo sapiens);carboxypeptidase, solublecarboxypeptidase, tubulinyl-Tyr;carboxypeptidase-tubulin;CCP1;EC 3.4.17.17;hypothetical protein flj10682 (Homo sapiens);KIAA1035;Mername-AA217 hypothetical peptidase;Nna1 protein;soluble carboxypeptidase;tubulin carboxypeptidase;tubulinyl-Tyr carboxypeptidase;tyrosine carboxypeptidase
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;6;3;0;0;0;0;0
-Pro;0;0;0;0;0;0;0;0
-Ala;0;0;0;0;0;0;0;0
-Val;0;0;0;0;0;0;0;0
-Leu;0;0;0;0;0;0;0;0
-Ile;0;0;0;0;0;0;0;0
-Met;1;0;0;0;0;0;0;0
-Phe;0;0;0;0;1;0;0;0
-Tyr;1;1;0;0;5;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;9;7;12;17;11;0;0;0
-Lys;0;0;0;0;0;0;0;0
-Arg;0;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
 dactylysin;M9G.026;EC 3.4.24.60;peptide hormone inactivating endopeptidase;peptide-hormone inactivating enzyme (Xenopus);PHIE
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
@@ -3364,28 +2440,6 @@ Glu;1;0;0;0;0;0;0;0
 Lys;2;1;1;1;0;1;2;0
 Arg;1;1;0;0;0;5;1;0
 His;1;0;1;4;3;1;0;0
-DegP peptidase;S01.273;EC 3.4.21.107;high temperature requirement A peptidase;HtrA;protease Do
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;1;0;0;1;1;0
-Pro;0;1;2;0;0;0;0;1
-Ala;4;0;1;0;3;0;0;2
-Val;1;0;0;12;0;1;1;0
-Leu;1;1;2;0;0;0;0;0
-Ile;1;0;0;2;0;0;0;0
-Met;0;0;0;0;1;1;2;1
-Phe;2;0;1;0;0;1;0;1
-Tyr;2;0;0;0;1;1;0;1
-Trp;0;0;0;0;0;0;0;0
-Ser;1;2;1;0;2;0;1;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;1;0;0;0;0
-Asn;0;0;0;0;0;0;0;1
-Gln;1;3;1;1;1;0;1;1
-Asp;0;1;0;0;0;1;0;0
-Glu;0;2;1;0;0;3;2;1
-Lys;0;2;2;0;1;1;1;0
-Arg;0;2;2;0;1;0;0;0
-His;0;0;0;0;0;0;0;0
 dentilisin;S08.024;CTLP;membrane-associated chymotrypsin-like protease;PrtP g.p. (Treponema denticola);trepolisin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;0;0;4;0;0;0
@@ -3452,50 +2506,6 @@ Glu;2;0;3;2;1;1;1;1
 Lys;1;0;1;1;0;0;2;0
 Arg;1;0;2;5;0;0;0;0
 His;4;1;1;1;3;4;0;2
-dibasic processing endopeptidase (unsequenced);U9G.007
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;2;1;0;0;0;1;1;1
-Pro;2;0;1;0;0;0;1;1
-Ala;1;1;0;0;1;2;1;0
-Val;0;0;1;0;0;1;1;1
-Leu;0;2;1;1;0;0;0;1
-Ile;0;0;0;0;0;1;1;0
-Met;0;0;0;0;0;0;0;1
-Phe;0;1;0;0;0;0;0;0
-Tyr;0;0;0;0;0;2;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;1;0;0;0;1;0;1;2
-Thr;0;0;1;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;1;1;0;0;0;0;1;0
-Gln;1;0;1;0;0;0;0;0
-Asp;0;0;2;0;0;0;1;1
-Glu;1;0;1;0;1;1;0;1
-Lys;0;2;1;2;1;0;0;0
-Arg;0;1;0;6;5;0;1;0
-His;0;0;0;0;0;1;0;0
-dipeptidyl-peptidase 4 (bacteria-type 2);S09.013;dipeptidyl-peptidase IV;outer membrane protein adhesin (Capnocytophaga gingivalis)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;3;0;2;2;1;0
-Pro;0;0;0;15;0;4;1;2
-Ala;0;0;3;3;0;1;0;1
-Val;0;0;0;0;1;0;0;0
-Leu;0;0;1;0;0;1;0;1
-Ile;0;0;1;0;1;0;2;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;1;0;1;0;1;2
-Tyr;0;0;2;0;2;0;0;0
-Trp;0;0;1;0;0;0;0;0
-Ser;0;0;2;0;0;3;4;2
-Thr;0;0;0;0;1;0;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;1
-Gln;0;0;1;0;1;1;1;1
-Asp;0;0;0;0;2;0;2;1
-Glu;0;0;0;0;1;0;0;2
-Lys;0;0;1;0;1;0;0;0
-Arg;0;0;2;0;2;2;0;0
-His;0;0;0;0;0;0;1;0
 dipeptidyl-peptidase 7 (Porphyromonas gingivalis-type);S46.001;DPP7 (Porphyromonas gingivalis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;3;1;2;5;0;0
@@ -3540,28 +2550,6 @@ Glu;1;0;5;8;1;1;1;0
 Lys;0;1;0;2;1;1;1;2
 Arg;0;3;0;5;2;4;2;5
 His;2;0;2;0;0;0;0;0
-dipeptidyl-peptidase II;S28.002;carboxytripeptidase;dipeptidyl aminopeptidase II;dipeptidyl arylamidase II;dipeptidyl peptidase 2;dipeptidyl peptidase VII;DPP II;DPP2;DPP7 g.p. (Homo sapiens);EC 3.4.14.2;quiescent cell proline dipeptidase
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;4;0;2;1;1;0
-Pro;0;0;2;18;3;3;0;1
-Ala;0;0;4;7;3;0;0;0
-Val;0;0;0;0;1;0;0;0
-Leu;0;0;1;0;0;0;0;0
-Ile;0;0;0;0;0;0;1;0
-Met;0;0;2;4;1;0;0;0
-Phe;0;0;2;0;1;0;2;1
-Tyr;0;0;1;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;2;0;0;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;2;1;1;1
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;1;0;1;0;0;0
-Lys;0;0;5;0;1;0;0;0
-Arg;0;0;5;0;0;0;0;0
-His;0;0;1;0;0;0;0;0
 dipeptidyl-peptidase III;M49.001;dipeptidyl aminopeptidase III;dipeptidyl arylamidase III;dipeptidyl-peptidase 3;DPP III;DPP3;EC 3.4.14.4;enkephalinase B;red cell angiotensinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;1;2;2;1;1;0
@@ -3606,50 +2594,6 @@ Glu;0;0;0;0;3;0;1;3
 Lys;0;0;1;0;1;0;2;1
 Arg;0;1;2;0;0;1;2;2
 His;0;4;2;0;0;0;1;0
-DmpA aminopeptidase;P01.001;DmpA peptidase (Ochrobactrum anthropi)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;1;16;15;6;2;1
-Pro;0;0;0;0;0;0;0;0
-Ala;2;0;0;6;1;1;0;0
-Val;0;0;0;0;0;0;0;0
-Leu;0;0;0;4;2;1;0;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;5;5;1;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;2
-Ser;0;0;0;2;4;1;1;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;2;1;0
-Gln;0;0;1;0;0;0;0;0
-Asp;0;1;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;0;0
-Lys;0;0;0;3;0;0;0;0
-Arg;0;0;0;3;1;0;0;0
-His;0;0;0;0;0;0;0;0
-duodenase;S01.142;sheep mast cell proteinase-1
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;1;0;0;1;0;0
-Pro;2;0;4;0;0;0;2;0
-Ala;0;0;2;0;0;0;0;0
-Val;1;0;1;0;1;0;2;0
-Leu;0;3;2;3;1;3;1;0
-Ile;1;0;0;0;1;1;0;0
-Met;0;0;0;0;1;0;0;1
-Phe;2;2;0;5;1;0;0;1
-Tyr;0;1;0;2;2;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;0;0;0;0;0;0
-Thr;0;0;1;0;0;0;0;0
-Cys;0;0;0;0;0;0;1;1
-Asn;0;0;0;0;0;0;0;0
-Gln;0;1;1;0;0;0;0;0
-Asp;5;0;1;0;0;0;0;3
-Glu;0;1;0;0;0;0;1;2
-Lys;0;1;0;8;1;2;1;0
-Arg;0;1;0;1;1;0;0;0
-His;0;1;0;0;2;2;0;0
 elastase-1;S01.153;CELA g.p. (Mus musculus);CELA g.p. (Rattus norvegicus);CELA1 g.p. (Homo sapiens);EC 3.4.21.36;elastase I, pancreatic;p6-5 protein;pancreatic elastase;pancreatopeptidase E;PRT-201;vonapanitase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;3;4;2;2;3;1;0
@@ -3716,28 +2660,6 @@ Glu;2;2;0;3;2;4;3;5
 Lys;1;3;4;2;1;2;6;4
 Arg;1;2;0;0;1;1;1;0
 His;2;2;1;1;2;1;1;0
-endopeptidase-A (Hordeum-type);C01.168;EP-A (Hordeum vulgare)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;2;0;0;0;0
-Pro;0;0;0;0;0;19;0;0
-Ala;0;0;0;1;0;0;0;0
-Val;0;0;0;1;0;0;0;0
-Leu;0;0;19;1;0;0;0;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;1;0;0;0;0
-Phe;0;0;1;1;0;0;0;0
-Tyr;0;0;0;1;0;0;0;0
-Trp;0;0;0;1;0;0;0;0
-Ser;0;0;0;1;0;0;0;0
-Thr;0;0;0;1;0;0;0;0
-Cys;0;0;0;1;0;0;0;0
-Asn;0;0;0;1;0;0;0;0
-Gln;0;0;0;0;19;0;0;0
-Asp;0;0;0;1;0;0;0;19
-Glu;0;0;0;1;0;0;0;0
-Lys;0;0;0;1;0;0;0;0
-Arg;0;0;0;3;0;0;0;0
-His;0;0;0;1;0;0;0;0
 endopeptidase-B (Hordeum-type);C01.024;allergen Amb a 11 (Ambrosia artemisiifolia);EP-B1 (Hordeum vulgare);EP-B2 (Hordeum vulgare);EP-B4 (Hordeum vulgare);gliadain (Triticum aestivum);latiglutenase;OsEP3A endopeptidase (Oryza sativa);pREP1 endopeptidase (Oryza sativa);Rep1 endopeptidase (Oryza sativa)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;3;0;4;4;0;0;0
@@ -3826,28 +2748,6 @@ Glu;0;0;0;2;0;0;0;0
 Lys;0;0;0;1;0;2;2;0
 Arg;3;5;2;1;1;1;2;3
 His;0;0;1;0;0;1;0;0
-endothiapepsin;A01.017;aspartic proteinase (Endothia);EC 3.4.23.22;Suparen
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;1;0;0;0;0;2
-Pro;2;0;0;0;0;0;0;1
-Ala;0;3;3;0;0;4;5;0
-Val;0;1;1;0;1;1;0;0
-Leu;0;0;2;1;1;1;2;1
-Ile;0;1;0;0;0;0;0;1
-Met;0;0;0;0;0;1;0;0
-Phe;1;1;0;2;2;0;0;0
-Tyr;0;0;0;1;0;1;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;0;1;0;0;0;0
-Thr;0;0;0;0;0;0;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;1;1;0;0;0;0
-Gln;0;0;0;1;1;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;2;0;1;0;0;1;0;0
-Lys;0;0;0;4;0;0;0;0
-Arg;0;1;0;0;0;1;0;0
-His;0;1;1;0;1;1;0;0
 enteropeptidase;S01.156;EC 3.4.21.9;enterokinase;PRSS7 g.p. (Homo sapiens);TMPRSS15
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;4;0;0;1;5;14;8
@@ -3870,28 +2770,6 @@ Glu;1;2;5;0;0;0;0;1
 Lys;0;0;0;7;0;1;0;0
 Arg;1;0;0;14;1;1;0;0
 His;1;0;0;0;0;0;0;0
-enterovirus picornain 2A;C03.020;Coxsackievirus-type picornain 2A;EC 3.4.22.29;endopeptidase 2A, picornavirusprotease 2A (poliovirus)picornain 2A (Coxsackievirus);enterovirus 71 picornain 2A;human hand, foot and mouth disease virus 2A peptidase;picornain 2A (poliovirus);picornavirus endopeptidase 2A;picornavirus peptidase 2A (poliovirus);poliovirus protease 2A;poliovirus-type picornain 2A;swine vesicular disease virus picornain 2A
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;2;1;0;11;0;2;2
-Pro;1;0;1;0;0;4;2;2
-Ala;0;0;0;0;0;3;0;2
-Val;1;0;0;1;0;1;0;0
-Leu;7;1;0;0;0;0;0;2
-Ile;0;1;0;1;0;0;0;0
-Met;2;1;0;2;0;0;0;0
-Phe;0;0;0;0;0;1;1;0
-Tyr;0;0;0;2;0;0;1;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;3;0;1;0;1;2;0
-Thr;1;3;7;3;0;1;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;2;0;0;0;0;0
-Gln;0;1;1;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;0;0
-Lys;0;0;0;0;0;0;0;0
-Arg;0;0;0;2;0;0;3;2
-His;0;0;0;0;0;0;0;1
 epitheliasin;S01.247;plasmic transmembrane protein X;serine endopeptidase TMPRSS2;TMPRSS2;TMPRSS2 g.p. (Homo sapiens);transmembrane protease, serine 2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;2;0;4;1;4;7
@@ -3914,7 +2792,7 @@ Glu;2;1;1;0;1;1;2;5
 Lys;1;4;4;6;3;2;1;0
 Arg;7;2;5;15;3;4;1;2
 His;0;0;1;0;0;0;1;0
-equine arteritis virus serine peptidase;S32.001;3CLSP;EC 3.4.21.114;nonstructural protein 4;nsp4 protease
+equine arteritis virus serine peptidase;S32.001;EC 3.4.21.114;nonstructural protein 4;nsp4 protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;1;10;1;0;0
 Pro;0;0;1;0;0;0;0;1
@@ -4024,28 +2902,6 @@ Glu;1;1;0;0;0;0;1;0
 Lys;1;3;5;2;3;1;1;0
 Arg;1;0;2;13;1;0;1;1
 His;1;1;0;0;0;2;0;0
-falcilysin;M16.011;metalloendopeptidase (Plasmodium falciparum)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;0;0;1;0;0;1
-Pro;0;0;0;0;0;0;2;0
-Ala;3;2;0;0;0;0;2;0
-Val;0;1;1;0;1;1;1;0
-Leu;2;1;0;2;1;1;2;0
-Ile;1;0;0;0;0;1;0;0
-Met;0;0;0;0;0;1;0;0
-Phe;0;1;0;0;1;2;0;0
-Tyr;0;1;0;0;1;0;0;0
-Trp;1;0;0;0;0;0;0;0
-Ser;0;0;2;0;0;1;1;1
-Thr;1;2;0;1;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;1;1;2
-Gln;0;0;2;0;1;0;0;1
-Asp;0;0;0;2;2;0;0;1
-Glu;0;0;0;0;0;0;1;0
-Lys;0;1;3;4;1;0;0;2
-Arg;0;0;0;1;1;2;0;0
-His;1;1;2;0;0;0;0;2
 falcipain-2;C01.046;falcipain-2A (Plasmodium falciparum);falcipain-2B (Plasmodium falciparum);FP2B protein (Plasmodium falciparum);vivapain-2 (Plasmodium vivax)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;10;7;4;11;8;11;9;10
@@ -4112,28 +2968,6 @@ Glu;1;1;1;1;2;0;0;0
 Lys;1;1;1;1;1;0;0;0
 Arg;3;3;3;4;3;0;0;0
 His;1;1;1;2;2;0;0;0
-feline calicivirus 3C-like peptidase;C24.002;3C endopeptidase (feline calicivirus)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;2;2;1;1
-Pro;1;0;0;0;0;0;2;1
-Ala;0;1;4;0;2;1;1;0
-Val;0;1;0;0;0;1;0;0
-Leu;0;0;0;0;0;0;0;1
-Ile;2;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;1;0
-Phe;3;0;0;0;0;0;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;1;0;0;0;0;0;0;0
-Ser;0;1;3;0;1;1;0;2
-Thr;0;1;0;0;1;0;0;0
-Cys;0;0;0;0;0;1;0;0
-Asn;0;0;0;0;1;0;0;1
-Gln;0;0;0;1;0;0;0;0
-Asp;0;0;0;0;1;0;0;0
-Glu;0;1;1;7;0;0;0;0
-Lys;1;1;0;0;0;2;0;1
-Arg;0;2;0;0;0;0;2;1
-His;0;0;0;0;0;0;1;0
 feline immunodeficiency virus retropepsin;A02.007;retropepsin (feline immunodeficiency virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;0;0;0;0;0;2
@@ -4200,50 +3034,6 @@ Glu;5;0;4;0;0;0;4;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;1;0;1;0;0;0;0
 His;0;0;0;5;0;0;0;0
-fibroblast activation protein alpha subunit;S09.007;antiplasmin-cleaving enzyme;APCE;EC 3.4.21.B28;FAP alpha;seprase
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;7;0;2;1;4;0
-Pro;4;0;0;10;0;0;0;0
-Ala;1;0;1;0;0;0;0;0
-Val;0;0;0;0;0;0;0;0
-Leu;0;0;0;0;1;0;0;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;1;0;0;0;0;0;0
-Phe;0;0;0;0;0;4;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;2;0;0;2;0;0;0
-Thr;2;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;3;0;0;0
-Gln;0;0;0;0;0;3;0;8
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;1;0;0;0;3;0
-Lys;0;0;0;0;0;0;0;0
-Arg;0;0;0;0;0;0;1;0
-His;0;4;0;0;0;0;0;0
-ficin;C01.006;EC 3.4.22.3;ficain;ficin E
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;2;1;0;0;0;1
-Pro;1;0;0;0;0;0;1;2
-Ala;0;1;0;1;0;0;1;0
-Val;0;1;2;0;0;1;1;1
-Leu;2;1;3;1;2;2;1;0
-Ile;0;1;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;2;6;2;1;0;0;0
-Tyr;0;0;0;1;1;1;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;1;0;0;2;2;0;1;0
-Thr;0;1;1;0;1;2;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;1;0;1
-Gln;0;0;0;1;0;0;0;0
-Asp;0;0;0;0;0;0;0;1
-Glu;2;0;0;0;0;0;1;2
-Lys;1;0;1;2;1;1;1;1
-Arg;1;1;0;5;0;0;0;0
-His;1;1;0;1;1;1;0;0
 flavastacin;M12.066;EC 3.4.24.76
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;2;0;2;3;0
@@ -4420,7 +3210,7 @@ Glu;1;1;3;0;0;1;0;1
 Lys;4;1;3;1;1;0;1;1
 Arg;0;1;0;24;1;1;2;1
 His;0;0;1;0;0;0;0;0
-gingipain RgpB;C25.003;50 kDa gingipain;Arg-gingipain B;gingipain R2;RgpB g.p. (Porphyromonas gingivalis)
+gingipain RgpB;C25.003;Arg-gingipain B;gingipain R2;RgpB g.p. (Porphyromonas gingivalis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;0;0;3;0;3;2
 Pro;0;1;0;0;0;1;1;0
@@ -4442,28 +3232,6 @@ Glu;0;0;2;0;0;0;1;1
 Lys;0;2;2;4;1;1;0;2
 Arg;0;0;2;12;2;0;0;1
 His;3;2;1;0;2;4;2;2
-glutamyl endopeptidase C;S09.021;CGEP
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;2;0;3;0;0;0;2;1
-Pro;0;1;4;0;0;2;0;1
-Ala;3;1;0;0;2;0;0;0
-Val;0;0;0;0;2;0;1;0
-Leu;2;2;2;0;1;1;2;0
-Ile;0;0;1;0;1;0;0;2
-Met;0;0;0;0;0;0;0;0
-Phe;1;1;0;0;1;2;0;0
-Tyr;0;0;1;0;0;0;1;1
-Trp;0;0;0;0;0;1;0;0
-Ser;1;2;0;0;3;1;2;2
-Thr;0;1;1;0;1;1;0;0
-Cys;0;0;1;0;0;0;0;0
-Asn;1;2;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;1;0
-Asp;0;2;0;0;0;1;0;2
-Glu;0;0;0;15;2;2;0;0
-Lys;1;0;0;0;0;1;1;1
-Arg;0;1;1;0;0;0;0;0
-His;0;0;0;0;0;0;1;0
 glutamyl endopeptidase I;S01.269;EC 3.4.21.19;endopeptidase Glu-C;endoprotease Glu-C;endoproteinase Glu-C;Esp peptidase (Staphylococcus epidermidis);GluC;GluSE (Staphylococcus epidermidis);GluSW (Staphylococcus warneri);GluV8 (Staphylococcus aureus);gseA g.p. (Staphylococcus epidermidis);Spase;sspA g.p. (Staphylococcus aureus);staphylococcal serine proteinase;V8 proteinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;264;194;154;62;341;377;287;215
@@ -4486,28 +3254,6 @@ Glu;367;331;450;3977;58;245;220;159
 Lys;399;363;426;3;321;374;464;464
 Arg;173;191;208;10;227;229;285;237
 His;79;112;68;0;110;77;118;83
-glutamyl peptidase BI;S01.443;glutamyl endopeptidase (Bacillus intermedius-type)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;1;0;2;1;0;1
-Pro;0;0;0;0;0;0;0;0
-Ala;2;2;0;0;1;0;0;2
-Val;1;0;4;0;2;1;0;0
-Leu;0;2;4;0;0;2;0;2
-Ile;0;1;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;1;0;0;0;1;0;1;1
-Tyr;2;1;0;0;1;3;2;1
-Trp;0;0;0;0;0;0;0;1
-Ser;0;1;1;0;2;2;0;0
-Thr;0;1;0;0;0;0;0;0
-Cys;0;0;0;0;0;1;1;0
-Asn;0;0;0;0;1;0;0;1
-Gln;1;1;1;0;1;0;1;1
-Asp;0;0;0;4;0;0;0;0
-Glu;0;0;0;7;0;1;0;0
-Lys;1;0;2;0;0;0;1;0
-Arg;1;2;0;0;1;1;2;0
-His;1;1;0;0;0;0;1;0
 glutamyl peptidase BL;S01.271;glutamyl endopeptidase (Bacillus licheniformis-type);GSE-BL
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;3;1;0;1;0;2;1
@@ -4552,28 +3298,6 @@ Glu;1;1;3;0;0;0;0;0
 Lys;0;4;3;0;1;0;1;1
 Arg;0;0;0;1;0;0;0;2
 His;0;0;1;0;0;0;1;2
-glycyl aminopeptidase;M61.001
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;5;3;3;2;1
-Pro;0;0;0;1;0;5;0;0
-Ala;0;0;0;6;8;3;4;3
-Val;0;0;0;0;0;0;0;0
-Leu;0;0;0;4;2;2;1;2
-Ile;0;0;0;1;1;1;1;2
-Met;0;0;0;1;0;0;0;0
-Phe;0;0;0;0;2;2;2;1
-Tyr;0;0;0;1;0;0;5;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;1;1;1
-Asp;0;0;0;1;0;0;0;0
-Glu;0;0;0;4;1;1;1;0
-Lys;0;0;0;1;0;0;0;5
-Arg;0;0;0;1;1;0;0;0
-His;0;0;0;0;0;0;0;0
 gpr peptidase;A25.001;EC 3.4.24.78;germination protease (bacterial);gpr g.p. (Bacillus megaterium);gpr protease;spore protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;6;0;0;0;1;0;0
@@ -4728,28 +3452,6 @@ Glu;25;251;85;12;65;36;175;158
 Lys;412;69;84;41;207;92;127;126
 Arg;72;49;23;28;13;10;14;23
 His;39;15;7;4;10;18;10;31
-grifolisin;S53.010
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;2;1;3;2;0;1;1;0
-Pro;0;0;2;0;0;0;1;2
-Ala;0;2;2;2;0;0;1;0
-Val;2;2;0;0;2;1;2;1
-Leu;3;0;0;2;1;2;1;1
-Ile;0;0;0;1;0;0;1;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;1;1;4;1;0;1;2
-Tyr;0;0;0;0;3;2;0;1
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;0;1;0;0;0;0
-Thr;0;0;0;0;0;1;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;1;0;0
-Gln;0;0;0;0;0;0;1;0
-Asp;0;1;0;0;1;0;0;0
-Glu;1;1;1;1;1;1;0;1
-Lys;0;0;0;0;0;0;0;1
-Arg;1;1;1;0;1;2;0;0
-His;0;0;1;0;1;0;1;1
 griselysin;M04.017;metalloendopeptidase I (Streptomyces griseus);metalloendopeptidase II (Streptomyces griseus);neutral endopeptidase (Streptomyces griseus);Npr protease (Streptomyces sp.);pronase metalloendopeptidase component;SGMP I;SGMP II;SGMP II;TAMEP;TGase-activating protease (Streptomyces mobaraensis);transglutaminase-activating metalloendopeptidase (Streptomyces mobaraensis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;1;5;26;0;7;3;0
@@ -4772,28 +3474,6 @@ Glu;0;0;0;0;0;0;0;0
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;0;0;1;1;0;0
 His;0;0;0;0;0;0;0;0
-hemorrhagic toxin I (Gloydius halys blomhoffii);M12.309;HR-I (Gloydius halys blomhoffii)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;2;2;1;2;2;1;1;2
-Pro;0;0;0;1;0;0;1;1
-Ala;0;1;0;2;0;0;0;2
-Val;1;2;0;0;0;3;1;2
-Leu;3;1;1;0;7;2;3;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;0;1;1;0;0
-Tyr;0;0;1;2;1;2;1;0
-Trp;1;0;2;0;0;0;0;0
-Ser;0;1;2;2;0;0;0;1
-Thr;0;0;0;0;0;0;0;1
-Cys;0;0;0;0;0;0;0;0
-Asn;0;1;0;0;0;0;0;0
-Gln;0;0;1;0;0;0;0;0
-Asp;0;1;0;0;0;0;0;0
-Glu;1;1;2;0;0;0;2;1
-Lys;0;0;0;0;0;0;0;0
-Arg;0;0;2;0;0;1;1;1
-His;1;1;0;3;1;0;0;0
 hepsin;S01.224;EC 3.4.21.106;HPN g.p. (Homo sapiens);TMPRSS1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;6;7;6;1;21;10;21;23
@@ -4970,7 +3650,7 @@ Glu;0;1;0;0;0;0;0;0
 Lys;3;9;3;1;15;8;15;7
 Arg;11;5;3;95;7;4;0;0
 His;1;0;2;0;7;1;4;1
-human coronavirus 229E main peptidase;C30.003;3C-like protease;3CLpro;Mpro;porcine epidemic diarrhea virus main peptidase
+human coronavirus 229E main peptidase;C30.003;Mpro;porcine epidemic diarrhea virus main peptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;1;3;1;0
 Pro;1;0;0;0;0;0;0;0
@@ -5014,28 +3694,6 @@ Glu;6;6;21;0;5;6;14;6
 Lys;3;0;0;0;0;0;0;2
 Arg;2;1;0;0;0;0;1;0
 His;5;1;0;0;0;0;1;2
-human enterovirus 71 3C peptidase;C03.014;EV71;human hand, foot and mouth disease virus 3C peptidase
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;0;0;7;3;0;1
-Pro;0;0;0;0;0;2;2;1
-Ala;8;1;0;0;0;0;0;0
-Val;0;3;1;0;0;1;1;1
-Leu;0;1;3;0;0;0;0;1
-Ile;0;0;1;0;0;0;1;0
-Met;0;1;1;0;0;0;0;0
-Phe;0;0;1;0;0;1;2;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;1;0
-Ser;0;2;0;0;3;1;2;0
-Thr;0;2;1;0;0;0;0;1
-Cys;1;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;10;0;0;0;1
-Asp;0;0;0;0;0;1;0;1
-Glu;0;0;2;0;0;1;0;0
-Lys;0;0;0;0;0;0;0;1
-Arg;0;0;0;0;0;0;1;2
-His;0;0;0;0;0;0;0;0
 hyicolysin;M30.001;neutral protease (Staphylococcus hyicus);ShpI g.p. (Staphylococcus hyicus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;1;1;0;0;0;0;1
@@ -5058,28 +3716,6 @@ Glu;1;0;0;0;0;0;1;0
 Lys;1;0;1;2;1;0;2;2
 Arg;0;0;1;2;0;2;1;1
 His;0;0;0;1;0;1;0;0
-IgdE peptidase (Streptococcus suis);C113.001
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;3;0;0;0;0;0;0
-Pro;1;1;4;6;0;8;0;0
-Ala;0;0;0;0;0;0;0;0
-Val;3;0;0;0;0;0;0;0
-Leu;0;0;0;0;0;0;0;0
-Ile;0;0;0;1;0;0;7;1
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;0;0;0;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;0;0
-Thr;3;1;0;1;0;0;0;0
-Cys;0;0;0;0;8;0;0;7
-Asn;0;0;0;0;0;0;0;0
-Gln;1;0;1;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;1;0
-Lys;0;3;0;0;0;0;0;0
-Arg;0;0;3;0;0;0;0;0
-His;0;0;0;0;0;0;0;0
 immune inhibitor A peptidase (Bacillus sp.);M06.001;IgAlysin;InhA g.p. (Bacillus thuringiensis);InhA1 peptidase;thuringalysin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;4;2;4;2;5;2;2
@@ -5102,28 +3738,6 @@ Glu;1;0;2;0;0;2;0;0
 Lys;6;2;8;4;0;3;7;0
 Arg;1;2;0;1;0;2;2;2
 His;0;0;0;0;0;0;0;0
-infectious pancreatic necrosis birnavirus Vp4 peptidase;S50.001;birnavirus-type endopeptidase, infectious pancreatic necrosis virus;EC 3.4.21.115;infectious pancreatic necrosis birnavirus Vp4 protease;Ns protease;Vp4 protease (infectious pancreatic necrosis birnavirus)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;0;5;4;0
-Pro;1;0;0;0;0;0;1;1
-Ala;1;1;0;5;3;0;1;0
-Val;0;1;0;0;0;0;0;1
-Leu;0;0;0;0;0;0;0;0
-Ile;0;0;2;0;0;1;0;0
-Met;0;0;1;0;0;0;1;0
-Phe;0;1;0;0;0;1;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;1;0;1;0;1;0
-Ser;0;4;0;0;2;0;0;1
-Thr;2;1;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;2;0;0;0;0;0
-Gln;0;0;1;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;1
-Glu;1;0;0;0;0;0;0;0
-Lys;1;0;1;1;0;1;0;0
-Arg;1;0;0;2;2;0;0;3
-His;1;0;0;0;0;0;0;1
 insulysin;M16.002;EC 3.4.24.56;insulin protease;insulin-degrading enzyme;insulinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;14;6;6;3;14;16;8;5
@@ -5278,28 +3892,6 @@ Glu;3;1;0;0;1;0;3;3
 Lys;2;2;1;7;1;1;1;3
 Arg;0;1;1;5;1;0;0;0
 His;1;1;1;0;0;3;0;1
-intramembrane aspartyl peptidase (Methanoculleus marisnigri JR1);A22.015;MCMJR1 peptidase (Methanoculleus marisnigri);presenilin homolog PSH1
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;1;1;1;0;0;0;0
-Pro;1;1;0;0;0;0;0;0
-Ala;2;1;0;1;0;2;1;1
-Val;1;2;2;1;1;1;0;1
-Leu;1;2;5;3;3;2;1;1
-Ile;0;0;0;0;1;0;1;0
-Met;1;0;0;1;2;2;1;2
-Phe;1;0;0;1;1;0;1;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;1;2;2
-Thr;0;1;0;0;0;0;1;0
-Cys;0;0;0;0;0;0;0;1
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;0;0
-Lys;0;0;0;0;0;0;0;0
-Arg;0;0;0;0;0;0;0;0
-His;0;0;0;0;0;0;0;0
 jararhagin;M12.138;batroxhagin (Bothrops atrox);EC 3.4.24.73;HF2-proteinase;jararafibrase I;venom endopeptidase (Bothrops jararaca);venom endopeptidase Bothrops jararaca
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;4;5;3;0;1;3;2
@@ -5366,28 +3958,6 @@ Glu;4;1;1;0;0;0;0;0
 Lys;0;1;1;2;1;2;3;0
 Arg;0;2;1;15;6;6;3;3
 His;0;0;1;0;0;0;1;1
-kallikrein 1-related peptidase b9 (Mus musculus);S01.071;EGF-BP C;epidermal growth factor binding protein 3 (Mus musculus);epidermal growth factor binding protein C (Mus musculus);kallikrein 9 (Mus musculus);kallikrein mK9 (Mus musculus);Klk1b9 g.p. (Mus musculus);Klk9 [obs.] g.p. (Mus musculus);mK9;PRCE C;prorenin-converting enzyme C
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;0;0;1;1
-Pro;0;1;0;0;0;1;1;1
-Ala;0;0;1;0;0;1;0;0
-Val;0;0;1;0;1;1;0;1
-Leu;0;2;2;0;0;0;2;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;1;0;0;0;0;0;0
-Phe;2;0;1;0;0;0;0;0
-Tyr;0;0;0;0;0;1;1;1
-Trp;1;0;0;0;0;0;0;0
-Ser;1;0;0;0;2;2;0;1
-Thr;0;2;0;0;0;0;1;1
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;1;0;0;0
-Gln;0;1;0;0;0;0;0;0
-Asp;0;0;1;0;0;0;0;0
-Glu;1;3;0;0;0;0;0;0
-Lys;0;0;5;1;0;0;0;0
-Arg;1;1;1;13;1;0;0;0
-His;1;0;0;0;1;0;0;0
 kallikrein 1-related peptidase c2 (Rattus norvegicus);S01.172;kallikrein klk1c2 (Rattus sp.);kallikrein rk2 (Rattus sp.);tonin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;2;0;3;1;2;2
@@ -5410,50 +3980,6 @@ Glu;0;0;2;0;0;1;0;0
 Lys;0;1;1;0;0;0;0;0
 Arg;0;1;0;12;0;0;0;0
 His;0;3;0;0;4;0;0;0
-kallikrein 1-related peptidase c9 (Rattus sp.);S01.407;kallikrein rK9 (Rattus sp.);Klk1c9 g.p. (Rattus norvegicus);rKLK-9;S3 protein
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;2;0;0;4;1;2;1
-Pro;0;1;3;0;0;0;0;0
-Ala;4;0;1;0;0;0;0;0
-Val;1;1;0;0;0;0;1;0
-Leu;1;0;0;0;0;2;2;2
-Ile;2;0;1;0;0;1;0;0
-Met;0;1;0;0;0;0;0;0
-Phe;0;0;2;1;0;1;1;0
-Tyr;0;0;1;1;0;1;0;2
-Trp;1;1;0;0;1;1;0;0
-Ser;0;1;1;0;0;0;1;2
-Thr;0;1;1;0;0;1;0;1
-Cys;0;1;0;0;1;1;1;0
-Asn;1;2;2;0;1;0;0;1
-Gln;0;0;0;0;0;0;0;0
-Asp;1;0;0;0;0;0;1;1
-Glu;0;0;1;0;0;0;0;0
-Lys;0;0;1;1;1;1;0;0
-Arg;0;1;0;11;0;0;1;0
-His;0;1;0;0;2;0;0;0
-kallikrein-related peptidase 11;S01.257;hippostasin;kallikrein 11;kallikrein 11 (Homo sapiens);kallikrein 11-like peptidase (Mus musculus );KLK11 g.p. (Homo sapiens);PRSS20 [obs.] g.p. (Homo sapiens);TLSP peptidase
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;0;0;0;0;3;8
-Pro;0;1;3;0;0;0;0;0
-Ala;1;0;1;0;0;0;0;0
-Val;0;1;0;0;0;3;0;0
-Leu;0;1;1;0;1;0;0;0
-Ile;2;0;0;0;7;4;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;1;3;0;0;1;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;2;1;5;0;0;0;0;0
-Thr;0;1;1;0;0;0;0;0
-Cys;0;1;0;0;0;0;0;0
-Asn;0;0;2;0;0;0;3;0
-Gln;0;3;0;1;0;0;0;0
-Asp;1;0;0;0;0;0;0;0
-Glu;1;2;0;0;0;0;0;0
-Lys;0;0;0;3;0;0;1;0
-Arg;0;0;0;12;0;0;0;0
-His;0;0;0;0;0;0;1;0
 kallikrein-related peptidase 12;S01.020;kallikrein 12;kallikrein-like protein 5;KLK-L5 [obs.] g.p. (Homo sapiens);KLK12 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;0;0;1;0;6;11
@@ -5762,28 +4288,6 @@ Glu;6;18;2;0;32;12;13;12
 Lys;28;13;169;1;0;3;14;8
 Arg;9;6;13;191;0;2;1;1
 His;10;22;0;0;2;1;9;5
-kistomin (Calloselasma rhodostoma);M12.161;rhodostoxin (Calloselasma rhodostoma)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;2;2;1;1;0;1;1
-Pro;0;0;0;0;0;0;0;1
-Ala;0;1;0;1;1;0;1;1
-Val;0;2;0;1;0;2;1;1
-Leu;3;0;1;0;3;1;1;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;1;0;1;2;1;1;1
-Tyr;0;0;0;1;0;2;0;1
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;2;1;0;0;0;0
-Thr;1;0;0;0;0;2;2;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;1;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;3;0;3;1;1;0;1;3
-Lys;0;0;0;0;0;0;0;0
-Arg;0;1;0;1;0;1;0;0
-His;0;0;0;1;1;0;0;0
 KPC2-type peptidase;S08.109;C51E3.7B protein (Caenorhabditis elegans);EGL-3 proprotein convertase (Caenorhabditis elegans)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;52;14;0;12;18;6;11
@@ -5806,28 +4310,6 @@ Glu;3;9;0;0;6;3;12;7
 Lys;2;3;91;10;7;0;0;2
 Arg;15;1;3;104;3;3;5;9
 His;3;1;0;0;1;4;1;2
-kumamolisin;S53.004;acid endopeptidase, pepstatin-insensitive (Bacillus);kumamolysin;pepstatin-insensitive acid proteinase (Bacillus);pepstatin-insensitive carboxyl proteinase (Bacillus)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;4;0;0;0;0;1;1
-Pro;0;0;0;0;0;0;3;0
-Ala;0;0;4;0;0;0;0;1
-Val;5;1;0;1;0;1;4;0
-Leu;0;0;0;4;2;5;0;1
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;1;0;4;3;0;0;0;0
-Tyr;0;0;0;0;7;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;1;0;0;0;0;1
-Thr;0;0;0;0;0;3;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;1;1;0;1;0;0;0
-Gln;0;0;1;1;0;1;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;4;0;0;0;0;1;0
-Lys;0;0;0;0;0;0;0;3
-Arg;3;0;0;0;0;0;0;0
-His;0;0;0;2;1;0;1;0
 kumamolisin-B;S53.005;acid endopeptidase, pepstatin-insensitive (Bacillus);J-4 serine-carboxyl proteinase (Bacillus coagulans);pepstatin-insensitive acid proteinase (Bacillus);pepstatin-insensitive carboxyl proteinase (Bacillus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
@@ -6004,28 +4486,6 @@ Glu;1;0;3;0;0;0;0;1
 Lys;0;0;1;1;1;1;0;0
 Arg;1;1;1;1;0;4;0;0
 His;1;1;0;1;0;0;1;0
-legumain (plant alpha form);C13.002;alphaVPE;HvVPE3 (Horeum vulgare);HvVPE4 (Horeum vulgare);LeCp peptidase;proteinase B;See2beta peptidase (Zea mays)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;0;0;3;1;1;0
-Pro;0;0;0;0;1;0;0;0
-Ala;0;0;0;0;0;0;0;0
-Val;0;0;0;0;0;3;0;1
-Leu;0;0;1;0;0;2;0;0
-Ile;0;0;0;0;1;2;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;0;0;0;1;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;2;0;0;1;0;0;2
-Thr;2;5;0;0;1;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;7;0;0;1;1
-Gln;1;1;0;0;0;0;0;0
-Asp;0;0;3;1;0;0;0;0
-Glu;4;0;0;0;2;1;6;5
-Lys;1;0;0;0;0;0;0;0
-Arg;1;0;5;1;0;0;0;0
-His;0;0;0;0;0;0;0;0
 legumain (plant beta form);C13.001;asparaginyl endopeptidase;bean endopeptidase;betaVPE;citvac;EC 3.4.22.34;HvVPE1 (Horeum vulgare);HvVPE2 (Horeum vulgare);nucellain;vacuolar processing enzyme;vicilin peptidohydrolase;VmPE-1;VPE
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;2;1;3;0
@@ -6092,28 +4552,6 @@ Glu;1;0;0;0;0;1;2;1
 Lys;2;1;0;1;0;9;9;1
 Arg;1;3;1;3;0;3;1;1
 His;1;0;0;0;0;1;0;0
-leucolysin;M12.136;EC 3.4.24.6;piscivorase;venom endopeptidase (Agkistrodon piscivorus leucostoma)peptidase A (Leucostoma)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;1;1;9;0;0;2;0
-Pro;0;0;0;0;0;0;0;1
-Ala;0;0;0;1;0;0;0;1
-Val;1;2;0;0;1;1;0;1
-Leu;2;0;0;1;3;0;1;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;2;4;1;0;1
-Tyr;0;0;0;0;3;2;1;0
-Trp;0;0;0;1;1;0;0;0
-Ser;0;0;1;0;0;0;0;1
-Thr;0;0;0;0;0;0;1;1
-Cys;0;0;0;0;0;0;0;0
-Asn;0;1;0;0;0;1;0;0
-Gln;0;0;1;0;0;0;1;0
-Asp;0;0;0;0;0;0;0;0
-Glu;1;1;1;0;1;0;1;0
-Lys;0;0;0;0;2;0;0;0
-Arg;0;1;1;0;1;1;0;0
-His;0;0;0;2;0;0;0;1
 leucurolysin-a;M12.327
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;2;1;0;1;1;3
@@ -6246,28 +4684,6 @@ Glu;0;0;0;0;0;0;0;1
 Lys;2;1;0;0;0;0;0;2
 Arg;0;0;0;0;0;0;2;0
 His;1;0;0;0;0;0;0;0
-mast cell peptidase 4 (mouse numbering);S01.149;chymase 1 (Rattus norvegicus);chymase 4 (Mus musculus);connective-tissue-type mast-cell-specific chymase (Mus musculus);hamster chymase 1;Mcpt4 g.p. (Mus musculus);mekratin;mMCP-4;myonase;protease 1, mast cell (Rattus)mouse mast cell protease 4mast cell protease 1 (Rattus);rat mast cell protease 1;rMCP-1
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;2;0;2;0
-Pro;0;0;3;0;0;0;3;1
-Ala;0;0;0;0;0;1;0;0
-Val;1;2;2;1;1;0;0;2
-Leu;1;0;0;0;0;2;1;1
-Ile;2;2;1;0;2;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;3;1;0;0;1
-Tyr;0;0;1;5;0;0;0;0
-Trp;0;0;1;2;0;0;0;0
-Ser;0;1;0;0;0;0;1;1
-Thr;0;0;2;0;1;2;1;0
-Cys;1;1;0;0;1;1;0;0
-Asn;0;0;0;0;1;1;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;2;0;1;0;0;0;0;1
-Glu;2;1;0;0;0;0;0;2
-Lys;0;1;0;0;0;0;0;0
-Arg;1;2;0;0;0;0;0;0
-His;0;1;0;0;1;3;1;0
 mast cell peptidase 4 (Rattus);S01.005;mast cell protease 4 (Rattus);rat mast cell protease 4;rMCP-4
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;1;20;2;0
@@ -6488,7 +4904,7 @@ Glu;9;3;2;10;2;6;8;7
 Lys;2;0;12;6;3;14;2;1
 Arg;6;1;14;6;3;27;2;5
 His;4;3;2;1;3;6;2;2
-matrix metallopeptidase-2;M10.003;3/4 collagenase;72 kDa gelatinase;collagenase, 3/4 gelatinase, 72 kDaMMP-5 (obsolete)gelatinase, tissuecollagenase, type IV;EC 3.4.24.24;gelatinase A;matrix metalloproteinase 2;matrix metalloproteinase 5;MMP-2;MMP2;tissue gelatinase;type IV collagenase
+matrix metallopeptidase-2;M10.003;collagenase, 3/4 gelatinase, 72 kDaMMP-5 (obsolete)gelatinase, tissuecollagenase, type IV;EC 3.4.24.24;gelatinase A;matrix metalloproteinase 2;matrix metalloproteinase 5;MMP-2;MMP2;tissue gelatinase;type IV collagenase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;252;121;430;482;60;125;590;290
 Pro;197;769;70;210;8;15;29;237
@@ -6928,50 +5344,6 @@ Glu;0;0;0;0;0;0;0;0
 Lys;5;5;1;1;0;0;0;0
 Arg;0;5;2;26;0;0;0;2
 His;0;0;0;0;0;0;0;0
-metallocarboxypeptidase Z;M14.012;carboxypeptidase Z
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;0;1;0;0;0;0
-Pro;2;1;0;0;0;0;0;0
-Ala;2;1;0;4;0;0;0;0
-Val;1;1;1;1;0;0;0;0
-Leu;1;0;1;2;0;0;0;0
-Ile;0;1;1;0;0;0;0;0
-Met;0;0;1;0;0;0;0;0
-Phe;0;0;3;2;0;0;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;3;2;0;0;0;0
-Thr;0;0;1;0;0;0;0;0
-Cys;0;0;0;1;0;0;0;0
-Asn;0;2;1;0;0;0;0;0
-Gln;1;1;0;0;0;0;0;0
-Asp;1;0;0;0;0;0;0;0
-Glu;1;2;0;0;0;0;0;0
-Lys;1;0;2;1;4;0;0;0
-Arg;1;0;0;0;10;0;0;0
-His;0;1;0;0;0;0;0;0
-metallopeptidase B (Bothrops moojeni);M12.169
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;4;0;1;0;0;2
-Pro;0;0;1;0;0;0;0;2
-Ala;0;2;0;2;1;0;0;0
-Val;0;2;0;0;0;2;2;2
-Leu;4;0;4;0;4;2;2;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;2;2;1;1;0
-Tyr;1;0;0;2;0;4;0;1
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;2;0;0;0;0
-Thr;0;1;0;0;0;0;2;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;4;0;3;0;0;0;0;2
-Lys;0;0;0;1;0;0;0;0
-Arg;0;2;0;7;0;0;0;0
-His;0;0;0;0;2;0;0;0
 metallopeptidase MTP-1;M12.310;metalloprotease MTP-1 (Ancylostoma caninum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;3;2;1;1;2;2;0
@@ -7148,28 +5520,6 @@ Glu;1;0;1;0;0;4;2;3
 Lys;2;6;0;1;0;1;2;6
 Arg;5;22;65;3;0;6;1;1
 His;3;1;0;3;0;4;3;3
-moojeni peptidase A;M12.345;moojeni protease A
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;1;1;0;0;2;1
-Pro;0;0;0;0;0;0;0;0
-Ala;0;1;1;2;0;0;0;1
-Val;0;2;1;1;0;3;2;2
-Leu;5;0;1;0;3;1;1;1
-Ile;2;1;1;0;0;0;0;0
-Met;0;1;0;0;1;0;0;0
-Phe;0;1;0;0;0;1;0;1
-Tyr;0;0;0;1;0;1;1;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;0;1;1;0;0;1
-Thr;0;1;0;0;0;1;0;0
-Cys;0;0;0;1;0;0;0;0
-Asn;0;0;0;0;1;0;0;1
-Gln;0;0;0;0;0;0;0;0
-Asp;0;1;0;0;0;0;1;0
-Glu;1;0;4;1;1;0;1;1
-Lys;0;0;0;1;2;0;1;1
-Arg;1;0;0;1;0;3;0;0
-His;0;0;0;0;1;0;0;0
 mouse mammary tumor virus retropepsin;A02.010;retropepsin (mouse mammary tumor virus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;0
@@ -7214,28 +5564,6 @@ Glu;0;0;0;0;2;0;1;1
 Lys;0;1;0;0;0;0;0;0
 Arg;0;0;0;0;0;0;1;0
 His;0;0;0;0;0;0;0;0
-mycolysin;M05.001;EC 3.4.24.31;neutral endopeptidase (Streptomyces cacaoi)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;2;1;3;0;0;2;1
-Pro;0;0;0;0;0;0;1;1
-Ala;1;1;0;1;0;0;0;1
-Val;1;1;0;0;2;2;0;1
-Leu;1;1;1;1;5;1;1;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;1;4;3;1;0;0
-Tyr;0;0;1;1;1;2;1;0
-Trp;0;0;0;0;1;0;0;0
-Ser;0;0;1;0;0;0;0;1
-Thr;0;0;0;0;0;1;1;1
-Cys;0;0;0;0;0;0;0;0
-Asn;0;1;0;0;0;1;0;0
-Gln;0;0;1;0;0;0;1;0
-Asp;0;0;0;0;0;0;0;0
-Glu;2;1;1;0;0;0;1;1
-Lys;0;0;0;0;0;0;0;1
-Arg;1;1;1;0;0;0;0;0
-His;0;0;0;2;0;0;0;1
 myeloblastin;S01.134;AGP7;c-ANCA;EC 3.4.21.76;neutrophil leukocyte proteinase 3;neutrophil leukocyte proteinase 4;p29b;PR3;proteinase 3;proteinase 3, neutrophil leukocyteproteinase 4, neutrophil leukocyteautoantigen, Wegener’s granulomatosis;PRTN3 g.p. (Homo sapiens);Wegener’s granulomatosis autoantigen
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;0;3;0;2;4;4;2
@@ -7434,29 +5762,7 @@ Glu;0;1;1;1;1;1;2;1
 Lys;3;14;4;2;1;2;0;0
 Arg;7;14;13;15;14;61;4;7
 His;0;1;1;1;1;2;0;1
-neutral protease I (Aspergillus oryzae);M36.002
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;1;2;0;1;1;0;1
-Pro;0;0;1;1;0;0;0;1
-Ala;0;0;1;0;0;0;1;1
-Val;1;0;2;0;1;1;2;0
-Leu;1;1;0;3;2;2;1;1
-Ile;0;1;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;1;0;1;1;0;0;0
-Tyr;1;0;0;0;1;1;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;1;1;0;0;1;0
-Thr;0;0;0;0;0;1;1;1
-Cys;1;1;0;1;1;0;0;2
-Asn;2;0;0;1;0;0;0;0
-Gln;0;1;0;0;1;0;1;0
-Asp;0;0;0;0;0;0;0;0
-Glu;1;1;0;0;0;2;1;1
-Lys;0;0;0;0;0;0;0;0
-Arg;0;1;0;0;0;0;1;0
-His;0;0;2;1;1;1;0;1
-nuclear-inclusion-a peptidase (plum pox virus);C04.001;48/49 kDa protease;EC 3.4.22.44;Japanese yam virus NIa protease;nuclear inclusion protease aNIa protease (plum pox virus)NIa protease (garlic yellow steak virus)NIa protease (Japanese yam virus)NIa protease (turnip mosaic virus);plum pox virus NIa protease;potato virus A NIa protease;protease nuclear inclusion a (NIa);turnip mosaic virus NIa protease;VPg-protease
+nuclear-inclusion-a peptidase (plum pox virus);C04.001;EC 3.4.22.44;Japanese yam virus NIa protease;nuclear inclusion protease aNIa protease (plum pox virus)NIa protease (garlic yellow steak virus)NIa protease (Japanese yam virus)NIa protease (turnip mosaic virus);plum pox virus NIa protease;potato virus A NIa protease;protease nuclear inclusion a (NIa);turnip mosaic virus NIa protease;VPg-protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;3;3;1;0
 Pro;0;0;1;0;0;0;2;1
@@ -7478,28 +5784,6 @@ Glu;0;0;0;0;0;0;1;1
 Lys;1;1;0;0;1;0;0;1
 Arg;0;2;0;0;0;0;0;1
 His;0;3;16;0;0;0;0;0
-OCT1 (Arabidopsis thaliana);M03.A12;At5g51540 (Arabidopsis thaliana)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;1;1;1;0;1
-Pro;0;2;0;0;0;0;0;1
-Ala;1;2;1;3;4;1;2;2
-Val;3;2;0;1;1;3;2;0
-Leu;1;0;3;2;0;0;0;0
-Ile;0;0;0;0;1;0;0;1
-Met;1;0;2;1;1;0;0;0
-Phe;1;0;0;0;1;1;2;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;3;3;2;2;2;1;0
-Thr;0;1;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;1;1;0;1;1;3
-Asp;0;0;0;1;0;0;0;0
-Glu;1;0;0;0;1;0;1;0
-Lys;1;0;1;0;0;1;2;3
-Arg;3;2;1;0;0;0;0;0
-His;0;0;0;0;0;2;1;1
 oligopeptidase B;S09.010;alkaline peptidase;dipeptidyl aminopeptidase BI (Pseudomonas sp. WO24);EC 3.4.21.83;oligopeptidase (Treponema)OP-TbOP-Tc;oligopeptidase Tb (Trypanosoma brucei);oligopeptidase Tc (Trypanosoma congolense);oligopeptidase Tc80 (Trypanosoma cruzi);OpdB g.p. (Salmonella typhimurium);peptidase A;peptidase I-mes (Prosopis velutina);protease II (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;7;6;0;2;0;0;2
@@ -7544,72 +5828,6 @@ Glu;0;1;1;2;2;0;1;1
 Lys;0;1;0;0;1;2;0;1
 Arg;1;2;2;1;2;1;1;3
 His;1;0;1;1;1;1;0;0
-oligopeptidase O1;M13.004;endopeptidase II (Lactococcus);endopeptidase O;pepO;pepO1 g.p. (Lactobacillus lactis)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;1;1;0;1;2;2;0
-Pro;2;2;3;3;0;1;2;2
-Ala;0;0;2;2;0;0;0;0
-Val;1;0;1;2;2;2;2;1
-Leu;1;1;0;2;2;1;0;0
-Ile;0;0;0;1;2;1;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;2;1;0;2;0;0;1
-Tyr;1;0;0;0;0;0;1;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;1;1;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;1;1;1;0;0;0;0;0
-Lys;0;0;0;0;0;0;0;0
-Arg;0;0;0;0;1;1;0;1
-His;0;0;1;0;0;0;0;0
-omega peptidase (Drosophila melanogaster);S09.069;CG32145 protein (Drosophila melanogaster);CG9370 protein (Drosophila melanogaster);IP17501;ome protein
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;1;0;0;0;0;0
-Pro;0;4;0;9;0;4;0;4
-Ala;0;7;1;9;0;6;0;5
-Val;0;0;0;0;0;0;0;0
-Leu;0;0;3;0;4;0;4;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;0;0;0;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;1;0;0;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;1;0;1;0;1;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;3;0;3;0;3;0
-Glu;0;0;6;0;3;0;3;0
-Lys;0;0;2;0;0;1;0;2
-Arg;0;0;0;0;0;0;0;0
-His;0;0;0;0;0;0;0;0
-OmpP peptidase;A26.002;CroP peptidase (Citrobacter rodentium)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;1;0;0;9;1;9
-Pro;0;0;0;0;0;0;0;0
-Ala;0;6;6;0;0;1;8;0
-Val;0;1;0;0;0;0;0;0
-Leu;9;0;0;0;0;0;0;0
-Ile;0;0;0;0;0;1;0;0
-Met;0;0;0;0;0;0;0;1
-Phe;0;0;0;0;0;0;1;0
-Tyr;0;0;1;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;2;0;1;0;0;0;0
-Thr;0;0;1;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;1;0;1;0;0;0;0;0
-Lys;0;0;0;2;2;0;0;0
-Arg;0;1;1;8;9;0;1;1
-His;1;0;0;0;0;0;0;0
 omptin;A26.001;EC 3.4.23.49;OmpT g.p. (Escherichia coli);OmpTp g.p. (Escherichia coli);protease 7 (Citrobacter rodentium);protease A;protease VII (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;4;5;7;0;0;8;6;17
@@ -7632,50 +5850,6 @@ Glu;5;0;5;0;0;1;4;4
 Lys;2;5;0;16;13;4;1;2
 Arg;5;8;1;37;30;3;7;3
 His;1;0;0;0;0;0;0;1
-otubain-1;C65.001;CG4968 g.p. (Drosophila melanogaster);OTUB1 g.p. (Homo sapiens)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;14;14;0;0;0;0
-Pro;0;0;0;0;0;0;0;0
-Ala;0;0;0;0;0;0;0;0
-Val;0;0;0;0;0;0;0;0
-Leu;9;0;0;0;0;0;3;0
-Ile;0;0;0;0;0;2;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;1;0;0;0;0;0;0;0
-Tyr;1;0;0;0;0;0;0;0
-Trp;1;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;2;0
-Thr;0;0;0;0;0;0;0;2
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;3;2;0
-Asp;0;0;0;0;0;0;0;2
-Glu;0;0;0;0;0;2;0;3
-Lys;1;0;0;0;8;0;0;0
-Arg;0;14;0;0;0;0;0;0
-His;0;0;0;0;0;0;0;0
-pancreatic elastase II;S01.155;CELA2A g.p. (Homo sapiens);CELA2B g.p. (Homo sapiens);chymotrypsin-like elastase family, member 2A;EC 3.4.21.71;ELA2A g.p. (Homo sapiens);elastase 2, pancreaticelastase II, pancreatic;elastase 2A;elastase C (Gadus morhua);pancreatic elastase 2;pancreatic elastase IIA (Homo sapiens);rat mesenteric arterial bed elastase-2
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;0;0;3;0;1;0
-Pro;0;0;7;0;0;0;1;0
-Ala;5;4;1;0;3;0;0;1
-Val;1;0;1;0;1;1;1;1
-Leu;0;1;0;6;1;4;1;0
-Ile;4;0;0;0;1;0;0;0
-Met;0;0;0;1;0;0;0;0
-Phe;1;1;0;6;0;1;0;0
-Tyr;0;0;1;3;1;1;0;0
-Trp;0;0;1;0;0;0;0;0
-Ser;0;0;1;0;0;0;0;1
-Thr;0;0;0;0;1;0;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;1;0;0;0;0
-Asp;0;1;0;0;0;0;0;0
-Glu;0;1;0;0;0;0;1;1
-Lys;0;0;0;1;0;0;0;0
-Arg;0;0;0;0;0;0;0;0
-His;0;3;0;1;3;0;0;0
 papain;C01.001;EC 3.4.22.2;papaya peptidase I
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;3;1;6;4;4;4;3
@@ -7874,28 +6048,6 @@ Glu;2;1;1;2;0;1;1;0
 Lys;1;1;5;0;1;2;2;2
 Arg;4;0;6;12;5;3;2;1
 His;3;0;2;0;0;0;0;1
-penicillopepsin;A01.011;aspartic proteinase (Penicillium janthinellum);EC 3.4.23.20;penicillopepsin JT-1;penicillopepsin JT-2;peptidase A
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;1;0;0;2;1
-Pro;1;0;0;0;0;0;0;0
-Ala;2;7;9;0;3;11;5;0
-Val;0;1;0;0;0;1;0;0
-Leu;1;0;0;1;0;0;0;0
-Ile;0;0;1;0;1;0;0;0
-Met;0;0;0;0;1;0;0;0
-Phe;0;0;0;0;0;0;0;1
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;1;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;1;1;1;0;0;0;0;0
-Glu;0;0;0;0;1;1;0;0
-Lys;0;0;1;13;0;0;0;1
-Arg;0;1;0;0;0;1;0;0
-His;0;0;0;0;0;0;0;0
 pepsin A;A01.001;EC 3.4.23.1;pepsin A3;pepsin isoenzyme 3b;pepsinogen A;pepsinogen A3;PGA3 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;56;78;58;39;25;38;40;57
@@ -7918,28 +6070,6 @@ Glu;78;75;105;104;53;74;63;75
 Lys;74;32;58;21;56;81;87;82
 Arg;36;10;40;15;35;84;40;49
 His;23;6;12;3;15;13;20;26
-pepsin A5 (Homo sapiens);A01.071;pepsinogen A5;PGA5 g.p. (Homo sapiens)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;2;1;0;0;0;0;1
-Pro;0;1;0;0;0;0;1;1
-Ala;1;1;1;1;1;0;1;0
-Val;1;1;1;0;2;1;1;1
-Leu;2;2;2;4;2;3;1;3
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;1;2;2;0;1;0
-Tyr;0;0;0;1;2;2;1;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;0;0;0;0;0;0
-Thr;0;0;1;0;0;1;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;1
-Asp;0;0;0;1;0;2;0;0
-Glu;2;1;1;1;0;1;1;0
-Lys;0;0;1;0;1;0;1;2
-Arg;2;1;0;0;0;0;0;0
-His;1;0;1;0;0;0;0;0
 pepsin B;A01.002;EC 3.4.23.2;gelatinase, gastric (Sus);parapepsin I;pig gastric gelatinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;4;12;0;1;0;0;2
@@ -7984,28 +6114,6 @@ Glu;0;1;2;4;0;2;3;2
 Lys;0;6;0;2;1;0;0;1
 Arg;1;1;0;3;0;1;2;0
 His;0;0;0;0;0;0;1;1
-peptidase Ci (Escherichia coli);M9G.022;protease Ci (Escherichia coli)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;2;0;0;0;0;2;1
-Pro;0;0;0;0;0;0;1;0
-Ala;1;1;1;1;1;0;1;1
-Val;2;1;1;0;2;2;1;1
-Leu;1;2;1;3;4;2;1;2
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;1;1;0;0;0;0
-Tyr;0;0;1;1;2;1;1;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;1;0;0;0;0;1
-Thr;0;0;0;0;0;1;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;1;0;0;0;0;0;0
-Gln;0;0;1;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;1;1;1;1;0;1;1;1
-Lys;0;0;0;0;0;0;0;1
-Arg;1;0;0;0;0;0;0;0
-His;1;0;1;2;0;0;0;0
 peptidase Clp (type 1);S14.001;caseinolytic protease;ClpP;EC 3.4.21.92;endopeptidase Ti;LmCP2 (Listeria monocytogenes);protease Ti
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;0;1;0;1;1;0
@@ -8028,28 +6136,6 @@ Glu;0;2;2;0;0;0;0;1
 Lys;0;0;0;0;0;0;0;0
 Arg;0;0;1;0;0;0;0;0
 His;0;0;4;0;0;1;0;1
-peptidase Clp (type 3);S14.003;CLPP g.p. (Homo sapiens);Clpp g.p. (Mus musculus)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;0;2;0;0;1;0
-Pro;0;4;0;0;0;0;0;5
-Ala;6;0;1;1;5;0;0;0
-Val;1;1;0;0;1;0;6;2
-Leu;1;2;0;2;1;6;2;0
-Ile;0;1;1;0;0;0;0;0
-Met;0;0;0;5;0;0;0;0
-Phe;0;0;0;0;1;1;0;0
-Tyr;0;0;1;0;1;1;1;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;1;0;1;0;0;0
-Thr;0;0;0;0;0;0;0;1
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;2;2;0;0;0;0;1
-Lys;0;0;0;0;0;0;0;0
-Arg;0;0;1;0;0;0;0;0
-His;1;0;2;0;0;1;0;0
 peptide cyclase 1;S09.078;PCY1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;1;0;0;0;0
@@ -8160,50 +6246,6 @@ Glu;2;4;6;4;15;7;4;4
 Lys;3;3;0;1;0;1;0;2
 Arg;1;2;3;1;0;0;5;0
 His;4;8;5;2;0;2;5;3
-PhTET2 aminopeptidase;M42.004;APDkam589 (Desulfurococcus kamchatkensis);BsuAP (Bacillus subtilis);Mername-AA082 peptidase;PH1527 g.p. (Pyrococcus horikoshii);PhTET2 aminopeptidase (Pyrococcus sp.)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;1;3;3;3;4
-Pro;0;0;0;0;0;0;0;1
-Ala;0;0;0;5;3;2;0;0
-Val;0;0;0;4;1;1;1;0
-Leu;0;0;0;1;0;1;0;0
-Ile;0;0;0;2;2;1;1;0
-Met;0;0;0;1;0;0;0;0
-Phe;0;0;0;0;0;1;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;2;1;1;0;0
-Thr;0;0;0;2;1;1;2;0
-Cys;0;0;0;1;0;0;0;0
-Asn;0;0;0;0;0;0;1;1
-Gln;0;0;0;1;0;0;0;0
-Asp;0;0;0;1;2;0;0;0
-Glu;0;0;0;2;2;3;4;5
-Lys;0;0;0;0;0;0;0;1
-Arg;0;0;0;0;0;0;0;0
-His;0;0;0;0;0;0;0;0
-physarolisin;S53.006;aspartic proteinase (Physarum);EC 3.4.21.103;physaropepsin
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;2;2;1;2;2;1
-Pro;1;0;0;0;0;0;0;1
-Ala;1;0;1;1;0;0;1;0
-Val;2;2;1;1;2;0;1;2
-Leu;3;3;1;3;1;1;3;1
-Ile;0;1;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;2;1;0;1;2
-Tyr;1;1;1;0;1;2;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;0;0;1;0;0;0
-Thr;0;0;0;0;0;0;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;1;1;2;1;1;2;1;1
-Lys;0;0;0;0;0;0;0;0
-Arg;0;1;0;0;1;2;1;1
-His;1;0;1;0;0;1;0;0
 phytepsin;A01.020;arctiumisin (Arctium minus);aspartic endopeptidase, seed;At1g11910 (Arabidopsis thaliana);AtPaspA1 (Arabidopsis thaliana);AtPaspA2 (Arabidopsis thaliana);AtPaspA3 (Arabidopsis thaliana);cardosin A (Cynara cardunculus);cardosin B (Cynara cardunculus);cardosin C (Cynara cardunculus);cardosin D (Cynara cardunculus);cenprosin Centauria calcitrapa;cirsin (Cirsium vulgare);CPA63 allergen (Cryptomeria japonica);cynarase (Cynara cardunculus);cyprosin;EC 3.4.23.40;LeAspP;oryzasin;pra-1 g.p. (Arabidopsis thaliana);salpichroin (Salpichroa origanifolia);soyAP1 (Glycine max);soyAP2 (Glycine max);StAsp (Solanum tuberosum);WAP1 (Triticum aestivum);WAP2 (Triticum aestivum)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;7;4;1;1;2;0;3
@@ -8226,28 +6268,6 @@ Glu;3;5;6;2;2;4;4;1
 Lys;1;3;2;0;0;2;3;7
 Arg;1;1;4;1;5;7;1;2
 His;5;0;1;0;1;1;0;0
-phytolacain;C01.097;phytolacain G;phytolacain R
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;2;3;1;1;1;2;1
-Pro;0;0;0;0;0;0;1;1
-Ala;2;1;0;0;1;0;0;1
-Val;2;0;2;0;1;2;1;1
-Leu;1;3;2;1;3;2;2;2
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;1;1;2;1;0;1;1
-Tyr;0;0;1;2;1;1;1;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;1;1;1;1;0;1
-Thr;0;0;0;0;0;1;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;1;0;1;0;0;0;0
-Gln;1;0;1;0;1;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;2;0;0;2;0;0;1;2
-Lys;0;0;0;0;0;0;0;1
-Arg;1;1;0;0;1;0;0;0
-His;2;1;0;2;1;2;1;0
 PibD peptidase;A24.017
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;16;0;0;10;0
@@ -8270,28 +6290,6 @@ Glu;0;0;0;0;0;0;0;0
 Lys;1;9;17;0;0;0;0;0
 Arg;0;1;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;0
-PIM1 peptidase;S16.002;Lon-1 peptidase (Borrelia burgdorferi);LONM peptidase;LONP1 g.p. (Homo sapiens);LONP1 peptidase;mitochondrial endopeptidase La homologue;PRSS15 g.p. (Homo sapiens)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;1;0;0;3;0;1
-Pro;0;0;0;0;0;0;0;0
-Ala;0;0;1;1;0;0;0;0
-Val;0;1;2;0;1;0;0;0
-Leu;1;1;1;4;0;0;1;2
-Ile;1;1;0;0;0;0;2;0
-Met;0;1;0;1;1;0;0;0
-Phe;0;0;0;1;0;0;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;1;1
-Ser;1;1;0;0;1;1;0;0
-Thr;0;0;0;0;1;0;2;0
-Cys;0;0;0;1;0;0;0;0
-Asn;1;0;0;0;0;0;0;0
-Gln;1;1;0;0;1;1;0;1
-Asp;0;0;1;0;0;0;0;0
-Glu;1;0;1;0;0;1;1;2
-Lys;0;2;1;0;2;0;0;1
-Arg;2;0;0;0;0;1;1;0
-His;0;0;0;0;1;1;0;0
 pitrilysin;M16.001;EC 3.4.24.55;protease III (Escherichia coli)protease Pi (Escherichia coli)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;2;2;2;0;1;0;1
@@ -8336,28 +6334,6 @@ Glu;1;2;1;0;0;1;1;1
 Lys;1;1;9;11;2;0;1;0
 Arg;0;3;1;29;6;1;1;2
 His;0;1;2;0;1;1;1;0
-plasmepsin-1;A01.022;aspartic hemoglobinase I (Plasmodium falciparum);EC 3.4.23.38;hemoglobinase I (Plasmodium falciparum);PFAPG;plasmepsin I;plasmepsin Pf-I
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;1;0;0;0;0;1
-Pro;1;1;0;0;0;0;0;3
-Ala;0;0;2;1;0;3;0;0
-Val;1;1;1;0;0;1;1;1
-Leu;1;2;0;2;3;2;4;0
-Ile;0;0;1;0;0;0;0;0
-Met;0;0;2;0;0;0;0;0
-Phe;1;2;0;10;2;0;3;1
-Tyr;0;0;0;0;1;0;0;1
-Trp;0;0;0;0;0;0;0;0
-Ser;1;0;0;0;0;3;2;1
-Thr;1;1;0;0;1;0;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;2;0;0;0;0;0
-Gln;0;2;0;0;0;2;0;0
-Asp;0;0;0;0;1;0;0;0
-Glu;6;0;0;0;0;1;0;0
-Lys;1;0;1;0;1;1;2;3
-Arg;0;3;2;0;0;0;0;0
-His;0;0;1;0;0;0;0;1
 plasmepsin-2;A01.023;aspartic hemoglobinase II (Plasmodium falciparum);EC 3.4.23.39;hemoglobinase II (Plasmodium falciparum);PFAPD;plasmepsin II;plasmepsin Pf-2
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;0;0;1;0;0;0;0
@@ -8402,28 +6378,6 @@ Glu;5;8;3;1;3;3;8;6
 Lys;6;5;4;59;6;9;3;4
 Arg;13;18;3;69;10;14;6;7
 His;2;6;2;1;3;3;4;4
-plasminogen activator Pla;A26.003;coagulase;EC 3.4.23.48;endopeptidase pla;Epo peptidase (Erwinia pyrifoliae);Kop peptidase (Klebsiella pneumoniae);Pla g.p. (Yersinia pestis);plasminogen activator (Yersinia pestis)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;1;0;0;1;1;1
-Pro;0;1;0;0;0;0;1;0
-Ala;0;0;1;0;0;2;0;0
-Val;1;0;0;0;1;2;0;0
-Leu;0;0;0;0;0;0;0;0
-Ile;0;0;0;0;0;8;0;0
-Met;0;0;0;0;1;0;0;0
-Phe;0;0;0;0;0;0;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;0;0;0;1;0;0
-Thr;0;0;0;0;0;1;0;0
-Cys;1;0;0;0;0;1;0;0
-Asn;0;0;0;0;0;0;5;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;0;1
-Lys;0;0;0;0;0;0;0;0
-Arg;0;0;0;16;14;0;0;3
-His;0;0;0;0;0;0;0;0
 plinsulysin;M16.017;IDE peptidase (Solanum lycopersicum);plant insulysin homologue
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;1;1;0;0;0;2
@@ -8490,50 +6444,6 @@ Glu;0;0;1;0;0;1;1;0
 Lys;0;1;1;0;0;0;0;0
 Arg;0;1;0;0;0;0;1;2
 His;0;1;1;0;0;0;0;0
-polyporopepsin;A01.019;aspartic proteinase (Polyporus);EC 3.4.23.29
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;1;0;0;0;0;0
-Pro;1;0;0;0;1;0;0;5
-Ala;1;0;0;2;0;1;3;0
-Val;1;1;0;0;1;1;1;1
-Leu;3;5;1;3;1;1;2;1
-Ile;0;1;0;0;0;0;1;0
-Met;0;0;0;0;1;1;0;0
-Phe;1;2;0;3;3;0;0;0
-Tyr;0;0;1;0;2;2;0;1
-Trp;0;0;0;0;1;0;0;0
-Ser;0;1;2;1;1;0;1;0
-Thr;0;0;0;1;0;0;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;2;0;0;2;0;1
-Asp;0;0;0;0;0;0;0;0
-Glu;1;0;1;0;0;1;1;0
-Lys;0;0;1;1;0;2;0;1
-Arg;1;1;1;0;0;0;0;0
-His;1;0;1;0;0;0;1;0
-porcine reproductive and respiratory syndrome virus nsp4 peptidase;S32.002;PRRSV 3C-like peptidase;PRRSV 3CL protease;PRRSV nsp4 peptidase
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;0;1;7;1;0;0
-Pro;1;0;0;0;0;0;0;0
-Ala;1;0;1;0;1;3;0;1
-Val;1;1;1;0;0;0;0;1
-Leu;0;1;5;0;0;2;2;1
-Ile;0;0;0;0;0;0;0;0
-Met;1;0;0;0;0;0;0;1
-Phe;1;1;0;0;0;0;1;1
-Tyr;1;0;0;0;0;0;0;1
-Trp;0;0;0;0;0;0;0;1
-Ser;2;1;0;0;2;1;1;1
-Thr;0;1;1;0;0;0;2;0
-Cys;0;1;0;0;0;0;1;0
-Asn;1;1;2;0;0;1;0;0
-Gln;0;1;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;9;0;1;1;0
-Lys;1;0;0;0;0;1;2;0
-Arg;0;0;0;0;0;0;0;2
-His;0;1;0;0;0;0;0;0
 presenilin 1;A22.001;Alzheimer’s disease gamma-secretasesecretase, gamma, Alzheimer disease;minilin;PS1;PSEN1 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;3;0;2;0;0;1;0
@@ -8666,50 +6576,6 @@ Glu;0;0;0;0;2;0;3;1
 Lys;1;0;3;0;1;0;2;0
 Arg;3;2;9;0;2;3;0;1
 His;1;0;1;0;0;0;1;0
-prolyl tripeptidyl peptidase;S09.017;EC 3.4.14.12;prolyl tripeptidyl aminopeptidase;tripeptidyl peptidase, prolyl;YuxL peptidase (Bacillus subtilis)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;1;0;6;0;1;0
-Pro;0;1;5;13;0;2;1;2
-Ala;0;2;0;0;1;0;0;0
-Val;0;4;1;0;0;0;0;0
-Leu;0;0;0;0;0;0;0;1
-Ile;0;0;0;0;1;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;1;0;1;2;0;0
-Tyr;0;0;0;0;0;1;1;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;1;0;0;0;1;3
-Thr;0;0;0;0;0;1;0;1
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;1;0;1;0;0;1
-Gln;0;0;0;0;0;1;0;0
-Asp;0;0;0;0;0;0;3;0
-Glu;0;0;1;0;0;3;0;0
-Lys;0;0;0;0;2;1;2;0
-Arg;0;4;1;0;0;0;0;0
-His;0;0;1;0;0;0;1;0
-protealysin;M04.025;ECP32 peptidase (Serratia sp.);grimelysin
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;2;0;0;4;0;0;1;1
-Pro;0;1;2;0;0;0;1;2
-Ala;0;2;1;1;1;0;0;0
-Val;0;1;0;0;2;0;1;0
-Leu;1;1;1;1;4;2;0;1
-Ile;0;1;0;0;2;2;0;1
-Met;0;0;0;0;0;1;0;0
-Phe;0;0;0;0;0;0;0;0
-Tyr;0;0;0;0;0;0;1;0
-Trp;0;0;0;0;0;0;1;1
-Ser;1;0;0;2;0;1;1;1
-Thr;1;0;0;1;0;0;2;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;1
-Gln;0;0;2;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;0;0
-Lys;0;1;0;0;0;2;0;0
-Arg;2;0;2;0;0;0;0;0
-His;1;1;0;0;0;0;0;0
 proteasome subunit beta1c;T01.010;constitutive proteasome catalytic subunit 1;EC 3.4.25.1;peptidylglutamyl-peptide hydrolysing proteasome subunit;PRE3 g.p. (Saccharomyces cerevisiae);proteasome subunit beta 1;proteasome subunit beta 1c;proteasome subunit beta 6;proteasome subunit delta (Homo sapiens);proteasome subunit Y (Homo sapiens);PSMB6 g.p. (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;6;3;0;0;1;1;4;2
@@ -8842,28 +6708,6 @@ Glu;4;2;2;1;0;2;3;4
 Lys;2;2;4;4;0;2;1;3
 Arg;5;2;7;2;0;2;3;3
 His;0;0;0;3;0;0;0;0
-Pz-peptidase A;M03.010
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;4;1;0;7;0;1;3
-Pro;3;2;8;1;0;10;0;0
-Ala;0;0;0;0;0;0;1;0
-Val;0;1;0;1;0;0;0;0
-Leu;1;0;0;7;0;0;5;1
-Ile;0;0;0;0;0;1;0;1
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;1;1;2;3;0
-Tyr;0;0;1;0;1;0;1;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;1;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;1;0;0;0;0;0;0;0
-Gln;0;0;1;2;1;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;0;0
-Lys;1;2;0;0;0;0;0;0
-Arg;1;1;1;1;1;0;1;1
-His;0;0;0;0;1;0;0;0
 RC1339 g.p. (Rickettsia conorii);A32.002
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;23;52;25;33;77;49;81;62
@@ -8886,28 +6730,6 @@ Glu;43;52;10;0;13;28;29;22
 Lys;0;0;0;0;17;10;11;10
 Arg;0;0;0;0;15;3;8;1
 His;7;23;13;24;22;28;21;24
-RCE1 peptidase (Homo sapiens-type);G05.002;AtFACE-2 (Arabidopsis thaliana);Face-2 protein (Homo sapiens);prenyl peptidase 1;prenyl protease 1;Ras converting CAAX endopeptidase 1;RCE1 g.p. (Homo sapiens)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;1;0;0;0;0;0
-Pro;0;0;0;0;0;0;0;0
-Ala;0;0;0;0;0;0;0;0
-Val;0;0;0;0;11;1;0;0
-Leu;0;0;0;0;4;1;6;0
-Ile;1;0;0;0;1;17;0;0
-Met;0;0;0;0;0;2;9;0
-Phe;0;0;0;0;1;0;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;0;0;0;0;1;0
-Thr;0;12;0;0;0;0;0;0
-Cys;0;0;0;2;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;0;0
-Lys;13;1;13;0;0;0;0;0
-Arg;0;0;0;0;0;0;0;0
-His;0;0;0;0;0;0;0;0
 RD21 peptidase;C01.064;BoCP3 (Brassica oleracea);HbCP1 (Hevea brasiliensis);rd21A g.p. (Arabidopsis thaliana);RESPONSIVE TO DESICCATION-21 g.p. (Arabidopsis thaliana)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;1;0;1;1;1;1;0;0
@@ -8930,28 +6752,6 @@ Glu;1;1;0;0;1;0;0;1
 Lys;2;2;2;3;1;1;1;0
 Arg;2;0;3;10;0;1;2;1
 His;0;1;0;0;0;0;0;0
-renin;A01.007;angiotensin-forming enzyme;angiotensinogenase;EC 3.4.23.15;Ren1 g.p. (Mus musculus);renin-a (Mus musculus);renin-b (Mus musculus)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;0;0;1;0
-Pro;10;0;0;0;0;0;0;0
-Ala;0;0;0;0;0;0;0;0
-Val;0;0;0;0;2;5;0;0
-Leu;0;0;0;10;7;0;0;0
-Ile;0;0;1;0;0;2;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;9;0;0;0;0;0;0
-Tyr;0;1;0;0;0;2;5;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;0;6
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;2
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;0;0
-Lys;0;0;0;0;1;0;0;0
-Arg;0;0;0;0;0;1;0;0
-His;0;0;9;0;0;0;4;0
 retropepsin (human T-cell leukemia virus);A02.012;HTLV-1 protease;human T-cell lymphotropic virus 1 protease;simian T-cell leukemia virus endopeptidase;simian T-cell leukemia virus endopeptidase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;0;0;0;0;1
@@ -8974,28 +6774,6 @@ Glu;0;1;0;0;0;0;0;0
 Lys;1;5;0;0;0;0;0;0
 Arg;1;0;0;0;0;0;0;0
 His;0;0;0;0;0;0;0;3
-rhinovirus picornain 2A;C03.021;human rhinovirus protease 2A;picornain 2A (human rhinovirus);protease 2A (rhinovirus)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;2;1;0;9;0;0;2
-Pro;1;0;1;0;0;5;3;1
-Ala;1;0;0;4;2;3;1;2
-Val;2;0;0;1;1;1;1;0
-Leu;4;1;0;1;0;0;0;2
-Ile;3;0;0;0;0;0;0;0
-Met;0;0;1;0;0;0;0;0
-Phe;0;0;0;0;0;0;0;0
-Tyr;0;0;0;1;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;1;3;2;1;0;1;3;0
-Thr;0;4;5;2;0;0;2;1
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;2;0;0;1;0;0
-Gln;0;0;0;0;0;0;0;1
-Asp;0;1;0;0;0;0;0;1
-Glu;0;0;0;0;0;0;0;0
-Lys;0;1;0;0;0;0;0;0
-Arg;0;0;0;2;0;0;2;2
-His;0;0;0;0;0;1;0;0
 rhizopuspepsin;A01.012;aspartic proteinase (Rhizopus)aspartic proteinase, secretedSAP;EC 3.4.23.21;protease type XVIII (Rhizopus sp.);SAP1 g.p. (Rhizopus oryzae);SAP2 g.p. (Rhizopus oryzae);SAP3 g.p. (Rhizopus oryzae);SAP4 g.p. (Rhizopus oryzae);secreted aspartic proteinase
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;22;19;18;14;10;20;20;19
@@ -9084,28 +6862,6 @@ Glu;2;2;1;1;1;0;0;0
 Lys;0;0;1;1;1;0;1;1
 Arg;1;2;0;0;0;2;0;0
 His;0;1;0;0;0;0;1;0
-sapovirus 3C-like peptidase;C24.003;Sapporo virus 3C-like peptidase
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;5;1;1;0
-Pro;0;0;0;0;1;4;1;1
-Ala;0;0;1;0;3;0;0;1
-Val;0;3;0;0;0;0;0;0
-Leu;0;0;0;0;0;3;3;1
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;1;0;0;0;0;0
-Phe;9;0;0;0;0;0;0;0
-Tyr;1;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;0;1
-Thr;0;3;0;0;0;0;5;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;2;0;0
-Gln;0;0;0;4;0;0;0;0
-Asp;0;1;0;0;0;0;0;6
-Glu;0;2;8;6;0;0;0;0
-Lys;0;1;0;0;1;0;0;0
-Arg;0;0;0;0;0;0;0;0
-His;0;0;0;0;0;0;0;0
 SARS coronavirus picornain 3C-like peptidase;C30.005;EC 3.4.22.69;M(pro) (SARS coronavirus);main protease (severe acute respiratory syndrome coronavirus );SARS virus 3C-like peptidase;SARS virus chymotrypsin-like cysteine peptidase;SARS-CoV M(pro);SARS-CoV main proteinase;severe acute respiratory syndrome coronavirus main protease
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;13;13;2;3;1;0
@@ -9150,28 +6906,6 @@ Glu;1;0;1;3;0;0;0;0
 Lys;0;30;0;2;0;0;31;0
 Arg;0;1;0;2;0;0;0;0
 His;1;0;0;4;0;0;1;0
-scytalidolisin;S53.011;aspartic proteinase A (Scytalidium);EC 3.4.23.31;scytalidopepsin A
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;6;0;5;1;0;1
-Pro;0;0;0;0;0;0;0;1
-Ala;0;1;5;3;12;16;3;0
-Val;0;0;1;0;0;0;0;0
-Leu;0;1;0;7;2;0;0;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;5;4;1;1;0;0
-Tyr;1;0;0;1;0;1;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;0;0
-Thr;0;0;0;0;0;0;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;1;0;0;1;0;1;0;0
-Lys;0;0;3;3;0;0;0;0
-Arg;0;1;0;0;0;0;1;0
-His;0;0;0;0;0;0;0;0
 sedolisin;S53.001;EC 3.4.21.100;pepstatin-insensitive carboxyl proteinase (Pseudomonas sp.)carboxyl proteinase, pepstatin-insensitive (Pseudomonas sp.);pseudomonapepsin
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;0;0;0;0;0;0
@@ -9260,94 +6994,6 @@ Glu;0;0;0;0;0;2;6;2
 Lys;0;0;0;0;10;0;0;1
 Arg;0;0;0;0;0;0;0;1
 His;0;0;0;0;1;1;0;0
-SENP3 peptidase;C48.003;DKFZp586K0919 protein;sentrin-specific peptidase 3;Smt3-specific isopeptidase 1;SMT3PI1;SSP3 g.p. (Homo sapiens);SUMO-1 specific protease 3
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;8;8;0;0;0;0
-Pro;0;0;0;0;0;0;0;0
-Ala;0;0;0;0;0;0;1;0
-Val;0;0;0;0;0;0;0;0
-Leu;0;0;0;0;0;1;0;0
-Ile;0;0;0;0;0;0;0;2
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;0;0;0;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;2;0;0
-Thr;0;8;0;0;0;3;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;1
-Gln;8;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;2
-Glu;0;0;0;0;0;2;7;3
-Lys;0;0;0;0;8;0;0;0
-Arg;0;0;0;0;0;0;0;0
-His;0;0;0;0;0;0;0;0
-SENP5 peptidase;C48.008;Mername-AA005 peptidase
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;13;13;0;0;0;0
-Pro;0;0;0;0;0;2;1;2
-Ala;0;0;0;0;0;1;0;1
-Val;0;0;0;0;2;1;1;0
-Leu;0;0;0;0;0;1;0;0
-Ile;0;0;0;0;0;0;2;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;0;0;0;0;0
-Tyr;0;0;0;0;0;1;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;2;2;2
-Thr;0;13;0;0;0;2;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;1;0;1
-Gln;13;0;0;0;0;0;0;1
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;3;1
-Lys;0;0;0;0;9;0;1;2
-Arg;0;0;0;0;0;0;0;0
-His;0;0;0;0;0;0;0;0
-SENP6 peptidase;C48.004;SUMO-1-specific protease 6;SUSP1
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;13;13;0;0;0;0
-Pro;0;0;0;0;0;0;1;0
-Ala;0;0;0;0;0;0;1;1
-Val;0;0;0;0;0;1;0;0
-Leu;1;0;0;0;0;0;0;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;1;0;0
-Phe;0;0;0;0;0;0;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;1;0;1
-Thr;0;12;0;0;0;1;0;1
-Cys;0;0;0;0;0;1;0;0
-Asn;0;0;0;0;0;0;0;2
-Gln;12;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;1;5;0
-Lys;0;0;0;0;11;0;0;1
-Arg;0;1;0;0;0;0;0;1
-His;0;0;0;0;0;1;0;0
-separase (yeast-type);C50.001;BimB g.p. (Aspergillus nidulans );Cut1 g.p. (Schizosaccharomyces pombe);EC 3.4.22.49;Esp1 g.p. (Saccharomyces cerevisiae);EXTRA SPINDLE POLES;separin
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;7;0;1;1;1;1
-Pro;0;1;0;0;0;0;2;1
-Ala;0;1;0;0;0;2;2;2
-Val;0;2;0;0;0;0;0;1
-Leu;0;1;2;0;2;1;0;1
-Ile;0;3;0;0;0;1;0;0
-Met;0;0;2;0;0;0;0;0
-Phe;0;0;0;0;0;1;1;0
-Tyr;0;2;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;1;0;1;3;3;2
-Thr;0;0;0;0;1;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;1;0;0;0
-Gln;0;1;0;0;0;1;1;0
-Asp;1;0;0;0;1;1;1;0
-Glu;11;0;0;0;1;0;1;2
-Lys;0;0;0;0;2;0;0;0
-Arg;0;1;0;12;2;1;0;1
-His;0;0;0;0;0;0;0;1
 signal peptidase complex (animal);XS26.001
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;296;211;83;417;139;90;117;137
@@ -9612,50 +7258,6 @@ Glu;4;1;1;0;11;11;2;1
 Lys;3;0;18;1;3;2;15;4
 Arg;0;0;3;0;0;0;1;0
 His;1;0;5;0;0;0;2;0
-spumapepsin;A09.001;foamy virus polyprotein peptidase;human spumaretrovirus polyprotein peptidase;polyprotein peptidase (human spumaretrovirus)monkey foamy virus polyprotein peptidasepolyprotein peptidase (simian foamy virus)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;2;0;0;0;0;1;3
-Pro;1;0;0;0;1;0;0;1
-Ala;0;3;0;1;2;0;0;1
-Val;0;1;6;0;0;7;0;0
-Leu;0;1;0;0;0;0;1;0
-Ile;0;1;4;0;0;2;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;2;0;0;0;0
-Tyr;1;0;0;1;1;0;0;0
-Trp;0;1;0;0;0;0;0;0
-Ser;0;0;0;0;1;0;0;0
-Thr;0;1;0;0;3;1;6;2
-Cys;0;0;0;0;1;0;0;0
-Asn;0;0;0;6;1;1;0;0
-Gln;1;0;0;0;1;0;0;2
-Asp;1;0;0;0;0;0;1;0
-Glu;1;0;1;0;0;0;0;0
-Lys;0;0;0;0;0;0;1;1
-Arg;4;0;0;1;0;0;0;0
-His;2;1;0;0;0;0;1;1
-staphopain C;C47.004;ScpA2
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;0;2;1;1;0;0
-Pro;0;0;0;0;0;0;1;0
-Ala;1;1;2;1;4;1;0;0
-Val;1;3;1;0;2;0;1;1
-Leu;3;1;3;3;0;1;1;1
-Ile;2;0;1;1;0;1;0;0
-Met;1;0;0;0;0;1;0;1
-Phe;0;1;2;0;0;0;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;2;0;1;1;0;1;1
-Thr;1;1;0;0;0;0;2;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;1;0;0;0;0
-Glu;0;0;0;1;0;2;0;1
-Lys;0;0;1;0;0;0;0;0
-Arg;0;0;0;0;0;1;1;2
-His;0;0;0;0;0;0;0;0
 stem bromelain;C01.005;Ananase;bromelain;bromelain, stem;EC 3.4.22.32;Nexobrid
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;1;3;2;2;0;1;3
@@ -9722,28 +7324,6 @@ Glu;2;2;0;1;1;1;0;6
 Lys;0;2;0;7;2;0;3;2
 Arg;1;0;0;1;0;1;1;2
 His;1;1;1;1;0;1;2;2
-subfamily M12B unassigned peptidases;M12.UPB;Ac1-proteinase (Deinagkistrodon acutus);Ac2-proteinase (Deinagkistrodon acutus);Ac3-proteinase (Deinagkistrodon acutus);acostatin (Agkistrodon contortrix contortrix);acurhagin (Agkistrodon acutus);ADAM41 (Xenopus tropicalis);ADAMTS-like protein 2;ADAMTS-like protein 4;ADAMTSL2;ADAMTSL4;admA (Aspergillus oryzae);admB (Aspergillus oryzae);agkislysin (Agkistrodon acutus);AHPM peptidase (Agkistrodon halys pallas);albocollagenase (Cryptelytops albolabris);alborhagin (Trimeresurus albolabris);alsophinase (Alsophis portoricensis;ammodytagin (Vipera ammodytes);ammodytase (Vipera ammodytes);atragin (Naja atra);BAH4 peptidase (Bothrops asper);BaltDC (Bothrops alternatus);basparin A (Bothrops asper);Batx-I peptidase (Bothrops atrox);BbMP-1 (Bothrops brazili);berythractivase (Bothrops erythromelas);BJ-PI peptidase (Bothrops jararaca);BJ-PI2 peptidase (Bothrops jararaca);BjussuMP-I (Bothrops jararacussu);BLAH1 hemorrhagin (Bothrops lanceolatus);BlatH1 peptidase (Bothriechis lateralis);BmooMP alpha-II (Bothrops moojeni);bothropoidin (Bothrops pauloensis);BpirMP (Bothrops pirajai);BpMPI peptidase (Bothropoides pauloensis);BrRm-MP1 (Rhipicephalus microplus);BrRm-MP2 (Rhipicephalus microplus);BrRm-MP4 (Rhipicephalus microplus);BrRm-MP5 (Rhipicephalus microplus);BtaMP-1 (Bothriopsis taeniata);catroxMP-II (Crotalus atrox);CcH1 peptidase (Cerastes cerastes);CcHSM-III peptidase (Cerastes cerastes);CcMP-II (Cerastes cerastes);CCSV-MPase (Cerastes cerastes);colombienase 1 (Bothrops colombiensis);colombienase 2 (Bothrops colombiensis);contortrostatin;cotiaractivase (Bothrops cotiara);crotalin (Crotalus atrox);echilysin-1;echilysin-2;endothelial cell apoptosis inducing metalloprotease (VLAIP) (Vipera lebetina);EoVMP1 (Echis ocellatus);EoVMP2 (Echis ocellatus);EpyB2 (Echis pyramidum);EpyB3 (Echis pyramidum);EpyB4 (Echis pyramidum);EpyB5 (Echis pyramidum);EpyB6 (Echis pyramidum);FE-32kDa peptidase (Gloydius blomhoffii siniticus);FIa factor X activator (Daboia russellii);flavoridin (Trimeresurus flavoviridis);fpp1 g.p. (Flavobacterium psychrophilum);hemorrhagin VaH4 (Vipera ammodytes);HLMP1 (Haemaphysalis longicornis);HR-Ele-1 (Protobothrops elegans);hr1B (Trimeresurus flavoviridis);HV1 apoptosis-inducing peptidase (Trimeresurus flavoviridis);jararafibrase III (Bothrops jararaca);jararafibrase IV (Bothrops jararaca);jerdohagin (Trimeresurus jerdonii);kaouthiagin-like peptidase (Naja atra);leucurolysin-B;maculatoxin (Cryptelytrops purpureomaculatus);malabarin (Trimeresurus malabaricus);mikarin (Micropechis ikaheka);MooA (Bothrops moojeni);moojenactivase (Bothrops moojeni);moojenin (Bothrops moojeni );Mt-a (Gloydius/Agkistrodon halys);Mt-b (Gloydius/Agkistrodon halys);Mt-c (Gloydius/Agkistrodon halys);Mt-d (Gloydius/Agkistrodon halys);nasulysin-1 (Porthidium nasutum);NN-PF3 (Naja naja);okinalysin (Ovophis okinavensis);patagonfibrase (Philodryas patagoniensis);porthidin-1 (Porthidium lansbergii hutmanni);rubelase (Crotalus ruber ruber);rubelysin (Crotalus ruber ruber);Russell’s viper basic coagulant metalloprotease (RVBCMP) (Daboia russelli russelli);Rusviprotease (Daboia russelii);SpADAM peptidase (Strongylocentrotus purpuratus);SV-PAD-2 (Protobothrops elegans);SVMP-MM (Macrovipera mauritanica);SVPH1-26 (Homo sapiens);trimarin (Trimeresurus malabaricus);ussurin (Gloydius ussuriensis);V1F (Vipera lebetina);VaF1 (Vipera ammodytes);VaH1 peptidase (Vipera ammodytes);VaH2 peptidase (Vipera ammodytes);VaH3 peptidase (Vipera ammodytes);vascular apoptosis-inducing protein (Trimeresurus flavoviridis);VLFXA peptidase (Macrovipera lebetina);VLH2 endopeptidase (Vipera lebetina);VRF1 (Microplitis mediator)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;1;0;1;0;0;2;3
-Pro;0;0;0;0;0;0;0;0
-Ala;1;3;0;3;0;0;0;1
-Val;0;5;1;0;1;4;0;3
-Leu;4;1;3;1;7;1;4;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;1;1;0;0;0;0;0;1
-Tyr;0;0;1;3;0;3;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;1;0;0;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;1;0;0;0;0;0;1;0
-Asn;0;0;1;1;0;0;0;0
-Gln;0;0;0;1;1;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;3;0;3;0;1;0;1;1
-Lys;0;0;0;0;0;0;0;0
-Arg;0;0;0;0;0;1;0;0
-His;0;0;0;1;1;1;0;0
 subtilisin BPN';S08.034;Bace16 peptidase (Bacillus sp. B16);bacterial protease Novo;BAS;BLG4 cuticle-degrading peptidase (Brevibacillus laterosporus);EC 3.4.21.62;furilysin;Genenase;Nagarse;Novozym FM;subtiligase;subtilisin B;subtilisin Novo;subtilopeptidase B;subtilopeptidase C
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;1;1;0;0;0;2;4
@@ -9832,28 +7412,6 @@ Glu;0;1;2;1;0;1;2;2
 Lys;2;1;1;7;2;3;1;2
 Arg;1;0;0;0;0;0;1;0
 His;0;2;0;1;1;1;0;0
-TcMCP1 carboxypeptidase;M32.003
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;0;0;0;0;0;0
-Pro;0;2;4;2;0;0;0;0
-Ala;0;0;3;4;0;0;0;0
-Val;0;0;0;1;0;0;0;0
-Leu;2;4;0;0;2;0;0;0
-Ile;2;1;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;2;1;11;16;2;0;0;0
-Tyr;1;0;0;0;0;0;0;0
-Trp;0;0;0;0;3;0;0;0
-Ser;0;2;1;0;0;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;0;0
-Lys;3;0;6;0;1;0;0;0
-Arg;2;4;0;1;2;0;0;0
-His;2;2;1;3;2;0;0;0
 tengconlysin;S08.135;TTE0824 g.p. (Thermoanaerobacter tengcongensis)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;3;0;1;1;2;2
@@ -9876,28 +7434,6 @@ Glu;1;1;0;2;0;2;1;2
 Lys;0;0;0;1;0;0;1;1
 Arg;1;1;0;0;1;0;1;0
 His;1;0;1;2;2;1;1;1
-thermitase;S08.007;EC 3.4.21.66;thermophilic Streptomyces serine proteinase
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;2;2;2;0;1;0;1;1
-Pro;1;0;1;0;0;1;1;1
-Ala;0;4;4;3;1;0;1;1
-Val;2;1;0;0;1;0;2;0
-Leu;1;0;0;2;1;3;0;1
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;1;1;2;3;1;1;1;0
-Tyr;0;0;0;1;2;1;0;1
-Trp;0;0;0;0;0;0;0;0
-Ser;0;1;0;1;0;0;0;1
-Thr;0;0;0;0;1;1;1;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;1;1;0;0;0;0;0
-Gln;0;0;1;1;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;1;1;1;0;0;1;0;1
-Lys;0;0;0;0;0;0;1;1
-Arg;1;1;0;1;0;0;0;0
-His;0;0;1;1;2;0;0;0
 thermolysin;M04.001;EC 3.4.24.27;gentlyase;megateriopeptidase (Bacillus megaterium);Mername-AA133 peptidase;neutral proteinase (Bacillus thermoproteolyticus);neutral proteinase (Bacillus thermoproteolyticus);nprM g.p. (Bacillus megaterium);NprS g.p. (Geobacillus stearothermophilus);nprT g.p. (Bacillus thermoproteolyticus)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;349;312;233;403;46;338;411;372
@@ -10096,72 +7632,6 @@ Glu;0;0;0;0;0;2;0;1
 Lys;0;0;0;0;0;0;1;0
 Arg;0;13;0;0;0;0;0;9
 His;0;0;0;0;1;0;0;0
-transmembrane peptidase, serine 4;S01.034;CAP2;channel-activating protease 2;membrane type serine protease 2;MT-SP2 protease;TMPRSS4 g.p. (Homo sapiens);transmembrane protease, serine 4
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;0;0;1;1;1
-Pro;0;1;0;0;0;0;0;1
-Ala;0;0;1;0;0;1;0;0
-Val;0;0;0;0;0;1;0;0
-Leu;2;1;0;0;1;1;2;0
-Ile;0;0;1;0;1;2;0;1
-Met;0;0;0;0;0;0;1;0
-Phe;1;0;0;0;0;0;1;0
-Tyr;0;0;3;0;1;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;2;1;0;2;0;2;2
-Thr;1;1;0;0;2;2;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;2;3;0;0;0;1;0;0
-Gln;0;0;1;0;0;0;0;1
-Asp;0;0;2;0;1;0;0;0
-Glu;1;1;0;0;2;1;3;4
-Lys;0;1;0;3;0;0;0;0
-Arg;3;0;1;7;0;0;0;0
-His;0;0;0;0;0;0;0;0
-tricorn peptidase complex;XP01.001
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;2;2;2;0;0;0;0;0
-Pro;0;0;0;0;0;1;1;1
-Ala;0;2;3;0;0;0;0;0
-Val;0;1;1;1;0;0;0;0
-Leu;2;3;3;1;1;0;0;0
-Ile;0;0;0;1;1;1;1;1
-Met;0;0;0;0;0;0;0;0
-Phe;1;1;1;2;0;0;0;0
-Tyr;1;0;0;1;1;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;0;0
-Lys;0;0;0;0;0;0;0;0
-Arg;0;1;4;8;5;3;2;1
-His;0;0;0;0;0;0;0;0
-trimerelysin II;M12.155;EC 3.4.24.53;H2-proteinase;proteinase H2;venom metalloendopeptidase II (Trimeresurus flavoviridis)metalloendopeptidase II, venom (Trimeresurus flavoviridis)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;3;2;0;0;1;0;2
-Pro;0;0;0;2;0;0;1;1
-Ala;0;1;0;2;0;0;0;2
-Val;0;3;1;0;0;4;0;2
-Leu;2;0;1;0;8;3;3;0
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;0;1;0;0;0
-Phe;1;1;1;1;1;0;0;0
-Tyr;0;0;0;1;0;3;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;3;0;0;0;0;0
-Thr;0;1;0;0;0;0;1;0
-Cys;1;0;0;0;0;0;2;0
-Asn;0;0;1;1;0;0;0;0
-Gln;0;0;0;1;1;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;2;0;3;0;0;0;2;0
-Lys;0;0;0;1;0;0;0;0
-Arg;0;1;0;1;0;0;0;0
-His;0;0;0;2;1;1;0;0
 tripeptidyl-peptidase I;S53.003;Cerliponase alfa;CLN2 g.p. (Homo sapiens);EC 3.4.14.9;lysosomal pepstatin-insensitive proteinase;TPP I;TPP1;tripeptidyl aminopeptidase;tripeptidyl peptidase;tripeptidyl peptidase 1
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;10;4;6;5;0;3;3
@@ -10228,28 +7698,6 @@ Glu;2153;1595;1829;1;1690;1195;2182;2434
 Lys;1316;1250;1250;12979;1215;1115;789;740
 Arg;863;720;706;9851;703;688;510;521
 His;454;432;387;4;537;433;391;412
-trypsin-2 type A;S01.258;anionic trypsin (Homo sapiens);PRSS2 g.p. (Homo sapiens);TAT-2;trypsin 2;trypsin 8 (Homo sapiens);trypsinogen-2 (Homo sapiens);tumor-associated trypsin-2
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;3;3;0;2;2;0;3
-Pro;1;0;2;0;0;1;2;1
-Ala;2;1;2;0;1;1;0;0
-Val;0;0;0;0;1;0;0;0
-Leu;0;1;0;0;0;1;0;0
-Ile;0;0;0;0;0;0;1;0
-Met;0;0;1;0;0;0;0;0
-Phe;0;0;0;0;1;0;0;1
-Tyr;0;1;0;0;0;0;0;1
-Trp;0;0;0;0;0;0;0;0
-Ser;2;0;0;0;1;0;1;0
-Thr;0;1;0;0;1;1;1;0
-Cys;1;0;1;0;0;0;1;2
-Asn;0;0;0;0;0;0;0;0
-Gln;0;1;0;0;0;1;0;0
-Asp;1;0;0;0;0;0;0;0
-Glu;1;0;0;0;0;0;0;0
-Lys;0;1;0;0;1;0;0;0
-Arg;0;0;0;9;0;1;2;0
-His;0;0;0;0;0;0;0;0
 tryptase alpha;S01.143;EC 3.4.21.59;TPSAB1 g.p. (Homo sapiens);tryptase alpha 1 (Homo sapiens)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;2;2;0;1;0;3;2
@@ -10316,94 +7764,6 @@ Glu;0;1;1;0;0;0;0;0
 Lys;1;0;6;0;0;0;0;0
 Arg;4;0;5;0;0;0;0;0
 His;1;0;0;0;0;0;0;0
-ubiquitin-specific peptidase 15;C19.022;deubiquitinating enzyme Ubp109;KIAA0529 protein;ubiquitin-specific protease 15;USP15 g.p. (Homo sapiens)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;10;10;0;0;4;0
-Pro;0;0;0;0;1;2;1;0
-Ala;0;0;0;0;1;0;0;0
-Val;0;0;0;0;0;1;0;0
-Leu;10;0;0;0;0;0;0;0
-Ile;0;0;0;0;0;0;1;0
-Met;0;0;0;0;6;0;0;0
-Phe;0;0;0;0;0;0;0;1
-Tyr;0;0;0;0;0;0;1;1
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;0;4
-Thr;0;0;0;0;0;0;0;1
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;1;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;0;0
-Lys;0;0;0;0;1;0;0;0
-Arg;0;10;0;0;1;0;0;0
-His;0;0;0;0;0;3;0;0
-ubiquitin-specific peptidase 2;C19.013;ubiquitin carboxy-terminal hydrolase ubp41 (Gallus domesticus);ubiquitin carboxy-terminal hydrolase ubp41 (Mus musculus);ubiquitin carboxy-terminal hydrolase ubp45 (Rattus norvegicus);ubiquitin carboxy-terminal hydrolase ubp69 (Rattus norvegicus);ubiquitin-specific protease 2;ubp41 ubiquitin carboxy-terminal hydrolase (Gallus domesticus)ubp41 ubiquitin carboxy-terminal hydrolase (Mus musculus)ubp45 ubiquitin carboxy-terminal hydrolase (Rattus norvegicus)ubp69 ubiquitin carboxy-terminal hydrolase (Rattus norvegicus);USP2 g.p. (Homo sapiens);Usp2-45 peptidase (Mus musculus);Usp2-69 peptidase (Mus musculus);USP2a
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;9;9;0;0;1;0
-Pro;0;0;0;0;0;0;0;0
-Ala;0;0;0;0;0;0;0;0
-Val;0;0;0;0;0;0;0;0
-Leu;9;0;0;0;0;0;2;0
-Ile;0;0;0;0;0;1;1;0
-Met;0;0;0;0;2;0;0;0
-Phe;0;0;0;0;0;0;0;0
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;2;2
-Thr;0;0;0;0;0;1;0;3
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;1;1;0
-Asp;0;0;0;0;0;0;0;1
-Glu;0;0;0;0;0;2;0;1
-Lys;0;0;0;0;7;0;0;0
-Arg;0;9;0;0;0;0;0;0
-His;0;0;0;0;0;2;0;0
-ubiquitin-specific peptidase 4;C19.010;ubiquitin-specific protease 4;UNP g.p. (Mus musculus);Unp oncoprotein (Mus musculus;Unph protein (Homo sapiens);USP4;USP4 g.p. (Homo sapiens)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;12;12;1;0;1;0
-Pro;0;0;0;0;1;1;1;3
-Ala;0;0;0;0;0;0;0;0
-Val;0;0;0;0;0;0;0;0
-Leu;12;0;0;0;0;0;0;0
-Ile;0;0;0;0;3;3;1;0
-Met;0;0;0;0;2;0;0;0
-Phe;0;0;0;0;0;0;0;1
-Tyr;0;0;0;0;0;0;0;1
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;0;1
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;1;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;3;0
-Lys;0;0;0;0;1;1;1;0
-Arg;0;12;0;0;1;0;0;1
-His;0;0;0;0;0;1;0;0
-ubiquitin-specific peptidase 7;C19.016;HAUSP;herpesvirus-associated ubiquitin-specific protease;ubiquitin-specific protease 7;USP7;USP7 g.p. (Homo sapiens)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;12;12;0;1;2;0
-Pro;0;0;0;0;0;0;0;3
-Ala;0;0;0;0;0;0;0;0
-Val;0;0;0;0;0;1;0;0
-Leu;12;0;0;0;0;0;0;0
-Ile;0;0;0;0;2;2;0;0
-Met;0;0;0;0;1;0;0;0
-Phe;0;0;0;0;0;0;0;0
-Tyr;0;0;0;0;0;0;0;1
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;0;1
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;1
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;0;0;0;0;0;0;4;1
-Lys;0;0;0;0;9;1;0;0
-Arg;0;12;0;0;0;1;1;0
-His;0;0;0;0;0;1;0;0
 ubiquitinyl hydrolase-L3;C12.003;EC 3.4.19.12;ubiquitin C-terminal hydrolase UCH-L3 (mammal);UCH-L3 ubiquitin C-terminal hydrolase;UCHL3
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;23;26;0;0;0;0
@@ -10514,28 +7874,6 @@ Glu;3;5;1;2;2;2;2;2
 Lys;3;3;3;3;5;1;3;3
 Arg;1;0;2;22;0;0;0;0
 His;1;1;2;2;0;1;2;3
-vimelysin;M04.010;Vsm g.p. (Vibrio splendidus)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;1;4;0;0;1;1
-Pro;0;1;0;1;0;0;1;1
-Ala;1;1;0;1;0;0;1;0
-Val;1;1;1;0;0;1;0;1
-Leu;1;0;2;0;6;0;2;0
-Ile;0;1;0;0;1;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;3;5;1;0;1
-Tyr;1;0;0;2;0;2;1;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;0;0;0;1
-Thr;0;0;0;0;0;0;1;1
-Cys;0;0;0;0;0;0;0;0
-Asn;0;1;0;0;0;0;0;0
-Gln;0;0;1;0;0;0;0;0
-Asp;0;0;0;0;0;0;0;0
-Glu;2;1;1;0;0;0;0;0
-Lys;0;0;0;0;0;0;0;0
-Arg;0;2;1;0;0;0;0;1
-His;0;0;1;1;0;2;0;0
 vinckepain-2;C01.057;berghepain-2 (Plasmodium berghei);yoelipain-2 (Plasmodium yoelii )
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;0;0;0;6;0;0;0;0
@@ -10580,50 +7918,6 @@ Glu;0;0;0;0;0;0;0;2
 Lys;0;2;0;1;0;0;3;2
 Arg;0;3;0;2;0;0;5;0
 His;1;3;0;1;0;0;1;1
-Xaa-Trp aminopeptidase;M9A.007;aminopeptidase W;aminopeptidase, X-Trp;EC 3.4.11.16;X-Trp aminopeptidase
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;2;2;0;0;0
-Pro;0;0;0;0;0;0;0;0
-Ala;0;0;0;3;1;0;0;0
-Val;0;0;0;2;0;0;0;0
-Leu;0;0;0;3;3;0;0;0
-Ile;0;0;0;3;0;0;0;0
-Met;0;0;0;0;0;0;0;0
-Phe;0;0;0;5;11;0;0;0
-Tyr;0;0;0;2;8;0;0;0
-Trp;0;0;0;6;10;0;0;0
-Ser;0;0;0;0;0;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;0;0;0
-Gln;0;0;0;0;0;0;0;0
-Asp;0;0;0;3;0;0;0;0
-Glu;0;0;0;2;0;0;0;0
-Lys;0;0;0;0;0;0;0;0
-Arg;0;0;0;1;0;0;0;0
-His;0;0;0;0;0;0;0;0
-yapsin A;A9G.020;converting enzyme, prohormoneconverting enzyme, pro-opiomelanocortin;EC 3.4.23.17;pro-opiomelanocortin converting enzyme;prohormone converting enzyme;yapsin 3
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;2;0;0;1;1;1;2
-Pro;0;1;0;0;0;0;0;0
-Ala;0;0;0;0;2;1;0;0
-Val;0;0;1;0;0;1;1;0
-Leu;2;0;0;0;0;1;1;0
-Ile;0;0;0;0;0;1;0;0
-Met;0;0;0;0;0;1;1;1
-Phe;0;1;1;0;0;0;0;1
-Tyr;0;0;0;0;2;1;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;1;0;2;0
-Thr;0;1;0;0;0;0;1;1
-Cys;0;0;0;0;0;0;0;0
-Asn;1;0;0;0;0;1;0;0
-Gln;0;1;0;0;0;0;0;0
-Asp;0;1;0;0;0;0;1;2
-Glu;2;1;0;0;2;1;1;1
-Lys;2;0;5;2;0;0;0;0
-Arg;1;1;2;7;1;0;0;1
-His;0;0;0;0;0;0;0;0
 yapsin-1;A01.030;CgYps1 peptidase (Candida glabrata);EC 3.4.23.41;YAP3 [obs.] g.p. (Saccharomyces cerevisiae);yeast aspartic protease 3;YPS1 g.p. (Saccharomyces cerevisiae)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;2;2;1;0;0;5;2;8
@@ -10668,50 +7962,6 @@ Glu;0;3;1;0;13;0;13;2
 Lys;0;1;7;5;0;0;0;0
 Arg;0;0;2;10;0;0;0;0
 His;1;1;0;0;0;0;0;0
-yapsin-3;A01.035;YPS3 g.p. (Saccharomyces cerevisiae)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;0;0;0;0;2;0
-Pro;1;0;0;0;0;0;0;1
-Ala;0;0;0;0;0;1;0;1
-Val;0;0;0;0;0;3;0;0
-Leu;1;1;0;0;1;2;1;0
-Ile;0;0;3;0;0;0;0;0
-Met;0;3;0;0;0;0;0;0
-Phe;0;0;0;0;1;0;1;1
-Tyr;0;0;0;0;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;3;2;0;0;3;0;0;4
-Thr;1;0;0;0;0;0;1;0
-Cys;0;0;0;0;0;0;0;1
-Asn;1;0;0;0;3;1;0;0
-Gln;0;0;1;0;0;1;3;0
-Asp;0;0;0;0;0;0;1;0
-Glu;0;0;4;0;0;0;0;0
-Lys;0;0;1;5;1;0;0;0
-Arg;0;1;0;4;0;1;0;0
-His;1;2;0;0;0;0;0;1
-YdpF (Escherischia coli);M24.039
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;0;0;0;1;2;2;2;2
-Pro;0;0;0;0;0;2;3;2
-Ala;0;0;0;4;5;0;0;1
-Val;0;0;0;2;2;2;3;1
-Leu;0;0;0;0;1;1;0;1
-Ile;0;0;0;0;0;0;0;0
-Met;0;0;0;2;0;0;0;0
-Phe;0;0;0;0;1;1;1;0
-Tyr;0;0;0;1;0;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;0;0;1;1;0;0
-Thr;0;0;0;2;2;2;1;1
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;1;1;1;1;1
-Gln;0;0;0;1;0;0;0;0
-Asp;0;0;0;3;2;2;2;3
-Glu;0;0;0;1;1;1;0;0
-Lys;0;0;0;1;0;0;0;0
-Arg;0;0;0;0;1;3;2;2
-His;0;0;0;0;0;0;2;2
 YMXG peptidase;M16.016;BH2405 protein (Bacillus halodurans);ppBH4 peptidase;RP219 g.p. (Rickettsia prowazekii)
 Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
 Gly;3;8;3;1;0;0;2;3
@@ -10755,26 +8005,4 @@ Asp;0;1;1;1;0;0;0;0
 Glu;0;2;0;0;1;1;0;0
 Lys;0;0;1;0;1;0;3;1
 Arg;0;1;3;0;0;2;0;0
-His;1;1;0;0;1;0;2;0
-Zmp1 peptidase (Mycobacterium-type);M13.009;Rv0198c protein (Mycobacterium tuberculosis)
-Amino acid;P4;P3;P2;P1;P1';P2';P3';P4'
-Gly;1;0;1;1;0;2;2;0
-Pro;1;2;0;3;0;0;1;1
-Ala;0;0;0;0;0;0;0;0
-Val;0;0;1;0;0;0;0;1
-Leu;0;0;1;2;1;0;2;1
-Ile;0;1;0;0;1;0;0;0
-Met;0;0;0;0;1;1;0;1
-Phe;1;3;1;1;4;1;1;2
-Tyr;1;0;0;2;1;0;0;0
-Trp;0;0;0;0;0;0;0;0
-Ser;0;0;1;0;0;0;0;0
-Thr;0;0;0;0;0;0;0;0
-Cys;0;0;0;0;0;0;0;0
-Asn;0;0;0;0;0;1;1;0
-Gln;1;1;2;1;1;1;0;0
-Asp;1;0;0;0;0;0;0;0
-Glu;0;0;0;0;1;1;0;0
-Lys;1;0;1;0;0;0;2;2
-Arg;1;1;0;0;0;1;0;1
-His;0;0;1;0;0;2;0;0`;
+His;1;1;0;0;1;0;2;0`;

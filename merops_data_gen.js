@@ -203,7 +203,7 @@ Promise.all(promisesToAwait).then(x => {
 				}
 			});
 		}
-		if (sumReferences < 64) {
+		if (sumReferences < 100) {
 			return;
 		}
 
