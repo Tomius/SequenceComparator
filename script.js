@@ -67,13 +67,15 @@ function updateProteaseDropdown() {
     })
     $('#ProteasesToConsiderPsc').trigger('chosen:updated');
     $('#ProteaseInterest').trigger('chosen:updated');
-    document.getElementById("ProteasesToConsiderBss").disabled = true;
+    const proteasesBss = document.getElementById("ProteasesToConsiderBss");
+    proteasesBss.disabled = true;
+    proteasesBss.attributes["data-placeholder"].nodeValue="Please select protease of interest first";
     $('#ProteasesToConsiderBss').trigger('chosen:updated');
 }
 
 function onProteaseInterestChanged(evt, params) {
+    const proteasesBss = document.getElementById("ProteasesToConsiderBss");
     if (params.selected) {
-        const proteasesBss = document.getElementById("ProteasesToConsiderBss");
         proteasesBss.innerHTML = "";
         const index = proteaseToConsiderBss.indexOf(params.selected);
         if (index !== -1) {
@@ -88,11 +90,14 @@ function onProteaseInterestChanged(evt, params) {
                 proteasesBss.appendChild(opt);
             }
         })
-        document.getElementById("ProteasesToConsiderBss").disabled = false;
+
+        proteasesBss.disabled = false;
+        proteasesBss.attributes["data-placeholder"].nodeValue="Begin typing a name to filter...";
         $('#ProteasesToConsiderBss').val(proteaseToConsiderBss).trigger('chosen:updated');
         document.getElementById("ProteasesOfInterestEmptyWarning").style.display = "none";
     } else {
-        document.getElementById("ProteasesToConsiderBss").disabled = true;
+        proteasesBss.disabled = true;
+        proteasesBss.attributes["data-placeholder"].nodeValue="Please select protease of interest first";
         $('#ProteasesToConsiderBss').trigger('chosen:updated');
     }
 }
