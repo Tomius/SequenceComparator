@@ -39,7 +39,7 @@
               If you wish to use the “Search Best Sequence” button, you will only need to enter the proteases to consider and the POI for the first attempt (<span style="color:red;">red stars</span>). Then, you can adjust the sequence by excluding Amino Acids (AAs), or by increasing the minimal POI Score.
             </p>
             <p>
-              If you wish to use the “Protease ranking” button, you will only need to enter the proteases to consider and the POI for the first attempt (<span style="color:red;">red stars</span>). Then, you can adjust the sequence library by excluding Amino Acids (AAs) or by increasing the minimal POI Score or the minimal POI Selectivity.
+              If you wish to use the “Search All Sequences” button, you will only need to enter the proteases to consider and the POI for the first attempt (<span style="color:red;">red stars</span>). Then, you can adjust the sequence library by excluding Amino Acids (AAs) or by increasing the minimal POI Score or the minimal POI Selectivity.
             </p>
           </i></span>
 
@@ -95,7 +95,7 @@
             </summary>
             <span class="extra-info">
               <p>
-                If you wish to exclude amino acid(s), you may select them here (for example, if you do not want acidic AAs for easy synthesis, or if you have too many sequences output with the “Protease ranking” button).
+                If you wish to exclude amino acid(s), you may select them here (for example, if you do not want acidic AAs for easy synthesis, or if you have too many sequences output with the “Search All Sequences” button).
               </p>
 
               <p>
@@ -152,7 +152,7 @@
               </h3>
             </summary>
             <span class="extra-info">
-              Here, you may adjust the minimal selectivity of the AAs, to calculate only the most selective sequences. This option is useless for the “Search Best Sequence” button, but useful for the “Protease ranking” button to deal with large libraries.
+              Here, you may adjust the minimal selectivity of the AAs, to calculate only the most selective sequences. This option is useless for the “Search Best Sequence” button, but useful for the “Search All Sequences” button to deal with large libraries.
             </span>
           </details>
           <input type="number" step="1" id="minPoiSelectivity" />
@@ -183,7 +183,7 @@
               <td>
                 <details>
                   <summary>
-                    <button style="margin-top:10px;" class="button-30" id="searchAllSequences">Protease ranking</button>
+                    <button style="margin-top:10px;" class="button-30" id="searchAllSequences">Search All Sequences</button>
                     <span class="info"><i class="icon-info-sign"></i></span>
                   </summary>
                   <span class="extra-info">
@@ -448,7 +448,7 @@ POI score.</li>
       </select>
       <p style="color:red;display:none;" id="ProteasesToConsiderPscEmptyWarning">Please select the proteases to consider</p>
       <div>
-        <button style="margin-top:20px;" class="button-30" id="StartPsc">Start Calculation</button>
+        <button style="margin-top:20px;" class="button-30" id="StartPsc">Protease ranking</button>
       </div>
     </td>
   </tr></table>
