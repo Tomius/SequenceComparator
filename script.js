@@ -1,7 +1,7 @@
 let bss = new BestSequenceSearch();
 let psc = new ProteaseScoreCalculation();
 let proteaseList = [];
-let proteaseToConsiderBss = [];
+let competingProteasesList = [];
 let proteaseToConsiderPsc = [];
 let aminoAcidsToExclude = [];
 
@@ -13,7 +13,7 @@ document.getElementById("StartPsc").addEventListener("click", startPsc);
 parseCSV(meropsData);
 
 $("#ProteaseInterest").chosen().change(onProteaseInterestChanged);
-$("#ProteasesToConsiderBss").chosen().change(onProteasesToConsiderBssChanged);
+$("#CompetingProteases").chosen().change(onCompetingProteasesChanged);
 $("#ProteasesToConsiderPsc").chosen().change(onProteasesToConsiderPscChanged);
 $("#AminoAcidsToExclude").chosen().change(onAminoAcidsToExcludeChanged);
 document.getElementById("AminoAcidsToExclude").value = null;
@@ -67,19 +67,19 @@ function updateProteaseDropdown() {
     })
     $('#ProteasesToConsiderPsc').trigger('chosen:updated');
     $('#ProteaseInterest').trigger('chosen:updated');
-    const proteasesBss = document.getElementById("ProteasesToConsiderBss");
+    const proteasesBss = document.getElementById("CompetingProteases");
     proteasesBss.disabled = true;
     proteasesBss.attributes["data-placeholder"].nodeValue="Please select protease of interest first";
-    $('#ProteasesToConsiderBss').trigger('chosen:updated');
+    $('#CompetingProteases').trigger('chosen:updated');
 }
 
 function onProteaseInterestChanged(evt, params) {
-    const proteasesBss = document.getElementById("ProteasesToConsiderBss");
+    const proteasesBss = document.getElementById("CompetingProteases");
     if (params.selected) {
         proteasesBss.innerHTML = "";
-        const index = proteaseToConsiderBss.indexOf(params.selected);
+        const index = competingProteasesList.indexOf(params.selected);
         if (index !== -1) {
-            proteaseToConsiderBss.splice(index, 1);
+            competingProteasesList.splice(index, 1);
         }
 
         bss.Proteases_List.forEach(protease => {
@@ -93,24 +93,24 @@ function onProteaseInterestChanged(evt, params) {
 
         proteasesBss.disabled = false;
         proteasesBss.attributes["data-placeholder"].nodeValue="Begin typing a name to filter...";
-        $('#ProteasesToConsiderBss').val(proteaseToConsiderBss).trigger('chosen:updated');
+        $('#CompetingProteases').val(competingProteasesList).trigger('chosen:updated');
         document.getElementById("ProteasesOfInterestEmptyWarning").style.display = "none";
     } else {
         proteasesBss.disabled = true;
         proteasesBss.attributes["data-placeholder"].nodeValue="Please select protease of interest first";
-        $('#ProteasesToConsiderBss').trigger('chosen:updated');
+        $('#CompetingProteases').trigger('chosen:updated');
     }
 }
 
-function onProteasesToConsiderBssChanged(evt, params) {
+function onCompetingProteasesChanged(evt, params) {
     if (params.selected) {
-        proteaseToConsiderBss.push(params.selected);
+        competingProteasesList.push(params.selected);
         document.getElementById("CompetingProteasesEmptyWarning").style.display = "none";
     }
     if (params.deselected) {
-        const index = proteaseToConsiderBss.indexOf(params.deselected);
+        const index = competingProteasesList.indexOf(params.deselected);
         if (index > -1) {
-          proteaseToConsiderBss.splice(index, 1);
+          competingProteasesList.splice(index, 1);
         }
     }
 }
@@ -152,7 +152,7 @@ function searchBestSequence() {
         document.getElementById("ProteasesOfInterestEmptyWarning").style.display = "block";
         return;
     }
-    if (proteaseToConsiderBss.length === 0) {
+    if (competingProteasesList.length === 0) {
         document.getElementById("CompetingProteasesEmptyWarning").style.display = "block";
         return;
     }
@@ -163,7 +163,7 @@ function searchBestSequence() {
     finalMinSelec = document.getElementById("minPoiSelectivity").value;
     if (finalMinSelec == '')
        finalMinSelec = 0;
-    const res = bss.The_Calculation(proteaseToConsiderBss.concat([proteaseOfInterest]), proteaseOfInterest, finalMinScore, finalMinSelec, aminoAcidsToExclude);
+    const res = bss.The_Calculation(competingProteasesList.concat([proteaseOfInterest]), proteaseOfInterest, finalMinScore, finalMinSelec, aminoAcidsToExclude);
     
     document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
     
@@ -238,7 +238,7 @@ function searchAllSequences() {
         document.getElementById("ProteasesOfInterestEmptyWarning").style.display = "block";
         return;
     }
-    if (proteaseToConsiderBss.length === 0) {
+    if (competingProteasesList.length === 0) {
         document.getElementById("CompetingProteasesEmptyWarning").style.display = "block";
         return;
     }
@@ -252,7 +252,7 @@ function searchAllSequences() {
 
     document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
 
-    const res = bss.Multiple_Calculations(proteaseToConsiderBss.concat([proteaseOfInterest]), proteaseOfInterest, finalMinScore, finalMinSelec, aminoAcidsToExclude);
+    const res = bss.Multiple_Calculations(competingProteasesList.concat([proteaseOfInterest]), proteaseOfInterest, finalMinScore, finalMinSelec, aminoAcidsToExclude);
     var div = document.createElement('div');
 
     if (res.combinations.length > 200) {

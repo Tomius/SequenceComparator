@@ -52,7 +52,13 @@
               </h3>
             </summary>
             <span class="extra-info">
-              Here, you may select the protease that will cleave your peptide. Its MEROPS values will be compared to the other ones of the medium, and the selectivity will be calculated from the comparison.
+              <p>
+                Here, you may select the target protease of your calculation. Its MEROPS values will be compared to Competing Proteases (see below), and the selectivity will be calculated from the comparison.
+              </p>
+
+              <p>
+                You may search for proteases by their MEROPS code, their full name, or the MEROPS name given on the MEROPS website. Please be aware that proteases have several names: if you fail at finding your protease, please try other names of this enzyme.
+              </p>
             </span>
           </details>
           <select name="ProteaseInterest" id="ProteaseInterest" class="chosen-select" style="width: 500px"> </select>
@@ -68,11 +74,7 @@
             </summary>
             <span class="extra-info">
               <p>
-                Here, you may input every protease of the medium that is susceptible to cleave the sequence(s). If you do not know which one can cleave the sequence(s), you may input every known protease of the medium.
-              </p>
-
-              <p>
-                You may search for proteases by their MEROPS code, their full name, or the MEROPS name given on the MEROPS website. Please be aware that proteases have several names: if you fail at inputting your protease, please try other names of this enzyme.
+                Here, you may input every protease of the medium (except your POI) that is susceptible to cleave the sequence(s). If you do not know which one can cleave the sequence(s), you may input every known protease of the medium (except your POI).
               </p>
 
               <p>
@@ -81,7 +83,7 @@
             </span>
           </details>
 
-          <select style="width: 500px; height: 30px" data-placeholder="Please select protease of interest first" id="ProteasesToConsiderBss" multiple class="chosen-select" name="ProteasesToConsiderBss" disabled="true">
+          <select style="width: 500px; height: 30px" data-placeholder="Please select protease of interest first" id="CompetingProteases" multiple class="chosen-select" name="CompetingProteases" disabled="true">
           </select>
           <p style="color:red;display:none;" id="CompetingProteasesEmptyWarning">Please select at least one competing protease</p>
 
