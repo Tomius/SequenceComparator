@@ -81,24 +81,19 @@ class ProteaseScoreCalculation {
             divisor++;
             let Values_By_Proteases_At_Given_Position = this.MEROPS_Normalised_Values.map(row => row[this.Index_STC[k]][k]);
 
-            let Increment = 0;
-            for (let j = 0; j < this.MEROPS_Proteases_List.length; j++) {
-                if (this.Index_PTC.includes(j)) {
-                    this.Values_By_Protease_And_Position[Increment][k] = +Values_By_Proteases_At_Given_Position[j].toFixed(2);
-                    Increment += 1;
-                }
+            for (let i = 0; i < this.Index_PTC.length; i++) {
+                this.Values_By_Protease_And_Position[i][k] = +Values_By_Proteases_At_Given_Position[this.Index_PTC[i]].toFixed(2);
             }
 
-            for (let j = 0; j < this.MEROPS_Proteases_List.length; j++) {
-                if (this.Index_PTC.includes(j)) {
-                    if (Values_By_Proteases_At_Given_Position[j] > Max_By_Position[k]) {
-                        Max_By_Position[k] = Values_By_Proteases_At_Given_Position[j];
-                        Closest_Protease_By_Position[k] = this.MEROPS_Proteases_List[j];
-                    }
-                    if (Values_By_Proteases_At_Given_Position[j] < Min_By_Position[k]) {
-                        Min_By_Position[k] = Values_By_Proteases_At_Given_Position[j];
-                        Farthest_Protease_By_Position[k] = this.MEROPS_Proteases_List[j];
-                    }
+            for (let i = 0; i < this.Index_PTC.length; i++) {
+                let j = this.Index_PTC[i];
+                if (Values_By_Proteases_At_Given_Position[j] > Max_By_Position[k]) {
+                    Max_By_Position[k] = Values_By_Proteases_At_Given_Position[j];
+                    Closest_Protease_By_Position[k] = this.MEROPS_Proteases_List[j];
+                }
+                if (Values_By_Proteases_At_Given_Position[j] < Min_By_Position[k]) {
+                    Min_By_Position[k] = Values_By_Proteases_At_Given_Position[j];
+                    Farthest_Protease_By_Position[k] = this.MEROPS_Proteases_List[j];
                 }
             }
         }
