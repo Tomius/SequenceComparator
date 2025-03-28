@@ -146,6 +146,12 @@ function onAminoAcidsToExcludeChanged(evt, params) {
     }
 }
 
+function createElementFromHTML(htmlString) {
+  var div = document.createElement('div');
+  div.innerHTML = htmlString.trim();
+  return div;
+}
+
 function searchBestSequence() {
     const proteaseOfInterest = document.getElementById("ProteaseInterest").value;
     if (!proteaseOfInterest) {
@@ -176,12 +182,12 @@ function searchBestSequence() {
     tbl.style.width = '1000px';
     tbl.classList.add("withBorder");
 
-    const rownames = ["Sequence", "Selectivity", "Closest Protease", "Score at the protease of interest"];
+    const rownames = ["Sequence", "Selectivity", "Closest Protease", "S<sub>norma, POI</sub>"];
     for (let i = 0; i < res.length; i++) {
         var tr = tbl.insertRow();
         var td = i == 0 ? document.createElement("th") : tr.insertCell();
         td.classList.add("withBorder");
-        td.appendChild(document.createTextNode(rownames[i]));
+        td.appendChild(createElementFromHTML(rownames[i]));
         if (i == 0) {
             tr.appendChild(td);
         }
@@ -198,7 +204,7 @@ function searchBestSequence() {
     div.appendChild(tbl);
 
     h3 = document.createElement('h3');
-    h3.appendChild(document.createTextNode("Score per amino acid"));
+    h3.appendChild(document.createTextNode("Selectivity per amino acid"));
     div.appendChild(h3);
 
     var tbl = document.createElement('table');
@@ -294,13 +300,13 @@ function searchAllSequences() {
         th.appendChild(document.createTextNode(value));
         tr.appendChild(th);
     })
-    var rownames = ["Sequence", "Score"];
+    var rownames = ["Sequence", "S<sub>norma, POI</sub>"];
     for (let j = 0; j < res.AA_Changed[0].length; j++) {
         for (let i = 0; i < res.AA_Changed.length; i++) {
             var tr = tbl.insertRow();
             var td = tr.insertCell();
             td.classList.add("withBorder");
-            td.appendChild(document.createTextNode(rownames[i]));
+            td.appendChild(createElementFromHTML(rownames[i]));
             for (let k = 0; k < res.AA_Changed[i][j].length; k++) {
                 td = tr.insertCell();
                 td.classList.add("withBorder");
@@ -324,12 +330,12 @@ function searchAllSequences() {
         th.appendChild(document.createTextNode(value));
         tr.appendChild(th);
     })
-    rownames = ["Sequence", "Selectivity", "Closest Protease", "Score at the protease of interest"];
+    rownames = ["Sequence", "Selectivity", "Closest Protease", "S<sub>norma, POI</sub>"];
     for (let i = 0; i < res.Final_Result_LOOP.length; i++) {
         var tr = tbl.insertRow();
         var td = tr.insertCell();
         td.classList.add("withBorder");
-        td.appendChild(document.createTextNode(rownames[i%rownames.length]));
+        td.appendChild(createElementFromHTML(rownames[i%rownames.length]));
         for (let j = 0; j < res.Final_Result_LOOP[i].length; j++) {
             let td = tr.insertCell();
             td.classList.add("withBorder");
@@ -349,12 +355,12 @@ function searchAllSequences() {
         tbl.style.width = '900px';
         tbl.classList.add("withBorder");
 
-        colnames = ["Id", "P4", "P3", "P2", "P1", "P1'", "P2'", "P3'", "P4'", "Score"];
+        colnames = ["Id", "P4", "P3", "P2", "P1", "P1'", "P2'", "P3'", "P4'", "S<sub>seq</sub>"];
         var tr = tbl.insertRow();
         colnames.forEach(value => {
             let th = document.createElement("th");
             th.classList.add("withBorder");
-            th.appendChild(document.createTextNode(value));
+            th.appendChild(createElementFromHTML(value));
             tr.appendChild(th);
         })
         const numRows = limitToFirst200 ? Math.min(res.combinations.length, 200) : res.combinations.length;
@@ -433,13 +439,13 @@ function startPsc() {
         th.appendChild(document.createTextNode(value));
         tr.appendChild(th);
     })
-    const rownames = ["Sequence", "Highest Score", "Closest Protease", "Lowest Score", "Farthest Protease"];
+    const rownames = ["Sequence", "Highest S<sub>norma</sub>", "Closest Protease", "Lowest S<sub>norma</sub>", "Farthest Protease"];
     let rowsToDisplay = proteaseToConsiderPsc.length == 1 ? 1 : psc.Final_Result.length;
     for (let i = 0; i < rowsToDisplay; i++) {
         var tr = tbl.insertRow();
         var td = i == 0 ? document.createElement("th") : tr.insertCell();
         td.classList.add("withBorder");
-        td.appendChild(document.createTextNode(rownames[i]));
+        td.appendChild(createElementFromHTML(rownames[i]));
         if (i == 0) {
             tr.appendChild(td);
         }
