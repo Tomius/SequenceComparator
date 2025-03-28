@@ -36,10 +36,10 @@
             </p>
 
             <p>
-              If you wish to use the “Search Best Sequence” button, you will only need to enter the proteases to consider and the POI for the first attempt (<span style="color:red;">red stars</span>). Then, you can adjust the sequence by excluding Amino Acids (AAs), or by increasing the minimal POI Score.
+              If you wish to use the “Search Best Sequence” button, you will only need to enter the proteases to consider and the POI for the first attempt (<span style="color:red;">red stars</span>). Then, you can adjust the sequence by excluding Amino Acids (AAs), or by increasing the minimal S<sub>norma</sub>.
             </p>
             <p>
-              If you wish to use the “Search All Sequences” button, you will only need to enter the proteases to consider and the POI for the first attempt (<span style="color:red;">red stars</span>). Then, you can adjust the sequence library by excluding Amino Acids (AAs) or by increasing the minimal POI Score or the minimal POI Selectivity.
+              If you wish to use the “Search All Sequences” button, you will only need to enter the proteases to consider and the POI for the first attempt (<span style="color:red;">red stars</span>). Then, you can adjust the sequence library by excluding Amino Acids (AAs) or by increasing the minimal S<sub>norma</sub> or the minimal POI Selectivity.
             </p>
           </i></span>
 
@@ -53,7 +53,7 @@
             </summary>
             <span class="extra-info">
               <p>
-                Here, you may select the target protease of your calculation. Its MEROPS values will be compared to Competing Proteases (see below), and the selectivity will be calculated from the comparison.
+                Here, you may select the target protease of your calculation. Its S<sub>norma</sub> will be compared to Competing Proteases (see below), and the selectivity will be calculated from the comparison.
               </p>
 
               <p>
@@ -131,7 +131,7 @@
 
           <details>
             <summary>
-              <h3>Minimal POI Score
+              <h3>Minimal S<sub>norma, POI</sub>
                 <small>range: [0,100]</small>
                 <span class="info">
                   <i class="icon-info-sign"></i>
@@ -139,7 +139,7 @@
               </h3>
             </summary>
             <span class="extra-info">
-              Here, you may select the minimal MEROPS Score for your protease of interest. The MEROPS Score is a value describing the percentage of cleavages bearing a given amino acid at a given position, for any given protease. On the MEROPS website, the values are arranged in a table named “Specificity matrix”. The higher the POI Score, the higher the efficiency of the whole sequence, but the lower the selectivity.
+              Here, you may select the minimal S<sub>norma</sub> for your protease of interest. The S<sub>norma</sub> is a value describing the percentage of cleavages bearing a given amino acid at a given position, for any given protease. On the MEROPS website, values are arranged in a table named “Specificity matrix”. These values are divided by the number or cleavage occurrences to give S<sub>norma</sub>. The higher the S<sub>norma, POI</sub>, the higher the efficiency of the whole sequence, but beware of the impact of such modifications on the calculations, such as selectivity decrease.
             </span>
           </details>
           <input type="number" step="1" id="minPoiScore" />
@@ -170,12 +170,8 @@
                   <span class="extra-info">
                     Outputs 2 tables:
                     <ul>
-                      <li>Best Sequence table: the sequence with the highest selectivity for each
-                      position, giving the most selective sequence of the model; The selectivity
-                      value for each AA of the sequence; the protease with the highest MEROPS
-                      score for the selected AAs; the POI Score of the selected AAs.</li>
-                      <li>Selectivity for each AAs at each position. The highest value is given in the
-                      Best Sequence table.</li>
+                      <li>Best Sequence table: the sequence with the highest selectivity for each position, therefore the most selective sequence of the model; The selectivity value for each AA of the sequence; the protease with the highest S<sub>norma</sub> for the selected AAs; the S<sub>norma, POI</sub> of the selected AAs.</li>
+                      <li>Selectivity for each AAs at each position. The highest value is given in the Best Sequence table.</li>
                     </ul>
                   </span>
                 </details>
@@ -191,12 +187,9 @@
                   <span class="extra-info">
                     Outputs 3 tables:
                     <ul>
-                      <li>Summary of results: Table with every AAs involved in the library creation at
-each position, with the POI Score.</li>
-                      <li>Detailed results: “Best Sequence table” (See “Search Best Sequence” Info)
-calculated with increasing minimal POI Score and concatenated.</li>
-                      <li>Possible combinations: Library of sequences ranged by their increasing mean
-POI score.</li>
+                      <li>Summary of results: Table with every AAs involved in the library creation at each position, with the S<sub>norma, POI</sub>.</li>
+                      <li>Detailed results: “Best Sequence table” (See “Search Best Sequence” Info) calculated with increasing minimal S<sub>norma, POI</sub> and concatenated.</li>
+                      <li>Possible combinations: Library of sequences ranged by their increasing S<sub>seq</sub>.</li>
                     </ul>
                   </span>
                 </details>
@@ -208,7 +201,7 @@ POI score.</li>
       <td style="width: 700px; vertical-align:top">
         <h2>Protease Score Calculation </h2>
         <span class="extra-info"><i>
-          This part of the software is designed to calculate mean MEROPS Score of sequences for every protease in the medium. This part can be useful to determine the proteases with the highest efficiency and use them as selectivity controls in the experimental procedures. Click on the Info buttons to be guided in the utilization of each parameter.
+          This part of the software is designed to calculate S<sub>seq</sub> of sequences for every protease in the medium. This part can be useful to determine the proteases with the highest efficiency and use them as selectivity controls in the experimental procedures. Click on the Info buttons to be guided in the utilization of each parameter.
         </i></span>
 
         <details>
