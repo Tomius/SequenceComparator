@@ -73,7 +73,7 @@ class BestSequenceSearch {
         this.Index_POI = this.MEROPS_Proteases_List.indexOf(POI);
     }
 
-    The_Calculation(PTC, POI, MinScore, MinSelec, AAExclude) {
+    The_Calculation(PTC, POI, MinScore, AAExclude) {
         this.Indexation(PTC, POI);
 
         this.IndexAAExclude = AAExclude.map(aa => this.MEROPS_All_AA.indexOf(aa));
@@ -105,13 +105,11 @@ class BestSequenceSearch {
                         ? +(Values_By_AA[this.Index_POI][i] * 100 / Max_By_AA[i]).toFixed(2)
                         : 0;
 
-                    if (this.Ratio_By_AA_And_Position[i][k] > MinSelec) {
-                        if (this.Ratio_By_AA_And_Position[i][k] > Max_By_Position[k]) {
-                            Max_By_Position[k] = this.Ratio_By_AA_And_Position[i][k];
-                            AA_By_Position[k] = this.MEROPS_All_AA[i];
-                            Closest_Protease_by_Position[k] = Closest_Protease_By_AA;
-                            Value_At_The_Protease_Of_Interest[k] = Values_By_AA[this.Index_POI][i];
-                        }
+                    if (this.Ratio_By_AA_And_Position[i][k] > Max_By_Position[k]) {
+                        Max_By_Position[k] = this.Ratio_By_AA_And_Position[i][k];
+                        AA_By_Position[k] = this.MEROPS_All_AA[i];
+                        Closest_Protease_by_Position[k] = Closest_Protease_By_AA;
+                        Value_At_The_Protease_Of_Interest[k] = Values_By_AA[this.Index_POI][i];
                     }
                 }
             }
@@ -125,15 +123,15 @@ class BestSequenceSearch {
         return this.Final_Result;
     }
 
-    Multiple_Calculations(PTC, POI, inputMinScore, inputMinSelec, AAExclude) {
-        this.Final_Result_LOOP = this.The_Calculation(PTC, POI, inputMinScore, inputMinSelec, AAExclude);
+    Multiple_Calculations(PTC, POI, inputMinScore, AAExclude) {
+        this.Final_Result_LOOP = this.The_Calculation(PTC, POI, inputMinScore, AAExclude);
 
         let AA_Changed = Array.from({ length: 2 }, () => Array(1).fill(Array(8).fill('')));
         AA_Changed[0][0] = this.Final_Result_LOOP[0];
         AA_Changed[1][0] = this.Final_Result_LOOP[3];
 
         for (let MinScore = inputMinScore; MinScore < this.MaxNormalisedScore; MinScore++) {
-            this.The_Calculation(PTC, POI, MinScore, inputMinSelec, AAExclude);
+            this.The_Calculation(PTC, POI, MinScore, AAExclude);
 
             if (this.Final_Result[1].some(val => val != 0.0)) {
                 if (this.Final_Result[0].some((val, i) => val !== this.Final_Result_LOOP[this.Final_Result_LOOP.length - 4][i])) {

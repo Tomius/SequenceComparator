@@ -166,10 +166,7 @@ function searchBestSequence() {
     if (finalMinScore == '') 
        finalMinScore = 0;
            
-    finalMinSelec = document.getElementById("minPoiSelectivity").value;
-    if (finalMinSelec == '')
-       finalMinSelec = 0;
-    const res = bss.The_Calculation(competingProteasesList.concat([proteaseOfInterest]), proteaseOfInterest, finalMinScore, finalMinSelec, aminoAcidsToExclude);
+    const res = bss.The_Calculation(competingProteasesList.concat([proteaseOfInterest]), proteaseOfInterest, finalMinScore, aminoAcidsToExclude);
     
     document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
     
@@ -251,14 +248,10 @@ function searchAllSequences() {
     finalMinScore = document.getElementById("minPoiScore").value;
     if (finalMinScore == '') 
        finalMinScore = 0;
-           
-    finalMinSelec = document.getElementById("minPoiSelectivity").value;
-    if (finalMinSelec == '')
-       finalMinSelec = 0;
 
     document.getElementById("searchResults").innerHTML = "<hr/><h2>Results<h2>";
 
-    const res = bss.Multiple_Calculations(competingProteasesList.concat([proteaseOfInterest]), proteaseOfInterest, finalMinScore, finalMinSelec, aminoAcidsToExclude);
+    const res = bss.Multiple_Calculations(competingProteasesList.concat([proteaseOfInterest]), proteaseOfInterest, finalMinScore, aminoAcidsToExclude);
     var div = document.createElement('div');
 
     if (res.combinations.length > 200) {
